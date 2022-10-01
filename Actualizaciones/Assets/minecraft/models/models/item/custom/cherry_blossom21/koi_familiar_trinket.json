@@ -1,0 +1,19 @@
+{
+	"credit": "Made with Blockbench by yungwilder",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/cherry_blossom21/koi_familiar_trinket"
+	},
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [0, -45, 0],
+			"translation": [1.25, 3, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -45, 0],
+			"translation": [1.25, 3, 0],
+			"scale": [0.4, 0.4, 0.4]
+		}
+	}
+}

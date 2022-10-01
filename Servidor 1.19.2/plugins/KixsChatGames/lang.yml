@@ -1,0 +1,93 @@
+# Core messages sent by the plugin can be modified here.
+
+# All lang entries support colorcodes (&[colorcode]) and hex values with "&#hexvalue" if you're running MC 1.16 or above. Easily find hex values with Google's color picker tool: https://www.google.com/search?q=color+picker
+
+# You can set ANY lang strings to "" to disable them.
+# To insert line breaks, you can use '{NL}'
+# To center a message, start it with '{CTR}'
+# To send a completely blank message, set it to '{BLANK}'
+
+messages:
+
+  core:
+    # Sent before/after each game start/end message.
+    game-header: "{BLANK}"
+    game-footer: "{BLANK}"
+
+    toggled-off: "&7Has desactivado los juegos de chat para ti"
+    toggled-on: "&7Has activado los juegos de chat para ti"
+
+    sounds-toggled-off: "&7No vas a escuchar los juegos de chat"
+    sounds-toggled-on: "&7Vas a escuchar los juegos de chat"
+
+  leaderboard:
+    header: "&m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m {NL}   &d&lJUEGOS DE CHAT{NL}"
+    entry: "  &b%PLACE%. &f%NAME%&7 &8&l- &6☆&e&l%WINS%"
+    no-data: "&8?"
+    totals: "{NL}&7Has ganado &6☆&e&l%WINS% &7{game|games}{NL}&7Totales: &6☆&e&l%SERVER_TOTAL_WINS% &7{win|wins}{NL}&m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m &m "
+    win: "victoria"
+    wins: "victorias"
+    game: "partida"
+    games: "partidas"
+
+  game-start:
+    game-force-started: "{CTR}{NL}&7&oMinijuego empezado por &a&o%PLAYER_DISPLAYNAME%"
+    # --------------
+    # Placeholders:
+    # --------------
+    # %GAME_CONTENT%: the word(s)/random string/equation/etc. of the game
+    unscramble: "{CTR}&f› &c&lC&6&lH&e&lA&a&lT &f‹{NL}{NL}{CTR}&7El primero en &bdescifrar &8'&f%GAME_CONTENT%&8' &7gana!"
+    type: "{CTR}&f› &c&lC&6&lH&e&lA&a&lT &f‹{NL}{NL}{CTR}&7El primero en &aescribir &8'&f%GAME_CONTENT%&8' &7gana!"
+    solve: "{CTR}&f› &c&lC&6&lH&e&lA&a&lT &f‹{NL}{NL}{CTR}&7El primero en &9resolver &8'&f%GAME_CONTENT%&8' &7gana!"
+    type-random: "{CTR}&f› &c&lC&6&lH&e&lA&a&lT &f‹{NL}{NL}{CTR}&7El primero en &aescribir &8'&f%GAME_CONTENT%&8' &7gana!"
+    trivia: "{CTR}&f› &c&lC&6&lH&e&lA&a&lT &f‹{NL}{NL}{CTR}%GAME_CONTENT%"
+    fill-in: "{CTR}&f› &c&lC&6&lH&e&lA&a&lT &f‹{NL}{NL}{CTR}&7El primero en &6rellenar &8'&f%GAME_CONTENT%&8' &7gana!{NL}&7&o(asegurate de escribir solo las letras que faltan)"
+    word-unshuffle: "{CTR}&f› &c&lC&6&lH&e&lA&a&lT &f‹{NL}{NL}{CTR}&7El primero en &cordenar &8'&f%GAME_CONTENT%&8' &7gana!"
+    reverse-word-unshuffle: "{CTR}&f› &c&lC&6&lH&e&lA&a&lT &f‹{NL}{NL}{CTR}&7El primero en &cordenar &8'&f%GAME_CONTENT%&8' &7gana!"
+    unreverse: "{CTR}&f› &c&lC&6&lH&e&lA&a&lT &f‹{NL}{NL}{CTR}&7El primero en &describir la palabra &8'&f%GAME_CONTENT%&8' &7del reves gana!"
+
+  game-end:
+    game-force-started-during-another-game: "{CTR}{NL}&cLa partida a terminado porque ha empezado otra."
+    # --------------
+    # Placeholders:
+    # --------------
+    # %PLAYER%: the username of the winner of the game
+    # %PLAYER_DISPLAYNAME%: the display name of the winner of the game
+    # %TIME%: the amount of it took to win
+    # %ANSWER%: the answer to the game
+    # %GAME_CONTENT%: the word/random string/equation/etc. of the game
+    # (fill-in only) %UNBLANKED_WORDS%: the unblanked out game-library entry
+    winner:
+      unscramble: "{CTR}&d%PLAYER_DISPLAYNAME% &7descifrado &8'&b%ANSWER%&8' &7en &d%TIME% &7segundos! &8(&6☆&e&l%WINS%&8)"
+      type: "{CTR}&d%PLAYER_DISPLAYNAME% &7escrito &8'&b%ANSWER%&8' &7en &d%TIME% &7segundos! &8(&6☆&e&l%WINS%&8)"
+      solve: "{CTR}&d%PLAYER_DISPLAYNAME% &7resuelto &b%GAME_CONTENT% &8(&b%ANSWER%&8) &7en &d%TIME% &7segundos! &8(&6☆&e&l%WINS%&8)"
+      type-random: "{CTR}&d%PLAYER_DISPLAYNAME% &7escrito &8'&b%ANSWER%&8' &7en &d%TIME% &7segundos! &8(&6☆&e&l%WINS%&8)"
+      trivia: "{CTR}&d%PLAYER_DISPLAYNAME% &7respondido &8'&b%ANSWER%&8' &7en &d%TIME% &7segundos! &8(&6☆&e&l%WINS%&8)"
+      fill-in: "{CTR}&d%PLAYER_DISPLAYNAME% &7rellenado &8'&b%ANSWER%&8' &7para completar &8'&b%UNBLANKED_WORDS%&8' &7en &d%TIME% &7segundos! &8(&6☆&e&l%WINS%&8)"
+      word-unshuffle: "{CTR}&d%PLAYER_DISPLAYNAME% &7puesto &8'&b%ANSWER%&8' &7en orden en &d%TIME% &7segundos! &8(&6☆&e&l%WINS%&8)"
+      reverse-word-unshuffle: "{CTR}&d%PLAYER_DISPLAYNAME% &7ha escrito &8'&b%ANSWER%&8' &7en &d%TIME% &7segundos! &8(&6☆&e&l%WINS%&8)"
+      unreverse: "{CTR}&d%PLAYER_DISPLAYNAME% &7ha escrito &8'&b%ANSWER%&8' &7en &d%TIME% &7segundos! &8(&6☆&e&l%WINS%&8)"
+      wins: "{CTR}&7Has ganado &e&l%WINS% &7{game|games} &8(&7Totales: &e&l%SERVER_TOTAL_WINS%&8){NL}"
+
+    nobody-won:
+      # --------------
+      # Placeholders:
+      # --------------
+      # %TIME%: the amount of it took for the game to expire
+      # %ANSWER%: the answer to the game
+      # %GAME_CONTENT%: the word(s)/random string/equation/etc. of the game
+      # (fill-in only) %UNBLANKED_WORDS%: the unblanked out game-library entry
+      # Most games can use the generic reply and making sense, so you can use "{GENERIC}" to set any entries to mirror the text in generic:
+      generic: "{CTR}&7Nadie ha encontrado la respuesta, la respuesta era &8'&b%ANSWER%&8'&7!"
+      unscramble: "{GENERIC}"
+      type: "{CTR}&7Nadie ha sido lo suficientemente rapido; suerte a la proxima!"
+      solve: "{GENERIC}"
+      type-random: "{CTR}&7Nadie ha sido lo suficientemente rapido; suerte a la proxima!"
+      trivia: "{GENERIC}"
+      fill-in: "{CTR}&7Nadie ha encontrado la respuesta, la respuesta era &8'&b%ANSWER%&8'&7! (para completar &8'&b%UNBLANKED_WORDS%&8'&7)"
+      word-unshuffle: "{GENERIC}"
+      reverse-word-unshuffle: "{GENERIC}"
+      unreverse: "{GENERIC}"
+
+  misc:
+    incorrect-case: "{CTR}{NL}&c&oCasi casi! Tienes que hacer coincidir las mayúsculas!{NL}"

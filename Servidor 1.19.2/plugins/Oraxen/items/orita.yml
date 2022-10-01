@@ -1,0 +1,120 @@
+# Material list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# EntityType list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+# Attribute list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/attribute/Attribute.html
+# Potion effects list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+# Random UUID generator: https://www.uuidgenerator.net/
+# Color codes: https://docs.adventure.kyori.net/minimessage.html#format
+
+orita:
+  displayname: "<gradient:#FA7CBB:#FFCC00>Orita"
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/orita_shard.png # .png extension is not mandatory
+
+orita_helmet:
+  displayname: "<gradient:#FA7CBB:#FFCC00>Casco de Orita"
+  material: LEATHER_HELMET
+  color: 255, 204, 0
+  Mechanics:
+    durability:
+      value: 700 # 50% more than diamond helmet
+  AttributeModifiers:
+    - { name: "oraxen", attribute: GENERIC_ARMOR, amount: 3, operation: 0,
+        uuid: 2fa97f3d-5a91-4e64-a804-0d7674b2e4e0, slot: HEAD }
+    - { name: "oraxen", attribute: GENERIC_ARMOR_TOUGHNESS, amount: 2, operation: 0,
+        uuid: 2fa97f3d-5a91-4e64-a804-0d7674b2e4e0, slot: HEAD }
+  Pack:
+    custom_model_data: 4
+    generate_model: true
+    parent_model: "item/generated"
+    textures: # duplicate because we use the overlay of the leather armor
+      - default/armors/orita_helmet
+      - default/armors/orita_helmet
+
+orita_chestplate:
+  displayname: "<gradient:#FA7CBB:#FFCC00>Pechera de Orita"
+  material: LEATHER_CHESTPLATE
+  color: 255, 204, 0
+  Mechanics:
+    durability:
+      value: 900
+  AttributeModifiers:
+    - { name: "oraxen", attribute: GENERIC_ARMOR, amount: 8, operation: 0,
+        uuid: 625d33ca-5f74-43a7-9907-fbdb7289c416, slot: CHEST }
+    - { name: "oraxen", attribute: GENERIC_ARMOR_TOUGHNESS, amount: 2, operation: 0,
+        uuid: 625d33ca-5f74-43a7-9907-fbdb7289c416, slot: CHEST }
+  Pack:
+    custom_model_data: 4
+    generate_model: true
+    parent_model: "item/generated"
+    textures: # duplicate because we use the overlay of the leather armor
+      - default/armors/orita_chestplate
+      - default/armors/orita_chestplate
+
+orita_leggings:
+  displayname: "<gradient:#FA7CBB:#FFCC00>Pantalones de Orita"
+  material: LEATHER_LEGGINGS
+  color: 255, 204, 0
+  Mechanics:
+    durability:
+      value: 820
+  AttributeModifiers:
+    - { name: "oraxen", attribute: GENERIC_ARMOR, amount: 6, operation: 0,
+        uuid: b6f82c9d-e501-4154-bd88-6b80e3bce997, slot: LEGS }
+    - { name: "oraxen", attribute: GENERIC_ARMOR_TOUGHNESS, amount: 2, operation: 0,
+        uuid: b6f82c9d-e501-4154-bd88-6b80e3bce997, slot: LEGS }
+  Pack:
+    custom_model_data: 4
+    generate_model: true
+    parent_model: "item/generated"
+    textures: # duplicate because we use the overlay of the leather armor
+      - default/armors/orita_leggings
+      - default/armors/orita_leggings
+
+orita_boots:
+  displayname: "<gradient:#FA7CBB:#FFCC00>Botas de Orita"
+  material: LEATHER_BOOTS
+  color: 255, 204, 0
+  Mechanics:
+    durability:
+      value: 800
+  AttributeModifiers:
+    - { name: "oraxen", attribute: GENERIC_ARMOR, amount: 3, operation: 0,
+        uuid: b5285e83-06d9-4d63-a034-c389e56b595d, slot: FEET }
+    - { name: "oraxen", attribute: GENERIC_ARMOR_TOUGHNESS, amount: 2, operation: 0,
+        uuid: b5285e83-06d9-4d63-a034-c389e56b595d, slot: FEET }
+  Pack:
+    custom_model_data: 4
+    generate_model: true
+    parent_model: "item/generated"
+    textures: # duplicate because we use the overlay of the leather armor
+      - default/armors/orita_boots
+      - default/armors/orita_boots
+
+orita_ore:
+  displayname: '<#6f737d>Mena de Orita'
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: block/cube_all
+    textures:
+      - default/orita_ore
+  Mechanics:
+    noteblock:
+      break_sound: block.stone.break
+      place_sound: block.stone.place
+      custom_variation: 3
+      model: orita_ore
+      hardness: 20
+      drop:
+        silktouch: true
+        fortune: true
+        minimal_type: NETHERITE
+        best_tools:
+          - PICKAXE
+        loots:
+          - oraxen_item: orita
+            probability: 1.0

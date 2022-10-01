@@ -1,0 +1,8 @@
+uuid: f5ba4d2d-d0c9-370b-9ffb-f48a751278ee
+name: JordirojoYT31
+primary-group: helper
+permissions:
+- mcpets.nutria
+- mcpets.titi
+parents:
+- helper

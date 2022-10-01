@@ -1,0 +1,387 @@
+general-prefix: '&dStaff++ &8»'
+warnings-prefix: '&dFigyelmeztetések &8»'
+tickets-prefix: '&dJegyek &8»'
+trace-prefix: '&dTrace &8»'
+protect-prefix: '&dProtected &8»'
+investigations-prefix: '&dInvestigations &8»'
+separator-color: '&b'
+staff-list-start: '&7%longline%'
+staff-list-member: '&b%player% &%statuscolor%•'
+staff-list-end: '&7%longline%'
+revived-staff: '&bVisszaállítottad &7%target% &beszköztárát a korábbi állapotába!'
+revived-user: '&bAz eszköztárad a korábbi állapotára lett beállítva!'
+command-blocked: '&bEz a parancs blokkolja a személyzetet!'
+mode-command-blocked: '&bEz a parancs személyzet üzemmódban blokkolódik!'
+on-cooldown: '&bEzt nem használhatja &7%seconds% &bmásodpercig.'
+note-added: '&bMegjegyzés hozzáadva a következőhöz: &7%target%&b.'
+note-cleared: '&bMegjegyzések törölve &7%target%&b.'
+note-deleted: '&bYou deleted note for &7%target%&b with id &6%noteId%&b.'
+note-list-start: '&7%longline%'
+note-list-entry: '&b%count% &7%note%'
+note-list-entry-private: '&b%count% &1[&CP&1] &7%note%'
+note-list-end: '&7%longline%'
+notes:
+  staff-notification-created: '&4%notedBy% &6has created a note for player &4%target%&6:
+    [&7%note%&6]'
+  prefix: '&dNotes &8»'
+player-not-registered: This player does not exist
+login-register: '&bMivel személyzet vagy, be kell regisztrálnia a jelszavát, hogy
+  megóvja fiókját a hackeléstől. Használat &7/register &ba regisztráláshoz.'
+login-registered: '&bJelszó elfogadva! A bejelentkezéskor minden jelszóval fel kell
+  kérni.'
+login-waiting: '&bLe vagy fagyasztva! Kérjük, adja meg a személyzet jelszavát a folytatáshoz.'
+login-accepted: '&bBejelentkezve.'
+passwords-dont-match: '&bA jelszavak nem egyeznek'
+no-permission: '&cNincs jogod ennek a használatára!'
+bypassed: '&cEz a játékos megkerülte ezt a parancsot!'
+player-offline: '&cEz a játékos offline állapotban van!'
+unknown-command: '&cIsmeretlen parancs.'
+invalid-arguments: '&cÉrvénytelen argumentumok! (%usage%)'
+only-players: '&bCsak a játékosok engedélyezhetik a parancs végrehajtását!'
+no-found: '&bNINCS TALÁLAT!'
+type-input: '&bÍrja be a bevitelt a csevegésben!'
+input-accepted: '&bBevitel elfogadva és benyújtva.'
+enabled: omogućeno
+disabled: onemogućeno
+chatchannels:
+  joined: '&C%player% &6joined the channel'
+  closed: '&6This channel has been closed'
+  left: '&C%player% &6left the channel'
+reports:
+  prefix: '&dJelentések &8»'
+  reporter:
+    report-created: '&bJelentve &7%culprit% &boka &7%reason%&b.'
+    report-player-created: '&bJelentve &7%culprit% &boka &7%reason%&b.'
+    report-rejected: '&7Your report has been rejected by &6%staff%&7.'
+    report-resolved: '&7Your report has been resolved by &6%staff%&7.'
+    report-accepted: '&7Your report has been accepted by &6%staff%&7.'
+    view-reports-button: '&9View your reports!'
+    view-reports-button-tooltip: Click to view your reports
+  report-created-notification: '&7%culprit% &bjátékos jelentve &7%reporter% &báltal,
+    oka &7%reason%&b.'
+  report-player-created-notification: '&7%reporter% &bhas reported %culprit% for &7%reason%&b.'
+  report-reopened-notification: '&b%staff% &7reopened report from &6%reporter%'
+  report-deleted-notification: '&b%staff% &7deleted report from &6%reporter%'
+  reports-cleared: '&bJelentések törölve &7%culprit%&b-tól/-től!'
+  reports-list-start: '&7%longline%, &7%target% &bvan &7%reports% &bjelentése.'
+  reports-list-entry: '&b%count%: &7%reason% (%reporter%)'
+  reports-list-end: '&7%longline%'
+  report-accepted-notification: '&b%staff% &7has accepted report from &6%reporter%'
+  report-closed-notification: '&6%staff% &fchanged report status to &6%status% &fReporter:
+    &6%reporter%'
+  resolve-confirmation-question: |
+    &1===================================================
+    &6       You have chosen to resolve this report"
+    &6Type your closing reason in chat to resolve the report
+    &6      Type "cancel" to cancel closing the report
+    &1===================================================
+  resolve-cancelled: '&CYou have cancelled resolving this report'
+  reject-confirmation-question: |
+    &1==================================================
+    &6        You have chosen to reject this report
+    &6Type your closing reason in chat to reject the report
+    &6        Type "cancel" to cancel closing the report
+    &1==================================================
+  reject-cancelled: '&CYou have cancelled rejecting this report'
+  status:
+    RESOLVED: RESOLVED
+    REJECTED: REJECTED
+    OPEN: OPEN
+    IN_PROGRESS: IN_PROGRESS
+  chatchannel:
+    prefix: '&4&L[&C&LReport %channelId%&4&L]'
+    chatline: '&7%sender% &7> &f%message%'
+    openingmessage: |
+      &6You are in direct contact with a staffmember
+      &6Type "/rc %channelId% <message>" to send messages on this channel
+warned: '&bFigyelmeztetve &7%target% &bjátékos, oka &7%reason%&b.'
+warn: '&bFigyelmeztetve lettél, oka &7%reason%&b.'
+warnings-cleared: '&bFigyelmeztetések törölve &7%target%&b-tól/-től!'
+warnings-list-start: '&7%longline%, &7%target% &bvan &7%warnings% &bfigyelmeztetése.'
+warnings-list-entry: '&b%count%: &7%reason% (%issuer%)'
+warnings-list-end: '&7%longline%'
+warnings-notify: You have %warningsCount% new warnings!
+warned-announcement: '&7%issuer% &bhas warned &7%target% &bfor &7%reason%&b.'
+infraction-item: '&bFigyelmeztetések: &7%warnings%, &bJelentések: &7%reports%, &bJelentés
+  oka: &7%reason%'
+staff-chat-status: '&bStaff chat &7%status%&b.'
+staff-chat-muted: '&bStaff Chat has been &7muted&b.'
+staff-chat-unmuted: '&bStaff Chat has been &7unmuted&b.'
+staff-chat-sound-enabled: '&bStaff Chat notification sound &7enabled&b.'
+staff-chat-sound-disabled: '&bStaff Chat notification sound &7disabled&b.'
+chat-clear-line: ''
+chat-cleared: '&bA chat törölve &7%player%&b által.'
+chat-toggled: '&bA chat &7%status% &bvolt &7%player%&b által.'
+chat-prevented: '&bMost nem lehet beszélgetni!'
+chat-slowed: '&bA csevegést lassította &7%seconds% másodpercre &7%player%&b.'
+chatting-fast: '&bTúl gyorsan beszélgetsz!'
+blacklist-hover: '&bEzt az üzenetet cenzúrázta &7%censoredlist%&b.'
+blacklist-censor-color: ''
+blacklist-chat-format: '&7%player% &8» &7%message%'
+total-vanish: '&bA teljes eltűnt &7%status%&b!'
+list-vanish: '&bA listája eltűnt &7%status%&b!'
+player-vanish: '&bYour player vanish has been &7%status%&b!'
+vanish-enabled: '&2Vanish enabled'
+vanish-chat-prevented: '&bYou are not allowed to chat right now!'
+vanish-join-message: '&e%player% joined the game'
+vanish-leave-message: '&e%player% left the game'
+ticket-submitted: '&bA jegyet elküldték! &7(#%ticket%)'
+ticket-opened: '&bA jegy &7#%ticket% &báltalad megjelöltek!'
+ticket-removed: '&bA jegy &7#%ticket% &bmár megjelölve feloldva! (%reason%)'
+ticket-response-staff: '&b#%ticket% - Staff: &7%player% &8» &7%message%'
+ticket-response-user: '&b#%ticket% - Felhasználó: &7%player% &8» &7%message%'
+ticket: '&b#%ticket%: &7%player% &8» &7%message%'
+ticket-not-found: '&bA jegy nem létezik, vagy zárt!'
+ticket-list-start: '&7%longline%, &7%tickets% &bnyitott jegyek'
+ticket-list-entry: '&b#%ticket% - %target%: &7%message%'
+ticket-list-end: '&7%longline%'
+alert-changed: '&7%alerttype% &bfigyelmeztetések &7%status%&b.'
+alerts-name: '&7%old% &bmegváltoztatta a nevét &7%new%&b!'
+alerts-chat-phrase-detected: '&7%target% &bhas placed a message in chat containing
+  the words (&7%detectedPhrases%&b)'
+alerts-command-detected: '&7%target% &bhas tried executing the command (&7%command%&b)'
+alerts-mention: '&7%target% &bmegemlítette a nevét a csevegésben!'
+alerts-xray: '&7%target% &bbányászott &7%count% %itemtype%&b! &7(%lightlevel%&7)'
+alerts-blacklist: '&c[SWEAR] &7[%server%] &6%player%&7: %uncensored-message%'
+mode-status: '&bSzemélyzeti mód &7%status%&b.'
+mode-original-location: '&bElteleportált az eredeti helyre!'
+mode-random-teleport: '&bVéletlenszerűen teleportált!'
+mode-not-enough-players: '&bNem elég játékos van online a véletlenszerű teleportáláshoz!'
+mode-fly-enabled: '&3Flight is now &6on'
+mode-fly-disabled: '&3Flight is now &6off'
+gui-reports: '&bJelentések'
+gui-mine: '&bBányászok'
+gui-miner: '&b%player% @ &7%locationy%'
+gui-counted: '&b%player%'
+freeze: '&4&lA személyzet befagyasztotta a személyzetet NEM jelentkezett ki!, &4&lKérjük,
+  csatlakozzon a TeamSpeak @ shortninja.net'
+unfrozen: '&bFagyott voltál.'
+staff-froze: '&7%target%&b megfagyasztva.'
+staff-unfroze: '&7%target%&b visszafagyasztva.'
+freeze-logout: '&7%player% &bnaplózott, fagyasztva!'
+freeze-title: '&6You have been frozen.'
+freeze-subtitle: Do not log out!
+freeze-chat-prevented: '&bYou are not allowed to chat right now!'
+freeze-chatchannel:
+  prefix: '&4&L[&b&LFrozen chat&4&L]'
+  chatline: '&7%sender% &7> &f%message%'
+  openingmessage: |
+    &6You are in direct contact with a staffmember
+    &6Type "/fc <message>" to send messages on this channel
+cps-start: '&bA CPS teszt futása &7%target% &7%seconds% &bmásodperc múlva...'
+cps-finish-normal: '&7%player% &bvan körülbelül &7%cps% &bCPS. &7(valószínűleg nem
+  veszélyes)'
+cps-finish-max: '&7%player% &bvan körülbelül &7%cps% &bCPS. &7(potenciálisan automatikus
+  kattintás)'
+examine-food: '&bÉleterő: &7%health%, &bÉhség: &7%hunger%'
+examine-ip: '&bIP cím: &7%ipaddress%'
+examine-gamemode: '&bJátékmód: &7%gamemode%'
+examine-location: '&bHely: &7%location%'
+examine-warn: '&bVigyázzon erre a felhasználóra'
+examine-freeze: '&bFagyassza le ezt a felhasználót'
+examine-notes: '&bA játékos megjegyzi:'
+examine-notes-note: '&b%player%: &7%note%'
+follow: '&bMost vagy &7%status% %target%&b.'
+strip: '&7%player% páncélját eltávolították!'
+ban-permabanned: '&6%target% has been permanently banned from the server by %issuer%'
+ban-tempbanned: '&6%target% has been banned from the server by %issuer% for %duration%'
+ban-unbanned: '&6%target% has been unbanned from the server by %issuer%'
+ban-extended: '&7You have extended &6%target%&7''s ban by %extensionDuration%'
+ban-reduced: '&7You have reduced &6%target%&7''s ban by %reductionDuration%'
+ban-tempbanned-kick: '[Banned] You have been temporarily banned from this server.
+  Ban ends in: %duration%'
+ban-permabanned-kick: '[Banned] You have been permanently banned from this server'
+ban-appeal-open-notify: There are %appealsCount% unresolved appealed bans!
+ipbans:
+  prefix: '&dBans &8»'
+  permabanned: '&6%issuer% has banned ip-address %ip% from the server'
+  tempbanned: '&6%issuer% has banned ip-address %ip% from the server for %duration%'
+  unbanned: '&6%issuer% has unbanned ip-address %ip%  from the server'
+  tempbanned-kick: '[Banned] Your ip-address has been temporarily banned from this
+    server'
+  permabanned-kick: '[Banned] Your ip-address has been permanently banned from this
+    server'
+kick-notifyplayers: '&6%target% has been kicked from the server by %issuer%'
+kick-kickmessage: '&6You have been kicked from the server by %issuer%. Reason: %reason%'
+mute-expired: '&6Your mute has expired. You can now chat again.'
+mute-permamuted: '&6%target% has been muted by %issuer%'
+mute-unmuted: '&6%target% has been unmuted by %issuer%'
+mute-tempmuted: '&6%target% has been muted by %issuer% for %duration%'
+mute-muted: '&6You are currently muted. You are not allowed to chat.'
+mute-extended: '&7You have extended &6%target%&7''s mute by %extensionDuration%'
+mute-reduced: '&7You have reduced &6%target%&7''s mute by %reductionDuration%'
+mute-appeal-open-notify: There are %appealsCount% unresolved appealed mutes!
+mute-notify: You are currently muted!
+appeal-created: '&6Appeal has been submitted.'
+appeal-approved: '&6Your appeal has been &2approved&6.'
+appeal-rejected: '&6Your appeal has been &4rejected&6.'
+appeal-approve: '&6Appeal approved'
+appeal-reject: '&6Appeal rejected'
+appeal-open-notify: There are %appealsCount% unresolved appealed warnings!
+investigated:
+  investigation-started: '&6You are currently under investigation'
+  investigation-paused: '&6The investigation has been paused'
+  investigation-concluded: '&6The investigation on you has been concluded'
+  under-investigation-title: '&CYou are under investigation'
+  under-investigation-join: '&6You are under currently being investigated'
+investigation:
+  staff-notification-started: '&4%investigator% &6has started investigating &4%investigated%'
+  staff-notification-concluded: '&4%investigator% &6has concluded the investigation
+    on &4%investigated%'
+  staff-notification-paused: '&4%investigator% &6has paused investigating &4%investigated%'
+  staff-notification-evidence-linked: '&4%investigator% &6has linked evidence %evidenceType%
+    (ID=%evidenceId%) to investigation (ID=%investigationId%)'
+  staff-notification-evidence-unlinked: '&4%investigator% &6has unlinked evidence
+    %evidenceType% (ID=%evidenceId%) from investigation (ID=%investigationId%)'
+  staff-notification-note-added: '&4%investigator% &6has added note to investigation
+    (ID=%investigationId%)'
+  staff-notification-note-deleted: '&4%investigator% &6has removed note from investigation
+    (ID=%investigationId%)'
+ips:
+  staff-notifications:
+    history-cleared: '&4%issuer% &7cleared all ip history for &6%player%'
+  prefix: '&dIPs &8»'
+  issuer:
+    history-cleared: '&7Ip history cleared for &6%player%'
+staff-locations:
+  prefix: '&dLocations &8»'
+  created: '&2Staff location created!'
+  updated: '&2Staff location updated!'
+  deleted: '&CStaff location deleted!'
+  teleported: '&2You have been teleported to location: &6%name%'
+  add-chat-info: |
+    &1==================================
+    &6Type the name of the location in chat
+    &6Type "cancel" to cancel saving the location
+    &1==================================
+  note-created: '&2Note has been created'
+  note-deleted: '&CNote has been deleted'
+  add-note-chat-info: |
+    &1==================================
+    &6Type your note in chat
+    &6Type "cancel" to cancel adding a note
+    &1==================================
+gui_stafflocations_delete-confirmation-title: Delete staff location?
+gui_stafflocations_delete-confirmation-message: '&7Are you sure you want to delete
+  the entire location and all its notes: &6%name%'
+gui:
+  id: Id
+  status: Status
+  server: Server
+  type: Type
+  reason: Reason
+  close-reason: Close reason
+  timestamp: Timestamp
+  unknown: Unknown
+  location: Location
+  back: Back
+  previous-page: Previous Page
+  next-page: Next Page
+  confirmation:
+    confirm: Confirm
+    cancel: Cancel
+  bans:
+    appeal-detail:
+      approve:
+        title: Approve Appeal
+        lore: Click to approve this appeal
+      reject:
+        title: Reject Appeal
+        lore: Click to reject this appeal
+  mutes:
+    appeal-detail:
+      approve:
+        title: Approve Appeal
+        lore: Click to approve this appeal
+      reject:
+        title: Reject Appeal
+        lore: Click to reject this appeal
+  warnings:
+    appeal-detail:
+      approve:
+        title: Approve Appeal
+        lore: Click to approve this appeal
+      reject:
+        title: Reject Appeal
+        lore: Click to reject this appeal
+  reports:
+    report: Report
+    assignee: Assignee
+    culprit: Culprit
+    reporter: Reporter
+    manage-reports:
+      title: Manage reports
+      show-unresolved:
+        title: Open reports
+        lore: Show all unresolved reports
+      assigned-to-me:
+        title: Reports assigned to me
+        lore: Show all reports assigned to me
+      in-progress:
+        title: Reports in progress
+        lore: Show all assigned
+      closed:
+        title: Closed reports
+        lore: Show all closed reports
+    assigned-reports:
+      title: Reports in progress
+    my-assigned-reports:
+      title: Reports assigned to you
+      left-click-to-detail: '&7Left click to &6view detail'
+      right-click-to-resolve: '&7Right click to &2resolve'
+      middle-click-to-reject: '&7Middle click to &Creject'
+      left-shift-click-to-reject: '&7Left shift click to &Creject'
+    my-reports:
+      title: My reports
+    open-reports:
+      title: Open reports
+      left-click-to-accept: '&7Left click to &6accept'
+      right-click-to-resolve: '&7Right click to &2resolve'
+      middle-click-to-reject: '&7Middle click to &Creject'
+      left-shift-click-to-reject: '&7Left shift click to &Creject'
+    closed-reports:
+      title: Closed reports
+    find-reports:
+      title: Find reports
+    detail:
+      title: 'Report by: '
+      resolve:
+        title: Resolve report
+        lore: Click to resolve report
+      unassign:
+        title: Unassign
+        lore: Click to unassign yourself from this report
+      reject:
+        title: Reject report
+        lore: Click to mark this report as rejected
+      delete:
+        title: Delete
+        lore: Click to delete this report
+      teleport:
+        title: Teleport
+        lore: Click to teleport to where this report was created
+      join-chatchannel:
+        title: Join chat channel
+        lore: Join the chat channel of this report
+      leave-chatchannel:
+        title: Leave chat channel
+        lore: Leave the chat channel of this report
+      open-chatchannel:
+        title: Open chat channel
+        lore: Open a chat channel for this report
+      close-chatchannel:
+        title: Close chat channel
+        lore: Close the chat channel for this report
+gui_player-info_uuid-label: 'UUID: '
+gui_player-info_ip-label: 'Ip: '
+gui_player-info_gamemode-label: 'Gamemode: '
+gui_player-info_food-label: 'Food: '
+gui_player-info_location-label: 'Location: '
+gui_player-info_time-played-label: 'Time played: '
+gui_player-info_frozen-label: 'Frozen: '
+gui_player-info_protected-label: Protected
+gui_player-info_investigation-label: Under investigation
+gui_player-info_muted-label: Muted
+gui_player-info_vanished-label: Vanished
+gui_player-info_online-label: ONLINE
+gui_player-info_offline-label: OFFLINE

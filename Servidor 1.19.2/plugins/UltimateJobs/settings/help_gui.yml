@@ -1,0 +1,103 @@
+# .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------. 
+#| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+#| |  ____  ____  | || |  _________   | || |   _____      | || |   ______     | || |    ______    | || | _____  _____ | || |     _____    | |
+#| | |_   ||   _| | || | |_   ___  |  | || |  |_   _|     | || |  |_   __ \   | || |  .' ___  |   | || ||_   _||_   _|| || |    |_   _|   | |
+#| |   | |__| |   | || |   | |_  \_|  | || |    | |       | || |    | |__) |  | || | / .'   \_|   | || |  | |    | |  | || |      | |     | |
+#| |   |  __  |   | || |   |  _|  _   | || |    | |   _   | || |    |  ___/   | || | | |    ____  | || |  | '    ' |  | || |      | |     | |
+#| |  _| |  | |_  | || |  _| |___/ |  | || |   _| |__/ |  | || |   _| |_      | || | \ `.___]  _| | || |   \ `--' /   | || |     _| |_    | |
+#| | |____||____| | || | |_________|  | || |  |________|  | || |  |_____|     | || |  `._____.'   | || |    `.__.'    | || |    |_____|   | |
+#| |              | || |              | || |              | || |              | || |              | || |              | || |              | |
+#| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+# '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
+
+#
+# <-------- { INFORMATIONS } -------->
+# 
+# You need more Help? Docs -> https://dto.mc-plugins.org
+# Join our Discord -> https://dcto.mc-plugins.org
+# Visit out Website -> https://mc-plugins.org
+#
+
+#
+# Choose between "GUI" or "MESSAGE"
+#
+
+Help_Mode: "MESSAGE"
+ 
+#Name of the GUI
+Help_Name: "{language:Help_Name}"
+
+#Size of the GUI
+Help_Size: 5
+
+#Custom Items Section
+Help_Custom:
+
+  List:
+    - "Close"
+    - "Info1"
+    - "Info2"
+
+  Info2:
+
+    Display: "{language:Help_Custom.Info2.Display}"
+
+    ActionList:
+      - "NONE"
+
+    Material: "PAPER"
+    
+    Lore: "{language:Help_Custom.Info1.Lore}"
+
+    Slot: 11
+
+  Info1:
+
+    Display: "{language:Help_Custom.Info1.Display}"
+
+    Material: "BOOK"
+
+    ActionList:
+      - "NONE"
+    
+    Lore: "{language:Help_Custom.Info1.Lore}"
+
+    Slot: 10
+
+  Close:
+
+    Display: "{language:Help_Custom.Close.Display}"
+
+    ActionList:
+      - "CLOSE"
+
+    Material: "url;http://textures.minecraft.net/texture/afd2400002ad9fbbbd0066941eb5b1a384ab9b0e48a178ee96e4d129a5208654"
+
+    Slot: 40
+
+#Placeholders of the GUI
+Help_Place:
+  - "BLACK_STAINED_GLASS_PANE:0:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:1:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:2:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:3:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:4:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:5:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:6:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:7:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:8:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:9:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:17:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:18:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:26:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:27:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:35:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:36:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:37:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:38:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:39:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:40:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:41:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:42:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:43:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:44:&8-/-"

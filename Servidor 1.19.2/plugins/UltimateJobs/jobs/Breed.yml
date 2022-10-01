@@ -1,0 +1,82 @@
+Action:
+  - "BREED" 
+ 
+ID: "BREEDJOB"
+
+Material: "PIG_SPAWN_EGG"
+
+ColorOfBossBar: "YELLOW"
+
+Slot: 28
+
+Price: 350
+
+Worlds:
+  - "survival"
+  - "survival_nether"
+  - "survival_the_end"
+
+IDS:
+
+  BREED:
+    List:
+      - "PIG"  
+      - "COW"  
+
+    PIG:
+
+      Chance: 85
+      ID: "PIG"
+      Money: 2
+      Exp: 5
+      Points: 0.05
+      RewardsGUI:
+    
+        See: true
+        Icon: "PIG_SPAWN_EGG"
+
+    COW:
+
+      Chance: 85
+      ID: "COW"
+      Money: 2
+      Exp: 5
+      Points: 0.05
+      RewardsGUI:
+    
+        See: true
+        Icon: "COW_SPAWN_EGG"
+ 
+LEVELS:
+
+  CountOfLevels: 4
+
+  1:
+
+    Money: 0 
+    Icon: "COAL" 
+    Need: 0
+    
+  2:
+
+    Money: 250 
+    Icon: "PAPER" 
+    Need: 150 
+    EarnMore: 0.15
+    
+  3:
+
+    Money: 500 
+    Icon: "PAPER" 
+    Need: 500 
+    EarnMore: 0.25
+    
+  4:
+
+    Money: 1000 
+    Icon: "EMERALD" 
+    Need: 550 
+    EarnMore: 0.30
+
+  
+  

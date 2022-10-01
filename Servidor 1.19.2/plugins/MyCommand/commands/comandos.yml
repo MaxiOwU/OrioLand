@@ -1,0 +1,71 @@
+#-------------------------------------------------------------------------------------------------------------------#
+#							  MyCommand Commands config file (last update v5.6.4)									#
+#																													#
+#  Plugin Documentation : https://dev.bukkit.org/projects/mycommand/pages/getstarted    							#
+#  Spigot https://www.spigotmc.org/resources/mycommand.22272/  Bukkit : https://dev.bukkit.org/projects/mycommand/	#
+#																													#																									#
+#	How to make a command :	(See an example command below)															#
+#		First, decide your command name placing it in the first row (no duplicates!)  "mycommand:"					#
+#		Now set the "command:" field. This will trigger the command. Don't forget the '/' before your command.		#
+#		So, now select your command type from a predefined list putting it after "type" line						#
+#	COMMAND TYPE LIST :																								#
+#		TEXT , BROADCAST_TEXT, RAW_TEXT , BROADCAST_RAW_TEXT, ALIAS , RUN_COMMAND , RUN_CONSOLE , RUN_COMMAND_TASK  #
+#       RUN_COMMAND_RANDOM , RUN_CONSOLE_RANDOM , RUN_AS_OPERATOR , ADD_PERMISSION , ADD_COST , WARMUP , COOLDOWN   #
+#       WARMUP_AND_COOLDOWN , BLOCK_PATTERN ,  BAR_API_TEXT , BAR_API_BROADCAST_TEXT , CALL_URL , EXP_BAR			#
+#       ICON_MENU , MERCHANT , SCOREBOARD , BUNGEE_TP , TITLE, BROADCAST_TITLE , ACTION_BAR , BROADCAST_ACTION_BAR	#
+#		HOLOGRAPHIC_TEXT , BROADCAST_HOLOGRAPHIC_TEXT , LIVE_CHAT , BOOK , RAW_BOOK, ANVIL_GUI						#
+#																													#
+#	If your command is "TEXT" type, you can put multiple line of text below this parameter							#
+#	You can do the same thing with the "RUN_COMMAND" type, but instead of text, puts commands in this list			#
+#	For delayed command(s) add $delay$ before the command in runcmd Example : - $delay$/list						#
+#	Set delay time with delaytimer: 5 (5 = seconds) | 																#
+#   If you are using the Vault plugin, you can put the "cost: 123.0" with this line. 								#
+#	You can customize your permission node by placing "permission-node:" field in a command							#
+#	Change the permission error message with "permission-error:" or create a command without permission required	#
+#   with "permission-required: false". Custom error-message for invalid args, use "error-message:"					#
+#   You can use itemcost : 'ID:AMOUNT' for set a cost with items. 													#
+#   Register REAL commands putting "register: true" below the command. Those are recognized from other plugins.    	#
+#   With register commands you can use the "tab_completer: - Hi - Hello!"											#
+#   For Scripts and more features, find more on the bukkitdev page													#
+#-------------------------------------------------------------------------------------------------------------------#
+votar:
+  command: /votar
+  type: RUN_COMMAND
+  runcmd:
+  - /voteurl
+  register: true
+subastas:
+  command: /subastas
+  type: RUN_COMMAND
+  runcmd:
+  - /ah
+  register: true
+dinero:
+  command: /dinero
+  type: RUN_COMMAND
+  runcmd:
+  - /balance $player
+  register: true
+sancion:
+  command: /sancion
+  type: RUN_COMMAND
+  runcmd:
+  - /punish $arg1
+  register: true
+  require_all_arguments: true
+  error-message: '&4&lSanciones &7| Usa &c/sancion <Jugador>&7!'
+lobby:
+  command: /lobby
+  type: RUN_CONSOLE
+  runcmd:
+  - "$text$&6&lOL &7| &6 Teletransportando al lobby en 3 segundos! No te muevas."
+  - "$delay$<60>"
+  - /warp lobby
+  - /title @p title {"text":"Bienvenido al Lobby!","bold":true,"color":"yellow"}
+  register: true
+  mundos:
+  command: /mundos
+  type: RUN_CONSOLE
+  runcmd:
+  - /cpanel panel-1
+  register: true

@@ -1,0 +1,8 @@
+!config-version: 2.2.2
+
+
+# Set the title from the inventory
+inv-title: &3Warps
+
+# If it's enabled, /warps will open the GUI too
+includecmd-warps: true

@@ -1,0 +1,52 @@
+#
+# SepareWorldItems 1.2.18
+# Tutorial: https://github.com/HappyRogelio7/SEPARE-WORLD-ITEMS/wiki
+# Discord OR Support: https://discord.gg/3EebYUyeUX
+# Config Plugin SepareWorldItems 1.2.18
+# Update = true
+# Config = 1.2.18
+#
+general:
+  update: true
+  update-link: https://github.com/HappyRogelio7/SEPARE-WORLD-ITEMS/ # Do not change.
+  config: 1.2.18 # Do not change
+  java-version: 17 # Do not change, This indicates if this version is for versions higher than 1.17, if it is 16 or higher if it is compatible.
+#
+# Options.
+#
+Options:
+  default-groups: default # This function is in the testing phase.
+  gamemode: false # Save Gamemode player.
+  gamemode-default: SURVIVAL # SURVIVAL, CREATIVE, ADVENTURE, SPECTATOR
+  flying: false # Save Player Fly Mode. (YES=true, NO=false)
+  ender-chest: true # EnderChest YES=true, NO=false.
+  #
+  # If you are using a custom health system set "health-default-save" to false
+  # and set "health-custom-save" to true. If you don't use a custom life system leave it as it is by default.
+  #
+  health-options:
+    health-type: BUKKIT
+    health-default-save: true # BUKKIT
+    health-custom-save: false # CUSTOM
+  #
+  # Alpha Option bypass world:
+  # permission: separeworlditems.bypass.worldsall
+  #
+  bypass-world-options:
+    use_bypass: false
+# Permission: separeworlditems.bypass.worldsall
+
+#
+# Config Plugin SepareWorldItems 1.2.18
+#
+groups:
+- survival
+- paintball
+- parkour
+worlds:
+  survival: survival
+  survival_nether: survival
+  survival_the_end: survival
+  Lobby: survival
+  parkour: parkour
+  flatroom: paintball

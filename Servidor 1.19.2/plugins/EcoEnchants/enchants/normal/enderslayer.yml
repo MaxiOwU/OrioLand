@@ -1,0 +1,33 @@
+# 
+# Ender Slayer EcoEnchant
+
+description: Increases damage against end mobs.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: common
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  targets:
+  - sword
+  - axe
+  grindstoneable: true
+  conflicts:
+  - sharpness
+  - bane_of_arthropods
+  - smite
+  - defusion
+  - razor
+  - butchering
+  - introversion
+  disabled-in-worlds: []
+  maximum-level: 5
+name: Ender Slayer
+config:
+  bonus-per-level: 2.5
+

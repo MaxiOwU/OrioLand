@@ -1,0 +1,26 @@
+# 
+# Indestructibility EcoEnchant
+
+description: Massively increases item durability.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: special
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  targets:
+  - all
+  grindstoneable: true
+  conflicts:
+  - unbreaking
+  disabled-in-worlds: []
+  maximum-level: 3
+name: Indestructibility
+config:
+  level-bonus: 4
+

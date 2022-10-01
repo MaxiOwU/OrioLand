@@ -1,0 +1,15 @@
+# 
+# What data storage should we use:
+# - YAML 	: stores the player data in human readable form in playerdata.yml
+# - SQLITE	: stores the player data in a local SQLite database called playerdata-sqlite.db
+worlds:
+  global: Scoreboard
+permissions:
+  adminboard: animatedscoreboard.test
+placeholderapi: true
+check_updates: true
+debug_mode: false
+enable-triggers: false
+player-storage: YAML
+force-legacy: false
+hex-in-placeholders: true

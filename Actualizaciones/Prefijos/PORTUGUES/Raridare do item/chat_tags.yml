@@ -1,0 +1,63 @@
+comum_tag:
+  texture: default/chat/comum_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":comum:"
+    permission: "oraxen.emoji.comum"
+
+incomum_tag:
+  texture: default/chat/incomum_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":incomum:"
+    permission: "oraxen.emoji.incomum"
+
+raro_tag:
+  texture: default/chat/raro_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":raro:"
+    permission: "oraxen.emoji.raro"
+
+ultrararo_tag:
+  texture: default/chat/ultrararo_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":ultrararo:"
+    permission: "oraxen.emoji.ultrararo"
+
+épico_tag:
+  texture: default/chat/épico_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":épico:"
+    permission: "oraxen.emoji.épico"
+
+heroico_tag:
+  texture: default/chat/heroico_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":heroico:"
+    permission: "oraxen.emoji.heroico"
+
+lenda_tag:
+  texture: default/chat/lenda_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":lenda:"
+    permission: "oraxen.emoji.lenda"
+    

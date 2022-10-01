@@ -1,0 +1,75 @@
+# .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------. 
+#| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+#| |     ______   | || |              | || |   _____      | || |  _________   | || |      __      | || | ____   ____  | || |  _________   | |
+#| |   .' ___  |  | || |              | || |  |_   _|     | || | |_   ___  |  | || |     /  \     | || ||_  _| |_  _| | || | |_   ___  |  | |
+#| |  / .'   \_|  | || |    ______    | || |    | |       | || |   | |_  \_|  | || |    / /\ \    | || |  \ \   / /   | || |   | |_  \_|  | |
+#| |  | |         | || |   |______|   | || |    | |   _   | || |   |  _|  _   | || |   / ____ \   | || |   \ \ / /    | || |   |  _|  _   | |
+#| |  \ `.___.'\  | || |              | || |   _| |__/ |  | || |  _| |___/ |  | || | _/ /    \ \_ | || |    \ ' /     | || |  _| |___/ |  | |
+#| |   `._____.'  | || |              | || |  |________|  | || | |_________|  | || ||____|  |____|| || |     \_/      | || | |_________|  | |
+#| |              | || |              | || |              | || |              | || |              | || |              | || |              | |
+#| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+# '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
+
+#
+# <-------- { INFORMATIONS } -------->
+# 
+# You need more Help? Docs -> https://dto.mc-plugins.org
+# Join our Discord -> https://dcto.mc-plugins.org
+# Visit out Website -> https://mc-plugins.org
+#
+ 
+#Name of the GUI 
+LeaveConfirm_Name: "{language:LeaveConfirm_Name}"
+ 
+#Size of the GUI
+LeaveConfirm_Size: 3
+
+LeaveConfirmItems:
+
+  Button_NO:
+  
+    Icon: "RED_DYE"
+    
+    Show: true
+    
+    Display: "{language:LeaveConfirm.Button_NO.Display}"
+    
+    Slot: 15
+    
+    Lore: "{language:LeaveConfirm.Button_NO.Lore}"
+
+  Button_YES:
+  
+    Icon: "GREEN_DYE"
+    
+    Show: true
+    
+    Display: "{language:LeaveConfirm.Button_YES.Display}"
+    
+    Slot: 11
+    
+    Lore: "{language:LeaveConfirm.Button_YES.Lore}"
+
+#Custom Items Section
+LeaveConfirm_Custom:
+
+  List:
+    - "Back"
+
+  Back:
+
+    Display: "{language:LeaveConfirm_Custom.Back.Display}"
+
+    ActionList:
+      - "GUI:SETTINGS"
+
+    Lore: "{language:LeaveConfirm_Custom.Back.Lore}"
+
+    Material: "name;Mhf_ArrowLeft"
+
+    Slot: 26
+
+#Placeholders of the GUI
+LeaveConfirm_Place:
+  - "BLACK_STAINED_GLASS_PANE:13:&8-/-"
+  

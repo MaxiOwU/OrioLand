@@ -1,0 +1,99 @@
+Action:
+  - "GROWSAPLINGS" 
+ 
+ID: "SAPLINGS"
+
+Material: "OAK_SAPLING"
+
+ColorOfBossBar: "GREEN"
+
+Slot: 30
+
+Price: 350
+
+Worlds:
+  - "survival"
+  - "survival_nether"
+  - "survival_the_end"
+
+IDS:
+
+  GROWSAPLINGS:
+    List:
+      - "D1" 
+      - "D2"
+      - "D3"
+
+    D3:
+ 
+      Chance: 85
+      ID: "BROWN_MUSHROOM"
+      Money: 5
+      Exp: 1
+      Points: 0.05
+    
+      RewardsGUI:
+    
+        See: true
+        Icon: "PAPER"
+
+    D2:
+ 
+      Chance: 85
+      ID: "BIG_TREE"
+      Money: 5
+      Exp: 1
+      Points: 0.05
+    
+      RewardsGUI:
+    
+        See: true
+        Icon: "PAPER"
+
+    D1:
+ 
+      Chance: 85
+      ID: "TREE"
+      Money: 5
+      Exp: 1
+      Points: 0.05
+    
+      RewardsGUI:
+    
+        See: true
+        Icon: "PAPER"
+
+ 
+LEVELS:
+
+  CountOfLevels: 4
+
+  1:
+
+    Money: 0 
+    Icon: "COAL" 
+    Need: 0
+    
+  2:
+
+    Money: 250 
+    Icon: "PAPER" 
+    Need: 150 
+    EarnMore: 0.15
+    
+  3:
+
+    Money: 500 
+    Icon: "PAPER" 
+    Need: 500 
+    EarnMore: 0.25
+    
+  4:
+
+    Money: 1000 
+    Icon: "EMERALD" 
+    Need: 550 
+    EarnMore: 0.30
+
+  
+  

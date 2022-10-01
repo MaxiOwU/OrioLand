@@ -1,0 +1,3902 @@
+# .----------------.  .-----------------. .----------------.  .----------------.  .----------------. 
+#| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+#| |  _________   | || | ____  _____  | || |              | || | _____  _____ | || |    _______   | |
+#| | |_   ___  |  | || ||_   \|_   _| | || |              | || ||_   _||_   _|| || |   /  ___  |  | |
+#| |   | |_  \_|  | || |  |   \ | |   | || |    ______    | || |  | |    | |  | || |  |  (__ \_|  | |
+#| |   |  _|  _   | || |  | |\ \| |   | || |   |______|   | || |  | '    ' |  | || |   '.___`-.   | |
+#| |  _| |___/ |  | || | _| |_\   |_  | || |              | || |   \ `--' /   | || |  |`\____) |  | |
+#| | |_________|  | || ||_____|\____| | || |              | || |    `.__.'    | || |  |_______.'  | |
+#| |              | || |              | || |              | || |              | || |              | |
+#| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+# '----------------'  '----------------'  '----------------'  '----------------'  '----------------'
+
+#
+# <-------- { INFORMATIONS } -------->
+# 
+# You need more Help? Docs -> https://dto.mc-plugins.org
+# Join our Discord -> https://dcto.mc-plugins.org
+# Visit out Website -> https://mc-plugins.org
+#
+
+#used on /jobs language 
+LanguageName: "spanish"
+LanguageIcon: "url;http://textures.minecraft.net/texture/b205771bed2586c4f05fdc5938339a711f4eb3f7778d93771794c1ad4bf0091e"
+LanguageDisplay: "&8< &6Español &8>"
+CustomModelData: 0
+LanguageEnabled: true
+
+LanguageChoosenLore:
+  - "&aHas seleccionado este idioma!"
+  
+LanguageChoosenMessage: "<prefix> &cYa tienes seleccionado este idioma!"
+  
+LanguageCanChoose:
+  - "&7Haz click para seleccionar este idioma!"
+  
+LanguageChangedMessage: "<prefix> &7Has seleccionado el idioma <lang>&7!"
+
+prefix: "&8[#14e0ba#Trabajos&8]"
+
+job_not_found: "<prefix> &cEl trabajo <job> no existe!"
+
+noperm: "<prefix> &cNo tienes permisos!"
+
+#placeholders
+placeholder_no_job: "&cSin trabajo"
+placeholder_no_level: "&cNivel 0"
+placeholder_no_exp: "&cSin Experiencia"
+placeholder_no_levelname: "&cSin Nivel"
+
+#commands
+command_notfound: "<prefix> &7No se ha podido encontrar el comando &6<cmd>&7!"
+command_usage: "<prefix> &7Por favor usa &6<usage>&7."
+
+#command /job language
+command_language_NotFound: "<prefix> &cNo se ha podido encontrar ese idioma!"
+command_language_Already: "<prefix> &cYa tenias seleccionado ese idioma!"
+command_language_Changed: "<prefix> &aHas cambiado tu idioma al <lang>!"
+
+#command /job join
+command_join_Joined: "<prefix> &7Ahora estas trabajando como <job>&7!"
+command_join_max: "<prefix> &7Has alcanzado el maximo de trabajos!"
+command_join_already: "<prefix> &7Ya estas en ese trabajo!"
+command_join_not_own: "<prefix> &7No has comprado ese trabajo!"
+
+#command /job leaveall
+command_leaveall_message: "<prefix> &7Has dejado todos tus &7Trabajos &7Actuales."
+command_leaveall_already: "<prefix> &cNo estas trabajando!"
+
+#command /job leave
+command_leave_message: "<prefix> &7Has dejado el trabajo <job>&7."
+command_leave_already: "<prefix> &cNo estas trabajando en eso!"
+
+#command /job limit
+command_limit_other: "<prefix> &7<name> puede tener &a<max> &7Trabajos."
+command_limit_not_found: "<prefix> &cNo se ha podido encontrar el jugador <name>."
+command_limit_self: "<prefix> &7Puedes tener &b<max> &7Trabajos."
+
+#command /job points
+command_points_not_found: "<prefix> &cNo se a podido encontrar el jugador <name>."
+command_points_self: "<prefix> &7Tienes &b<points> &7Puntos."
+command_points_other: "<prefix> &7<name> tiene &b<points> &7Puntos."
+
+#command /job stats
+command_stats_not_found: "<prefix> &cNo se ha podido encontrar el jugador <name>."
+
+#command /jobs levels <job>
+command_levels_no_data_found: "<prefix> &cNo se han encontrado estadisticas de este trabajo!"
+ 
+#other messages
+Other:
+
+  Bought_Job: "<prefix> &7Has comprado el trabajo de <job>&7." 
+  
+  Not_Enough_Money: "<prefix> &7No tienes suficiente dinero."
+  
+  Full: "<prefix> &7Has alcanzado el &cmaximo &7de trabajos."
+  
+  Joined: "<prefix> &7Ahora estas trabajando como <job>&7."
+
+  Left_Job: "<prefix> &7Has dimitido a trabajar como <job>&7."
+  
+  Leave_All: "<prefix> &7Has abandonado todos tus &7Trabajos &6Actuales."
+  
+  Already_Left_All: "<prefix> &7No estas trabajando en &6ningun &7Trabajo."
+
+#config of levels
+Levels:
+
+  BoardCastMessage: "<prefix> &8| &c<name> &7ha alcanzado el nivel &b<level> &7en el trabajo <job>&7!"
+
+  Ttitle_1: "&8| &b&lNuevo Nivel &8|"
+
+  Ttitle_2: "&7Nuevo Nivel <level_int> &8/ <level_name>"
+  
+  Message: "<prefix> &7Has alcanzado un nuevo nivel! &8(&7<level_int> &8/ <level_name>&8)"
+  
+  Actionbar: "<prefix> &7Nuevo nivel! &8(&7<level_int> &8/ <level_name>&8)"
+  
+#config of reward messages & max earings
+Reward:
+
+  BossBar: "&a+ &7<money>⛃ <id> &8(&4<action>&8, &b<amount>x&8)"
+  
+  Message: "<prefix> &a+ <money>⛃ como recompensa por <id>&7! &8(&4<action>&8)"
+  
+  Actionbar: "<prefix> &a+ <money>⛃ como recompensa por <id> &8(&4<action>&8)"
+  
+MaxEarningsReached:
+
+  BossBar: "&cHas alcanzado las maximas recompensas por hoy en el trabajo <job>"
+  
+  Message: "<prefix> &cHas alcanzado las maximas recompensas por hoy en el trabajo <job>"
+  
+  Actionbar: "<prefix> &cHas alcanzado las maximas recompensas por hoy en el trabajo <job>"
+  
+#confog of commands
+Commands:
+
+  Ranking:
+  
+    Usage: "ranking"
+    
+    UsageMessage: "/Jobs ranking <job>"
+    
+    Description: "Lista de los mejores trabajadores!"
+
+  Withdraw:
+  
+    Usage: "withdraw"
+    
+    UsageMessage: "/Jobs withdraw"
+    
+    Description: "Retira el dinero del trabajo"
+
+  Earnings:
+  
+    Usage: "earnings"
+    
+    UsageMessage: "/Jobs earnings <jobs>"
+    
+    Description: "Muestra el sueldo del ultimo mes"
+
+  Rewards:
+  
+    Usage: "rewards"
+    
+    UsageMessage: "/Jobs rewards <job>"
+    
+    Description: "Muestra el sueldo de los trabajos"
+
+  Stats:
+  
+    Usage: "stats"
+    
+    UsageMessage: "/Jobs stats <name>"
+    
+    Description: "Muestra las estadisticas del jugador"
+
+  Language:
+  
+    Usage: "language"
+    
+    UsageMessage: "/Jobs language <name>"
+    
+    Description: "Cambia tu idioma"
+
+  Help:
+  
+    Usage: "help"
+    
+    UsageMessage: "/Jobs help"
+    
+    List:
+      - "&8"
+      - " &8| &9UltimateJobs &8- &7Help &8| "
+      - "&8-> &6/Jobs leave <job> &8| &7Deja de trabajar"
+      - "&8-> &6/Jobs join <job> &8| &7Empieza a trabajar"
+      - "&8-> &6/Jobs leaveall &8| &7Deja todos los trabajos actuales"
+      - "&8-> &6/Jobs help &8| &7Esta pagina" 
+      - "&8-> &6/Jobs limit <name> &8| &7Ver limite de trabajos"
+      - "&8"
+ 
+    Description: "Muestra mas ayuda"
+
+  Points:
+  
+    Usage: "points"
+    
+    UsageMessage: "/Jobs points <name>"
+    
+    Description: "Muestra los puntos de trabajo"
+
+  Limit:
+  
+    Usage: "limit"
+    
+    UsageMessage: "/Jobs limit <name>"
+    
+    Description: "Muestra tu limite de trabajos"
+
+  Leave:
+  
+    Usage: "leave"
+    
+    UsageMessage: "/Jobs leave <job>"
+    
+    Description: "Deja un trabajo"
+
+  LeaveALL:
+  
+    Usage: "leaveall"
+    
+    UsageMessage: "/Jobs leaveall"
+    
+    Description: "Deja todos los trabajos"
+
+  Join:
+  
+    Usage: "join"
+    
+    UsageMessage: "/Jobs join <job>"
+    
+    Description: "Empieza a trabajar"
+    
+  Levels:
+  
+    Usage: "levels"
+    
+    UsageMessage: "/Jobs levels <job>"
+    
+    Description: "Muestra tus niveles en los trabajos"
+     
+# .----------------.  .----------------.  .----------------.  .----------------. 
+#| .--------------. || .--------------. || .--------------. || .--------------. |
+#| |    ______    | || | _____  _____ | || |     _____    | || |    _______   | |
+#| |  .' ___  |   | || ||_   _||_   _|| || |    |_   _|   | || |   /  ___  |  | |
+#| | / .'   \_|   | || |  | |    | |  | || |      | |     | || |  |  (__ \_|  | |
+#| | | |    ____  | || |  | '    ' |  | || |      | |     | || |   '.___`-.   | |
+#| | \ `.___]  _| | || |   \ `--' /   | || |     _| |_    | || |  |`\____) |  | |
+#| |  `._____.'   | || |    `.__.'    | || |    |_____|   | || |  |_______.'  | |
+#| |              | || |              | || |              | || |              | |
+#| '--------------' || '--------------' || '--------------' || '--------------' |
+# '----------------'  '----------------'  '----------------'  '----------------' 
+
+#config of main gui
+Main_Name: "&8✪ #47b2f5#Trabajos &8✪"
+
+Main_Job_Items:
+
+  Lore:
+
+    Bought:
+      - "&7"
+      - "&b☆ §7Has comprado este trabajo §b☆"
+
+    In:
+      - "&7"
+      - "&a✔ §7Estas trabajando en esto §a✔"
+
+    Price:
+      - "&7"
+      - "&c✖ §7Haz click para comprar este trabajo por <price>⛃ §c✖"
+      
+Main_Custom:
+
+  Close:
+    
+    Display: "&c✖ &7Cerrar Menu &c✖"
+    
+  Leave:
+    
+    Display: "§4↓ §7Abandonar todos los trabajos §4↑"
+    
+    Lore:
+      - "§8↳ &7Haz click aqui para dejar todos los trabajos..."
+    
+  Info:
+    
+    Display: "&e☆ §7Informacion &e☆"
+    
+    Lore:
+      - "&8&m-------------------"
+      - "&6① &7Porque deberia de §aTrabajar&7?" 
+      - " &8↳ &7Necesitas un §bTrabajo §7para conseguir dinero! " 
+      - "&8"
+      - "&6② &7Puedes tener &9<max> &7Trabajo."
+      - "&6③ &7Tienes &a<points> &7Puntos."
+
+# .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------. 
+#| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+#| |     ______   | || |              | || |   _____      | || |  _________   | || |      __      | || | ____   ____  | || |  _________   | |
+#| |   .' ___  |  | || |              | || |  |_   _|     | || | |_   ___  |  | || |     /  \     | || ||_  _| |_  _| | || | |_   ___  |  | |
+#| |  / .'   \_|  | || |    ______    | || |    | |       | || |   | |_  \_|  | || |    / /\ \    | || |  \ \   / /   | || |   | |_  \_|  | |
+#| |  | |         | || |   |______|   | || |    | |   _   | || |   |  _|  _   | || |   / ____ \   | || |   \ \ / /    | || |   |  _|  _   | |
+#| |  \ `.___.'\  | || |              | || |   _| |__/ |  | || |  _| |___/ |  | || | _/ /    \ \_ | || |    \ ' /     | || |  _| |___/ |  | |
+#| |   `._____.'  | || |              | || |  |________|  | || | |_________|  | || ||____|  |____|| || |     \_/      | || | |_________|  | |
+#| |              | || |              | || |              | || |              | || |              | || |              | || |              | |
+#| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+# '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
+  
+LeaveConfirm_Name:  "&a&l✔ &7Confirmar &c&l✘"
+
+LeaveConfirm:
+
+  Button_NO:
+
+    Display: "&c&l✘ &7No &c&l✘"
+
+    Lore:
+      - "&8↳ &7Cancela este progreso..."
+
+  Button_YES:
+
+    Display: "&a&l✔ &7Si, estoy seguro&a&l✔"
+
+    Lore:
+      - "&8↳ &7Abandona el trabajo <job>&7..."
+
+LeaveConfirm_Custom:
+
+  Back:
+    
+    Display: "&4↖ &7Volver &4↖"
+    
+    Lore:
+      - "&8↳ &7Haz click aqui para volver atras..."
+
+# .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------. 
+#| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+#| | _____  _____ | || |     _____    | || |  _________   | || |  ____  ____  | || |  ________    | || |  _______     | || |      __      | || | _____  _____ | |
+#| ||_   _||_   _|| || |    |_   _|   | || | |  _   _  |  | || | |_   ||   _| | || | |_   ___ `.  | || | |_   __ \    | || |     /  \     | || ||_   _||_   _|| |
+#| |  | | /\ | |  | || |      | |     | || | |_/ | | \_|  | || |   | |__| |   | || |   | |   `. \ | || |   | |__) |   | || |    / /\ \    | || |  | | /\ | |  | |
+#| |  | |/  \| |  | || |      | |     | || |     | |      | || |   |  __  |   | || |   | |    | | | || |   |  __ /    | || |   / ____ \   | || |  | |/  \| |  | |
+#| |  |   /\   |  | || |     _| |_    | || |    _| |_     | || |  _| |  | |_  | || |  _| |___.' / | || |  _| |  \ \_  | || | _/ /    \ \_ | || |  |   /\   |  | |
+#| |  |__/  \__|  | || |    |_____|   | || |   |_____|    | || | |____||____| | || | |________.'  | || | |____| |___| | || ||____|  |____|| || |  |__/  \__|  | |
+#| |              | || |              | || |              | || |              | || |              | || |              | || |              | || |              | |
+#| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+# '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
+ 
+Withdraw_Reset_Salary_Message: "<prefix> &7Como has abandonado tu trabajo, Tu &aSalario &7se ha &creiniciado&7!"
+
+Withdraw_Remove_Percent_Of_Salary_Message: "<prefix> &7Como has abandonado tu trabajo, has perdido &c<amount> &8(&c15%&8) &7de tu salario!"
+
+Withdraw_Name: "&a✱ &7Retirar Dinero &a✱"
+ 
+Withdraw_Custom:
+
+  CollectButton:
+  
+    Display: "&a&l✔ &7Haz Click para Retirar &a&l✔"
+    
+    WithdrawMessage: "<prefix> &7Has retirado &6&l<amount>&7⛃!"
+    
+    CantMessage: "<prefix> &7Tienes que esperar para retirar el dinero!"
+ 
+    LoreCantCollect:  
+      - "&7Cantidad&8: &6<salary>⛃"
+      - "&7"
+      - "&cProxima fecha de retiro: <date>"
+    
+    LoreCanCollect:  
+      - "&7Cantidad&8: &6<salary>⛃"
+      - "&7"
+      - "&a> Haz Click para Recolectar <"
+
+  Info:
+  
+    Display: "&a&l☆ &7Informacion &a&l☆"
+    
+    Lore: 
+      - "&7En este menu puedes recolectar tu sueldo cada &b&l15 &7Dias!" 
+
+  NoSalaryToCollect:
+  
+    Display: "&cNo has recolectado tu sueldo"
+    
+    Lore:
+      - "&7&oNo has trabajado lo suficiente!"
+
+  Close:
+    
+    Display: "&c✖ &7Cerrar Menu &c✖"
+
+# .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------. 
+#| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+#| |     ______   | || |              | || | _____  _____ | || |     _____    | || |  _________   | || |  ____  ____  | || |  ________    | || |  _______     | || |      __      | || | _____  _____ | |
+#| |   .' ___  |  | || |              | || ||_   _||_   _|| || |    |_   _|   | || | |  _   _  |  | || | |_   ||   _| | || | |_   ___ `.  | || | |_   __ \    | || |     /  \     | || ||_   _||_   _|| |
+#| |  / .'   \_|  | || |    ______    | || |  | | /\ | |  | || |      | |     | || | |_/ | | \_|  | || |   | |__| |   | || |   | |   `. \ | || |   | |__) |   | || |    / /\ \    | || |  | | /\ | |  | |
+#| |  | |         | || |   |______|   | || |  | |/  \| |  | || |      | |     | || |     | |      | || |   |  __  |   | || |   | |    | | | || |   |  __ /    | || |   / ____ \   | || |  | |/  \| |  | |
+#| |  \ `.___.'\  | || |              | || |  |   /\   |  | || |     _| |_    | || |    _| |_     | || |  _| |  | |_  | || |  _| |___.' / | || |  _| |  \ \_  | || | _/ /    \ \_ | || |  |   /\   |  | |
+#| |   `._____.'  | || |              | || |  |__/  \__|  | || |    |_____|   | || |   |_____|    | || | |____||____| | || | |________.'  | || | |____| |___| | || ||____|  |____|| || |  |__/  \__|  | |
+#| |              | || |              | || |              | || |              | || |              | || |              | || |              | || |              | || |              | || |              | |
+#| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+# '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
+
+ConfirmWithdraw_Name:  "&a&l✔ &7Confirmar el Retiro &c&l✘"
+
+ConfirmWithdraw:
+
+  Button_NO:
+
+    Display: "&c&l✘ &7No &c&l✘"
+
+    Lore:
+      - "&8↳ &7Cancelar este Progreso..."
+
+  Button_YES:
+
+    Display: "&a&l✔ &7Si, Estoy seguro &a&l✔"
+
+    Lore:
+      - "&8↳ &7Retira todo el dinero conseguido..."
+
+ConfirmWithdraw_Custom:
+
+  Back:
+    
+    Display: "&4↖ &7Volver &4↖"
+    
+    Lore:
+      - "&8↳ &7Haz Click para Volver..."
+
+# .----------------.  .----------------.  .-----------------. .----------------.  .----------------.  .----------------.  .----------------.  .----------------. 
+#| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+#| |   _____      | || |      __      | || | ____  _____  | || |    ______    | || | _____  _____ | || |      __      | || |    ______    | || |  _________   | |
+#| |  |_   _|     | || |     /  \     | || ||_   \|_   _| | || |  .' ___  |   | || ||_   _||_   _|| || |     /  \     | || |  .' ___  |   | || | |_   ___  |  | |
+#| |    | |       | || |    / /\ \    | || |  |   \ | |   | || | / .'   \_|   | || |  | |    | |  | || |    / /\ \    | || | / .'   \_|   | || |   | |_  \_|  | |
+#| |    | |   _   | || |   / ____ \   | || |  | |\ \| |   | || | | |    ____  | || |  | '    ' |  | || |   / ____ \   | || | | |    ____  | || |   |  _|  _   | |
+#| |   _| |__/ |  | || | _/ /    \ \_ | || | _| |_\   |_  | || | \ `.___]  _| | || |   \ `--' /   | || | _/ /    \ \_ | || | \ `.___]  _| | || |  _| |___/ |  | |
+#| |  |________|  | || ||____|  |____|| || ||_____|\____| | || |  `._____.'   | || |    `.__.'    | || ||____|  |____|| || |  `._____.'   | || | |_________|  | |
+#| |              | || |              | || |              | || |              | || |              | || |              | || |              | || |              | |
+#| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+# '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
+
+Name: "&6『 &7Menu de Idioma &6』"
+
+Custom:
+ 
+  Info:
+  
+    Display: "&e☆ §7Informacion &e☆"
+    
+    Lore: 
+      - "&8↳ &7En este menu puedes seleccionar el &bIdioma&7!" 
+
+# .----------------.  .----------------.  .----------------.  .-----------------. .----------------.  .-----------------. .----------------.  .----------------. 
+#| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+#| |  _________   | || |      __      | || |  _______     | || | ____  _____  | || |     _____    | || | ____  _____  | || |    ______    | || |    _______   | |
+#| | |_   ___  |  | || |     /  \     | || | |_   __ \    | || ||_   \|_   _| | || |    |_   _|   | || ||_   \|_   _| | || |  .' ___  |   | || |   /  ___  |  | |
+#| |   | |_  \_|  | || |    / /\ \    | || |   | |__) |   | || |  |   \ | |   | || |      | |     | || |  |   \ | |   | || | / .'   \_|   | || |  |  (__ \_|  | |
+#| |   |  _|  _   | || |   / ____ \   | || |   |  __ /    | || |  | |\ \| |   | || |      | |     | || |  | |\ \| |   | || | | |    ____  | || |   '.___`-.   | |
+#| |  _| |___/ |  | || | _/ /    \ \_ | || |  _| |  \ \_  | || | _| |_\   |_  | || |     _| |_    | || | _| |_\   |_  | || | \ `.___]  _| | || |  |`\____) |  | |
+#| | |_________|  | || ||____|  |____|| || | |____| |___| | || ||_____|\____| | || |    |_____|   | || ||_____|\____| | || |  `._____.'   | || |  |_______.'  | |
+#| |              | || |              | || |              | || |              | || |              | || |              | || |              | || |              | |
+#| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+# '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
+
+#
+# <------ Earnings - one Job ------->
+#
+
+Job_Earnings_Name: "&a➲ &7Saldo &8- <job>"
+
+Job_Earnings_Items:
+
+  Display: "&8◀ &a<date> &8▶"
+ 
+  Lore: 
+    - "&8↳ &7&oObtenido: &a&o<money>&7&o⛃"
+ 
+Job_Earnings_Custom:
+
+  Previous:
+  
+    Display: "&c« &7Pagina anterior &c«"
+    
+    Message_NotFound: "&8[&aGanancias&8] &cNo se ha podido encontrar la pagina!"
+    
+    Lore:
+      - "&8↳ &7Ir a la pagina anterior"
+
+  Next:
+  
+    Display: "&a» &7Proxima pagina &a»"
+    
+    Message_NotFound: "&8[&aGanancias&8] &cNo se ha podido encontrar la pagina!"
+    
+    Lore:
+      - "&8↳ &7Ir a la proxima pagina"
+
+  Close:
+    
+    Display: "&c✖ &7Cerrar Menu &c✖"
+
+#
+# <------ Earnings - ALL ------->
+#
+
+All_Earnings_Name: "&a➲ &7Todas las Ganancias"
+
+All_Earnings_Items:
+
+  Display: "&8◀ &a<date> &8▶"
+ 
+  Lore: 
+    - "&8↳ &7&oObtenido: &a&o<money>&7&o⛃"
+ 
+All_Earnings_Custom:
+
+  Previous:
+  
+    Display: "&c« &7Pagina anterior &c«"
+    
+    Message_NotFound: "&8[&aGanancias&8] &cNo se ha podido encontrar la pagina!"
+    
+    Lore:
+      - "&8↳ &7Ir a la pagina anterior"
+
+  Next:
+  
+    Display: "&a» &7Proxima pagina &a»"
+    
+    Message_NotFound: "&8[&aGanancias&8] &cNo se ha podido encontrar la pagina!"
+    
+    Lore:
+      - "&8↳ &7Ir a la proxima pagina"
+
+  Close:
+    
+    Display: "&c✖ &7Cerrar Menu &c✖"
+
+      
+# .----------------.  .----------------.  .----------------.  .----------------. 
+#| .--------------. || .--------------. || .--------------. || .--------------. |
+#| |  ____  ____  | || |  _________   | || |   _____      | || |   ______     | |
+#| | |_   ||   _| | || | |_   ___  |  | || |  |_   _|     | || |  |_   __ \   | |
+#| |   | |__| |   | || |   | |_  \_|  | || |    | |       | || |    | |__) |  | |
+#| |   |  __  |   | || |   |  _|  _   | || |    | |   _   | || |    |  ___/   | |
+#| |  _| |  | |_  | || |  _| |___/ |  | || |   _| |__/ |  | || |   _| |_      | |
+#| | |____||____| | || | |_________|  | || |  |________|  | || |  |_____|     | |
+#| |              | || |              | || |              | || |              | |
+#| '--------------' || '--------------' || '--------------' || '--------------' |
+# '----------------'  '----------------'  '----------------'  '----------------'
+      
+#config of help gui
+Help_Name: "&e✪ &7Menu de ayuda &e✪"
+ 
+Help_Custom:
+
+  Close:
+    
+    Display: "&c✖ &7Cerrar Menu &c✖"
+
+  Info1:
+    
+    Display: "&6① &7/Jobs limit &6①"
+    
+    Lore:
+      - "&8↳ &7Muestra tu limite de trabajos"
+    
+  Info2:
+    
+    Display: "&6② &7/Jobs points &6②"
+    
+    Lore:
+      - "&8↳ &7Muestra tus puntos de trabajo"
+      
+# .----------------.  .----------------.  .-----------------. .----------------.  .----------------.  .----------------.  .----------------. 
+#| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+#| |     ______   | || |     ____     | || | ____  _____  | || |  _________   | || |     _____    | || |  _______     | || | ____    ____ | |
+#| |   .' ___  |  | || |   .'    `.   | || ||_   \|_   _| | || | |_   ___  |  | || |    |_   _|   | || | |_   __ \    | || ||_   \  /   _|| |
+#| |  / .'   \_|  | || |  /  .--.  \  | || |  |   \ | |   | || |   | |_  \_|  | || |      | |     | || |   | |__) |   | || |  |   \/   |  | |
+#| |  | |         | || |  | |    | |  | || |  | |\ \| |   | || |   |  _|      | || |      | |     | || |   |  __ /    | || |  | |\  /| |  | |
+#| |  \ `.___.'\  | || |  \  `--'  /  | || | _| |_\   |_  | || |  _| |_       | || |     _| |_    | || |  _| |  \ \_  | || | _| |_\/_| |_ | |
+#| |   `._____.'  | || |   `.____.'   | || ||_____|\____| | || | |_____|      | || |    |_____|   | || | |____| |___| | || ||_____||_____|| |
+#| |              | || |              | || |              | || |              | || |              | || |              | || |              | |
+#| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+# '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
+ 
+AreYouSureGUI_Name:  "&a&l✔ &7Quieres comprar <job>&7? &c&l✘"
+
+AreYouSureItems:
+
+  Button_NO:
+
+    Display: "&c&l✘ &7No &c&l✘"
+
+    Lore:
+      - "&8↳ &7Cancela este progreso..."
+
+  Button_YES:
+
+    Display: "&a&l✔ &7Si, Estoy seguro &a&l✔"
+
+    Lore:
+      - "&8↳ &7Quieres comprar este trabajo?"
+
+AreYouSureGUI_Custom:
+
+  Back:
+    
+    Display: "&4↖ &7Volver &4↖"
+    
+    Lore:
+      - "&8↳ &7Haz click aqui para volver al menu principal"
+
+# .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .-----------------. .----------------.  .----------------. 
+#| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+#| |    _______   | || |  _________   | || |  _________   | || |  _________   | || |     _____    | || | ____  _____  | || |    ______    | || |    _______   | |
+#| |   /  ___  |  | || | |_   ___  |  | || | |  _   _  |  | || | |  _   _  |  | || |    |_   _|   | || ||_   \|_   _| | || |  .' ___  |   | || |   /  ___  |  | |
+#| |  |  (__ \_|  | || |   | |_  \_|  | || | |_/ | | \_|  | || | |_/ | | \_|  | || |      | |     | || |  |   \ | |   | || | / .'   \_|   | || |  |  (__ \_|  | |
+#| |   '.___`-.   | || |   |  _|  _   | || |     | |      | || |     | |      | || |      | |     | || |  | |\ \| |   | || | | |    ____  | || |   '.___`-.   | |
+#| |  |`\____) |  | || |  _| |___/ |  | || |    _| |_     | || |    _| |_     | || |     _| |_    | || | _| |_\   |_  | || | \ `.___]  _| | || |  |`\____) |  | |
+#| |  |_______.'  | || | |_________|  | || |   |_____|    | || |   |_____|    | || |    |_____|   | || ||_____|\____| | || |  `._____.'   | || |  |_______.'  | |
+#| |              | || |              | || |              | || |              | || |              | || |              | || |              | || |              | |
+#| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+# '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
+
+Settings_Name: "#285416#⇨ &7Opciones de trabajo &8- <job>"
+
+Settings_Custom:
+
+  Back:
+  
+    Display: "&4↖ &7Volver &4↖"
+ 
+  MoneyList:
+  
+    Display: "&8● &7Muestra las #92f4ab#Ganancias &7por bloque &8●"
+    
+    Lore:
+      - "&8↳ &7Esto solo funciona si esta activado..."
+
+  Earnings:
+  
+    Display: "&8● &7Mis #edb51c#Ganancias &7este mes &8●"
+    
+    Lore:
+      - "&8↳ &7Esto solo funciona si esta activado..."
+
+  Leave:
+  
+    Display: "&4✗ §7Abandonar trabajo &4✗"
+
+  Close:
+  
+    Display: "&c✖ &7Cerrar Menu &c✖"
+
+  Skull:
+    
+    Display: "&e☆ §7Informacion &e☆"
+    
+    Lore:
+      - "&6① &7Comprado el &8: &b<stats_args_1>"
+      - "&6② &7Bloques &8: &b<stats_args_2>" 
+      - "&6③ &7Ganado hoy&8: &a<earned>⛃"
+      - "&7" 
+      - "&6④ &7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&6⑤ &7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+# .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------. 
+#| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+#| |  _______     | || |  _________   | || | _____  _____ | || |      __      | || |  _______     | || |  ________    | || |    _______   | || |    ______    | || | _____  _____ | || |     _____    | |
+#| | |_   __ \    | || | |_   ___  |  | || ||_   _||_   _|| || |     /  \     | || | |_   __ \    | || | |_   ___ `.  | || |   /  ___  |  | || |  .' ___  |   | || ||_   _||_   _|| || |    |_   _|   | |
+#| |   | |__) |   | || |   | |_  \_|  | || |  | | /\ | |  | || |    / /\ \    | || |   | |__) |   | || |   | |   `. \ | || |  |  (__ \_|  | || | / .'   \_|   | || |  | |    | |  | || |      | |     | |
+#| |   |  __ /    | || |   |  _|  _   | || |  | |/  \| |  | || |   / ____ \   | || |   |  __ /    | || |   | |    | | | || |   '.___`-.   | || | | |    ____  | || |  | '    ' |  | || |      | |     | |
+#| |  _| |  \ \_  | || |  _| |___/ |  | || |  |   /\   |  | || | _/ /    \ \_ | || |  _| |  \ \_  | || |  _| |___.' / | || |  |`\____) |  | || | \ `.___]  _| | || |   \ `--' /   | || |     _| |_    | |
+#| | |____| |___| | || | |_________|  | || |  |__/  \__|  | || ||____|  |____|| || | |____| |___| | || | |________.'  | || |  |_______.'  | || |  `._____.'   | || |    `.__.'    | || |    |_____|   | |
+#| |              | || |              | || |              | || |              | || |              | || |              | || |              | || |              | || |              | || |              | |
+#| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+# '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
+
+Rewards_Name: "&a&l$ &7Recompensas&8: <job> &a&l$"
+
+Rewards_Item_Lores:
+
+  Reached:
+    - "&7"
+    - "&a✔ &7Has alcanzado este nivel &a✔"
+    
+  Currently:
+    - "&7"
+    - "&6● &7Necesitas <exp> puntos mas de XP para completar este nivel! &6●"
+    
+  Locked:
+    - "&7"
+    - "&c✗ &7Este nivel esta bloqueado &c✗"
+ 
+Rewards_Custom:
+
+  Previous:
+  
+    Display: "&c« &7Pagina anterior &c«"
+    
+    Message_NotFound: "&8[&6Recompensas&8] &cNo se ha encontrado la pagina anterior!"
+    
+    Lore:
+      - "&8↳ &7Volver a la pagina anterior"
+
+  Next:
+  
+    Display: "&a» &7Proxima pagina &a»"
+    
+    Message_NotFound: "&8[&6Recompensas&8] &cNo se ha podido encontrar la proxima pagina!"
+    
+    Lore:
+      - "&8↳ &7Ir a la proxima pagina"
+
+  Close:
+    
+    Display: "&c✖ &7Cerrar Menu &c✖"
+
+# .----------------.  .----------------.  .-----------------. .----------------.  .----------------.  .-----------------. .----------------. 
+#| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+#| |  _______     | || |      __      | || | ____  _____  | || |  ___  ____   | || |     _____    | || | ____  _____  | || |    ______    | |
+#| | |_   __ \    | || |     /  \     | || ||_   \|_   _| | || | |_  ||_  _|  | || |    |_   _|   | || ||_   \|_   _| | || |  .' ___  |   | |
+#| |   | |__) |   | || |    / /\ \    | || |  |   \ | |   | || |   | |_/ /    | || |      | |     | || |  |   \ | |   | || | / .'   \_|   | |
+#| |   |  __ /    | || |   / ____ \   | || |  | |\ \| |   | || |   |  __'.    | || |      | |     | || |  | |\ \| |   | || | | |    ____  | |
+#| |  _| |  \ \_  | || | _/ /    \ \_ | || | _| |_\   |_  | || |  _| |  \ \_  | || |     _| |_    | || | _| |_\   |_  | || | \ `.___]  _| | |
+#| | |____| |___| | || ||____|  |____|| || ||_____|\____| | || | |____||____| | || |    |_____|   | || ||_____|\____| | || |  `._____.'   | |
+#| |              | || |              | || |              | || |              | || |              | || |              | || |              | |
+#| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+# '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
+
+#
+# Global Ranking
+# 
+  
+Global_Name: "&6&l① &7Ranking global &6&l③"
+
+Global_RankingItems:
+
+  OwnSkull:
+  
+    Display: "&6< &7Tus estaditicas &6>"
+
+    Lore:
+      - "&7Rango actual &8: &e#<rank>"
+      - "&7"
+      - "&7Puntos &8: &b<points> Puntos"
+
+  3:
+  
+    Display: "&7&l③ &7<name> &7&l③"
+
+    Lore:
+      - "&7Rango &8: &7#3"
+      - "&7Puntos &8: &e<points> &7Puntos"
+
+  2:
+  
+    Display: "&6&l② &7<name> &6&l②"
+
+    Lore:
+      - "&7Rango &8: &6#2"
+      - "&7Puntos &8: &e<points> &7Puntos"
+
+  1:
+  
+    Display: "&b&l① &7<name> &b&l①"
+
+    Lore:
+      - "&7Rango &8: &b#1"
+      - "&7Puntos &8: &e<points> &7Puntos"
+ 
+Global_Custom:
+
+  Close:
+    
+    Display: "&c✖ &7Cerrar Menu &c✖"
+
+#
+# Per Job Ranking
+#
+ 
+PerJobRanking_Name: "&6&l① &7Ranking &8- <job> &6&l③"
+
+RankingCategories: 
+
+  Level:
+    Display: "&6< &7Nivel &6>"
+    
+    Lore:
+      - "&7Ordenar: &bPor nivel"
+
+  Blocks:
+    Display: "&6< &7Trabajo &6>"
+    
+    Lore:
+      - "&7Ordenar: &bPor Trabajo"
+
+  Today:
+    Display: "&6< &7Ganancias (hoy) &6>"
+    
+    Lore:
+      - "&7Ordenar: &bPor Ganancias (hoy)"
+ 
+PerJobRanking:
+
+  LoreForRanks:
+
+    Level:
+      - "&7Rank&8: &b#<rank>"
+      - "&7Trabajo&8: <job>"
+      - "&7"
+      - "&7Nivel actual&8: &6<level> "
+
+    Blocks:
+      - "&7Rank&8: &b#<rank>"
+      - "&7Trabajo&8: <job>"
+      - "&7"
+      - "&7Ha trabajado&8: &6<times> veces"
+  
+    Today:
+      - "&7Rank&8: &b#<rank>"
+      - "&7Trabajo &8: <job>"
+      - "&7"
+      - "&7Ganancias (hoy)&8: &6<earnings>⛃"
+
+  OwnSkull:
+  
+    Display: "&6< &7Tus estaditicas &6>"
+
+    Lore:
+      - "&7Rank&8: &e#<rank>"
+      - "&7"
+      - "&7Puntos&8: &b<points> Puntos"
+
+  3:
+  
+    Display: "&7&l③ &7<name> &7&l③"
+ 
+  2:
+  
+    Display: "&6&l② &7<name> &6&l②"
+ 
+  1:
+  
+    Display: "&b&l① &7<name> &b&l①"
+ 
+PerJobRanking_Custom:
+
+  Close:
+    
+    Display: "&c✖ &7Cerrar Menu &c✖" 
+    
+# .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------. 
+# .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+#| |   _____      | || |  _________   | || | ____   ____  | || |  _________   | || |   _____      | || |    _______   | || |    ______    | || | _____  _____ | || |     _____    | |
+#| |  |_   _|     | || | |_   ___  |  | || ||_  _| |_  _| | || | |_   ___  |  | || |  |_   _|     | || |   /  ___  |  | || |  .' ___  |   | || ||_   _||_   _|| || |    |_   _|   | |
+#| |    | |       | || |   | |_  \_|  | || |  \ \   / /   | || |   | |_  \_|  | || |    | |       | || |  |  (__ \_|  | || | / .'   \_|   | || |  | |    | |  | || |      | |     | |
+#| |    | |   _   | || |   |  _|  _   | || |   \ \ / /    | || |   |  _|  _   | || |    | |   _   | || |   '.___`-.   | || | | |    ____  | || |  | '    ' |  | || |      | |     | |
+#| |   _| |__/ |  | || |  _| |___/ |  | || |    \ ' /     | || |  _| |___/ |  | || |   _| |__/ |  | || |  |`\____) |  | || | \ `.___]  _| | || |   \ `--' /   | || |     _| |_    | |
+#| |  |________|  | || | |_________|  | || |     \_/      | || | |_________|  | || |  |________|  | || |  |_______.'  | || |  `._____.'   | || |    `.__.'    | || |    |_____|   | |
+#| |              | || |              | || |              | || |              | || |              | || |              | || |              | || |              | || |              | |
+#| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+# '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
+
+Levels_Name: "&6⊙ &7Niveles&8: <job> &6⊙"
+ 
+Levels_Custom:
+
+  Previous:
+  
+    Display: "&c« &7Pagina anterior &c«"
+    
+    Message_NotFound: "&8[&6Niveles&8] &cNo se ha podido encontrar la pagina!"
+    
+    Lore:
+      - "&8↳ &7Ir a la pagina anterior"
+
+  Next:
+  
+    Display: "&a» &7Proxima pagina &a»"
+    
+    Message_NotFound: "&8[&6LevelsGUI&8] &cNo se ha podido encontrar la pagina!"
+    
+    Lore:
+      - "&8↳ &7Ir a la proxima pagina"
+
+  Close:
+    
+    Display: "&c✖ &7Cerrar Menu &c✖"
+
+
+# .----------------.  .----------------.  .----------------.  .----------------.  .----------------. 
+#| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+#| |    _______   | || |  _________   | || |      __      | || |  _________   | || |    _______   | |
+#| |   /  ___  |  | || | |  _   _  |  | || |     /  \     | || | |  _   _  |  | || |   /  ___  |  | |
+#| |  |  (__ \_|  | || | |_/ | | \_|  | || |    / /\ \    | || | |_/ | | \_|  | || |  |  (__ \_|  | |
+#| |   '.___`-.   | || |     | |      | || |   / ____ \   | || |     | |      | || |   '.___`-.   | |
+#| |  |`\____) |  | || |    _| |_     | || | _/ /    \ \_ | || |    _| |_     | || |  |`\____) |  | |
+#| |  |_______.'  | || |   |_____|    | || ||____|  |____|| || |   |_____|    | || |  |_______.'  | |
+#| |              | || |              | || |              | || |              | || |              | |
+#| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+# '----------------'  '----------------'  '----------------'  '----------------'  '----------------'
+
+#config of stats gui - self
+Self_Name: "&b« &7Tus estadisticas &b»"
+ 
+Self_Custom:
+
+  NotFound:
+  
+    Display: "&c✘ &7No se han encontrado &c✘"
+    
+    Lore: "&8↳ &7El jugador no tiene un trabajo"
+
+  Close:
+    
+    Display: "&c✖ &7Cerrar Menu &c✖"
+
+  Skull:
+    
+    Display: "&a✩ &7Tus estadisticas &a✩"
+    
+    Lore:
+      - "&6① &7Limite&8: &c<max>"
+      - "&6② &7Puntos&8: &b<points>"
+      
+#config of stats gui - other
+Other_Name: "&b« &7Estadisticas de <name> &b»"
+ 
+Other_Custom:
+
+  NotFound:
+  
+    Display: "&c✘ &7No se han encontrado &c✘"
+    
+    Lore: "&8↳ &7El jugador no tiene un trabajo"
+
+  Close:
+    
+    Display: "&c✖ &7Cerrar Menu &c✖"
+
+  Skull:
+    
+    Display: "&a✩ &7Estadisticas de <name> &a✩"
+    
+    Lore:
+      - "&6① &7Limite&8: &c<max>"
+      - "&6② &7Puntos&8: &b<points>"
+      
+# .----------------.  .----------------.  .----------------.  .----------------. 
+#| .--------------. || .--------------. || .--------------. || .--------------. |
+#| |     _____    | || |     ____     | || |   ______     | || |    _______   | |
+#| |    |_   _|   | || |   .'    `.   | || |  |_   _ \    | || |   /  ___  |  | |
+#| |      | |     | || |  /  .--.  \  | || |    | |_) |   | || |  |  (__ \_|  | |
+#| |   _  | |     | || |  | |    | |  | || |    |  __'.   | || |   '.___`-.   | |
+#| |  | |_' |     | || |  \  `--'  /  | || |   _| |__) |  | || |  |`\____) |  | |
+#| |  `.___.'     | || |   `.____.'   | || |  |_______/   | || |  |_______.'  | |
+#| |              | || |              | || |              | || |              | |
+#| '--------------' || '--------------' || '--------------' || '--------------' |
+# '----------------'  '----------------'  '----------------'  '----------------'
+ 
+Jobs:
+
+  VILBUX:
+  
+    Display: "&aComercio de aldeanos"
+    
+    DisplayID: "vil-buy"
+    
+    Lore:
+      - "&7Consigue dinero tradeando esmeraldas!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Trabajando desde&8: &a&l<joined>"
+      - "&7Tradeos &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &aComercio de aldeanos &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Tradeos &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Tradeos &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      MAP:
+      
+        Display: "&fMapas"
+        
+        Rewards:
+        
+          Display: "&8< &fMapas &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Tradeado &8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+      REDSTONE:
+      
+        Display: "&cRedstone"
+        
+        Rewards:
+        
+          Display: "&8< &cRedstone &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Tradeado &8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+  DRINK:
+  
+    Display: "&aDrink Potion Job"
+    
+    DisplayID: "drink-potion"
+    
+    Lore:
+      - "&7Consigue Dinero drinking some Potions!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Trabajando desde&8: &a&l<joined>"
+      - "&7Veces &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &aDrink Potion Job &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Veces &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Veces &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      SPEED3:
+      
+        Display: "&f&lSpeed III"
+        
+        Rewards:
+        
+          Display: "&8< &f&lSpeed III &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Times &8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+      SPEED2:
+      
+        Display: "&f&lSpeed II"
+        
+        Rewards:
+        
+          Display: "&8< &f&lSpeed II &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Times &8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+      SPEED1:
+      
+        Display: "&f&lSpeed I"
+        
+        Rewards:
+        
+          Display: "&8< &f&lSpeed I &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Times &8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+  ENCHANTER:
+  
+    Display: "&cEncantador"
+    
+    DisplayID: "enchanter"
+    
+    Lore:
+      - "&7Consigue dinero encantando algunos items!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Trabajando desde&8: &a&l<joined>"
+      - "&7Encantados &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &cEncantador &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Encantados &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Encantados &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      SHARPNESS3:
+      
+        Display: "&f&lSharpness III"
+        
+        Rewards:
+        
+          Display: "&8< &f&lSharpness III &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Encantado&8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+      SHARPNESS2:
+      
+        Display: "&f&lSharpness II"
+        
+        Rewards:
+        
+          Display: "&8< &f&lSharpness II &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Encantado&8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+      SHARPNESS1:
+      
+        Display: "&f&lSharpness I"
+        
+        Rewards:
+        
+          Display: "&8< &f&lSharpness I &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Encantado&8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+  EXPLORE:
+  
+    Display: "&aExplorador"
+    
+    DisplayID: "explore"
+    
+    Lore:
+      - "&7Consigue Dinero yendo a algunos Chunks!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Trabajando desde&8: &a&l<joined>"
+      - "&7Chunks &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &aExplorador &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Chunks &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Chunks &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      CHUNK:
+      
+        Display: "&fChunk"
+        
+        Rewards:
+        
+          Display: "&8< &fChunk &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Chunks &8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+  SMELT:
+  
+    Display: "&fFundicion"
+    
+    DisplayID: "smelt"
+    
+    Lore:
+      - "&7Consigue Dinero fundiendo algunos Items!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Trabajando desde&8: &a&l<joined>"
+      - "&7Items &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &fFundicion &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Items &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Items &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      IRON_INGOT:
+      
+        Display: "&fHierro"
+        
+        Rewards:
+        
+          Display: "&8< &fHierro &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Times &8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+  TREASURE:
+  
+    Display: "&6Busqueda de tesoros"
+    
+    DisplayID: "treasures"
+    
+    Lore:
+      - "&7Consigue Dinero encontrando viejos tesoros!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Trabajando desde&8: &a&l<joined>"
+      - "&7Chests found &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &6Busqueda de tesoros &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Chests found &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Chests found &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      C:
+      
+        Display: "&6&lCofre del tesoro enterrado"
+        
+        Rewards:
+        
+          Display: "&8< &6&lCofre del tesoro enterrado &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Chests found &8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+            
+  KILLBOW:
+  
+    Display: "&4Matar con arco"
+    
+    DisplayID: "bow"
+    
+    Lore:
+      - "&7Consigue dinero matando mobs con arco!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Trabajando desde&8: &a&l<joined>"
+      - "&7Kills &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &4Matar con arco &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Kills &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Kills &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      D2:
+      
+        Display: "&cZombie"
+        
+        Rewards:
+        
+          Display: "&8< &cZombie &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Kills &8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+            
+      D1:
+      
+        Display: "&aJugadores"
+        
+        Rewards:
+        
+          Display: "&8< &aJugadores &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Kills &8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+ 
+  SAPLINGS:
+  
+    Display: "&aCrecer arboles"
+    
+    DisplayID: "saplings"
+    
+    Lore:
+      - "&7Consigue dinero haciendo crecer los arboles!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Trabajando desde&8: &a&l<joined>"
+      - "&7Saplings &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &aCrecer arboles &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Saplings &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Saplings &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      D3:
+      
+        Display: "&6Champiñon marron"
+        
+        Rewards:
+        
+          Display: "&8< &6Champiñon marron &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Crecido &8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+            
+      D2:
+      
+        Display: "&aArbol grande"
+        
+        Rewards:
+        
+          Display: "&8< &aArbol grande &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Crecido &8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+            
+      D1:
+      
+        Display: "&aArbol normal"
+        
+        Rewards:
+        
+          Display: "&8< &aArbol normal &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Crecido &8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+  BERRYS:
+  
+    Display: "&cBayas"
+    
+    DisplayID: "berries"
+    
+    Lore:
+      - "&7Consigue dinero recolectando bayas!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Trabajando desde&8: &a&l<joined>"
+      - "&7Recolectadas &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &cBayas &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Recolectadas &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Recolectadas &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      B1:
+      
+        Display: "&cBayas"
+        
+        Rewards:
+        
+          Display: "&8< &cBayas &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Recolectadas &8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+  BREEDJOB:
+  
+    Display: "&eReproductor"
+    
+    DisplayID: "breed"
+    
+    Lore:
+      - "&7Consigue dinero reproduciendo animales!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Joined Date&8: &a&l<joined>"
+      - "&7Mobs breeded &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &eReproducir &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Mobs reproducidos&8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Mobs reproducidos&8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      COW:
+      
+        Display: "&6Vaca"
+        
+        Rewards:
+        
+          Display: "&8< &6Vaca &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Veces reproducidas&8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+      PIG:
+      
+        Display: "&6Cerdo"
+        
+        Rewards:
+        
+          Display: "&8< &6Cerdo &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Veces reproducidas&8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+  MMOBS:
+  
+    Display: "&cMobs especiales"
+    
+    DisplayID: "mmods"
+    
+    Lore:
+      - "&7Consigue dinero matando a mobs especiales!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Trabajando desde&8: &a&l<joined>"
+      - "&7Mobs matados &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &cMobs especiales &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Mobs matados &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Mobs matados &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      KING:
+      
+        Display: "&6&lRey zombie"
+        
+        Rewards:
+        
+          Display: "&8< &6&lRey zombie &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Veces matado &8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+  TAMEJOB:
+  
+    Display: "&2Domador"
+    
+    DisplayID: "tame"
+    
+    Lore:
+      - "&7Consigue dinero domando gatos!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Trabajando desde&8: &a&l<joined>"
+      - "&7Mobs domados &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &2Domador &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Mobs domados &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Mobs domados &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      CAT:
+      
+        Display: "&eGato"
+        
+        Rewards:
+        
+          Display: "&8< &eGato &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Veces domados &8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+      WOLF:
+      
+        Display: "&fLovo"
+        
+        Rewards:
+        
+          Display: "&8< &fLovo &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Veces domados &8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+  HONEYKEEPER:
+  
+    Display: "&6Recolectador de miel"
+    
+    DisplayID: "honey"
+    
+    Lore:
+      - "&7Consigue dinero recolectando miel!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Trabajando desde&8: &a&l<joined>"
+      - "&7Botellas de miel &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &6Recolectador de miel &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Botellas de miel &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Botellas de miel &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      A2:
+      
+        Display: "&6Colmena"
+        
+        Rewards:
+        
+          Display: "&8< &6Colmena &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Veces clicadas &8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+      A1:
+      
+        Display: "&6Nido de abeja"
+        
+        Rewards:
+        
+          Display: "&8< &6Nido de abeja &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Veces clicadas &8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+  EAT:
+  
+    Display: "&aComer"
+    
+    DisplayID: "eat"
+    
+    Lore:
+      - "&7Consigue dinero comiendo!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Trabajando desde&8: &a&l<joined>"
+      - "&7Comido &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &aComer &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Comido &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Comido &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      A3:
+      
+        Display: "&6Filete cocinado"
+        
+        Rewards:
+        
+          Display: "&8< &6Filete cocinado &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Veces comidas &8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+      A2:
+      
+        Display: "&6Pan"
+        
+        Rewards:
+        
+          Display: "&8< &6Pan &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Veces comidas &8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+      A1:
+      
+        Display: "&6Manzana"
+        
+        Rewards:
+        
+          Display: "&8< &6Manzana &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Veces comidas &8: &6<times>"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+  ADVANCEMENTS:
+  
+    Display: "&6&lLogros"
+    
+    DisplayID: "advancements"
+    
+    Lore:
+      - "&7Consigue dinero completando logros!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Trabajando desde&8: &a&l<joined>"
+      - "&7Completados &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &6&lLogros &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Completados &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Completados &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      Ad2:
+      
+        Display: "&fMejorar herramientas"
+        
+        Rewards:
+        
+          Display: "&8< &fMejorar herramientas &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Ganancias&8: &a<earned>⛃"
+
+      Ad1:
+      
+        Display: "&fFundicion de hierro"
+        
+        Rewards:
+        
+          Display: "&8< &fFundicion de hierro &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7" 
+            - "&7Ganancias&8: &a<earned>⛃"
+
+  SHEAR:
+  
+    Display: "&fEsquilador de ovejas"
+    
+    DisplayID: "shear"
+    
+    Lore:
+      - "&7Consigue dinero esquilando ovejas!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Trabajando desde&8: &a&l<joined>"
+      - "&7Veces esquiladas &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &fEsquilador de ovejas &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Veces esquiladas &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Veces esquiladas &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      Color3:
+      
+        Display: "&fLana blanca"
+        
+        Rewards:
+        
+          Display: "&8< &fLana blanca &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Veces esquiladas &8: &6<times> "
+            - "&7Ganancias&8: &a<earned>⛃"
+            
+      Color2:
+      
+        Display: "&aLana verde"
+        
+        Rewards:
+        
+          Display: "&8< &aLana verde &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7veces esquiladas &8: &6<times> "
+            - "&7Ganancias&8: &a<earned>⛃"
+
+      Color1:
+      
+        Display: "&clana roja"
+        
+        Rewards:
+        
+          Display: "&8< &cLana roja &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Veces esquiladas &8: &6<times> "
+            - "&7Ganancias&8: &a<earned>⛃"
+
+  CRAFTER:
+  
+    Display: "&6&lArtesano"
+    
+    DisplayID: "crafter"
+    
+    Lore:
+      - "&7Consigue dinero crafteando items!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Trabajando desde&8: &a&l<joined>"
+      - "&7Items crafteados &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &6&lArtesano &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Items crafteados &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Items crafteados &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      DIAMOND_SWORD:
+      
+        Display: "&bEspada de diamante"
+        
+        Rewards:
+        
+          Display: "&8< &bEspada de diamante &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Veces crafteadas &8: &6<times> "
+            - "&7Ganancias&8: &a<earned>⛃"
+
+      IRON_PICKAXE:
+      
+        Display: "&fPico de hierro"
+        
+        Rewards:
+        
+          Display: "&8< &fPico de hierro &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Veces crafteados &8: &6<times> "
+            - "&7Ganancias&8: &a<earned>⛃"
+
+      REDSTONE_TORCH:
+      
+        Display: "&cAntorcha de redstone"
+        
+        Rewards:
+        
+          Display: "&8< &cAntorchas de redstone &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Veces crafteadas &8: &6<times> "
+            - "&7Ganancias&8: &a<earned>⛃"
+
+  MILKMAN:
+  
+    Display: "&fLechero"
+    
+    DisplayID: "milkman"
+    
+    Lore:
+      - "&7Consigue dinero ordeñando algunas vacas!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Trabajando desde&8: &a&l<joined>"
+      - "&7Vacas ordeñadas&8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &fLechero &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Vacas ordeñadas &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Vacas ordeñadas&8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      COW:
+      
+        Display: "&6Vaca"
+        
+        Rewards:
+        
+          Display: "&8< &6Vaca &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Veces ordeñadas&8: &6<times> "
+            - "&7Ganancias&8: &a<earned>⛃"
+
+  FISHMAN:
+  
+    Display: "&bPescador"
+    
+    DisplayID: "fishman"
+    
+    Lore:
+      - "&7Consigue dinero pescando peces!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Trabajando desde&8: &a&l<joined>"
+      - "&7Peces &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &bPescador &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Peces &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Peces &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      COD:
+      
+        Display: "&fBacalao"
+        
+        Rewards:
+        
+          Display: "&8< &fBacalao &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Veces pescados &8: &6<times> "
+            - "&7Ganancias&8: &a<earned>⛃"
+
+      PUFFERFISH:
+      
+        Display: "&ePez globo"
+        
+        Rewards:
+        
+          Display: "&8< &ePez globo &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Veces pescados &8: &6<times> "
+            - "&7Ganancias&8: &a<earned>⛃"
+ 
+      TROPICAL_FISH:
+      
+        Display: "&6Pez tropical"
+        
+        Rewards:
+        
+          Display: "&8< &6Pez tropical &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Veces pescados &8: &6<times> "
+            - "&7Ganancias&8: &a<earned>⛃"
+
+  KILLER:
+  
+    Display: "&4Asesino"
+    
+    DisplayID: "killer"
+    
+    Lore:
+      - "&7Consigue dinero matando mobs malos!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Trabajando desde&8: &a&l<joined>"
+      - "&7Kills &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &4Asesino &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Kills &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Kills &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      ZOMBIE:
+      
+        Display: "&cZombie"
+        
+        Rewards:
+        
+          Display: "&8< &cZombie &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Veces asesinados &8: &6<times> "
+            - "&7Ganancias&8: &a<earned>⛃"
+ 
+      CREEPER:
+      
+        Display: "&aCreeper"
+        
+        Rewards:
+        
+          Display: "&8< &aCreeper &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Veces asesinados &8: &6<times> "
+            - "&7Ganancias&8: &a<earned>⛃"
+
+  DIGGER:
+  
+    Display: "&eCavador"
+    
+    DisplayID: "digger"
+    
+    Lore:
+      - "&7Consigue dinero cavando bloques!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Trabajando desde&8: &a&l<joined>"
+      - "&7Bloques &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &eCavador &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Bloques &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Bloques &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      SAND:
+      
+        Display: "&eArena"
+        
+        Rewards:
+        
+          Display: "&8< &eArena &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Veces cavado &8: &6<times> Blocks"
+            - "&7Ganancias&8: &a<earned>⛃"
+ 
+      GRAVEL:
+      
+        Display: "&fGrava"
+        
+        Rewards:
+        
+          Display: "&8< &fGrava &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Veces cavado &8: &6<times> Blocks"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+
+  FARMBREAK:
+  
+    Display: "&aGranjero (Cosechador)"
+    
+    DisplayID: "farmer_break"
+    
+    Lore:
+      - "&7Consigue dinero recolectando cultivos!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Joined Date&8: &a&l<joined>"
+      - "&7Broken Seeds &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &aGranjero (Cosechador) &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Broken Seeds &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Broken Seeds &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      CARROT:
+      
+        Display: "&cZanahoria"
+        
+        Rewards:
+        
+          Display: "&8< &cCarrot &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Times broken &8: &6<times> Blocks"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+      SUGAR_CANE:
+      
+        Display: "&aCaña de azucar"
+        
+        Rewards:
+        
+          Display: "&8< &aSugar Cane &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Times broken &8: &6<times> Blocks"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+      WHEAT:
+      
+        Display: "&6Trigo"
+        
+        Rewards:
+        
+          Display: "&8< &6Trigo &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Times broken &8: &6<times> Blocks"
+            - "&7Ganancias&8: &a<earned>⛃"
+ 
+
+  FARMGROW:
+  
+    Display: "&aGranjero (Cultivador)"
+    
+    DisplayID: "farmer_grow"
+    
+    Lore:
+      - "&7Consigue dinero plantando semillas!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Joined Date&8: &a&l<joined>"
+      - "&7Plants &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &aGranjero (Cultivador) &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Plants &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Plants &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      CARROT:
+      
+        Display: "&cCarrot"
+        
+        Rewards:
+        
+          Display: "&8< &cCarrot &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Times planted &8: &6<times> Blocks"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+      POTATO:
+      
+        Display: "&6Potato"
+        
+        Rewards:
+        
+          Display: "&8< &6Potato &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Times planted &8: &6<times> Blocks"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+      WHEAT:
+      
+        Display: "&6Wheat"
+        
+        Rewards:
+        
+          Display: "&8< &6Wheat &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Times planted &8: &6<times> Blocks"
+            - "&7Ganancias&8: &a<earned>⛃"
+ 
+  LUMBER:
+  
+    Display: "&6Leñador"
+    
+    DisplayID: "lumberjack"
+    
+    Lore:
+      - "&7Consigue dinero talando bloques!"
+    
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Trabajando desde&8: &a&l<joined>"
+      - "&7Bloques &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+
+    StatsGUI:
+    
+       Display: "&8< | &6Leñador &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Bloques &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Bloques &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      OAK_LOG_STRIPPED:
+      
+        Display: "&6Tronco despojado"
+        
+        Rewards:
+        
+          Display: "&8< &6Tronco despojado &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Veces talado &8: &6<times> Blocks"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+      OAK_LOG_BREAK:
+      
+        Display: "&6Tronco"
+        
+        Rewards:
+        
+          Display: "&8< &6Tronco &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Veces talado &8: &6<times> Blocks"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+  MINER:
+  
+    Display: "#50cbed#Minero"
+    
+    DisplayID: "miner"
+    
+    Lore:
+      - "&7Consigue dinero minando!"
+ 
+    Stats:
+      - "&7"
+      - "&aEstadisticas&8:"
+      - "&7Comprado el&8: &b<stats_args_1>"
+      - "&7Joined Date&8: &a&l<joined>"
+      - "&7Blocks &8: &b<stats_args_2>" 
+      - "&7Ganado Hoy&8: &a<earned>⛃"
+      - "&7"
+      - "&7Miembros Actuales (online)&8: &e<online> Players"
+      - "&7" 
+      - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+      - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    StatsGUI:
+    
+       Display: "&8< | #50cbed#Miner &8| >"
+       
+       Lore:
+
+         Other: 
+           - "&7Estadisticas de <name> en este Trabajo&8:"
+           - "&8&m--------------------------"
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Blocks &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+       
+         Self: 
+           - "&7Tus Estadisticas en este Trabajo&8:"
+           - "&8&m--------------------------" 
+           - "&7Comprado el&8: &b<stats_args_1>"
+           - "&7Blocks &8: &b<stats_args_2>" 
+           - "&7Ganado Hoy&8: &a<earned>⛃"
+           - "&7" 
+           - "&7Nivel&8: &b<stats_args_3> &8/ <stats_args_4>"
+           - "&7Experiencia&8: &b<stats_args_5>&8/&c<stats_args_6>" 
+      
+    Levels:
+    
+      1:  
+        Display: "&6Nivel I"
+     
+      2:  
+        Display: "&6Nivel II"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a250⛃"
+      
+      3:  
+        Display: "&6Nivel III"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a500⛃"
+      
+      4: 
+        Display: "&6Nivel IV"
+        
+        Lore:
+          - "&7Recompensas del Nivel&8:"
+          - "&8-> &a1000⛃"
+      
+    IDS:
+
+      STONEBLOCK:
+      
+        Display: "&7&lStone"
+        
+        Rewards:
+        
+          Display: "&8< &7&lStone &8>"
+          
+          Lore:
+            - "&8-----------" 
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Times Broken &8: &6<times> Blocks"
+            - "&7Ganancias&8: &a<earned>⛃"
+
+      COBBLESTONE:
+      
+        Display: "&7&lCobblestone"
+        
+        Rewards:
+        
+          Display: "&8< &7&lCobblestone &8>"
+          
+          Lore:
+            - "&8-----------" 
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Times Broken &8: &6<times> Blocks"
+            - "&7Ganancias&8: &a<earned>⛃"
+    
+      COAL:
+      
+        Display: "&0Coal Ore"
+        
+        Rewards:
+        
+          Display: "&8< &0Coal Ore &8>"
+          
+          Lore:
+            - "&8-----------"
+            - "&7Recompensa&8: &c$<money>"
+            - "&7Probabilidad&8: &9<chance>%"
+            - "&7Experiencia&8: &a<exp>"
+            - "&7Puntos&8: &6<points>"
+            - "&7Accion&8: &4<action>"
+            - "&7"
+            - "&7Times Broken &8: &6<times> Blocks"
+            - "&7Ganancias&8: &a<earned>⛃"

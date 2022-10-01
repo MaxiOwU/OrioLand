@@ -1,0 +1,29 @@
+{
+	"credit": "Made with Blockbench by yungwilder",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/community21/jackhammer"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 15],
+			"translation": [0, 4.25, -1.5],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, -15],
+			"translation": [0, 4.25, -1.5],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [1, 4, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 0],
+			"translation": [1, 4, 0],
+			"scale": [0.7, 0.7, 0.7]
+		}
+	}
+}

@@ -1,0 +1,65 @@
+﻿#########################################################
+## Developed by Little Room, patreon.com/littleroomdev ##
+#########################################################
+
+GiantTurtlePet:
+  Type: PIG
+  AIGoalSelectors:
+  - 0 clear
+  - 1 lookatplayers
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  Drops: []
+  Equipment: []
+  Skills:
+  - model{mid=pet_giantturtle;n=false;drive=true} @self ~onSpawn
+  - skill{s=GiantTurtlePet_INTERACT} @trigger ~onInteract
+  - skill{s=GiantTurtlePet_PetSpawn} @self ~onSpawn
+  - bodyclamp{m=pet_giantturtle;c=10} @self ~onSpawn
+  Display: "§bTortus"
+  Health: 100
+  Damage: 0
+  Options:
+    Collidable: false
+    Invincible: true
+    Despawn: true
+    AlwaysShowName: false
+    PreventOtherDrops: true
+    Silent: true
+    KnockbackResistance: 1
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+    MovementSpeed: 0.2
+    
+GiantTurtleRoyalPet:
+  Type: PIG
+  AIGoalSelectors:
+  - 0 clear
+  - 1 lookatplayers
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  Drops: []
+  Equipment: []
+  Skills:
+  - model{mid=pet_giantturtle_royal;n=false;drive=true} @self ~onSpawn
+  - skill{s=GiantTurtlePet_INTERACT} @trigger ~onInteract
+  - skill{s=GiantTurtlePet_PetSpawn} @self ~onSpawn
+  - bodyclamp{m=pet_giantturtle_royal;c=10} @self ~onSpawn
+  Display: "§bTortus"
+  Health: 100
+  Damage: 0
+  Options:
+    Collidable: false
+    Invincible: true
+    Despawn: true
+    AlwaysShowName: false
+    PreventOtherDrops: true
+    Silent: true
+    KnockbackResistance: 1
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+    MovementSpeed: 0.2

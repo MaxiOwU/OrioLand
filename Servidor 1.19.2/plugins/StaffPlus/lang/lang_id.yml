@@ -1,0 +1,312 @@
+general-prefix: '&dStaff++ &8»'
+warnings-prefix: '&dPeringatan &8»'
+tickets-prefix: '&dTiket &8»'
+trace-prefix: '&dMelacak &8»'
+protect-prefix: '&dDilindungi &8»'
+investigations-prefix: '&dInvestigasi &8»'
+separator-color: '&b'
+staff-list-start: '&7%longline%'
+staff-list-member: '&b%player% &%statuscolor%•'
+staff-list-end: '&7%longline%'
+revived-staff: '&bTas &7%target%''s &btelah dikembalikan ke keadaan sebelumnya!'
+revived-user: '&bTas Anda telah dikembalikan ke keadaan sebelumnya!'
+command-blocked: '&bPerintah itu dikunci oleh staf!'
+mode-command-blocked: '&bPerintah itu dikunci saat menjadi staff!'
+on-cooldown: '&bAnda tidak bisa menggunakan itu selama &7%seconds% &bseconds.'
+note-added: '&bCatatan ditambahkan untuk &7%target%&b.'
+note-cleared: '&bCatatan dibersihkan untuk &7%target%&b.'
+note-deleted: '&bYou deleted note for &7%target%&b with id &6%noteId%&b.'
+note-list-start: '&7%longline%'
+note-list-entry: '&b%count% &7%note%'
+note-list-entry-private: '&b%count% &1[&CP&1] &7%note%'
+notes:
+  staff-notification-created: '&4%notedBy% &6has created a note for player &4%target%&6:
+    [&7%note%&6]'
+  prefix: '&dNotes &8»'
+note-list-end: '&7%longline%'
+player-not-registered: Pemain ini tidak tersedia
+login-register: '&bSetelah Anda menjadi staf, Anda harus mendaftarkan kata sandi Anda
+  agar akun Anda tidak dicuri. Gunakan &7/register &buntuk mendaftar.'
+login-registered: '&bKata sandi diterima! Anda akan dimintai kata sandi setiap Anda
+  login.'
+login-waiting: '&bAnda dibekukan! Harap masukan kata sandi staf.'
+login-accepted: '&bMasuk.'
+passwords-dont-match: '&bKata sandi salah'
+no-permission: '&cAnda tidak memiliki izin untuk melakukan itu!'
+bypassed: '&cPemain itu melewati perintah tersebut!'
+player-offline: '&cPemain tersebut sedang luring!'
+unknown-command: '&cPerintah tidak diketahui.'
+invalid-arguments: '&cArgumen salah! (%usage%)'
+only-players: '&bHanya pemain yang boleh menggunakan perintah tersebut!'
+no-found: '&bTIDAK DITEMUKAN!'
+type-input: '&bMasukkan masukan Anda di obrolan!'
+input-accepted: '&bMasukan diterima dan dikirimkan.'
+enabled: aktif
+disabled: nonaktif
+reports:
+  prefix: '&dLaporan &8»'
+  reporter:
+    report-created: '&bLaporan &7%culprit% &bkarena &7%reason%&b.'
+    report-player-created: '&bLaporan &7%culprit% &bkarena &7%reason%&b.'
+    report-rejected: '&7Laporanmu ditolak oleh &6%staff%&7.'
+    report-resolved: '&7Laporanmu diselesaikan oleh &6%staff%&7.'
+    report-accepted: '&7Laporanmu diterima oleh &6%staff%&7.'
+    view-reports-button: '&9Lihat laporanmu!'
+    view-reports-button-tooltip: Tekan untuk melihat laporanmu
+  report-created-notification: '&7%reporter% &btelah membuat laporan karna &7%reason%&b.'
+  report-player-created-notification: '&7%reporter% &btelah melaporkan %culprit% karna
+    &7%reason%&b.'
+  report-reopened-notification: '&b%staff% &7membuka kembali laporan dari &6%reporter%'
+  report-deleted-notification: '&b%staff% &7menghapus laporan dari &6%reporter%'
+  report-accepted-notification: '&b%staff% &7telah menerima laporan dari &6%reporter%'
+  report-closed-notification: '&6%staff% &fmengganti status menjadi &6%status% &fPelapor:
+    &6%reporter%'
+  reports-cleared: '&bLaporan dibersihkan untuk &7%culprit%&b!'
+  reports-list-start: '&7%longline%, &7%target% &bmemiliki &7%reports% &blaporan.'
+  reports-list-entry: '&b%count%: &7%reason% (%reporter%)'
+  reports-list-end: '&7%longline%'
+  resolve-confirmation-question: |
+    &1===================================================
+    &6       You have chosen to resolve this report"
+    &6Type your closing reason in chat to resolve the report
+    &6      Type "cancel" to cancel closing the report
+    &1===================================================
+  resolve-cancelled: '&CYou have cancelled resolving this report'
+  reject-confirmation-question: |
+    &1==================================================
+    &6        You have chosen to reject this report
+    &6Type your closing reason in chat to reject the report
+    &6        Type "cancel" to cancel closing the report
+    &1==================================================
+  reject-cancelled: '&CYou have cancelled rejecting this report'
+  status:
+    RESOLVED: RESOLVED
+    REJECTED: REJECTED
+    OPEN: OPEN
+    IN_PROGRESS: IN_PROGRESS
+warned: '&bDiperingati &7%target% &bkarena &7%reason%&b.'
+warn: '&bKamu diperingati karena &7%reason%&b.'
+warnings-cleared: '&bPeringatan dihapus untuk &7%target%&b!'
+warnings-list-start: '&7%longline%, &7%target% &boleh &7%warnings% &bperingatan.'
+warnings-list-entry: '&b%count%: &7%reason% (%issuer%)'
+warnings-list-end: '&7%longline%'
+warnings-notify: kamu telah %warningsCount% peringatan baru!
+warned-announcement: '&7%issuer% &btelah memperingati &7%target% &bkarena &7%reason%&b.'
+infraction-item: '&bPeringatan: &7%warnings%, &bLaporan: &7%reports%, &bDilaporkan
+  karena: &7%reason%'
+staff-chat-status: '&bObrolan staf &7%status%&b.'
+staff-chat-muted: '&bObrolan staf &7dibisukan&b.'
+staff-chat-unmuted: '&bObrolan staf &7tidak dibisukan&b.'
+chat-clear-line: ''
+chat-cleared: '&bObrolan telah dibersihkan oleh &7%player%&b.'
+chat-toggled: '&bObrolan telah &7%status% &boleh &7%player%&b.'
+chat-prevented: '&bKamu tidak diperbolehkan menggirimkan obrolan!'
+chat-slowed: '&bObrolan diperlambat &7%seconds% detik &boleh &7%player%&b.'
+chatting-fast: '&bKamu mengirimkan obrolan terlalu cepat!'
+blacklist-hover: '&bPesan ini disensor: &7%censoredlist%&b.'
+blacklist-censor-color: ''
+blacklist-chat-format: '&7%player% &8» &7%message%'
+total-vanish: '&bAnda benar benar menghilang &7%status%&b!'
+list-vanish: '&bAnda menghilang dari list &7%status%&b!'
+player-vanish: '&bPemain Anda benar benar menghilang &7%status%&b!'
+vanish-enabled: '&2Menghilang diaktifkan'
+vanish-chat-prevented: '&bYou are not allowed to chat right now!'
+ticket-submitted: '&bTiket Anda terkirim! &7(#%ticket%)'
+ticket-opened: '&bTiket &7#%ticket% &btelah dibuka oleh Anda!'
+ticket-removed: '&bTiket &7#%ticket% &btelah diselesaikan! (%reason%)'
+ticket-response-staff: '&b#%ticket% - Staf: &7%player% &8» &7%message%'
+ticket-response-user: '&b#%ticket% - Pengguna: &7%player% &8» &7%message%'
+ticket: '&b#%ticket%: &7%player% &8» &7%message%'
+ticket-not-found: '&bTiket itu tidak ditemukan atau sudah ditutup!'
+ticket-list-start: '&7%longline%, &7%tickets% &bmembuka tiket'
+ticket-list-entry: '&b#%ticket% - %target%: &7%message%'
+ticket-list-end: '&7%longline%'
+alert-changed: '&7%alerttype% &7%status%&b.'
+alerts-name: '&7%old% &bmengganti nama Dia menjadi &7%new%&b!'
+alerts-chat-phrase-detected: '&7%target% &bmengirimkan pesan dengan kata (&7%detectedPhrases%&b)'
+alerts-mention: '&7%target% &bmenandai Anda!'
+alerts-xray: '&7%target% &btelah menambang &7%count% %itemtype%&b! &7(%lightlevel%&7)'
+mode-status: '&bMode staf sekarang adalah &7%status%&b.'
+mode-original-location: '&bAnda telah berpindah ke posisi awal!'
+mode-random-teleport: '&bKamu berpindah ke tempat acak!'
+mode-not-enough-players: '&bTidak cukup pemain untuk berpindah acak!'
+mode-fly-enabled: '&3Flight is now &6on'
+mode-fly-disabled: '&3Flight is now &6off'
+gui-reports: '&bLaporan'
+gui-mine: '&bPenambang'
+gui-miner: '&b%player% @ &7%locationy%'
+gui-counted: '&b%player%'
+freeze: '&4&lKamu telah dibekukan! Jangan keluar dari game!, &4&lSilahkan bergabung
+  ke @ shortninja.net'
+unfrozen: '&bAnda sudah tidak dibekukan.'
+staff-froze: '&bAnda membekukan &7%target%&b.'
+staff-unfroze: '&bAnda tidak membekukan &7%target%&b.'
+freeze-logout: '&7%player% &bkeluar saat dibekukan!'
+freeze-title: '&6Anda telah dibekukan'
+freeze-subtitle: Jangan keluar saat dibekukan!
+freeze-chat-prevented: '&bYou are not allowed to chat right now!'
+cps-start: '&bMelakukan tes CPS &7%target% &bselama &7%seconds% &bseconds...'
+cps-finish-normal: '&7%player% &bsekitar &7%cps% &bCPS. &7(mungkin tidak berbahaya)'
+cps-finish-max: '&7%player% &bsekitar &7%cps% &bCPS. &7(kemungkinan autoclick)'
+examine-food: '&bNyawa: &7%health%, &bLapar: &7%hunger%'
+examine-ip: '&bAlamat IP: &7%ipaddress%'
+examine-gamemode: '&bGamemode: &7%gamemode%'
+examine-location: '&bLokasi: &7%location%'
+examine-warn: '&bMemperingati pemain ini'
+examine-freeze: '&bMembekukan pemain ini'
+examine-notes: '&bCatatan Pemain:'
+examine-notes-note: '&b%player%: &7%note%'
+follow: '&bAnda sekarang &7%status% %target%&b.'
+strip: '&7%player%''s Anda ditelanjangi!'
+ban-permabanned: '&6%target% telah dibanned permanen oleh %issuer%'
+ban-tempbanned: '&6%target% telah dibanned oleh %issuer% selama %duration%'
+ban-unbanned: '&6%target% telah unbanned permanen oleh %issuer%'
+ban-extended: '&7Banned Anda telah diperpanjang &6%target%&7''s selama %extensionDuration%'
+ban-reduced: '&7Banned Anda telah diperpendek &6%target%&7''s selama %reductionDuration%'
+ban-tempbanned-kick: '[Banned] Anda dibanned sementara. Ban ends in: %duration%'
+ban-permabanned-kick: '[Banned] Anda dibanned permanen'
+ban-appeal-open-notify: There are %appealsCount% unresolved appealed bans!
+ipbans:
+  prefix: '&dBans &8»'
+  permabanned: '&6%issuer% telah dibanned alamat ip %ip% dari server'
+  tempbanned: '&6%issuer% telah dibanned alamat ip %ip% dari server selama %duration%'
+  unbanned: '&6%issuer% telah dibanned alamat ip %ip%  dari server'
+  tempbanned-kick: '[Banned] Alamat ipmu dibanned sementara dari server'
+  permabanned-kick: '[Banned] Alamat ipmu dibanned selamanya dari server'
+kick-notifyplayers: '&6%target% telah ditendang dari server %issuer%'
+kick-kickmessage: '&6Anda telah ditendang dari server oleh %issuer%. Alasan: %reason%'
+mute-expired: '&6Masa bisu Anda telah selesai. Anda dapat mengobrol kembali.'
+mute-permamuted: '&6%target% telah dibisukan oleh %issuer%'
+mute-unmuted: '&6%target% sudah tidak dibisukan oleh %issuer%'
+mute-tempmuted: '&6%target% dibisukan oleh %issuer% selama %duration%'
+mute-muted: '&6Anda dibisukan. Tidak diperbolehkan mengirim pesan.'
+mute-extended: '&7You have extended &6%target%&7''s mute by %extensionDuration%'
+mute-reduced: '&7You have reduced &6%target%&7''s mute by %reductionDuration%'
+mute-appeal-open-notify: There are %appealsCount% unresolved appealed mutes!
+mute-notify: You are currently muted!
+appeal-created: '&6Permohonan telah dikirim.'
+appeal-approved: '&6Permohonan telah &2diterima&6.'
+appeal-rejected: '&6Permohonan telah &4ditolak&6.'
+appeal-approve: '&6Permohonan diterima'
+appeal-reject: '&6Permohonan ditolak'
+appeal-open-notify: Ada %appealsCount% permohonan yang belum selesai!
+investigated:
+  investigation-started: '&6Anda memulai investigasi'
+  investigation-paused: '&6Investigasi dihentikan sementara'
+  investigation-concluded: '&6Investigasi telah disimpulkan'
+  under-investigation-title: '&CAnda dalam proses Investigasi'
+  under-investigation-join: '&6Anda sekarang sedang diinvestigasi'
+investigation:
+  staff-notification-started: '&4%investigator% &6telah mulai menginvestigasi &4%investigated%'
+  staff-notification-concluded: '&4%investigator% &6telah memberikan kesimpulan ke
+    investigasi di &4%investigated%'
+  staff-notification-paused: '&4%investigator% &6telah menghentikan sementara investigasi
+    &4%investigated%'
+  staff-notification-evidence-linked: '&4%investigator% &6berhubungan dengan bukti
+    %evidenceType% (ID=%evidenceId%) untuk menginvestigasi (ID=%investigationId%)'
+  staff-notification-evidence-unlinked: '&4%investigator% &6tidak berubungan dengan
+    bukti %evidenceType% (ID=%evidenceId%) dari investigasi (ID=%investigationId%)'
+  staff-notification-note-added: '&4%investigator% &6menambahkan catatan investigasi
+    (ID=%investigationId%)'
+  staff-notification-note-deleted: '&4%investigator% &6menghapus catatan investigasi
+    (ID=%investigationId%)'
+ips:
+  prefix: '&dIPs &8»'
+  issuer:
+    history-cleared: '&7Jejak Alamat IP telah dihapus &6%player%'
+  staff-notifications:
+    history-cleared: '&4%issuer% &7 telah menghapus Jejak Alamat IP &6%player%'
+gui:
+  id: Id
+  status: Status
+  server: Server
+  type: Type
+  reason: Reason
+  close-reason: Close reason
+  timestamp: Timestamp
+  unknown: Unknown
+  location: Location
+  back: Back
+  previous-page: Previous Page
+  next-page: Next Page
+  confirmation:
+    confirm: Confirm
+    cancel: Cancel
+  bans:
+    appeal-detail:
+      approve:
+        title: Approve Appeal
+        lore: Click to approve this appeal
+      reject:
+        title: Reject Appeal
+        lore: Click to reject this appeal
+  mutes:
+    appeal-detail:
+      approve:
+        title: Approve Appeal
+        lore: Click to approve this appeal
+      reject:
+        title: Reject Appeal
+        lore: Click to reject this appeal
+  warnings:
+    appeal-detail:
+      approve:
+        title: Approve Appeal
+        lore: Click to approve this appeal
+      reject:
+        title: Reject Appeal
+        lore: Click to reject this appeal
+  reports:
+    report: Report
+    assignee: Assignee
+    culprit: Culprit
+    reporter: Reporter
+    manage-reports:
+      title: Manage reports
+      show-unresolved:
+        title: Open reports
+        lore: Show all unresolved reports
+      assigned-to-me:
+        title: Reports assigned to me
+        lore: Show all reports assigned to me
+      in-progress:
+        title: Reports in progress
+        lore: Show all assigned
+      closed:
+        title: Closed reports
+        lore: Show all closed reports
+    assigned-reports:
+      title: Reports in progress
+    my-assigned-reports:
+      title: Reports assigned to you
+      left-click-to-detail: '&7Left click to &6view detail'
+      right-click-to-resolve: '&7Right click to &2resolve'
+      middle-click-to-reject: '&7Middle click to &Creject'
+    my-reports:
+      title: My reports
+    open-reports:
+      title: Open reports
+      left-click-to-accept: '&7Left click to &6accept'
+      right-click-to-resolve: '&7Right click to &2resolve'
+      middle-click-to-reject: '&7Middle click to &Creject'
+    closed-reports:
+      title: Closed reports
+    find-reports:
+      title: Find reports
+    detail:
+      title: 'Report by: '
+      resolve:
+        title: Resolve report
+        lore: Click to resolve report
+      unassign:
+        title: Unassign
+        lore: Click to unassign yourself from this report
+      reject:
+        title: Reject report
+        lore: Click to mark this report as rejected
+      delete:
+        title: Delete
+        lore: Click to delete this report
+      teleport:
+        title: Teleport
+        lore: Click to teleport to where this report was created

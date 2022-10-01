@@ -1,0 +1,29 @@
+{
+	"credit": "Made with Blockbench by yungwilder",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/cherry_blossom21/kunai"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [45, 90, 0],
+			"translation": [0, 2, 2],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [45, -90, 0],
+			"translation": [0, 2, 2],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 100, 0],
+			"translation": [2, 2.5, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 0],
+			"translation": [2, 2.5, 0],
+			"scale": [0.6, 0.6, 0.6]
+		}
+	}
+}

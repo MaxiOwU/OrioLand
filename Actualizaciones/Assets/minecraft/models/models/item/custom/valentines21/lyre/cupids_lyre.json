@@ -1,0 +1,19 @@
+{
+	"credit": "Made with Blockbench by yungwilder",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/valentines21/lyre/cupids_lyre"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [35, 90, 0],
+			"scale": [0.6, 0.6, 0.6],
+			"translation": [0, 3, 3]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [35, 90, 0],
+			"scale": [0.6, 0.6, 0.6],
+			"translation": [0, 3, 3]
+		}
+	}
+}

@@ -1,0 +1,39 @@
+heart:
+  texture: default/chat/heart
+  ascent: 8
+  height: 8
+  code: 900
+  chat:
+    placeholders:
+      - "<3"
+  permission: "oraxen.emoji.heart"
+
+god:
+  texture: default/chat/god
+  ascent: 8
+  height: 8
+  code: 901
+  chat:
+    placeholders:
+      - ":god:"
+  permission: "oraxen.emoji.god"
+
+jaja:
+  texture: default/chat/jaja
+  ascent: 8
+  height: 8
+  code: 902
+  chat:
+    placeholders:
+      - ":jaja:"
+  permission: "oraxen.emoji.jaja"
+
+jeje:
+  texture: default/chat/jeje
+  ascent: 8
+  height: 8
+  code: 903
+  chat:
+    placeholders:
+      - ":jeje:"
+  permission: "oraxen.emoji.jeje"

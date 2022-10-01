@@ -1,0 +1,109 @@
+# .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------. 
+#| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+#| | _____  _____ | || |     _____    | || |  _________   | || |  ____  ____  | || |  ________    | || |  _______     | || |      __      | || | _____  _____ | |
+#| ||_   _||_   _|| || |    |_   _|   | || | |  _   _  |  | || | |_   ||   _| | || | |_   ___ `.  | || | |_   __ \    | || |     /  \     | || ||_   _||_   _|| |
+#| |  | | /\ | |  | || |      | |     | || | |_/ | | \_|  | || |   | |__| |   | || |   | |   `. \ | || |   | |__) |   | || |    / /\ \    | || |  | | /\ | |  | |
+#| |  | |/  \| |  | || |      | |     | || |     | |      | || |   |  __  |   | || |   | |    | | | || |   |  __ /    | || |   / ____ \   | || |  | |/  \| |  | |
+#| |  |   /\   |  | || |     _| |_    | || |    _| |_     | || |  _| |  | |_  | || |  _| |___.' / | || |  _| |  \ \_  | || | _/ /    \ \_ | || |  |   /\   |  | |
+#| |  |__/  \__|  | || |    |_____|   | || |   |_____|    | || | |____||____| | || | |________.'  | || | |____| |___| | || ||____|  |____|| || |  |__/  \__|  | |
+#| |              | || |              | || |              | || |              | || |              | || |              | || |              | || |              | |
+#| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+# '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
+
+#
+# <-------- { INFORMATIONS } -------->
+# 
+# You need more Help? Docs -> https://dto.mc-plugins.org
+# Join our Discord -> https://dcto.mc-plugins.org
+# Visit out Website -> https://mc-plugins.org
+#
+ 
+#Name of the GUI
+Withdraw_Name: "{language:Withdraw_Name}"
+ 
+#Size of the GUI
+Withdraw_Size: 5
+
+Withdraw_Items:
+
+  #
+  # This Item is shown when the collected Salary is "0"!
+  #
+
+  NoSalaryToCollect:
+ 
+    Show: true
+    
+    ShowLore: true
+    
+    Material: "BARRIER"
+    
+    Slot: 22
+    
+  #
+  # These Items are shown when the Salary is NOT "0"!
+  #
+
+  Info:
+ 
+    Show: true
+    
+    ShowLore: true
+  
+    Material: "BEACON"
+    
+    Slot: 21
+  
+  CollectButton:
+ 
+    Show: true
+    
+    ShowLore: true
+  
+    Material: "GREEN_DYE"
+    
+    Slot: 23
+ 
+#Custom Items Section
+Withdraw_Custom:
+
+  List:
+    - "Close" 
+ 
+  Close:
+
+    Display: "{language:Withdraw_Custom.Close.Display}"
+
+    ActionList:
+      - "CLOSE"
+      
+    Material: "url;http://textures.minecraft.net/texture/afd2400002ad9fbbbd0066941eb5b1a384ab9b0e48a178ee96e4d129a5208654"
+
+    Slot: 44
+
+#Placeholders of the GUI 
+Withdraw_Place:
+  - "BLACK_STAINED_GLASS_PANE:0:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:1:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:2:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:3:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:4:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:5:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:6:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:7:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:8:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:9:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:17:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:18:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:26:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:27:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:35:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:36:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:37:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:38:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:39:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:40:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:41:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:42:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:43:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:44:&8-/-"

@@ -1,0 +1,356 @@
+---
+chat:
+  wrong-command-usage: <error>Lệnh sai!
+  missing-permission: '<error>Bạn không có quyền sử dụng: <highlight>%PERMISSION%'
+  too-many-arguments: <error>Quá nhiều lỗi sai trong lệnh!
+  quest-successfully-accepted: |2
+    <success>Bạn đã chấp nhận nhiệm vụ <highlight>%QUESTNAME%<success>.
+  quest-description: '<main>Mô tả nhiệm vụ: <unimportant>%QUESTDESCRIPTION%'
+  quest-already-accepted: <error>Nhiệm vụ đã được chấp nhận.
+  quest-failed: |2
+    <warn>Bạn đã <error><bold>THẤT BẠI <warn>nhiệm vụ <highlight>%QUESTNAME%<warn>!
+  quest-aborted: ''
+  quest-completed-and-rewards-given: |2
+
+    <CENTER>[Hoàn Thành Nhiệm Vụ] <success>
+    <CENTER><highlight><bold>%QUESTNAME%
+    <EMPTY>
+  quest-completed-rewards-prefix: '    <highlight>Phần thưởng:'
+  quest-completed-rewards-rewardformat: '    <highlight> - <unimportant>%reward%'
+  quest-completed-rewards-suffix: <EMPTY>
+  quest-not-all-requirements-fulfilled: '<negative>Bạn không đáp ứng tất cả các yêu cầu mà nhiệm vụ này cần! Yêu cầu:'
+  action-not-all-conditions-fulfilled: '<negative>Bạn không đáp ứng tất cả các điều kiện mà hành động này cần! Các điều kiện cần:'
+  missing-quest-description: <warn>Nhiệm vụ chưa có mô tả.
+  objectives-label-after-quest-accepting: 'Mục Tiêu <main>:'
+  questpoints:
+    query: <warn>Bạn đang có <highlight>%QUESTPOINTS% <warn>điểm nhiệm vụ.
+    none: <error>Có vẻ như bạn không có bất kỳ điểm nhiệm vụ nào!
+    notify-when-changed:
+      set: '<main>Điểm nhiệm vụ của bạn đã được chỉnh thành <highlight>%NEWQUESTPOINTSAMOUNT%</highlight>.'
+      add: 'Điểm nhiệm vụ <highlight>+%QUESTPOINTSTOADD% <success>!'
+      remove: 'Điểm nhiệm vụ <highlight>-%QUESTPOINTSTOREMOVE% <negative>!'
+  no-quests-accepted: <error>Có vẻ như bạn không có bất kỳ nhiệm vụ nào đang hoạt động!
+  quest-does-not-exist: <error>Nhiệm vụ <highlight>%QUESTNAME% <error>không tồn tại!
+  quest-not-found-or-does-not-exist: <error>Nhiệm vụ <highlight>%QUESTNAME% <error>không tìm thấy hoặc không hoạt động!
+  active-quests-label: '<warn>Nhiệm vụ đã được hoạt động:'
+  take-disabled: <error>Đồng ý hoặc xem trước nhiệm vụ <highlight>%QUESTNAME%</highlight> đã bị tắt.
+  quest-not-active-error: '<error>Lỗi: <highlight>%QUESTNAME% <error>nhiệm vụ chưa được hoạt động!'
+  force-add-active-quest-accepted: '<success>Đã chập nhận thành công nhiệm vụ (Bắt buộc).'
+  add-active-quest-player-object-not-found: '<warn>Lỗi: Không tìm thấy người chơi. Vui lòng báo cáo điều này cho nhà phát triển plugin.'
+  reached-max-accepts-limit: "<red>Bạn đã hoàn thành nhiệm vụ này quá nhiều lần rồi. Bạn chỉ có thể chấp nhận nó\n<highlight>%MAXACCEPTS%</highlight> lần, nhưng bạn đã chấp nhận nó rồi\n<highlight>%COMPLETEDAMOUNT%</highlight>lần thành công."
+  reached-max-active-quests-per-player-limit: '<red>Bạn không thể chấp nhận nhiều hơn <highlight>%MAXACTIVEQUESTSPERPLAYER%</highlight> nhiệm vụ.'
+  quest-on-cooldown:
+    minute: '<red>Nhiệm vụ này đang trong thời gian chờ! Bạn phải đợi khoảng <highlight>1 phút</highlight> cho đến khi bạn có thể làm nhiệm vụ đó.'
+    minutes: '<red>Nhiệm vụ này đang trong thời gian chờ! Bạn phải đợi khoảng <highlight>%MINUTES% phút</highlight> cho đến khi bạn có thể làm nhiệm vụ đó.'
+    hour: '<red>Nhiệm vụ này đang trong thời gian chờ! Bạn phải đợi khoảng <highlight>1 tiếng</highlight> cho đến khi bạn có thể làm nhiệm vụ đó.'
+    hours: '<red>Nhiệm vụ này đang trong thời gian chờ! Bạn phải đợi khoảng <highlight>%HOURS% tiếng</highlight> cho đến khi bạn có thể làm nhiệm vụ đó.'
+    day: '<red>Nhiệm vụ này đang trong thời gian chờ! Bạn phải đợi khoảng <highlight>1 ngày</highlight> cho đến khi bạn có thể làm nhiệm vụ đó.'
+    days: '<red>Nhiệm vụ này đang trong thời gian chờ! Bạn phải đợi khoảng <highlight>%DAYS% ngày</highlight> cho đến khi bạn có thể làm nhiệm vụ đó.'
+  conversations:
+    choose-answer-prefix: |-
+      <EMPTY>
+      <main>Chọn câu trả lời của bạn:</main>
+    choose-answer-answer-hover-text: '<highlight>Nhấn để trả lời'
+    ended-previous-conversation: '<main>Bạn đã kết thúc cuộc trò chuyện trước đó của mình!'
+    speaker-line-format: '%SPEAKERCOLOR%[%SPEAKER%] <GRAY>%MESSAGE%'
+    answer-option-line-format: ' <main>%OPTIONNUMBER%. <gray>%MESSAGE%'
+  objectives:
+    counter: '<warn>%OBJECTIVEID%. %OBJECTIVENAME%:'
+    hidden: <warn>%OBJECTIVEID%. <unimportant><bold>[KHÓA]
+    description: '   <main>Mô Tả: <highlight>%OBJECTIVEDESCRIPTION%'
+    progress: '   <unimportant>Tiến Trình: <main>%ACTIVEOBJECTIVEPROGRESS% / %OBJECTIVEPROGRESSNEEDED%'
+    successfully-completed: |2
+
+      <CENTER><success>[Mục tiêu đã hoàn thành]
+      <CENTER><highlight><bold>%OBJECTIVENAME%</bold><RESET><main>(%QUESTNAME%)
+      <EMPTY>
+    successfully-completed-rewards-prefix: '    <highlight>Phần thưởng:'
+    successfully-completed-rewards-rewardformat: '    <highlight> - <unimportant>%reward%'
+    successfully-completed-rewards-suffix: <EMPTY>
+    taskDescription:
+      global:
+        prefix: '    <veryUnimportant>└─ <unimportant>'
+        suffix: ''
+      breakBlocks:
+        base: 'Break Blocks: <main>%BLOCKTOBREAK%'
+      breed:
+        base: 'Breed Mobs: <main>%ENTITYTOBREED%'
+      collectItems:
+        base: 'Collect Items: <main>%ITEMTOCOLLECTTYPE% %(%%ITEMTOCOLLECTNAME%%)%'
+      consumeItems:
+        base: 'Consume Items: <main>%ITEMTOCONSUMETYPE% %(%%ITEMTOCONSUMENAME%%)%'
+      craftItems:
+        base: 'Craft Items: <main>%ITEMTOCRAFTTYPE% %(%%ITEMTOCRAFTNAME%%)%'
+      deliverItems:
+        base: 'Deliver Items: <main>%ITEMTODELIVERTYPE% (%ITEMTODELIVERNAME%)'
+        deliver-to-npc: '      <GRAY>Giao nó cho<WHITE>%NPCNAME%'
+        deliver-to-npc-not-available: '      <GRAY>NPC giao hàng hiện không có sẵn!'
+        deliver-to-npc-citizens-not-found: '    <RED>Lỗi plugin: Citizens chưa tải. Hãy nói với ban quản trị.'
+        deliver-to-armorstand: '    <GRAY>Deliver it to <WHITE>%ARMORSTANDNAME%'
+        deliver-to-armorstand-not-available: '    <GRAY>Bệ Giáp hiện không có sẵn!'
+      escortNPC:
+        base: 'Escort <main>%NPCNAME%</main> to <main>%DESTINATIONNPCNAME%'
+      fishItems:
+        base: 'Fish Items: <main>%ITEMTOFISHTYPE% %(%%ITEMTOFISHNAME%%)%'
+      killMobs:
+        base: 'Kill mobs: <main>%MOBTOKILL%'
+      otherQuest:
+        base: 'Complete Quest: <main>%OTHERQUESTNAME%'
+      placeBlocks:
+        base: 'Place Blocks: <main>%BLOCKTOPLACE%'
+      reachLocation:
+        base: 'Reach Location: <main>%LOCATIONNAME%'
+      talkToNPC:
+        base: 'Talk to <main>%NAME%'
+      triggerCommand:
+        base: 'Goal: <main>%TRIGGERNAME%'
+      killEliteMobs:
+        base: 'Kill Elite Mob: <main>%ELITEMOBNAME%'
+        any: 'Kill any Elite Mob!'
+      runCommand:
+        base: 'Run command: <main>%COMMANDTORUN%'
+      interact:
+        base: '%INTERACTTYPE% Location: <main>%COORDINATES% <main>in world %WORLDNAME%'
+      jump:
+        base: 'Jump <main>%AMOUNTOFJUMPS%</main> times'
+      sneak:
+        base: 'Sneak <main>%AMOUNTOFSNEAKS%</main> times'
+      smelt:
+        base: 'Smelt Items: <main>%ITEMTOSMELTTYPE% %(%%ITEMTOSMELTNAME%%)%'
+      openBuriedTreasure:
+        base: 'Open buried treasures'
+      townyReachResidentCount:
+        base: 'Reach resident amount: <main>%AMOUNT%'
+      townyNationReachTownCount:
+        base: 'Reach town amount with your nation: <main>%AMOUNT%'
+      jobsRebornReachJobLevel:
+        base: 'Reach job level <main>%AMOUNT%</main> with job <main>%JOB%'
+      SlimefunResearch:
+        base: 'Spend on research'
+      ProjectKorraUseAbility:
+        base: 'Use Ability: <main>%ABILITY%'
+      BetonQuestCompleteObjective:
+        base: 'Finish Objective: <main>%BETONQUESTOBJECTIVENAME%'
+      ultimateJobsReachJobLevel:
+        base: 'Reach job level <main>%AMOUNT%</main> with job <main>%JOBID%'
+  conditions:
+    boolean:
+      not-fulfilled: "<warn>Cần phải được %BOOLEANREQUIREMENT%: <highlight>%VARIABLESINGULAR%</highlight>."
+      variable-not-found: "<error>Error: variable <highlight>%VARIABLENAME%</highlight> not found. Report this to the Server owner."
+      wrong-operator: "<error>Error: variable operator <highlight>%OPERATOR%/highlight> is invalid. Report this to the Server owner."
+objective-tracking:
+  actionbar-progress-update:
+    default: "<positive>%QUESTNAME%</positive> <unimportant>- <main>%OBJECTIVENAME%</main> <unimportant>(<positive>%ACTIVEOBJECTIVEPROGRESS% <unimportant>/ <main>%OBJECTIVEPROGRESSNEEDED% <unimportant>- <highlight>%OBJECTIVEPROGRESSPERCENTAGE%%<unimportant>)"
+    only-one-max-progress: "<positive>%QUESTNAME%</positive> <unimportant>- <main>%OBJECTIVENAME%</main> <unimportant>(<highlight>%OBJECTIVEPROGRESSPERCENTAGE%%<unimportant>)"
+  bossbar-progress-update:
+    default: "<positive>%QUESTNAME%</positive> <unimportant>- <main>%OBJECTIVENAME%</main> <unimportant>(<positive>%ACTIVEOBJECTIVEPROGRESS% <unimportant>/ <main>%OBJECTIVEPROGRESSNEEDED% <unimportant>- <highlight>%OBJECTIVEPROGRESSPERCENTAGE%%<unimportant>)"
+    only-one-max-progress: "<positive>%QUESTNAME%</positive> <unimportant>- <main>%OBJECTIVENAME%</main> <unimportant>(<highlight>%OBJECTIVEPROGRESSPERCENTAGE%%<unimportant>)"
+titles:
+  quest-accepted:
+    title: <main>Chấp Nhận Nhiệm Vụ
+    subtitle: <highlight>%QUESTNAME%
+  quest-completed:
+    title: <positive>Hoàn Thành Nhiệm Vụ
+    subtitle: <highlight>%QUESTNAME%
+  quest-failed:
+    title: <negative>Nhiệm Vụ Thất Bại
+    subtitle: <highlight>%QUESTNAME%
+placeholders:
+  questcooldownleftformatted:
+    prefix: ''
+    minute: '1 minute'
+    minutes: '%MINUTES% minutes'
+    hour: '1 hour'
+    hours: '%HOURS% giờ'
+    day: '1 day'
+    days: '%DAYS% ngày'
+    no-cooldown: ''
+gui:
+  main:
+    title: '                <main>Nhiệm Vụ'
+    backgroundFill:
+      material: 'BLACK_STAINED_GLASS_PANE'
+    background:
+      '1':
+        minX: 0
+        maxX: 8
+        minY: 0
+        maxY: 0
+      '2':
+        minX: 0
+        maxX: 0
+        minY: 0
+        maxY: 5
+      '3':
+        minX: 1
+        maxX: 1
+        minY: 0
+        maxY: 5
+      '4':
+        minX: 2
+        maxX: 2
+        minY: 0
+        maxY: 5
+    button:
+      questpoints:
+        name: "<highlight>Điểm nhiệm vụ"
+        lore:
+          - "<main>Điểm nhiệm vụ hiện tại: <highlight2>%QUESTPOINTS%"
+        x: 8
+        y: 0
+      takequest:
+        name: "<positive>Thực hiện nhiệm vụ"
+        lore:
+          - "<unimportant>Bắt đầu nhiệm vụ mới!"
+          - ""
+          - "<veryUnimportant>Một số Nhiệm vụ không được"
+          - "<veryUnimportant>bắt đầu như thế này."
+        x: 0
+        y: 1
+      abortquest:
+        name: "<negative>Abort a Quest"
+        lore:
+          - ""
+          - "<veryUnimportant>Aborting a Quest may"
+          - "<veryUnimportant>lead to punishments."
+        x: 0
+        y: 2
+      activequests:
+        name: "<highlight>Active Quests"
+        lore:
+          - ""
+          - "<veryUnimportant>Shows all of your"
+          - "<veryUnimportant>active Quests."
+        x: 0
+        y: 3
+  activeQuests:
+    title: '             <main>Nhiệm Vụ Đang Hoạt Động'
+    button:
+      activeQuestButton:
+        name: "<highlight>%QUESTNAME% <positive>[ACTIVE]"
+        lore:
+          - "<unimportant>Progress: <positive>%COMPLETEDOBJECTIVESCOUNT% <unimportant>/ <main>%ALLOBJECTIVESCOUNT%"
+          - "<main>Click to see details!"
+  reward-hidden-text: . <unimportant>[KHÓA]
+  availableQuests:
+    title: '         <main>Nhiệm Vụ Hiện Có'
+    button:
+      questPreview:
+        name-if-not-accepted: "<highlight>%QUESTNAME%"
+        name-if-accepted: "<highlight>%QUESTNAME% <reset><positive>[ACCEPTED]"
+        lore:
+          - "<veryUnimportant>%WRAPPEDQUESTDESCRIPTION%"
+          - "<main>Click to open Quest!"
+  takeQuestChoose:
+    title: <main>Bạn muốn nhận nhiệm vụ nào?
+    size:
+      minX: 3
+      minY: 1
+      maxX: 8
+      maxY: 5
+    button:
+      questPreview:
+        name-if-not-accepted: "<highlight>%QUESTNAME%"
+        name-if-accepted: "<highlight>%QUESTNAME% <reset><positive>[ACCEPTED]"
+        lore:
+          - "<veryUnimportant>%WRAPPEDQUESTDESCRIPTION%"
+          - "<success>Nhấn để xem trước nhiệm vụ"
+  abortQuestChoose:
+    title: '  <main>Nhiệm vụ của bạn có thể được hủy bỏ'
+    button:
+      abortQuestPreview:
+        name: "<highlight>%QUESTNAME% <positive>[ACTIVE]"
+        lore:
+          - "<unimportant>Progress: <positive>%COMPLETEDOBJECTIVESCOUNT% <unimportant>/ <main>%ALLOBJECTIVESCOUNT%"
+          - "<negative>Click to abort Quest!"
+  abortQuest:
+    title: '         <error>Hủy bỏ xác nhận'
+    button:
+      confirmAbort:
+        name: "<highlight>%QUESTNAME% <positive>[ACTIVE]"
+        lore:
+          - "<unimportant>Progress: <positive>%COMPLETEDOBJECTIVESCOUNT% <unimportant>/ <main>%ALLOBJECTIVESCOUNT%"
+          - "<negative>Click to abort the quest <highlight>%QUESTNAME%</highlight>!"
+        x: 3
+        y: 1
+      cancelAbort:
+        name: "<positive>Click to NOT abort this quest"
+        lore:
+          - "<positive>and cancel this action"
+        x: 5
+        y: 1
+  previewQuest:
+    title: <highlight2>Quest Preview
+    button:
+      description:
+        name: "<highlight>Description"
+        lore:
+          - "<veryUnimportant>%WRAPPEDQUESTDESCRIPTION%"
+        lore-if-empty:
+          - "<veryUnimportant>???"
+        x: 2
+        y: 0
+      rewards:
+        name: "<positive>Rewards"
+        lore:
+          - "<WHITE>%QUESTREWARDS%"
+        lore-if-empty:
+          - "<veryUnimportant>Không có hoặc bị khóa"
+        x: 4
+        y: 0
+      requirements:
+        name: "<negative>Requirements"
+        lore:
+          - "<WHITE>%QUESTREQUIREMENTS%"
+        lore-if-empty:
+          - "<veryUnimportant>-"
+        x: 6
+        y: 0
+      confirmTake:
+        name: "<highlight>%QUESTNAME%"
+        lore:
+          - "<positive>Click to take the quest <highlight>%QUESTNAME%"
+        x: 3
+        y: 2
+      cancelTake:
+        name: "<negative>Click to NOT take this quest"
+        lore:
+          - "<negative>and cancel this action"
+        x: 5
+        y: 2
+  progress:
+    title: <highlight2>Details for Quest
+    button:
+      unlockedObjective:
+        name: "<highlight2>%ACTIVEOBJECTIVEID%. <highlight>%OBJECTIVENAME%"
+        lore:
+          - "<main><BOLD>ACTIVE</BOLD>"
+          - "<veryUnimportant>%WRAPPEDOBJECTIVEDESCRIPTION%"
+          - "<unimportant>%OBJECTIVETASKDESCRIPTION%"
+          - ""
+          - "<unimportant>Progress: <positive>%ACTIVEOBJECTIVEPROGRESS% <unimportant>/ <main>%OBJECTIVEPROGRESSNEEDED%"
+        lore-if-description-empty:
+          - "<main><BOLD>ACTIVE</BOLD>"
+          - "<veryUnimportant>No Description"
+          - "<unimportant>%OBJECTIVETASKDESCRIPTION%"
+          - ""
+          - "<unimportant>Progress: <positive>%ACTIVEOBJECTIVEPROGRESS% <unimportant>/ <main>%OBJECTIVEPROGRESSNEEDED%"
+      lockedObjective:
+        name: "<highlight2>%ACTIVEOBJECTIVEID%. <unimportant><BOLD>[HIDDEN]"
+        lore:
+          - "<warn>This objective has not yet"
+          - "<warn>been unlocked!"
+      completedObjective:
+        name: "<highlight2><strikethrough>%ACTIVEOBJECTIVEID%. <positive><strikethrough>%OBJECTIVENAME%"
+        lore:
+          - "<positive><BOLD>COMPLETED</BOLD>"
+          - "<veryUnimportant><strikethrough>%WRAPPEDOBJECTIVEDESCRIPTION%"
+          - "<veryUnimportant><strikethrough>%COMPLETEDOBJECTIVETASKDESCRIPTION%"
+          - ""
+          - "<unimportant><strikethrough>Progress: <positive><strikethrough>%ACTIVEOBJECTIVEPROGRESS% <unimportant><strikethrough>/ <positive><strikethrough>%OBJECTIVEPROGRESSNEEDED%"
+        lore-if-description-empty:
+          - "<positive><BOLD>COMPLETED</BOLD>"
+          - "<veryUnimportant><strikethrough>No Description"
+          - "<veryUnimportant><strikethrough>%COMPLETEDOBJECTIVETASKDESCRIPTION%"
+          - ""
+          - "<unimportant><strikethrough>Progress: <positive><strikethrough>%ACTIVEOBJECTIVEPROGRESS% <unimportant><strikethrough>/ <positive><strikethrough>%OBJECTIVEPROGRESSNEEDED%"

@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench by yungwilder",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"particle": "item/117theme/azalea_nectar_potion",
+		"layer0": "item/117theme/azalea_nectar_potion"
+	}
+}

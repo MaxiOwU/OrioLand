@@ -1,0 +1,161 @@
+enabled: true
+left-click-key-preview: true
+obtain-method: STATIC
+inventory-name: '&6&l[&aMiddle Crate&6&l]'
+
+display:
+  type: block
+
+crate:
+  material: Chest;0
+  name: '&6&l[&aMiddle Crate&6&l]'
+  lore:
+  - ''
+  - '&6&lKeys: &e%keys%'
+  - ''
+  - '&bRewards are kinda eh.'
+
+key:
+  require: true
+  material: TRIPWIRE_HOOK
+  name: '&6&l[&aMiddle Crate Key&6&l]'
+  lore:
+  - '&bTry using me on a &9Middle Crate!'
+
+hologram:
+  reward-hologram: '&a%reward%'
+  lines:
+  - '&6&l[&aMiddle Crate&6&l]'
+  - '&7&oOpen me for a small reward!'
+
+play:
+  particles:
+    '1':
+      type: FIREWORKS_SPARK
+      range-x: 0.7
+      range-y: 0.7
+      range-z: 0.7
+      speed: 0.05
+      amount: 1
+      animation: NONE
+      center-x: 0
+      center-y: 0
+      center-z: 0
+    '2':
+      type: VILLAGER_HAPPY
+      range-x: 0.7
+      range-y: 0.7
+      range-z: 0.7
+      speed: 0.05
+      amount: 1
+      animation: NONE
+      center-x: 0
+      center-y: 0
+      center-z: 0
+open:
+  crate-animation: INV_CSGO
+  
+  tier-actions-override-defaults: false
+  
+  particles:
+    '1':
+      type: LAVA
+      range-x: 1.0
+      range-y: 1.0
+      range-z: 1.0
+      speed: 1.0
+      amount: 10
+      animation: NONE
+      center-x: 0
+      center-y: 0
+      center-z: 0
+    '2':
+      type: HEART
+      range-x: 1.0
+      range-y: 1.0
+      range-z: 1.0
+      speed: 1.0
+      amount: 10
+      animation: NONE
+      center-x: 0
+      center-y: 0
+      center-z: 0
+  
+  fireworks:
+  - RED;ORANGE;GREEN;PURPLE, black, true, true, BALL_LARGE, 0
+  
+  sounds:
+  - ENTITY_PLAYER_LEVELUP, 10, 10
+  
+  actions:
+  - MESSAGE, &7&lCrates &3&l> &eYou won %reward%
+  - BROADCAST, &7&lCrates &3&l> &e&l%player% just unboxed a case!
+  - ACTIONBAR, &eYou have won an award!
+  - TITLE, &6You just opened
+  - SUBTITLE, &c%reward%
+cooldown: 0
+ignore-cooldown-permission: no permission
+cooldown-per-location: false
+cost: -1
+allow-skip-animation: false
+
+rewards:
+  Diamond:
+    commands:
+    - give {name} minecraft:diamond 1
+    chance: 10.0
+    rarity: rare
+    give-display-item:
+      value: false
+      with-lore: true
+      with-name: true
+    display-item:
+      material: DIAMOND
+      glow: true
+      amount: 1
+      damage: 0
+      name: '&cDiamond'
+      lore:
+      - '&7-'
+      - '&eChance: &6%writtenchance%%'
+      nbt-tags: '{}'
+  Dirt:
+    commands: []
+    chance: 20.0
+    give-display-item:
+      value: false
+      with-lore: true
+      with-name: true
+    display-item:
+      material: DIRT
+      glow: true
+      amount: 1
+      damage: 0
+      name: '&cDirt'
+      lore:
+      - '&5This is a &a&lcustom lore!'
+      - '&c&oMake me unique to the default lore'
+      - '&c&oThat you can set in the config.yml'
+      nbt-tags: '{}'
+  Speed:
+    commands:
+    - effect {name} 1 60 1
+    - give {name} minecraft:milk_bucket 1
+    chance: 5.0
+    rarity: legendary
+    give-display-item:
+      value: false
+      with-lore: true
+      with-name: true
+    display-item:
+      material: POTION
+      glow: false
+      amount: 1
+      damage: 0
+      name: '&cSpeed Effect and Potion'
+      potion-effects:
+      - SPEED;0;0
+      lore:
+      - '&7-'
+      - '&eChance: &6%writtenchance%%'
+      nbt-tags: '{}'

@@ -1,0 +1,25 @@
+# 
+# Respirator EcoEnchant
+
+description: Reduces dragon breath damage.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: rare
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  targets:
+  - helmet
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 6
+name: Respirator
+config:
+  percent-less-per-level: 15
+

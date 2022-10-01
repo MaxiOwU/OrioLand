@@ -1,0 +1,7 @@
+uuid: 91157c42-4c23-3206-801b-ef22e7a4c1ee
+name: master_kombac_2
+primary-group: manager
+permissions:
+- mcpets.nutria
+parents:
+- manager

@@ -1,0 +1,76 @@
+enabled: false
+american-date-format: false
+calendar-is-real-life-days: false
+sync-time-with-real-world: false
+time-sync-offset: 0
+time-sync-timezone: 'Atlantic/Azores'
+time:
+  format: '$hours$:$minutes$'
+  12-hour-clock:
+    enabled: false
+    add-am-pm: false
+week-days:
+- Lunes
+- Martes
+- Miércoles
+- Jueves
+- Viernes
+- Sábado
+- Domingo
+synced-worlds:
+- none
+winter-start: December 1
+spring-start: March 1
+summer-start: June 1
+fall-start: September 1
+months:
+  January:
+    days: 2
+    day-length-in-min: 1000
+    night-length-in-min: 440
+  February:
+    days: 3
+    day-length-in-min: 1000
+    night-length-in-min: 440
+  March:
+    days: 2
+    day-length-in-min: 1000
+    night-length-in-min: 440
+  April:
+    days: 2
+    day-length-in-min: 1000
+    night-length-in-min: 440
+  May:
+    days: 3
+    day-length-in-min: 1000
+    night-length-in-min: 440
+  June:
+    days: 2
+    day-length-in-min: 1000
+    night-length-in-min: 440
+  July:
+    days: 2
+    day-length-in-min: 1000
+    night-length-in-min: 440
+  August:
+    days: 3
+    day-length-in-min: 1000
+    night-length-in-min: 440
+  September:
+    days: 2
+    day-length-in-min: 1000
+    night-length-in-min: 440
+  October:
+    days: 2
+    day-length-in-min: 1000
+    night-length-in-min: 440
+  November:
+    days: 3
+    day-length-in-min: 1000
+    night-length-in-min: 440
+  December:
+    days: 2
+    day-length-in-min: 1000
+    night-length-in-min: 440
+
+

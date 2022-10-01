@@ -1,0 +1,13 @@
+Id: Nutria
+MythicMob: NocsyOtter
+Permission: mcpets.nutria
+Mountable: false
+DespawnSkill: Nocsy_Otter_Despawn
+Distance: 6
+SpawnRange: 1
+ComingBackRange: 3
+Icon:
+  Name: §bNutria
+  TextureBase64: ewogICJ0aW1lc3RhbXAiIDogMTYzMDgwNDc0OTY1NCwKICAicHJvZmlsZUlkIiA6ICIyMDA2NTVkMjMyYTE0MTc2OGIwNjQ0NWNkNTliNDg3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaWVzdHlCbHVlXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MGNhOTNlYjYzYzQ3MGM3OGYxMGM3NmYyOTAyYWQ3ODNjNDI2NjUzOWFlNTA5NzIyZmNkOWIyZTIzMDBhOTIiCiAgICB9CiAgfQp9
+  Description:
+  - §7Tan mona que te seguira a todas partes!

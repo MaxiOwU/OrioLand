@@ -1,0 +1,27 @@
+# 
+# Enderism EcoEnchant
+
+description: Increases damage dealt in the end.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  targets:
+  - bow
+  - crossbow
+  grindstoneable: true
+  conflicts:
+  - netheric
+  disabled-in-worlds: []
+  maximum-level: 6
+name: Enderism
+config:
+  multiplier: 0.02
+

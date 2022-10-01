@@ -1,0 +1,107 @@
+aries_tag:
+  texture: default/chat/aries_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":aries:"
+    permission: "oraxen.emoji.aries"
+
+taurus_tag:
+  texture: default/chat/taurus_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":taurus:"
+    permission: "oraxen.emoji.taurus"
+
+gemini_tag:
+  texture: default/chat/gemini_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":gemini:"
+    permission: "oraxen.emoji.gemini"
+
+cancer_tag:
+  texture: default/chat/cancer_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":cancer:"
+    permission: "oraxen.emoji.cancer"
+
+leo_tag:
+  texture: default/chat/leo_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":leo:"
+    permission: "oraxen.emoji.leo"
+
+virgo_tag:
+  texture: default/chat/virgo_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":virgo:"
+    permission: "oraxen.emoji.virgo"
+
+libra_tag:
+  texture: default/chat/libra_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":libra:"
+    permission: "oraxen.emoji.libra"
+
+scorpio_tag:
+  texture: default/chat/scorpio_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":scorpio:"
+    permission: "oraxen.emoji.scorpio"
+
+sagittarius_tag:
+  texture: default/chat/sagittarius_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":sagittarius:"
+    permission: "oraxen.emoji.sagittarius"
+
+capricorn_tag:
+  texture: default/chat/capricorn_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":capricorn:"
+    permission: "oraxen.emoji.capricorn"
+
+aquarius_tag:
+  texture: default/chat/aquarius_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":aquarius:"
+    permission: "oraxen.emoji.aquarius"
+
+pisces_tag:
+  texture: default/chat/pisces_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":pisces:"
+    permission: "oraxen.emoji.pisces"

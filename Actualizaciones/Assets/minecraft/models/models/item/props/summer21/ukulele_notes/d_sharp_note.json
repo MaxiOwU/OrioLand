@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench by yungwilder",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "props/summer21/ukulele_notes/d_sharp_note",
+		"layer0": "props/summer21/ukulele_notes/d_sharp_note"
+	}
+}

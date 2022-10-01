@@ -1,0 +1,118 @@
+# .----------------.  .----------------.  .-----------------. .----------------.  .----------------.  .-----------------. .----------------. 
+#| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+#| |  _______     | || |      __      | || | ____  _____  | || |  ___  ____   | || |     _____    | || | ____  _____  | || |    ______    | |
+#| | |_   __ \    | || |     /  \     | || ||_   \|_   _| | || | |_  ||_  _|  | || |    |_   _|   | || ||_   \|_   _| | || |  .' ___  |   | |
+#| |   | |__) |   | || |    / /\ \    | || |  |   \ | |   | || |   | |_/ /    | || |      | |     | || |  |   \ | |   | || | / .'   \_|   | |
+#| |   |  __ /    | || |   / ____ \   | || |  | |\ \| |   | || |   |  __'.    | || |      | |     | || |  | |\ \| |   | || | | |    ____  | |
+#| |  _| |  \ \_  | || | _/ /    \ \_ | || | _| |_\   |_  | || |  _| |  \ \_  | || |     _| |_    | || | _| |_\   |_  | || | \ `.___]  _| | |
+#| | |____| |___| | || ||____|  |____|| || ||_____|\____| | || | |____||____| | || |    |_____|   | || ||_____|\____| | || |  `._____.'   | |
+#| |              | || |              | || |              | || |              | || |              | || |              | || |              | |
+#| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+# '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
+ 
+#
+# <-------- { INFORMATIONS } -------->
+# 
+# You need more Help? Docs -> https://dto.mc-plugins.org
+# Join our Discord -> https://dcto.mc-plugins.org
+# Visit out Website -> https://mc-plugins.org
+#
+
+EnabledGlobalRanking: true
+
+EnchantOwnSkullInRanking: true
+
+#Name of the GUI 
+GlobalRanking_Name: "{language:Global_Name}"
+ 
+#Size of the GUI
+Size: 5
+
+Global_RankingItems:
+
+  OwnSkullItem:
+  
+    Enabled: true
+    
+    Display: "{language:Global_RankingItems.OwnSkull.Display}"
+ 
+    Lore: "{language:Global_RankingItems.OwnSkull.Lore}"
+    
+    Slot: 36
+
+  NoneFound:
+  
+    Display: "&8/-/ - #<rank>"
+  
+    Material: "BARRIER"
+
+  List:
+    - "1" 
+    - "2"
+    - "3"
+
+  3:
+
+    Display: "{language:Global_RankingItems.3.Display}"
+ 
+    Lore: "{language:Global_RankingItems.3.Lore}"
+ 
+    #when false, you need do define the Icon on "Material:"
+    UseSkullAsMaterial: true
+ 
+    Material: "BARRIER"
+
+    Slot: 23
+
+  2:
+
+    Display: "{language:Global_RankingItems.2.Display}"
+ 
+    Lore: "{language:Global_RankingItems.2.Lore}"
+ 
+    #when false, you need do define the Icon on "Material:"
+    UseSkullAsMaterial: true
+ 
+    Material: "BARRIER"
+
+    Slot: 21
+ 
+  1:
+
+    Display: "{language:Global_RankingItems.1.Display}"
+ 
+    Lore: "{language:Global_RankingItems.1.Lore}"
+ 
+    #when false, you need do define the Icon on "Material:"
+    UseSkullAsMaterial: true
+ 
+    Material: "BARRIER"
+
+    Slot: 13
+ 
+#Custom Items Section 
+Global_Custom:
+
+  List:
+    - "Close" 
+ 
+  Close:
+
+    Display: "{language:Global_Custom.Close.Display}"
+
+    ActionList:
+      - "CLOSE"
+
+    Material: "url;http://textures.minecraft.net/texture/afd2400002ad9fbbbd0066941eb5b1a384ab9b0e48a178ee96e4d129a5208654"
+
+    Slot: 40
+
+#PlaceHolders of the GUI 
+Global_Place: 
+  - "BLACK_STAINED_GLASS_PANE:37:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:38:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:39:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:41:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:42:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:43:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:44:&8-/-" 

@@ -1,0 +1,95 @@
+Action:
+  - "FISH" 
+ 
+ID: "FISHMAN"
+
+Material: "FISHING_ROD"
+
+ColorOfBossBar: "BLUE"
+
+Slot: 15
+
+Price: 350
+
+Worlds:
+  - "survival"
+  - "survival_nether"
+  - "survival_the_end"
+
+IDS:
+
+  FISH:
+    List:
+      - "COD" 
+      - "PUFFERFISH" 
+      - "TROPICAL_FISH"
+
+    COD:
+
+      Chance: 85
+      ID: "COD"
+      Money: 2
+      Exp: 5
+      Points: 0.05
+      RewardsGUI:
+    
+        See: true
+        Icon: "COD"
+
+    PUFFERFISH:
+
+      Chance: 85
+      ID: "PUFFERFISH"
+      Money: 2
+      Exp: 5
+      Points: 0.05
+      RewardsGUI:
+    
+        See: true
+        Icon: "PUFFERFISH"
+ 
+    TROPICAL_FISH:
+
+      Chance: 85
+      ID: "TROPICAL_FISH"
+      Money: 2
+      Exp: 5
+      Points: 0.05
+      RewardsGUI:
+    
+        See: true
+        Icon: "TROPICAL_FISH"
+ 
+LEVELS:
+
+  CountOfLevels: 4
+
+  1:
+
+    Money: 0 
+    Icon: "COAL" 
+    Need: 0
+    
+  2:
+
+    Money: 250 
+    Icon: "PAPER" 
+    Need: 150 
+    EarnMore: 0.15
+    
+  3:
+
+    Money: 500 
+    Icon: "PAPER" 
+    Need: 500 
+    EarnMore: 0.25
+    
+  4:
+
+    Money: 1000 
+    Icon: "EMERALD" 
+    Need: 550 
+    EarnMore: 0.30
+
+  
+  

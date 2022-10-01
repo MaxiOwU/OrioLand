@@ -1,0 +1,98 @@
+Action:
+  - "BREAK" 
+
+ID: "MINER"
+
+Material: "IRON_PICKAXE"
+
+ColorOfBossBar: "GREEN"
+
+Slot: 10
+
+Price: 350
+ 
+Worlds:
+  - "survival"
+  - "survival_nether"
+  - "survival_the_end"
+
+IDS:
+
+  BREAK:
+    List:
+      - "STONEBLOCK" 
+      - "COBBLESTONE"
+      - "COAL"
+
+    COAL:
+ 
+      Chance: 85
+      ID: "COAL_ORE"
+      Money: 2
+      Exp: 5
+      Points: 0.05
+    
+      RewardsGUI:
+    
+        See: true
+        Icon: "url;http://textures.minecraft.net/texture/711107f70f8ca0474f023243bd382bbd6b4149aef4f42b25ddbbcfec8798b4dc"
+
+    COBBLESTONE:
+
+      Chance: 85
+      ID: "COBBLESTONE"
+      Money: 2
+      Exp: 5
+      Points: 0.05
+    
+      RewardsGUI:
+    
+        See: true
+        Icon: "url;http://textures.minecraft.net/texture/e742885db6803ab3680ca50ac2b97b08bddc24e1ad3095da914677f524a6b1a6"
+
+    STONEBLOCK:
+
+      Chance: 85
+      ID: "STONE"
+      Money: 2
+      Exp: 5
+      Points: 0.05
+
+      RewardsGUI:
+
+        See: true
+        Icon: "url;http://textures.minecraft.net/texture/6b29c201650cd74c214dde01df0173d31e59a743969727ead3fa3a09959ee52b"
+
+LEVELS:
+
+  CountOfLevels: 4
+
+  1:
+
+    Money: 0
+    Icon: "COAL"
+    Need: 0
+    
+  2:
+
+    Money: 250
+    Need: 150
+    Icon: "PAPER"
+    EarnMore: 0.15
+    
+  3:
+
+    Money: 500
+    Icon: "PAPER"
+    Need: 500
+    EarnMore: 0.25
+    
+  4:
+
+    Money: 1000
+    Icon: "EMERALD"
+    Need: 550
+    EarnMore: 0.30
+
+  
+  

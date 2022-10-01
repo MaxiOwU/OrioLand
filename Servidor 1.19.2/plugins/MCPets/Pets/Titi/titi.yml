@@ -1,0 +1,13 @@
+Id: Titi
+MythicMob: Titi
+Permission: mcpets.titi
+Mountable: false
+DespawnSkill: Titi_Despawn
+Distance: 6
+SpawnRange: 1
+ComingBackRange: 3
+Icon:
+  Name: §bTiti
+  TextureBase64: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjcxMjViZjlmMzkzN2JjZGNkNGRmZWI0OTc5NzZmOTA4YjAyYTU3MzMzNzQyZTViYTE3NWJiNDg2ZWQzMTJlYiJ9fX0=
+  Description:
+  - §7Dududtiti!

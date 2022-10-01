@@ -1,0 +1,941 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/check.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE000"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/exclamation.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE001"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/question.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE002"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/ellipses.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE003"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/angel.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE004"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/astonished.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE005"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/blush.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE006"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/cowboy.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE007"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/crown.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE008"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/dab.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE009"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/detective.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE00A"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/dizzy.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE00B"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/exploding_head.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE00C"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/expressionless.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE00D"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/eye_roll.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE00E"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/flushed.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE00F"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/frown.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE010"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/grin.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE011"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/heart.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE012"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/heart_eyes.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE013"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/joy.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE014"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/kissing_heart.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE015"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/nauseated_face.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE016"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/no_mouth.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE017"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/open_mouth.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE018"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/police.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE019"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/raised_eyebrow.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE01A"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/sob.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE01B"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/sunglasses.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE01C"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/thinking.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE01D"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/thumbs_up.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE01E"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/tongue.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE01F"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/tongue_closed_eyes.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE020"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/trophy.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE021"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/yum.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE022"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/emoji/zipper.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE023"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/nitro.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE023"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:special/spacer.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE024"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:special/spacer.png",
+            "ascent": -32768,
+            "height": -4,
+            "chars": ["\uF002"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:special/spacer.png",
+            "ascent": -32768,
+            "height": -5,
+            "chars": ["\uF003"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:special/spacer.png",
+            "ascent": -32768,
+            "height": -6,
+            "chars": ["\uF004"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:special/spacer.png",
+            "ascent": -32768,
+            "height": -7,
+            "chars": ["\uF005"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:special/spacer.png",
+            "ascent": -32768,
+            "height": -8,
+            "chars": ["\uF006"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:special/spacer.png",
+            "ascent": -32768,
+            "height": -9,
+            "chars": ["\uF007"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:special/spacer.png",
+            "ascent": -32768,
+            "height": -10,
+            "chars": ["\uF008"]
+        },{
+            "type": "bitmap",
+            "file": "minecraft:special/spacer.png",
+            "ascent": -32768,
+            "height": 0,
+            "chars": ["\uF101"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:special/spacer.png",
+            "ascent": -32768,
+            "height": 1,
+            "chars": ["\uF102"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:special/spacer.png",
+            "ascent": -32768,
+            "height": 2,
+            "chars": ["\uF103"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:special/spacer.png",
+            "ascent": -32768,
+            "height": 3,
+            "chars": ["\uF104"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:special/spacer.png",
+            "ascent": -32768,
+            "height": 4,
+            "chars": ["\uF105"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:special/spacer.png",
+            "ascent": -32768,
+            "height": 5,
+            "chars": ["\uF106"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:special/spacer.png",
+            "ascent": -32768,
+            "height": 6,
+            "chars": ["\uF107"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:special/spacer.png",
+            "ascent": -32768,
+            "height": 7,
+            "chars": ["\uF108"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/melon.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF109"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/pumpkin.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF10A"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/gift-iron.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF10B"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/gift-gold.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF10C"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/gift-diamond.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF10D"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/king_crown.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF10E"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/melon_tablist.png",
+            "ascent": 8,
+            "height": 16,
+            "chars": ["\uF10F"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/pumpkin_tablist.png",
+            "ascent": 8,
+            "height": 16,
+            "chars": ["\uF110"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/mushroom_tablist.png",
+            "ascent": 8,
+            "height": 16,
+            "chars": ["\uF111"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/sanddollar.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uF112"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/blank.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF113"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/nitro.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF114"]
+        },
+	    {
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/twitch.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF115"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/discord.png",
+            "ascent": 11,
+            "height": 16,
+            "chars": ["\uF116"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:ui/disconnect_banner.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": ["\uF117"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:ui/seed_logo.png",
+            "ascent": 36,
+            "height": 80,
+            "chars": ["\uF118\uF119"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:special/spacer256.png",
+            "ascent": -32768,
+            "height": -3,
+            "chars": ["\uF11A"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:ui/sidebar.png",
+            "ascent": 60,
+            "height": 256,
+            "chars": ["\uF11B"]
+        },
+	{
+            "type": "bitmap",
+            "file": "minecraft:item/valentines21/valentines_card_bg.png",
+            "ascent": 25,
+            "height": 155,
+            "chars": ["\uF200"]
+        },
+		{
+			"type": "ttf",
+            "file": "minecraft:negative_spaces.ttf",
+            "shift": [0.0, 0.0],
+            "size": 10.0,
+            "oversample": 1.0
+		},
+        {
+            "type": "bitmap",
+            "file": "minecraft:ui/halloween21/spooky_slots_low_stakes.png",
+            "ascent": 19,
+            "height": 256,
+            "chars": ["\uF11C"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:ui/halloween21/spooky_slots_medium_stakes.png",
+            "ascent": 19,
+            "height": 256,
+            "chars": ["\uF11D"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:ui/halloween21/spooky_slots_high_stakes.png",
+            "ascent": 19,
+            "height": 256,
+            "chars": ["\uF11E"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:ui/halloween21/bat_blackjack_low_stakes.png",
+            "ascent": 19,
+            "height": 256,
+            "chars": ["\uF11F"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:ui/halloween21/bat_blackjack_medium_stakes.png",
+            "ascent": 19,
+            "height": 256,
+            "chars": ["\uF120"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:ui/halloween21/bat_blackjack_high_stakes.png",
+            "ascent": 19,
+            "height": 256,
+            "chars": ["\uF121"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:props/halloween21/tricky_token.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\uF122"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:props/halloween21/tricky_ticket.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\uF123"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:ui/halloween21/tricky_dice.png",
+            "ascent": 19,
+            "height": 256,
+            "chars": ["\uF124"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/halloween21/bat.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF125"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/halloween21/carved_pumpkin.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF126"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/halloween21/crescent_moon.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF127"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/halloween21/full_moon.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF128"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/halloween21/ghost.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF129"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/halloween21/witch_hat.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF12A"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/winterprophunt21/prop_hunt_carrot.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF12B"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/winterprophunt21/prop_hunt_chair.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF12C"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/winterprophunt21/prop_hunt_crate.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF12D"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/winterprophunt21/prop_hunt_eyes.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF12E"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/winterprophunt21/prop_hunt_mug.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF12F"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/winterprophunt21/prop_hunt_snowflakes.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF130"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/winterprophunt21/prop_hunt_tnt.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF131"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/winterprophunt21/prop_hunt_trash.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF132"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/zodiac21/dog.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF133"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/zodiac21/dragon.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF134"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/zodiac21/goat.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF135"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/zodiac21/horse.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF136"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/zodiac21/monkey.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF137"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/zodiac21/ox.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF138"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/zodiac21/pig.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF139"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/zodiac21/rabbit.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF13A"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/zodiac21/rat.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF13B"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/zodiac21/rooster.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF13C"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/zodiac21/snake.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF13D"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/zodiac21/tiger.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF13E"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/valentines22/heart.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF13F"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/valentines22/heart_tint.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF140"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/valentines22/hearts.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF141"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/valentines22/hearts_tint.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF142"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/valentines22/bear.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF143"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/valentines22/gift.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF144"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/valentines22/heart_bow.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF145"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/valentines22/rings.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF146"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/valentines22/rose.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uF147"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/mayfourth22/bb_8.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uF148"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/mayfourth22/bounty_hunter.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uF149"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/mayfourth22/first_order.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uF14A"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/mayfourth22/galactic_empire.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uF14B"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/mayfourth22/jedi_order.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uF14C"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/mayfourth22/r2_d2.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uF14D"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/mayfourth22/rebel_alliance.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uF14E"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/pride/aromantic.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uF14F"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/pride/asexual.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uF150"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/pride/bi.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uF151"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/pride/demi.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uF152"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/pride/gay.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uF153"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/pride/lesbian.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uF154"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/pride/nonbinary.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uF155"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/pride/pan.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uF156"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/pride/rainbow.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uF157"]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:icons/symbols/pride/trans.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uF158"]
+        }
+    ]
+}

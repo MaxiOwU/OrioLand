@@ -1,0 +1,340 @@
+default:
+  material: GOLDEN_HORSE_ARMOR
+  custom-model-data: 0
+  name: Pistola
+  amount: 1
+  shown: false
+  description: Pistola de Paintball
+  money: 0.0
+  coins: 0
+  time: 0
+  permission: ''
+  action: shot
+  sound: BLOCK_WOOD_HIT
+  uses-per-player: -1
+  uses-per-game: -1
+  damage: 1
+  delay-ms: 150
+  walking-speed: 0.2
+  custom-sound: ''
+  is-default: true
+duel-wield:
+  name: Pistolas Dobles
+  material: IRON_HOE
+  custom-model-data: 0
+  amount: 1
+  shown: true
+  description: Te deja disparar por las dos manos
+  money: 0.0
+  coins: 4
+  time: 120
+  permission: ''
+  action: dueled
+  sound: ENTITY_ARROW_HIT
+  uses-per-player: -1
+  uses-per-game: -1
+  damage: 1
+  delay-ms: 0
+  walking-speed: 0.2
+  custom-sound: ''
+  is-default: false
+ak-47:
+  material: GOLDEN_HORSE_ARMOR
+  custom-model-data: 0
+  name: AK-47
+  amount: 1
+  shown: true
+  description: 100% de precisi�n
+  money: 0.0
+  coins: 5
+  time: 120
+  permission: ''
+  action: mowed down
+  sound: BLOCK_WOOD_HIT
+  uses-per-player: -1
+  uses-per-game: -1
+  damage: 1
+  delay-ms: 150
+  walking-speed: 0.2
+  custom-sound: ''
+  is-default: false
+sniper:
+  material: ARROW
+  custom-model-data: 0
+  name: Sniper
+  amount: 1
+  shown: true
+  description: Un tiro, una Kill. Super Preciso.
+  money: 0.0
+  coins: 7
+  time: 120
+  permission: ''
+  action: sniped
+  sound: BLOCK_GRASS_BREAK
+  uses-per-player: -1
+  uses-per-game: -1
+  damage: 10
+  delay-ms: 2000
+  walking-speed: 0.05
+  custom-sound: ''
+  is-default: false
+paint-killer:
+  material: RED_MUSHROOM
+  custom-model-data: 0
+  name: Matador Colorado
+  amount: 1
+  shown: true
+  description: Alivia el dolor y te cura.
+  money: 0.0
+  coins: 4
+  time: 0
+  permission: ''
+  action: ''
+  sound: ENTITY_GENERIC_EAT
+  uses-per-player: -1
+  uses-per-game: -1
+  damage: 0
+  delay-ms: 0
+  walking-speed: 0.2
+  custom-sound: ''
+  is-default: false
+spray-n-pray:
+  material: IRON_HORSE_ARMOR
+  custom-model-data: 0
+  name: Spray
+  amount: 1
+  shown: true
+  description: Lanza muchisimas bolas a los enemigos
+  money: 0.0
+  coins: 10
+  time: 10
+  permission: ''
+  action: sprayed
+  sound: ENTITY_CHICKEN_EGG
+  uses-per-player: -1
+  uses-per-game: -1
+  damage: 3
+  delay-ms: 150
+  walking-speed: 0.2
+  custom-sound: ''
+  is-default: false
+mini-gun:
+  material: IRON_HOE
+  custom-model-data: 0
+  name: Mini-Gun
+  amount: 1
+  shown: true
+  description: Arma rapida con mucha precisi�n
+  money: 0.0
+  coins: 8
+  time: 10
+  permission: ''
+  action: gunned down
+  sound: BLOCK_WOOD_HIT
+  uses-per-player: -1
+  uses-per-game: -1
+  damage: 3
+  delay-ms: 150
+  walking-speed: 0.05
+  custom-sound: ''
+  is-default: false
+sugar-overdose:
+  material: SUGAR
+  custom-model-data: 0
+  name: Sobredosis de Azucar
+  amount: 1
+  shown: true
+  description: Velocidad x2
+  money: 0.0
+  coins: 3
+  time: 0
+  permission: ''
+  action: ''
+  sound: ENTITY_PLAYER_BURP
+  uses-per-player: -1
+  uses-per-game: -1
+  damage: 0
+  delay-ms: 0
+  walking-speed: 0.2
+  custom-sound: ''
+  is-default: false
+cowboy:
+  material: LEATHER
+  custom-model-data: 0
+  name: Cowboy
+  amount: 1
+  shown: true
+  description: Te sube a un caballo
+  money: 0.0
+  coins: 3
+  time: 0
+  permission: ''
+  action: ''
+  sound: ENTITY_GENERIC_BIG_FALL
+  uses-per-player: -1
+  uses-per-game: -1
+  damage: 0
+  delay-ms: 1000
+  walking-speed: 0.2
+  custom-sound: ''
+  is-default: false
+cyclone:
+  material: HOPPER
+  custom-model-data: 0
+  name: Cicl�n
+  amount: 1
+  shown: true
+  description: Te convierte en un cicl�n de Bolas de Pintura
+  money: 0.0
+  coins: 11
+  time: 0
+  permission: ''
+  action: winded
+  sound: BLOCK_ANVIL_LAND
+  uses-per-player: -1
+  uses-per-game: -1
+  damage: 3
+  delay-ms: 0
+  walking-speed: 0.2
+  custom-sound: ''
+  is-default: false
+double:
+  material: GOLD_INGOT
+  custom-model-data: 0
+  name: Dinero x2
+  amount: 1
+  shown: true
+  description: Consigue el doble de dinero durante esta partida
+  money: 0.0
+  coins: 9
+  time: 0
+  permission: ''
+  action: ''
+  sound: ENTITY_PLAYER_BURP
+  uses-per-player: -1
+  uses-per-game: -1
+  damage: 0
+  delay-ms: 0
+  walking-speed: 0.2
+  custom-sound: ''
+  is-default: false
+rocket-launcher:
+  material: DIAMOND_HORSE_ARMOR
+  custom-model-data: 0
+  name: Lanzacohetes
+  amount: 1
+  shown: true
+  description: Dispara una ola gigante de Bolas
+  money: 0.0
+  coins: 7
+  time: 0
+  permission: ''
+  action: blasted
+  sound: ENTITY_BLAZE_HURT
+  uses-per-player: -1
+  uses-per-game: -1
+  damage: 3
+  delay-ms: 0
+  walking-speed: 0.05
+  custom-sound: ''
+  is-default: false
+nuke:
+  material: TNT
+  custom-model-data: 0
+  name: Arma Nuclear
+  amount: 1
+  shown: true
+  description: Mata a todos los jugadores del otro equipo
+  money: 0.0
+  coins: 24
+  time: 0
+  permission: ''
+  action: nuked
+  sound: BLOCK_WOOD_HIT
+  uses-per-player: 1
+  uses-per-game: -1
+  damage: 0
+  delay-ms: 0
+  walking-speed: 0.2
+  custom-sound: ''
+  is-default: false
+time-warp:
+  material: GHAST_TEAR
+  custom-model-data: 0
+  name: T�nel del tiempo
+  amount: 1
+  shown: true
+  description: Teletransportate al lugar de la muerte
+  money: 0.0
+  coins: 2
+  time: 0
+  permission: ''
+  action: ''
+  sound: BLOCK_WOOD_HIT
+  uses-per-player: -1
+  uses-per-game: -1
+  damage: 0
+  delay-ms: 0
+  walking-speed: 0.2
+  custom-sound: ''
+  is-default: false
+paintball-shower:
+  material: GOLD_NUGGET
+  custom-model-data: 0
+  name: Ducha de paintball
+  amount: 1
+  shown: true
+  description: Lanza 300 Bolas al aire para que caigan en los enemigos
+  money: 0.0
+  coins: 15
+  time: 0
+  permission: ''
+  action: ended
+  sound: ENTITY_BAT_TAKEOFF
+  uses-per-player: -1
+  uses-per-game: -1
+  damage: 3
+  delay-ms: 0
+  walking-speed: 0.2
+  custom-sound: ''
+  is-default: false
+fly:
+  material: FLINT
+  custom-model-data: 0
+  name: Vuelo
+  amount: 1
+  shown: false
+  description: Activa el Vuelo al hacer click
+  money: 0.0
+  coins: 6
+  time: 0
+  permission: ''
+  action: ''
+  sound: BLOCK_WOOD_HIT
+  uses-per-player: -1
+  uses-per-game: -1
+  damage: 0
+  delay-ms: 0
+  walking-speed: 0.2
+  custom-sound: ''
+  is-default: false
+rapid-fire:
+  material: DIAMOND_HOE
+  custom-model-data: 0
+  name: Fuego rapido
+  amount: 1
+  shown: true
+  description: Te permite disparar con los dos clicks
+  money: 0.0
+  coins: 4
+  time: 0
+  permission: ''
+  action: pieced
+  sound: ENTITY_ARROW_HIT
+  uses-per-player: -1
+  uses-per-game: -1
+  damage: 1
+  delay-ms: 150
+  walking-speed: 0.2
+  custom-sound: ''
+  is-default: false

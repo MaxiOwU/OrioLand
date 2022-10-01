@@ -1,0 +1,87 @@
+# .----------------.  .----------------.  .-----------------. .----------------.  .----------------.  .----------------.  .----------------.  .----------------. 
+#| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+#| |   _____      | || |      __      | || | ____  _____  | || |    ______    | || | _____  _____ | || |      __      | || |    ______    | || |  _________   | |
+#| |  |_   _|     | || |     /  \     | || ||_   \|_   _| | || |  .' ___  |   | || ||_   _||_   _|| || |     /  \     | || |  .' ___  |   | || | |_   ___  |  | |
+#| |    | |       | || |    / /\ \    | || |  |   \ | |   | || | / .'   \_|   | || |  | |    | |  | || |    / /\ \    | || | / .'   \_|   | || |   | |_  \_|  | |
+#| |    | |   _   | || |   / ____ \   | || |  | |\ \| |   | || | | |    ____  | || |  | '    ' |  | || |   / ____ \   | || | | |    ____  | || |   |  _|  _   | |
+#| |   _| |__/ |  | || | _/ /    \ \_ | || | _| |_\   |_  | || | \ `.___]  _| | || |   \ `--' /   | || | _/ /    \ \_ | || | \ `.___]  _| | || |  _| |___/ |  | |
+#| |  |________|  | || ||____|  |____|| || ||_____|\____| | || |  `._____.'   | || |    `.__.'    | || ||____|  |____|| || |  `._____.'   | || | |_________|  | |
+#| |              | || |              | || |              | || |              | || |              | || |              | || |              | || |              | |
+#| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+# '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
+
+#
+# <-------- { INFORMATIONS } -------->
+# 
+# You need more Help? Docs -> https://dto.mc-plugins.org
+# Join our Discord -> https://dcto.mc-plugins.org
+# Visit out Website -> https://mc-plugins.org
+#
+
+#Name of the GUI 
+Name: "{language:Name}"
+ 
+#Size of the GUI
+Size: 6
+
+LangItems:
+
+  Slots:
+    - "20" 
+    - "21"
+    - "22" 
+    - "23"
+    - "24"
+    - "29"
+    - "30"
+    - "31"
+    - "32"
+    - "33"
+
+#Custom Items Section 
+Custom:
+
+  List: 
+    - "Info"
+
+  Info:
+
+    Display: "{language:Custom.Info.Display}"
+
+    ActionList:
+      - "NONE"
+
+    Material: "BEACON"
+    
+    Lore: "{language:Custom.Info.Lore}"
+
+    Slot: 4
+
+#Placeholders of the GUI
+Place:
+  - "BLACK_STAINED_GLASS_PANE:0:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:1:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:2:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:3:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:4:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:5:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:6:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:7:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:8:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:9:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:17:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:18:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:26:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:27:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:35:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:36:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:44:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:45:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:46:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:47:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:48:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:49:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:50:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:51:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:52:&8-/-"
+  - "BLACK_STAINED_GLASS_PANE:53:&8-/-"

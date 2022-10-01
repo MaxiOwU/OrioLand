@@ -1,0 +1,111 @@
+############################################
+#      Otter skills management version     #
+############################################
+
+#---------------------  
+# Otter spawns/despawns
+#---------------------
+
+Nocsy_Otter_Spawn:
+  Skills:
+   - effect:particles{particle=fishing;amount=50;hS=.45;vS=.25} @self
+   - effect:particles{particle=splash;amount=50;hS=.45;vS=.35} @self
+   - delay 20
+   - effect:particles{particle=fishing;amount=50;hS=.45;vS=.25} @self
+   - effect:particles{particle=splash;amount=50;hS=.45;vS=.35} @self
+Nocsy_Otter_Despawn:
+  Skills:
+   - sound{s=entity.fox.screech;p=1;v=0.8} @self
+   - defaultstate{t=death;s=despawn} @self
+   - effect:blockmask{m=WATER;r=1;s=sphere;n=1;d=50} @origin
+   - effect:particles{particle=splash;amount=50;hS=.45;vS=.35;repeatInterval=1;repeat=5} @self
+   - state{s=despawn;li=0;lo=0} @self
+   - remove @self # Note the presence of this remove here which is essential if you use a custom despawn mechanic
+
+#---------------------  
+# Animations
+#---------------------
+
+Nocsy_Otter_Animation:
+  Skills:
+  - Aura{auraName=Nocsy_Otter_Animation-Aura;onTick=Nocsy_Otter_Animation-Tick;interval=2;d=2147483646} @self
+  - Aura{auraName=Nocsy_Otter_Animation-Effect-Aura;onTick=Nocsy_Otter_Animation-Effect-Tick;interval=180;d=2147483646} @self
+  - Aura{auraName=Nocsy_Otter_Animation-Move-Effect-Aura;onTick=Nocsy_Otter_Animation_Walk_Animation;interval=1;d=2147483646} @self
+  
+Nocsy_Otter_Animation-Tick:
+  Conditions:
+  - blocktype WATER castinstead Nocsy_Otter_Animation_Swim-Tick
+  - hastag{t=swim} true
+  Skills:
+  - removetag{t=swim} @self
+
+Nocsy_Otter_Animation_Swim-Tick:
+  Conditions:
+  - hastag{t=swim} false
+  Skills:
+  - addtag{t=swim} @self
+
+Nocsy_Otter_Animation_Walk_Animation:
+  Conditions:
+  - hastag{t=swim} castinstead Nocsy_Otter_Animation_Swim_Animation
+  - isMoving{} true
+  - hastag{t=walk_anim} false
+  Skills:
+  - addtag{t=walk_anim} @self
+  - state{s=walk;li=0;lo=0;speed=1.2} @self
+  - delay 10
+  - removetag{t=walk_anim} @self
+  - state{s=walk;li=0;lo=0;remove=true} @self
+  
+Nocsy_Otter_Animation_Swim_Animation:
+  Conditions:
+  - hastag{t=swim} true
+  - hastag{t=swim_anim} false
+  Skills:
+  - addtag{t=swim_anim} @self
+  - state{s=walk;li=0;lo=0;remove=true} @self
+  - state{s=swim;li=0;lo=0} @self
+  - delay 14
+  - removetag{t=swim_anim} @self
+  - state{s=swim;li=0;lo=0;remove=true} @self
+
+#-----------  Despawn -----------#
+Nocsy_Otter_Animation_Despawn_Animation:
+  Skills:
+  - defaultstate{t=death;s=despawn} @self
+  - remove @self
+
+Nocsy_Otter_Animation-Effect-Tick:
+  Skills:
+  - effect:particles{particle=splash;amount=50;hS=.25;vS=.35} @self
+#---------------------  
+# Pet the otter
+#---------------------
+
+Nocsy_Otter_Pet:
+  Cooldown: 6
+  Skills:
+  - randomskill{skills=Nocsy_Otter_Pet_State1,Nocsy_Otter_Pet_State2}
+  
+Nocsy_Otter_Pet_State1:
+  Conditions:
+  - hastag{t=swim} false
+  Skills:
+  - setAI{ai=false} @self
+  - state{s=pet1} @self
+  - delay 10
+  - sound{s=entity.fox.sleep}
+  - delay 22
+  - setAI{ai=true} @self
+Nocsy_Otter_Pet_State2:
+  Conditions:
+  - hastag{t=swim} false
+  Skills:
+  - state{s=pet2} @self
+  - setAI{ai=false} @self
+  - state{s=pet2} @self
+  - sound{s=entity.fox.sleep}
+  - delay 37
+  - sound{s=entity.fox.sleep}
+  - delay 37
+  - setAI{ai=true} @self

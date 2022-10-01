@@ -1,0 +1,25 @@
+# A random reward command set will be ran through the console each time a player wins
+# Use "{firework} to spawn a no-damage random firework at the winner
+# Set to "each-time: []" or "random-sets: []" to have no actions in those sections
+# --------------
+# Placeholders:
+# --------------
+# "%PLAYER%" - the winners username
+# "%PLAYER_DISPLAYNAME%" - the winners display name
+# --------------
+# Actions:
+# --------------
+# You can specify what type of action to execute by adding one of the below prefixes to command set entries:
+# "{player-msg}: message" - send a message to the winner.
+# "{console-cmd}: command" - run a command as the console (don't include a / at the start).
+# "{player-cmd}: command" - run a command as the winner (don't include a / at the start).
+# "{broadcast-all}: message" - broadcast a message to ALL players.
+# "{broadcast-safe}: message" - broadcast a message to all players who don't have chat games hidden or have permission to participate in games.
+rewards:
+  each-time:
+  - "{firework}"
+  random-sets:
+    1:
+    - "{console-cmd}: ligas addpoints %PLAYER% 100"
+    - "{console-cmd}: eco give %PLAYER% 500"
+    - "{player-msg}: &aHas ganado 100 puntos de liga y 500⛃!"

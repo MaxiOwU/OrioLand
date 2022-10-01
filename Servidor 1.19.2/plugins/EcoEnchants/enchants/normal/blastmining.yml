@@ -1,0 +1,35 @@
+# 
+# Blast Mining EcoEnchant
+
+description: Mines blocks in a 3x3 area.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: legendary
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  targets:
+  - pickaxe
+  grindstoneable: true
+  conflicts:
+  - drill
+  - vein
+  disabled-in-worlds: []
+  maximum-level: 1
+name: Blast Mining
+config:
+  chance-per-level: 100
+  disable-on-sneak: true
+  enable-sound: true
+  hardness-check: true
+  blacklisted-blocks:
+  - bedrock
+  - end_portal_frame
+  - end_portal
+  - end_gateway
+

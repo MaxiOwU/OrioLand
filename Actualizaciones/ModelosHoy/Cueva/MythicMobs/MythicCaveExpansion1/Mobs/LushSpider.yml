@@ -1,0 +1,23 @@
+MSO_LushSpider:
+  Type: SPIDER
+  Display: 'Lush Spider'
+  Health: 30
+  Damage: 7
+  Drops:
+  - FERMENTED_SPIDER_EYE 0-2 0.5
+  Options:
+    Despawn: true
+    Silent: true
+    ShowName: false
+    KnockbackResistance: 1
+    FollowRange: 32
+    MaxCombatDistance: 64
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+  ThreatTable: 
+    Enabled: true
+  Skills:
+  - model{mid=mso_cavepack_lush_spider;n=false} @self ~onSpawn
+  - skill:MSO_LushSpiderMelee{sync=true} @self ~onAttack
+  - skill:MSO_LushSpiderPoison @RTT ~onTimer:20 0.15

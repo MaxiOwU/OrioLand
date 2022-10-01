@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench by yungwilder",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/halloween21/spider_silk_grappling_hook"
+	}
+}

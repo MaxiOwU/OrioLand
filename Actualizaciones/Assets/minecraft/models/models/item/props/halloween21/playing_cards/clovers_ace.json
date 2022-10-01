@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench by yungwilder",
+	"parent": "item/generated",
+	"textures": {
+		"particle": "props/halloween21/playing_cards/clovers_ace",
+		"layer0": "props/halloween21/playing_cards/clovers_ace"
+	}
+}

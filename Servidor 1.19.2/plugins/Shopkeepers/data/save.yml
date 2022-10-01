@@ -1,0 +1,2013 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyways, ensure that the server is not running currently and that you have prepared a backup of this file.
+
+data-version: 3|2|3120
+'5':
+  uniqueId: 63b25fb5-27cf-4ac7-9449-f34d9155c6e2
+  world: Lobby
+  x: -94
+  y: 73
+  z: -24
+  yaw: 0.0
+  type: admin
+  name: Minerales
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: PLAINS
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COAL
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $100"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 100.0d
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: IRON_INGOT
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 500.0d
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $300"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 300.0d
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GOLD_INGOT
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 500.0d
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: AMETHYST_SHARD
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 500.0d
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: LAPIS_LAZULI
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $100"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 100.0d
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $2,500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 2500.0d
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $2,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 2000.0d
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHERITE_INGOT
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $10,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 10000.0d
+  snapshots: []
+'10':
+  uniqueId: e390a786-2964-4929-ba41-b9291bfb84be
+  world: Lobby
+  x: -82
+  y: 73
+  z: -20
+  yaw: 0.0
+  type: admin
+  name: Nether 2
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: PLAINS
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHER_BRICK
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BASALT
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 750.0d
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SMOOTH_BASALT
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 750.0d
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: POLISHED_BASALT
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $750"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 750.0d
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: POLISHED_BLACKSTONE_STAIRS
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $750"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 750.0d
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: POLISHED_BLACKSTONE_BRICK_SLAB
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GILDED_BLACKSTONE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CRYING_OBSIDIAN
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SOUL_SAND
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 500.0d
+    '10':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHERRACK
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $100"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 100.0d
+    '11':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CHISELED_NETHER_BRICKS
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 500.0d
+    '12':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CRACKED_NETHER_BRICKS
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $750"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 750.0d
+    '13':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHER_BRICK_SLAB
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $750"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 750.0d
+    '14':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHER_BRICK_STAIRS
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $750"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 750.0d
+    '15':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHER_BRICKS
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $750"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 750.0d
+    '16':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BLAZE_ROD
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $250"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 250.0d
+    '17':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHER_WART
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $250"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 250.0d
+  snapshots: []
+'11':
+  uniqueId: 7c4fec8b-c4d6-4804-aab2-2d92b5934541
+  world: Lobby
+  x: -74
+  y: 72
+  z: -27
+  yaw: 0.0
+  type: admin
+  name: Nether
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: PLAINS
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CHISELED_POLISHED_BLACKSTONE
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: POLISHED_BLACKSTONE_BRICK_STAIRS
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BLACKSTONE_STAIRS
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: POLISHED_BLACKSTONE
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: POLISHED_BLACKSTONE_BRICKS
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: POLISHED_BLACKSTONE_SLAB
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BLACKSTONE_SLAB
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CRACKED_POLISHED_BLACKSTONE_BRICKS
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BLACKSTONE
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '10':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WARPED_WART_BLOCK
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '11':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHER_WART_BLOCK
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 500.0d
+    '12':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RED_NETHER_BRICK_STAIRS
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 500.0d
+    '13':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RED_NETHER_BRICK_SLAB
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 500.0d
+    '14':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RED_NETHER_BRICKS
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 500.0d
+    '15':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: MAGMA_BLOCK
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 500.0d
+    '16':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GLOWSTONE
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 500.0d
+    '17':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WARPED_NYLIUM
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '18':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CRIMSON_NYLIUM
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '19':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: STRIPPED_WARPED_HYPHAE
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '20':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: STRIPPED_CRIMSON_HYPHAE
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '21':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WARPED_STEM
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 500.0d
+    '22':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CRIMSON_STEM
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 500.0d
+    '23':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: STRIPPED_WARPED_STEM
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 500.0d
+    '24':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: STRIPPED_CRIMSON_STEM
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 500.0d
+    '25':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WARPED_SLAB
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 100.0d
+    '26':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CRIMSON_SLAB
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 100.0d
+    '27':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WARPED_STAIRS
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 100.0d
+    '28':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CRIMSON_STAIRS
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 100.0d
+    '29':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CRIMSON_PLANKS
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 100.0d
+    '30':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WARPED_PLANKS
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 100.0d
+    '31':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: QUARTZ_STAIRS
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '32':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: QUARTZ_PILLAR
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '33':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: QUARTZ_BRICKS
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '34':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: QUARTZ_SLAB
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '35':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CHISELED_QUARTZ_BLOCK
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '36':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SMOOTH_QUARTZ_SLAB
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '37':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SMOOTH_QUARTZ_STAIRS
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '38':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SMOOTH_QUARTZ
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+  snapshots: []
+'13':
+  uniqueId: 877a52d5-100c-4798-be25-535aa89e26cb
+  world: Lobby
+  x: -106
+  y: 73
+  z: -25
+  yaw: 0.0
+  type: admin
+  name: End
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: PLAINS
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: END_STONE
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $250"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 250.0d
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: END_ROD
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 500.0d
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: END_STONE_BRICKS
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $250"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 250.0d
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: END_STONE_BRICK_STAIRS
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $250"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 250.0d
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: END_STONE_BRICK_WALL
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $250"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 250.0d
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: END_STONE_BRICK_SLAB
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $250"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 250.0d
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ENDER_PEARL
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $250"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 250.0d
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ENDER_EYE
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $250"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 250.0d
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SHULKER_SHELL
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1250"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1250.0d
+    '10':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PURPUR_PILLAR
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '11':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PURPUR_STAIRS
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '12':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PURPUR_SLAB
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '13':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PURPUR_BLOCK
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $1000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1000.0d
+    '14':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CHORUS_PLANT
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 500.0d
+    '15':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: POPPED_CHORUS_FRUIT
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 500.0d
+    '16':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CHORUS_FRUIT
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 500.0d
+    '17':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CHORUS_FLOWER
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 500.0d
+    '18':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DRAGON_EGG
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $10M"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 1.0E7d
+'15':
+  uniqueId: 67bf8923-85f8-4513-8c06-bc6c64392098
+  world: Lobby
+  x: -80
+  y: 72
+  z: -31
+  yaw: 0.0
+  type: admin
+  name: Cultivos
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: PLAINS
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CARROT
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $10"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 10.0d
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WHEAT
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $10"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 10.0d
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: APPLE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $10"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 10.0d
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: POTATO
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $10"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 10.0d
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BEETROOT
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $10"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 10.0d
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BEETROOT_SEEDS
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $10"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 10.0d
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WHEAT_SEEDS
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $10"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 10.0d
+  snapshots: []
+'16':
+  uniqueId: 24066b42-f1b7-40f2-b5a1-81d840c5d886
+  world: Lobby
+  x: -100
+  y: 73
+  z: -25
+  yaw: 0.0
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: PLAINS
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PORKCHOP
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $250"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 250.0d
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BEEF
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $250"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 250.0d
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CHICKEN
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $250"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 250.0d
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: MILK_BUCKET
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 500.0d
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GOLDEN_CARROT
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $7,500"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 7500.0d
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GOLDEN_APPLE
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $10,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 10000.0d
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ENCHANTED_GOLDEN_APPLE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Price $50,000"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Click
+            to edit"}],"text":""}'
+          custom-model-data: 0
+          PublicBukkitValues:
+            shopkeepersaddon:itemprice: 50000.0d
+  snapshots: []

@@ -1,0 +1,69 @@
+MSO_LushSpiderMelee:
+  Skills:
+  - cancelevent
+  - skill:MSO_LushSpiderMeleeAttack
+
+MSO_LushSpiderMeleeAttack:
+  Cooldown: 2
+  Conditions:
+  - offgcd
+  - incombat
+  TargetConditions:
+  - distance <5
+  Skills:
+  - state{s=claw;li=3;lo=2;speed=1} @self
+  - gcd{ticks=40} @self
+  - setai{ai=false} @self
+  - effect:sound{s=entity.spider.ambient;v=0.2;p=0.8} @self
+  - delay 15
+  - effect:sound{s=entity.spider.ambient;v=0.2;p=1.2} @self
+  - delay 4
+  - totem{ch=3;
+      onStart=[
+        - particles{p=slime;a=1;s=1.5} @origin
+        - skill:MSO_LushSpiderMeleeDamage @ENO{r=3}
+      ];int=1;hR=3;md=1} @Forward{f=1.5}
+  - delay 8
+  - setai{ai=true} @self
+  
+MSO_LushSpiderMeleeDamage:
+  Skills:
+  - effect:sound{s=entity.spider.hurt;v=1;p=0.8} @self
+  - effect:particles{p=blockdust;material=SLIME_BLOCK;a=55;hS=0.4;vS=0.4;y=1.5}
+  - effect:particles{p=reddust;size=5;color=#32CE32;a=5;hS=0.2;vS=0.2;y=1.5}
+  - basedamage{m=1}
+  - throw{v=4;vy=2}
+  
+MSO_LushSpiderPoison:
+  Cooldown: 12
+  Conditions:
+  - offgcd
+  - incombat
+  TargetConditions:
+  - distance <20
+  Skills:
+  - setai{ai=false} @self
+  - state{s=shoot} @self
+  - delay 10
+  - missile{
+      origin=@ModelPart{m=mso_cavepack_lush_spider;p=bone2};
+      bulletType=BLOCK;bulletMaterial=SLIME_BALL;
+      v=8;vo=1;maxRange=30;mD=200;inertia=2;
+      onStart=[
+        - sound{s=entity.squid.squirt;p=1.75;v=1.5}
+        - delay 16
+        - modifyprojectile{trait=INERTIA;value=9999}
+      ];
+      onTick=[
+        - particles{p=happy_villager}
+      ];
+      onHit=[
+        - basedamage{m=1}
+        - potion{t=poison;d=100;l=1}
+      ];
+      onEnd=[
+        - sound{s=block.slime.place;p=1.66;v=1}
+        - particles{p=blockcrack;material=SLIME_BLOCK;a=20;hS=0.5;vS=0.5}
+      ]} @RLNT{a=1;radius=2}
+  - delay 10
+  - setai{ai=true} @self

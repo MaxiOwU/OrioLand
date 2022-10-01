@@ -1,0 +1,365 @@
+# Having debug enabled will send more detailed logs into the console, which becomes very spammy.
+# Default: false
+debug: false
+storage:
+  database:
+    enabled: false
+    host: ''
+    port: 3306
+    database: ''
+    username: ''
+    password: ''
+  # Determines if player data (Quest progress, questpoints etc.) should be loaded at all
+  # Default: true
+  load-playerdata: true
+  # Determines if player data should be loaded at all
+  # Default: true
+  save-playerdata: true
+  # If this is set to true, player data will be loaded for each player when they join. If this is set to false, the plugin will load ALL player data at once, the moment NotQuests is enabled.
+  # Default: true
+  load-playerdata-on-join: true
+  # Same as loading playerdata on join, but for saving playerdata & leaving the server
+  # Default: true
+  save-playerdata-on-quit: true
+  backups:
+    # If this is set to true, all quests.yml files of all categories will be backed up everytime the plugin shuts down. This only include quests data - nothing else.
+    # Default: true
+    create-when-server-shuts-down: true
+general:
+  # The maximum amount of active Quests each player can have active at the same time.
+  # Default: -1
+  max-active-quests-per-player: 5
+  # If set to false, Reach Location Objective will not work anymore - for better performance
+  # Default: true
+  enable-move-event: true
+  journal-item:
+    # List of worlds where the last slot of a player's inventory should be set to a clickable journal book. Set to '*' for every world
+    # Default: []
+    enabled-worlds:
+    - ''
+    # Inventory slot in which the journal should appear.
+    # Default: 8
+    inventory-slot: 8
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3120
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        display-name: '{"italic":true,"color":"blue","text":"Misiones"}'
+        lore:
+        - '{"italic":false,"color":"gray","text":"Un libro que contiene toda la informacion sobre las misiones"}'
+  packet-magic:
+    # Default: true
+    enabled: true
+    # Possible modes: 'internal' and 'packetevents'
+    # Default: internal
+    mode: internal
+    # Usually, the version of the server is checked to see if it is compatible with the packets feature. If it's not, packet-magic is disabled no matter if you enabled it or not. Setting this to true will disable this safety mechanism.
+    # Default: false
+    unsafe-disregard-version: false
+    conversations:
+      # Default: true
+      delete-previous: true
+      # Default: 20
+      history-size: 20
+  update-checker:
+    # Default: true
+    notify-ops-in-chat: true
+visual:
+  # The language of NotQuests. Examples: 'en-US', 'de-DE'. Check the plugins/NotQuests/languages folder for available languages
+  # Default: en-US
+  language: es-ES
+  citizensnpc:
+    quest-giver-indicator-particle:
+      # This controls if particles should be shown above the heads of Citizen NPCs with Quests attached to them
+      # Default: true
+      enabled: true
+      # Change the particle type here. Available particle types can be found at https://jd.papermc.io/paper/1.19/org/bukkit/Particle.html
+      # Default: VILLAGER_ANGRY
+      type: VILLAGER_ANGRY
+      # Changes how quickly the particles should spawn (in ticks). The higher the number, the slower they will spawn.
+      # Default: 10
+      spawn-interval: 10
+      # Changes how many particles should be spawned at once.
+      # Default: 1
+      count: 1
+      # If the server's TPS is below this number, the particles will be disabled. Set to -1 to disable this feature.
+      # Default: -1.0
+      disable-if-tps-below: -1.0
+    quest-giver-indicator-above-name:
+      # Leave empty for no text on NPC
+      # Default: 
+      text: ''
+      # Leave empty for no text on NPC
+      # Default: 100
+      text-interval: 100
+  # If this is set to true, rewards without a name will not be shown (both in chat and in the GUI)
+  # Default: true
+  hide-rewards-without-name: true
+  # If this is set to true, quest rewards will be shown after a player completes a quest
+  # Default: true
+  show-rewards-after-quest-completion: true
+  # If this is set to true, objective rewards will be shown after a player completes an objective
+  # Default: true
+  show-rewards-after-objective-completion: true
+  armorstands:
+    # If set to true, you cannot edit the equipments of an armor stand by right-clicking it if it has quests or ACTIVE objectives attached to it
+    # Default: true
+    prevent-editing: true
+    quest-giver-indicator-particle:
+      # This controls if particles should be shown above the heads of Armor Stands with Quests attached to them
+      # Default: true
+      enabled: true
+      # Default: VILLAGER_ANGRY
+      type: VILLAGER_ANGRY
+      # Default: 10
+      spawn-interval: 10
+      # Default: 1
+      count: 1
+      # Default: -1.0
+      disable-if-tps-below: -1.0
+  colors:
+    console:
+      # This controls if colors should be enabled in the console
+      # Default: true
+      enabled: true
+      # If your console cannot support our colorful RGB colors, you can enable this to convert them to the 'default' Minecraft colors which most consoles should support. This is only relevant if colors support is enabled.
+      # Default: false
+      downsampleColors: false
+      prefix:
+        # Default: <#393e46>[<gradient:#E0EAFC:#CFDEF3>
+        prefix: <#393e46>[<gradient:#E0EAFC:#CFDEF3>
+        # Default: <#393e46>]<#636c73>: 
+        suffix: '<#393e46>]<#636c73>: '
+      info:
+        default:
+          # Default: <main>
+          normal: <main>
+          # Default: <gray>
+          downsampled: <gray>
+        data:
+          # Default: <gradient:#1FA2FF:#12D8FA:#A6FFCB>
+          normal: <gradient:#1FA2FF:#12D8FA:#A6FFCB>
+          # Default: <blue>
+          downsampled: <blue>
+        language:
+          # Default: <gradient:#AA076B:#61045F>
+          normal: <gradient:#AA076B:#61045F>
+          # Default: <dark_purple>
+          downsampled: <dark_purple>
+      warn:
+        default:
+          # Default: <warn>
+          normal: <warn>
+          # Default: <yellow>
+          downsampled: <yellow>
+      severe:
+        default:
+          # Default: <error>
+          normal: <error>
+          # Default: <red>
+          downsampled: <red>
+      debug:
+        default:
+          # Default: <unimportant>
+          normal: <unimportant>
+          # Default: <dark_gray>
+          downsampled: <dark_gray>
+    tags:
+      # Default: [#1985ff, #2bc7ff]
+      main:
+      - '#1985ff'
+      - '#2bc7ff'
+      # Default: [#00fffb, #00ffc3]
+      highlight:
+      - '#00fffb'
+      - '#00ffc3'
+      # Default: [#ff2465, #ff24a0]
+      highlight2:
+      - '#ff2465'
+      - '#ff24a0'
+      # Default: [#ff004c, #a80000]
+      error:
+      - '#ff004c'
+      - '#a80000'
+      # Default: [#54b2ff, #ff5ecc]
+      success:
+      - '#54b2ff'
+      - '#ff5ecc'
+      # Default: [#9c9c9c, #858383]
+      unimportant:
+      - '#9c9c9c'
+      - '#858383'
+      # Default: [#5c5c5c, #454545]
+      veryUnimportant:
+      - '#5c5c5c'
+      - '#454545'
+      # Default: [#fff700, #ffa629]
+      warn:
+      - '#fff700'
+      - '#ffa629'
+      # Default: [#73ff00, #00ffd0]
+      positive:
+      - '#73ff00'
+      - '#00ffd0'
+      # Default: [#ff006f, #ff002f]
+      negative:
+      - '#ff006f'
+      - '#ff002f'
+  titles:
+    quest-successfully-accepted:
+      # Default: true
+      enabled: true
+    quest-failed:
+      # Default: true
+      enabled: true
+    quest-completed:
+      # Default: true
+      enabled: true
+  objective-tracking:
+    actionbar:
+      # Default: true
+      enabled: true
+    bossbar:
+      # Default: true
+      enabled: true
+      # Default: 10
+      show-time: 10
+      # Default: false
+      show-if-objective-is-completed: false
+  fancy-command-completion:
+    # Sets if it should show the fancy, helpful hints in your actionbar when typing some commands
+    # Default: true
+    actionbar-enabled: true
+    # Sets if it should show the fancy, helpful hints in your title when typing some commands
+    # Default: false
+    title-enabled: false
+    # Sets if it should show the fancy, helpful hints in your bossbar when typing some commands
+    # Default: false
+    bossbar-enabled: false
+    # The maximum amount of previous arguments (arguments you have already typed) which should be displayed
+    # Default: 2
+    max-previous-arguments-displayed: 2
+gui:
+  quest-visibility-evaluations:
+    already-accepted:
+      # Default: true
+      enabled: true
+    max-accepts:
+      # Default: true
+      enabled: true
+    accept-cooldown:
+      # Default: false
+      enabled: false
+    conditions:
+      # Default: false
+      enabled: false
+  questpreview:
+    # If set to false, clickable text will be used for Quest Previews instead
+    # Default: true
+    enabled: true
+    description:
+      # Default: true
+      enabled: true
+    rewards:
+      # Default: true
+      enabled: true
+    requirements:
+      # Default: true
+      enabled: true
+  # Default: false
+  show-quest-item-amount: false
+  # Default: true
+  show-objective-item-amount: true
+  # Default: 50
+  quest-description-max-line-length: 50
+  # Default: 50
+  objective-description-max-line-length: 50
+  # Default: false
+  wrap-long-words: false
+  usercommands:
+    # If set to false, clickable text will be used for all the other /q commands instead. If this is set to true, a GUI will be used.
+    # Default: true
+    enabled: true
+placeholders:
+  # Default: false
+  support_placeholderapi_in_translation_strings: false
+  player_active_quests_list_horizontal:
+    # Default:  | 
+    separator: ' | '
+    # -1 for unlimited
+    # Default: -1
+    limit: -1
+    # Default: true
+    use-displayname-if-available: true
+  player_active_quests_list_vertical:
+    # -1 for unlimited
+    # Default: -1
+    limit: -1
+    # Default: true
+    use-displayname-if-available: true
+integrations:
+  citizens:
+    # Any integrations settings should usually be left to true. These integrations will only be used, if you have the respective plugin installed.
+    # Default: true
+    enabled: true
+  vault:
+    # Default: true
+    enabled: true
+  placeholderapi:
+    # Default: true
+    enabled: true
+  mythicmobs:
+    # Default: true
+    enabled: true
+  elitemobs:
+    # Default: true
+    enabled: false
+  betonquest:
+    # Default: true
+    enabled: false
+  worldedit:
+    # Default: true
+    enabled: true
+  slimefun:
+    # Default: true
+    enabled: false
+  luckperms:
+    # Default: true
+    enabled: true
+  ultimateclans:
+    # Default: true
+    enabled: true
+  towny:
+    # Default: true
+    enabled: false
+  jobs-reborn:
+    # Default: true
+    enabled: false
+  project-korra:
+    # Default: true
+    enabled: false
+  ecoBosses:
+    # Default: true
+    enabled: false
+  ultimatejobs:
+    # Default: true
+    enabled: true
+  floodgate:
+    # Default: true
+    enabled: true
+logging:
+  # If set to true, more startup messages will be logged.
+  # Default: true
+  verbose-startup-messages: true
+conversations:
+  interaction-handlers:
+    clickable-text:
+      # If set to true, players can select an option / answer inside a conversation by typing the number of the option/answer in chat.
+      # Default: true
+      allow-selecting-option-by-typing-number-in-chat: true
+# Do not modify this line. If you modify it, there is a chance of completely breaking automatic configuration updates.
+# Default: 5.5.0
+config-version-do-not-edit: 5.5.0

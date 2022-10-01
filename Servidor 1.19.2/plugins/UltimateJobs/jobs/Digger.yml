@@ -1,0 +1,82 @@
+Action:
+  - "BREAK" 
+ 
+ID: "DIGGER"
+
+Material: "IRON_SHOVEL"
+
+ColorOfBossBar: "YELLOW"
+
+Slot: 13
+
+Price: 350
+
+Worlds:
+  - "survival"
+  - "survival_nether"
+  - "survival_the_end"
+
+IDS:
+
+  BREAK:
+    List:
+      - "SAND" 
+      - "GRAVEL" 
+
+    SAND:
+
+      Chance: 85
+      ID: "SAND"
+      Money: 2
+      Exp: 5
+      Points: 0.05
+      RewardsGUI:
+    
+        See: true
+        Icon: "SAND"
+ 
+    GRAVEL:
+
+      Chance: 85
+      ID: "GRAVEL"
+      Money: 2
+      Exp: 5
+      Points: 0.05
+      RewardsGUI:
+    
+        See: true
+        Icon: "GRAVEL"
+ 
+LEVELS:
+
+  CountOfLevels: 4
+
+  1:
+
+    Money: 0 
+    Icon: "COAL" 
+    Need: 0
+    
+  2:
+
+    Money: 250 
+    Icon: "PAPER" 
+    Need: 150 
+    EarnMore: 0.15
+    
+  3:
+
+    Money: 500 
+    Icon: "PAPER" 
+    Need: 500 
+    EarnMore: 0.25
+    
+  4:
+
+    Money: 1000 
+    Icon: "EMERALD" 
+    Need: 550 
+    EarnMore: 0.30
+
+  
+  

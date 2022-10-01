@@ -1,0 +1,20 @@
+{
+	"credit": "Made with Blockbench by yungwilder",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "item/blossom21/sapling_of_spring",
+		"layer0": "item/blossom21/sapling_of_spring"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 4.25, 1.25],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 4.25, 1.25],
+			"scale": [0.55, 0.55, 0.55]
+		}
+	}
+}

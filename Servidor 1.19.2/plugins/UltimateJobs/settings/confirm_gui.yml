@@ -1,0 +1,75 @@
+# .----------------.  .----------------.  .-----------------. .----------------.  .----------------.  .----------------.  .----------------. 
+#| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+#| |     ______   | || |     ____     | || | ____  _____  | || |  _________   | || |     _____    | || |  _______     | || | ____    ____ | |
+#| |   .' ___  |  | || |   .'    `.   | || ||_   \|_   _| | || | |_   ___  |  | || |    |_   _|   | || | |_   __ \    | || ||_   \  /   _|| |
+#| |  / .'   \_|  | || |  /  .--.  \  | || |  |   \ | |   | || |   | |_  \_|  | || |      | |     | || |   | |__) |   | || |  |   \/   |  | |
+#| |  | |         | || |  | |    | |  | || |  | |\ \| |   | || |   |  _|      | || |      | |     | || |   |  __ /    | || |  | |\  /| |  | |
+#| |  \ `.___.'\  | || |  \  `--'  /  | || | _| |_\   |_  | || |  _| |_       | || |     _| |_    | || |  _| |  \ \_  | || | _| |_\/_| |_ | |
+#| |   `._____.'  | || |   `.____.'   | || ||_____|\____| | || | |_____|      | || |    |_____|   | || | |____| |___| | || ||_____||_____|| |
+#| |              | || |              | || |              | || |              | || |              | || |              | || |              | |
+#| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+# '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
+
+#
+# <-------- { INFORMATIONS } -------->
+# 
+# You need more Help? Docs -> https://dto.mc-plugins.org
+# Join our Discord -> https://dcto.mc-plugins.org
+# Visit out Website -> https://mc-plugins.org
+#
+
+#Name of the GUI 
+AreYouSureGUI_Name: "{language:AreYouSureGUI_Name}"
+ 
+#Size of the GUI
+AreYouSureGUI_Size: 3
+
+AreYouSureItems:
+
+  Button_NO:
+  
+    Icon: "RED_DYE"
+    
+    Show: true
+    
+    Display: "{language:AreYouSureItems.Button_NO.Display}"
+    
+    Slot: 15
+    
+    Lore: "{language:AreYouSureItems.Button_NO.Lore}"
+
+  Button_YES:
+  
+    Icon: "GREEN_DYE"
+    
+    Show: true
+    
+    Display: "{language:AreYouSureItems.Button_YES.Display}"
+    
+    Slot: 11
+    
+    Lore: "{language:AreYouSureItems.Button_YES.Lore}"
+
+#Custom Items Section
+AreYouSureGUI_Custom:
+
+  List:
+    - "Back"
+
+  Back:
+
+    Display: "{language:AreYouSureGUI_Custom.Back.Display}"
+
+    ActionList:
+      - "GUI:MAIN"
+
+    Lore: "{language:AreYouSureGUI_Custom.Back.Lore}"
+
+    Material: "name;Mhf_ArrowLeft"
+
+    Slot: 26
+
+#Placeholders of the GUI
+AreYouSureGUI_Place:
+  - "BLACK_STAINED_GLASS_PANE:13:&8-/-"
+  

@@ -1,0 +1,25 @@
+# 
+# Parry EcoEnchant
+
+description: Reduces incoming damage when holding item.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  targets:
+  - sword
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 4
+name: Parry
+config:
+  multiplier: 0.05
+

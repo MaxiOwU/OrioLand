@@ -1,0 +1,375 @@
+Commands:
+  list:
+    clan:
+      help:
+        permission: uclans.player.help
+        alias: ajuda
+        # in seconds
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: RUN_COMMAND
+            click_action: /clan help
+         # Title options can be applied to all commands. Clan placeholders can be applied to texts.
+        title:
+          on_help: ''
+          on_success: ''
+          on_error: ''
+         # Actionbar options can be applied to all commands. Clan placeholders can be applied to texts.
+        actionbar:
+          on_help: ''
+          on_success: ''
+          on_error: ''
+      create:
+        permission: uclans.player.create
+        alias: criar
+        # in seconds
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /clan create <tag>
+      cancel:
+        permission: uclans.player.cancel
+        alias: cancelar
+        # in seconds
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /clan cancel
+      changeleader:
+        permission: uclans.player.changeleader
+        alias: mudarlider
+        # in seconds
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /clan changeleader <player>
+      desc:
+        permission: uclans.player.desc
+        alias: descricao
+        # in seconds
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /clan desc <desc>
+      disband:
+        permission: uclans.player.disband
+        alias: debandar
+        # in seconds
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /clan disband
+      leave:
+        permission: uclans.player.leave
+        alias: sair
+        # in seconds
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /clan leave
+      invite:
+        permission: uclans.player.invite
+        alias: convidar
+        # in seconds
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /clan invite <player>
+      join:
+        permission: uclans.player.join
+        alias: entrar
+        # in seconds
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /clan join <tag>
+      deny:
+        permission: uclans.player.deny
+        alias: negar
+        # in seconds
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /clan deny <tag>
+      kick:
+        permission: uclans.player.kick
+        alias: remover
+        # in seconds
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /clan kick <player>
+      promote:
+        permission: uclans.player.promote
+        alias: promover
+        # in seconds
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /clan promote <player>
+      demote:
+        permission: uclans.player.demote
+        alias: rebaixar
+        # in seconds
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /clan demote <player>
+      home:
+        permission: uclans.player.home
+        alias: casa
+        # in seconds
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /clan home <create|delete|list|teleport> <name>
+      chat:
+        permission: uclans.player.chat
+        alias: chat
+        # in seconds
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /clan chat
+      ff:
+        permission: uclans.player.ff
+        alias: ff
+        # in seconds
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /clan ff
+      modtag:
+        permission: uclans.player.modtag
+        alias: mudartag
+        # in seconds
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /clan modtag <newtag>
+      list:
+        permission: uclans.player.list
+        alias: listar
+        # in seconds
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: '/clan list '
+      info:
+        permission: uclans.player.info
+        alias: stats
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: '/clan info '
+      profile:
+        permission: uclans.player.profile
+        alias: perfil
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /clan profile [player]
+      rival:
+        permission: uclans.player.rival
+        alias: rival
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: '/clan rival <add/remove> <tag> '
+      rivalries:
+        permission: uclans.player.rivalries
+        alias: rivalidades
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: '/clan rivalries '
+      ally:
+        permission: uclans.player.ally
+        alias: aliado
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: '/clan ally <add/remove/accept/deny> <tag> '
+      alliances:
+        permission: uclans.player.alliances
+        alias: aliancas
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: '/clan alliances '
+      members:
+        permission: uclans.player.members
+        alias: membros
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /clan members
+      settings:
+        permission: uclans.player.settings
+        alias: settings
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /clan settings <TYPE> <VALUE>
+      regroup:
+        permission: uclans.player.regroup
+        alias: regroup
+        cooldown: 0
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /clan regroup <send/accept/deny>
+    uclan:
+      help:
+        permission: uclans.admin.help
+        alias: ajuda
+        show:
+          on_help_json:
+            click_type: RUN_COMMAND
+            click_action: /uclan help
+        title:
+          on_help: ''
+          on_success: ''
+          on_error: ''
+        actionbar:
+          on_help: ''
+          on_success: ''
+          on_error: ''
+      chatspy:
+        permission: uclans.admin.chatspy
+        alias: chatspy
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /uclan chatspy
+      addslot:
+        permission: uclans.admin.addslot
+        alias: addslot
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /uclan addslot <player|tag> <amount>
+      setslot:
+        permission: uclans.admin.setslot
+        alias: setslot
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /uclan setslot <player|tag> <amount>
+      removeslot:
+        permission: uclans.admin.removeslot
+        alias: removeslot
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /uclan removeslot <player|tag> <amount>
+      addpoints:
+        permission: uclans.admin.addpoints
+        alias: addpoints
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /uclan addpoints <player|tag> <amount> [reason]
+      setpoints:
+        permission: uclans.admin.setpoints
+        alias: setpoints
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /uclan setpoints <player|tag> <amount> [reason]
+      removepoints:
+        permission: uclans.admin.removepoints
+        alias: removepoints
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /uclan removepoints <player|tag> <amount> [reason]
+      changetag:
+        permission: uclans.admin.changetag
+        alias: mudartag
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /uclan changetag <tag> <newtag>
+      resetplayerkdr:
+        permission: uclans.admin.resetplayerkdr
+        alias: resetplayerkdr
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /uclan resetplayerkdr <player>
+      resetclankdr:
+        permission: uclans.admin.resetclankdr
+        alias: resetclankdr
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /uclan resetclankdr <tag>
+      globalff:
+        permission: uclans.admin.globalff
+        alias: globalff
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /uclan globalff
+      delete:
+        permission: uclans.admin.delete
+        alias: deletar
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /uclan delete <tag>
+      forcejoin:
+        permission: uclans.admin.forcejoin
+        alias: forcejoin
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /uclan forcejoin <player> <tag>
+      verify:
+        permission: uclans.admin.verify
+        alias: verificar
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /uclan verify <tag>
+      reload:
+        permission: uclans.admin.reload
+        alias: recarregar
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /uclan reload
+      exportdata:
+        permission: uclans.admin.exportdata
+        alias: exportar_dados
+        show:
+          on_help_json:
+            click_type: SUGGEST_COMMAND
+            click_action: /uclan exportdata <MYSQL|SQLITE|YML>

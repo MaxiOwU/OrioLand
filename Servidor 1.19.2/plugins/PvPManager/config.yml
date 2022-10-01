@@ -1,0 +1,276 @@
+# +--------------------------------------------------------------------------+ #
+# <                  PvPManager Premium Configuration File                   > #
+# <--------------------------------------------------------------------------> #
+# <                If you have any questions please go to                    > #
+# <           https://www.spigotmc.org/resources/pvpmanager.10610            > #
+# <                  or Discord https://discord.gg/QFTjs3g                   > #
+# +--------------------------------------------------------------------------+ #
+
+# Player instantly respawns after death! (Only version 1.8.8+)
+Auto Respawn: true
+
+# Locale -> Changes messages language, options are - en ru ch es it de br
+# Default PvP -> Leave it at true unless you want no PvP for all players
+# Extra Protection -> Prevent players from placing lava or fire near pvp disabled players
+# PvP Blood -> Enable blood particles on PvP
+# Player Drop Mode -> What happens to a player's drops and exp on death
+# The options are 'ALWAYS' - (PvPManager does nothing, so feature is disabled),
+# mode 'DROP' - (Players drop items when killed in PvP but not in PvE),
+# mode 'KEEP' - (Players keep items when killed in PvP but not in PvE) and
+# mode 'TRANSFER' - (Same as 'DROP' but transfer items(not exp) directly to killer's inventory without drops)
+# mode 'CLEAR' - (Clear all drops and exp on death, this deletes everything on death so make sure it is what you want)
+# Ignore No Damage Hits -> Ignore hits from snowballs, eggs, fishing rod and others
+# Auto Soup Health -> How much health does soup heal, use 0 to disable
+# Bowl Disappear -> Should empty bowls just be deleted
+# World Exclusions -> List of worlds where PvPManager will have no effect
+General:
+  Locale: es
+  Default PvP: false
+  Extra Protection: true
+  PvP Blood: false
+  Player Drop Mode: ALWAYS
+  Ignore No Damage Hits: false
+  Auto Soup:
+    Health: 0
+    Bowl Disappear: false
+  World Exclusions:
+  - 'flatroom'
+    
+# Here you can choose which methods to use to stop 'border hopping' while players are tagged
+# Border hopping is when a player gets in PvP and tries to run into a safe zone to escape
+# Vulnerable -> Makes players still vulnerable to PvP in safe zones
+# Push Back -> Players will be launched back when trying to enter a safe zone (Disabling this might improve performance)
+# The pushback feature currently supports regions from WorldGuard and Lands
+# Force -> How much force for the pushback (Minimum 0.1 and Maximum 4)
+# Block EnderPearl -> Block attempts to enter a safe zone with enderpearls while tagged
+# Reset Combat Tag -> Only meant for when Vulnerable is true. Toggles whether combat tagging resets while fighting in a safe zone. Works for WorldGuard Only
+# WorldGuard Exclusions -> Name of regions where vulnerable will have no effect
+Anti Border Hopping:
+  Vulnerable: false
+  Push Back:
+    Enabled: true
+    Force: 1.1
+    Block EnderPearl: true
+  Reset Combat Tag: false
+  WorldGuard Exclusions:
+  - 'example'
+
+# What should be disabled when a player(except operators) enters PvP
+# Fly -> Disable any kind of fly mode
+# GameMode -> Anything not Survival gets disabled
+# Disguise -> Disguises from LibsDisguises
+# GodMode -> GodMode from Essentials or CommandBook
+# Invisibility -> Invisibility potions, defaults to false as it's a vanilla feature
+Disable:
+  Fly: true
+  GameMode: true
+  Disguise: true
+  GodMode: true
+  Invisibility:
+    Remove from Attacker: false
+    Remove from Defender: false
+
+# Section about the tag system
+# PvE Tag -> If damage from or to monsters and animals should tag the player
+# Only Hostile -> If true, only monsters will tag the player, otherwise all animals will tag the player
+# Any Damage -> If anything else that can damage a player like lava, falling, etc should tag them
+# Time -> How long should the tag last in seconds
+# NameTag Prefix -> Choose the player's nametag prefix while tagged, '&c' would just color his name red
+# while 'none' or empty quotes '' will disable this feature completely
+# Color -> Necessary on 1.13+, changes name color and glowing color, leave empty '' for no color
+# Glowing -> For 1.9+ only, sets the player glowing while tagged
+# Self Tag -> Allow players to tag themselves with a bow
+# Untag Enemy -> When the player kills the enemy he was fighting he gets untagged
+# Block -> Section is self-explanatory, what to block in combat
+# Command whitelist is recursive, allowing 'tell' will allow 'tell' with any number of arguments
+# Commands On Tag -> Commands executed as the player when tagged, this allows for huge customization
+# WorldGuard Exclusions -> Name of regions where players will not get tagged
+# Punish On Kick -> Punish the player even if he gets kicked by other plugin while tagged
+# Money Penalty -> Money lost on combat log, use less or equal to 1 for percentage like 0.05 for 5%, 1 for 100% (0 to disable)
+# Log To File -> Logs all combat loggers to a file that you can read later
+# Money Penalty -> Money lost on combat log, use less than 1 for percentage like 0.05 for 5% (0 to disable)
+# Kill on Logout -> Setting this to true will do nothing if NPCs are enabled
+# Spawn NPC -> Will spawn an NPC with the player's items which will drop as a normal player would
+# NPC Name -> Leave empty to use player name or write a name for all NPCs like 'Logger' Max length is 16 characters
+# NPC Despawn Time -> Time until NPC automatically despawns
+# Block Login -> Block player from logging in while their NPC is spawned
+# Spawn On All Logouts -> Spawns an NPC on every player logout even if not in combat
+# No Spawn In WorldGuard -> If enabled, NPC won't be spawned in regions with pvp deny
+# Drops On Death - Controls what will drop when a player that PvP Logged or his NPC are killed
+# Commands On PvPLog -> List of commands to execute on combat log, use '%p' for player name
+# And use the 'announce' command to broadcast, to disable just delete the command
+Tagged In Combat:
+  Enabled: true
+  PvE Tag:
+    Enabled: false
+    Only Hostile: true
+    Any Damage: false
+  PvE Damage: false
+  Any Damage: false
+  Time: 10
+  NameTag Prefix: none
+  Color: ''
+  Glowing: false
+  # Symbol to use for the bar and how many times to repeat it. Other symbols ▊,▮,▯,|
+  Action Bar:
+    # You can use any PlaceholderAPI placeholders here. Leave message empty to disable
+    Message: '&b&lCombate &a<barsLeft>&c<barsPassed> &e&l<time> &b[segs]'
+    Symbol: ▊
+    Total Bars: 20
+  Self Tag: false
+  Untag Enemy: false
+  Block:
+    EnderPearls: true
+    ChorusFruits: true
+    Teleport: true
+    Place Blocks: false
+    Interact: false
+    Elytra: false
+    Riptide: true
+    Eat: false
+    Commands:
+      Enabled: true
+      Whitelist: true
+      Command List:
+      - 'tell'
+      - 'tag'
+      - 'heal'
+      - 'feed'
+  Commands On Tag:
+  - 'examplecommand'
+  Commands On Untag:
+  - '!CONSOLE examplecommand'
+  - '!PLAYER examplecommand'
+  WorldGuard Exclusions:
+  - 'example'
+  Punishments:
+    Punish On Kick: false
+    Log To File: true
+    Money Penalty: 0
+    Kill on Logout: true
+    Spawn NPC:
+      Enabled: true
+      NPC Name: ''
+      NPC Despawn Time: 60
+      Block Login: true
+      Targetable By Mobs: true
+      Spawn On All Logouts: false
+      WorldGuard Exclusions:
+      - 'example'
+    Drops On Death:
+      Inventory: true
+      Experience: true
+      Armor: true
+    Commands On PvPLog:
+    - 'announce &6[&8OrioLand-PvP&6]&c %p a intentado escapar y ha sido penalizado con una multa de 5000$!'
+
+# Should new players on your server be protected from PvP (If they want to PvP anyway they can use /newbie disable)
+# Time - How many minutes should newbie protection last, persists through restarts
+# Block Pick Items - Block players from picking up items while they have protection
+# Protect From Everything - Protect newbies from all types of damage including PvE
+Newbie Protection:
+  Enabled: false
+  Time(minutes): 5
+  Block Pick Items: false
+  Protect From Everything: false
+  Command Blacklist:
+  - 'examplecommand'
+
+# Prevent player abuse by killing the same player several times to rise in rank or even just grief
+# Example - If a player X kills player Y more than 5 times, it executes the commands defined(kick, jail, etc)
+# In this case, it would check every 60 seconds for abusers
+# Respawn Protection - After respawn, how many seconds should players be protected (0 to disable)
+# Teleport Protection - After teleport, how many seconds should players be protected from all damage (0 to disable)
+# WorldGuard Exclusions -> Name of regions where players will not get punished by kill abuse
+# Command Cooldown After Death - After a player dies ONLY in PvP, they will have to wait x seconds before being able to use
+# the commands under 'Commands'. This can prevent abuse like instantly going back and steal the drops or kill the player
+# Set Time to 0 if you want to disable this cooldown
+Kill Abuse:
+  Enabled: true
+  Max Kills: 3
+  Time Limit: 300
+  Commands on Abuse:
+  - 'kick <player> No abuses de tu fuerza en el server, deja jugar a los otros jugadores tranquilos. El PvP esta activado pero hay que jugar sin hacer que los demas lo pasen mal. Podras volver a matar dentro de 300s! Puedes acceder a OrioLand'
+  Respawn Protection: 30
+  Teleport Protection: 0
+  WorldGuard Exclusions:
+  - 'example'
+  Command Cooldown After Death:
+    Time: 3
+    Commands:
+    - 'back'
+
+# Section with settings triggered when a player kills another player
+# Money Reward - Money won as reward, use less or equal to 1 for percentage like 0.05 for 5%, 1 for 100% (0 to disable)
+# Money Penalty - Money lost on PvP death, use less or equal to 1 for percentage like 0.1 for 10%, 1 for 100% (0 to disable)
+# Money Steal - Should the amount won from money reward be stolen from the dead player
+# Lightning - Strike lightning when a player dies in PvP, the lightning doesn't make any damage to other players
+# Commands On Kill - Commands to execute on kill (<player> is the killer, <victim> is the victim)
+# Extra Drops - List of items (amount,Material) to drop from a dead player (Like loot drops from monsters)
+# For example 1,DIAMOND would drop 1 diamond on death
+# WorldGuard Exclusions - WorldGuard regions where rewards, penalties and commands will not be executed
+Player Kills:
+  Money Reward: 100
+  Money Penalty: 0
+  Money Steal: false
+  Death Effects:
+    Lightning: false
+  Commands On Kill:
+  - 'examplecommand <player> ha matado a <victim>'
+  WorldGuard Exclusions:
+  - 'exampleregion'
+  Extra Drops: []
+
+# Section for PvP Toggle command - /pvp
+# Players can't use the command unless they have permission
+# Cooldown - How many seconds until players can use the command again
+# State Cooldown - You have to wait x seconds to actually toggle PvP, to prevent abuses. This can be seen in games like GTA V
+# NameTags - What should the player's prefix be when pvp is on/off
+# You can write 'none' to disable one of the nametags, or set 'Enabled' to false to disable both
+# Commands -> Command list to execute on PvP toggle, use '%p' for player name
+# Force On Change World -> Force player PvP to default when changing world, useful if there are worlds
+# where players don't have permission to use /pvp
+# WorldGuard Overrides -> PvP Toggle is forcibly enabled on an attack in all regions with WG's pvp flag set to allow
+# WorldGuard overrides region list -> PvP Toggle is forcibly enabled on an attack in the listed regions, regardless of the WG's pvp flag
+PvP Toggle:
+  Cooldown: 10
+  State Cooldown:
+    Enabled: false
+    Time: 30
+  NameTags:
+    Enabled: false
+    Prefix On: '&4&l[PvP] '
+    Prefix Off: '&a&l[PvP] '
+  Commands PvP On:
+  - 'examplecommand %p ha activado el PvP'
+  Commands PvP Off:
+  - 'examplecommand %p ha desactivado el PvP'
+  Force On Change World: true
+  WorldGuard Overrides: true
+  WorldGuard Overrides Region List:
+  - 'example'
+
+# Section to configure interactions with other plugins
+Plugin Hooks:
+  BountyHunters:
+    # Disable PvP protection if the player has a bounty on themselves
+    No Protection With Bounty: true
+  Lands:
+    # Disable PvP protection if the player is in a Lands war
+    No Protection In War: true
+  SimpleClans:
+    # Disable PvP protection if the players are in a SimpleClans war
+    No Protection In War: true
+  # This only works if you have the TAB plugin, disabling both options will make PvPManager use normal scoreboard teams
+  TAB:
+    # Show combat prefix in the playerlist (tab)
+    Show In Tab: true
+    # Show combat prefix above the player's head
+    Show Above Player: true
+
+# Should PvPManager be allowed to check for updates and tell you about them
+Update Check:
+  Enabled: true
+
+# Informs PvPManager if the config is updated, do not touch it unless you want to reset the config
+Config Version: 79

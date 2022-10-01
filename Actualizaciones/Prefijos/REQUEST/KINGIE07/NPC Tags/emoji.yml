@@ -1,0 +1,53 @@
+money:
+  texture: default/chat/money
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+      - ":money:"
+    permission: "oraxen.emoji.money"
+
+mystery:
+  texture: default/chat/mystery
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+      - ":mystery:"
+    permission: "oraxen.emoji.mystery"
+
+vote:
+  texture: default/chat/vote
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+      - ":vote:"
+    permission: "oraxen.emoji.vote"
+
+claim:
+  texture: default/chat/claim
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+      - ":claim:"
+    permission: "oraxen.emoji.claim"
+
+economy:
+  texture: default/chat/economy
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+      - ":economy:"
+    permission: "oraxen.emoji.economy"
+
+crates:
+  texture: default/chat/crates
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+      - ":crates:"
+    permission: "oraxen.emoji.crates"

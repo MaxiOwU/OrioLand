@@ -1,0 +1,291 @@
+sign-title: '&8[%theme%Paintball&8]'
+command-title: '&lPaintball'
+prefix: '&8[&3Paintball&8] '
+arena-list-command: '&9Arenas: %arena%'
+command-arena-info: Mostrar todos los comandos de configuracion de Paintball Arena
+command-create-info: Crear nueva Arena
+command-setflag-info: Establecer punto de bandera Arena
+command-delflag-info: Borrar punto de bandera Arena
+command-setlocation-info: Establecer la ubicacion de la arena
+command-dellocation-info: Borrar la ubicacion de la arena
+command-setspectate-info: Establecer la ubicacion del espectador Arena
+command-delspectate-info: Borrar la ubicacion del espectador Arena
+command-remove-info: Quitar una arena
+command-rename-info: Renombrar una arena
+command-setmax-info: Establecer el numero maximo de jugadores
+command-setmin-info: Establecer el numero minimo de jugadores
+command-setteams-info: Establecer equipos a traves de ChatColors separados por comas
+  ex. &1,&b,&c
+command-steps-info: Lista de pasos de una Arena
+command-wager-info: Apuesta dinero por una Arena.
+command-addcoin-info: Dar monedas a un jugador.
+removed-all-files: Se eliminaron todos los archivvos de la carpeta.
+double-coins: Monedas dobles activadas para el resto del juego.
+command-convert-info: Convertir una Arena a un tipo diferente
+command-disable-info: Desactivar una arena
+command-enable-info: Activar una arena
+command-info-info: Mostrar informacion de la arena
+command-reload-info: Recarga todos los archivos yml
+command-reset-info: Restablecer las estadisticas de un jugador
+command-start-info: Forzar el inicio de una Arena
+command-stop-info: Forzar la detencion de una Arena
+command-admin-info: Mostrar todos los comandos de administración de Paintball
+command-setholo-info: Crea un holograma de clasificacion
+command-holo-info: Elimina hologramas a tu alrededor
+command-kick-info: Expulsar a un jugador Paintball
+command-join-info: Unete a una arena especifica, a una aleatoria o a un modo y equipo
+  especificos
+command-leave-info: Salir de la Arena
+command-list-info: Lista de todas las Arenas
+command-spectate-info: Espectear una Arena
+command-stats-info: Ver las estadisticas del juego del jugador
+command-top-info: Ver tablas de clasificacion.
+download-holo: Descargue el complemento DecentHolograms para usar esta función.
+holo-link: https://www.spigotmc.org/resources/decent-holograms-1-8-1-18-2-papi-support-no-dependencies.96927/
+holo-set: Tabla de clasificacion de holograma establecida en su ubicacion!
+in-arena-to-wager: Debes estar en una arena para apostar!
+amount-greater-than-0: El monto debe ser mayor que cero!
+wager-in-arena: Debes estar en una arena para apostar!
+enable-vault: Vault debe estar habilitado para esta característica.
+vault-not-enough-money: No tienes dinero suficiente!
+flying-enabled: Volar ha sido activado
+flying-disabled: Volar ha sido desactivado
+invalid-last-location: No tienes una ultima ubicacion.
+teleporting-to-last-location: Teletransportarse a la ultima ubicacion...
+cannot-use-while-riding: No puedes usar un artículo mientras montas algo.
+valid-number: Por favor ingrese un numero valido
+holograms-removed: Eliminado &7%amount% &ahologramas.
+no-holograms-removed: Ningun holograma fue eliminado.
+no-arenas: No hay ninguna arena abierta actualmente.
+target-not-in-arena: El objetivo no esta en una arena!
+not-in-arena: No estas en una arena.
+cannot-join: 'Error: arena no esta disponible para unirse!'
+cannot-spectate: 'Error: arena no esta disponible para espectear!'
+left-arena: Arena abandonada con exito.
+arena-not-setup: '%arena% no ha sido completamente configurada.'
+arena-disabled: '%arena% esta desactivada.'
+arena-not-in-progress: '%arena% actualmente no esta en progreso'
+not-found: Objetivo '%player%' no fue encontrado.
+in-arena: Ya estas en una arena!
+arena-not-found: Ninguna arena llamada %arena% fue encontrada.
+page-real-number: Por favor, especifique un numero real como pagina.
+page-bigger: La pagina no puede ser menor que 0
+page-find-error: Pagina %amount%/%max% no pudo ser encontrado.
+arena-create: '%arena% creada con exito!/n%steps%'
+arena-name-exists: Ya existe una arena llamada %arena%!
+arena-remove: Arena ha sido eliminada.
+arena-force-stopped: '%arena% ha sido forzado a detener!'
+arena-convert-same-type: '%arena% ya es una arena %arena-type%.'
+arena-convert-success: '%arena% se ha convertido a %arena-type%'
+invalid-arena: '%arena% es una arena invalida.'
+invalid-team: '%team% es un equipo invalido. Elije cualquiera de <%teams%>'
+invalid-stat: '%stat% es una estatistica invalida. Elije cualquiera de %stats%'
+invalid-command: Comando Desconocido! Escriba /paintball para obtener una lista de
+  comandos.
+internal-error: 'A ocurrido un error interno: %error%'
+no-permission: No tienes acceso a ese comando!
+no-sign-permission: No tienes acceso para cliquear ahi!
+no-console-permission: La consola no tiene acceso a ese comando!
+not-enough-arguments: No hay suficientes argumentos!
+too-many-arguments: Demasiados argumentos!
+no-teams-set: '%arena% no tiene ningun equipo establecido!'
+invalid-arena-type: Tipo de arena no valido. Elija cualquiera de <%arena-types%>
+choose-enable-or-disable: '%command% es una eleccion invalida. Usa cualquiera de enable/disable'
+disable-success: '%arena% ha sido desabilitada!'
+enable-success: '%arena% ha sido abilitada!'
+arena-enabled: '%arena% ya esta abilitada.'
+arena-is-finished: Juego ya esta terminado.
+arena-default-action: Disparo
+arena-start-countdown-header: '&aEmpezando'
+arena-start-countdown-footer: '&7%time%&a segundos!'
+arena-lobby-countdown-header: '&aEsperando'
+arena-lobby-countdown-footer: '&7%time%&a segundos!'
+arena-move-error: No se le permite mover articulos en su inventario!
+core-destroyed: Tu nucleo ha sido destruido!
+arena-shop-name: '&6Tienda de monedas'
+arena-no-duel-wield: No se le permite el doble empuñadura!
+teleporting: '&aTeletransportandote a la arena...'
+arena-flag-drop: '&lEl equipo %secondary%%team%%theme% ha bajado la bandera!'
+arena-flag-score: '&lEl equipo %secondary%%team%%theme% ha anotado una bandera!'
+arena-flag-steal: '&lEl jugador %secondary%%sender%%theme% &lha robado la bandera
+  de %secondary%%team%%theme%!'
+arena-join-message: '%team-color%%sender%&a se ha unido a la arena! &7%amount%/%max%'
+arena-you-joined: '&aHas entrado a la arena!'
+arena-joined: '&aArena unida'
+arena-size: '&7%amount%/%max%'
+arena-team-change: '&aEstas ahora mismo en el team %team-color%%team%!'
+arena-cannot-break-blocks: No puedes romper bloques mientras estas en la arena!
+arena-command-disabled: Ese comando esta desabilitado mientras estas en la arena.
+arena-die-header: '&4&lHas muerto!'
+arena-die-footer: '&7Reapareciendo...'
+cannot-attack-own-core: No puedes atacar tu propio nucleo!
+kick-player: '%player% ha sido expulsado de %arena%'
+player-not-in-arena: '%player% no esta en una arena.'
+balancing-teams: '%theme%Equilibrando Equipos'
+error-parsing: Comando de analisis de error
+space-filled: Lo sentimos, tu espacio ha sido ocupado por otro jugador.
+places-not-found: Lo sentimos, no se pudieron encontrar lugares en este campo.
+skull-created: Calavera de clasificacion creada con exito!
+valid-4-number: La linea 4 debe ser un numero valido.
+choose-rank-number: 'Elija un numero de rango, por ejemplo: 3'
+now-spectating: Especteando ahora a &7%player%&a!
+you-are-now-spectating: '&aEstas especteando ahora!'
+config-reloaded: Archivos de configuracion recargados con exito.
+paintkillers-on: Paintkillers have taken effect!
+not-find-target: No se pudo encontrar el objetivo.
+arena-is-fill: La arena%arena% esta llena!
+scoreboard-title: '%theme%&l  Paintball &f%secondary%%time%  '
+scoreboard-coins: Monedas &8» %secondary%%amount%
+scoreboard-kills: Kills &8» %secondary%%amount%
+scoreboard-kill-streak: Racha de kills &8» %secondary%%amount%
+scoreboard-kd: K/D &8» %secondary%%amount%
+scoreboard-money: Dinero &8» %secondary%%amount%
+scoreboard-line: '&8&m                    '
+scoreboard-status: Estado &8» %amount%
+scoreboard-lives: Vidas &6» %secondary%%amount%
+scoreboard-mode: Juego &8» %secondary%%amount%
+scoreboard-health: Vida &8» &4%amount%
+scoreboard-players: Jugadores &8» %secondary%%amount%
+scoreboard-team: Team &8» %amount%
+scoreboard-wager: Apuesta &8» %secondary%%amount%
+item-leave-arena: '&c&lClick%secondary% » &4Salir de la arena'
+sign-wrong-syntax: Sintaxis incorrecta para crear el signo de Paintball.
+sign-autojoin-created: Signo de union automatica creado con exito!
+sign-join-created: Signo de union creado con exito!
+sign-leave-created: Signo de salida creado con exito!
+sign-spectate-created: Señal de Espectador creada con exito!
+sign-leaderboard-removed: El letrero de la tabla de clasificación se ha eliminado
+  con exito!
+sign-leave-removed: La señal de permiso se ha eliminado correctamente!
+sign-autojoin-removed: El signo de union automatica se ha eliminado correctamente!
+sign-join-removed: El signo de unión de la arena %arena% se ha eliminado con exito!
+skull-leaderboard-removed: El craneo de la tabla de clasificacion se ha eliminado
+  con exito.!
+sign-spectate-removed: El signo de salida de la arena %arena% se ha eliminado con
+  exito!
+sign-leave: '&cAbandonar'
+sign-spectate: '&aEspectear'
+cannot-join-server-type: La unión está deshabilitada para el servidor de Paintball
+  %server-type%.
+arena-menu-vote-name: '%theme%Votar arena'
+arena-menu-join-name: '%theme%Entrar arena'
+back-to-hub: §cHub
+arena-start-message: juego empezado
+arena-teams-not-balanced: No puedes cambiar a este equipo hasta que los equipos esten
+  equilibrados..
+kill-confirmed: '&e&lKill Confirmada!'
+kill-denied: '&c&lKill Denegada!'
+ctf-short-name: CTF
+ctf-long-name: Captura La Bandera
+ctf-description: Captura las banderas de otros equipos y llevalas a tu base
+tdm-short-name: TDM
+tdm-long-name: Combate a muerte por equipos
+tdm-description: Mata a jugadores del otro equipo.
+ffa-short-name: FFA
+ffa-long-name: Gratuita para todos
+ffa-description: Cada uno está en su propio equipo
+dom-short-name: DOM
+dom-long-name: Dominacion
+dom-description: Asegure los puntos de baliza de otro equipo
+lts-short-name: LTS
+lts-long-name: Ultimo equipo en pie
+lts-description: Vidas limitadas, ultimo equipo en pie gana
+rtf-short-name: RTF
+rtf-long-name: Corre la bandera
+rtf-description: Captura la bandera neutral y llévala a tu base
+dtc-short-name: DTC
+dtc-long-name: Destruye el Nucleo
+dtc-description: Llega al Nucleo del otro equipo y disparale para destruirlo
+kc-short-name: KC
+kc-long-name: Kill Confirmada
+kc-description: Despues de matar a un jugador, confirma la muerte antes de que lo
+  haga el otro equipo.
+higest-kill-streak: Mayor racha de muertes
+team-won: El equipo %team% ha ganado!
+there-was-a-tie-between: 'Hubo un empate entre '
+won: Gano
+lost: Perdio
+you: Tu
+kd: K/D
+kills: Kills
+deaths: Muertes
+accuracy: Precision
+shots: Disparos
+hits: Golpes
+games-played: Juegos jugados
+wins: Victorias
+defeats: Derrotas
+ties: Empates
+flags-captured: Banderas capturadas
+flags-dropped: Banderas caidas
+time-played: Tiempo jugado
+game-forfeited: Juego perdido. No hay sucifientes jugadores para continuar.
+no-space: No tienes suficiente espacio en la barra de acceso rapido para este articulo.
+arena-join-permission: No tienes permiso para unirte a esa arena!
+top-leaderboard-title: '%secondary%&m          %theme% Top Paintball %secondary%%page%%theme%
+  Leaderboard %secondary%&m          '
+per-leaderboard-title: '%secondary%&m          %theme% Paintball %stat% Leaderboard
+  &7%page%%theme%/&7%max% %secondary%&m          '
+top-leaderboard-layout: '%theme%#%rank% %secondary%%stat% » %theme%%sender% %secondary%-
+  %amount%'
+per-leaderboard-layout: '%theme%#%rank%%secondary% » %theme%%sender% %secondary%-
+  %amount%'
+being-secured: '%theme%%sender%%secondary% esta siendo protegido por %theme%%team%'
+has-secured: '%theme%%sender%%secondary% ha asegurado %theme%%team%'
+you-are-protected: 'Todavia estas protegido. Proteccion: %time% segundos'
+they-are-protected: 'Este jugador esta protegido. Proteccion: %time% segundos'
+hit-player: Golpear al jugador! %amount%/%max%
+team-full: '&rEl equipo %team% esta lleno!'
+must-be-arena-player: El objetivo debe ser un jugador de arena.!
+not-setup: No instalado
+waiting: Esperando
+disabled: Desabilitada
+starting: Empezando
+stopping: Deteniendose
+playing: Jugando
+removed: Removido
+expiration-time: '%theme%&lExpiracion » %secondary%%time%%theme% segundos'
+expiration-end: '%theme%&lExpiracion » %secondary%Item %item%%theme% ha caducado'
+protection-end: '%theme%&lProteccion » %secondary%Proteccion ha caducado'
+protection-time: '%theme%&lProteccion » %secondary%%time% §3segundos'
+team-switch-time: '%theme%&lCambio de equipo » %secondary%%time%§3 segundos'
+team-switch-end: '%theme%&lCambio de equipo » %secondary%Cambio de equipo desbloqueado'
+team-switch-error: '%theme%&lCambio de equipo » %secondary%Espere el tiempo de reutilización
+  del cambio de equipo para terminar.'
+team-switch-title: Cambiador de equipo
+gave-coins: Has dado &7%amount% &ade monedas a &7%player%
+wager-gain-amount: '%theme%Dinero total ganado de la apuesta: %secondary%%currency%%amount%'
+missing-team-flag: §4§lError§7 » §cTe falta la bandera de tu equipo!
+game-stats: '%theme% Estadisticas de Juego '
+money1: 'Dinero: '
+kills1: 'Kills: '
+deaths1: 'Muertes: '
+killstreak1: 'Racha de muertes: '
+kd1: 'KD: '
+your-team1: 'Tu equipo '
+tied1: Empatados
+click: Clic
+join: Unir
+teleporter: Teletransportador
+teleport-to: 'Teletransportar a '
+change-team: Cambiar equipo
+coin-item-error-1: No tienes permiso para usar este item!
+coin-item-error-2: No tienes monedas suficientes!
+coin-item-error-3: No tienes dinero suficiente!
+lore-description: '%theme%Descripcion: '
+lore-lasts: '%theme%Dura: '
+lore-cost: '%theme%Costo: '
+lore-coins: '%theme%Monedas: '
+lore-minutes: minutos
+lore-seconds: segundos
+voted-for-arena: Has votado para la arena §7%arena%
+storage-not-empty: Debes borrar el contenido de tu almacenamiento antes de unirte.
+armour-not-empty: Debes borrar el contenido de tu armadura antes de unirte.
+extra-not-empty: Debe borrar el contenido de su inventario antes de unirse.
+max-uses-per-game: §cEl articulo ha alcanzado su cantidad maxima de usos por juego.
+max-uses-per-player: §cEl articulo ha alcanzado su cantidad maxima de usos por jugador.
+reset-flag: §l%player% ha reseteado la bandera de %team%!
+shot-player-format: '%team-color%%player%%secondary% %action% %died-team-color%%died%'
+arena-state-check: '%arena% esta %state%.'
+stat-title: '%secondary%§m             §r %theme% Estadisticas de %player% §r %secondary%§m             '
+player-wagered: '%player% ha apostado %currency%%wager-amount% (%currency%%wager-total%)'

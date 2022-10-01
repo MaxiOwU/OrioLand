@@ -1,0 +1,28 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/carved_pumpkin"
+	},
+	
+	"overrides": [
+	{ "predicate": {"custom_model_data": 2}, "model": "item/applecider"},
+	{ "predicate": {"custom_model_data": 3}, "model": "item/icedtea"},
+	{ "predicate": {"custom_model_data": 4}, "model": "item/pumpkinspice"},
+	{ "predicate": {"custom_model_data": 5}, "model": "item/big_pumpkin_pie"},
+	{ "predicate": {"custom_model_data": 6}, "model": "item/scarecrow_hat"},
+	{ "predicate": {"custom_model_data": 7}, "model": "item/strawhat"},
+	{ "predicate": {"custom_model_data": 8}, "model": "item/strawhat_flower"},
+	{ "predicate": {"custom_model_data": 9}, "model": "item/knithat_blue"},
+	{ "predicate": {"custom_model_data": 10}, "model": "item/knithat_red"},
+	{ "predicate": {"custom_model_data": 11}, "model": "item/knithat_green"},
+	{ "predicate": {"custom_model_data": 12}, "model": "item/knithat_orange"},
+	{ "predicate": {"custom_model_data": 13}, "model": "item/umbrella_leaf"},
+	{ "predicate": {"custom_model_data": 14}, "model": "item/umbrella_red"},
+	{ "predicate": {"custom_model_data": 15}, "model": "item/umbrella_orange"},
+	{ "predicate": {"custom_model_data": 16}, "model": "item/umbrella_yellow"},
+	{ "predicate": {"custom_model_data": 17}, "model": "item/big_apple_pie"},
+	{ "predicate": {"custom_model_data": 18}, "model": "item/big_cherry_pie"},
+	{ "predicate": {"custom_model_data": 19}, "model": "item/crow_familiar"}
+	
+	]
+}

@@ -1,0 +1,55 @@
+#
+#    DiscordSRV-Staff-Chat: Messages Config
+#
+#    ---
+#
+#    Supported hex color code formats: &x&R&R&G&G&B&B and &#RRGGBB
+#
+#    Player placeholders:
+#        %name%:              player's name
+#        %nickname%:          player's nickname, if they have one (falls back to regular name)
+#
+#    Discord placeholders:
+#        %name%:              discord user's name
+#        %discriminator%:     discord user's discriminator (#0000)
+#        %nickname%:          discord user's nickname if they have one (falls back to regular name)
+#        %toprole%:           discord user's topmost role
+#        %toproleinitial%:    the first character of the discord user's topmost role
+#        %toprolealias%:      alias for the discord user's topmost role as defined in DiscordSRV's config
+#        %toprolecolor%:      an RGB color code derived from the discord user's topmost role
+#        %allroles%:          all the discord user's roles
+#
+#    You may also use placeholders from PlaceholderAPI if it is installed.
+#
+#    ---
+
+meta:
+  config-version: 1.4.4
+placeholders:
+  prefix: '&d(&5&l&oStaff&d)'
+  example: Define your own placeholders here!
+messages:
+  in-game-formats:
+    player: '%prefix% %name%&7:&f %message%'
+    discord: '&9&ldiscord &f→ %prefix% %name%&7:&f %message%'
+    console: '%prefix% [CONSOLE]&7:&f %message%'
+  discord-formats:
+    console: '**`CONSOLE:`** %message%'
+notifications:
+  automatic-staff-chat:
+    enabled: '%prefix% &2→&a &nEnabled&a automatic staff chat'
+    disabled: '%prefix% &4→&c &nDisabled&c automatic staff chat'
+  leave:
+    self: |-
+      %prefix% &4→&c You &nleft&c the staff chat&r
+      &8&oYou won't receive any staff chat messages
+    others: '%prefix% &4→&c %player% &nleft&c the staff chat'
+    reminder: '&8&o(Reminder: you left the staff chat)'
+    disabled: |-
+      %prefix% &6→&e You cannot leave the staff chat
+      &8&oLeaving the staff chat is currently disabled
+  join:
+    self: |-
+      %prefix% &2→&a You &njoined&a the staff chat&r
+      &8&oYou will now receive staff chat messages again
+    others: '%prefix% &2→&a %player% &njoined&a the staff chat'

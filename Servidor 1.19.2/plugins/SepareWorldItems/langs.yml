@@ -1,0 +1,14 @@
+# Config Langs
+# Config = 1.2.18
+# Prefix Value: %prefix%
+general:
+  prefix: '&8[&aSepareWorldItems&8]&r' # Value: %prefix%
+  reload: "&r  \n&r%prefix% &2Configuration reload successfully.\n&r &r"
+  no-permission: "&r \n&r%prefix% &cNo Permission.\n&r &r"
+  unknown-cmd-args: "&r \n&r%prefix% &cUsing:&f /separeworlditems help\n&r &r"
+  bypass:
+    bypass-warning-alert: "&r \n&r%prefix% &cWarning! &fAt this moment you have the\
+      \ bypass permission between world, this is the &c&lAlpha &fwhich can cause you\
+      \ to lose your items.\n&r &r"
+    bypass-enabled: "&r \n%prefix% &aBypass mode Enabled.\n&r &r"
+    bypass-disabled: "&r \n%prefix% &cBypass Mode Disabled.\n&r &r"

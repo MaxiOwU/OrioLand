@@ -1,0 +1,26 @@
+# 
+# Infernal Touch EcoEnchant
+
+description: Automatically smelt mined blocks.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: rare
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - silk_touch
+  - stone_switcher
+  disabled-in-worlds: []
+  targets:
+  - pickaxe
+name: Infernal Touch
+config:
+  drop-xp: true
+

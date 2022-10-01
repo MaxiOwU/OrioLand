@@ -1,0 +1,92 @@
+Nocsy_Pikachu:
+  Type: CAT
+  AIGoalSelectors:
+  - 0 clear
+  - 1 float
+  - 2 randomstroll
+  - 3 lookatplayers
+  AITargetSelectors:
+  - 0 clear
+  Drops: []
+  Equipment: []
+  Skills:
+   - model{mid=nocsy_pikachu;n=false} @self ~onSpawn
+   - skill{s=NocsyPikachu_interact} @self ~onInteract
+  Display: "§ePikachu"
+  Health: 100
+  Damage: 0
+  Options:
+    Collidable: false
+    Invincible: true
+    Invisible: true
+    Despawn: true
+    AlwaysShowName: false
+    PreventOtherDrops: true
+    Silent: true
+    KnockbackResistance: 1
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+    MovementSpeed: 0.3
+    
+Nocsy_Penguin:
+  Type: CAT
+  AIGoalSelectors:
+  - 0 clear
+  - 1 lookatplayers
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  Drops: []
+  Equipment: []
+  Skills:
+   - model{mid=nocsy_pet_penguin;n=false} @self ~onSpawn
+   - skill{s=NocsyPet_Penguin_Sounds} ~onSpawn
+   - skill{s=NocsyPenguin_interact} ~onInteract
+  Display: "§bPenguin"
+  Health: 100
+  Damage: 0
+  Options:
+    Collidable: false
+    Invincible: true
+    Despawn: true
+    AlwaysShowName: false
+    PreventOtherDrops: true
+    Silent: true
+    KnockbackResistance: 1
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+    MovementSpeed: 0.21
+
+Nocsy_Reaper:
+  Type: BEE
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  - 3 lookatplayers
+  AITargetSelectors:
+  - 0 clear
+  - 1 monsters
+  Drops: []
+  Equipment: []
+  Skills:
+   - model{mid=nocsy_pet_reaper;n=false} @self ~onSpawn
+   - skill{s=NocsyPet_Reaper_Attack;sync=true} ~onAttack
+   - skill{s=NocsyPet_Reaper_CancelAttack;sync=true} ~onAttack
+  Display: "§6Sleepy reaper"
+  Health: 100
+  Damage: 0
+  Options:
+    Collidable: false
+    Invincible: true
+    Despawn: true
+    AlwaysShowName: false
+    PreventOtherDrops: true
+    Silent: true
+    KnockbackResistance: 1
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+    MovementSpeed: 0.28

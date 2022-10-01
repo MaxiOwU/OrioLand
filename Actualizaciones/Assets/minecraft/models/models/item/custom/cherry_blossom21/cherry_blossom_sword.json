@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench by yungwilder",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "item/cherry_blossom21/cherry_blossom_sword",
+		"layer0": "item/cherry_blossom21/cherry_blossom_sword"
+	},
+	"display": {}
+}

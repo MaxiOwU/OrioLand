@@ -1,0 +1,106 @@
+Action:
+  - "FARM_BREAK" 
+ 
+ID: "FARMBREAK"
+
+#
+# <----- Important ----->
+# When Enabled, the Plugin will check when a player breaks a sugar cane, if there are 
+# more grown sugar canes above it, means the player gets then 3 times of the money
+#
+# When Disabled, the player only gets Money for ONE Single Sugar cane, does not matter how
+# many have grown
+#
+
+CheckIfThereAreOtherCanesAbove: true
+
+Material: "WHEAT"
+
+ColorOfBossBar: "GREEN"
+
+Slot: 33
+
+Price: 350
+
+Worlds:
+  - "survival"
+  - "survival_nether"
+  - "survival_the_end"
+
+IDS:
+
+  FARM_BREAK:
+    List:
+      - "WHEAT" 
+      - "CARROT" 
+      - "SUGAR_CANE"
+
+    CARROT:
+
+      Chance: 85
+      ID: "CARROT"
+      Money: 2
+      Exp: 5
+      Points: 0.05
+      RewardsGUI:
+    
+        See: true
+        Icon: "CARROT"
+
+    SUGAR_CANE:
+
+      Chance: 85
+      ID: "SUGAR_CANE"
+      Money: 2
+      Exp: 5
+      Points: 0.05
+      RewardsGUI:
+    
+        See: true
+        Icon: "SUGAR_CANE"
+      
+    WHEAT:
+
+      Chance: 85
+      ID: "WHEAT"
+      Money: 2
+      Exp: 5
+      Points: 0.05
+      RewardsGUI:
+    
+        See: true
+        Icon: "WHEAT"
+ 
+LEVELS:
+
+  CountOfLevels: 4
+
+  1:
+
+    Money: 0 
+    Icon: "COAL" 
+    Need: 0
+    
+  2:
+
+    Money: 250 
+    Icon: "PAPER" 
+    Need: 150 
+    EarnMore: 0.15
+    
+  3:
+
+    Money: 500 
+    Icon: "PAPER" 
+    Need: 500 
+    EarnMore: 0.25
+    
+  4:
+
+    Money: 1000 
+    Icon: "EMERALD" 
+    Need: 550 
+    EarnMore: 0.30
+
+  
+  

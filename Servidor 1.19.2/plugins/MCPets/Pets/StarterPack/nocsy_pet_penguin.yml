@@ -1,0 +1,14 @@
+Id: Nocsy_Penguin
+MythicMob: Nocsy_Penguin
+Permission: advancedpet.nocsypenguin
+Mountable: false
+DespawnSkill: NocsyPetPenguinDespawn
+Distance: 3
+SpawnRange: 1
+ComingBackRange: 2
+Icon:
+  Name: §bPenguin
+  TextureBase64: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWVhNzU5Zjk3OWI5YjhlYTgzMWNhN2UyZDY2ZGYxNDgyOTNmMWE1MTQ3OTgzYjUyYzQ4ZWZlMmMzMTVlIn19fQ==
+  CustomModelData: 1
+  Description:
+  - §7Come on ! Time to slide !

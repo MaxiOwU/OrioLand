@@ -1,0 +1,72 @@
+{
+	"credit": "Made by Pundus with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "hats/sweet_tooth",
+		"particle": "hats/sweet_tooth"
+	},
+	"elements": [
+		{
+			"name": "lollipop",
+			"from": [7, 8, 4],
+			"to": [9, 16, 12],
+			"faces": {
+				"north": {"uv": [3, 5, 5, 13], "texture": "#0"},
+				"east": {"uv": [8, 0, 0, 8], "texture": "#0"},
+				"south": {"uv": [2.5, 8, 4.5, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 8, 8], "texture": "#0"},
+				"up": {"uv": [0, 8.5, 2, 16], "texture": "#0"},
+				"down": {"uv": [1, 7, 3, 15], "texture": "#0"}
+			}
+		},
+		{
+			"name": "stick",
+			"from": [7.5, -4, 7.5],
+			"to": [8.5, 8, 8.5],
+			"faces": {
+				"north": {"uv": [8, 0, 8.5, 6], "texture": "#0"},
+				"east": {"uv": [8, 0, 8.5, 6], "texture": "#0"},
+				"south": {"uv": [8, 0, 8.5, 6], "texture": "#0"},
+				"west": {"uv": [8, 0, 8.5, 6], "texture": "#0"},
+				"up": {"uv": [8, 0, 8.5, 0.5], "texture": "#0"},
+				"down": {"uv": [8, 0, 8.5, 0.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 3, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 3.25, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 3.25, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"ground": {
+			"rotation": [0, 0, 90],
+			"translation": [0, -1, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [30, -55, 0],
+			"translation": [0, 0.75, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"head": {
+			"rotation": [66, 90, 0],
+			"translation": [0, -7, -10.75],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0]
+		}
+	}
+}

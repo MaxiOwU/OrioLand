@@ -1,0 +1,28 @@
+# 
+# Volatile EcoEnchant
+
+description: Explosive sword attacks.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: special
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  targets:
+  - sword
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 2
+name: Volatile
+config:
+  allow-not-fully-charged: false
+  break-blocks: false
+  fire: false
+  chance-per-level: 5
+

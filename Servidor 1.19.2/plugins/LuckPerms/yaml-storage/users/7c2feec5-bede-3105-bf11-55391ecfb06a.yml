@@ -1,0 +1,5 @@
+uuid: 7c2feec5-bede-3105-bf11-55391ecfb06a
+name: jDMC146
+primary-group: streamer
+parents:
+- streamer

@@ -1,0 +1,213 @@
+# PlayerWarps by Olzie-12
+# https://www.spigotmc.org/resources/66692/
+# We also have a discord server for help: https://olziedev.com/discord or check docs https://docs.olziedev.com/projects/playerwarps
+# Also if you find any bugs be happy to report them I will fix them :)
+# Made with love
+
+# If you want to disable any message just set it to nothing. by doing
+# list: "" <- This will no longer send a message.
+
+
+# every singe message in the plugin is here.
+# make sure you use "" to end of every string
+# Also you can use colour codes <3
+
+# To use hex color codes you will need to do
+# "{#HEX} text"
+
+lang:
+  console-name: "&0Варпы Сервера"
+  console-uuid: "f78a4d8d-d51b-4b39-98a3-230f2de0c670"
+  cancel-chat-wait: "Отмена"
+  friendly-max-warps: "Неограниченный" # If you want it to show the actual amount, use %amount%
+  prefix: "&c&lWARPS &7»" # Use %prefix% to add the prefix to any message!
+  list: "%prefix% &6Текущие варпы &e(%page%&6/&e%pages%&):&6\n* %list%\n%previous%      %next%"
+  list-format: "[warp]"
+  list-none: "&cНикто" # What should be displayed if there are no warps?
+  list-hover: "&aНажмите, чтобы телепортироваться на &e[warp]"
+  list-split: "\n* "
+  list-previous: "←"
+  list-previous-hover: "&cПредыдущая страница"
+  list-next: "→"
+  list-next-hover: "&aСледующая страница"
+  warp-removed: "%prefix% &aУспех! Ваш варп удален!"
+  teleported: "%prefix% &aВы успешно телепортировались на варп &6%warp%&a!"
+  someone-teleported: "%prefix% &6%player%&e телепортировался на варп &6%warp%&e!" # If they teleport to their own warp, it will not send the message!
+  warp-set-confirmation: "%prefix% &6Параметр %name% варпа будет стоить вам &e$%price%&6, повторите команду для подтверждения."
+  warp-teleport-confirmation: "%prefix% &6Телепортация на варп &e%warp% будет стоить вам &e$%price%&6, повторите команду для подтверждения."
+  warp-remove-confirmation: "%prefix% &cВы уверены, что хотите удалить варп %warp%? Повторите, чтобы удалить."
+  warp-set: "%prefix% &aВарп успешно установлен!"
+  reloaded: "%prefix% &aВсе конфигурации успешно перезагружены!"
+  money-taken: "%prefix% &a$%price% было снято с вашего игрового счета."
+  items-taken-set: "%prefix% &aАлмазы были изъяты из вашего инвентаря."
+  items-taken-teleport: "%prefix% &aАлмазы были изъяты из вашего инвентаря."
+  teleporting-dont-move: "%prefix% &aТелепортация на варп &6%warp%&a произойдёт через &6%time%&a секунд!"
+  desc-set-success: "%prefix% &aОписание &6%desc%&a было успешно установлено для варпа &6%warp%"
+  desc-remove-success: "%prefix% &aОписание варпа &6%warp% было успешно удалено"
+  given-more-warps-success: "%prefix% &aSuccessfully given &d%player%&a an extra of &d%extra%&a warps and a total of &d%total%&a!"
+  set-warp-icon: "%prefix% &aЗначок варпа &6%warp%'s&a успешно изменён на &6%icon%&a!"
+  removed-warp-icon: "%prefix% &aЗначок варпа &6%warp%'s&a был успешно удалён!"
+  category-set: "%prefix% &aВы успешно установили категорию &6%category% &aдля варпа &6%warp%&a!"
+  rate-set: "%prefix% &aВы успешно оценили варп &6%warp%&a!"
+  warps-removed: "%prefix% &aУспех! Варп игрока &6%player%&a был удалён!"
+  warp-locked: "%prefix% &aУспешно заблокирован варп &6%warp%&a!"
+  warp-unlocked: "%prefix% &aУспешно разблокирован варп &6%warp%&a!"
+  warp-cost-set: "%prefix% &aУспешно установлена стоимость варпа &6$%cost%&a!"
+  warp-cost-removed: "%prefix% &aУспешно удалена стоимость варпа!"
+  successfully-reset-warp: "%prefix% &aУспешно переустановлено местоположение варпа!"
+  successfully-renamed-warp: "%prefix% &aБыл успешно переименован варп &6%warp%&a!"
+  successfully-setowner: "%prefix% &aУспешно установлены права собственности на &6%owner%&a!"
+  successfully-banned: "%prefix% &aИгрок &6%player%&a был успешно забанен для варпа &6%warp%&a!"
+  successfully-unbanned: "%prefix% &aИгрок &6%player%&a успешно разбанен для варпа &6%warp%&a!"
+  successfully-whitelisted: "%prefix% &aИгрок &6%player%&a успешно добавлен в белый список варпа &6%warp%&a!"
+  successfully-unwhitelisted: "%prefix% &aИгрок &6%player%&a успешно удалён из белого списка варпа &6%warp%&a!"
+  new-owner: "%prefix% &aИгрок &6%player%&a только что назначил вас владельцем варпа &6%warp%&a!"
+  pass-set-success: "%prefix% &aПароль для варпа &6%warp%&a был успешно установлен!"
+  pass-remove-success: "%prefix% &aПароль для варпа &6%warp%&a был успешно удалён!"
+  require-password: "%prefix% &cЭтот варп требует пароль для телепортации, пожалуйста, введите пароль!"
+  rent: "%prefix% &aВы успешно оплатили аренду за варп &6%warp%&a!"
+  rent-reminder: "%prefix% &cЭто напоминание о том, что вам нужно будет заплатить арендную плату за варп %warp% через %time%."
+  banned-list: "%prefix% &6Забаненные игроки: &e%list%"
+  whitelisted-list: "%prefix% &6Игроки которые находятся в белом списке: &e%list%"
+  rate-notify: "%prefix% &6%player%&a только что оценил ваш варп &6%warp% %rate%&a звездами!"
+  favourite-warp: "%prefix% &aВарп &6%warp%&a был успешно добавлен в список избранных!"
+  unfavourite-warp: "%prefix% &aВарп &6%warp%&a был успешно &cудалён &aиз списка избранных!"
+  sponsored-warp: "%prefix% &aВы успешно приобрели этот спонсорский слот!"
+  current-amount-of-warps:
+    - "%prefix% &7&l&m----------&7&l[&c&lWARPS&7&l]&m----------"
+    - "%prefix% &6В настоящее время у вас есть максимум &e%warpsmax%&6 (&e%staticwarps% static&6) варпов."
+    - "%prefix% &6В настоящее время вы использовали &e%warpsused%&6 варпов."
+  current-amount-of-warps-other:
+    - "%prefix% &7&l&m----------&7&l[&с&lWARPS&7&l]&m----------"
+    - "%prefix% &e%player%&6 в настоящее время имеет максимум &e%warpsmax%&6 (&e%staticwarps% static&6) варпов."
+    - "%prefix% &e%player%&6 в настоящее время использует &e%warpsused%&6 варпов."
+  amount-warps-others-alert: "&c%player% в настоящее время находится в автономном режиме, показывая только свои максимальные варпы в виде статической величины."
+  locked-gui: "&c&lЗаблокировано"
+  unlocked-gui: "&a&lРазблокировано"
+  offline-title: "%prefix% &6Пока вы были не в сети..."
+  sent-setowner: "%prefix% &aЗапрос на смену владельца варпа &6%warp%&a успешно отправлен игроку &6%player%&a!\n%prefix% &aЧтобы отменить этот тип запроса используйте эту команду: &6/warp setowner cancel %warp%&a!"
+  received-setowner: "%prefix% &aВы получили запрос на смену владельца варпа от игрока &6%player%&a для варпа &6%warp%&a!\n%prefix% &aПожалуйста, введите &6/warp setowner accept %warp%&a для принятия."
+  cancelled-setowner: "%prefix% &aЗапрос игроку &6%player%&a на смену владельца был успешно отменён!"
+  sent-expired-setowner: "%prefix% &cСрок действия вашего запроса на смену владельца, отправленного игроку &6%player%&c для варпа &6%warp%&c, истек."
+  received-expired-setowner: "%prefix% &cСрок действия вашего запроса на смену владельца варпа &6%warp%&c от игрока &6%player%&c истек."
+  dbexec-successful: "%prefix% &aSuccessfully updated &d%count%&a rows. &aPlease execute &d/%cmd% reload&a to update changes."
+
+  # the help menu for a player
+  # The variable %cmd% is any command from the config.yml :)
+  help-player:
+    - "&7&l&m----------&7&l[&c&lWARPS&7&l]&m----------"
+    - "&6/%cmd% help &7&l- &eОтображать это меню."
+    - "&6/%cmd% <warp> &7&l- &eТелепортироваться к варпу."
+    - "&6/%cmd% set <name> &7&l- &eУстанавить варп на ваше местоположение."
+    - "&6/%cmd% remove <warp> &7&l- &eУдалить варп"
+    - "&6/%cmd% removeall <player> &7&l- &eУдалить варпы всех игроков."
+    - "&6/%cmd% desc set/remove <warp> <desc> &7&l- &eУстановить описание варпа"
+    - "&6/%cmd% list [page] [player] &7&l- &eПеречислить все варпы текущего игрока."
+    - "&6/%cmd% open [menu] [options] &7&l- &eОткрыть графический интерфейс игрока."
+    - "&6/%cmd% amount &7&l- &eПроверить, сколько у вас варпов."
+    - "&6/%cmd% reload &7&l- &eПерезагрузить все файлы конфигурации."
+    - "&6/%cmd% icon set/remove <warp> &7&l- &eУстановить значок варпа."
+    # This is useful for if you want to sell warp amounts on your store, but what happens if a player already has 5 warps?
+    # This just simply gives them more warps. For example if a player has 10 warps (pw.limit.10) and you do /pw addwarps *player* 10. They will now have 20 warps.
+    - "&6/%cmd% addwarps <player> <amount> &7&l- &eДобавить больше искажений игроку с помощью команды."
+    - "&6/%cmd% category <warp> <category> &7&l- &eУстановить категорию для варпа"
+    - "&6/%cmd% rate <warp> <rate> &7&l- &eОценить варп."
+    - "&6/%cmd% ban set/remove/list <warp> [player] &7&l- &eУзнать баны варпа."
+    - "&6/%cmd% reset <warp> &7&l- &eПереустановить местоположение варпа."
+    - "&6/%cmd% rename <warp> <name> &7&l- &eПереименовать варп."
+    - "&6/%cmd% setowner <warp> <player> &7&l- &eПередать владельца варпа."
+    - "&6/%cmd% favourite <warp> &7&l- &eУстановить варп избранным"
+
+  # the help menu for console
+  # The variable %cmd% is any command from the config.yml :)
+  help-console:
+    - "&7&l&m----------&7&l[&c&lWARPS&7&l]&m----------"
+    - "&6/%cmd% help &7&l- &eОтображать это меню."
+    - "&6/%cmd% open [menu] [options] &7&l- &eОткрыть графический интерфейс игрока."
+    - "&6/%cmd% remove <warp> &7&l- &eУдалить варп"
+    - "&6/%cmd% list [page] [player] &7&l- &eПеречислить все варпы текущего игрока."
+    - "&6/%cmd% reload &7&l- &eПерезагрузить все файлы конфигурации."
+    # This is useful for if you want to sell warp amounts on your store, but what happends if a player already has 5 playerwarps.
+    # This just simply gives them more warps. For example if a player has 10 warps (pw.limit.10) and you do /pw addwarps *player* 10. They will now have 20 warps.
+    - "&6/%cmd% addwarps <player> <amount> &7&l- &eДобавить больше искажений игроку с помощью команды."
+    - "&6/%cmd% category <warp> <category> &7&l- &eУстановить категорию для варпа"
+    - "&6/%cmd% removeall <player> &7&l- &eУдалить варпы всех игроков."
+    - "&6/%cmd% setowner <warp> <player> &7&l- &eПередать владельца варпа."
+    - "%prefix% &d/%cmd% dbexec <query> &7&l- &bExecute a query."
+
+  # error messages.
+  errors:
+    command-syntax: "%prefix% &cНеверный синтаксис, используйте:\n%syntax%"
+    player-only: "%prefix% &cВы должны быть игроком!"
+    console-only: "%prefix% &cЭту команду можно выполнить только из консоли!"
+    name-too-long-set: "%prefix% &cИмя варпа не может быть длиннее &4%max%&c символов!"
+    desc-too-long-set: "%prefix% &cОписание не может быть длиннее &4%max%&c символов!"
+    pass-too-long-set: "%prefix% &cУ вас не может быть пароля длиннее &4%max%&c символов!"
+    rate-too-big: "%prefix% &cВы не можете оценить варп выше &45&c!"
+    not-a-number: "%prefix% &cЭто не число!"
+    no-page: "%prefix% &cТакой страницы не существует!"
+    invalid-name-set: "%prefix% &cВы не можете установить варп под названием &4%name%&c!"
+    name-taken-set: "%prefix% &cЭто название уже использует другой варп!"
+    valid-name-set: "%prefix% &cПожалуйста, введите допустимое имя для вашего варпа!"
+    warp-dont-own: "%prefix% &cВам не принадлежит этот варп!"
+    warp-dont-exist: "%prefix% &cЭтого варпа не существует!"
+    invalid-warp: "%prefix% &cЭто недопустимый варп."
+    no-permission: "%prefix% &cУ вас нет разрешения &4%permission%&c для этого! %reason%"
+    too-many-warps-set: "%prefix% &cВы не можете установить столько варпов, вы можете установить только &4%amount%&c из-за ваших разрешений/статической суммы!"
+    limit-setowner: "%prefix% &cНе удалось передать варп %warp%, потому что у игрока слишком много варпов!"
+    already-setowner: "%prefix% &cУ вас уже есть ожидающий запрос на варп %warp%"
+    not-setowner: "%prefix% &cУ вас нет установленного запроса на смену владельца для этого варпа!"
+    warp-not-safe: "%prefix% &cЭтот варп небезопасен. Если вы хотите телепортироваться, сделайте это снова."
+    money-not-enough-teleport: "%prefix% &cУ вас нет $%price% для телепортации в этот варп!"
+    money-not-enough-reset: "%prefix% &cУ вас нет $%price% для переустановки варпа!"
+    money-not-enough-rename: "%prefix% &cУ вас нет $%price%, чтобы переименовать ваш варп!"
+    items-not-enough-set: "%prefix% &cУ вас нет алмазов, чтобы установить этот варп!"
+    items-not-enough-teleport: "%prefix% &cУ вас нет алмазов, чтобы телепортироваться в этот варп!"
+    money-not-enough-set: "%prefix% &cУ вас нет $%price% для установки этого варпа!"
+    money-not-enough-sponsor: "%prefix% &cУ вас нет $%price%, чтобы спонсировать этот варп!"
+    item-not-enough-sponsor: "%prefix% &cУ вас недостаточно %item%, чтобы спонсировать этот варп!"
+    moved-while-teleporting: "%prefix% &cОтменено, вы переехали!"
+    desc-no-desc-gui: "&cНикто"
+    desc-no-desc: "%prefix% &c%warp% не имеет описания!"
+    cost-no-cost: "%prefix% &c%warp% не имеет стоимости!"
+    pass-no-pass: "%prefix% &c%warp% не имеет пароля!"
+    disabled-world-set: "%prefix% &cВы не можете устанавливать варпы в этом мире!"
+    disabled-world-teleport: "%prefix% &cYou cannot teleport to warps in this world!"
+    player-offline: "%prefix% &cЭтот игрок не в сети!"
+    invalid-item: "%prefix% &cЭто недопустимый элемент для установки значка варпа."
+    invalid-category: "%prefix% &cЭто недопустимая категория"
+    no-player-joined: "%prefix% &cТакого игрока не существует!"
+    set-cooldown: "%prefix% &cПодождите, чтобы установить варп! (%cooldown%)"
+    rate-cooldown: "%prefix% &cПодождите, чтобы установить рейтинговый варп! (%cooldown%)"
+    teleport-cooldown: "%prefix% &cПодождите, чтобы телепортироваться снова (%cooldown% left)"
+    teleport-warp-locked: "%prefix% &cЭтот варп в настоящее время заблокирован!"
+    rate-own-warp: "%prefix% &cВы не можете оценить свой собственный варп!"
+    rate-condition: "%prefix% &cВы не соответствуете требованиям для оценки этого варпа!"
+    already-owner: "%prefix% &cВы уже являетесь владельцем этого варпа!"
+    already-teleporting: "%prefix% &cВы уже телепортируетесь на этот варп!"
+    wrong-password: "%prefix% &cЭтот пароль неверный!"
+    not-whitelisted: "%prefix% &cВы не находитесь белом списке."
+    not-same-world: "%prefix% &cВы не можете телепортироваться на этот варп!"
+    rent: "%prefix% &cВы не могли заплатить за варп %warp%, теперь варп удален!"
+    banned: "%prefix% &cИзвините, владелец варпа забанил вас."
+    owner-ban: "%prefix% &cТы не можешь забанить себя!"
+    already-banned: "%prefix% &cЭтот игрок уже забанен!"
+    not-banned: "%prefix% &cЭтот игрок не забанен!"
+    max-cost: "%prefix% &cК сожалению, максимальная стоимость, которую вы можете установить, составляет %max%!"
+    min-cost: "%prefix% &cК сожалению, минимальная стоимость, которую вы можете установить, составляет %min%!"
+    already-whitelisted: "%prefix% &cЭтот игрок уже в белом списке!"
+    already-sponsored: "%prefix% &cВы уже спонсировали этот варп!"
+    max-sponsors: "%prefix% &cВы ограничены только одним спонсорским варпом!"
+    change-location-sign: "%prefix% &cВы не можете изменить местоположение варпа!"
+    gui-cooldown: "%prefix% &cВам нужно будет подождать несколько секунд, чтобы использовать это снова."
+    dbexec-failed: "%prefix% &cПри выполнении этого запроса произошла ошибка. %error%"
+
+n/a:
+  no-prefix: "Нету"
+  no-suffix: "Нету"
+  no-server: "Нету"
+  no-password: "Нету"
+  no-user: "Нету"
+  no-payer: "Нету"
+  no-warp: "Нету"
+  no-displayname: "%player%" # show the players name instead

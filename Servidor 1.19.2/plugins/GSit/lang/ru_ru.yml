@@ -1,0 +1,83 @@
+#
+# Language-File translated by:		mani123
+#
+
+
+
+Plugin:
+  plugin-link: '[P]&a Соединение с &6 %Link%&a Успешно!'
+  plugin-version: '[P]&c Плагин не может быть использован с этой версией сервера! (&b%Version%&c)'
+  
+  plugin-enabled: '[P]&a Плагин успешно включен.'
+  plugin-hook: '[P]&a Успешно подключено к&6 %Link%&a!'
+  plugin-update: |-
+    [P]&a Вышла новая версия:&6 %NewVersion%&a!
+    [P] &aУ вас:&6 %Version%&a!
+    [P] &aСкачайте последнюю версию:
+    [P]&6 %Path%
+  plugin-disabled: '[P]&a Плагин успешно выключен.'
+  plugin-prefix: '&7[&6GSit&7]'
+
+
+
+Messages:
+  command-sender-error: '[P]&c Этот отправитель не может выполнить эту команду!'
+  command-version-error: |-
+    [P]&c Outdated Server Version! (&b%Version%&c)
+    [P]&c Update the Server to use this Feature!
+  
+  command-gsit-toggle-on: '[P]&a Теперь вы можете сесть, нажав.'
+  command-gsit-toggle-off: '[P]&a Вы больше не можете сесть, нажав.'
+  command-gsit-playertoggle-on: '[P]&a Теперь вы можете сесть на игрока, нажав.'
+  command-gsit-playertoggle-off: '[P]&a Вы больше не можете сесть на игрока, нажав.'
+  command-gcrawl-toggle-on: '[P]&a You have enabled double-sneak for crawl.'
+  command-gcrawl-toggle-off: '[P]&a You have disabled double-sneak for crawl.'
+  
+  action-sit-now-error: '[P]&c Вы не можете сидеть сейчас!'
+  action-sit-region-error: '[P]&c Вы не можете сидеть в этом регионе!'
+  action-sit-kick-error: '[P]&c Кто-то уже сидит здесь!'
+  
+  action-playersit-info: '&aИспользуйте &6 <lang:key.sneak>&a, чтобы встать.'
+  
+  action-pose-now-error: '[P]&c Вы не можете использовать эту команду сейчас!'
+  action-pose-world-error: '[P]&c Вы не можете использовать эту команду в этом мире!'
+  action-pose-location-error: '[P]&c Здесь нельзя использовать эту команду!'
+  action-pose-safe-error: '[P]&c Здесь небезопасно использовать эту команду!'
+  action-pose-region-error: '[P]&c Вы не можете использовать эту команду в этом регионе!'
+  action-pose-kick-error: '[P]&c Кто-то уже здесь использует эту команду!'
+  action-pose-info: '&aИспользуйте &6 <lang:key.sneak>&a, чтобы встать.'
+  
+  action-crawl-now-error: '[P]&c Вы не можете ползать сейчас!'
+  action-crawl-world-error: '[P]&c Вы не можете ползать в этом мире!'
+  action-crawl-region-error: '[P]&c Вы не можете ползать в этом регионе!'
+  action-crawl-info: '&aИспользуйте &6 <lang:key.sneak>&a, чтобы встать.'
+  
+  action-emote-stop-error: '[P]&c You can''t stop emoting!'
+  action-emote-stop: '[P]&a You stopped emoting.'
+  action-emote-exist-error: '[P]&c The Emote&6 %Emote%&c does not exist!'
+  action-emote-now-error: '[P]&c You can''t emote right now!'
+  action-emote-world-error: '[P]&c You can''t emote in this world!'
+  action-emote-region-error: '[P]&c You can''t emote in this region!'
+  
+  command-reload: '[P]&a Кфг успешно перезагружены.'
+  command-permission-error: '[P]&c У вас нет прав на &4это!'
+  command-console-error: '[P]&c Эта команда только для игроков!'
+  command-gsittoggle-on: '[P]&a Теперь вы можете сесть.'
+  command-gsittoggle-off: '[P]&a Вы больше не можете сесть.'
+  action-sit-water-error: '[P]&c Здесь слишком мокро, чтобы сидеть!'
+  action-sit-location-error: '[P]&c Ты не можешь здесь сидеть!'
+  action-sit-area-error: '[P]&c Вы не можете сидеть &4тут!'
+  action-sit-ground-error: '[P]&c Вы можете сидеть только на земле!'
+  action-sit-already-error: '[P]&c Вы уже сидите!'
+  action-sit-safe-error: '[P]&c Здесь сидеть небезопасно!'
+  action-sit-world-error: '[P]&c Вы не можете сидеть в этом мире!'
+  action-sit-target-error: '[P]&c Нет места, на котором можно сесть!'
+  action-sit-info: '&aИспользуйте&6 %Key%&a чтобы встать!'
+  action-lay-location-error: '[P]&c Вы не можете здесь лежать!'
+  action-lay-area-error: '[P]&c Вы не можете лежать &4тут!'
+  action-lay-ground-error: '[P]&c Вы можете лежать только на земле!'
+  action-lay-already-error: '[P]&c Ты уже лежишь!'
+  action-lay-world-error: '[P]&c Вы не можете лежать в этом мире!'
+  action-lay-info: '&aИспользуйте&6 %Key%&a чтобы встать!'
+  
+  action-blocked-error: '[P]&c Вам не разрешено выполнять эту команду сейчас!'

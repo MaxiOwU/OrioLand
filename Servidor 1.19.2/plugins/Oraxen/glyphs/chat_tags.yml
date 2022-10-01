@@ -1,0 +1,25 @@
+twitch_tag:
+  texture: default/chat/twitch_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - "Twitch"
+    permission: "oraxen.emoji.twitch"
+
+tiktok_tag:
+  texture: default/chat/tiktok_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - "TikTok"
+    permission: "oraxen.emoji.tiktok"
+youtuber_tag:
+  texture: default/chat/youtuber_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - "YouTuber"
+    permission: "oraxen.emoji.youtuber"

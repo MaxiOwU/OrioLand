@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench by yungwilder",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/mechanic21/spring_loaded_boots",
+		"layer1": "item/mechanic21/spring_loaded_boots"
+	}
+}

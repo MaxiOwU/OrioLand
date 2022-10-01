@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench by yungwilder",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/community21/tuning_fork",
+		"particle": "item/community21/tuning_fork"
+	}
+}

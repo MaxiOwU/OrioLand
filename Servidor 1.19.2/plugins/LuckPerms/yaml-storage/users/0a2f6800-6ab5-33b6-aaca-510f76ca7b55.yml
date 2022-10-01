@@ -1,0 +1,7 @@
+uuid: 0a2f6800-6ab5-33b6-aaca-510f76ca7b55
+name: catalin34yt
+primary-group: helper+
+permissions:
+- mcpets.nutria
+parents:
+- helper+

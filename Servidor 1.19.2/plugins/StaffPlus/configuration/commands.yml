@@ -1,0 +1,89 @@
+staffplus: staffplus
+staff-mode: staff
+staff-mode-fly: sfly
+freeze: freeze
+teleport-to-location: teleportToLocation
+teleport-back: teleportBack
+teleport-to-player: teleportToPlayer
+teleport-here: teleportHere
+examine: examine
+notes: notes
+note: note
+private-note: pnote
+cps: cps
+my-reports: my-reports
+report: report
+players: players
+reportPlayer: reportPlayer
+reports:
+  manage:
+    gui: manage-reports
+    gui-find-reports: find-reports
+    cli: reports
+    teleport-to-report: teleport-to-report
+investigations:
+  manage:
+    start: investigate
+    pause: pause-investigation
+    conclude: conclude-investigation
+    gui: manage-investigations
+    add-note: inote
+warn: warn
+warns: warns
+warnings:
+  manage:
+    gui: manage-warnings
+    appealed-gui: manage-appealed-warnings
+my-warnings: my-warnings
+vanish: vanish
+chat: chat
+ticket: ticket
+alerts: alerts
+follow: follow
+revive: revive
+staff-list: personnel
+login: login
+register: register
+strip: strip
+clearInv: clear
+trace: trace
+echest_view: eview
+broadcast: broadcast
+protect-player: protectPlayer
+protect-area: protectArea
+bans:
+  manage:
+    gui: manage-bans
+    appealed-gui: manage-appealed-bans
+ban: ban
+tempban: tempban
+extendban: ban-extend
+reduceban: ban-reduce
+unban: unban
+kick: kick
+mute: mute
+mutes:
+  manage:
+    gui: manage-mutes
+    appealed-gui: manage-appealed-mutes
+my-mutes: my-mutes
+tempmute: tempmute
+extendmute: mute-extend
+reducemute: mute-reduce
+unmute: unmute
+alt-detect-whitelist: altWhitelist
+alt-detect-check: altCheck
+infractions-view: infractions
+infractions-top-view: infractions-top
+webui:
+  register: register
+ipban:
+  ban: ipban
+  tempban: iptempban
+  unban: ipunban
+  bancheck: ipban-check
+  ipbans: ipbans
+ips:
+  clear-ips: clear-ips
+choice-action: choice-action
+show-style-info: show-style-info

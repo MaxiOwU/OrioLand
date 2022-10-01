@@ -1,0 +1,42 @@
+mysql:
+  user: minecraft
+  password: qwerty
+  host: localhost
+  port: '3306'
+  database: minecraft
+  properties:
+    useSSL: 'false'
+storage: sqlite
+message:
+  auth: '&cYou need to enter your 2fa code with /2fa <code>'
+  force: '&cThe server admin has indicated that 2fa is required for you. Please run
+    the /2fa command to enable it.'
+  not_required: '&cYou do not need 2fa auth at this time'
+  invalid: '&cInvalid code, please try again!'
+  success: '&aSuccess! Thanks for keeping your account secure'
+  register_complete: '&a2fa activated and required for all logins.'
+  remembered: '&aRemembered your IP address, logging you in automatically.'
+  duplicate: '&6You already have two factor auth enabled, use /2fa remove to remove
+    it'
+  help: '&6We have sent you a map with your secret info. Enter it into your authenticator
+    application and then run /2fa <code>'
+  code_alternate: '&6If you cannot see the map you may register the secret key {0}
+    directly in your application.'
+  hotbar: '&cPlease run this command with at least one free slot in your hotbar'
+  map: 2fa Code Map
+  map_caption: 'Secret Key:'
+  remove_usage: '&cError, usage: /2fa remove <player>'
+  remove_no_self: You do not have permission to remove your 2fa, contact an admin!
+  remove_no_permission: You do not have permission to manipulate other users
+  remove_success: '&aRemoved 2fa entry for player {0}'
+  remove_not_found: '&cCannot find any 2fa entry for player {0}'
+  logout: '&6Logged out'
+  throttle: '&cThrottled! Please wait before using this command again.'
+code:
+  url: otpauth://totp/{1}@mc.orioland.com?secret={0}&issuer=OrioLand
+  window: 2
+session:
+  time: 360
+command:
+  interval: 750
+bungeecord: false

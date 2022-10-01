@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench by yungwilder",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "props/cosmic21/large_monitor_mercury_rotation",
+		"particle": "props/cosmic21/large_monitor_mercury_rotation"
+	},
+	"elements": [
+		{
+			"from": [-14, 2, -0.0625],
+			"to": [30, 30, -0.0625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 16, -0.0625]},
+			"faces": {
+				"north": {"uv": [0.25, 3.5, 15.5, 12.25], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [12.75, -29, 25],
+			"scale": [3, 3, 3]
+		}
+	}
+}

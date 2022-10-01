@@ -1,0 +1,99 @@
+modules:
+  compass-module:
+    enabled: true
+    velocity: 5
+    item: COMPASS
+    name: '&4Launcher'
+    lore: '&7Launches you towards the, &7location you are facing.'
+  random-teleport-module:
+    enabled: true
+    item: ENDEREYE
+    name: '&cRandom Teleport'
+    lore: '&7Teleports you to a random player.'
+    random: false
+  vanish-module:
+    enabled: true
+    item: INK:10
+    name: '&6Vanish'
+    lore: '&7Toggles your total vanish.'
+    item-off: INK:8
+  gui-module:
+    enabled: true
+    item: PAPER
+    name: '&eGUI Hub'
+    lore: '&7Opens the GUI hub.'
+    reports-gui: true
+    reports-name: '&bUnresolved reports GUI'
+    reports-title: '&bUnresolved reports'
+    reports-lore: '&7Shows all open reports.'
+    my-reports-title: '&bReports assigned to you'
+    my-reports-lore: '&7Shows reports currently assigned to you.'
+    assigned-reports-title: '&bReports In Progress'
+    assigned-reports-lore: '&7Shows reports that are currently being worked on.'
+    closed-reports-title: '&bClosed reports'
+    closed-reports-lore: '&7History of all closed reports.'
+    miner-gui: true
+    miner-title: '&bUnderground users'
+    miner-name: '&bMiner GUI'
+    miner-lore: '&7Shows all players under the set Y value.'
+    xray-level: 16
+    protected-areas-gui: true
+    protected-areas-title: '&bOverview protected areas'
+    protected-areas-name: '&bProtected Areas GUI'
+    protected-areas-lore: '&7Shows all currently set protected areas.'
+    ban-gui: true
+    ban-title: '&bOverview banned players'
+    ban-name: '&bBanned players GUI'
+    ban-lore: '&7Shows all currently banned players.'
+    mute-gui: true
+    mute-title: '&bOverview muted players'
+    mute-name: '&bMuted players GUI'
+    mute-lore: '&7Shows all currently muted players.'
+    investigation-gui: true
+    investigation-title: '&bOverview investigations'
+    investigation-name: '&bInvestigations GUI'
+    investigation-lore: '&7Shows all investigations.'
+  counter-module:
+    enabled: true
+    item: HEAD
+    name: '&aStaff List'
+    lore: '&7Shows all staff online and in staff mode'
+    title: '&bCurrent staff online'
+    show-staff-mode: false
+  freeze-module:
+    enabled: true
+    item: BLAZE_ROD
+    name: '&2Freeze'
+    lore: '&7Toggles freeze for the clicked player.'
+  cps-module:
+    enabled: true
+    item: CLOCK
+    name: '&3CPS'
+    lore: '&7Runs a click per second test on, &7the player that was clicked.'
+    time: 10
+    max: 16.0
+  examine-module:
+    enabled: true
+    item: CHEST
+    name: '&bExamine'
+    lore: '&7Inspects the inventory of the player that was clicked.'
+    title: '&bExamine inventory'
+    info-line:
+      food: 1
+      ip-address: 2
+      gamemode: 3
+      infractions: 4
+      location: 5
+      notes: 6
+      freeze: 7
+      warn: 8
+  follow-module:
+    enabled: true
+    item: LEAD
+    name: '&9Follow'
+    lore: '&7Mounts the player that was clicked.'
+  player-details-module:
+    lore: '&7Show all player details.'
+    item: STICK
+    enabled: true
+    name: '&9Details stick'

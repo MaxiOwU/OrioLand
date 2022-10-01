@@ -1,0 +1,404 @@
+1star_common_tag:
+  texture: default/chat/1star_common_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":1star_common:"
+    permission: "oraxen.emoji.1star_common"
+
+2star_common_tag:
+  texture: default/chat/2star_common_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":2star_common:"
+    permission: "oraxen.emoji.2star_common"
+
+3star_common_tag:
+  texture: default/chat/3star_common_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":3star_common:"
+    permission: "oraxen.emoji.3star_common"
+
+4star_common_tag:
+  texture: default/chat/4star_common_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":4star_common:"
+    permission: "oraxen.emoji.4star_common"
+
+5star_common_tag:
+  texture: default/chat/5star_common_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":5star_common:"
+    permission: "oraxen.emoji.5star_common"
+
+1star_uncommon_tag:
+  texture: default/chat/1star_uncommon_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":1star_uncommon:"
+    permission: "oraxen.emoji.1star_uncommon"
+
+2star_uncommon_tag:
+  texture: default/chat/2star_uncommon_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":2star_uncommon:"
+    permission: "oraxen.emoji.2star_uncommon"
+
+3star_uncommon_tag:
+  texture: default/chat/3star_uncommon_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":3star_uncommon:"
+    permission: "oraxen.emoji.3star_uncommon"
+
+4star_uncommon_tag:
+  texture: default/chat/4star_uncommon_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":4star_uncommon:"
+    permission: "oraxen.emoji.4star_uncommon"
+
+5star_uncommon_tag:
+  texture: default/chat/5star_uncommon_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":5star_uncommon:"
+    permission: "oraxen.emoji.5star_uncommon"
+
+1star_rare_tag:
+  texture: default/chat/1star_rare_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":1star_rare:"
+    permission: "oraxen.emoji.1star_rare"
+
+2star_rare_tag:
+  texture: default/chat/2star_rare_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":2star_rare:"
+    permission: "oraxen.emoji.2star_rare"
+
+3star_rare_tag:
+  texture: default/chat/3star_rare_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":3star_rare:"
+    permission: "oraxen.emoji.3star_rare"
+
+4star_rare_tag:
+  texture: default/chat/4star_rare_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":4star_rare:"
+    permission: "oraxen.emoji.4star_rare"
+
+5star_rare_tag:
+  texture: default/chat/5star_rare_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":5star_rare:"
+    permission: "oraxen.emoji.5star_rare"
+
+1star_ultrarare_tag:
+  texture: default/chat/1star_ultrarare_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":1star_ultrarare:"
+    permission: "oraxen.emoji.1star_ultrarare"
+
+2star_ultrarare_tag:
+  texture: default/chat/2star_ultrarare_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":2star_ultrarare:"
+    permission: "oraxen.emoji.2star_ultrarare"
+
+3star_ultrarare_tag:
+  texture: default/chat/3star_ultrarare_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":3star_ultrarare:"
+    permission: "oraxen.emoji.3star_ultrarare"
+
+4star_ultrarare_tag:
+  texture: default/chat/4star_ultrarare_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":4star_ultrarare:"
+    permission: "oraxen.emoji.4star_ultrarare"
+
+5star_ultrarare_tag:
+  texture: default/chat/5star_ultrarare_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":5star_ultrarare:"
+    permission: "oraxen.emoji.5star_ultrarare"
+
+1star_epic_tag:
+  texture: default/chat/1star_epic_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":1star_epic:"
+    permission: "oraxen.emoji.1star_epic"
+
+2star_epic_tag:
+  texture: default/chat/2star_epic_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":2star_epic:"
+    permission: "oraxen.emoji.2star_epic"
+
+3star_epic_tag:
+  texture: default/chat/3star_epic_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":3star_epic:"
+    permission: "oraxen.emoji.3star_epic"
+
+4star_epic_tag:
+  texture: default/chat/4star_epic_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":4star_epic:"
+    permission: "oraxen.emoji.4star_epic"
+
+5star_epic_tag:
+  texture: default/chat/5star_epic_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":5star_epic:"
+    permission: "oraxen.emoji.5star_epic"
+
+1star_heroic_tag:
+  texture: default/chat/1star_heroic_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":1star_heroic:"
+    permission: "oraxen.emoji.1star_heroic"
+
+2star_heroic_tag:
+  texture: default/chat/2star_heroic_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":2star_heroic:"
+    permission: "oraxen.emoji.2star_heroic"
+
+3star_heroic_tag:
+  texture: default/chat/3star_heroic_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":3star_heroic:"
+    permission: "oraxen.emoji.3star_heroic"
+
+4star_heroic_tag:
+  texture: default/chat/4star_heroic_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":4star_heroic:"
+    permission: "oraxen.emoji.4star_heroic"
+
+5star_heroic_tag:
+  texture: default/chat/5star_heroic_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":5star_heroic:"
+    permission: "oraxen.emoji.5star_heroic"
+
+1star_legendary_tag:
+  texture: default/chat/1star_legendary_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":1star_legendary:"
+    permission: "oraxen.emoji.1star_legendary"
+
+2star_legendary_tag:
+  texture: default/chat/2star_legendary_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":2star_legendary:"
+    permission: "oraxen.emoji.2star_legendary"
+
+3star_legendary_tag:
+  texture: default/chat/3star_legendary_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":3star_legendary:"
+    permission: "oraxen.emoji.3star_legendary"
+
+4star_legendary_tag:
+  texture: default/chat/4star_legendary_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":4star_legendary:"
+    permission: "oraxen.emoji.4star_legendary"
+
+5star_legendary_tag:
+  texture: default/chat/5star_legendary_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":5star_legendary:"
+    permission: "oraxen.emoji.5star_legendary"
+
+1star_mythical_tag:
+  texture: default/chat/1star_mythical_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":1star_mythical:"
+    permission: "oraxen.emoji.1star_mythical"
+
+2star_mythical_tag:
+  texture: default/chat/2star_mythical_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":2star_mythical:"
+    permission: "oraxen.emoji.2star_mythical"
+
+3star_mythical_tag:
+  texture: default/chat/3star_mythical_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":3star_mythical:"
+    permission: "oraxen.emoji.3star_mythical"
+
+4star_mythical_tag:
+  texture: default/chat/4star_mythical_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":4star_mythical:"
+    permission: "oraxen.emoji.4star_mythical"
+
+5star_mythical_tag:
+  texture: default/chat/5star_mythical_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":5star_mythical:"
+    permission: "oraxen.emoji.5star_mythical"
+
+1star_heavenly_tag:
+  texture: default/chat/1star_heavenly_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":1star_heavenly:"
+    permission: "oraxen.emoji.1star_heavenly"
+
+2star_heavenly_tag:
+  texture: default/chat/2star_heavenly_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":2star_heavenly:"
+    permission: "oraxen.emoji.2star_heavenly"
+
+3star_heavenly_tag:
+  texture: default/chat/3star_heavenly_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":3star_heavenly:"
+    permission: "oraxen.emoji.3star_heavenly"
+
+4star_heavenly_tag:
+  texture: default/chat/4star_heavenly_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":4star_heavenly:"
+    permission: "oraxen.emoji.4star_heavenly"
+
+5star_heavenly_tag:
+  texture: default/chat/5star_heavenly_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":5star_heavenly:"
+    permission: "oraxen.emoji.5star_heavenly"

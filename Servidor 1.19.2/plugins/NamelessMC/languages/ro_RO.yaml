@@ -1,0 +1,38 @@
+player:
+  other: {}
+  self:
+    not-registered: Trebuie să îți înregistrezi un cont pentru a efectua această acțiune.
+    command-banned: Nu poți rula această comandă, ești interzis de pe site.
+command:
+  notifications:
+    description: Afișează o listă de notificări ale site-ului.
+    output:
+      no-notifications: Nu ai nicio notificare necitită.
+    usage: '{command}'
+  not-a-player: Trebuie să fii un jucător pentru a efectua această comandă.
+  no-permission: Nu ai permisiunea de a executa această comandă.
+  register:
+    output:
+      fail:
+        cannot-send-email: Imposibil de trimis email-ul de înregistrare, te rog contactează
+          un administrator pentru a-ți activa contul.
+        email-used: Acest email este deja folosit pentru un cont diferit.
+        email-invalid: Adresa de email dată este invalidă.
+        username-invalid: Numele de utilizator dat este invalid.
+      success:
+        email: Te rog verifică-ți email-ul pentru a completa înregistrarea.
+        link: Te rog intră pe <link> pentru a completa înregistrarea.
+    usage: '{command} <email>'
+    description: Creează un cont pe site
+  report:
+    usage: '{command} <name/uuid> <reason>'
+    description: Raportează un jucător
+    output:
+      fail:
+        already-open: Nu poți raporta acest jucător, deja ai un raport deschis pentru
+          el.
+      success: Îți mulțumim că ai raportat acest jucător.
+  validate:
+    usage: '{command} <code>'
+error:
+  website-username-not-exist: Nu exista niciun utilizator pe website cu acest nume.

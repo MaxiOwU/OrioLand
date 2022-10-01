@@ -1,0 +1,5 @@
+# 
+# Allows for modifying certain aspects of vanilla enchantments
+enabled: true
+max-levels: []
+conflicts: []

@@ -1,0 +1,64 @@
+MSO_CaveShroomLeader:
+  Type: RABBIT
+  Display: 'Cave Shroom'
+  Health: 12
+  Damage: 0
+  Options:
+    Collidable: false
+    Despawn: true
+    ShowName: false
+    KnockbackResistance: 1
+    FollowRange: 32
+    MaxCombatDistance: 64
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+  Skills:
+  - model{mid=mso_cavepack_mushroom;n=false} @Self ~onSpawn
+  - summon{type=MSO_CaveShroom;amount="<random.3to5>";radius=3} @self ~onSpawn
+  - summon{type=MSO_ToxicCaveShroom;amount="<random.2to3>";radius=3} @self ~onSpawn
+  - state{s=sit} @Self ~onInteract
+  - skill:MSO_CaveShroomStepOn @PIR{r=1;conditions=[- yDiff{diff=>0.3}]} ~onTimer:2
+  
+MSO_CaveShroom:
+  Type: RABBIT
+  Display: 'Cave Shroom'
+  Health: 10
+  Damage: 0
+  Drops:
+  - MUSHROOM_STEW 0-1 0.5
+  - RED_MUSHROOM 1-3 0.8
+  Options:
+    Collidable: false
+    Despawn: true
+    ShowName: false
+    KnockbackResistance: 1
+    FollowRange: 32
+    MaxCombatDistance: 64
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+  Skills:
+  - model{mid=mso_cavepack_mushroom;n=false} @Self ~onSpawn
+  - state{s=sit} @Self ~onInteract
+  - skill:MSO_CaveShroomStepOn @PIR{r=1;conditions=[- yDiff{diff=>0.3}]} ~onTimer:2
+  
+MSO_ToxicCaveShroom:
+  Type: RABBIT
+  Display: 'Cave Shroom'
+  Health: 10
+  Damage: 0
+  Options:
+    Collidable: false
+    Despawn: true
+    ShowName: false
+    KnockbackResistance: 1
+    FollowRange: 32
+    MaxCombatDistance: 64
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+  Skills:
+  - model{mid=mso_cavepack_mushroom_lich;n=false} @Self ~onSpawn
+  - state{s=sit} @Self ~onInteract
+  - skill:MSO_CaveShroomStepOnToxic @PIR{r=1;conditions=[- yDiff{diff=>0.3}]} ~onTimer:2

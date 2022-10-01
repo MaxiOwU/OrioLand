@@ -1,0 +1,95 @@
+Action:
+  - "ENCHANT" 
+ 
+ID: "ENCHANTER"
+ 
+Material: "ENCHANTING_TABLE"
+
+ColorOfBossBar: "RED"
+
+Slot: 39
+
+Price: 350
+
+Worlds:
+  - "survival"
+  - "survival_nether"
+  - "survival_the_end"
+
+IDS:
+
+  ENCHANT:
+    List:
+      - "SHARPNESS1"  
+      - "SHARPNESS2"  
+      - "SHARPNESS3"  
+
+    SHARPNESS3:
+
+      Chance: 80
+      ID: "SHARPNESS_3" 
+      Money: 150
+      Exp: 5
+      Points: 0.05
+      RewardsGUI:
+    
+        See: true
+        Icon: "BOOK"
+
+    SHARPNESS2:
+
+      Chance: 80
+      ID: "SHARPNESS_2"
+      Money: 100
+      Exp: 5
+      Points: 0.05
+      RewardsGUI:
+    
+        See: true
+        Icon: "BOOK"
+
+    SHARPNESS1:
+
+      Chance: 80
+      ID: "SHARPNESS_1"
+      Money: 50
+      Exp: 5
+      Points: 0.05
+      RewardsGUI:
+    
+        See: true
+        Icon: "BOOK"
+
+LEVELS:
+
+  CountOfLevels: 4
+
+  1:
+
+    Money: 0 
+    Icon: "COAL" 
+    Need: 0
+    
+  2:
+
+    Money: 250 
+    Icon: "PAPER" 
+    Need: 150 
+    EarnMore: 0.15
+    
+  3:
+
+    Money: 500 
+    Icon: "PAPER" 
+    Need: 500 
+    EarnMore: 0.25
+    
+  4:
+
+    Money: 1000 
+    Icon: "EMERALD" 
+    Need: 550 
+    EarnMore: 0.30
+
+  
+  

@@ -1,0 +1,194 @@
+# Detailed explanation of all options available at https://github.com/NEZNAMY/TAB/wiki/config.yml
+header-footer:
+  enabled: true
+  header:
+  - '&8&l&m----------[ &r&6&lOrioLand &8&l&m]----------'
+  - '&eNombre: &f%player%'
+  - '&eDinero: &f%vault_eco_balance_formatted%'
+  - '&eJugadores: &f%server_online%&e/&f%server_max_players%'
+  - ''
+  footer:
+  - ''
+  - '&eDiscord: &fwww.discord.link/orioland'
+  - '&eWeb: &fwww.orioland.com'
+  - '&8&l&m-----------------------------'
+  disable-in-worlds:
+  - disabledworld
+  per-world:
+    world1:
+      header:
+      - an example of world with custom
+      footer:
+      - header/footer and prefix/suffix
+    world2;world3:
+      header:
+      - This is a shared header for
+      - world2 and world3
+tablist-name-formatting:
+  enabled: true
+  anti-override: true
+  disable-in-worlds:
+  - disabledworld
+  align-tabsuffix-on-the-right: false
+  character-width-overrides: {}
+scoreboard-teams:
+  enabled: true
+  invisible-nametags: false
+  anti-override: true
+  enable-collision: true
+  disable-in-worlds:
+  - disabledworld
+  unlimited-nametag-mode:
+    enabled: false
+    use-marker-tag-for-1-8-x-clients: false
+    disable-on-boats: true
+    space-between-lines: true
+    disable-in-worlds:
+    - disabledworld
+    dynamic-lines:
+    - abovename
+    - nametag
+    - belowname
+    - another
+    static-lines:
+      myCustomLine: 0.66
+  case-sensitive-sorting: true
+  sorting-types:
+  - GROUPS:owner,admin,manager,supremo,srmod,mod+,mod,helper+,helper,builder,legend,omega,vip,premium,streamer+,youtuber+,streamer,youtuber,nitro,dios,maestro,experto,Veterano,default
+  - PLACEHOLDER_A_TO_Z:%player%
+yellow-number-in-tablist:
+  enabled: false
+  value: ''
+  disable-in-worlds:
+  - disabledworld
+belowname-objective:
+  enabled: false
+  number: '%health%'
+  text: '&4❤'
+  disable-in-worlds:
+  - disabledworld
+bossbar:
+  enabled: true
+  toggle-command: /bossbar
+  remember-toggle-choice: true
+  hidden-by-default: false
+  bars:
+    Web:
+      style: PROGRESS
+      color: '%animation:barcolors%'
+      progress: '100'
+      text: '&fWeb: &bwww.orioland.com'
+      announcement-bar: false
+    test:
+      display-condition: permission:tab.bossbar.test;%world%=testworld
+      style: PROGRESS
+      color: RED
+      progress: '100'
+      text: '&4xd'
+      announcement-bar: false
+scoreboard:
+  enabled: false
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: false
+  static-number: 0
+  delay-on-join-milliseconds: 0
+  disable-in-worlds:
+  - disabledworld
+  scoreboards:
+    scoreboard1:
+      title: Default
+      lines:
+      - Scoreboard for players
+    twscoreboard:
+      title: TestWorld
+      lines:
+      - This is scoreboard for everyone in testworld world
+      display-condition: '%world%=testworld'
+    admin:
+      display-condition: permission:tab.scoreboard.admin
+      if-condition-not-met: scoreboard1
+      title: Admin scoreboard
+      lines:
+      - Scoreboard for people with permission
+      - tab.scoreboard.admin
+ping-spoof:
+  enabled: false
+prevent-spectator-effect:
+  enabled: false
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+  '%tps%':
+    '20': '&aPerfect'
+  '%afk%':
+    'true': ' &8| &4AFK'
+    'false': ''
+conditions:
+  health:
+    conditions:
+    - '%health%<21'
+    - '%health%>15'
+    type: AND
+    true: Healthy!
+    false: Damaged!
+placeholders:
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+  register-tab-expansion: true
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 100
+  server:
+    '%server_uptime%': 1000
+    '%server_tps_1_colored%': 1000
+  player:
+    '%player_health%': 200
+    '%player_ping%': 1000
+    '%vault_prefix%': 1000
+  relational:
+    '%rel_factionsuuid_relation_color%': 500
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- Admin
+- Manager
+- SrMod
+- Mod+
+- Mod
+- Helper+
+- Helper
+- Builder
+- Streamer+
+- YouTuber+
+- Streamer
+- Youtuber
+- Legend
+- Omega
+- Vip
+- Veterano
+- default
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    Lobby:
+    - Hub
+    Survival:
+    - survivalserver
+    - survivalserver_nether
+    - survivalserver_the_end
+fix-pet-names:
+  enabled: false

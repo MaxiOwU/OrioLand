@@ -1,0 +1,13 @@
+# The server needs to be fully restarted for changes to take effect due to Minecraft limitations.
+# Commands can be disabled by commenting a line.
+
+get-notifications: 'notifications'
+register: 'register'
+report: 'report'
+user-info: 'webinfo'
+verify: 'verify'
+plugin: 'nlpl'
+
+#store-change-credits: 'changecredits'
+#store-view-credits: 'credits'
+#suggest: 'suggest'

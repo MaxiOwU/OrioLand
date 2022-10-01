@@ -1,0 +1,19 @@
+{
+	"credit": "Made with Blockbench by yungwilder",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/cherry_blossom21/warding_rope_talisman"
+	},
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [0, -45, 0],
+			"translation": [0, 2.75, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 125, 0],
+			"translation": [0, 2.75, 0],
+			"scale": [0.4, 0.4, 0.4]
+		}
+	}
+}

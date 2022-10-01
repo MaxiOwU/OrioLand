@@ -1,0 +1,429 @@
+Kits:
+  miembro:
+    slot: 13
+    display_item: PLAYER_HEAD
+    display_name: '&fKit &2Miembro'
+    display_lore:
+    - '&7Puedes reclamar este kit'
+    - '&7'
+    - '&7Cada: &c1 dia'
+    - '&7'
+    - '&aClick izquierdo para reclamar el kit'
+    - '&bClick derecho para ver el kit'
+    cooldown: 86400
+    permission: playerkits.kit.miembro
+    noPermissionsItem:
+      display_item: PLAYER_HEAD
+      display_name: '&fKit &2Miembro'
+      display_lore:
+      - '&cNo tienes permisos para reclamar'
+      display_item_glowing: false
+      display_item_skulldata: ;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdjMWYxZWFkNGQ1MzFjYWE0YTViMGQ2OWVkYmNlMjlhZjc4OWEyNTUwZTVkZGJkMjM3NzViZTA1ZTJkZjJjNCJ9fX0=
+    first_join: true
+    one_time: false
+    auto_armor: true
+    Items:
+      '1':
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&fEspada &2Miembro'
+        unbreakable: 'false'
+        preview_slot: 0
+      '2':
+        id: IRON_PICKAXE
+        amount: '1'
+        durability: '0'
+        name: '&fPico &2Miembro'
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        id: STONE_AXE
+        amount: '1'
+        durability: '0'
+        name: '&fHacha &2Miembro'
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        id: STONE_SHOVEL
+        amount: '1'
+        durability: '0'
+        name: '&fPala &2Miembro'
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: BREAD
+        amount: '32'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        id: COOKED_PORKCHOP
+        amount: '16'
+        durability: '0'
+        preview_slot: 5
+      '7':
+        id: RED_BED
+        amount: '1'
+        durability: '0'
+        preview_slot: 6
+      '8':
+        id: TORCH
+        amount: '16'
+        durability: '0'
+        preview_slot: 7
+      '9':
+        nbt:
+        - RepairCost;1;int
+        id: CHAINMAIL_HELMET
+        amount: '1'
+        durability: '0'
+        name: '&fCasco &2Miembro'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        unbreakable: 'false'
+        preview_slot: 8
+      '10':
+        nbt:
+        - RepairCost;1;int
+        id: CHAINMAIL_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&fPechera &2Miembro'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        unbreakable: 'false'
+        preview_slot: 9
+      '11':
+        nbt:
+        - RepairCost;1;int
+        id: CHAINMAIL_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&fPantalones &2Miembro'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        unbreakable: 'false'
+        preview_slot: 10
+      '12':
+        nbt:
+        - RepairCost;1;int
+        id: CHAINMAIL_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&fBotas &2Miembro'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        unbreakable: 'false'
+        preview_slot: 11
+    display_item_skulldata: ;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzYxZTViMzMzYzJhMzg2OGJiNmE1OGI2Njc0YTI2MzkzMjM4MTU3MzhlNzdlMDUzOTc3NDE5YWYzZjc3In19fQ==
+  Jade:
+    slot: 22
+    display_item: PLAYER_HEAD
+    display_name: '&fKit &2Jade'
+    display_lore:
+    - '&7Puedes reclamar este kit'
+    - '&7'
+    - '&7Cada: &c30 dias'
+    - '&7'
+    - '&aClick izquierdo para reclamar el kit'
+    - '&bClick derecho para ver el kit'
+    cooldown: 2592000
+    permission: playerkits.kit.Jade
+    noPermissionsItem:
+      display_item: PLAYER_HEAD
+      display_name: '&fKit &2Jade'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+      display_item_skulldata: ;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdjMWYxZWFkNGQ1MzFjYWE0YTViMGQ2OWVkYmNlMjlhZjc4OWEyNTUwZTVkZGJkMjM3NzViZTA1ZTJkZjJjNCJ9fX0=
+    auto_armor: true
+    display_item_glowing: false
+    Items:
+      '1':
+        id: DIAMOND_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&fEspada &2Jade'
+        enchants:
+        - FIRE_ASPECT;2
+        - LOOT_BONUS_MOBS;2
+        - MENDING;1
+        - DAMAGE_ALL;4
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 0
+      '2':
+        id: DIAMOND_PICKAXE
+        amount: '1'
+        durability: '0'
+        name: '&fPico &2Jade'
+        enchants:
+        - DIG_SPEED;5
+        - LOOT_BONUS_BLOCKS;3
+        - MENDING;1
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        id: DIAMOND_AXE
+        amount: '1'
+        durability: '0'
+        name: '&fHacha &2Jade'
+        enchants:
+        - DIG_SPEED;5
+        - MENDING;1
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        id: DIAMOND_SHOVEL
+        amount: '1'
+        durability: '0'
+        name: '&fPala &2Jade'
+        enchants:
+        - DIG_SPEED;5
+        - MENDING;1
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: DIAMOND_HELMET
+        amount: '1'
+        durability: '0'
+        name: '&fCasco &2Jade'
+        enchants:
+        - MENDING;1
+        - PROTECTION_ENVIRONMENTAL;5
+        - OXYGEN;3
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 4
+      '6':
+        id: DIAMOND_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&fPechera &2Jade'
+        enchants:
+        - MENDING;1
+        - PROTECTION_ENVIRONMENTAL;5
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 5
+      '7':
+        id: DIAMOND_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&fPantalones &2Jade'
+        enchants:
+        - MENDING;1
+        - PROTECTION_ENVIRONMENTAL;5
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 6
+      '8':
+        id: DIAMOND_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&fBotas &2Jade'
+        enchants:
+        - MENDING;1
+        - PROTECTION_ENVIRONMENTAL;5
+        - RAPID;1
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 7
+      '9':
+        id: BREAD
+        amount: '32'
+        durability: '0'
+        name: '&fPan &2Jade'
+        unbreakable: 'false'
+        preview_slot: 8
+      '10':
+        id: LIME_SHULKER_BOX
+        amount: '1'
+        durability: '0'
+        name: '&fShulker &2Jade'
+        unbreakable: 'false'
+        preview_slot: 9
+      '11':
+        id: DIAMOND
+        amount: '16'
+        durability: '0'
+        preview_slot: 10
+      '12':
+        id: NETHERITE_SCRAP
+        amount: '1'
+        durability: '0'
+        preview_slot: 11
+      '13':
+        book-enchants:
+        - MENDING;1
+        id: ENCHANTED_BOOK
+        amount: '1'
+        durability: '0'
+        unbreakable: 'false'
+        preview_slot: 12
+      '14':
+        id: GOLDEN_APPLE
+        amount: '10'
+        durability: '0'
+        name: '&fManzanas &2Jade'
+        unbreakable: 'false'
+        preview_slot: 13
+    display_item_skulldata: ;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzYxZTViMzMzYzJhMzg2OGJiNmE1OGI2Njc0YTI2MzkzMjM4MTU3MzhlNzdlMDUzOTc3NDE5YWYzZjc3In19fQ==
+  Ruby:
+    slot: 20
+    display_item: PLAYER_HEAD
+    display_name: '&fKit &4Ruby'
+    display_lore:
+    - '&fPuedes reclamar este kit'
+    - '&7'
+    - '&fCada: &c30 dias'
+    - '&7'
+    - '&bClick izquierdo para reclamar el kit'
+    - '&aClick derecho para ver el kit'
+    cooldown: 2592000
+    permission: playerkits.kit.Ruby
+    noPermissionsItem:
+      display_item: PLAYER_HEAD
+      display_name: '&fKit &4Ruby'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+      display_item_skulldata: ;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdjMWYxZWFkNGQ1MzFjYWE0YTViMGQ2OWVkYmNlMjlhZjc4OWEyNTUwZTVkZGJkMjM3NzViZTA1ZTJkZjJjNCJ9fX0=
+    Items:
+      '1':
+        id: DIAMOND_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&fEspada &4Ruby'
+        enchants:
+        - FIRE_ASPECT;2
+        - LOOT_BONUS_MOBS;4
+        - MENDING;1
+        - DAMAGE_ALL;6
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 0
+      '2':
+        id: DIAMOND_PICKAXE
+        amount: '1'
+        durability: '0'
+        name: '&fPico &4Ruby'
+        enchants:
+        - DIG_SPEED;6
+        - LOOT_BONUS_BLOCKS;5
+        - MENDING;1
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        id: DIAMOND_AXE
+        amount: '1'
+        durability: '0'
+        name: '&fHacha &4Ruby'
+        enchants:
+        - DIG_SPEED;6
+        - MENDING;1
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        id: DIAMOND_SHOVEL
+        amount: '1'
+        durability: '0'
+        name: '&fPala &4Ruby'
+        enchants:
+        - DIG_SPEED;6
+        - MENDING;1
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: DIAMOND_HELMET
+        amount: '1'
+        durability: '0'
+        name: '&fCasco &4Ruby'
+        enchants:
+        - MENDING;1
+        - PROTECTION_ENVIRONMENTAL;7
+        - OXYGEN;3
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 4
+      '6':
+        id: DIAMOND_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&fPechera &4Ruby'
+        enchants:
+        - MENDING;1
+        - PROTECTION_ENVIRONMENTAL;7
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 5
+      '7':
+        id: DIAMOND_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&fPantalones &4Ruby'
+        enchants:
+        - MENDING;1
+        - PROTECTION_ENVIRONMENTAL;7
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 6
+      '8':
+        id: DIAMOND_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&fBotas &4Ruby'
+        enchants:
+        - MENDING;1
+        - PROTECTION_ENVIRONMENTAL;7
+        - RAPID;2
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 7
+      '9':
+        id: BREAD
+        amount: '32'
+        durability: '0'
+        name: '&fPan &4Ruby'
+        unbreakable: 'false'
+        preview_slot: 8
+      '10':
+        id: RED_SHULKER_BOX
+        amount: '1'
+        durability: '0'
+        name: '&fShulker &4Ruby'
+        unbreakable: 'false'
+        preview_slot: 9
+      '11':
+        id: DIAMOND
+        amount: '32'
+        durability: '0'
+        preview_slot: 10
+      '12':
+        id: NETHERITE_SCRAP
+        amount: '2'
+        durability: '0'
+        preview_slot: 11
+      '13':
+        book-enchants:
+        - MENDING;1
+        id: ENCHANTED_BOOK
+        amount: '1'
+        durability: '0'
+        unbreakable: 'false'
+        preview_slot: 12
+      '14':
+        id: GOLDEN_APPLE
+        amount: '20'
+        durability: '0'
+        name: '&fManzanas &4Ruby'
+        unbreakable: 'false'
+        preview_slot: 13
+    auto_armor: true
+    display_item_skulldata: ;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzYxZTViMzMzYzJhMzg2OGJiNmE1OGI2Njc0YTI2MzkzMjM4MTU3MzhlNzdlMDUzOTc3NDE5YWYzZjc3In19fQ==

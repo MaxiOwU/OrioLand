@@ -1,0 +1,70 @@
+Action:
+  - "BREAK"
+
+ID: "LUMBER"
+
+Material: "WOODEN_AXE"
+
+ColorOfBossBar: "BLUE"
+
+Slot: 11
+
+Price: 0
+
+Worlds:
+  - "overworld"
+  - "survival"
+  - "survival_nether"
+  - "survival_the_end"
+
+IDS:
+
+  BREAK:
+    List:
+      - "OAK_LOG_BREAK" 
+      
+    OAK_LOG_BREAK:
+
+      Chance: 85
+      ID: "OAK_LOG"
+      Money: 0.5
+      Exp: 5
+      Points: 0.05
+      RewardsGUI:
+    
+        See: true
+        Icon: "url;http://textures.minecraft.net/texture/5f497786d7ba192369932966686aa9fb7147fa5884f9a6209c4a73e2d60f39f5"
+
+LEVELS:
+
+  CountOfLevels: 4
+
+  1:
+
+    Money: 0 
+    Icon: "COAL" 
+    Need: 0
+    
+  2:
+
+    Money: 250 
+    Icon: "PAPER" 
+    Need: 150 
+    EarnMore: 0.15
+    
+  3:
+
+    Money: 500 
+    Icon: "PAPER" 
+    Need: 500 
+    EarnMore: 0.25
+    
+  4:
+
+    Money: 1000 
+    Icon: "EMERALD" 
+    Need: 550 
+    EarnMore: 0.30
+
+  
+  

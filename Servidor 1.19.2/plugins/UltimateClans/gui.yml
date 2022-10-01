@@ -1,0 +1,939 @@
+ 
+ 
+ 
+ 
+# INSERTION GUI
+ 
+ 
+ 
+ 
+# New Item Example: (The item will be inserted in the menu "Home.clan_home" )
+# It is not possible to add multiple fill items.
+#Insertion:
+#  Home:
+#   clan_home:
+#      items:
+#        newitem:
+#          clicksound: ''
+#          material: ''
+#          texture: ''
+#          data: 0
+#          amount: 1
+#          slot: 0
+#          glow: false
+#          name: '&aItem inserted'
+#          lore:
+#          - ''
+#          - ' &eInserted Item'
+#          - ''
+#          click_action:
+#          - '/command'
+Insertion: [
+  ]
+ 
+ 
+ 
+ 
+# HOME GUI
+ 
+ 
+ 
+ 
+#This menu supports editing slots by adding 'slot: <NUMBER>' to any item
+#Other items may overlap if the same slot is used by another item.
+ 
+ 
+Home:
+  #Clan Home config
+  clan_home:
+    opensound: ''
+    items:
+      fill:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: BLUE_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+         # Nbts can be applied to all items in all menus by following this example
+        nbt:
+          string:
+          - example:example_nbt_string
+          integer:
+          - CustomModelData:00000001
+      current:
+        clicksound: ''
+        material: BOW
+        texture: ''
+        data: 0
+        amount: 1
+        glow: false
+      previous:
+        clicksound: ''
+        material: ARROW
+        texture: ''
+        data: 8
+        amount: 1
+        glow: false
+      next:
+        clicksound: ''
+        material: ARROW
+        texture: ''
+        data: 8
+        amount: 1
+        glow: false
+      back:
+        clicksound: ''
+        material: IRON_DOOR
+        texture: ''
+        data: 0
+        amount: 1
+        glow: false
+      create:
+        clicksound: ''
+        material: NAME_TAG
+        texture: ''
+        data: 0
+        amount: 1
+        glow: true
+      ally_homes:
+        clicksound: ''
+        material: BOW
+        texture: ''
+        data: 0
+        amount: 1
+        glow: true
+  #Clan Home config
+  clan_allyhome:
+    opensound: ''
+    items:
+      fill:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: LIME_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      current:
+        clicksound: ''
+        material: ''
+        texture: '%uclans_banner%'
+        data: 0
+        amount: 1
+        glow: false
+      previous:
+        clicksound: ''
+        material: ARROW
+        texture: ''
+        data: 8
+        amount: 1
+        glow: false
+      next:
+        clicksound: ''
+        material: ARROW
+        texture: ''
+        data: 8
+        amount: 1
+        glow: false
+      back:
+        clicksound: ''
+        material: IRON_DOOR
+        texture: ''
+        data: 0
+        amount: 1
+        glow: false
+  #Lock Home config
+  clan_delhome_confirm:
+    opensound: ''
+    items:
+      fill:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: RED_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      confirm:
+        clicksound: ''
+        material: DIAMOND_BLOCK
+        amount: 1
+        glow: true
+      cancel:
+        clicksound: ''
+        material: REDSTONE_BLOCK
+        amount: 1
+        glow: true
+        # %player%, nicknames or base64Textures
+        texture: ''
+ 
+ 
+ 
+ 
+# GENERAL GUI
+ 
+ 
+ 
+ 
+#This menu supports editing slots by adding 'slot: <NUMBER>' to any item
+#Other items may overlap if the same slot is used by another item.
+ 
+ 
+General:
+  noclan_home:
+    opensound: ''
+    items:
+      fill:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: BLUE_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      fill2:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: GRAY_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      create:
+        clicksound: ''
+        material: PLAYER_HEAD
+        glow: true
+        texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNlMWNiYjFmNDNmYTUxMzA4Yzg0Y2E1ZjNhNTUwMTc4ODE1ODFkZGI5NWZkM2M2OGE5ZGRhMjA5ZDA0NTVhYiJ9fX0=
+        amount: 1
+      profile:
+        clicksound: ''
+        material: PLAYER_HEAD
+        glow: true
+        texture: '%uclans_player_head%'
+        amount: 1
+      clans:
+        clicksound: ''
+        material: PLAYER_HEAD
+        glow: false
+        texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM4Y2YzZjhlNTRhZmMzYjNmOTFkMjBhNDlmMzI0ZGNhMTQ4NjAwN2ZlNTQ1Mzk5MDU1NTI0YzE3OTQxZjRkYyJ9fX0=
+        amount: 1
+      commands:
+        clicksound: ''
+        material: PAPER
+        glow: true
+        texture: ''
+        amount: 1
+  #Clan General config
+  disband_confirm:
+    opensound: ''
+    items:
+      fill:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: RED_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      confirm:
+        clicksound: ''
+        material: DIAMOND_BLOCK
+        texture: ''
+        data: 0
+        amount: 1
+        glow: true
+      cancel:
+        clicksound: ''
+        material: REDSTONE_BLOCK
+        texture: ''
+        data: 0
+        amount: 1
+        glow: true
+  #Clan General config
+  changeleader_confirm:
+    opensound: ''
+    items:
+      fill:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: RED_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      confirm:
+        clicksound: ''
+        material: DIAMOND_BLOCK
+        texture: ''
+        data: 0
+        amount: 1
+        glow: true
+      cancel:
+        clicksound: ''
+        material: REDSTONE_BLOCK
+        texture: ''
+        data: 0
+        amount: 1
+        glow: true
+  clan_home:
+    opensound: ''
+    items:
+      fill:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: BLUE_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      fill2:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: GRAY_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      info:
+        clicksound: ''
+        material: PLAYER_HEAD
+        glow: false
+        texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDAxYWZlOTczYzU0ODJmZGM3MWU2YWExMDY5ODgzM2M3OWM0MzdmMjEzMDhlYTlhMWEwOTU3NDZlYzI3NGEwZiJ9fX0=
+        amount: 1
+      members:
+        clicksound: ''
+        material: PLAYER_HEAD
+        glow: false
+        texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQxZmFjNmIyYTgyODg1ODk1YzVhN2I2OTc2OWE4NWFmOTBhZmRkOGMzZDNhYjUxOTRjYzU3ODU5MTBiZDM0NSJ9fX0=
+        amount: 1
+      rival:
+        clicksound: ''
+        material: GOLDEN_HELMET
+        glow: true
+        texture: ''
+        amount: 1
+      ally:
+        clicksound: ''
+        material: DIAMOND_HELMET
+        glow: true
+        texture: ''
+        amount: 1
+      home:
+        clicksound: ''
+        material: BOW
+        glow: false
+        texture: ''
+        amount: 1
+      settings:
+        clicksound: ''
+        material: COMPARATOR
+        glow: true
+        texture: ''
+        amount: 1
+      commands:
+        clicksound: ''
+        material: PAPER
+        glow: false
+        texture: ''
+        amount: 1
+      clans:
+        clicksound: ''
+        material: PLAYER_HEAD
+        glow: false
+        texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM4Y2YzZjhlNTRhZmMzYjNmOTFkMjBhNDlmMzI0ZGNhMTQ4NjAwN2ZlNTQ1Mzk5MDU1NTI0YzE3OTQxZjRkYyJ9fX0=
+        amount: 1
+      banner:
+        clicksound: ''
+        material: ''
+        glow: false
+        texture: '%uclans_banner%'
+        amount: 1
+  player_profile:
+    opensound: ''
+    items:
+      fill:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: BLUE_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      back:
+        clicksound: ''
+        material: IRON_DOOR
+        glow: false
+        texture: ''
+        amount: 1
+      head:
+        clicksound: ''
+        material: PLAYER_HEAD
+        glow: false
+        texture: '%uclans_player_head%'
+        amount: 1
+  clan_stats:
+    opensound: ''
+    items:
+      fill:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: BLUE_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      foundation:
+        clicksound: ''
+        material: PLAYER_HEAD
+        glow: false
+        texture: '%uclans_leader_head%'
+        amount: 1
+      banner:
+        clicksound: ''
+        material: ''
+        texture: '%uclans_banner%'
+        glow: false
+        amount: 1
+      kdr:
+        clicksound: ''
+        material: DIAMOND_SWORD
+        glow: false
+        texture: ''
+        amount: 1
+      war:
+        clicksound: ''
+        material: IRON_SWORD
+        glow: false
+        texture: ''
+        amount: 1
+      members:
+        clicksound: ''
+        material: OAK_SIGN
+        glow: true
+        texture: ''
+        amount: 1
+      status:
+        clicksound: ''
+        material: SUNFLOWER
+        glow: false
+        texture: ''
+        amount: 1
+      others:
+        clicksound: ''
+        material: ITEM_FRAME
+        glow: false
+        texture: ''
+        amount: 1
+      member_rival_ally:
+        clicksound: ''
+        material: GOLDEN_CHESTPLATE
+        glow: false
+        texture: ''
+        amount: 1
+      limits:
+        clicksound: ''
+        material: HOPPER
+        glow: false
+        texture: ''
+        amount: 1
+      back:
+        clicksound: ''
+        material: IRON_DOOR
+        glow: false
+        texture: ''
+        amount: 1
+  clan_settings:
+    opensound: ''
+    items:
+      fill:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: RED_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      warinvite:
+        clicksound: ''
+        material: PAPER
+        glow: false
+        texture: ''
+        amount: 1
+      allysharedchat:
+        clicksound: ''
+        material: PAPER
+        glow: false
+        texture: ''
+        amount: 1
+      allysharedhome:
+        clicksound: ''
+        material: PAPER
+        glow: false
+        texture: ''
+        amount: 1
+      ff:
+        clicksound: ''
+        material: PAPER
+        glow: false
+        texture: ''
+        amount: 1
+      join_leave:
+        clicksound: ''
+        material: PAPER
+        glow: false
+        texture: ''
+        amount: 1
+      member_manager_homes:
+        clicksound: ''
+        material: PAPER
+        glow: false
+        texture: ''
+        amount: 1
+      member_manager_wars:
+        clicksound: ''
+        material: PAPER
+        glow: false
+        texture: ''
+        amount: 1
+      opened:
+        clicksound: ''
+        material: PAPER
+        glow: false
+        texture: ''
+        amount: 1
+      delete:
+        clicksound: ''
+        material: REDSTONE_BLOCK
+        glow: true
+        texture: ''
+        amount: 1
+      actions:
+        clicksound: ''
+        material: PAPER
+        glow: false
+        texture: ''
+        amount: 1
+      back:
+        clicksound: ''
+        material: IRON_DOOR
+        glow: false
+        texture: ''
+        amount: 1
+  clan_actions:
+    opensound: ''
+    items:
+      fill:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: RED_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      modtag:
+        clicksound: ''
+        material: MAP
+        glow: false
+        texture: ''
+        amount: 1
+      desc:
+        clicksound: ''
+        material: MAP
+        glow: false
+        texture: ''
+        amount: 1
+      name:
+        clicksound: ''
+        material: MAP
+        glow: false
+        texture: ''
+        amount: 1
+      sethome:
+        clicksound: ''
+        material: MAP
+        glow: false
+        texture: ''
+        amount: 1
+      back:
+        clicksound: ''
+        material: IRON_DOOR
+        glow: false
+        texture: ''
+        amount: 1
+  clan_top:
+    opensound: ''
+    items:
+      fill:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: BLUE_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      active:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the active.
+        material: RED_STAINED_GLASS_PANE
+        amount: 1
+        glow: true
+      kdr:
+        clicksound: ''
+        material: PLAYER_HEAD
+        glow: false
+        texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGMxMWU0OWE2NDk3ZTc3YjViNDFkN2JiMzRlNTY3MzU5YWEzMjIyNTY5Y2ViOGM1MGU2M2YxYTVhZjdiZjUyOCJ9fX0=
+        amount: 1
+      kill:
+        clicksound: ''
+        material: PLAYER_HEAD
+        glow: false
+        texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjFmNTA1MmM3NGI3OTA1YmZmYmVmYjVjMTBiODU2NzViODk4M2VkYzllMWYyYjEwMWZmOTA2ZWI1YWMxNDQyYiJ9fX0=
+        amount: 1
+      death:
+        clicksound: ''
+        material: PLAYER_HEAD
+        glow: false
+        texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE1ZDMzYWMzZDQwNjJlOWM3YjRhNDMzN2NiZWEzZmE1MGQ1NDNhZTJlMWNkODFiNmQwNzcxOGFhZDcwOTU3MSJ9fX0=
+        amount: 1
+      bank:
+        clicksound: ''
+        material: PLAYER_HEAD
+        glow: false
+        texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2I4NDAwN2IyMDQ5Y2Q5Y2VkNDExN2QxMDc5M2IwNzZiYTUwZWJmNDQwNWU2Zjk2ZjU5ZjY3NTliYWJkMzE4NiJ9fX0=
+        amount: 1
+      member:
+        clicksound: ''
+        material: PLAYER_HEAD
+        glow: false
+        texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UxZTFlODJiZjQzNzhhN2IxMzkyMjliNTYxYzhmMDExOWJmNTY1NTEyODAxNGQzYzU0MzlkODk4MzAzZjFiMCJ9fX0=
+        amount: 1
+      level:
+        clicksound: ''
+        material: PLAYER_HEAD
+        glow: false
+        texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTJmZTVkOTE4YTM2NDhmMjM3OTk0MjQ0NzI0MGE0NzI1ZWQxOTY5NjhmZTI3M2QzNGJiZGNkZWQwNzJjMSJ9fX0
+        amount: 1
+      all:
+        clicksound: ''
+        material: DIAMOND_SWORD
+        glow: true
+        texture: ''
+        amount: 1
+      war:
+        clicksound: ''
+        material: PLAYER_HEAD
+        glow: false
+        texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNlMWNiYjFmNDNmYTUxMzA4Yzg0Y2E1ZjNhNTUwMTc4ODE1ODFkZGI5NWZkM2M2OGE5ZGRhMjA5ZDA0NTVhYiJ9fX0=
+        amount: 1
+      current:
+        clicksound: ''
+        material: ''
+        texture: '%uclans_banner%'
+        amount: 1
+        glow: false
+      current_level:
+        clicksound: ''
+        material: ''
+        texture: '%uclans_banner%'
+        amount: 1
+        glow: false
+      current_kdr:
+        clicksound: ''
+        material: ''
+        texture: '%uclans_banner%'
+        amount: 1
+        glow: false
+      current_kill:
+        clicksound: ''
+        material: ''
+        texture: '%uclans_banner%'
+        amount: 1
+        glow: false
+      current_death:
+        clicksound: ''
+        material: ''
+        texture: '%uclans_banner%'
+        amount: 1
+        glow: false
+      current_member:
+        clicksound: ''
+        material: ''
+        texture: '%uclans_banner%'
+        amount: 1
+        glow: false
+      current_bank:
+        clicksound: ''
+        material: ''
+        texture: '%uclans_banner%'
+        amount: 1
+        glow: false
+      current_war:
+        clicksound: ''
+        material: ''
+        texture: '%uclans_banner%'
+        amount: 1
+        glow: false
+      current_all:
+        clicksound: ''
+        material: ''
+        texture: '%uclans_banner%'
+        amount: 1
+        glow: false
+      back:
+        clicksound: ''
+        material: IRON_DOOR
+        glow: false
+        texture: ''
+        amount: 1
+      previous:
+        clicksound: ''
+        material: ARROW
+        glow: false
+        texture: ''
+        amount: 1
+      next:
+        clicksound: ''
+        material: ARROW
+        glow: false
+        texture: ''
+        amount: 1
+  clan_members:
+    opensound: ''
+    items:
+      fill:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: BLUE_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      fill2:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: GRAY_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      list:
+        clicksound: ''
+        material: PLAYER_HEAD
+        glow: false
+        texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQxZmFjNmIyYTgyODg1ODk1YzVhN2I2OTc2OWE4NWFmOTBhZmRkOGMzZDNhYjUxOTRjYzU3ODU5MTBiZDM0NSJ9fX0=
+        amount: 1
+      invite:
+        clicksound: ''
+        material: MAP
+        glow: false
+        texture: ''
+        amount: 1
+      back:
+        clicksound: ''
+        material: IRON_DOOR
+        glow: false
+        texture: ''
+        amount: 1
+  clan_members_invite:
+    opensound: ''
+    items:
+      fill:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: BLUE_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      current:
+        clicksound: ''
+        material: PLAYER_HEAD
+        glow: false
+        texture: '%uclans_player_head%'
+        amount: 1
+      back:
+        clicksound: ''
+        material: IRON_DOOR
+        glow: false
+        texture: ''
+        amount: 1
+      search:
+        clicksound: ''
+        material: OAK_SIGN
+        glow: true
+        texture: ''
+        amount: 1
+  clan_search_members_invite:
+    opensound: ''
+    items:
+      fill:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: BLUE_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      current:
+        clicksound: ''
+        material: PLAYER_HEAD
+        glow: false
+        texture: '%uclans_player_head%'
+        amount: 1
+      back:
+        clicksound: ''
+        material: IRON_DOOR
+        glow: false
+        texture: ''
+        amount: 1
+  clan_ally:
+    opensound: ''
+    items:
+      list:
+        clicksound: ''
+        material: DIAMOND_CHESTPLATE
+        glow: true
+        texture: ''
+        amount: 1
+      fill:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: LIME_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      fill2:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: GRAY_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      invite:
+        clicksound: ''
+        material: MAP
+        glow: false
+        texture: ''
+        amount: 1
+      back:
+        clicksound: ''
+        material: IRON_DOOR
+        glow: false
+        texture: ''
+        amount: 1
+  clan_rival:
+    opensound: ''
+    items:
+      fill:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: RED_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      fill2:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: GRAY_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      list:
+        clicksound: ''
+        material: GOLDEN_HELMET
+        glow: true
+        texture: ''
+        amount: 1
+      invite:
+        clicksound: ''
+        material: MAP
+        glow: false
+        texture: ''
+        amount: 1
+      back:
+        clicksound: ''
+        material: IRON_DOOR
+        glow: false
+        texture: ''
+        amount: 1
+ 
+ 
+ 
+ 
+# PAGINATION GUI
+ 
+ 
+ 
+ 
+Pagination:
+  rival:
+    opensound: ''
+    items:
+      fill:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: RED_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      current:
+        clicksound: ''
+        material: ''
+        texture: '%uclans_banner%'
+        data: 0
+        amount: 1
+        glow: true
+      previous:
+        clicksound: ''
+        material: ARROW
+        texture: ''
+        data: 8
+        amount: 1
+        glow: false
+      next:
+        clicksound: ''
+        material: ARROW
+        texture: ''
+        data: 8
+        amount: 1
+        glow: false
+      back:
+        clicksound: ''
+        material: IRON_DOOR
+        texture: ''
+        data: 0
+        amount: 1
+        glow: false
+  ally:
+    opensound: ''
+    items:
+      fill:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: LIME_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      current:
+        clicksound: ''
+        material: ''
+        texture: '%uclans_banner%'
+        amount: 1
+        glow: true
+      previous:
+        clicksound: ''
+        material: ARROW
+        texture: ''
+        amount: 1
+        glow: false
+      next:
+        clicksound: ''
+        material: ARROW
+        texture: ''
+        amount: 1
+        glow: false
+      back:
+        clicksound: ''
+        material: IRON_DOOR
+        texture: ''
+        amount: 1
+        glow: false
+  members:
+    opensound: ''
+    items:
+      fill:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: BLUE_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      current:
+        clicksound: ''
+        material: PLAYER_HEAD
+        texture: '%uclans_player_head%'
+        amount: 1
+        glow: false
+      previous:
+        clicksound: ''
+        material: ARROW
+        texture: ''
+        amount: 1
+        glow: false
+      next:
+        clicksound: ''
+        material: ARROW
+        texture: ''
+        amount: 1
+        glow: false
+      back:
+        clicksound: ''
+        material: IRON_DOOR
+        texture: ''
+        amount: 1
+        glow: false
+  clans:
+    opensound: ''
+    items:
+      fill:
+        # Use ; "<ITEM>;<ITEM>;<ITEM>" to add more than one item to the fill.
+        material: LIME_STAINED_GLASS_PANE
+        amount: 1
+        glow: false
+      current:
+        clicksound: ''
+        material: ''
+        texture: '%uclans_banner%'
+        amount: 1
+        glow: false
+      previous:
+        clicksound: ''
+        material: ARROW
+        texture: ''
+        amount: 1
+        glow: false
+      next:
+        clicksound: ''
+        material: ARROW
+        texture: ''
+        amount: 1
+        glow: false
+      back:
+        clicksound: ''
+        material: IRON_DOOR
+        texture: ''
+        amount: 1
+        glow: false

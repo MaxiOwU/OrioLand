@@ -1,0 +1,33 @@
+# 
+# Introversion EcoEnchant
+
+description: Increases damage against players.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: uncommon
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  targets:
+  - sword
+  - axe
+  grindstoneable: true
+  conflicts:
+  - sharpness
+  - bane_of_arthropods
+  - smite
+  - defusion
+  - razor
+  - ender_slayer
+  - butchering
+  disabled-in-worlds: []
+  maximum-level: 5
+name: Introversion
+config:
+  bonus-per-level: 2.5
+

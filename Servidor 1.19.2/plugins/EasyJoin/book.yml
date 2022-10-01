@@ -1,0 +1,5 @@
+book:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3120
+  type: AIR
+  amount: 0

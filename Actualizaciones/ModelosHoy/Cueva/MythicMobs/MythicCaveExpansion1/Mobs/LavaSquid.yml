@@ -1,0 +1,43 @@
+LavaSquid:
+  Type: STRIDER
+  Display: 'Lava Squid'
+  Damage: 9
+  Health: 30
+  Drops:
+  - MAGMA_CREAM 0-2 0.4
+  Options:  
+    Despawn: true
+    ShowName: false
+    MovementSpeed: 0.2
+    KnockbackResistance: 1
+    FollowRange: 32
+    MaxCombatDistance: 64
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventTaming: true
+    PreventRiding: true
+  ThreatTable: 
+    Enabled: true
+  DamageModifiers:
+  - LAVA 0
+  - LAVA_TICK 0
+  - FIRE 0
+  - FIRE_TICK 0
+  AIGoalSelectors:
+  - clear
+  - gotolava
+  AITargetSelectors:
+  - clear
+  - players
+  AIPathfindingMalus:
+  - LAVA 1
+  - WALKABLE -1
+  Skills:
+  - model{m=mso_cavepack_lava_squid;n=false} @self ~onSpawn
+  - bodyclamp{angle=0} @self ~onSpawn
+  - skill:MSO-LavaSquid-Movement @target ~onTimer:1
+  - skill:MSO-LavaSquid-Pull @target ~onTimer:20
+  - skill:MSO-LavaSquid-Shoot @target ~onTimer:50
+
+

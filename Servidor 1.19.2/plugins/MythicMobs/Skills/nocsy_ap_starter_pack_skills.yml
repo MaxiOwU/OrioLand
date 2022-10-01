@@ -1,0 +1,160 @@
+############################################
+#      Starter Pack - Skills by Nocsy      #
+############################################
+
+######################
+#       Pikachu      #
+######################
+
+#---------------------  
+# Pikachu spawns/despawns
+#---------------------
+
+NocsyPikachuSpawn:
+  Skills:
+   - effect:particles{particle=fishing;amount=50;hS=.45;vS=.25} @self
+   - effect:particles{particle=splash;amount=50;hS=.45;vS=.35} @self
+   - delay 20
+   - effect:particles{particle=fishing;amount=50;hS=.45;vS=.25} @self
+   - effect:particles{particle=splash;amount=50;hS=.45;vS=.35} @self
+NocsyPikachuDespawn:
+  Skills:
+   - potion{type=SLOW;duration=200;level=255} @self
+   - sound{s=entity.cat.stray_ambient;p=1.8;v=1} @self
+   - state{s=despawn;li=0;lo=0} @self
+   - delay 19
+   - lunge{velocity=0.6;velocityY=1} @Forward{f=0.1;y=1}
+   - delay 6
+   - effect:particlesphere{particle=EXPLOSION;amount=200;radius=0.6} @ModelPart{m=nocsy_pikachu;p=body;offset=GLOBAL;y=0.05;em=false}
+   - effect:particlesphere{particle=EXPLOSION;amount=200;radius=0.3} @ModelPart{m=nocsy_pikachu;p=body;offset=GLOBAL;y=0.05;em=false}
+   - remove @self
+
+#---------------------  
+# Global animations
+#---------------------
+
+NocsyPikachuAnimations:
+  Skills:
+  - Aura{auraName=NocsyPikachuAnimations-Aura;onTick=NocsyPikachuAnimations-Tick;interval=2;d=916000000} @self
+  
+NocsyPikachuAnimations-Tick:
+  Skills:
+  - addtag{t=ground} @self
+  - removetag{t=swim} @self
+  - defaultstate{m=nocsy_otter;t=walk;s=walk} @self
+  
+#---------------------  
+# Pet the pikachu
+#---------------------
+
+NocsyPikachu_interact:
+  Cooldown: 6
+  Skills:
+  - setAI{ai=false} @self
+  - sound{s=entity.cat.beg_for_food;p=1.8;v=1} @self
+  - state{s=interact} @self
+  - delay 57
+  - setAI{ai=true} @self
+  
+######################
+#       Reaper       #
+######################
+
+#---------------------  
+# Reaper Attack
+#---------------------
+
+NocsyPet_Reaper_Attack:
+  Conditions:
+  - hastag{t=attacking} false
+  Skills:
+  - addtag{t=attacking} @self
+  - setAI{ai=false}
+  - state{s=attack;li=0;lo=0} @self
+  - delay 29
+  - sound{s=entity.player.attack.sweep;p=0.1;v=0.5} @self
+  - delay 5
+  - damage{a=6} @target
+  - effect:particles{particle=SWEEP_ATTACK;amount=3;hS=.6;vS=.6} @ModelPart{m=nocsy_pet_reaper;p=right_arm;offset=GLOBAL;y=-0.5;em=false}
+  - delay 12
+  - setAI{ai=true}
+  - removetag{t=attacking} @self
+
+NocsyPet_Reaper_CancelAttack:
+  Skills:
+  - CancelEvent
+  
+#---------------------  
+# Reaper despawn
+#---------------------
+
+NocsyPetReaperDespawn:
+  Skills:
+   - setAI{ai=false}
+   - sound{s=entity.witch.celebrate;p=1.8;v=1} @self
+   - state{s=despawn;li=0;lo=0} @self
+   - delay 18
+   - effect:particlesphere{particle=smoke_large;amount=200;radius=0.6} @ModelPart{m=nocsy_pet_reaper;p=body;offset=GLOBAL;y=0.05;em=false}
+   - effect:particlesphere{particle=SOUL;amount=50;radius=0.6} @ModelPart{m=nocsy_pet_reaper;p=body;offset=GLOBAL;y=0.05;em=false}
+   - effect:particlesphere{particle=smoke_large;amount=100;radius=0.2} @ModelPart{m=nocsy_pet_reaper;p=body;offset=GLOBAL;y=0.05;em=false}
+   - effect:particlesphere{particle=SOUL;amount=50;radius=0.2} @ModelPart{m=nocsy_pet_reaper;p=body;offset=GLOBAL;y=0.05;em=false}
+   - effect:particlesphere{particle=smoke_large;amount=50;radius=0.0.5} @ModelPart{m=nocsy_pet_reaper;p=body;offset=GLOBAL;y=0.05;em=false}
+   - delay 2
+   - remove @self
+
+######################
+#       Penguin      #
+######################
+
+#---------------------  
+# Sounds
+#---------------------
+
+NocsyPet_Penguin_Sounds:
+  Skills:
+  - Aura{auraName=NocsyPet_Penguin_Sounds-Aura;onTick=NocsyPet_Penguin_Sounds-Tick;interval=600;d=916000000} @self
+  
+NocsyPet_Penguin_Sounds-Tick:
+  Skills:
+  - randomskill{skills=NocsyPet_Penguin_Sounds_1,NocsyPet_Penguin_Sounds_2,NocsyPet_Penguin_Sounds_3}
+
+NocsyPet_Penguin_Sounds_1:
+  Skills:
+  - sound{s=entity.bat.ambient;p=0.1;v=0.5} @self
+NocsyPet_Penguin_Sounds_2:
+  Skills:
+  - sound{s=entity.bat.ambient;p=0.3;v=0.5} @self
+NocsyPet_Penguin_Sounds_3:
+  Skills: []
+
+#---------------------  
+# Pet the penguin
+#---------------------
+
+NocsyPenguin_interact:
+  Cooldown: 6
+  Skills:
+  - setAI{ai=false} @self
+  - state{s=interact} @self
+  - delay 16
+  - sound{s=entity.bat.ambient;p=0.2;v=0.5} @self
+  - delay 24
+  - setAI{ai=true} @self
+  
+#---------------------  
+# Reaper despawn
+#---------------------
+
+NocsyPetPenguinDespawn:
+  Skills:
+   - setAI{ai=false}
+   - effect:blockmask{m=ice;r=2;d=45} @self
+   - sound{s=entity.bat.ambient;p=0.5;v=0.1} @self
+   - state{s=despawn;li=0;lo=0} @self
+   - delay 35
+   - effect:particlesphere{particle=EXPLOSION;amount=200;radius=0.6} @ModelPart{m=nocsy_pet_penguin;p=body;offset=GLOBAL;y=0.05;em=false}
+   - effect:particlesphere{particle=SNOWBALL;amount=200;radius=0.6} @ModelPart{m=nocsy_pet_penguin;p=body;offset=GLOBAL;y=0.05;em=false}
+   - effect:particlesphere{particle=EXPLOSION;amount=200;radius=0.3} @ModelPart{m=nocsy_pet_penguin;p=body;offset=GLOBAL;y=0.05;em=false}
+   - effect:particlesphere{particle=SNOWBALL;amount=200;radius=0.3} @ModelPart{m=nocsy_pet_penguin;p=body;offset=GLOBAL;y=0.05;em=false}
+   - delay 5
+   - remove @self

@@ -1,0 +1,7 @@
+uuid: b3a3b00b-b884-3581-86c3-72d0617a42fd
+name: FexxoPapasito
+primary-group: default
+permissions:
+- mcpets.nutria
+parents:
+- default

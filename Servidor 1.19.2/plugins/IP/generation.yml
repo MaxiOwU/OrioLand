@@ -1,0 +1,123 @@
+# -= Parkour Generation Settings =-
+# Settings for parkour generation
+generation:
+  
+  # -= Normal jump settings =-
+  # The settings for normal jumps
+  normal-jump:
+    
+    # -= Normal jump chance =-
+    # The chance for normal jumps to appear (in %). This means a block jump that isn't ice, slab or a schematic.
+    # When compared to structures.chance and special.chance this should be 100%, but it can be more.
+    chance: 85
+    
+    # -= Distance chances =-
+    # The chances of the different distances in %. Can be above 100%.
+    1-block: 5
+    2-block: 30
+    3-block: 55
+    4-block: 10
+    
+    # -= Height chances =-
+    # The chances of the different heights a jump can have in %. Can be above 100%.
+    up: 15
+    level: 70
+    down: 10
+    down2: 5
+    
+    # -= Special blocks settings =-
+    # Settings for special block jumps.
+    # Note: these jumps use the chances for normal jumps for distance.
+    special:
+      
+      # -= Special jump chance =-
+      # The chance for special jumps to appear (in %).
+      chance: 10
+      
+      # -= Special jump types chance =-
+      # The type of block
+      ice: 50
+      slab: 30
+      pane: 10
+      fence: 10
+  
+  # -= Schematic settings =-
+  # The settings for schematic chances. This used to be called structures, hence the name.
+  structures:
+    
+    # -= Schematic appear chance =-
+    # The chance for structures to appear (in %)
+    chance: 5
+  
+  # -= Jump settings =-
+  settings:
+    
+    # -= Min jump y value =-
+    # The minimal y value for parkour to be generated at.
+    # If you are using a custom world, you should set this to a value where the parkour won't intersect with the world.
+    min-y: 100
+    
+    # -= Max jump y value =-
+    # The maximum y value for parkour to be generated at.
+    # If you are using a custom world, you should set this to a value where the parkour won't intersect with the world.
+    max-y: 200
+
+# -= Advanced settings =-
+# Don't modify these if you don't know what you're doing!
+advanced:
+  
+  # -= Spawn island options =-
+  # Options for the spawn island
+  island:
+    spawn:
+      
+      # -= Player block =-
+      # The material of the block that the player will spawn on.
+      # This block will be set to air once the schematic has been pasted.
+      player-block: diamond_block
+      
+      # -= Spawn yaw/pitch =-
+      yaw: -90
+      pitch: 0
+    
+    parkour:
+      
+      # -= Begin block =-
+      # The block from which the parkour begins
+      # This block will be set to air once the schematic has been pasted
+      begin-block: emerald_block
+      
+      # -= Directional heading =-
+      # The directional heading of the parkour
+      # Possible options: north, south, west and east.
+      heading: east
+  
+  # -= Border size =-
+  # The diameter of the playing area of a person in the single mode.
+  border-size: 10000
+  
+  # -= Schematic cooldown =-
+  # The amount of blocks that provide a cooldown for the schematics.
+  schematic-cooldown: 20
+  
+  # -= Generator check interval =-
+  # The amount of ticks between checks of the player's location and score.
+  # Lowering this is not recommended. Raising this may cause additional lag.
+  generator-check: 2
+  
+  # -= Height gap =-
+  # The height gap used for determining the max distance between 2 blocks.
+  height-gap: 4.5
+  
+  # From which score the difficulty multiplier is maxed (so from e.g.
+  # 750 score you get more 4 block jumps than at 200 score)
+  maxed-multiplier: 500
+  
+  # -= Score difficulty maxes =-
+  # The chances of all jumps when the distance multiplier is maxed out.
+  # This is only if a player has the Score difficulty option enabled.
+  maxed-values:
+    1-block: 5
+    2-block: 15
+    3-block: 25
+    4-block: 55

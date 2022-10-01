@@ -1,0 +1,420 @@
+server-name: OrioLand
+main-world: world
+timestamp-format: dd/MM/yyyy-HH:mm:ss
+lang: lang_en
+authentication:
+  provider: noop
+blocked-commands: /example1, /example2, /example3
+blocked-mode-commands: /example1, /example2, /example3
+glass-color: 0
+glass-title: '&bElige el color del vidrio de la GUI'
+offline-players-mode: true
+offline-player-cache: true
+server-sync-module:
+  vanish-sync: true
+  staffmode-sync: true
+  ban-sync: '[ALL]'
+  report-sync: '[ALL]'
+  warning-sync: '[ALL]'
+  mute-sync: '[ALL]'
+  kick-sync: '[ALL]'
+  investigation-sync: '[ALL]'
+  notes-sync: '[ALL]'
+  staff-location-sync: ''
+locations: []
+reports-module:
+  enabled: true
+  sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  cooldown: 5
+  show-reporter: true
+  closing-reason-enabled: true
+  fixed-reason: false
+  fixed-reason-culprit: false
+  report-types:
+  - name: HACKS
+    info: Reportar un hacker
+    material: MUSIC_DISC_13
+    filters: culprit=true
+  - name: BUG
+    info: Reportar un bug
+    material: MUSIC_DISC_BLOCKS
+    filters: culprit=false
+  - name: CHAT
+    info: Reportar toxicos, spam, etc
+    material: MUSIC_DISC_FAR
+    filters: culprit=true
+  - name: OTROS
+    info: Reportar greefing, spawnkill, dupeos, etc
+    material: MUSIC_DISC_CAT
+    filters: culprit=true
+  reasons:
+  - reason: Kill Aura
+    info: Reportar por kill aura
+    material: FEATHER
+    type: HACKS
+  - reason: Fly hacks
+    info: Reportar por fly
+    material: FEATHER
+    type: HACKS
+  - reason: Auto clicker
+    info: Reportar por Auto clicker
+    material: FEATHER
+    type: HACKS
+  - reason: Anti knockback
+    info: Reportar por Anti knockback
+    material: FEATHER
+    type: HACKS
+  - reason: Aimbot
+    info: Reportar por aimbot
+    material: FEATHER
+    type: HACKS
+  - reason: God mode
+    info: Reportar por god mode
+    material: FEATHER
+    type: HACKS
+  - reason: Otros hacks
+    info: Otro tipo de hack no mencionado anteriormente
+    material: FEATHER
+    type: HACKS
+  - reason: Spam
+    info: Spam es el envio de mensajes repetidos en un corto tiempo
+    material: NAME_TAG
+    type: CHAT
+  - reason: Flood
+    info: El flood es el alargamiento de una sola letra innecesariamente
+    material: NAME_TAG
+    type: CHAT
+  - reason: Publicidad
+    info: Promocionar otros servidores, ips, canales de Youtube/Twitch o cualquier
+      otra red social
+    material: NAME_TAG
+    type: CHAT
+  - reason: Toxico
+    info: Insultos, amenazas, racismo, homofobia, etc
+    material: NAME_TAG
+    type: CHAT
+  - reason: Bug
+    info: Reportar cualquier tipo de bug ,error de un plugin o del servidor
+    material: NETHER_STAR
+    type: BUG
+  - reason: Spawnkill
+    info: Matar a un usuario repetidas veces -3 kills max.-
+    material: PRISMARINE_SHARD
+    type: OTROS
+  - reason: Greefing/Grifeo
+    info: Grifear alrededor de una proteccion ajena
+    material: PRISMARINE_SHARD
+    type: OTROS
+  - reason: Dupeo de items
+    info: Multiplicacion de items ilegalmente
+    material: PRISMARINE_SHARD
+    type: OTROS
+  - reason: Items ilegales
+    info: Items no accesibles desde el jugador o que crasheen el juego
+    material: PRISMARINE_SHARD
+    type: OTROS
+  - reason: Multicuenta/Alts
+    info: Reporta aqui cuando un usuario usa multicuenta para evadir una sancion
+    material: PRISMARINE_SHARD
+    type: OTROS
+  - reason: Kick & kill
+    info: Kickear de un clan o rp para matar a un jugador sin su consentimiento
+    material: PRISMARINE_SHARD
+    type: OTROS
+  - reason: Robo de tumbas
+    info: Robar una tumba o impedir que el dueño la recoja
+    material: PRISMARINE_SHARD
+    type: OTROS
+  reporter-notifications:
+    notify-on-join: false
+    status-change-notifications: IN_PROGRESS;RESOLVED;REJECTED
+  accept-commands: []
+  reject-commands: []
+  reopen-commands: []
+  resolve-commands: []
+  chatchannels:
+    enabled: false
+    open-on: IN_PROGRESS
+    close-on: REJECTED;RESOLVED;DELETED
+warnings-module:
+  enabled: true
+  sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  show-issuer: true
+  user-notifications:
+    enabled: true
+    always-notify: false
+  actions: []
+  severity-levels:
+  - name: Leve
+    score: 1
+    expiresAfter: 1 WEEK
+  - name: Grave
+    score: 5
+    expiresAfter: 1 WEEK
+  - name: Critico
+    score: 6
+    expiresAfter: 2 WEEK
+  thresholds:
+  - score: 3
+    actions:
+    - command: tempmute %target% 3h HOUR Tienes 3 warns acumulados. Puedes apelar
+        en nuestro discord https://discord.link/orioland
+      rollback-command:
+        command: unmute %target%
+  - score: 4
+    actions:
+    - command: kick %target% Si recibes 1 warn mas, seras autobaneado por la consola
+        por 24 horas. Puedes apelar en nuestro discord https://discord.link/orioland
+  - score: 5
+    actions:
+    - command: tempban %target% 24 HOUR Muchos warns acumulados. Puedes apelar en
+        nuestro discord https://discord.link/orioland
+      rollback-command:
+        command: unban %target%
+  - score: 6
+    actions:
+    - command: tempban %target% 3 DAY Muchos warns acumulados. Puedes apelar en nuestro
+        discord https://discord.link/orioland
+      rollback-command:
+        command: unban %target%
+  appeals:
+    enabled: true
+    resolve-reason-enabled: true
+    fixed-reason: true
+    reasons:
+    - Abuso de poder
+    - Me sancionaron erroneamente
+staff-chat-module:
+  enabled: true
+  bungee: false
+  channels:
+  - command: sc
+    handle: '!'
+    name: staffchat
+    prefix: '&dStaffChat &8»'
+    message-format: '&b%player% &8» &7%message%'
+    permission: staff.staffchat
+vanish-module:
+  enabled: true
+  tab-list: true
+  show-away: false
+  suggestions: false
+  chat: true
+  vanish-message-enabled: true
+  vanish-bossbar-enabled: false
+  default-mode: TOTAL
+  item-drop: true
+  item-pickup: true
+  invincible: false
+  damage: true
+  block-place: true
+  block-break: true
+  normal-chest-opening: true
+  normal-chest-interaction: true
+  silent-chest-opening: false
+  silent-chest-interaction: false
+  night-vision: false
+  join-leave-message-enabled: false
+  cancelled-interaction-types:
+  - '*PRESSURE_PLATE'
+  - '*TRIP*'
+chat-module:
+  enabled: true
+  lines: 100
+  slow: 5
+  detection:
+    phrase-groups:
+    - phrases:
+      - staff
+      actions: []
+blacklist-module:
+  enabled: true
+  hoverable: false
+  character: '*'
+  merging: true
+  words: fuck, shit, ass, bitch, dick, cock, nigger, nigga, negro, puto, puta, gey,
+    gei, pija, hdp, Gay, LGBT, concha, ctmr, ldctmr, Chupa pija, chupamela, chupate,
+    Prostituta, prostituto, mrd, ptmr, negra, negro, chota, pingo, forra
+  characters: 卐, 卍
+  domains: com, net, org, discord.gg, aternos, server.pro
+  periods: (), (dot),
+  allowed: bypass, assembly, assassin, compass, assume, assault, asset, assort
+  censor-chat: true
+  censor-signs: true
+  censor-anvil: true
+  censor-book: true
+broadcast-module:
+  enabled: true
+  enabled-servers: CURRENT
+  prefix: '&dBroadcast &8»'
+infractions-module:
+  enabled: true
+  show-bans: true
+  show-mutes: true
+  show-warnings: true
+  show-reporter:
+    report-created: true
+  show-kicks: true
+  bans-gui-item: PAPER
+  mutes-gui-item: PAPER
+  warnings-gui-item: PAPER
+  reported-gui-item: PAPER
+  kicks-gui-item: PAPER
+ban-module:
+  enabled: true
+  permban-template: ''
+  tempban-template: ''
+  ipban:
+    enabled: true
+    permban-template: ''
+    tempban-template: ''
+    confirmation: CHAT
+  appeals:
+    enabled: true
+    unban-on-approve: true
+    resolve-reason-enabled: false
+    fixed-reason: false
+    reasons:
+    - ''
+kick-module:
+  enabled: true
+  fixed-reason: false
+  reasons:
+  - reason: Mal uso de /report o /helpop
+    material: BRICK
+    info: Envio de informes o reportes sin una razon certera
+  - reason: Nick o skin inapropiado
+    material: BRICK
+    info: Nick/skin con temas sexuales o que represente figuras ofensivas
+  - reason: Abuso de bug
+    material: BRICK
+    info: El uso intencional de una falla o error de cualquier forma para tener ventaja
+  - reason: Spawn kill
+    material: BRICK
+    info: Matar a un usuario repetidas veces en un lapso de tiempo corto
+  - reason: Mala conexion
+    material: BRICK
+    info: Si un usuario tiene problemas de conexion
+mute-module:
+  enabled: true
+  default-soft-mutes: false
+  blocked-commands:
+  - msg
+  - whisper
+  - tell
+  appeals:
+    enabled: true
+    unmute-on-approve: true
+    resolve-reason-enabled: false
+    fixed-reason: false
+    reasons:
+    - ''
+    on-approved-commands: []
+    on-rejected-commands: []
+joinmessages-module:
+  messages:
+  - permission: staff.joinmessages.staff
+    message: '&6[Staff] &4%player% &7joined the server'
+    weight: 1
+  enabled: false
+protect-module:
+  player-enabled: true
+  area-enabled: true
+  area-max-size: 40
+alt-detect-module:
+  enabled: true
+  same-ip-required: false
+alerts-module:
+  name-notify: true
+  name-notify-console: false
+  mention-notify: true
+  mention-notify-console: true
+  chat-phrase-detection: true
+  chat-phrase-detection-console: false
+  sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  xray-alerts:
+    enabled: false
+    console: false
+    blocks: SPAWNER, EMERALD_ORE, DIAMOND_ORE, GOLD_ORE, IRON_ORE, COAL_ORE, LAPIS_ORE,
+      REDSTONE_ORE
+    notify-bungee: ''
+  alt-detect-notify:
+    enabled: true
+    console: false
+    trust-levels: FAIRLY_POSITIVE;POSITIVE
+  name-notify-bungee: ''
+  mention-notify-bungee: ''
+  chat-phrase-detection-bungee: ''
+  command-detection: true
+  command-detection-console: false
+  blacklist-detection: true
+  blacklist-detection-console: false
+  blacklist-notify-bungee: ''
+command-detection:
+  enabled: true
+  command-groups:
+  - commands:
+    - op
+    - deop
+    - lp
+    actions: []
+trace-module:
+  enabled: false
+  trace-events: PICKUP_ITEM;DROP_ITEM;BLOCK_BREAK;BLOCK_PLACE;COMMANDS;CHAT;WORLD_CHANGE;INVENTORY;DAMAGE
+  output-channels: CHAT;FILE
+enderchest-module:
+  enabled: true
+investigations-module:
+  enabled: false
+  allow-offline-investigation: false
+  enforce-staff-mode: false
+  max-concurrent-investigations: 1
+  automatic-pause: true
+  notifications:
+    investigated:
+      title-message-enabled: true
+      chat-message-enabled: true
+  start-investigation-commands: []
+  conclude-investigation-commands: []
+  pause-investigation-commands: []
+freeze-module:
+  enabled: true
+  chat: true
+  damage: false
+  timer: 5
+  sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  prompt: false
+  prompt-title: '&bFrozen'
+  logout-commands: ban %player%
+  title-message-enabled: true
+  allowed-commands: []
+  unfreeze-commands: []
+  freeze-commands: []
+  chatchannels:
+    enabled: false
+  blindness: false
+  chat-message-enabled: true
+staff-locations-module:
+  enabled: true
+  icons: []
+webui-module:
+  enabled: true
+  host: https://web.staffplusplus.org
+  role: STAFF
+  application-key: 60ee17c51c912
+storage:
+  type: sqlite
+  mysql:
+    port: 3306
+    max-pool-size: 5
+    ssl-enabled: false
+    host: localhost
+    user: root
+    database: root
+    password: mypass
+  migrations-table-name: migrations
+config-version: 6205
+clock: 10
+animation-packets: PacketPlayOutBlockBreakAnimation, PacketPlayOutBlockAction
+sound-names: random.chestopen, random.chestclosed
+metrics: true

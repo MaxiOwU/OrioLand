@@ -1,0 +1,50 @@
+# Tutorial de classificação - por Dvaelin
+Requisitos:
+- Oraxen Plugin (Must Have!) | https://www.spigotmc.org/resources/%E2%80%8D%E2%9C%85-25-%E2%98%84%EF%B8%8F-oraxen-add-items-blocks-armors-hats-food-furnitures-plants-and-gui.72448/
+- LuckPerms Plugin | https://luckperms.net/
+- LPC - Chat Formatter Plugin | https://www.spigotmc.org/resources/lpc-chat-formatter.68965/
+- TAB Plugin (Free or Paid) | https://www.mc-market.org/resources/20631/
+- RealScoreboard Plugin (Recommended) | https://www.spigotmc.org/resources/realscoreboard-1-13-to-1-18.22928/
+
+quão?
+1. Extrair arquivos
+
+2. copie ou mova o arquivo png dentro da pasta "Ranks" para seuservidor/plugins/oraxen/pack/textures/default/chat
+
+3. em seguida, copie o "chat_tag.yml" para seuservidor/plugins/oraxen/glyphs
+   ou copie o texto dentro do seu para seuservidor/plugins/oraxen/glyphs/chat_tag.yml
+
+4. E recarregue a configuração dentro do jogo ou console com estes comandos:
+   /oraxen reload all ou /oraxen reload pack (Eu recomendo recarregar tudo)
+
+
+# Tutorial de Tag NPC - por Dvaelin
+Requisitos:
+- Oraxen Plugin (Must Have!) | https://www.spigotmc.org/resources/%E2%80%8D%E2%9C%85-25-%E2%98%84%EF%B8%8F-oraxen-add-items-blocks-armors-hats-food-furnitures-plants-and-gui.72448/
+- Citizens2 Plugin | https://www.spigotmc.org/resources/citizens.13811/
+
+quão?
+1. Extrair arquivos
+
+2. copie ou mova o arquivo png dentro da pasta "Etiquetas NPC" para seuservidor/plugins/oraxen/pack/textures/default/chat
+
+3. em seguida, copie o "emoji.yml" para seuservidor/plugins/oraxen/glyphs
+   ou copie o texto dentro do seu para seuservidor/plugins/oraxen/glyphs/emoji.yml
+
+4. E recarregue a configuração dentro do jogo ou console com estes comandos:
+   /oraxen reload all ou /oraxen reload pack (Eu recomendo recarregar tudo)
+
+
+# Tutorial de Raridade de Itens - por Dvaelin
+1. Extrair arquivos
+
+2. copie ou mova o arquivo png dentro da pasta "Raridare do item" para seuservidor/plugins/oraxen/pack/textures/default/chat
+
+3. em seguida, copie o "chat_tag.yml" para seuservidor/plugins/oraxen/glyphs
+   ou copie o texto dentro do seu para seuservidor/plugins/oraxen/glyphs/chat_tag.yml
+
+4. vamos para oraxen/items/weapons.yml (Este é apenas um exemplo), depois é só adicionar <glyph:comum_tag> para a descrição do item, você
+   pode alterá-lo para incomum, raro, ultra raro, épico, herói ou lenda como você gosta. ou você pode verificar o exemplo em "weapons.yml" dentro da pasta Item Rarity.
+
+5. E recarregue a configuração dentro do jogo ou console com estes comandos:
+   /oraxen reload all ou /oraxen reload pack (Eu recomendo recarregar tudo)

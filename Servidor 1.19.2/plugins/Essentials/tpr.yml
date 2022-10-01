@@ -1,0 +1,26 @@
+# Configuration for the random teleport command.
+# Some settings may be defaulted, and can be changed via the /settpr command in-game.
+
+min-range: 0.0
+max-range: 20000.0
+excluded-biomes:
+- cold_ocean
+- deep_cold_ocean
+- deep_frozen_ocean
+- deep_lukewarm_ocean
+- deep_ocean
+- deep_warm_ocean
+- frozen_ocean
+- frozen_river
+- lukewarm_ocean
+- ocean
+- river
+- warm_ocean
+center:
+  world: d7b70d4e-0f87-4fcf-97c9-b2b5c4ad0f70
+  world-name: survival
+  x: 0.0
+  y: 64.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0

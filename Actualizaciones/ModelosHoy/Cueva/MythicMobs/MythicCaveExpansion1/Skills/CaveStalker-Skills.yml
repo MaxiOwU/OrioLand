@@ -1,0 +1,148 @@
+MSO_CaveStalkerSpawn:
+  Skills:
+  - model{m=mso_cavepack_stalagtite_man;n=false;s=2}
+  - state{s=hidden}
+  - gcd{ticks=30}
+  - setai{ai=false}
+  - setstance{stance=hidden}
+
+MSO_CaveStalkerMelee:
+  Skills:
+  - cancelevent
+  - skill:MSO_CaveStalkerMeleeSwing
+
+MSO_CaveStalkerMeleeSwing:
+  Cooldown: 2
+  Conditions:
+  - offgcd
+  - incombat
+  - stance stalking
+  TargetConditions:
+  - distance <3
+  Skills:
+  - state{s=bite;li=3;lo=2;speed=1} @self
+  - gcd{ticks=30} @self
+  - setai{ai=false} @self
+  - effect:sound{cd=5;s=entity.polar_bear.warning;v=0.2;p=0.66} @self
+  - delay 15
+  - effect:sound{cd=5;s=entity.elder_guardian.ambient;v=0.2;p=1.72} @self
+  - delay 3
+  - totem{ch=3;
+      onStart=[
+        - particles{p=crit;a=1;s=1.5} @origin
+        - skill:MSO_CaveStalkerMeleeDamage @ENO{r=3}
+      ];int=1;hR=3;md=1} @Forward{f=1.5}
+  - delay 20
+  - setai{ai=true} @self
+  
+MSO_CaveStalkerMeleeDamage:
+  Skills:
+  - effect:sound{s=entity.player.attack.strong;v=1;p=0.8} @self
+  - effect:particles{p=crit;a=55;hS=0.4;vS=0.4;y=1.5}
+  - effect:particles{p=reddust;size=5;color=#32CE32;a=5;hS=0.2;vS=0.2;y=1.5}
+  - basedamage{m=1}
+  - throw{v=4;vy=2}
+  
+MSO_CaveStalkerDamaged:
+  Cooldown: 0.5
+  Skills:
+  - sound{s=block.dripstone_block.break;p=0.75;v=1}
+  - sound{s=entity.guardian.hurt;p=1.85;v=0.25}
+  
+MSO_CaveStalkerRockThrow:
+  Cooldown: 8
+  Conditions:
+  - offgcd
+  - incombat
+  - stance stalking
+  TargetConditions:
+  - distance <16
+  Skills:
+  - state{s=throw;li=3;lo=2;speed=1} @self
+  - gcd{ticks=30} @self
+  - setai{ai=false} @self
+  - delay 22
+  - missile{v=22;vo=1;inertia=2;
+      fo=true;origin=@ModelPart{m=mso_cavepack_stalagtite_man;p=bone5};
+      bullet=TRACKING;bulletMaterial=DRIPSTONE_BLOCK;
+      onStart=[
+        - delay 10
+        - modifyProjectile{trait=INERTIA;value=9999}
+      ];
+      onHit=[
+        - effect:sound{s=entity.player.attack.crit;p=0.5;v=2}
+        - bloodyscreen{d=20}
+        - potion{type=SLOW;d=10;p=2}
+        - potion{type=BLINDNESS;d=20}
+        - stun{duration=10}
+      ];
+      onEnd=[
+        - effect:particles{p=blockdust;material=STONE;a=40;hS=0.2;vS=0.2}
+      ]} @target
+  - delay 6
+  - setai{ai=true} @self
+  
+MSO_CaveStalkerScan:
+  Conditions:
+  - offgcd
+  Skills:
+  - threat{a=1} @PIR{r=16}
+  - skill:MSO_CaveStalkerGazeCheck
+  - skill:MSO_CaveStalkerScanAICheck
+  
+MSO_CaveStalkerScanAICheck:
+  Conditions:
+  - incombat
+  - offgcd
+  - stance stalking false
+  - hasAura seen false
+  Skills:
+  - skill:MSO_CaveStalkerScan_AIAggro @self
+  
+MSO_CaveStalkerHiddenDamaged:
+  Conditions:
+  - stance hidden
+  Skills:
+  - skill:MSO_CaveStalkerScan_AIAggro @self
+  
+MSO_CaveStalkerDropAggro:
+  Skills:
+  - state{s=unhidden;remove=true}
+  - state{s=hidden}
+  - gcd{ticks=30}
+  - setai{ai=false}
+  - runAIGoalSelector{goal=clear}
+  - setstance{stance=hidden}
+
+MSO_CaveStalkerScan_AIAggro:
+  Skills:
+  - state{s=hidden;remove=true}
+  - state{s=unhidden}
+  - gcd{ticks=30} 
+  - runAIGoalSelector{goal=meleeattack}
+  - setstance{stance=stalking}
+  - effect:particles{p=blockcrack;material=DRIPSTONE_BLOCK;a=20;hS=1;vS=0.05;y=0.05;repeat=20;repeati=1}
+  - sound{s=block.dripstone_block.break;p=0.5;v=0.1;repeat=20;repeati=1}
+  - sound{s=entity.turtle.egg_crack;p=1.5;v=0.1;repeat=3;repeati=2}
+  - delay 30
+  - setai{ai=true}
+
+MSO_CaveStalkerGazeCheck:
+  Conditions:
+  - stance hidden
+  Skills:
+  - sudoskill{s=MSO_CaveStalkerScan_CheckFOV;cat=true} @ThreatTable
+
+MSO_CaveStalkerScan_CheckFOV:
+  Skills:
+  - skill:MSO_CaveStalkerScan_CheckFOV2 @trigger
+  
+MSO_CaveStalkerScan_CheckFOV2:
+  TargetConditions:
+  - inlineofsight
+  - fov{angle=180}
+  Skills:
+  - aura{auraname=seen;duration=20;maxstacks=1;ma=true;rd=true;r=0.5;y=0.4;i=1;points=16;
+      onTick=[
+        - potion{type=SLOW;level=10;duration=20;overwrite=true}
+      ]}

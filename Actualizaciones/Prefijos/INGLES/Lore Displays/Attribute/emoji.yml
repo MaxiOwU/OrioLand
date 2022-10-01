@@ -1,0 +1,62 @@
+strength:
+  texture: default/stats/strength
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':strength:'
+    permission: oraxen.emoji.strength
+
+defense:
+  texture: default/stats/defense
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':defense:'
+    permission: oraxen.emoji.defense
+
+speed:
+  texture: default/stats/speed
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':speed:'
+    permission: oraxen.emoji.speed
+
+wisdom:
+  texture: default/stats/wisdom
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':wisdom:'
+    permission: oraxen.emoji.wisdom
+
+ferocity:
+  texture: default/stats/ferocity
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':ferocity:'
+    permission: oraxen.emoji.ferocity
+
+crit_chance:
+  texture: default/stats/crit_chance
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':crit_chance:'
+    permission: oraxen.emoji.crit_chance
+
+crit_dmg:
+  texture: default/stats/crit_dmg
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - ':crit_dmg:'
+    permission: oraxen.emoji.crit_dmg

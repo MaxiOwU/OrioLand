@@ -1,0 +1,109 @@
+# This configuration is mainly meant for experienced users.
+# You can add or remove pretty much everything you want. There's a limit of 25 fields, and you can't have empty embeds, or you'll
+# receive an error. Heavy modification of this configuration file is NOT recommended.
+
+# Placeholders: https://docs.google.com/document/d/1EZcNh2oYi_w5RiAoPbmGiowPkkGh9khnv1c_PUDyWTc/edit?usp=sharing
+
+## WARNING: You may experience issues with images loading if you're using APIs to load pictures.
+## This is NOT caused by this plugin, but by rate limits from the API -- I cannot do anything about this.
+
+webhooks:
+  # This embed will be sent whenever someone triggers a violation.
+  violations:
+    # Webhook-specific settings
+    settings:
+      # The webhook URL for webhook embeds.
+      webhook-url: "https://discord.com/api/webhooks/874416391405584385/22eaDUb9FF41F2Dnt1qrEU9v7rj12SY-NqfIPrftjik59AXNqp1zphRaTuMB5u9ljhPE"
+      # Should violations that are false positives be sent?
+      send-false-positives: false
+    # The color of the line on the left side of the embed. Format is a hex code without the #.
+    color: "71f5d6"
+    # The title of the embed -- displayed right under the Author.
+    title:
+      text: "%violator% - Infraccion"
+      text-url:
+        enabled: true
+        value: ""
+    # The author of the embed -- displayed at the top of the embed.
+    author:
+      text: ""
+      text-url:
+        enabled: false
+        value: ""
+      icon-url:
+        enabled: false
+        value: ""
+    # This is displayed under the title and author, but above fields and images.
+    description: ""
+    # This is the URL of the small image to be displayed next to the description.
+    thumbnail-url: ""
+    # This is the URL of the image displayed below the description.
+    image-url: ""
+    # This controls whether there's a timestamp included in the embed.
+    show-timestamp: true
+    # This is displayed at the very bottom of the embed.
+    footer:
+      text: "OrioLand : AntiCheat"
+      icon-url:
+        enabled: true
+        value: "https://cdn.discordapp.com/attachments/836994245347770383/847910985385508884/OrioLand.png"
+    fields:
+      violator-uuid:
+        inline: true
+        key: "`ID unico del infractor`"
+        value: "%violator_uuid%"
+      type:
+        inline: true
+        key: "`Tipo de Hack`"
+        value: "%type%"
+      current-violations:
+        inline: true
+        key: "`Infracciones Actuales`"
+        value: "%violations%"
+      total-violations:
+        inline: true
+        key: "`Total de infracciones`"
+        value: "%total_violations%"
+      full-message:
+        inline: false
+        key: "`Informacion`"
+        value: "%full_message%"
+  found-ore:
+    settings:
+      webhook-url: ""
+    color: "71f5d6"
+    title:
+      text: "%violator% - Found Ore"
+      text-url:
+        enabled: true
+        value: ""
+    author:
+      text: ""
+      text-url:
+        enabled: false
+        value: ""
+      icon-url:
+        enabled: false
+        value: ""
+    description: ""
+    thumbnail-url: ""
+    image-url: ""
+    show-timestamp: true
+    footer:
+      text: "Created by bobby29381 : SpartanWebhooks"
+      icon-url:
+        enabled: true
+        value: ""
+    fields:
+      violator-uuid:
+        inline: true
+        key: "`Violator Unique Id`"
+        value: "%violator_uuid%"
+      material:
+        inline: true
+        key: "`Material`"
+        value: "%material%"
+      location:
+        inline: false
+        key: "`Location`"
+        value: "(%location_x%, %location_y%, %location_z%) in %location_world%"

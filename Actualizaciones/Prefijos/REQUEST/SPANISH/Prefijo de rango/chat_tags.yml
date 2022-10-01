@@ -1,0 +1,26 @@
+vagabundo_tag:
+  texture: default/chat/vagabundo_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":vagabundo:"
+    permission: "oraxen.emoji.vagabundo"
+
+artesano_tag:
+  texture: default/chat/artesano_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":artesano:"
+    permission: "oraxen.emoji.artesano"
+
+guía_tag:
+  texture: default/chat/guía_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":guía:"
+    permission: "oraxen.emoji.guía"

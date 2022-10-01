@@ -1,0 +1,69 @@
+Action:
+  - "COLLECTBERRYS" 
+ 
+ID: "BERRYS"
+
+Material: "SWEET_BERRIES"
+
+ColorOfBossBar: "GREEN"
+
+Slot: 29
+
+Price: 350
+
+Worlds:
+  - "survival"
+  - "survival_nether"
+  - "survival_the_end"
+
+IDS:
+
+  COLLECTBERRYS:
+    List:
+      - "B1"   
+
+    B1:
+
+      Chance: 85
+      ID: "SWEET_BERRY_BUSH"
+      Money: 2
+      Exp: 5
+      Points: 0.05
+      RewardsGUI:
+    
+        See: true
+        Icon: "SWEET_BERRIES"
+ 
+LEVELS:
+
+  CountOfLevels: 4
+
+  1:
+
+    Money: 0 
+    Icon: "COAL" 
+    Need: 0
+    
+  2:
+
+    Money: 250 
+    Icon: "PAPER" 
+    Need: 150 
+    EarnMore: 0.15
+    
+  3:
+
+    Money: 500 
+    Icon: "PAPER" 
+    Need: 500 
+    EarnMore: 0.25
+    
+  4:
+
+    Money: 1000 
+    Icon: "EMERALD" 
+    Need: 550 
+    EarnMore: 0.30
+
+  
+  

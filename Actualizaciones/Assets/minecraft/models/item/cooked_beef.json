@@ -1,0 +1,21 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/cooked_beef"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/cooked_beef/1"},
+		{"predicate": {"custom_model_data":2}, "model": "item/cooked_beef/2"},
+		{"predicate": {"custom_model_data":3}, "model": "item/cooked_beef/3"},
+		{"predicate": {"custom_model_data":4}, "model": "item/cooked_beef/4"},
+		{"predicate": {"custom_model_data":5}, "model": "item/cooked_beef/5"},
+		{"predicate": {"custom_model_data":6}, "model": "item/cooked_beef/6"},
+		{"predicate": {"custom_model_data":7}, "model": "item/cooked_beef/7"},
+		{"predicate": {"custom_model_data":8}, "model": "item/cooked_beef/8"},
+		{"predicate": {"custom_model_data":9}, "model": "item/cooked_beef/9"},
+		{"predicate": {"custom_model_data":10}, "model": "item/cooked_beef/10"},
+		{"predicate": {"custom_model_data":11}, "model": "item/cooked_beef/11"},
+		{"predicate": {"custom_model_data":12}, "model": "item/cooked_beef/12"}
+	]
+}

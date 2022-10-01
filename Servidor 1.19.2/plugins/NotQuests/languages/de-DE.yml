@@ -1,0 +1,362 @@
+---
+chat:
+  wrong-command-usage: <error>Falsche Command-Syntax!
+  missing-permission: '<error>Dafür hast du keine Rechte! Fehlendes Recht: <highlight>%PERMISSION%'
+  too-many-arguments: <error>Zu viele Eingaben!
+  quest-successfully-accepted: |2
+
+    <CENTER><main>[Quest Akzeptiert]
+    <CENTER><highlight><BOLD>%QUESTNAME%
+    <EMPTY>
+  quest-description: '<main>Quest-Beschreibung: <unimportant>%QUESTDESCRIPTION%'
+  quest-already-accepted: <error>Quest wurde schon akzeptiert.
+  quest-failed: |2
+
+    <CENTER><negative>[Quest Gescheitert]
+    <CENTER><highlight><BOLD>%QUESTNAME%
+    <EMPTY>
+  quest-aborted: ''
+  quest-completed-and-rewards-given: |2
+
+    <CENTER><positive>[Quest Abgeschlossen]
+    <CENTER><highlight><bold>%QUESTNAME%
+    <EMPTY>
+  quest-completed-rewards-prefix: '    <highlight>Belohnungen:'
+  quest-completed-rewards-rewardformat: '    <highlight> - <unimportant>%reward%'
+  quest-completed-rewards-suffix: <EMPTY>
+  quest-not-all-requirements-fulfilled: '<negative>Du erfüllst nicht alle Voraussetzungen, die diese Quest benötigt! Die Voraussetzungen werden noch benötigt:'
+  action-not-all-conditions-fulfilled: '<negative>Du erfüllst nicht alle Bedingungen, die diese Aktion benötigt! Die Voraussetzungen werden noch benötigt:'
+  missing-quest-description: <unimportant>Diese Quest hat keine Beschreibung
+  objectives-label-after-quest-accepting: '<highlight>Aufgaben:'
+  questpoints:
+    query: <main>Du hast zurzeit <highlight>%QUESTPOINTS% <warn>Questpunkte.
+    none: <error>Du hast wohl gerade keine Questpunkte!
+    notify-when-changed:
+      set: '<main>Deine Questpunkte wurden auf <highlight>%NEWQUESTPOINTSAMOUNT%</highlight> gesetzt.'
+      add: '<highlight>+%QUESTPOINTSTOADD% <success>Questpunkte!'
+      remove: '<highlight>-%QUESTPOINTSTOREMOVE% <negative>Questpunkte!'
+  no-quests-accepted: <error>Du hast wohl gerade keine aktiven Quests!
+  quest-does-not-exist: <error>Quest <highlight>%QUESTNAME%</highlight> existiert nicht!
+  quest-not-found-or-does-not-exist: <error>Quest <highlight>%QUESTNAME%</highlight> nicht gefunden oder nicht aktiv!
+  active-quests-label: '<highlight>Aktive Quests:'
+  take-disabled: <error>Das Akzeptieren oder Ansehen der Vorschau der Quest <highlight>%QUESTNAME%</highlight> wurde deaktiviert.
+  quest-not-active-error: '<error>Fehler: <highlight>%QUESTNAME% <error>ist keine aktive Quest!'
+  force-add-active-quest-accepted: '<success>Quest erfolgreich angenommen (Erzwungen).'
+  add-active-quest-player-object-not-found: '<warn>Fehler. Spieler nicht gefunden. Bitte melde das an den Plugin-Entwickler.'
+  reached-max-accepts-limit: '<red>Du hast diese Quest schon zu oft abgeschlossen. Du darfst sie nur <highlight>%MAXACCEPTS%</highlight> mal abschließen, aber du hast sie schon <highlight>%COMPLETEDAMOUNT%</highlight> mal abgeschlossen.'
+  reached-max-active-quests-per-player-limit: '<red>Du darfst nicht mehr als <highlight>%MAXACTIVEQUESTSPERPLAYER%</highlight> Quests gleichzeitig aktiv haben.'
+  quest-on-cooldown:
+    minute: '<red>Diese Quest ist auf Abklingzeit! Du musst noch <highlight>1 Minute</highlight> warten, bis du sie annehmen kannst.'
+    minutes: '<red>Diese Quest ist auf Abklingzeit! Du musst noch <highlight>%MINUTES% Minuten</highlight> warten, bis du sie annehmen kannst.'
+    hour: '<red>Diese Quest ist auf Abklingzeit! Du musst noch <highlight>1 Stunde</highlight> warten, bis du sie annehmen kannst.'
+    hours: '<red>Diese Quest ist auf Abklingzeit! Du musst noch <highlight>%HOURS% Stunden</highlight> warten, bis du sie annehmen kannst.'
+    day: '<red>Diese Quest ist auf Abklingzeit! Du musst noch <highlight>1 Tag</highlight> warten, bis du sie annehmen kannst.'
+    days: '<red>Diese Quest ist auf Abklingzeit! Du musst noch <highlight>%DAYS% Tage</highlight> warten, bis du sie annehmen kannst.'
+  conversations:
+    choose-answer-prefix: |-
+      <EMPTY>
+      <main>Wähle deine Antwort:</main>
+    choose-answer-answer-hover-text: '<highlight>Klicke zum antworten'
+    ended-previous-conversation: '<main>Deine letztes Gespräch wurde beendet.'
+    speaker-line-format: '%SPEAKERCOLOR%[%SPEAKER%] <GRAY>%MESSAGE%'
+    answer-option-line-format: ' <main>%OPTIONNUMBER%. <gray>%MESSAGE%'
+  objectives:
+    counter: '<highlight>%OBJECTIVEID%.</highlight> <main>%OBJECTIVENAME%:'
+    hidden: <highlight>%OBJECTIVEID%. <unimportant><bold>[VERBORGEN]
+    description: '   <highlight>Beschreibung: <main>%OBJECTIVEDESCRIPTION%'
+    progress: '   <highlight>Fortschritt: <main>%ACTIVEOBJECTIVEPROGRESS% / %OBJECTIVEPROGRESSNEEDED%'
+    successfully-completed: |2
+
+      <CENTER><success>[Aufgabe Abgeschlossen]
+      <CENTER><highlight><bold>%OBJECTIVENAME%</bold> <RESET><main>(%QUESTNAME%)
+      <EMPTY>
+    successfully-completed-rewards-prefix: '    <highlight>Belohnungen:'
+    successfully-completed-rewards-rewardformat: '    <highlight> - <unimportant>%reward%'
+    successfully-completed-rewards-suffix: <EMPTY>
+    taskDescription:
+      global:
+        prefix: '    <veryUnimportant>└─ <unimportant>'
+        suffix: ''
+      breakBlocks:
+        base: 'Break Blocks: <main>%BLOCKTOBREAK%'
+      breed:
+        base: 'Breed Mobs: <main>%ENTITYTOBREED%'
+      collectItems:
+        base: 'Collect Items: <main>%ITEMTOCOLLECTTYPE% %(%%ITEMTOCOLLECTNAME%%)%'
+      consumeItems:
+        base: 'Consume Items: <main>%ITEMTOCONSUMETYPE% %(%%ITEMTOCONSUMENAME%%)%'
+      craftItems:
+        base: 'Craft Items: <main>%ITEMTOCRAFTTYPE% %(%%ITEMTOCRAFTNAME%%)%'
+      deliverItems:
+        base: 'Deliver Items: <main>%ITEMTODELIVERTYPE% (%ITEMTODELIVERNAME%)'
+        deliver-to-npc: '      <GRAY>Bringe es zu <WHITE>%NPCNAME%'
+        deliver-to-npc-not-available: '      <GRAY>Der Empfänger-NPC ist derzeit nicht verfügbar!'
+        deliver-to-npc-citizens-not-found: '    <RED>Fehler: Das Citizens Plugin ist nicht installiert. Bitte kontaktiere einen Admin.'
+        deliver-to-armorstand: '    <GRAY>Bringe es zu <WHITE>%ARMORSTANDNAME%'
+        deliver-to-armorstand-not-available: '    <GRAY>Der Empfänger-NPC ist derzeit nicht verfügbar!'
+      escortNPC:
+        base: 'Escort <main>%NPCNAME%</main> to <main>%DESTINATIONNPCNAME%'
+      fishItems:
+        base: 'Fish Items: <main>%ITEMTOFISHTYPE% %(%%ITEMTOFISHNAME%%)%'
+      killMobs:
+        base: 'Kill mobs: <main>%MOBTOKILL%'
+      otherQuest:
+        base: 'Complete Quest: <main>%OTHERQUESTNAME%'
+      placeBlocks:
+        base: 'Place Blocks: <main>%BLOCKTOPLACE%'
+      reachLocation:
+        base: 'Reach Location: <main>%LOCATIONNAME%'
+      talkToNPC:
+        base: 'Talk to <main>%NAME%'
+      triggerCommand:
+        base: 'Goal: <main>%TRIGGERNAME%'
+      killEliteMobs:
+        base: 'Kill Elite Mob: <main>%ELITEMOBNAME%'
+        any: 'Kill any Elite Mob!'
+      runCommand:
+        base: 'Run command: <main>%COMMANDTORUN%'
+      interact:
+        base: '%INTERACTTYPE% Location: <main>%COORDINATES% <main>in world %WORLDNAME%'
+      jump:
+        base: 'Jump <main>%AMOUNTOFJUMPS%</main> times'
+      sneak:
+        base: 'Sneak <main>%AMOUNTOFSNEAKS%</main> times'
+      smelt:
+        base: 'Smelt Items: <main>%ITEMTOSMELTTYPE% %(%%ITEMTOSMELTNAME%%)%'
+      openBuriedTreasure:
+        base: 'Open buried treasures'
+      townyReachResidentCount:
+        base: 'Reach resident amount: <main>%AMOUNT%'
+      townyNationReachTownCount:
+        base: 'Reach town amount with your nation: <main>%AMOUNT%'
+      jobsRebornReachJobLevel:
+        base: 'Reach job level <main>%AMOUNT%</main> with job <main>%JOB%'
+      SlimefunResearch:
+        base: 'Spend on research'
+      ProjectKorraUseAbility:
+        base: 'Use Ability: <main>%ABILITY%'
+      BetonQuestCompleteObjective:
+        base: 'Finish Objective: <main>%BETONQUESTOBJECTIVENAME%'
+      ultimateJobsReachJobLevel:
+        base: 'Reach job level <main>%AMOUNT%</main> with job <main>%JOBID%'
+  conditions:
+    boolean:
+      not-fulfilled: "<warn>Folgendes muss %BOOLEANREQUIREMENT% sein: <highlight>%VARIABLESINGULAR%</highlight>."
+      variable-not-found: "<error>Fehler: Die Variable <highlight>%VARIABLENAME%</highlight> wurde nicht gefunden. Bitte melde das an den Serverbesitzer."
+      wrong-operator: "<error>Fehler: Der Variablen-Operator <highlight>%OPERATOR%/highlight> ist nicht gültig. Bitte melde das an den Serverbesitzer."
+objective-tracking:
+  actionbar-progress-update:
+    default: "<positive>%QUESTNAME%</positive> <unimportant>- <main>%OBJECTIVENAME%</main> <unimportant>(<positive>%ACTIVEOBJECTIVEPROGRESS% <unimportant>/ <main>%OBJECTIVEPROGRESSNEEDED% <unimportant>- <highlight>%OBJECTIVEPROGRESSPERCENTAGE%%<unimportant>)"
+    only-one-max-progress: "<positive>%QUESTNAME%</positive> <unimportant>- <main>%OBJECTIVENAME%</main> <unimportant>(<highlight>%OBJECTIVEPROGRESSPERCENTAGE%%<unimportant>)"
+  bossbar-progress-update:
+    default: "<positive>%QUESTNAME%</positive> <unimportant>- <main>%OBJECTIVENAME%</main> <unimportant>(<positive>%ACTIVEOBJECTIVEPROGRESS% <unimportant>/ <main>%OBJECTIVEPROGRESSNEEDED% <unimportant>- <highlight>%OBJECTIVEPROGRESSPERCENTAGE%%<unimportant>)"
+    only-one-max-progress: "<positive>%QUESTNAME%</positive> <unimportant>- <main>%OBJECTIVENAME%</main> <unimportant>(<highlight>%OBJECTIVEPROGRESSPERCENTAGE%%<unimportant>)"
+titles:
+  quest-accepted:
+    title: <main>Quest Akzeptiert
+    subtitle: <highlight>%QUESTNAME%
+  quest-completed:
+    title: <positive>Quest Abgeschlossen
+    subtitle: <highlight>%QUESTNAME%
+  quest-failed:
+    title: <negative>Quest Gescheitert
+    subtitle: <highlight>%QUESTNAME%
+placeholders:
+  questcooldownleftformatted:
+    prefix: ''
+    minute: '1 Minute'
+    minutes: '%MINUTES% Minuten'
+    hour: '1 Stunde'
+    hours: '%HOURS% Stunden'
+    day: '1 Tag'
+    days: '%DAYS% Tage'
+    no-cooldown: ''
+gui:
+  main:
+    title: '                <highlight2>Quests'
+    backgroundFill:
+      material: 'BLACK_STAINED_GLASS_PANE'
+    background:
+      '1':
+        minX: 0
+        maxX: 8
+        minY: 0
+        maxY: 0
+      '2':
+        minX: 0
+        maxX: 0
+        minY: 0
+        maxY: 5
+      '3':
+        minX: 1
+        maxX: 1
+        minY: 0
+        maxY: 5
+      '4':
+        minX: 2
+        maxX: 2
+        minY: 0
+        maxY: 5
+    button:
+      questpoints:
+        name: "<highlight>Questpunkte"
+        lore:
+          - "<main>Questpunkte: <highlight2>%QUESTPOINTS%"
+        x: 8
+        y: 0
+      takequest:
+        name: "<positive>Quest annehmen"
+        lore:
+          - "<unimportant>Starte eine neue Quest!"
+          - ""
+          - "<veryUnimportant>Einige Quests können so nicht"
+          - "<veryUnimportant>gestartet werden."
+        x: 0
+        y: 1
+      abortquest:
+        name: "<negative>Quest abbrechen"
+        lore:
+          - ""
+          - "<veryUnimportant>Wenn du eine Quest abbrichst,"
+          - "<veryUnimportant>kann es Konsequenzen haben."
+        x: 0
+        y: 2
+      activequests:
+        name: "<highlight>Aktive Quests"
+        lore:
+          - ""
+          - "<veryUnimportant>Zeigt dir all deine"
+          - "<veryUnimportant>aktiven Quests."
+        x: 0
+        y: 3
+  activeQuests:
+    title: '             <highlight2>Aktive Quests'
+    button:
+      activeQuestButton:
+        name: "<highlight>%QUESTNAME% <positive>[AKTIV]"
+        lore:
+          - "<unimportant>Fortschritt: <positive>%COMPLETEDOBJECTIVESCOUNT% <unimportant>/ <main>%ALLOBJECTIVESCOUNT%"
+          - "<main>Klicke, um Details anzusehen!"
+  reward-hidden-text: . <unimportant>[VERBORGEN]
+  availableQuests:
+    title: '         <highlight2>Verfügbare Quests'
+    button:
+      questPreview:
+        name-if-not-accepted: "<highlight>%QUESTNAME%"
+        name-if-accepted: "<highlight>%QUESTNAME% <reset><positive>[AKZEPTIERT]"
+        lore:
+          - "<veryUnimportant>%WRAPPEDQUESTDESCRIPTION%"
+          - "<main>Klicke, um Quest zu öffnen!"
+  takeQuestChoose:
+    title: '          <highlight2>Wähle eine Quest'
+    size:
+      minX: 3
+      minY: 1
+      maxX: 8
+      maxY: 5
+    button:
+      questPreview:
+        name-if-not-accepted: "<highlight>%QUESTNAME%"
+        name-if-accepted: "<highlight>%QUESTNAME% <reset><positive>[AKZEPTIERT]"
+        lore:
+          - "<veryUnimportant>%WRAPPEDQUESTDESCRIPTION%"
+          - "<main>Klicke für eine Vorschau!"
+  abortQuestChoose:
+    title: '   <highlight2>Aktive, abbrechbare Quests'
+    button:
+      abortQuestPreview:
+        name: "<highlight>%QUESTNAME% <positive>[AKTIV]"
+        lore:
+          - "<unimportant>Fortschritt: <positive>%COMPLETEDOBJECTIVESCOUNT% <unimportant>/ <main>%ALLOBJECTIVESCOUNT%"
+          - "<negative>Klicke, um Quest abzubrechen!"
+  abortQuest:
+    title: '       <negative>Abbruch-Bestätigung'
+    button:
+      confirmAbort:
+        name: "<highlight>%QUESTNAME% <positive>[AKTIV]"
+        lore:
+          - "<unimportant>Fortschritt: <positive>%COMPLETEDOBJECTIVESCOUNT% <unimportant>/ <main>%ALLOBJECTIVESCOUNT%"
+          - "<negative>Klicke, um die Quest <highlight>%QUESTNAME%</highlight> abzubrechen!"
+        x: 3
+        y: 1
+      cancelAbort:
+        name: "<positive>Klicke, um die Quest NICHT abzubrechen"
+        lore:
+          - "<positive>und den Abbrechvorgang zu beenden"
+        x: 5
+        y: 1
+  previewQuest:
+    title: <highlight2>Questvorschau
+    button:
+      description:
+        name: "<highlight>Beschreibung"
+        lore:
+          - "<veryUnimportant>%WRAPPEDQUESTDESCRIPTION%"
+        lore-if-empty:
+          - "<veryUnimportant>???"
+        x: 2
+        y: 0
+      rewards:
+        name: "<positive>Belohnungen"
+        lore:
+          - "<WHITE>%QUESTREWARDS%"
+        lore-if-empty:
+          - "<veryUnimportant>Keine oder versteckt"
+        x: 4
+        y: 0
+      requirements:
+        name: "<negative>Voraussetzungen"
+        lore:
+          - "<WHITE>%QUESTREQUIREMENTS%"
+        lore-if-empty:
+          - "<veryUnimportant>-"
+        x: 6
+        y: 0
+      confirmTake:
+        name: "<highlight>%QUESTNAME%"
+        lore:
+          - "<positive>Klicke, um die Quest <highlight>%QUESTNAME%</highlight> anzunehmen"
+        x: 3
+        y: 2
+      cancelTake:
+        name: "<negative>Klicke, um die Quest NICHT anzunehmen"
+        lore:
+          - "<negative>und den Annehmvorgang abzubrechen"
+        x: 5
+        y: 2
+  progress:
+    title: <highlight2>Questdetails
+    button:
+      unlockedObjective:
+        name: "<highlight2>%ACTIVEOBJECTIVEID%. <highlight>%OBJECTIVENAME%"
+        lore:
+          - "<main><BOLD>AKTIV</BOLD>"
+          - "<veryUnimportant>%WRAPPEDOBJECTIVEDESCRIPTION%"
+          - "<unimportant>%OBJECTIVETASKDESCRIPTION%"
+          - ""
+          - "<unimportant>Fortschritt: <positive>%ACTIVEOBJECTIVEPROGRESS% <unimportant>/ <main>%OBJECTIVEPROGRESSNEEDED%"
+        lore-if-description-empty:
+          - "<main><BOLD>AKTIV</BOLD>"
+          - "<veryUnimportant>Keine Bescheibung"
+          - "<unimportant>%OBJECTIVETASKDESCRIPTION%"
+          - ""
+          - "<unimportant>Fortschritt: <positive>%ACTIVEOBJECTIVEPROGRESS% <unimportant>/ <main>%OBJECTIVEPROGRESSNEEDED%"
+      lockedObjective:
+        name: "<highlight2>%ACTIVEOBJECTIVEID%. <unimportant><BOLD>[VERBORGEN]"
+        lore:
+          - "<warn>Diese Aufgabe wurde noch nicht"
+          - "<warn>freigeschaltet!"
+      completedObjective:
+        name: "<highlight2><strikethrough>%ACTIVEOBJECTIVEID%. <positive><strikethrough>%OBJECTIVENAME%"
+        lore:
+          - "<positive><BOLD>ABGESCHLOSSEN</BOLD>"
+          - "<veryUnimportant><strikethrough>%WRAPPEDOBJECTIVEDESCRIPTION%"
+          - "<veryUnimportant><strikethrough>%COMPLETEDOBJECTIVETASKDESCRIPTION%"
+          - ""
+          - "<unimportant><strikethrough>Fortschritt: <positive><strikethrough>%ACTIVEOBJECTIVEPROGRESS% <unimportant><strikethrough>/ <positive><strikethrough>%OBJECTIVEPROGRESSNEEDED%"
+        lore-if-description-empty:
+          - "<positive><BOLD>ABGESCHLOSSEN</BOLD>"
+          - "<veryUnimportant><strikethrough>Keine Beschreibung"
+          - "<veryUnimportant><strikethrough>%COMPLETEDOBJECTIVETASKDESCRIPTION%"
+          - ""
+          - "<unimportant><strikethrough>Fortschritt: <positive><strikethrough>%ACTIVEOBJECTIVEPROGRESS% <unimportant><strikethrough>/ <positive><strikethrough>%OBJECTIVEPROGRESSNEEDED%"

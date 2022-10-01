@@ -1,0 +1,28 @@
+# 
+# Grit EcoEnchant
+
+description: Damages your opponents weapon.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  targets:
+  - helmet
+  - chestplate
+  - leggings
+  - boots
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 3
+name: Grit
+config:
+  damage-per-level: 0.3
+

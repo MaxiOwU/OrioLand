@@ -1,0 +1,103 @@
+Rewards:
+  OrioLand:
+    message: ''
+    commands: []
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3120
+      type: NETHERITE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"1Mes de OrioLand"}'
+        lore:
+        - '{"extra":[{"text":"Un mes de OrioLand"}],"text":""}'
+        enchants:
+          DIG_SPEED: 10
+          LOOT_BONUS_BLOCKS: 10
+          MENDING: 10
+          DURABILITY: 10
+    expires: 1635894000000
+    received:
+    - 0ca63922-b5d5-36c7-8892-10e0fdcb3da5
+  F2021:
+    message: ''
+    commands: []
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3120
+      type: TOTEM_OF_UNDYING
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3120
+      type: TRIDENT
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3120
+      type: DIAMOND_BLOCK
+      amount: 5
+    expires: 1621029600000
+    received:
+    - 0ca63922-b5d5-36c7-8892-10e0fdcb3da5
+    - a4d822a7-557e-39a7-bc2c-c234458b1b1d
+    - 90d91ecb-02bb-3076-b0ea-caaabfd4a7ba
+    - 1d8111b7-e49d-3d71-bb17-40d60147da02
+  AdminNuestro:
+    message: ''
+    commands: []
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3120
+      type: WRITTEN_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: BOOK_SIGNED
+        title: Sagrados Admins
+        author: acro_xz
+        pages:
+        - '{"extra":[{"text":"Admin nuestro, que estas en los chats; santificado sea
+          tu rango; venga nosotros tus creates;\nhagase tu voluntad en el /mundos
+          como en el lobby\n\nDanos hoy nuestro kit de cada dia; perdona nuestras
+          Mayus, como tambien perdonamos a los que spamean; "}],"text":""}'
+        - '{"extra":[{"text":"no nos dejes caer en el flood y liberanos del bug\nAmen"}],"text":""}'
+        resolved: true
+    expires: 95617580400000
+    received:
+    - 0ca63922-b5d5-36c7-8892-10e0fdcb3da5
+    - 9aacf66c-9710-3abc-8815-723b33ead166
+    - 937702fb-3433-3e25-a17d-d24d1d0b7465
+    - 4a058f75-4c25-366d-953e-d77f690b25db
+  Bugs2021:
+    message: ''
+    commands:
+    - ''
+    - eco give %player% 10000
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3120
+      type: SPAWNER
+    expires: 1641942000000
+    received:
+    - 0ca63922-b5d5-36c7-8892-10e0fdcb3da5
+    - 509e2921-04cf-3a82-899c-5782fd42f6a5
+    - 71eab57f-4681-3dd8-b623-58a104e68fc2
+    - 4b27f873-5d06-31d4-8b79-c0ceab927b92
+    - 00000000-0000-0000-0009-01fb25ec9b7f
+    - 9cd45063-8fbd-3e07-a60f-8ef61b21b4d0
+    - 656e294a-d3b8-3ca4-9e74-fe0dc12c21d7
+    - eca4cab8-a2c8-33d7-9944-bbf371d8f517
+    - d57eda1c-0473-3daa-a09d-4b6b4b1eaa3e
+    - 9e998982-0216-33ed-b751-887f9c319917
+    - 8a6ec245-bad5-3b76-ad5f-0f0eaf91a7d5
+    - 0f9f9d7c-4b30-3cae-a261-3ec08da17699
+    - caa258d6-b9f3-3090-a020-5cc6b11b88d7
+    - e53ab600-459f-318b-97b2-b2398b6b7c3c
+    - 71d000d2-dd6c-37d4-905e-011ad7586ab6
+    - 937702fb-3433-3e25-a17d-d24d1d0b7465
+    - 48627ed3-2e60-3752-8455-dee126c2748d
+    - 3c8f1ed4-8b0c-3abc-99ce-7ce0e999f052
+    - 1a99d1a9-c4b2-3b6b-9d2a-3fe6c84df468
+    - a284c10a-7773-3399-bf10-c9d93c40483f
+    - 99bd7cce-dff7-3924-bd86-6265a56302ef
+    - a315a9d3-ea3d-3ea4-8086-59c1a3de8d59
+    - 0b363aa3-40f6-34cc-9836-3344c76f3e35
+    - 361c7cc3-5744-314b-bd90-a07f61e33b77
+    - 7bb5cc71-0c75-3ed7-aa04-b408113cef57

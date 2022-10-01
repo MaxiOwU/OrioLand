@@ -1,0 +1,28 @@
+# 
+# Thor EcoEnchant
+
+description: Chance of striking lightning on your opponent.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: rare
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  targets:
+  - sword
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 6
+name: Thor
+config:
+  allow-not-fully-charged: false
+  local-lightning-sound: false
+  chance-per-level: 2
+  lightning-damage: 2.5
+

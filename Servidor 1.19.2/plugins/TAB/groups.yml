@@ -1,0 +1,75 @@
+Admin:
+  tabprefix: '&4&lAdmin&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &4&lAdmin&8 | &7'
+manager:
+  tabprefix: '&5&lManager&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &5&lManager&8 | &7'
+supremo:
+  tabprefix: '&9&lBOT&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &9&lBOT&8 | &7'
+srmod:
+  tabprefix: '&d&lSr. Mod&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &d&lSr. Mod&8 | &7'
+mod:
+  tabprefix: '&9&lMod&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &9&lMod&8 | &7'
+helper:
+  tabprefix: '&a&lHelper&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &a&lHelper&8 | &7'
+builder:
+  tabprefix: '&a&lBuilder&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &a&lBuilder&8 | &7'
+streamer+:
+  tabprefix: '&dStreamer&6+&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &d&lStreamer&6+&8 | &7'
+streamer:
+  tabprefix: '&dStreamer&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &dStreamer&8 | &7'
+legend:
+  tabprefix: '&dLegend&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &dLegend&8 | &7'
+omega:
+  tabprefix: '&5Omega&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% %pvpmanager_pvp_status_prefix% &5Omega&8
+    | &7'
+vip:
+  tabprefix: '&eVip&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &eVip&8 | &7'
+dios:
+  tabprefix: '&3&lDios&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &3&lDios&8 | &7'
+maestro:
+  tabprefix: '&eMaestro&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &eMaestro&8 | &7'
+Nitro:
+  tabprefix: '&5Booster&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &5Booster&8 | &7'
+experto:
+  tabprefix: '&cExperto&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &cExperto&8 | &7'
+youtuber:
+  tabprefix: '&cYou&ftuber&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &cY&fT&8 | &7'
+veterano:
+  tabprefix: '&bVeterano&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &bVeterano&8 | &7'
+default:
+  tabprefix: '&2Miembro&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &2Miembro&8 | &7'
+example_group:
+  header:
+  - This is an example of per-group header/footer
+  footer:
+  - applied to a group
+per-world:
+  world1:
+    Owner:
+      tabprefix: '&0&l[&a&lOwner&0&l] &a'
+      tagprefix: '&2&lOwner &a'
+_DEFAULT_:
+  tabprefix: '%vault-prefix%'
+  tagprefix: '%vault-prefix%'
+  tabsuffix: '%afk%'
+  tagsuffix: '%afk%'
+  customtabname: '%essentialsnick%'
+  customtagname: '%essentialsnick%'

@@ -1,0 +1,56 @@
+#  .----------------.  .----------------.  .----------------.  .----------------.  .----------------. 
+#| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+#| | _____  _____ | || |  _________   | || |     _____    | || |   _____      | || |    _______   | |
+#| ||_   _||_   _|| || | |  _   _  |  | || |    |_   _|   | || |  |_   _|     | || |   /  ___  |  | |
+#| |  | |    | |  | || | |_/ | | \_|  | || |      | |     | || |    | |       | || |  |  (__ \_|  | |
+#| |  | '    ' |  | || |     | |      | || |      | |     | || |    | |   _   | || |   '.___`-.   | |
+#| |   \ `--' /   | || |    _| |_     | || |     _| |_    | || |   _| |__/ |  | || |  |`\____) |  | |
+#| |    `.__.'    | || |   |_____|    | || |    |_____|   | || |  |________|  | || |  |_______.'  | |
+#| |              | || |              | || |              | || |              | || |              | |
+#| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+# '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
+
+#
+# <-------- { INFORMATIONS } -------->
+# 
+# You need more Help? Docs -> https://dto.mc-plugins.org
+# Join our Discord -> https://dcto.mc-plugins.org
+# Visit out Website -> https://mc-plugins.org
+#
+
+Actions:
+
+  #
+  # You can disable a Action here, this means
+  # you cannot use it at any job when disabled.
+  #
+  # Performance can be improved by disabling unused actions!
+
+  Break: true
+  FarmBreak: true
+  Place: true
+  Fish: true
+  Milk: true
+  KillMob: true
+  Shear: true
+  Craft: true
+  Advancement: true
+  Eat: true
+  Honey: true
+  Tame: true
+  StripLog: true
+  Breed: true
+  DrinkPotion: true
+  CollectBerrys: true
+  KillByBow: true
+  GrowSapling: true
+  FarmGrow: true
+  FindTreasure: true
+  VillagerTradeBuy: true
+  Smelt: true
+  Explore: true
+  Enchant: true
+  
+  #ItemsAdder
+  IABreak: true
+  IAKill: true

@@ -1,0 +1,209 @@
+# Please check out the example_animation file to find important info about stages
+# The amount of time (in ticks) a stage will stay in frame.
+# The animation will change frame in two instances:
+# 1. If we are proceeding to the next animation stage
+# 2. If we are repeating a frame (Seen in animation stage 2)
+# This can be defined per stage. If it's not, then this is used as a global value.
+default frame rate: 4
+
+# If it's just R (or the symbol you defined) then the item will become a different random reward every refreshed inventory case
+random_reward_symbol: "R"
+
+# In case the user wants to make a disco out of the filler_items
+random_filler_item_symbol: "RF"
+
+air_symbol: "A"
+
+# Will show up as a closed_select_reward_item, which will be a clickable item slot, after clicking it the item will become selected_reward_item, use the open_selected_reward_symbol to show the reward after this stage.
+# frame_stay_time needs to be defined to -1
+select_reward_symbol: "RS"
+
+# At the end of the animation opener's selected slots will either turn instantly into an item or will become a clickable item slot, which after clicked, will reveal an item.
+open_selected_reward_symbol: "OS"
+
+# Works together with the select_reward_symbol feature
+min_amount_to_select: 4
+
+# A spot the player has to click to reveal a random reward. Item is defined in reveal_item. This feature works together with selected_reveal_reward_symbol
+# Should be used with the next_stage_symbol feature
+reveal_reward_symbol: "RR"
+
+# Selected ->reveal<- reward configuration acts differently than the select_reward_symbol configuration.
+# Please read the reveal_reward_symbol explanation first
+# The main difference is that after the user clicks on reveal_reward_symbol, you can then place the selected revealed items in any position, no matter where they were clicked before, meanwhile
+# The select_reward_symbol is bound to the exact slot where the user had clicked and can not be moved to a different position in the other stages
+selected_reveal_reward_symbol: "SR"
+
+# A spot the player has to click to start the next stage. frame_stay_time needs to be defined to -1
+next_stage_symbol: "NS"
+
+# When Should The Crate auto_close (in ticks (1 second = 20 ticks)), this is for screens like click to accept the reward or for screens where you need to click on a tile to reveal the reward.
+# But if the user takes too long it will simply auto open it for him.
+auto_close: 100
+
+inventory_size: 9
+
+# Items Section
+# Please refer to symbols section for an explanation on these items
+
+# Example of this feature can be seen in the great_box animation
+closed_select_reward_item:
+  name: "&6&l???"
+  lore:
+    - "&7Choose 4 mystery chests, and"
+    - "&7your loot will be revealed."
+  enchanted: false
+  amount_slot: true # Sets the item amount to be the slot number
+  material: CHEST
+
+# Example of this feature can be seen in the great_box animation
+selected_reward_item:
+  name: "&f&l???"
+  lore:
+    - "&7You have selected this mystery chest."
+  enchanted: false
+  amount_slot: true # Sets the item amount to be the slot number
+  material: WHITE_STAINED_GLASS_PANE
+
+# Example of this feature can be seen in the great_box animation
+opened_selected_reward_item:
+  reveal_item_instantly: false
+  #name: "&f&l???" #Only needed if reveal_item_instantly is set to false and there are no rarity rewards set
+  #lore:
+  #  - "&7You have selected this mystery chest."
+  #enchanted: false
+  #amount_slot: true # Sets the item amount to be the slot number
+  #material: GLASS_PANE
+  rarity: # Your Rewards need to have these custom rarities set to them.
+    Common:
+      name: "&f&lCommon Loot"
+      material: WHITE_STAINED_GLASS_PANE
+      lore:
+        - "&7This slot contains a"
+        - "&fCommon &7piece of &6Legendary &7equipment."
+      amount_slot: true
+    Unique:
+      name: "&a&lUnique Loot"
+      material: LIME_STAINED_GLASS_PANE
+      lore:
+        - "&7This slot contains a"
+        - "&aUnique &7piece of &6Legendary &7equipment."
+      amount_slot: true
+    Rare:
+      name: "&9&lRare Loot"
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      lore:
+        - "&7This slot contains a"
+        - "&9Rare &7piece of &6Legendary &7equipment."
+      amount_slot: true
+    Ultimate:
+      name: "&e&lUltimate Loot"
+      material: YELLOW_STAINED_GLASS_PANE
+      lore:
+        - "&7This slot contains a"
+        - "&eUltimate &7piece of &6Legendary &7equipment."
+      amount_slot: true
+    Legendary:
+      name: "&6&lLegendary Loot"
+      material: ORANGE_STAINED_GLASS_PANE
+      lore:
+        - "&7This slot contains a"
+        - "&6Legendary &7piece of &6Legendary &7equipment."
+      amount_slot: true
+
+# Example of this feature can be seen in the great_box animation
+unselected_reward_item:
+  random_filler: false # Used to replace all unselected closed select reward items with a random filler item
+  #filler: "F" # Used to replace all unselected closed select reward items with a specified filler item
+  material: AIR
+
+# The item that you have to click to reveal a reward. Example can be seen in example_animation
+reveal_item:
+  name: "&b&l???"
+  lore:
+    - "&7Click to reveal reward!"
+  enchanted: false
+  material: NETHER_STAR
+
+# The item you have to click to go to the next stage/progression of the animation. Example can be seen in roulette animation
+next_stage_item:
+  name: "&eContinue"
+  lore:
+    - ""
+    - ""
+  enchanted: true
+  material: ENDER_CHEST
+
+filler_items:
+  F:
+    name: ""
+    lore:
+      - ""
+      - ""
+    enchanted: false
+    material: GRAY_STAINED_GLASS_PANE
+  F2:
+    name: ""
+    amount: 2
+    lore:
+      - ""
+      - ""
+    enchanted: false
+    material: GRAY_STAINED_GLASS_PANE
+  F3:
+    name: ""
+    amount: 3
+    lore:
+      - ""
+      - ""
+    enchanted: false
+    material: GRAY_STAINED_GLASS_PANE
+
+# A stage is something that defines what the inventory looks like at a given amount of time.
+stages:
+  1:
+    inventory:
+      - "F3,F,F,R,R,R,F,F,F3"
+  2:
+    # The stage that is repeated.
+    repeated_stage: 1
+    # How many times the "repeated stage" is repeated.
+    repeat_times: 5
+    # How long (in ticks) the plugin will wait before repeating the stage/changing frame.
+    frame_stay_time: 4
+  3:
+    inventory:
+      - "F2,F,F,R,R,R,F,F,F2"
+  4:
+    # The stage that is repeated.
+    repeated_stage: 3
+    # How many times the "repeated stage" is repeated.
+    repeat_times: 5
+    # How long (in ticks) the plugin will wait before repeating the stage/changing frame.
+    frame_stay_time: 4
+  5:
+    # The stage that is repeated.
+    repeated_stage: 6
+    # How many times the "repeated stage" is repeated.
+    repeat_times: 5
+    # How long (in ticks) the plugin will wait before repeating the stage/changing frame.
+    frame_stay_time: 4
+  6:
+    inventory:
+      - "F,F,F,R,R,R,F,F,F"
+    rewards_obtained:
+      - "1,4"
+      - "1,5"
+      - "1,6"
+
+sounds:
+  default_stage_sound: "CLICK"
+
+end_actions:
+  sound: "LEVEL_UP"
+  particles:
+    SPELL_INSTANT:
+      x_offset: 2
+      y_offset: 2
+      z_offset: 2
+      amount: 100

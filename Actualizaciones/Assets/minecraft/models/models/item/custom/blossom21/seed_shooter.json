@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench by yungwilder",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "item/blossom21/seed_shooter",
+		"layer0": "item/blossom21/seed_shooter"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [20, 90, 0],
+			"translation": [0, 4, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [20, -90, 0],
+			"translation": [0, 4, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [-20, 90, 0],
+			"translation": [2, 3, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-20, -90, 0],
+			"translation": [2, 3, 0],
+			"scale": [0.75, 0.75, 0.75]
+		}
+	}
+}

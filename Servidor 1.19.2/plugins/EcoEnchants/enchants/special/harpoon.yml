@@ -1,0 +1,26 @@
+# 
+# Harpoon EcoEnchant
+
+description: Hooking onto an entity will heavily damage it.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: special
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  targets:
+  - rod
+  grindstoneable: true
+  conflicts:
+  - spiked
+  disabled-in-worlds: []
+  maximum-level: 3
+name: Harpoon
+config:
+  damage-per-level: 2
+

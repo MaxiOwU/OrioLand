@@ -1,0 +1,267 @@
+Plugin:
+  check_for_updates: true
+ 
+Config:
+  tag: '&6&lOrio&9&lClans &r&7|'
+  date_format: dd/MM/yyyy HH:mm
+  date_format_short: dd/MM/yyyy
+  # You can insert your own languages ​​in the /language/ folder following the Lang_ID.yml pattern.
+  # Default languages:
+  # EN
+  # ES
+  # RU
+  language: ES
+  disable_command_chat_interactions: false
+  confirm_chat_time: 10
+  teleport_delay: 3
+  export_consumer_by_second: 2
+  aliases_tabcomplete: true
+  commands_tabcomplete: true
+  help_max_result: 11
+  logs:
+    create_clan: false
+    mod_tag: false
+    delete_clan: false
+    load: false
+    save: false
+  special_permissions:
+    bypass_command_cooldown: uclans.bypass_command_cooldown
+    bypass_command_worlds: uclans.bypass_command_worlds
+    bypass_teleport: uclans.bypass_teleport
+    bypass_command_regions: uclans.bypass_region
+    # If this option is empty all players can open the clan menus.
+    # If you want to restrict with a permission, add this permission in this field.
+    opengui: ''
+   
+  money:
+    enabled: true
+    currency: ⛃
+    # VAULT, PLAYERPOINTS or CLANSOULS
+    type: VAULT
+ 
+# The Skin Cache option is experimental and intended to remove player headlist loading errors.
+Skins:
+  cache:
+    # Check the Mojang API?.
+    mojang: true
+    # This option caches player skins along with the player data in the clan.
+    store: true
+    # If the player cache is empty use this skin (Base64) by default
+    on_empty: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGRhODkzYzI2ZDQ4YmVmZDk4YWRmZmFkZDhjNDk2YmM1YWIyZjEyY2IzZDY3OGU4MTA4MGI5M2JjYTM4M2UifX19
+ 
+Home:
+  #If disabled this does not appear in the menu and the command is marked as disabled.
+  enabled: true
+  default: 1
+  default_home_server: Clans
+  guiclick_teleport_as_command: false
+ 
+Clan:
+  #Relationship between clans
+  relation:
+    ally:
+      color: '&a'
+      text: '[Aliado]'
+    rival:
+      color: '&c'
+      text: '[Rival]'
+    neutral:
+      color: '&e'
+      text: '[N]'
+    sameclan:
+      color: '&6'
+      text: ''
+  disable_allypvp_onff: true
+  disable_shared_chat_ally: false
+  #Must be connected to [CombatLogX, DeluxeCombat, PvPManager] plugin hook
+  disabled_command_incombat: false
+  disabled_command_worlds:
+  - disabled_worlds
+  disabled_regroup_worlds:
+  - disabled_worlds
+  disabled_home_worlds:
+  - disabled_worlds
+  #WorldGuard Regions
+  disabled_command_regions:
+  - no_command_region
+  #WorldGuard Regions
+  disabled_regroup_regions:
+  - no_regroup_region
+  #WorldGuard Regions
+  disabled_home_regions:
+  - no_home_region
+  regroup_invite:
+     # IN SECONDS
+    max_time_seconds: 60
+  rival_remove:
+    need_confirmation: true
+     # IN SECONDS
+    max_time_seconds: 60
+  ally_invite:
+    need_confirmation: true
+     # IN SECONDS
+    max_time_seconds: 60
+  invite:
+    # IN SECONDS
+    max_time_seconds: 60
+    allowed_chars: '[0-9a-zA-Z_-]*'
+  #If this option is turned off, clans will not receive membtos message entering or disconnecting, the button to change this in settings will not appear either.
+  join_quit:
+    enabled: true
+  chat:
+    #Any UCLANS placeholder can be used.
+    format: '%uclans_tag_color% &d> &d%uclans_level_identifier%&5%player%&d: &d%chat_message%'
+    spy_tag: '&8[SPY] '
+    magic: true
+    colors: true
+  verify:
+    always_verified: true
+    list_unverified: true
+  #These must be the same arguments used in the commands.yml file
+  match:
+    rival:
+      add: añadir
+      remove: eliminar
+      accept: aceptar
+      deny: rechazar
+    ally:
+      add: añadir
+      remove: eliminar
+      accept: aceptar
+      deny: rechazar
+    regroup:
+      send: enviar
+      accept: aceptar
+      deny: rechazar
+    home:
+      create: crear
+      delete: eliminar
+      list: lista
+      teleport: teletransportar
+    banner:
+      open: abrir
+      send: enviar
+      delete: eliminar
+  prices:
+    #Default VAULT, if "false" does not charge player values.
+    enabled: true
+    #This returns formatting for numbers (ex: 1.000.000), use `%,.2f` for money currency (1.000.000,00)
+    format: '%,.0f'
+    alliances: 0.0
+    ally: 0.0
+    banner: 0.0
+    changeleader: 0.0
+    chat: 0.0
+    create: 50000.0
+    demote: 0.0
+    deny: 0.0
+    desc: 0.0
+    disband: 0.0
+    ff: 0.0
+    help: 0.0
+    home: 0.0
+    info: 0.0
+    invite: 0.0
+    join: 0.0
+    kick: 0.0
+    leave: 0.0
+    list: 0.0
+    members: 0.0
+    modtag: 0.0
+    profile: 0.0
+    promote: 0.0
+    regroup: 0.0
+    rival: 0.0
+    rivalries: 0.0
+    settings: 0.0
+  limits:
+     # DEFAULT NUM MAX OF PLAYERS BY CLAN
+    # DEFAULT VALUE USED IN CASE OF ZERO RESULT
+    default: 10
+  tasks:
+    update_list:
+      #IN SECONDS
+      start: 5
+      #IN SECONDS
+      next: 300
+    update_invite:
+      #IN SECONDS
+      start: 5
+      #IN SECONDS
+      next: 300
+    update_allinvite:
+      #IN SECONDS
+      start: 5
+      #IN SECONDS
+      next: 1
+  level:
+    leader:
+      identifier: '&6**&r'
+    mod:
+      identifier: '&2*&r'
+  list:
+    max_pag: 10
+    max_list: 10
+    use_next_prev: false
+  tag:
+    #You can enable colors with user permissions, leave it blank so everyone can use colors!
+    color_permission: ''
+    min_chars: 2
+    max_chars: 20
+    allowed_chars: '[0-9a-zA-Z_-]*'
+    disable_magic: true
+    default_color: '&8'
+    start: '&f['
+    end: '&f]&r'
+    noclan_formated: '&4Sin Clan'
+    # example, for russian character use 'CYRILLIC', all list in https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Character.UnicodeBlock.html
+    unicodeblock: ''
+    #This Tag cannot be used in Clans. Sensitive to upper and lower case, no color should be added.
+    blacklist:
+    - ADMIN
+    - admin
+    - Admin
+    - MOD
+    - mod
+    - Mod
+    - OWNER
+    - owner
+    - Owner
+    - helper
+    - Helper
+    - HELPER
+  desc:
+    #You can enable colors with user permissions, leave it blank so everyone can use colors!
+    color_permission: ''
+    min_chars: 2
+    max_chars: 32
+    allowed_chars: '[0-9a-zA-Z_ -]*'
+    disable_magic: true
+    default_color: '&8'
+    nodesc_formated: '&8Sin Desc'
+    # example, for russian character use 'CYRILLIC', all list in https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Character.UnicodeBlock.html
+    unicodeblock: ''
+   
+  command_actions:
+    enabled: true
+    # INSECONDS
+    execute_delay: 1
+    #example commands, Only %clantag% and %player% can be used here
+    create_clan_commands: [
+      ]
+    #example commands, Only %clantag% and %player% can be used here
+    delete_clan_commands: [
+      ]
+    #example commands, Only %clantag% and %player% can be used here
+    join_clan_commands: [
+      ]
+    #example commands, Only %clantag% and %player% can be used here
+    leave_clan_commands: [
+      ]
+    #example commands, Only %oldtag%, %newtag% and %player% can be used here
+    modtag_clan_commands: [
+      ]
+ 
+# DONT CHANGE THIS
+version:
+  generated: 5.2.0-LITE

@@ -1,0 +1,89 @@
+panels:
+  juegos:
+    perm: default
+    rows: 3
+    title: '&6&lOL &7| &8MODOS'
+    commands:
+    - jugar
+    - juegos
+    - modos
+    - modosdejuego
+    - mododejuego
+    item:
+      '11':
+        material: hdb= 25842
+        stack: 1
+        name: §6§lSURVIVAL
+        lore:
+        commands:
+        - sudo= rtp
+      '13':
+        material: hdb= 11986
+        stack: 1
+        name: §a§lPAINTBALL
+        lore:
+        commands:
+        - sudo= paintball join
+      '15':
+        material: hdb= 52913
+        stack: 1
+        name: §b§lPARKOUR
+        lore:
+        commands:
+        - sudo= parkour join
+      '0':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: §7
+      '1':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: §7
+      '2':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: §7
+      '6':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: §7
+      '7':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: §7
+      '8':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: §7
+      '9':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: §7
+      '17':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: §7
+      '18':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: §7
+      '19':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: §7
+      '20':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: §7
+      '24':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: §7
+      '25':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: §7
+      '26':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: §7

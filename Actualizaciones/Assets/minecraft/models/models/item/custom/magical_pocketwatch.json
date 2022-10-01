@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench by yungwilder",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/newyears21/magical_pocketwatch"
+	},
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [0, 0, 0],
+			"translation": [3, 3, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 0, 0],
+			"translation": [3, 3, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [-0.5, 0, 0]
+		}
+	}
+}

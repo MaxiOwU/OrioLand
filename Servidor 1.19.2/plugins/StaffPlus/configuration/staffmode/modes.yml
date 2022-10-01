@@ -1,0 +1,69 @@
+modes:
+  default:
+    block-manipulation: false
+    inventory-interaction: true
+    silent-chest-interaction: false
+    item-drop: false
+    item-pickup: false
+    vanish-type: TOTAL
+    invincible: true
+    damage: false
+    hunger-loss: false
+    flight: true
+    creative: false
+    original-location: false
+    enable-on-login: false
+    disable-on-logout: true
+    enable-commands:
+    - command: example1 %staff%
+    - command: example2 %staff%
+    disable-commands:
+    - command: example1 %staff%
+    - command: example2 %staff%
+    disable-on-world-change: false
+    gui:
+    - compass-module:1
+    - random-teleport-module:2
+    - vanish-module:3
+    - gui-module:4
+    - counter-module:5
+    - freeze-module:6
+    - cps-module:7
+    - examine-module:8
+    - follow-module:9
+    night-vision: false
+    vanish-on-enter: true
+  manager:
+    permission: Rank.MANAGER
+    weight: 5
+    block-manipulation: false
+    inventory-interaction: true
+    silent-chest-interaction: true
+    item-drop: false
+    item-pickup: false
+    vanish-type: TOTAL
+    invincible: true
+    damage: false
+    hunger-loss: false
+    flight: true
+    creative: true
+    original-location: false
+    enable-on-login: false
+    disable-on-logout: true
+    enable-commands:
+    - command: example1 %staff%
+    - command: example2 %staff%
+    disable-commands:
+    - command: example1 %staff%
+    - command: example2 %staff%
+    disable-on-world-change: false
+    gui:
+    - Customlightningmodule:1
+    - random-teleport-module:2
+    - vanish-module:3
+    - Customkillmodule:4
+    - counter-module:5
+    - freeze-module:6
+    - cps-module:7
+    - examine-module:8
+    - Customfiregmodule:9

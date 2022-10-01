@@ -1,0 +1,7 @@
+uuid: 8ad3ce37-7a3b-389d-81ce-0919f5017df4
+name: Danitwich
+primary-group: default
+permissions:
+- mcpets.nutria
+parents:
+- default

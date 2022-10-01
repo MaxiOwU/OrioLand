@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench by yungwilder",
+	"parent": "item/generated",
+	"textures": {
+		"particle": "item/halloween21/mad_scientist_potion_pouch_red",
+		"layer0": "item/halloween21/mad_scientist_potion_pouch_red"
+	}
+}

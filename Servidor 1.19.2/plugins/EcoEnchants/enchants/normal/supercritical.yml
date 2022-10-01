@@ -1,0 +1,27 @@
+# 
+# Supercritical EcoEnchant
+
+description: Small chance to deal extreme damage.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: legendary
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  targets:
+  - sword
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 3
+name: Supercritical
+config:
+  damage-multiplier: 3
+  allow-not-fully-charged: false
+  chance-per-level: 0.5
+

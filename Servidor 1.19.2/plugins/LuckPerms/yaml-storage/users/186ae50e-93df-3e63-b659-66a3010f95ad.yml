@@ -1,0 +1,7 @@
+uuid: 186ae50e-93df-3e63-b659-66a3010f95ad
+name: _Popette_
+primary-group: default
+permissions:
+- mcpets.nutria
+parents:
+- default

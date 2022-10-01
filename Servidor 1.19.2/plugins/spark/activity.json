@@ -1,0 +1,79 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "andiricum2",
+      "uniqueId": "0ca63922-b5d5-36c7-8892-10e0fdcb3da5"
+    },
+    "time": 1664640639397,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "plugins/spark/heap-2022-10-01_16.10.28.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "andiricum2",
+      "uniqueId": "0ca63922-b5d5-36c7-8892-10e0fdcb3da5"
+    },
+    "time": 1664572285816,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "plugins/spark/heap-2022-09-30_21.11.14.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "andiricum2",
+      "uniqueId": "0ca63922-b5d5-36c7-8892-10e0fdcb3da5"
+    },
+    "time": 1664549261049,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "plugins/spark/heap-2022-09-30_14.47.31.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "CONSOLE"
+    },
+    "time": 1664484309553,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/mOu5BusbeP"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "andiricum2",
+      "uniqueId": "0ca63922-b5d5-36c7-8892-10e0fdcb3da5"
+    },
+    "time": 1664034723052,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "plugins/spark/heap-2022-09-24_15.51.50.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "andiricum2",
+      "uniqueId": "0ca63922-b5d5-36c7-8892-10e0fdcb3da5"
+    },
+    "time": 1663957574629,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "plugins/spark/heap-2022-09-23_18.26.04.hprof"
+    }
+  }
+]

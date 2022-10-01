@@ -1,0 +1,118 @@
+# To simplify the customisation and translation process please check out the editor: https://ptp.pcgamingfreaks.at
+
+Language:
+  NotFromConsole: "&cEse comando no se puede usar desde la consola."
+  Ingame:
+    NoPermission: "&cNo tienes permisos para hacer eso."
+    WorldDisabled: "&cLa mochila no esta permitida en este mundo."
+    NaN: "[\"\",{\"text\":\"Ese valor no esta permitido!\",\"color\":\"red\"}]"
+    OwnBackpackClose: "&6Mochila cerrada!"
+    OwnBackpackClose_SendMethod: "action_bar"
+    #Parameter: {OwnerName}, {OwnerDisplayName}
+    PlayerBackpackClose: "La mochila de {OwnerName} ha sido cerrada!"
+    PlayerBackpackClose_SendMethod: "action_bar"
+    InvalidBackpack: "Mochila invalida."
+    NotAllowedInBackpack: "&c{ItemName} no esta permitido en la mochila."
+    NotAllowedInBackpack_SendMethod: "action_bar"
+    DontRemoveShortcut: "&cNo puedes remover la mochila de tu inventario!"
+    DontRemoveShortcut_SendMethod: "action_bar"
+    Open:
+      #Parameter: {TimeLeft} time in seconds till the backpack can be reopened, {TimeSpanLeft} time formatted as string till the backpack can be reopened
+      Cooldown: "[{\"text\":\"Por favor espera \",\"color\":\"dark_green\"},{\"text\":\"{TimeSpanLeft}\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"{TimeLeft} segundos\"}},{\"text\":\" para reabrir tu mochila.\"}]"
+      #Parameter: {CurrentGameMode}, {AllowedGameModes}
+      WrongGameMode: "No puedes usar la mochila en este modo de juego."
+    Clean:
+      BackpackCleaned: "&4Mochila vaciada."
+      BackpackCleanedBy: "Tu mochila ha sido vaciada por {DisplayName}&r."
+      BackpackCleanedOther: "La mochila de {DisplayName}&r ha sido vaciada."
+    Sort:
+      Sorted: "Mochila ordenada."
+    Help:
+      Header: "&6### Comandos de Mochilas ###"
+      Footer: "&6#############################"
+    Reload:
+      Reloading: "&Recargando mochilas ..."
+      Reloaded: "&1Mochilas recargadas!"
+    Update:
+      CheckingForUpdates: "&1Checkeando actualizaciones ..."
+      Updated: "[\"\",{\"text\":\"Plugin actualizado, los cambios seran aplicados en el proximo restart.\",\"color\":\"yellow\"}]"
+      NoUpdate: "[\"\",{\"text\":\"No hay actualizaciones del plugin disponibles.\",\"color\":\"gold\"}]"
+      UpdateFail: "[\"\",{\"text\":\"Hay un problema checkeando actualizaciones! Por favor mira la consola!\",\"color\":\"red\"}]"
+      # You can change this message if you like to, but don't cry if the link isn't linking to the plugin anymore!
+      UpdateAvailable: "[{\"text\":\"Hay una actualizacion disponible! Por favor ve a \\\"\",\"color\":\"green\"},{\"text\":\"https://www.spigotmc.org/resources/19286/\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.spigotmc.org/resources/19286/\"}},{\"text\":\"\\\" para descargarlo!\"}]"
+    Backup:
+      Created: "Se ha creado un backup de las mochilas correctamente."
+      NoBackpack: "Ese jugador no tiene una mochila o esta vacia."
+    Restore:
+      BackupsPerPage: 10
+      Headline: "[\"\",{\"text\":\"Backups\",\"color\":\"yellow\"},{\"text\":\" - \",\"color\":\"white\"},{\"text\":\"mostrando pagina {CurrentPage}/{MaxPage}\",\"color\":\"gold\"}]"
+      Footer: "[{\"text\":\"<<< Pagina anterior <<<\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/{MainCommand} {SubCommand} {CurrentPage}--\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"/{MainCommand} {SubCommand} {CurrentPage}--\"}},{\"text\":\" Mostrando pagina {CurrentPage}/{MaxPage} \",\"color\":\"gold\"},{\"text\":\">>> Siguiente >>>\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/{MainCommand} {SubCommand} {CurrentPage}++\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"/{MainCommand} {SubCommand} {CurrentPage}++\"}}]"
+      BackupEntry: "[\"\",{\"text\":\"{BackupIdentifier}\",\"clickEvent\":{\"action\":\"suggest_command\",\"value\":\"/{MainCommand} {SubCommand} {BackupIdentifier}\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"Usuario: {BackupPlayerName} ({BackupPlayerUUID})\\nCreado: {BackupDate}\"}}]"
+      NoValidBackup: "No hay backup coincidente con {BackupIdentifier}"
+      NoUserToRestoreToFound: "No se encuentra un backup con ese usuario"
+      # No Json!!!
+      ParameterBackupName: "backup_name"
+      # No Json!!!
+      DateFormat: "yyyy.MM.dd HH:mm:ss"
+      Restored: "El backup ha sido restaurado."
+    InventoryClear:
+      UnknownPlayer: "&cNo se puede encontrar el usuario {Name}!"
+      Cleared: "Su inventario ha sido limpiado."
+      ClearedOther: "El inventario de {DisplayName}&r ha sido limpiado."
+      ClearedOtherTarget: "Tu inventario ha sido limpiado por {DisplayName}&r."
+  Commands:
+    HelpFormat: "[\"\",{\"text\":\"/{MainCommand} {SubCommand} {Parameters}\",\"clickEvent\":{\"action\":\"suggest_command\",\"value\":\"/{MainCommand} {SubCommand}\"}},{\"text\":\" - \",\"color\":\"white\"},{\"text\":\"{Description}\",\"color\":\"aqua\"}]"
+    PlayerNameVariable: "player_name"
+    Description:
+      Backpack: "Abre tu mochila."
+      Sort: "Ordena tu mochila."
+      Clean: "Limpia tu mochila."
+      CleanOthers: "Limpia la mochila de otro jugador."
+      OpenOthers: "Muestra la mochila de otro jugador."
+      Reload: "Recarga el plugin."
+      Update: "Checkea actualizaciones del plugin."
+      Version: "Muestra la version del plugin y sus dependencias."
+      Backup: "Crea un backup de las mochilas."
+      Restore: "Restaura un backup."
+      RestoreList: "Muestra todos los backups."
+      Help: "Muestra todos los comandos y sus descripciones."
+      Migrate: "Migra la database a otra."
+
+Command:
+  Backpack:
+    - backpack
+    - bp
+  Open:
+    - open
+  Sort:
+    - sort
+  Clean:
+    - clean
+    - clear
+    - empty
+  Reload:
+    - reload
+    - restart
+  Update:
+    - update
+  Backup:
+    - backup
+  Restore:
+    - restore
+  ListBackups:
+    - listbackups
+  Version:
+    - version
+  Help:
+    - help
+  InventoryClear:
+    - clear
+    - inventoryclear
+    - clean
+
+# Will be shown in the console during startup
+LanguageName: "spanish"
+Author: "GeorgH93"
+
+# Language file version. Don't touch it!
+Version: 18

@@ -1,0 +1,112 @@
+# Customize this file to change all shop items inside the main shop screen
+# For more info about this file, please visit our wiki here: https://gpplugins.gitbook.io/economyshopgui/file-configuration/sections.yml
+
+ShopSections:
+
+  Blocks:
+    enable: true
+    material: "COBBLESTONE"
+    displayname: "&8[&e*&8] &eBloques &8[&e*&8]"
+    place: 22
+
+  Decoration:
+    enable: true
+    material: "OAK_LEAVES"
+    displayname: "&8[&b*&8] &bDecoracion &8[&b*&8]"
+    place: 30
+
+  Dyes:
+    enable: true
+    material: "SUNFLOWER"
+    displayname: "&8[&2*&8] &2Tintes &8[&2*&8]"
+    place: 23
+
+  Enchanting:
+    enable: false
+    material: "ENCHANTED_BOOK"
+    displayname: "&d&lEnchanting"
+    place: 22
+    lore:
+    - "&5&lGear up with enchantments!"
+
+  Farming:
+    enable: true
+    material: "SUGAR_CANE"
+    displayname: "&8[&a*&8] &aAgricultura &8[&a*&8]"
+    place: 20
+
+  Food:
+    enable: true
+    material: "BREAD"
+    displayname: "&8[&6*&8] &6Comida &8[&6*&8]"
+    place: 31
+
+  Mobs:
+    enable: true
+    material: "ROTTEN_FLESH"
+    displayname: "&8[&7*&8] &7Mobs &8[&7*&8]"
+    place: 21
+
+  Music:
+    enable: false
+    material: "MUSIC_DISC_STRAD"
+    displayname: "&6&lMusic"
+    place: 14
+
+  Ores:
+    enable: true
+    material: "EMERALD"
+    displayname: "&8[&f*&8] &fMinerales &8[&f*&8]"
+    place: 13
+
+  Others:
+    enable: true
+    material: "ENDER_CHEST"
+    displayname: "&8[&c*&8] &cOtros &8[&c*&8]"
+    place: 24
+
+  Potions:
+    enable: false
+    material: "POTION"
+    displayname: "&d&lPotions + Tipped Arrows"
+    potion-glow: true
+    place: 40
+
+  Redstone:
+    enable: true
+    material: "REDSTONE"
+    displayname: "&8[&c*&8] &cRedstone &8[&c*&8]"
+    place: 32
+
+  Spawners:
+    enable: false
+    material: "SPAWNER"
+    displayname: "&8&lSpawners"
+    place: 31
+
+  Workstations:
+    enable: false
+    material: "GRINDSTONE"
+    displayname: "&7&lWorkstations"
+    place: 12
+    lore:
+    - "&8&lGive your villager a job,"
+    - "&8&lor use it for your own."
+
+  SpawnEggs:
+    enable: false
+    material: "BAT_SPAWN_EGG"
+    displayname: "&8&lSpawnEggs"
+    place: 4
+
+  Z_EverythingElse:
+    enable: false
+    material: "BEDROCK"
+    displayname: "Z_EverythingElse"
+    place: 41
+
+Fill-item:
+  material: "GRAY_STAINED_GLASS_PANE"
+# displayname: "&8Nothing here"
+  #Disable this item by setting this value to false
+  enable: false

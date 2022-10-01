@@ -1,0 +1,284 @@
+# English (English, en)
+# By Efnilite
+# Copy this file and rename it to add your own language!
+# Materials have to be from: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# Learn more about colouring: https://docs.adventure.kyori.net/minimessage/format.html#format
+
+name: Español
+
+main:
+  name: <white>Parkour
+
+play:
+  name: <white>Jugar
+  
+  item:
+    material: sugar_cane
+    name: <#60EB76><bold>Jugar
+    lore: ''
+  
+  single:
+    name: <white>Jugar
+    
+    item:
+      material: ender_pearl
+      name: <#6E92B1><bold>Jugar
+      lore: ''
+    
+    default:
+      material: barrel
+      name: <#6693E7><bold>Por Defecto
+      lore: <dark_gray>Por Defecto.
+  
+  spectator:
+    name: <white>Espectador
+    
+    join: <#4CB3FF>Ahora eres un espectador. Puedes usar "/parkour" para salir o cambiar
+      tu modo de juego.
+    action_bar: <#4CB3FF>Eres un espectador <gray>• <#4CB3FF>Usa "/parkour" para salir.
+    
+    other_join: <dark_green><bold>+ <reset><gray>%s esta viendote
+    other_leave: <red><bold>- <reset><gray>%s ya no te esta viendo
+    
+    item:
+      material: glass
+      name: <#39D5AB><bold>Espectador
+      lore: ''
+    
+    head:
+      material: ''
+      name: <#6693E7><bold>%s
+      lore: ''
+
+community:
+  name: <white>Comunidad
+  
+  item:
+    material: oak_boat
+    name: <#60C9DF><bold>Comunidad
+    lore: ''
+  
+  leaderboards:
+    name: <white>Tops
+    
+    item:
+      material: gold_nugget
+      name: <#6693E7><bold>Tops
+      lore: ''
+    
+    sort:
+      material: bookshelf
+      name: <#DEA11F><bold>Ordenar por %s
+      lore: ''
+      values:
+      - Puntuación
+      - Tiempo
+      - Dificultad
+    
+    head:
+      material: ''
+      name: <#6693E7><bold>#%r - %p
+      lore: '<#5574AF>Puntuación: <gray>%s||<#5574AF>Tiempo: <gray>%t||<#5574AF>Dificultad:
+        <gray>%d<dark_gray>/1.0'
+
+settings:
+  name: <white>Configuración
+  
+  item:
+    material: comparator
+    name: <#6086EB><bold>Configuración
+    lore: ''
+  
+  lang:
+    name: <white>Idioma
+    
+    item:
+      material: writable_book
+      name: <#6693E7><bold>Idioma
+      lore: '<dark_gray>Actual: <#5574AF><bold>%s'
+  
+  chat:
+    material: crossbow
+    name: <#20C6BC><bold>Chat
+    lore: '<dark_gray>Actual: <#17B2CE><bold>%s||<dark_gray>Selecciona con quien puedes
+      chatear.'
+    values:
+    - Solo lobby
+    - Solo jugadores
+    - Publico
+    
+    formats:
+      lobby: <#8A1010>(Lobby) <#BE0D0D>%s <dark_gray>> <gray>%s
+      players: <#8A1010>(Jugadores) <#BE0D0D>%s <dark_gray>> <gray>%s
+  
+  parkour_settings:
+    
+    item:
+      material: redstone
+      name: <#A10404><bold>Configuración del Parkour
+      lore: <dark_gray>Cambia la configuracion del Parkour.
+    
+    items:
+      
+      no_change:
+        material: barrier
+        name: <dark_red><bold>No puedes cambiar esto ahora!
+        lore: <gray>Tienes tu record por debajo de 0,||<gray>Lo que significa que
+          no puedes cambiar esto ahora.
+      
+      styles:
+        name: <white>Estilos
+        
+        item:
+          material: crafting_table
+          name: <#6693E7><bold>Estilo
+          lore: '<#5574AF>Actual: <gray>%s||<gray>Elige que bloques se van a usar.'
+      
+      leads:
+        material: feather
+        name: <#6693E7><bold>Generación
+        lore: '<#5574AF>Actual: <gray>%s bloques||<gray>Cuantos bloques van a||<gray>generarse
+          para ti.'
+      
+      time:
+        material: clock
+        name: <#6693E7><bold>Tiempo
+        lore: '<#5574AF>Actual: <gray>%s||<gray>Tu tiempo actual.'
+      
+      schematic_difficulty:
+        material: ''
+        name: <#6693E7><bold>Dificultad
+        lore: '<#5574AF>Actual: <gray>%s||<gray>Dificultad del Parkour'
+        values:
+        - Facil
+        - Medio
+        - Dificil
+        - Pro
+      
+      schematic_use:
+        material: ''
+        name: Usar schematics
+        lore: '<gray>Actual: %s||<gray>Si las activas||<gray>apareceran durante el
+          Parkour.'
+      
+      schematic:
+        name: <white>Schematics
+        
+        item:
+          material: scaffolding
+          name: <#6693E7><bold>Schematics
+          lore: <gray>Cambiar configuración
+      
+      scoreboard:
+        material: ''
+        name: Mostrar Scoreboard
+        lore: '<gray>Actual: %s||<gray>Si se activa muestra el Scoreboard del Parkour.'
+      
+      fall_message:
+        item:
+          material: ''
+          name: Mostrar mensaje de caida
+          lore: '<gray>Actual: %s||<gray>Si se activa se muestra un mensaje cuando
+            te caes||<gray>con mas información.'
+        
+        divider: <dark_gray><strikethrough>-----------------------------------
+        score: <#80C7FD><bold>Puntuación <reset><white>%s
+        time: <#80C7FD><bold>Tiempo <reset><white>%s
+        high_score: <#80C7FD><bold>Record <reset><white>%s
+        
+        formats:
+          miss: <gray>No has hecho record por %s puntos!
+          beat: <gray>Has batido tu record con %s puntos de mas!
+          tied: <gray>Has empatado tu record!
+      
+      particles:
+        material: ''
+        name: Mostrar particulas
+        lore: '<gray>Actual: %s||<gray>Si lo activas cada vez que se genere un bloque||<gray>se
+          mostrarán particulas. ESTO PUEDE AFECTAR AL REENDIMIENTO!!'
+      
+      sound:
+        material: ''
+        name: Sonidos
+        lore: '<gray>Actual: %s||<gray>Si esta activado, todos los bloques generados||<gray>haran
+          un sonido.'
+      
+      special_blocks:
+        material: ''
+        name: Usar bloques especiales
+        lore: '<gray>Actual: %s||<gray>Si esta activado, usará bloques especiales
+          como hielo o losas.'
+      
+      score_difficulty:
+        material: ''
+        name: Dificultad por puntuación
+        lore: '<gray>Currently: %s||<gray>Si esta activo cuanta mas alta sea tu puntuación||<gray>
+          mas dificil será el Parkour.'
+
+lobby:
+  name: <white>Lobby
+  
+  item:
+    material: iron_ingot
+    name: <#EB608C><bold>Tu Lobby
+    lore: ''
+  
+  visibility:
+    material: firework_rocket
+    name: <#A1E1DD><bold>Visibilidad
+    lore: '<dark_gray>Actual: <#2BD4E2><bold>%s||<dark_gray>Selecciona quien puede
+      unirse a tu lobby.'
+    values:
+    - privado
+    - solo por invitación
+    - publico
+  
+  player_management:
+    name: <white>Administrar Jugadores
+    
+    kicked: El dueño del lobby te ha echado de tu lobby.
+    advice: Establezca la visibilidad de su lobby en privado o solo por invitación
+      para evitar personas al azar se unan.
+    muted: El dueño del lobby te ha silenciado.
+    unmuted: El dueño del lobby te ha desilenciado.
+    
+    item:
+      material: cake
+      name: <#8DC9E5><bold>Manage Jugadores
+      lore: <dark_gray>Expulsa o silencia a los jugadores desde aquí.
+    
+    head:
+      material: ''
+      name: <#4BD16D><bold>%s
+      lore: ''
+      top: <dark_gray>Silenciado en el lobby||
+      bottom: <#8DE5A3>Click Izquierdo<dark_gray> para expulsar del lobby||<#8DE5A3>Click
+        Derecho<dark_gray> para (de)silenciar en el lobby
+
+scoreboard:
+  
+  title: <#FF6464><bold>Parkour OrioLand
+  
+  lines:
+  - <blue>
+  - <#F6A8A8>Puntuación ☆ <white>%score%
+  - <#F6A8A8>Tiempo ⏱ <white>%time%
+  - <#F6A8A8>Record ★ <white>%highscore%
+  - <red>
+  - <dark_gray>%session%
+  - <#FFCC00><bold>mc.orioland.com
+
+other:
+  
+  no_do: <gray>No puedes hacer esto.
+  customize: <gray>Usa "/parkour"
+  
+  quit:
+    material: barrier
+    name: <#D71F1F><bold>Cerrar
+    lore: ''
+  
+  close:
+    material: arrow
+    name: <#F5A3A3><bold>Cerrar
+    lore: ''

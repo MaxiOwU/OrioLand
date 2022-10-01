@@ -1,0 +1,271 @@
+enabled: true
+left-click-key-preview: true
+cooldown: 0
+obtain-method: STATIC
+display:
+  type: BLOCK
+hologram-offset: 3.0
+auto-close: true
+key:
+  require: true
+  material: REDSTONE_TORCH
+  glow: false
+  amount: 1
+  name: '&4Please set me!'
+cost: -1
+require-key-or-economy: false
+allow-skip-animation: false
+cooldown-per-location: false
+inventory-name: ''
+open:
+  crate-animation: INV_ROULETTE
+  actions:
+  - MESSAGE, Has conseguido %rewards%
+crate:
+  material: CHEST
+  glow: false
+  amount: 1
+  name: Eventos
+hologram:
+  lines: []
+  animation:
+    prefixes: []
+    type: NONE
+    speed: 20
+  reward-hologram: ''
+  reward-hologram-duration: 60
+  reward-hologram-yoffset: 0.0
+reward-display:
+  type: IN_ORDER
+  require-permission: false
+  name: '&6&lCrate Eventos'
+play:
+  particles: {}
+rewards:
+  diamond_helmet:
+    commands: []
+    chance: 20.0
+    rarity: default
+    give-display-item:
+      value: true
+      with-lore: false
+      with-name: true
+    display-item:
+      material: DIAMOND_HELMET
+      glow: false
+      amount: 1
+      name: '&fCasco &5Eventos'
+      enchantments:
+      - MENDING;1
+      - PROTECTION_ENVIRONMENTAL;3
+      - DURABILITY;3
+      lore:
+      - '&7-'
+      - '&eChance: &6%writtenchance%%'
+      nbt-tags: '{Damage:0,Enchantments:[{id:"minecraft:mending",lvl:1s},{id:"minecraft:protection",lvl:3s},{id:"minecraft:unbreaking",lvl:3s}]}'
+  diamond_chestplate:
+    commands: []
+    chance: 20.0
+    rarity: default
+    give-display-item:
+      value: true
+      with-lore: false
+      with-name: true
+    display-item:
+      material: DIAMOND_CHESTPLATE
+      glow: false
+      amount: 1
+      name: '&fPechera &5Eventos'
+      enchantments:
+      - MENDING;1
+      - PROTECTION_ENVIRONMENTAL;3
+      - DURABILITY;3
+      lore:
+      - '&7-'
+      - '&eChance: &6%writtenchance%%'
+      nbt-tags: '{Damage:0,Enchantments:[{id:"minecraft:mending",lvl:1s},{id:"minecraft:protection",lvl:3s},{id:"minecraft:unbreaking",lvl:3s}]}'
+  diamond_leggings:
+    commands: []
+    chance: 20.0
+    rarity: default
+    give-display-item:
+      value: true
+      with-lore: false
+      with-name: true
+    display-item:
+      material: DIAMOND_LEGGINGS
+      glow: false
+      amount: 1
+      name: '&fPantalones &5Eventos'
+      enchantments:
+      - MENDING;1
+      - PROTECTION_ENVIRONMENTAL;3
+      - DURABILITY;3
+      lore:
+      - '&7-'
+      - '&eChance: &6%writtenchance%%'
+      nbt-tags: '{Damage:0,Enchantments:[{id:"minecraft:mending",lvl:1s},{id:"minecraft:protection",lvl:3s},{id:"minecraft:unbreaking",lvl:3s}]}'
+  diamond_boots:
+    commands: []
+    chance: 20.0
+    rarity: default
+    give-display-item:
+      value: true
+      with-lore: false
+      with-name: true
+    display-item:
+      material: DIAMOND_BOOTS
+      glow: false
+      amount: 1
+      name: '&fBotas &5Eventos'
+      enchantments:
+      - MENDING;1
+      - PROTECTION_ENVIRONMENTAL;3
+      - DURABILITY;3
+      lore:
+      - '&7-'
+      - '&eChance: &6%writtenchance%%'
+      nbt-tags: '{Damage:0,Enchantments:[{id:"minecraft:mending",lvl:1s},{id:"minecraft:protection",lvl:3s},{id:"minecraft:unbreaking",lvl:3s}]}'
+  diamond_sword:
+    commands: []
+    chance: 20.0
+    rarity: default
+    give-display-item:
+      value: true
+      with-lore: false
+      with-name: true
+    display-item:
+      material: DIAMOND_SWORD
+      glow: false
+      amount: 1
+      name: '&fEspada &5Eventos'
+      enchantments:
+      - MENDING;1
+      - DAMAGE_ALL;3
+      - DURABILITY;3
+      lore:
+      - '&7-'
+      - '&eChance: &6%writtenchance%%'
+      nbt-tags: '{Damage:0,Enchantments:[{id:"minecraft:mending",lvl:1s},{id:"minecraft:sharpness",lvl:3s},{id:"minecraft:unbreaking",lvl:3s}]}'
+  diamond:
+    commands: []
+    chance: 10.0
+    rarity: default
+    give-display-item:
+      value: true
+      with-lore: false
+      with-name: true
+    display-item:
+      material: DIAMOND
+      glow: false
+      amount: 16
+      name: Diamond
+      lore:
+      - '&7-'
+      - '&eChance: &6%writtenchance%%'
+      nbt-tags: '{}'
+  totem_of_undying:
+    commands: []
+    chance: 10.0
+    rarity: default
+    give-display-item:
+      value: true
+      with-lore: false
+      with-name: true
+    display-item:
+      material: TOTEM_OF_UNDYING
+      glow: false
+      amount: 1
+      name: '&fTotem &5Eventos'
+      lore:
+      - '&7-'
+      - '&eChance: &6%writtenchance%%'
+      nbt-tags: '{}'
+  enchanted_golden_apple:
+    commands: []
+    chance: 3.0
+    rarity: default
+    give-display-item:
+      value: true
+      with-lore: false
+      with-name: true
+    display-item:
+      material: ENCHANTED_GOLDEN_APPLE
+      glow: false
+      amount: 4
+      name: '&fNotch &5Eventos'
+      lore:
+      - '&7-'
+      - '&eChance: &6%writtenchance%%'
+      nbt-tags: '{}'
+  golden_apple:
+    commands: []
+    chance: 15.0
+    rarity: default
+    give-display-item:
+      value: true
+      with-lore: false
+      with-name: true
+    display-item:
+      material: GOLDEN_APPLE
+      glow: false
+      amount: 16
+      name: '&fManzana &5Eventos'
+      lore:
+      - '&7-'
+      - '&eChance: &6%writtenchance%%'
+      nbt-tags: '{}'
+  1000$:
+    commands:
+    - eco give %player% 1000
+    chance: 10.0
+    rarity: default
+    give-display-item:
+      value: false
+      with-lore: false
+      with-name: true
+    display-item:
+      material: PAPER
+      glow: false
+      amount: 1
+      name: 1000$
+      lore:
+      - '&7-'
+      - '&eChance: &6%writtenchance%%'
+      nbt-tags: '{}'
+  2000$:
+    commands:
+    - eco give %player% 2000
+    chance: 5.0
+    rarity: default
+    give-display-item:
+      value: false
+      with-lore: false
+      with-name: true
+    display-item:
+      material: PAPER
+      glow: false
+      amount: 1
+      name: 2000$
+      lore:
+      - '&7-'
+      - '&eChance: &6%writtenchance%%'
+      nbt-tags: '{}'
+  3000$:
+    commands:
+    - eco give %player% 3000
+    chance: 3.0
+    rarity: default
+    give-display-item:
+      value: false
+      with-lore: false
+      with-name: true
+    display-item:
+      material: PAPER
+      glow: false
+      amount: 1
+      name: 3000$
+      lore:
+      - '&7-'
+      - '&eChance: &6%writtenchance%%'
+      nbt-tags: '{}'

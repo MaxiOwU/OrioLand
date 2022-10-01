@@ -1,0 +1,8 @@
+booster_tag:
+  texture: default/chat/booster_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":booster:"
+    permission: "oraxen.emoji.booster"

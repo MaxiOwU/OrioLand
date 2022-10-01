@@ -1,0 +1,62 @@
+dubhe_tag:
+  texture: default/chat/dubhe_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":dubhe:"
+    permission: "oraxen.emoji.dubhe"
+
+merak_tag:
+  texture: default/chat/merak_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":merak:"
+    permission: "oraxen.emoji.merak"
+
+phecda_tag:
+  texture: default/chat/phecda_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":phecda:"
+    permission: "oraxen.emoji.phecda"
+
+megrez_tag:
+  texture: default/chat/megrez_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":megrez:"
+    permission: "oraxen.emoji.megrez"
+
+alioth_tag:
+  texture: default/chat/alioth_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":alioth:"
+    permission: "oraxen.emoji.alioth"
+
+mizar_tag:
+  texture: default/chat/mizar_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":mizar:"
+    permission: "oraxen.emoji.mizar"
+
+alkaid_tag:
+  texture: default/chat/alkaid_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":alkaid:"
+    permission: "oraxen.emoji.alkaid"

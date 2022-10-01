@@ -1,0 +1,126 @@
+common_tag:
+  texture: default/chat/common_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":common:"
+    permission: "oraxen.emoji.common"
+
+uncommon_tag:
+  texture: default/chat/uncommon_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":uncommon:"
+    permission: "oraxen.emoji.uncommon"
+
+rare_tag:
+  texture: default/chat/rare_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":rare:"
+    permission: "oraxen.emoji.rare"
+
+ultrarare_tag:
+  texture: default/chat/ultrarare_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":ultrarare:"
+    permission: "oraxen.emoji.ultrarare"
+
+epic_tag:
+  texture: default/chat/epic_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":epic:"
+    permission: "oraxen.emoji.epic"
+
+heroic_tag:
+  texture: default/chat/heroic_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":heroic:"
+    permission: "oraxen.emoji.heroic"
+
+legendary_tag:
+  texture: default/chat/legendary_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":legendary:"
+    permission: "oraxen.emoji.legendary"
+
+mythical_tag:
+  texture: default/chat/mythical_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":mythical:"
+    permission: "oraxen.emoji.mythical"
+
+heavenly_tag:
+  texture: default/chat/heavenly_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":heavenly:"
+    permission: "oraxen.emoji.heavenly"
+
+untradeable_tag:
+  texture: default/chat/untradeable_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":untradeable:"
+    permission: "oraxen.emoji.untradeable"
+
+unobtainable_tag:
+  texture: default/chat/unobtainable_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":unobtainable:"
+    permission: "oraxen.emoji.unobtainable"
+
+limited_tag:
+  texture: default/chat/limited_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":limited:"
+    permission: "oraxen.emoji.limited"
+
+exalted_tag:
+  texture: default/chat/exalted_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":exalted:"
+    permission: "oraxen.emoji.exalted"
+
+relic_tag:
+  texture: default/chat/relic_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":relic:"
+    permission: "oraxen.emoji.relic"
+    

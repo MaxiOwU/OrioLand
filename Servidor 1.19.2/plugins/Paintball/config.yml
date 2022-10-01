@@ -1,0 +1,256 @@
+# Theme color of messages. This is the main color used in main text. Set it to match your server
+theme-color: '&3'
+# Secondary color of messages. Used as a secondary color in with theme-color
+secondary-color: '&7'
+# Options: normal, rotation, vote
+# normal - multiarenas join through command/sign
+# rotation - one arena at a time which rotates automatically to a random arena
+# vote - rotation, but instead of arenas being rotated randomly they are chosen by most votes
+server-type: normal
+# If you want to use Crackshot weapons instead of default Paintball weapons,
+# install Crackshot and set this to true
+crackshot: false
+
+Commands:
+  # If true, disables all commands in arena except for: Allowed commands and (if all-paintball-commands is true) Paintball commands.
+  disable-all-commands: true
+  # If true, allows ALL Paintball commands to be entered
+  all-paintball-commands: true
+  # Commands that will always be blocked while in the arena
+  Blocked:
+  - /god
+  - /enchant
+   # Commands that will always be allowed while in the arena. Usually put commands in here that will not affect game play in any way
+  Allowed:
+  - /money
+  - /time
+
+###############################
+#      Per-Arena Settings     #
+###############################
+Per-Arena-Settings:
+  # The default settings for each arena. Set an arena setting to "default" in order to use this default value ex: kills-to-win: default
+  # Arenas will auto-generate with values "default" whenever a new arena is created
+  Defaults:
+    # True - a player may join the game while it is in progress. False - player will only be able to join while it is waiting in lobby
+    allow-join-in-progress: false
+    # When a paintball lands on a solid block, color that block to create a splash effect
+    # Options: wool,clay,glass,concrete,concretepowder,none to choose which colored block it should change to
+    paintball-splash: "clay"
+    # True - Fireworks will launch when a player dies. False - No firework will launch
+    firework-on-death: true
+    # True - When a protected player attacks another player their protection cencels. False - Protection only ends after timer ends
+    cancel-prot-on-hit: false
+    # True - How accurate default item's paintballs will shoot. 0 for full accuracy. default is 0.091
+    paintball-accuracy: 0.091
+    # How fast snowballs will shoot
+    speed: 3
+    # If true, users will be required to clear totally their inventory before joining the match to avoid losing data (useful when you have a per world inventory plugin)
+    safe-inventory: false
+    # The currency for money
+    currency: "$"
+    # The score in order to win. ex: DTC score is hits to destroy core, TDM score is kills to win, etc
+    max-score: 15
+    # Determines if team score on scoreboard will show as "Team: score/max-score" or score will countdown to 0 with "Team: (max-score) - score"
+    team-score-as-countdown: false
+    # How much time the game lasts. If no one reaches the kills-to-win when this timer ends the team with most kills is the winner
+    time: 300
+    # How many lives a player has before they are set to a spectator. 0 for unlimited lives, where they play until the time or max-score is reached
+    lives: 0
+    # How much time to wait after a team wins before players will be sent out of the arena. In this time players can see their scores and who won
+    win-waiting-time: 10
+    # True - Coin Shop is enabled for the arena. False - No Coin Shop and Coins are removed
+    coin-shop: true
+    # Time in seconds players have after they die before they can be killed by a snowball
+    safe-time: 2
+    # How many hits to kill an Arena player
+    hits-to-kill: 3
+    # Amount of seconds before a player can switch their team again (Prevents team switch spam)
+    team-switch-cooldown: 3
+    # When a player switches team should they teleport to the lobby location
+    teleport-on-team-switch: true
+    # True - Players can see nametags. False - Nametags will not be shown
+    nametags: true
+    # True - Coins will be shown on the scoreboard and incremented. False - Coins will be disabled
+    coins: true
+    # Material the Coin Shop will be, for a list of Materials see plugin page FAQ
+    coin-shop-type: MAGMA_CREAM
+    # Sound played to the shooter when a target player is damaged
+    hit-sound: ANVIL_BREAK
+    # Sound played to the damaged player when they are shot
+    damaged-sound: ENTITY_SPIDER_HURT
+    # Settings for when a player joins an arena
+    Join-Arena:
+      # True - Chat will only send to players on the same team. False - Chat will send to whole arena
+      per-team-chat: false
+      # True - Will give a colored wool helmet. False - Will give a colored armour helmet
+      wool-helmet: true
+
+    # Settings for when a player joins a lobby
+    Join-Lobby:
+      # True - will give the player a item that allows them to switch team. False - player will not be able to switch team unless they leave and join
+      give-team-switcher: true
+      # True - Chat will only send to players on the same team. False - Chat will send to whole arena
+      per-team-chat: false
+      # True - Will give a colored wool helmet. False - Will give a colored armour helmet
+      wool-helmet: true
+
+    # If you want a command to be typed by a player, I recommend using Essential's sudo command
+    # Avaiable tags: %player%, %arena%
+    # To add commands, just add another - "" under the shown commands. By default these commands are disabled, remove the # to enable them
+    # By default the list is empty, if you add stuff don't forget to remove the [] in their name
+    # List of commands that will be sent by the Console when a player wins
+
+    # You can also give a percent for typing the command in, like here there is a 30% chance of getting a diamond sword
+    # To make your own chance use a number from 1-99 and format it like this... "number:command"
+    Win-Commands: []
+    #- "say %player% has won on %arena%! :)"
+    #- "30:give %player% DIAMOND_SWORD"
+
+    # List of commands that will be sent by the Console when a player looses
+    Lose-Commands: []
+    #- "say %player% has lost on %arena%! :("
+
+    # List of commands that will be sent by the Console when a player ties
+    Tie-Commands: []
+    #- "say %player% has tied on %arena%! :I"
+
+    # List of commands that will be sent by the Console when a player kills another player
+    Kill-Commands: []
+    #- "say %player% has killed %died% on %arena%! :O"
+
+    # List of commands that will be sent by the Console when the arena is started
+    Start-Commands: []
+    #- "20:speed %player% 3" this would give a 20% chance of getting speed 3 in the game
+    #- "speed %player% 2" this would give everyone a speed boost of 2
+
+    # List of commands that will be sent by the Console when a player does /pb join or clicks a join/autojoin sign
+    Join-Commands: []
+    #- "say %player% joined %arena%, so if you message them, they might not answer!"
+
+    # List of commands that will be sent by the Console when someone does /pb leave, clicks a leave item or exists the game
+    Leave-Commands: []
+    #- "say %player% raged quit"
+
+    # %player% tag is not avaiable here. For  %player% tag use Win/Lose/Win commands
+    Finish-Commands: []
+    #- "say Okay, the game is finished. Everyone join for next round!"
+
+    # Specific extra settings for CTF arenas
+    CTF:
+      # Played sounds look at plugin page for the sound list specific to your version. By default there is no sound ("") because of different sound names for 1.8 and 1.9
+
+      # Sound played on a flag drop
+      Flag-Drop: "PIG_DEATH"
+      # Sound played on flag score
+      Flag-Score: "VILLAGER_YES"
+      # Sound played on flag pickyup
+      Flag-Pickup: "DIG_WOOL"
+
+    # Specific extra settings for CTF arenas
+    RTF:
+      # Played sounds look at plugin page for the sound list specific to your version. By default there is no sound ("") because of different sound names for 1.8 and 1.9
+
+      # Sound played on a flag drop
+      Flag-Drop: "PIG_DEATH"
+      # Sound played on flag score
+      Flag-Score: "VILLAGER_YES"
+      # Sound played on flag pickyup
+      Flag-Pickup: "DIG_WOOL"
+
+    # Specific extra settings for DOM arenas
+    DOM:
+      # How long it takes for someone to secure a base
+      secure-time: 10
+      # The interval of when to deduct the points. Every x seconds it will subtract the amount of claimed secured points they have
+      update-interval: 10
+      # How large a secure point will be generated
+      generate-size: 2
+      # Sound played when a player starts to secure a base
+      start-secure: "ITEM_PICKUP"
+      # Sound played when a player secures a base
+      secure: "VILLAGER_YES"
+
+    # Specific extra settings for KC arenas
+    KC:
+      # Sound played when a player confirms a kill (picks up another team's wool)
+      kill-confirmed: "ITEM_PICKUP"
+      # Sound played when a player denies a kill (picks up their own team's wool before other team does)
+      kill-denied: "PIG_DEATH"
+      # Below you can change material and custom model data for each item. When a player is killed a tag will
+      # be dropped with the respective material and custom model data, for example you can add actual dog tags
+      navyblue-tag-material: "BLUE_WOOL"
+      navyblue-tag-custom-model-data: 0
+      green-tag-material: "GREEN_WOOL"
+      green-tag-custom-model-data: 0
+      cyan-tag-material: "CYAN_WOOL"
+      cyan-tag-custom-model-data: 0
+      red-tag-material: "RED_WOOL"
+      red-tag-custom-model-data: 0
+      purple-tag-material: "PURPLE_WOOL"
+      purple-tag-custom-model-data: 0
+      orange-tag-material: "ORANGE_WOOL"
+      orange-tag-custom-model-data: 0
+      silver-tag-material: "LIGHT_GRAY_WOOL"
+      silver-tag-custom-model-data: 0
+      gray-tag-material: "GRAY_WOOL"
+      gray-tag-custom-model-data: 0
+      black-tag-material: "BLACK_WOOL"
+      black-tag-custom-model-data: 0
+      blue-tag-material: "BLUE_WOOL"
+      blue-tag-custom-model-data: 0
+      lime-tag-material: "GREEN_WOOL"
+      lime-tag-custom-model-data: 0
+      aqua-tag-material: "CYAN_WOOL"
+      aqua-tag-custom-model-data: 0
+      lightred-tag-material: "RED_WOOL"
+      lightred-tag-custom-model-data: 0
+      magenta-tag-material: "MAGENTA_WOOL"
+      magenta-tag-custom-model-data: 0
+      yellow-tag-material: "YELLOW_WOOL"
+      yellow-tag-custom-model-data: 0
+      white-tag-material: "WHITE_WOOL"
+      white-tag-custom-model-data: 0
+
+    # Default rewards
+    Rewards:
+      # Rewards having to do with coins. Coins are basically money recived on a kill, which can be used to buy special items. Coins are reset every game.
+      Coins:
+        per-kill: 1
+        per-death: 0
+      # Rewards having to do with money. Money can also be used to buy special items and doesn't reset every game.
+      # Requires Vault
+      Money:
+        per-kill: 15
+        per-death: 10
+        per-win: 100
+        per-defeat: 50
+
+    # Settings to do with chat aspects of Paintball in game
+    Chat:
+      # True - use arena chat which can only be viewed by arena players. False - will use global chat
+      use-arena-chat: true
+      # True - broadcasts winning teams to all players on the server. False - only players in arena will see who won
+      broadcast-winner: false
+      # Chat format for specators. Tags: %ARENA%, %PLAYER%, %MSG%, %PREFIX%.
+      # If using Vault & a chat plugin, use %PRE% or %SUF% to get that player's prefix/suffix from their group
+      spectator-chat: "&7[Spectator] %PLAYER%: %MSG%"
+      # Chat format for lobby players and in game players. Tags: %ARENA%, %PLAYER%, %MSG%, %TEAMCOLOR%, %TEAMNAME%, %PREFIX%
+      # If using Vault & a chat plugin, use %PREFIX% or %SUFFIX% to get that player's prefix/suffix from their group
+      arena-chat: "&8[%TEAMCOLOR%%TEAMNAME%&8] &a%PLAYER%&7: %MSG%"
+
+    Countdown:
+       # Lobby countdown configuration-- how long to wait for more players after the minimum is reached
+       lobby:
+         # How long it will take until players are teleported to their spawnpoints. The longer the more players may join. 0 for no countdown
+         countdown: 20
+         # The interval when showing the numbers. Ex. 60...50...40...
+         # Set interval the same as the countdown to remove any countdown messages
+         interval: 5
+         # The number at which there will be no delay in showing numbers. Ex. 15...10...5......3...2...1...
+         no-interval: 5
+       # Arena countdown configuration - after players have been set to their team spawnpoints, a countdown begins
+       arena:
+         countdown: 10
+         interval: 5
+         no-interval: 5

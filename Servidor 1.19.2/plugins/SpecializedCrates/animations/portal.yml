@@ -1,0 +1,301 @@
+# Configuration made by EvenX for SpecializedCrates
+# The amount of time (in ticks) a stage will stay in frame.
+# The animation will change frame in two instances:
+# 1. If we are proceeding to the next animation stage
+# 2. If we are repeating a frame (Seen in animation stage 2)
+# This can be defined per stage. If it's not, then this is used as a global value.
+default_frame_rate: 4
+
+# If it's just R then the item will become a different random reward every refreshed inventory case
+random_reward_symbol: "R"
+
+# These rewards don't become a different random reward every refreshed inventory, you can make them change by setting the rewards symbol in the reset_rewards configuration.
+# See semicircle animation for an example on how to reset the reward
+reward_symbols:
+  - "R1"
+
+# In case the user wants to make a disco out of the filler_items
+random_filler_item_symbol: "RF"
+
+air_symbol: "A"
+
+selected_reveal_reward_symbol: "SR"
+
+# A spot the player has to click to reveal a random reward.
+reveal_reward_symbol: "RR"
+
+# A spot the player has to click to start the next stage.
+next_stage_symbol: "NS"
+
+# When Should The Crate auto_close (in ticks), this is for screens like click to accept the reward or for screens where you need to click on a tile to reveal the reward.
+# But if the user takes too long it will simply auto open it for him.
+# Ticks until the inventory closes after finishing the animation
+auto_close: 60
+
+inventory_size: 45
+
+# The item that you have to click to reveal a reward.
+reveal_item:
+  name: " "
+  lore:
+    - ""
+    - ""
+  enchanted: true
+  material: CYAN_STAINED_GLASS_PANE
+
+# The item you have to click to go to the next stage/progression of the animation.
+next_stage_item:
+  name: "&dClick for your prize!"
+  lore:
+    - ""
+    - ""
+  enchanted: false
+  material: END_CRYSTAL
+
+filler_items:
+  G:
+    name: " "
+    lore:
+      - ""
+      - ""
+    enchanted: false
+    material: GRAY_STAINED_GLASS_PANE
+  P:
+    name: " "
+    lore:
+      - ""
+      - ""
+    enchanted: false
+    material: PINK_STAINED_GLASS_PANE
+  M:
+    name: " "
+    lore:
+      - ""
+      - ""
+    enchanted: false
+    material: MAGENTA_STAINED_GLASS_PANE
+
+# A stage is something that defines what the inventory looks like at a given amount of time.
+stages:
+  1:
+    inventory:
+      - "M,M,M,M,M,M,M,M,M"
+      - "M,M,M,M,M,M,M,M,M"
+      - "M,M,M,M,NS,M,M,M,M"
+      - "M,M,M,M,M,M,M,M,M"
+      - "M,M,M,M,M,M,M,M,M"
+    frame_stay_time: -1
+  2:
+    inventory:
+      - "G,M,M,M,M,M,M,M,M"
+      - "G,M,M,M,M,M,M,M,M"
+      - "M,M,M,M,NS,M,M,M,M"
+      - "M,M,M,M,M,M,M,M,G"
+      - "M,M,M,M,M,M,M,M,G"
+  3:
+    inventory:
+      - "G,M,M,M,M,M,M,M,M"
+      - "G,M,M,M,M,M,M,M,M"
+      - "G,M,M,M,NS,M,M,M,G"
+      - "M,M,M,M,M,M,M,M,G"
+      - "M,M,M,M,M,M,M,M,G"
+  4:
+    inventory:
+      - "G,M,M,M,M,M,M,M,M"
+      - "G,M,M,M,M,M,M,M,G"
+      - "G,M,M,M,NS,M,M,M,G"
+      - "G,M,M,M,M,M,M,M,G"
+      - "M,M,M,M,M,M,M,M,G"
+  5:
+    inventory:
+      - "G,M,M,M,M,M,M,M,G"
+      - "G,M,M,M,M,M,M,M,G"
+      - "G,M,M,M,NS,M,M,M,G"
+      - "G,M,M,M,M,M,M,M,G"
+      - "G,M,M,M,M,M,M,M,G"
+  6:
+    inventory:
+      - "G,M,M,M,M,M,M,G,G"
+      - "G,M,M,M,M,M,M,M,G"
+      - "G,M,M,M,NS,M,M,M,G"
+      - "G,M,M,M,M,M,M,M,G"
+      - "G,G,M,M,M,M,M,M,G"
+  7:
+    inventory:
+      - "G,M,M,M,M,M,G,G,G"
+      - "G,M,M,M,M,M,M,M,G"
+      - "G,M,M,M,NS,M,M,M,G"
+      - "G,M,M,M,M,M,M,M,G"
+      - "G,G,G,M,M,M,M,M,G"
+  8:
+    inventory:
+      - "G,M,M,M,M,G,G,G,G"
+      - "G,M,M,M,M,M,M,M,G"
+      - "G,M,M,M,NS,M,M,M,G"
+      - "G,M,M,M,M,M,M,M,G"
+      - "G,G,G,G,M,M,M,M,G"
+  9:
+    inventory:
+      - "G,M,M,M,G,G,G,G,G"
+      - "G,M,M,M,M,M,M,M,G"
+      - "G,M,M,M,NS,M,M,M,G"
+      - "G,M,M,M,M,M,M,M,G"
+      - "G,G,G,G,G,M,M,M,G"
+  10:
+    inventory:
+      - "G,M,M,G,G,G,G,G,G"
+      - "G,M,M,M,M,M,M,M,G"
+      - "G,M,M,M,NS,M,M,M,G"
+      - "G,M,M,M,M,M,M,M,G"
+      - "G,G,G,G,G,G,M,M,G"
+  11:
+    inventory:
+      - "G,M,G,G,G,G,G,G,G"
+      - "G,M,M,M,M,M,M,M,G"
+      - "G,M,M,M,NS,M,M,M,G"
+      - "G,M,M,M,M,M,M,M,G"
+      - "G,G,G,G,G,G,G,M,G"
+  12:
+    inventory:
+      - "G,G,G,G,G,G,G,G,G"
+      - "G,M,M,M,M,M,M,M,G"
+      - "G,M,M,M,NS,M,M,M,G"
+      - "G,M,M,M,M,M,M,M,G"
+      - "G,G,G,G,G,G,G,G,G"
+  13:
+    inventory:
+      - "G,G,G,G,G,G,G,G,G"
+      - "G,G,M,M,M,M,M,M,G"
+      - "G,M,M,M,NS,M,M,M,G"
+      - "G,M,M,M,M,M,M,G,G"
+      - "G,G,G,G,G,G,G,G,G"
+  14:
+    inventory:
+      - "G,G,G,G,G,G,G,G,G"
+      - "G,G,M,M,M,M,M,M,G"
+      - "G,G,M,M,NS,M,M,G,G"
+      - "G,M,M,M,M,M,M,G,G"
+      - "G,G,G,G,G,G,G,G,G"
+  15:
+    inventory:
+      - "G,G,G,G,G,G,G,G,G"
+      - "G,G,M,M,M,M,M,G,G"
+      - "G,G,M,M,NS,M,M,G,G"
+      - "G,G,M,M,M,M,M,G,G"
+      - "G,G,G,G,G,G,G,G,G"
+  16:
+    inventory:
+      - "G,G,G,G,G,G,G,G,G"
+      - "G,G,M,M,M,M,G,G,G"
+      - "G,G,M,M,NS,M,M,G,G"
+      - "G,G,G,M,M,M,M,G,G"
+      - "G,G,G,G,G,G,G,G,G"
+  17:
+    inventory:
+      - "G,G,G,G,G,G,G,G,G"
+      - "G,G,M,M,M,G,G,G,G"
+      - "G,G,M,M,NS,M,M,G,G"
+      - "G,G,G,G,M,M,M,G,G"
+      - "G,G,G,G,G,G,G,G,G"
+  18:
+    inventory:
+      - "G,G,G,G,G,G,G,G,G"
+      - "G,G,M,M,G,G,G,G,G"
+      - "G,G,M,M,NS,M,M,G,G"
+      - "G,G,G,G,G,M,M,G,G"
+      - "G,G,G,G,G,G,G,G,G"
+  19:
+    inventory:
+      - "G,G,G,G,G,G,G,G,G"
+      - "G,G,M,G,G,G,G,G,G"
+      - "G,G,M,M,NS,M,M,G,G"
+      - "G,G,G,G,G,G,M,G,G"
+      - "G,G,G,G,G,G,G,G,G"
+  20:
+    inventory:
+      - "G,G,G,G,G,G,G,G,G"
+      - "G,G,G,G,G,G,G,G,G"
+      - "G,G,M,M,NS,M,M,G,G"
+      - "G,G,G,G,G,G,G,G,G"
+      - "G,G,G,G,G,G,G,G,G"
+  21:
+    inventory:
+      - "G,G,G,G,G,G,G,G,G"
+      - "G,G,G,G,G,G,G,G,G"
+      - "G,G,G,M,NS,M,G,G,G"
+      - "G,G,G,G,G,G,G,G,G"
+      - "G,G,G,G,G,G,G,G,G"
+  22:
+    inventory:
+      - "G,G,G,G,G,G,G,G,G"
+      - "G,G,G,G,G,G,G,G,G"
+      - "G,G,G,G,NS,G,G,G,G"
+      - "G,G,G,G,G,G,G,G,G"
+      - "G,G,G,G,G,G,G,G,G"
+  23:
+    inventory:
+      - "G,G,G,G,G,G,G,G,G"
+      - "G,G,G,G,G,G,G,G,G"
+      - "G,G,G,G,R1,G,G,G,G"
+      - "G,G,G,G,G,G,G,G,G"
+      - "G,G,G,G,G,G,G,G,G"
+    frame_stay_time: 15
+    sound: "LEVEL_UP"
+  24:
+    inventory:
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,R1,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+  25:
+    inventory:
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,R1,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+  26:
+    inventory:
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,R1,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+  27:
+    inventory:
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,R1,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+  28:
+    inventory:
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,R1,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+  29:
+    inventory:
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,R1,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+      - "RF,RF,RF,RF,RF,RF,RF,RF,RF"
+    frame_stay_time: -1
+    rewards_obtained:
+      - "3,5"
+    
+sounds:
+  default_stage_sound: "CLICK"
+  click_item_sound: "BAT_TAKEOFF"
+
+end_actions:
+  sound: ""
+  particles:
+    SPELL_INSTANT:
+      x_offset: 2
+      y_offset: 2
+      z_offset: 2
+      amount: 100

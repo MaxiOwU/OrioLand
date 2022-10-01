@@ -1,0 +1,28 @@
+# 
+# Chopless EcoEnchant
+
+description: Reduces damage dealt by axes.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: rare
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  targets:
+  - helmet
+  - chestplate
+  - leggings
+  - boots
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 6
+name: Chopless
+config:
+  percent-less-per-level: 0.8
+

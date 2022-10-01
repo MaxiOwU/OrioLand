@@ -1,0 +1,573 @@
+Arenas:
+  Fortaleza:
+    Name: Fortaleza
+    Enabled: true
+    Type: CTF
+    Config:
+      max-score: default
+      team-score-as-countdown: default
+      paintball-splash: default
+      time: default
+      win-waiting-time: default
+      safe-time: default
+      hits-to-kill: default
+      lives: default
+      team-switch-cooldown: default
+      speed: default
+      currency: default
+      Countdown:
+        arena:
+          countdown: default
+          interval: default
+          no-interval: default
+        lobby:
+          countdown: default
+          interval: default
+          no-interval: default
+      Rewards:
+        Coins:
+          per-kill: default
+          per-death: default
+        Money:
+          per-kill: default
+          per-death: default
+          per-win: default
+          per-defeat: default
+      allow-join-in-progress: default
+      coins: default
+      firework-on-death: default
+      cancel-prot-on-hit: default
+      Join-Lobby:
+        per-team-chat: default
+        give-team-switcher: default
+        wool-helmet: default
+      Join-Arena:
+        per-team-chat: default
+        wool-helmet: default
+      coin-shop: default
+      Chat:
+        use-arena-chat: default
+        broadcast-winner: default
+        arena-chat: default
+        spectator-chat: default
+      teleport-on-team-switch: default
+      nametags: default
+      safe-inventory: default
+      hit-sound: default
+      damaged-sound: default
+      paintball-accuracy: default
+      Win-Commands:
+      - default
+      Lose-Commands:
+      - default
+      Tie-Commands:
+      - default
+      Kill-Commands:
+      - default
+      Start-Commands:
+      - default
+      Leave-Commands:
+      - default
+      Join-Commands:
+      - default
+      Finish-Commands:
+      - default
+      coin-shop-type: default
+      CTF:
+        Flag-Pickup: default
+        Flag-Drop: default
+        Flag-Score: default
+    Max: 16
+    Min: 4
+    Spectator:
+      '1': flatroom,10029.073051797628,27.116675732144806,9971.302539182241,1.0514148,5.2493443
+    Teams:
+    - §f:White
+    - §0:Black
+    Lobby:
+      white:
+        '1': flatroom,10032.554950969667,56.0,9998.528088904288,90.30188,-1.2000387
+      black:
+        '1': flatroom,10025.486977944627,56.0,9998.509316746988,-90.14804,-1.0500475
+    Spawn:
+      black:
+        '1': flatroom,9997.551488266656,12.0,9999.499844714399,-89.84555,-8.645654E-5
+      white:
+        '1': flatroom,10060.510906657963,12.0,9999.466258425533,90.45358,-1.0501467
+    white:
+      Flag: flatroom,10064.52420176982,12.0,9999.481097676968,91.50354,90.0
+    black:
+      Flag: flatroom,9993.48221851445,12.0,9999.52866809394,-89.54645,90.0
+  Parkour:
+    Name: Parkour
+    Enabled: true
+    Type: TDM
+    Config:
+      max-score: default
+      team-score-as-countdown: default
+      paintball-splash: default
+      time: default
+      win-waiting-time: default
+      safe-time: default
+      hits-to-kill: default
+      lives: default
+      team-switch-cooldown: default
+      speed: default
+      currency: default
+      Countdown:
+        arena:
+          countdown: default
+          interval: default
+          no-interval: default
+        lobby:
+          countdown: default
+          interval: default
+          no-interval: default
+      Rewards:
+        Coins:
+          per-kill: default
+          per-death: default
+        Money:
+          per-kill: default
+          per-death: default
+          per-win: default
+          per-defeat: default
+      allow-join-in-progress: default
+      coins: default
+      firework-on-death: default
+      cancel-prot-on-hit: default
+      Join-Lobby:
+        per-team-chat: default
+        give-team-switcher: default
+        wool-helmet: default
+      Join-Arena:
+        per-team-chat: default
+        wool-helmet: default
+      coin-shop: default
+      Chat:
+        use-arena-chat: default
+        broadcast-winner: default
+        arena-chat: default
+        spectator-chat: default
+      teleport-on-team-switch: default
+      nametags: default
+      safe-inventory: default
+      hit-sound: default
+      damaged-sound: default
+      paintball-accuracy: default
+      Win-Commands:
+      - default
+      Lose-Commands:
+      - default
+      Tie-Commands:
+      - default
+      Kill-Commands:
+      - default
+      Start-Commands:
+      - default
+      Leave-Commands:
+      - default
+      Join-Commands:
+      - default
+      Finish-Commands:
+      - default
+      coin-shop-type: default
+    Max: 16
+    Min: 4
+    Spectator:
+      '1': flatroom,998.516726920722,100.0,968.4944466518346,90.13742,0.44994873
+    Teams:
+    - §f:White
+    - §0:Black
+    Spawn:
+      white:
+        '1': flatroom,978.9446944295108,88.0,951.9822147389666,0.14151001,-6.00006
+      black:
+        '1': flatroom,979.0218349524197,88.0,988.9781304781444,-179.40468,-3.0000548
+    Lobby:
+      white:
+        '1': flatroom,979.000700984191,99.0,968.5338251223977,0.44430542,6.600009
+      black:
+        '1': flatroom,979.000700984191,99.0,968.5338251223977,0.44430542,6.600009
+  Bus:
+    Name: Bus
+    Enabled: true
+    Type: TDM
+    Config:
+      max-score: default
+      team-score-as-countdown: default
+      paintball-splash: default
+      time: default
+      win-waiting-time: default
+      safe-time: default
+      hits-to-kill: default
+      lives: default
+      team-switch-cooldown: default
+      speed: default
+      currency: default
+      Countdown:
+        arena:
+          countdown: default
+          interval: default
+          no-interval: default
+        lobby:
+          countdown: default
+          interval: default
+          no-interval: default
+      Rewards:
+        Coins:
+          per-kill: default
+          per-death: default
+        Money:
+          per-kill: default
+          per-death: default
+          per-win: default
+          per-defeat: default
+      allow-join-in-progress: default
+      coins: default
+      firework-on-death: default
+      cancel-prot-on-hit: default
+      Join-Lobby:
+        per-team-chat: default
+        give-team-switcher: default
+        wool-helmet: default
+      Join-Arena:
+        per-team-chat: default
+        wool-helmet: default
+      coin-shop: default
+      Chat:
+        use-arena-chat: default
+        broadcast-winner: default
+        arena-chat: default
+        spectator-chat: default
+      teleport-on-team-switch: default
+      nametags: default
+      safe-inventory: default
+      hit-sound: default
+      damaged-sound: default
+      paintball-accuracy: default
+      Win-Commands:
+      - default
+      Lose-Commands:
+      - default
+      Tie-Commands:
+      - default
+      Kill-Commands:
+      - default
+      Start-Commands:
+      - default
+      Leave-Commands:
+      - default
+      Join-Commands:
+      - default
+      Finish-Commands:
+      - default
+      coin-shop-type: default
+    Max: 16
+    Min: 4
+    Spectator:
+      '1': flatroom,-1036.664552144607,108.2311989825627,-1042.5539183537612,-178.19699,19.49989
+    Teams:
+    - §b:Aqua
+    - §e:Yellow
+    Lobby:
+      aqua:
+        '1': flatroom,-1035.7603206859797,94.0,-1004.966756606921,179.25662,-0.45004743
+      yellow:
+        '1': flatroom,-1035.7603206859797,94.0,-1004.966756606921,179.25662,-0.45004743
+    Spawn:
+      yellow:
+        '1': flatroom,-994.904047403496,94.0,-1063.4173231678867,92.55542,-6.750014
+      aqua:
+        '1': flatroom,-1076.7684419348445,94.0,-1051.9232749596708,-89.24411,-1.9500626
+  BaseMilitar:
+    Name: BaseMilitar
+    Enabled: true
+    Type: RTF
+    Config:
+      max-score: default
+      team-score-as-countdown: default
+      paintball-splash: default
+      time: default
+      win-waiting-time: default
+      safe-time: default
+      hits-to-kill: default
+      lives: default
+      team-switch-cooldown: default
+      speed: default
+      currency: default
+      Countdown:
+        arena:
+          countdown: default
+          interval: default
+          no-interval: default
+        lobby:
+          countdown: default
+          interval: default
+          no-interval: default
+      Rewards:
+        Coins:
+          per-kill: default
+          per-death: default
+        Money:
+          per-kill: default
+          per-death: default
+          per-win: default
+          per-defeat: default
+      allow-join-in-progress: default
+      coins: default
+      firework-on-death: default
+      cancel-prot-on-hit: default
+      Join-Lobby:
+        per-team-chat: default
+        give-team-switcher: default
+        wool-helmet: default
+      Join-Arena:
+        per-team-chat: default
+        wool-helmet: default
+      coin-shop: default
+      Chat:
+        use-arena-chat: default
+        broadcast-winner: default
+        arena-chat: default
+        spectator-chat: default
+      teleport-on-team-switch: default
+      nametags: default
+      safe-inventory: default
+      hit-sound: default
+      damaged-sound: default
+      paintball-accuracy: default
+      Win-Commands:
+      - default
+      Lose-Commands:
+      - default
+      Tie-Commands:
+      - default
+      Kill-Commands:
+      - default
+      Start-Commands:
+      - default
+      Leave-Commands:
+      - default
+      Join-Commands:
+      - default
+      Finish-Commands:
+      - default
+      coin-shop-type: default
+      RTF:
+        Flag-Pickup: default
+        Flag-Drop: default
+        Flag-Score: default
+    Max: 16
+    Min: 4
+    Spectator:
+      '1': flatroom,-9912.941739847312,15.0,-9968.627031371121,90.884155,-7.500229
+    Teams:
+    - §4:Red
+    - §9:Blue
+    Neutral:
+      Flag: flatroom,-9910.497279392097,9.5,-9968.491905172783,90.88428,90.0
+    Lobby:
+      blue:
+        '1': flatroom,-9961.300000011921,17.0,-9969.453247268531,89.63098,-5.5507812
+      red:
+        '1': flatroom,-9961.300000011921,17.0,-9969.453247268531,89.63098,-5.5507812
+    Spawn:
+      blue:
+        '1': flatroom,-9979.30438020835,9.0,-9957.574932372741,-95.328,5.849241
+      red:
+        '1': flatroom,-9971.65058627451,21.0,-9972.517418821444,-86.32446,6.8991776
+    red:
+      Flag: flatroom,-9971.320061700173,21.0,-9972.407179757667,-87.22461,90.0
+    blue:
+      Flag: flatroom,-9979.503218134561,9.0,-9957.45719523828,-86.17627,13.499999
+  Clasica:
+    Name: Clasica
+    Enabled: true
+    Type: LTS
+    Config:
+      max-score: default
+      team-score-as-countdown: default
+      paintball-splash: default
+      time: default
+      win-waiting-time: default
+      safe-time: default
+      hits-to-kill: default
+      lives: default
+      team-switch-cooldown: default
+      speed: default
+      currency: default
+      Countdown:
+        arena:
+          countdown: default
+          interval: default
+          no-interval: default
+        lobby:
+          countdown: default
+          interval: default
+          no-interval: default
+      Rewards:
+        Coins:
+          per-kill: default
+          per-death: default
+        Money:
+          per-kill: default
+          per-death: default
+          per-win: default
+          per-defeat: default
+      allow-join-in-progress: default
+      coins: default
+      firework-on-death: default
+      cancel-prot-on-hit: default
+      Join-Lobby:
+        per-team-chat: default
+        give-team-switcher: default
+        wool-helmet: default
+      Join-Arena:
+        per-team-chat: default
+        wool-helmet: default
+      coin-shop: default
+      Chat:
+        use-arena-chat: default
+        broadcast-winner: default
+        arena-chat: default
+        spectator-chat: default
+      teleport-on-team-switch: default
+      nametags: default
+      safe-inventory: default
+      hit-sound: default
+      damaged-sound: default
+      paintball-accuracy: default
+      Win-Commands:
+      - default
+      Lose-Commands:
+      - default
+      Tie-Commands:
+      - default
+      Kill-Commands:
+      - default
+      Start-Commands:
+      - default
+      Leave-Commands:
+      - default
+      Join-Commands:
+      - default
+      Finish-Commands:
+      - default
+      coin-shop-type: default
+    Max: 16
+    Min: 4
+    Spectator:
+      '1': flatroom,-964.659344309991,19.737014862185774,943.8593187185832,0.63098145,2.701435
+    Teams:
+    - §9:Blue
+    - §4:Red
+    Lobby:
+      blue:
+        '1': flatroom,-937.5804378369178,9.0,992.130695678091,90.929016,-1.0500623
+      red:
+        '1': flatroom,-974.9000649030734,9.0,946.0584005945229,-90.11923,-1.6499683
+    Spawn:
+      blue:
+        '1': flatroom,-937.5804378369178,9.0,992.130695678091,90.929016,-1.0500623
+      red:
+        '1': flatroom,-974.9000649030734,9.0,946.0584005945229,-90.11923,-1.6499683
+  Castillo:
+    Name: Castillo
+    Enabled: true
+    Type: CTF
+    Config:
+      max-score: default
+      team-score-as-countdown: default
+      paintball-splash: default
+      time: default
+      win-waiting-time: default
+      safe-time: default
+      hits-to-kill: default
+      lives: default
+      team-switch-cooldown: default
+      speed: default
+      currency: default
+      Countdown:
+        arena:
+          countdown: default
+          interval: default
+          no-interval: default
+        lobby:
+          countdown: default
+          interval: default
+          no-interval: default
+      Rewards:
+        Coins:
+          per-kill: default
+          per-death: default
+        Money:
+          per-kill: default
+          per-death: default
+          per-win: default
+          per-defeat: default
+      allow-join-in-progress: default
+      coins: default
+      firework-on-death: default
+      cancel-prot-on-hit: default
+      Join-Lobby:
+        per-team-chat: default
+        give-team-switcher: default
+        wool-helmet: default
+      Join-Arena:
+        per-team-chat: default
+        wool-helmet: default
+      coin-shop: default
+      Chat:
+        use-arena-chat: default
+        broadcast-winner: default
+        arena-chat: default
+        spectator-chat: default
+      teleport-on-team-switch: default
+      nametags: default
+      safe-inventory: default
+      hit-sound: default
+      damaged-sound: default
+      paintball-accuracy: default
+      Win-Commands:
+      - default
+      Lose-Commands:
+      - default
+      Tie-Commands:
+      - default
+      Kill-Commands:
+      - default
+      Start-Commands:
+      - default
+      Leave-Commands:
+      - default
+      Join-Commands:
+      - default
+      Finish-Commands:
+      - default
+      coin-shop-type: default
+      CTF:
+        Flag-Pickup: default
+        Flag-Drop: default
+        Flag-Score: default
+    Max: 16
+    Min: 4
+    Spectator:
+      '1': flatroom,1001.7484445441485,144.61682356589108,-1056.2856341974316,-90.72312,9.749956
+    Teams:
+    - §7:Silver
+    - §5:Purple
+    Spawn:
+      silver:
+        '1': flatroom,1010.4575338446743,112.0,-1020.4633043484275,0.9261188,-1.0500361
+      purple:
+        '1': flatroom,1010.5437521023226,112.0,-1092.5762800691532,-179.67233,-2.2500496
+    purple:
+      Flag: flatroom,1010.4292100880608,99.0,-1103.5854282406397,0.4757384,0.7499385
+    silver:
+      Flag: flatroom,1010.5016639710799,99.0,-1009.4552726635995,-179.374,0.14993079
+    Lobby:
+      purple:
+        '1': flatroom,1010.448858729816,154.0,-1060.5509046090483,0.7738166,-1.8000169
+      silver:
+        '1': flatroom,1010.4923223766191,154.0,-1052.6395351112772,-179.07698,-1.6500579

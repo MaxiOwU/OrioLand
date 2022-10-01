@@ -1,0 +1,22 @@
+Storage:
+  # sqlite/yaml/mysql
+  # sqlite need minecraft 1.12+
+  type: sqlite
+  # Optional for H2 and Sqlite (default: root)
+  user: root
+  # Optional for H2 and Sqlite (default is empty)
+  pass: ''
+  databases:
+    clan_table: uclans-clans
+    player_table: uclans-players
+  mysql:
+    # Only mysql
+    host: localhost
+    # Only mysql
+    port: 3306
+    # Only mysql
+    base: YOUR-BASE-PRE-CREATED
+    #SSL is only valid for MYSQL, most servers are not necessary to use it as true.
+    useSSL: false
+    #Change mysql table default charset (utf8, latin1 etc...), Use empty for default.
+    charset: utf8

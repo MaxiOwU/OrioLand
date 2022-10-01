@@ -1,0 +1,7 @@
+uuid: ac82b44f-086b-319f-bad1-a6ba3e4bb9bf
+name: lautimalo3d
+primary-group: default
+permissions:
+- mcpets.nutria
+parents:
+- default

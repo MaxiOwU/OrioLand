@@ -1,0 +1,468 @@
+Json:
+  simple:
+    command_unknown:
+      center: false
+      raw_text: '%tag% &cUnknown command, &b[CLICK HERE] &cor use &d/uclan help &cto see the list of available commands.'
+      hover_text: '&aClick here to view Help.'
+      click_type: RUN_COMMAND
+      click_action: /uclan help
+      raw_base_color: RED
+    command_unknown_player:
+      center: false
+      raw_text: '%tag% &cUnknown command, &b[CLICK HERE] &cor use &d/clan help &cto see the list of available commands.'
+      hover_text: '&aClick here to view Help.'
+      click_type: RUN_COMMAND
+      click_action: /clan help
+      raw_base_color: RED
+    clan_ally_rival_list_format:
+      raw_text: ' &8%clan_tag% &7- &b%clan_kdr% &7- &b%clan_members_count%'
+      hover_text: '&aShows Clan information.'
+      click_type: SUGGEST_COMMAND
+      click_action: /clan info %clan_tag_nocolor%
+    clan_list_format:
+      raw_text: ' &a%clan_rank%� &7- &8%clan_tag% &7- &f%clan_desc% &7- &b%clan_kdr% &7- &b%clan_members_count%'
+      hover_text: '&aClick show info of clan.'
+      click_type: SUGGEST_COMMAND
+      click_action: /clan info %clan_tag_nocolor%
+    list_next:
+      raw_text: ' &bNext page >>'
+      hover_text: '&aClick to see the next page.'
+      click_type: RUN_COMMAND
+      click_action: /clan list %next_page%
+    list_prev:
+      raw_text: ' << &bPrevious page'
+      hover_text: '&aClick to see the previous page.'
+      click_type: RUN_COMMAND
+      click_action: /clan list %prev_page%
+    list_controler:
+      raw_text: ' << &bPrevious page'
+      hover_text: '&aClick to see the previous page.'
+      click_type: RUN_COMMAND
+      click_action: /clan list %prev_page%
+    clan_deleted:
+      raw_text: ' &a%clan_rank%� &7- &c&mDeleted clan!'
+      hover_text: '&cSoon it will leave this list!'
+      click_type: ''
+      click_action: ''
+    clan_level:
+      raw_text: '%tag% &eThe &b%clan% &eclan is now at level &b%num%'
+      hover_text: ''
+      click_type: ''
+      click_action: ''
+      extra:
+        # use '' to disable sound
+        sound: ''
+        # use '' to disable title, use %nl% to separate Title and Subtitle
+        title: '&6Level %num% %nl% %clan%'
+        # use '' to disable actionbar message.
+        actionbar: '&6Level %num% &7| %clan%'
+    clan_reward_level:
+      raw_text: '%tag% &eYou earned rewards for your clan reaching level %num%'
+      hover_text: ''
+      click_type: ''
+      click_action: ''
+      extra:
+        # use '' to disable sound
+        sound: ''
+        # use '' to disable title, use %nl% to separate Title and Subtitle
+        title: ''
+        # use '' to disable actionbar message.
+        actionbar: ''
+  advanced:
+    help_pagination:
+      lines:
+        start:
+          center: false
+          raw_text: ' '
+        actions:
+          center: false
+          raw_text: ''
+          sublines:
+            prev:
+              raw_text: ' &a<< Previous '
+              hover_text: '&aClick to see the previous page.'
+              click_type: RUN_COMMAND
+              click_action: /clan help %prev_page%
+              raw_base_color: ''
+            join:
+              raw_text: ' &7| '
+              hover_text: ' '
+              click_type: ''
+              click_action: ''
+              raw_base_color: ''
+            next:
+              raw_text: ' &aNext >> '
+              hover_text: '&aClick to see the next page.'
+              click_type: RUN_COMMAND
+              click_action: /clan help %next_page%
+              raw_base_color: ''
+    help_pagination_admin:
+      lines:
+        start:
+          center: false
+          raw_text: ' '
+        actions:
+          center: false
+          raw_text: ''
+          sublines:
+            prev:
+              raw_text: ' &a<< Previous '
+              hover_text: '&aClick to see the previous page.'
+              click_type: RUN_COMMAND
+              click_action: /uclan help %prev_page%
+              raw_base_color: ''
+            join:
+              raw_text: ' &7| '
+              hover_text: ' '
+              click_type: ''
+              click_action: ''
+              raw_base_color: ''
+            next:
+              raw_text: ' &aNext >> '
+              hover_text: '&aClick to see the next page.'
+              click_type: RUN_COMMAND
+              click_action: /uclan help %next_page%
+              raw_base_color: ''
+    invite_receive:
+      lines:
+        space1:
+          raw_text: ' '
+        start:
+          center: true
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        name:
+          center: true
+          raw_text: '&c&l! &eInvitation received to join Clan &f%clan_tag%'
+          hover_text: '&aClick to ACCEPT or DENY.'
+          click_type: SUGGEST_COMMAND
+          click_action: /clan <join/deny> %clan_tag_nocolor%
+          raw_base_color: SILVER
+        expires:
+          center: true
+          raw_text: '&7Expires in &b%sec_expires% sec&7.'
+          hover_text: '&aClick to ACCEPT or DENY.'
+          click_type: SUGGEST_COMMAND
+          click_action: /clan <join/deny> %clan_tag_nocolor%
+          raw_base_color: SILVER
+        space2:
+          raw_text: ' '
+        actions:
+          center: true
+          raw_text: ''
+          sublines:
+            '1':
+              raw_text: '&a&l[ACCEPT]'
+              hover_text: '&aClick to accept, or use &b/clan join %clan_tag_nocolor%'
+              click_type: RUN_COMMAND
+              click_action: /clan join %clan_tag_nocolor%
+              raw_base_color: ''
+            '2':
+              raw_text: '      &c&l[DENY]'
+              hover_text: '&aClick to deny the request, or use &b/clan deny %clan_tag_nocolor%'
+              click_type: RUN_COMMAND
+              click_action: /clan deny %clan_tag_nocolor%
+              raw_base_color: ''
+        space3:
+          raw_text: ' '
+        end:
+          center: true
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        spaceX:
+          raw_text: ' '
+    ally_receive:
+      lines:
+        space1:
+          raw_text: ' '
+        start:
+          center: true
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        name:
+          center: true
+          raw_text: '&c&l! &eAlliance request received from clan &f%clan_tag%'
+          hover_text: '&aClick to ACCEPT or DENY.'
+          click_type: SUGGEST_COMMAND
+          click_action: /clan ally <accept/deny> %clan_tag_nocolor%
+          raw_base_color: SILVER
+        expires:
+          center: true
+          raw_text: '&7Expires in &b%sec_expires% sec&7.'
+          hover_text: '&aClick to ACCEPT or DENY.'
+          click_type: SUGGEST_COMMAND
+          click_action: /clan ally <join/deny> %clan_tag_nocolor%
+          raw_base_color: SILVER
+        space2:
+          raw_text: ' '
+        actions:
+          center: true
+          raw_text: ''
+          sublines:
+            '1':
+              raw_text: '&a&l[ACCEPT]'
+              hover_text: '&aClick to accept, or use &b/clan ally accept %clan_tag_nocolor%'
+              click_type: RUN_COMMAND
+              click_action: /clan ally accept %clan_tag_nocolor%
+              raw_base_color: ''
+            '2':
+              raw_text: '      &c&l[DENY]'
+              hover_text: '&aClick to deny the request, or use &b/clan ally deny %clan_tag_nocolor%'
+              click_type: RUN_COMMAND
+              click_action: /clan ally deny %clan_tag_nocolor%
+              raw_base_color: ''
+        end:
+          center: true
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        spaceX:
+          raw_text: ' '
+    rival_remove:
+      lines:
+        space1:
+          raw_text: ' '
+        start:
+          center: true
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        name:
+          center: true
+          raw_text: '&c&l! &eThe &f%clan_tag% &eclan has sent a peace request.'
+          hover_text: '&aClick to ACCEPT or DENY.'
+          click_type: SUGGEST_COMMAND
+          click_action: /clan rival <accept/deny> %clan_tag_nocolor%
+          raw_base_color: SILVER
+        expires:
+          center: true
+          raw_text: '&7Expires in &b%sec_expires% sec&7.'
+          hover_text: '&aClick to ACCEPT or DENY.'
+          click_type: SUGGEST_COMMAND
+          click_action: /clan rival <accept/deny> %clan_tag_nocolor%
+          raw_base_color: SILVER
+        space2:
+          raw_text: ' '
+        actions:
+          center: true
+          raw_text: ''
+          sublines:
+            '1':
+              raw_text: '&a&l[ACCEPT]'
+              hover_text: '&aClick to accept, or use &b/clan rival accept %clan_tag_nocolor%'
+              click_type: RUN_COMMAND
+              click_action: /clan rival accept %clan_tag_nocolor%
+              raw_base_color: ''
+            '2':
+              raw_text: '      &c&l[DENY]'
+              hover_text: '&aClick to deny the request, or use &b/clan rival deny %clan_tag_nocolor%'
+              click_type: RUN_COMMAND
+              click_action: /clan rival deny %clan_tag_nocolor%
+              raw_base_color: ''
+        end:
+          center: true
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        spaceX:
+          raw_text: ' '
+    action_create:
+      lines:
+        space1:
+          raw_text: ' '
+        start:
+          center: false
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        name:
+          center: false
+          raw_text: '%tag% &7Type in the chat the name of the new clan you want to create or &c&l[CLICK &c&lHERE] &r&7to cancel!'
+          hover_text: '&eClick to cancel action'
+          click_type: RUN_COMMAND
+          click_action: /clan cancel
+          raw_base_color: SILVER
+        end:
+          center: false
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        spaceX:
+          raw_text: ' '
+    action_disband:
+      lines:
+        space1:
+          raw_text: ' '
+        start:
+          center: false
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        name:
+          center: false
+          raw_text: '%tag% &7Type &b&l%confirm_action% &r&7in the chat to confirm or &c&l[CLICK &c&lHERE] &r&7to cancel!'
+          hover_text: '&eClick to cancel action'
+          click_type: RUN_COMMAND
+          click_action: /clan cancel
+          raw_base_color: SILVER
+        end:
+          center: false
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        spaceX:
+          raw_text: ' '
+    action_changeleader:
+      lines:
+        space1:
+          raw_text: ' '
+        start:
+          center: false
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        name:
+          center: false
+          raw_text: '%tag% &7Type &b&l%confirm_action% &r&7in the chat to confirm or &c&l[CLICK &c&lHERE] &r&7to cancel!'
+          hover_text: '&eClick to cancel action'
+          click_type: RUN_COMMAND
+          click_action: /clan cancel
+          raw_base_color: SILVER
+        end:
+          center: false
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        spaceX:
+          raw_text: ' '
+    action_modtag:
+      lines:
+        space1:
+          raw_text: ' '
+        start:
+          center: false
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        name:
+          center: false
+          raw_text: '%tag% &7Type in the chat the new TAG of the clan or &c&l[CLICK &c&lHERE] &r&7to cancel!'
+          hover_text: '&eClick to cancel action'
+          click_type: RUN_COMMAND
+          click_action: /clan cancel
+          raw_base_color: SILVER
+        end:
+          center: false
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        spaceX:
+          raw_text: ' '
+    action_desc:
+      lines:
+        space1:
+          raw_text: ' '
+        start:
+          center: false
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        name:
+          center: false
+          raw_text: '%tag% &7Type in the chat the new clan description or &c&l[CLICK &c&lHERE] &r&7to cancel!'
+          hover_text: '&eClick to cancel action'
+          click_type: RUN_COMMAND
+          click_action: /clan cancel
+          raw_base_color: SILVER
+        end:
+          center: false
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        spaceX:
+          raw_text: ' '
+    action_name:
+      lines:
+        space1:
+          raw_text: ' '
+        start:
+          center: false
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        name:
+          center: false
+          raw_text: '%tag% &7Type in the chat the new clan name or &c&l[CLICK &c&lHERE] &r&7to cancel!'
+          hover_text: '&eClick to cancel action'
+          click_type: RUN_COMMAND
+          click_action: /clan cancel
+          raw_base_color: SILVER
+        end:
+          center: false
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        spaceX:
+          raw_text: ' '
+    action_homecreate:
+      lines:
+        space1:
+          raw_text: ' '
+        start:
+          center: false
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        name:
+          center: false
+          raw_text: '%tag% &7Type in the chat the &b&lname of new home &7or &c&l[CLICK &c&lHERE] &r&7to cancel!'
+          hover_text: '&eClick to cancel action'
+          click_type: RUN_COMMAND
+          click_action: /clan cancel
+          raw_base_color: SILVER
+        end:
+          center: false
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        spaceX:
+          raw_text: ' '
+    action_homedelete:
+      lines:
+        space1:
+          raw_text: ' '
+        start:
+          center: false
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        name:
+          center: false
+          raw_text: '%tag% &7Type in the chat the &b&lname of the home&7 to delete or &c&l[CLICK &c&lHERE] &r&7to cancel!'
+          hover_text: '&eClick to cancel action'
+          click_type: RUN_COMMAND
+          click_action: /clan cancel
+          raw_base_color: SILVER
+        end:
+          center: false
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        spaceX:
+          raw_text: ' '
+    action_invite:
+      lines:
+        space1:
+          raw_text: ' '
+        start:
+          center: false
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        name:
+          center: false
+          raw_text: '%tag% &7Write in the chat who you want to invite to &7the clan &7 or &c&l[CLICK &c&lHERE] &r&7to cancel!'
+          hover_text: '&eClick to cancel action'
+          click_type: RUN_COMMAND
+          click_action: /clan cancel
+          raw_base_color: SILVER
+        end:
+          center: false
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        spaceX:
+          raw_text: ' '
+    regroup_receive:
+      lines:
+        space1:
+          raw_text: ' '
+        start:
+          center: true
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        name:
+          center: true
+          raw_text: '&c&l! &eRegroup request received! &f%clan_sender%'
+          hover_text: '&aClick to ACCEPT'
+          click_type: SUGGEST_COMMAND
+          click_action: /clan regroup <accept/deny>
+          raw_base_color: SILVER
+        expires:
+          center: true
+          raw_text: '&7Expires in &b%sec_expires% sec&7.'
+          hover_text: '&aClick to ACCEPT or DENY.'
+          click_type: SUGGEST_COMMAND
+          click_action: /clan regroup <accept/deny>
+          raw_base_color: SILVER
+        space2:
+          raw_text: ' '
+        actions:
+          center: true
+          raw_text: ''
+          sublines:
+            '1':
+              raw_text: '&a&l[ACCEPT]'
+              hover_text: '&aClick to accept, or use &b/clan regroup accept'
+              click_type: RUN_COMMAND
+              click_action: /clan regroup accept
+              raw_base_color: ''
+        end:
+          center: true
+          raw_text: '&c&m-&7&m---------------------------------------------&c&m-'
+        spaceX:
+          raw_text: ' '

@@ -1,0 +1,12 @@
+{
+	"credit": "Made with Blockbench by yungwilder",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/valentines21/valentines_ui_mailbox"
+	},
+	"display": {
+		"gui": {
+			"translation": [-0.505,1,0]
+		}
+	}
+}

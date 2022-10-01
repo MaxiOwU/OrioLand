@@ -1,0 +1,25 @@
+SEASON-TO-WINTER: '&b&lYa es invierno!'
+SEASON-TO-FALL: '&b&lYa es otoño!'
+SEASON-TO-SPRING: '&b&lYa es primavera!'
+SEASON-TO-SUMMER: '&b&lYa es verano!'
+NO-PERMISSION-MESSAGE: '&cNo tienes permisos!'
+WINTER-DISPLAY-NAME: Invierno
+FALL-DISPLAY-NAME: Otoño
+SPRING-DISPLAY-NAME: Primavera
+SUMMER-DISPLAY-NAME: Verano
+SEASONCOMMAND-DISABLED: '&cLas estaciones esta desactivadas en este mundo'
+SEASONCOMMAND-RESTORING: '&cEl mundo se esta procesando!'
+SEASONCOMMAND-CURRENTDATE: '&aFecha actual: &2$current_weekday$, $current_month$ $current_day$,
+  año $current_year$'
+SEASONSCOMMAND-CURRENTSEASON: '&aEstación: &2$current_season$'
+SEASONSCOMMAND-AIRTEMPERATURE: '&aTemperatura: $air_temperature$°C'
+SEASONSCOMMAND-DAYSUNTILNEXTSEASON: '&aDias para (&2$next_season$&a): &7$days_until_next_season$'
+SEASONCOMMAND-TIME: '&aHora: &2$time$'
+SEASONCOMMAND-EVENTS: '&aEventos Activos: &2$events$'
+TOGGLESEASONSCOMMAND-MESSAGE: '&aLos colores de las estaciones ahora son &2$status$'
+TOGGLETEMPERATURECOMMAND-MESSAGE: '&aEl sistema de temperatura ahora es &2$status$'
+TOGGLEPARTICLESCOMMAND-MESSAGE: '&aLas particulas de las estaciones estan ahora &2$status$'
+TOGGLEFAHRENHEITCOMMAND-TOFAHRENHEIT: '&aTu temperatura se mostrará ahora en &2Fahrenheit'
+TOGGLEFAHRENHEITCOMMAND-TOCELCIUS: '&aTu temperatura se mostrará ahora en &2Celcius'
+ENABLED: Activado
+DISABLED: Desactivado

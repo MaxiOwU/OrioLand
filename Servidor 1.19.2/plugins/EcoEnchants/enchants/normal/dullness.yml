@@ -1,0 +1,27 @@
+# 
+# Dullness EcoEnchant
+
+description: Chance of giving your opponent weakness.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  targets:
+  - sword
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 3
+name: Dullness
+config:
+  allow-not-fully-charged: false
+  chance-per-level: 2
+  duration-per-level: 10
+
