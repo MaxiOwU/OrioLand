@@ -1,8 +1,0 @@
-{
-	"credit": "Made with Blockbench by yungwilder",
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "item/blossom21/rose_whip",
-		"particle": "item/blossom21/rose_whip"
-	}
-}

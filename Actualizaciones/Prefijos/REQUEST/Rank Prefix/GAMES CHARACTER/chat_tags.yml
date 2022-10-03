@@ -1,8 +1,0 @@
-kratos_tag:
-  texture: default/chat/kratos_tag
-  ascent: 9
-  height: 10
-  chat:
-    placeholders:
-      - ":kratos:"
-    permission: "oraxen.emoji.kratos"

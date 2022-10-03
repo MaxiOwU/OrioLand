@@ -1,8 +1,0 @@
-{
-	"credit": "Made with Blockbench by yungwilder",
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "item/cosmic21/astro_leggings",
-		"layer1": "item/cosmic21/astro_leggings"
-	}
-}

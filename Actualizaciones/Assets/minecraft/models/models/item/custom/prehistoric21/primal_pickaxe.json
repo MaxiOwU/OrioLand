@@ -1,7 +1,0 @@
-{
-	"credit": "Made with Blockbench by yungwilder",
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "item/prehistoric21/primal_pickaxe"
-	}
-}

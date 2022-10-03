@@ -1,7 +1,0 @@
-{
-	"credit": "Made with Blockbench by yungwilder",
-	"parent": "minecraft:item/handheld",
-	"textures": {
-		"layer0": "item/winter21/abominable_axe"
-	}
-}

@@ -1,7 +1,0 @@
-{
-	"credit": "Made with Blockbench by yungwilder",
-	"parent": "item/handheld_rod",
-	"textures": {
-		"layer0": "item/cosmic21/star_catcher"
-	}
-}
