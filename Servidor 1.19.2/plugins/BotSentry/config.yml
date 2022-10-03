@@ -180,11 +180,11 @@ mysql:
   settings:
     updateinterval: 60
   port: 3306
-  username: "orioland_admin"
-  database: "orioland_antibot"
-  password: "OrioLand2021"
-  ip: "116.202.134.139"
-  enabled: true
+  username: ""
+  database: ""
+  password: ""
+  ip: ""
+  enabled: false
 
 # Slow attack detection settings
 # To prevent possible bypasses and breaches, this is dev-Only
