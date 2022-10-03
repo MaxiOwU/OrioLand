@@ -68,7 +68,7 @@ belowname-objective:
   disable-in-worlds:
   - disabledworld
 bossbar:
-  enabled: true
+  enabled: false
   toggle-command: /bossbar
   remember-toggle-choice: true
   hidden-by-default: false
