@@ -4,7 +4,7 @@
 
   
 
- <img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="🤖 Node" src="https://i.ibb.co/wNhBGyv/logo-3.png">   
+ <img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="OrioLand" src="https://i.ibb.co/wNhBGyv/logo-3.png">   
 
   
 
