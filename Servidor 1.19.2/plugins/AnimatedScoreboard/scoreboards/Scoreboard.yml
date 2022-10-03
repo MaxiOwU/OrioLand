@@ -51,7 +51,7 @@ display:
       score: 3
     line-29:
       text:
-      - "&e • Progreso: %alonsoleagues_progress_bar%" 
+      - "&e • Rango: %luckperms_primary_group_name%	" 
       random: false
       interval: 500
       score: 2
