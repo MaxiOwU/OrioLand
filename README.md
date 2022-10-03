@@ -54,15 +54,12 @@ java -Xmx8192M -Xms8192M -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPause
 
   
 
- ⚠️ Puedes modificar el servidor como mas te guste pero no nos hacemos cargo de los servidores manipulados. 
+ ⚠️ Puedes modificar el servidor como mas te guste pero no damos soporte a los servidores manipulados. 
 
   
 
  ## ⚙️ Configuración 
 
-  
-
- Eres libre de editar cualquier configuración de la carpeta Plugins, en esa carpeta encontrarás infinidad de parametros que puedes adaptar a tu gusto.
 
  ⚠️ **Nota: Por defecto ningun plugin está conectado a ninguna base de datos, en caso de que lo necesitéis necesitaréis un servidor MYSQL.**  
 
@@ -71,9 +68,6 @@ java -Xmx8192M -Xms8192M -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPause
  🚨 **NUNCA compartáis contraseñas de las bases de datos.** 🚨 
 
   
-
-  
-
   
 
  ## 🛠️ Características 
@@ -88,7 +82,7 @@ java -Xmx8192M -Xms8192M -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPause
 
  *   ⚙️ Configuración
 
- *   😀 Misiones, Clanes, Tienda, Protecciones, Warps, Eventos...
+ *   😀 Misiones, Clanes, Tienda, Protecciones, Warps, Eventos, Clans, Ah, Sistema de staff, Rangos, Oraxen...
 
   
 
