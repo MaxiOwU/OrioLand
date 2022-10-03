@@ -40,7 +40,7 @@ anticheat:
     - ender_chest
     lava-obscures: false
     max-block-height: 64
-    max-chunk-section-index: 3
+    max-chunk-section-index: 2
     replacement-blocks:
     - stone
     - deepslate
@@ -69,7 +69,7 @@ collisions:
   only-players-collide: false
 entities:
   armor-stands:
-    do-collision-entity-lookups: true
+    do-collision-entity-lookups: false
     tick: false
   behavior:
     baby-zombie-movement-modifier: 0.5
@@ -225,7 +225,11 @@ fixes:
   tnt-entity-height-nerf: 0
 hopper:
   cooldown-when-full: true
-  disable-move-event: true
+  disable-move-event: false
+  disable-move-event-quickshop-tips: QuickShop automatic disabled this due it will
+    allow other players steal items from shop. This notice only shown when have shops
+    in current world and hopper protection is on and also disable-move-event turned
+    on.
   ignore-occluding-blocks: false
 lootables:
   auto-replenish: false

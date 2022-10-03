@@ -72,7 +72,7 @@ world-settings:
     verbose: false
     enable-zombie-pigmen-portal-spawns: true
     item-despawn-rate: 6000
-    view-distance: 5
+    view-distance: 3
     wither-spawn-sound-radius: 0
     nerf-spawner-mobs: false
     end-portal-sound-radius: 0

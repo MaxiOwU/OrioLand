@@ -31,8 +31,8 @@ chunk-system:
   io-threads: -1
   worker-threads: -1
 collisions:
-  enable-player-collisions: true
-  send-full-pos-for-hard-colliding-entities: true
+  enable-player-collisions: false
+  send-full-pos-for-hard-colliding-entities: false
 commands:
   fix-target-selector-tag-completion: true
   suggest-player-names-when-null-tab-completions: true
@@ -94,7 +94,7 @@ player-auto-save:
   rate: -1
 proxies:
   bungee-cord:
-    online-mode: true
+    online-mode: false
   proxy-protocol: false
   velocity:
     enabled: false
@@ -110,7 +110,7 @@ spam-limiter:
   tab-spam-increment: 1
   tab-spam-limit: 500
 timings:
-  enabled: true
+  enabled: false
   hidden-config-entries:
   - database
   - settings.bungeecord-addresses
@@ -119,7 +119,7 @@ timings:
   history-interval: 300
   history-length: 3600
   really-enabled: false
-  server-name: Unknown Server
+  server-name: OrioLand
   server-name-privacy: false
   url: https://timings.aikar.co/
   verbose: true
