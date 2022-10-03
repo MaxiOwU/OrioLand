@@ -1,6 +1,6 @@
 > **⚠ AVISO ⚠**   
 
- > Este servidor todavía no es apto para producción, puede tener varios errores. Gracias por la comprensión 😄 
+ > Este servidor esta en constante actualización, no uses versiones Beta para producción. Gracias por la comprensión 😄 
 
   
 
