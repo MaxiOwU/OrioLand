@@ -1,8 +1,5 @@
 # OrioLand
 
-Meter el actualizador a la carpeta root del server para actualizar los jars de los plugins y el del server.
-
-
 💯 Comando de inicio (Para 8GB de RAM): 
 
 ```
