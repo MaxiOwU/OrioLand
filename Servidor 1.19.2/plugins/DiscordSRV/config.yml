@@ -130,7 +130,7 @@ UseModernPaperChatEvent: false
 # DiscordGameStatus: Text to display. Can be a single value e.g. "Minecraft", or multiple values e.g. ["Minecraft", "yourip.changeme.com"]
 # DiscordOnlineStatus: Activity status to display. This must be one of the following: ONLINE, DND, IDLE or INVISIBLE
 # StatusUpdateRateInMinutes: How frequently to cycle the status
-DiscordGameStatus: ["Minecraft"]
+DiscordGameStatus: ["OrioLand"]
 DiscordOnlineStatus: ONLINE
 StatusUpdateRateInMinutes: 2
 
@@ -203,7 +203,7 @@ DiscordConsoleChannelLogRefreshRateInSeconds: 5
 DiscordConsoleChannelUsageLog: "Console-%date%.log"
 DiscordConsoleChannelBlacklistActsAsWhitelist: false
 DiscordConsoleChannelBlacklistedCommands: ["?", "op", "deop", "execute"]
-DiscordConsoleChannelFilters: {".*(?i)async chat thread.*": "", ".*There are \\d+ (?:of a max of|out of maximum) \\d+ players online.*": ""}
+DiscordConsoleChannelFilters: {".*(?i)async chat thread.*": "", ".*Hay \\d+ (?:of a max of|out of maximum) \\d+ Jugadores.*": ""}
 DiscordConsoleChannelLevels: [info, warn, error]
 DiscordConsoleChannelUseCodeBlocks: true
 DiscordConsoleChannelAllowPluginUpload: false
@@ -252,7 +252,7 @@ DiscordChatChannelListCommandExpirationDeleteRequest: true
 # DiscordChatChannelDiscordFilters: regex filters to be applied to chat messages being sent to Minecraft, if the result is empty the message won't be sent at all
 #
 DiscordChatChannelGameFilters: {}
-DiscordChatChannelDiscordFilters: {".*Online players\\(.*": "", ".*\\*\\*No online players\\*\\*.*": ""}
+DiscordChatChannelDiscordFilters: {".*Jugadores En Linea\\(.*": "", ".*\\*\\*No hay Jugadores En Linea\\*\\*.*": ""}
 
 # Channel topic updater settings
 #
@@ -292,13 +292,13 @@ ChannelTopicUpdaterRateInMinutes: 10
 #     %timestamp%:      current unix timestamp
 #   UpdateInterval: Time in minutes to wait between updating the channel's name (minimum is 10 due to rate limits)
 ChannelUpdater:
-  - ChannelId: "0000000000000000"
-    Format: "%playercount% players online"
-    ShutdownFormat: "Server is offline"
+  - ChannelId: "1026521403840794665"
+    Format: "%playercount% Jugadores"
+    ShutdownFormat: "Offline"
     UpdateInterval: 10
   - ChannelId: "0000000000000000"
-    Format: "Current TPS: %tps%"
-    ShutdownFormat: "Server is offline"
+    Format: "TPS: %tps%"
+    ShutdownFormat: "Offline"
     UpdateInterval: 10
 
 # Discord canned responses
@@ -309,7 +309,7 @@ ChannelUpdater:
 # If you do not want any canned responses, set this to just {}
 # PlaceholderAPI placeholders are supported for the values
 #
-DiscordCannedResponses: {"!ip": "yourserveripchange.me", "!site": "http://yoursiteurl.net"}
+DiscordCannedResponses: {"o!ip": "mc.orioland.com", "o!ip": "mc.orioland.com"}
 
 # Minecraft to Discord account linking
 # These are the options pertaining to how linking a Minecraft account to a Discord account functions
