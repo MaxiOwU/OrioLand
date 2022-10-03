@@ -4,8 +4,8 @@
 
 api:
   # Enable the API and obtain the API URL and API key in StaffCP > Configuration > API
-  url: "https://new.orioland.com/index.php?route=/api/v2"
-  key: "9W5qxERYAyzqTCbEMrI4XGhBlRgWUGoBY8q9X2xg"
+  url: ""
+  key: ""
   # Print detailed information about website requests and responses
   debug: false
   # Maximum time in milliseconds to wait for a response from the website. Sensible values are 3s-15s.
