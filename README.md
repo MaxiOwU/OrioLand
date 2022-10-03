@@ -12,7 +12,7 @@
 
   
 
- > Este repositorio cuenta con un servidor survival 100% personalizable, este survival estuvo disponible durante un año en mc.orioland.com y ha sido programado y configurado por [el equipo de OrioLand](https://orioland.com).   
+ > Este repositorio cuenta con todas las configuraciones para crear tu propio OrioLand, puedes jugar en el servidor oficial entrando a mc.orioland.com. El servidor esta siendo manteniendo por [El equipo de OrioLand](https://orioland.com).   
 
  ¡Añade una ⭐ al repositorio para promocionar el proyecto! 
 
@@ -26,7 +26,11 @@
 
  2. Un servidor u ordenador para mantener el servidor encendido. 
 
- 3. Ultima versión de Java (Java17)
+ 3. Ultima versión de Java 17.
+
+ 4. Conocimientos basicos de Servidores de Minecraft.
+
+ 5. Bases de datos MySQL. (Opcional)
 
   
 
@@ -42,9 +46,7 @@
  
  💯 Comando de inicio (Para 8GB de RAM): 
 
-```
 java -Xmx8192M -Xms8192M -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Daikars.new.flags=true -Dusing.aikars.flags=https://mcflags.emc.gs -jar OrioLand.jar --nogui
-```
 
 
  Esperar a que se inicie del todo
