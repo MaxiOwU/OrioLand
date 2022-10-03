@@ -12,7 +12,7 @@
 
   
 
- > Este repositorio cuenta con todas las configuraciones para crear tu propio OrioLand, puedes jugar en el servidor oficial entrando a mc.orioland.com. El servidor esta siendo manteniendo por [El equipo de OrioLand](https://orioland.com).   
+ > Este repositorio cuenta con todas las configuraciones para crear tu propio OrioLand, puedes jugar en el servidor oficial entrando a mc.orioland.com. El servidor esta siendo manteniendo por [El equipo de OrioLand](https://play.orioland.com).   
 
  ¡Añade una ⭐ al repositorio para promocionar el proyecto! 
 
