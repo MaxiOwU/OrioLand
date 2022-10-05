@@ -51,7 +51,7 @@ bungeecord:
   # The place players will go back to when they leave
   # Only applies if BungeeCord mode is disabled and the go-back-enabled option is true.
   # Syntax: '(x,y,z,worldName)'
-  go-back: (0,100,0,world)
+  #go-back: (0,100,0,world)
   
   # -= Go back axes =-
   # Sets the pitch and yaw of the go-back location.

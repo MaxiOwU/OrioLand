@@ -1,0 +1,160 @@
+# Material list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# EntityType list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+# Attribute list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/attribute/Attribute.html
+# Potion effects list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+# Random UUID generator: https://www.uuidgenerator.net/
+# Color codes: https://docs.adventure.kyori.net/minimessage.html#format
+
+lonsdaleita:
+  displayname: "<gradient:#6EC2F7:#CFEBFC>Lonsdaleita"
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/lonsdaleita.png # .png extension is not mandatory
+
+lonsdaleita_helmet:
+  displayname: "<gradient:#6EC2F7:#CFEBFC>Casco de Lonsdaleita"
+  material: LEATHER_HELMET
+  color: 110, 194, 247
+  Mechanics:
+    durability:
+      value: 587 # 50% more than diamond helmet
+  AttributeModifiers:
+    - { name: "oraxen", attribute: GENERIC_ARMOR, amount: 3, operation: 0,
+        uuid: c1101e00-a85b-4f95-af85-68205d67bd63, slot: HEAD }
+    - { name: "oraxen", attribute: GENERIC_ARMOR_TOUGHNESS, amount: 2, operation: 0,
+        uuid: c1101e00-a85b-4f95-af85-68205d67bd63, slot: HEAD }
+  Pack:
+    custom_model_data: 5
+    generate_model: true
+    parent_model: "item/generated"
+    textures: # duplicate because we use the overlay of the leather armor
+      - default/armors/lonsdaleita_helmet
+      - default/armors/lonsdaleita_helmet
+
+lonsdaleita_chestplate:
+  displayname: "<gradient:#6EC2F7:#CFEBFC>Pechera de Lonsdaleita"
+  material: LEATHER_CHESTPLATE
+  color: 110, 194, 247
+  Mechanics:
+    durability:
+      value: 822
+  AttributeModifiers:
+    - { name: "oraxen", attribute: GENERIC_ARMOR, amount: 8, operation: 0,
+        uuid: e06fc6c9-f06a-4b58-b1e2-10d6b282ac04, slot: CHEST }
+    - { name: "oraxen", attribute: GENERIC_ARMOR_TOUGHNESS, amount: 2, operation: 0,
+        uuid: e06fc6c9-f06a-4b58-b1e2-10d6b282ac04, slot: CHEST }
+  Pack:
+    custom_model_data: 5
+    generate_model: true
+    parent_model: "item/generated"
+    textures: # duplicate because we use the overlay of the leather armor
+      - default/armors/lonsdaleita_chestplate
+      - default/armors/lonsdaleita_chestplate
+
+lonsdaleita_leggings:
+  displayname: "<gradient:#6EC2F7:#CFEBFC>Pantalones de Lonsdaleita"
+  material: LEATHER_LEGGINGS
+  color: 110, 194, 247
+  Mechanics:
+    durability:
+      value: 782
+  AttributeModifiers:
+    - { name: "oraxen", attribute: GENERIC_ARMOR, amount: 6, operation: 0,
+        uuid: 2a881018-5dd6-4031-8454-4b2f278ccd16, slot: LEGS }
+    - { name: "oraxen", attribute: GENERIC_ARMOR_TOUGHNESS, amount: 2, operation: 0,
+        uuid: 2a881018-5dd6-4031-8454-4b2f278ccd16, slot: LEGS }
+  Pack:
+    custom_model_data: 5
+    generate_model: true
+    parent_model: "item/generated"
+    textures: # duplicate because we use the overlay of the leather armor
+      - default/armors/lonsdaleita_leggings
+      - default/armors/lonsdaleita_leggings
+
+lonsdaleita_boots:
+  displayname: "<gradient:#6EC2F7:#CFEBFC>Botas de Lonsdaleita"
+  material: LEATHER_BOOTS
+  color: 110, 194, 247
+  Mechanics:
+    durability:
+      value: 678
+  AttributeModifiers:
+    - { name: "oraxen", attribute: GENERIC_ARMOR, amount: 3, operation: 0,
+        uuid: 1ec15051-59b6-454a-a235-48fa66adcbe7, slot: FEET }
+    - { name: "oraxen", attribute: GENERIC_ARMOR_TOUGHNESS, amount: 2, operation: 0,
+        uuid: 1ec15051-59b6-454a-a235-48fa66adcbe7, slot: FEET }
+  Pack:
+    custom_model_data: 5
+    generate_model: true
+    parent_model: "item/generated"
+    textures: # duplicate because we use the overlay of the leather armor
+      - default/armors/lonsdaleita_boots
+      - default/armors/lonsdaleita_boots
+
+lonsdaleita_pickaxe:
+  displayname: "<gradient:#6EC2F7:#CFEBFC>Pico de Lonsdaleita"
+  material: NETHERITE_PICKAXE
+  Pack:
+    generate_model: true
+    parent_model: "item/handheld"
+    textures:
+      - default/lonsdaleita_pickaxe.png
+  Mechanics:
+    durability:
+      value: 3500 #diamond sword is 1561
+    smelting:
+      enabled: true
+      play_sound: true
+
+lonsdaleita_axe:
+  displayname: "<gradient:#6EC2F7:#CFEBFC>Hacha de Lonsdaleita"
+  material: NETHERITE_AXE
+  Pack:
+    generate_model: true
+    parent_model: "item/handheld"
+    textures:
+      - default/lonsdaleita_axe.png
+  Mechanics:
+    durability:
+      value: 3500 #diamond sword is 1561
+
+lonsdaleita_hoe:
+  displayname: "<gradient:#6EC2F7:#CFEBFC>Azada de Lonsdaleita"
+  material: NETHERITE_HOE
+  Pack:
+    generate_model: true
+    parent_model: "item/handheld"
+    textures:
+      - default/lonsdaleita_hoe.png
+  Mechanics:
+    durability:
+      value: 3500 #diamond sword is 1561
+
+lonsdaleita_shovel:
+  displayname: "<gradient:#6EC2F7:#CFEBFC>Pala de Lonsdaleita"
+  material: NETHERITE_SHOVEL
+  Pack:
+    generate_model: true
+    parent_model: "item/handheld"
+    textures:
+      - default/lonsdaleita_shovel.png
+  Mechanics:
+    durability:
+      value: 3500 #diamond sword is 1561
+
+lonsdaleita_sword:
+  displayname: "<gradient:#6EC2F7:#CFEBFC>Espada de Lonsdaleita"
+  material: NETHERITE_SWORD
+  Pack:
+    generate_model: true
+    parent_model: "item/handheld"
+    textures:
+      - default/lonsdaleita_sword.png
+  Mechanics:
+    durability:
+      value: 3500 #diamond sword is 1561
+    lifeleech:
+      amount: 2
