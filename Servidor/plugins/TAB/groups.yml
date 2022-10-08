@@ -25,16 +25,18 @@ streamer+:
 streamer:
   tabprefix: '&dStreamer&8 | &7'
   tagprefix: '%pvpmanager_pvp_status_prefix% &dStreamer&8 | &7'
-legend:
-  tabprefix: '&dLegend&8 | &7'
-  tagprefix: '%pvpmanager_pvp_status_prefix% &dLegend&8 | &7'
-omega:
-  tabprefix: '&5Omega&8 | &7'
-  tagprefix: '%pvpmanager_pvp_status_prefix% %pvpmanager_pvp_status_prefix% &5Omega&8
-    | &7'
-vip:
-  tabprefix: '&eVip&8 | &7'
-  tagprefix: '%pvpmanager_pvp_status_prefix% &eVip&8 | &7'
+orita:
+  tabprefix: '&6&lOrita&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &6&lOrita&8 | &7'
+lonsdaleita:
+  tabprefix: '&b&lLonsdaleita&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &b&lLonsdaleita&8 | &7'
+ruby:
+  tabprefix: '&4Ruby&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &4Ruby&8 | &7'
+jade:
+  tabprefix: '&aJade&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &aJade&8 | &7'
 dios:
   tabprefix: '&3&lDios&8 | &7'
   tagprefix: '%pvpmanager_pvp_status_prefix% &3&lDios&8 | &7'

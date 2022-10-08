@@ -170,7 +170,7 @@ WorldSettings:
 ItemShortcut:
   # If enabled the players will be given an item they can interact with to open the backpack.
   # The item may not be removed from their inventory as long as this option is enabled.
-  Enabled: true
+  Enabled: false
   # The name of the item in the inventory
   ItemName: "&eMochila"
   # The texture value for the head.

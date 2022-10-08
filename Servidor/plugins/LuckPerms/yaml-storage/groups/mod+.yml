@@ -514,6 +514,7 @@ permissions:
 - ultimatetimber.chop
 - votingplugin.login.remindvotes
 - votingplugin.player
+- weight.10
 - worldguard.region.bypass.survivalserver.survivalspawn.fly
 prefixes:
 - '&2Miembro &f':

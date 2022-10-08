@@ -1,7 +1,0 @@
-uuid: 52a72939-56a6-3313-a06b-386d0e440f10
-name: albert_fail
-primary-group: mod
-permissions:
-- mcpets.nutria
-parents:
-- mod

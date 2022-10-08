@@ -381,6 +381,7 @@ permissions:
 - votingplugin.login.remindvotes
 - votingplugin.player
 - weight.0
+- weight.6
 prefixes:
 - '&2Miembro &f':
     priority: 1

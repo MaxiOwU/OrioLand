@@ -1,10 +1,10 @@
 general:
-  prefix: '<gradient:#9055FF:#13E2DA>Oraxen <#282B3F>| '
+  prefix: '<gradient:#9055FF:#ffcc00>OrioLand <#282B3F>| '
   no_permission: <prefix><#fa4943>You're lacking the permission <b><permission></b>
     to do this!
   work_in_progress: <prefix><#facc43>This feature is work in progress!
   not_player: <prefix><#fa4943>This can only be done as a player!
-  cooldown: <prefix><#facc43>Please wait Another <time> seconds!
+  cooldown: <prefix><#facc43>¡Espera <time> segundos para volver a usar esto!
   reload: <prefix><#55ffa4>Successfully reloaded
   pack_uploading: <prefix><#D5D6D8>Automatic upload of the resource pack is enabled,
     uploading...

@@ -260,7 +260,6 @@ lonslaite_ore:
     noteblock:
       break_sound: block.stone.break
       place_sound: block.stone.place
-      custom_variation: 3
       model: lonslaite_ore
       hardness: 15
       drop:

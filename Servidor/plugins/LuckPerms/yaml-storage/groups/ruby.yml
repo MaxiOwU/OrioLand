@@ -1,0 +1,21 @@
+name: ruby
+permissions:
+- backpack.size.6
+- backpack.use
+- chat.color
+- chatmanager.color
+- chatmanager.color.all
+- chatmanager.colors
+- deluxehub.command.fly
+- essentials.enderchest
+- essentials.feed
+- essentials.fly
+- essentials.heal
+- essentials.sethome.multiple.ruby
+- essentials.workbench
+- jobs.max.15
+- marry.chat.color
+- playerkits.kit.ruby
+- weight.1
+parents:
+- default

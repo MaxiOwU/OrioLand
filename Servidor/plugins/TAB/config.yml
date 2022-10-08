@@ -164,9 +164,10 @@ primary-group-finding-list:
 - YouTuber+
 - Streamer
 - Youtuber
-- Legend
-- Omega
-- Vip
+- Orita
+- Lonsdaleita
+- Ruby
+- Jade
 - Veterano
 - default
 debug: false
@@ -191,4 +192,4 @@ per-world-playerlist:
     - survivalserver_nether
     - survivalserver_the_end
 fix-pet-names:
-  enabled: false
+  enabled: true

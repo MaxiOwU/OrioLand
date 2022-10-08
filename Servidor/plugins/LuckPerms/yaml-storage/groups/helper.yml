@@ -451,6 +451,7 @@ permissions:
 - ultimatetimber.chop
 - votingplugin.login.remindvotes
 - votingplugin.player
+- weight.7
 prefixes:
 - '&2Miembro &f':
     priority: 1

@@ -51,8 +51,6 @@ permissions:
 - blockball.game.spectate.all
 - bukkit.command.plugins:
     value: false
-- chatmanager.commands.all:
-    value: false
 - chatmanager.message
 - chatmanager.reply
 - christmasplus.adventcalendar

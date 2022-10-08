@@ -1,7 +1,0 @@
-uuid: a63af45f-3b16-3b88-aa5a-10c5ae1ce3e4
-name: Isanfuealo
-primary-group: helper
-permissions:
-- mcpets.nutria
-parents:
-- helper

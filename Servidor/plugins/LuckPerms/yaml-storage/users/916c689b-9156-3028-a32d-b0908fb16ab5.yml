@@ -1,7 +1,0 @@
-uuid: 916c689b-9156-3028-a32d-b0908fb16ab5
-name: chikylocker
-primary-group: default
-permissions:
-- mcpets.nutria
-parents:
-- default

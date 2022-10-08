@@ -1,0 +1,26 @@
+name: orita
+permissions:
+- backpack.size.6
+- backpack.use
+- chat.color
+- chatmanager.color
+- chatmanager.color.all
+- chatmanager.colors
+- chatmanager.formats
+- chatmanager.formats.all
+- deluxehub.command.fly
+- essentials.enderchest
+- essentials.feed
+- essentials.fly
+- essentials.heal
+- essentials.repair
+- essentials.sethome.multiple.orita
+- essentials.workbench
+- jobs.max.10
+- marry.chat.color
+- marry.chat.format
+- marry.chat.magic
+- playerkits.kit.orita
+- weight.1
+parents:
+- default

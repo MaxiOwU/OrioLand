@@ -48,14 +48,7 @@ display:
       - "&e • Liga: &f%alonsoleagues_league_display%" 
       random: false
       interval: 500
-      score: 3
-    line-29:
-      text:
-      - "&e • Rango: 07/10/2022" 
-      random: false
-      interval: 500
-      score: 2
-    #This is another blank line to split up the scoreboard in multiple parts, you can have multiple lines with the same text displayed on the scoreboard.  
+      score: 3 
     line-7:
       text:
       - "&e • Ping: &f%player_ping%"
@@ -121,16 +114,4 @@ display:
       random: true
       interval: 500
       score: 4
-    line-98:
-      text:
-      - ""
-      random: true
-      interval: 500
-      score: 2
-    line-99:
-      text:
-      - "&emc.orioland.com"
-      random: true
-      interval: 500
-      score: 1
 #You are able to add more lines to the scoreboard if you want, this scoreboard is just to explain all the possibilities of this plugin.   

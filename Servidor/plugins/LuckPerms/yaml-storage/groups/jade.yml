@@ -1,0 +1,20 @@
+name: jade
+permissions:
+- backpack.size.6
+- backpack.use
+- chat.color
+- chatmanager.color
+- chatmanager.color.all
+- chatmanager.colors
+- deluxehub.command.fly
+- essentials.enderchest
+- essentials.feed
+- essentials.fly
+- essentials.sethome.multiple.jade
+- essentials.workbench
+- jobs.max.5
+- marry.chat.color
+- playerkits.kit.jade
+- weight.1
+parents:
+- default
