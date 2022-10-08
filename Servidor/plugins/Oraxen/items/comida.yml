@@ -1,0 +1,1000 @@
+ajvar:
+  displayname: "<#ffffff>Ajvar"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/ajvar
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 4
+
+ajvar_toast:
+  displayname: "<#ffffff>Tostada de Ajvar"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/ajvar_toast
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 8
+
+almond:
+  displayname: "<#ffffff>Almendra"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/almond
+  Mechanics:
+    food:
+      hunger: 2
+      saturation: 2
+
+almond_brittle:
+  displayname: "<#ffffff>Almendra Quebradiza"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/almond_brittle
+  Mechanics:
+    food:
+      hunger: 6
+      saturation: 6
+
+anchovy:
+  displayname: "<#ffffff>Anchoa"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/anchovy
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 4
+
+anchovy_pizza:
+  displayname: "<#ffffff>Pizza de Anchoa"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/anchovy_pizza
+  Mechanics:
+    food:
+      hunger: 10
+      saturation: 10
+
+apple_cider:
+  displayname: "<#ffffff>Sidra"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/apple_cider
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 4
+
+apple_juice:
+  displayname: "<#ffffff>Zumo de Manzana"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/apple_juice
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 4
+
+apple_pie:
+  displayname: "<#ffffff>Tarta de Manzana"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/apple_pie
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 8
+
+apple_pie_slice:
+  displayname: "<#ffffff>Porcion de Tarta de Manzana"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/apple_pie_slice
+  Mechanics:
+    food:
+      hunger: 2
+      saturation: 2
+
+apricot:
+  displayname: "<#ffffff>Albaricoque"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/apricot
+  Mechanics:
+    food:
+      hunger: 2
+      saturation: 2
+
+apricot_jam:
+  displayname: "<#ffffff>Mermelada de Albaricoques"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/apricot_jam
+  Mechanics:
+    food:
+      hunger: 6
+      saturation: 6
+
+artichoke:
+  displayname: "<#ffffff>Alcachofa"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/artichoke
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 4
+
+artichoke_dip:
+  displayname: "<#ffffff>Dip de Alcachofas"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/artichoke_dip
+  Mechanics:
+    food:
+      hunger: 6
+      saturation: 6
+
+artichoke_dip_chips:
+  displayname: "<#ffffff>Dip de Alcachofas con Patatas Fritas"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/artichoke_dip_chips
+  Mechanics:
+    food:
+      hunger: 10
+      saturation: 10
+
+asparagus:
+  displayname: "<#ffffff>Esparrago"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/asparagus
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 4
+
+avocado:
+  displayname: "<#ffffff>Palcate"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/avocado
+  Mechanics:
+    food:
+      hunger: 6
+      saturation: 6
+
+avocado_toast:
+  displayname: "<#ffffff>Tosdata de Palcate"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/avocado_toast
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 8
+
+bacon:
+  displayname: "<#ffffff>Bacon"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/bacon
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 4
+
+bacon_and_eggs:
+  displayname: "<#ffffff>Bacon con Huevos"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/bacon_and_eggs
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 8
+
+bacon_sandwich:
+  displayname: "<#ffffff>Sandwich de Bacon"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/bacon_sandwich
+  Mechanics:
+    food:
+      hunger: 12
+      saturation: 12
+
+baked_beans:
+  displayname: "<#ffffff>Estofado de Alubias"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/baked_beans
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 8
+
+baked_cod_stew:
+  displayname: "<#ffffff>Estofado de Bacalao"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/baked_cod_stew
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 8
+
+baked_crepes:
+  displayname: "<#ffffff>Crepes"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/baked_crepes
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 8
+
+baked_sweet_potato:
+  displayname: "<#ffffff>Batata Horneada"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/baked_sweet_potato
+  Mechanics:
+    food:
+      hunger: 6
+      saturation: 6
+
+baked_yam:
+  displayname: "<#ffffff>Batata Horneada"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/baked_yam
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 8
+
+banana:
+  displayname: "<#ffffff>Banana"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/banana
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 4
+
+banana_cream_pie:
+  displayname: "<#ffffff>Tarta de Banana"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/banana_cream_pie
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 8
+
+banana_nut_bread:
+  displayname: "<#ffffff>Pan de Banana y Nueces"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/banana_nut_bread
+  Mechanics:
+    food:
+      hunger: 10
+      saturation: 10
+
+banana_smoothie:
+  displayname: "<#ffffff>Smoothie de Banana"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/banana_smoothie
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 8
+
+barbecue_stick:
+  displayname: "<#ffffff>Pincho Moruno"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/barbecue_stick
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 8
+
+barley:
+  displayname: "<#ffffff>Cebada"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/barley
+  Mechanics:
+    food:
+      hunger: 2
+      saturation: 2
+
+basil:
+  displayname: "<#ffffff>Albahaca"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/basil
+  Mechanics:
+    food:
+      hunger: 2
+      saturation: 2
+
+beef_jerky:
+  displayname: "<#ffffff>Carne Seca"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/beef_jerky
+  Mechanics:
+    food:
+      hunger: 2
+      saturation: 2
+
+beef_patty:
+  displayname: "<#ffffff>Empanada de Carne"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/beef_patty
+  Mechanics:
+    food:
+      hunger: 6
+      saturation: 6
+
+beef_stew:
+  displayname: "<#ffffff>Estofado de Ternera"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/beef_stew
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 8
+
+beef_stir_fry:
+  displayname: "<#ffffff>Salteado de Carne de Ternera"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/beef_stir_fry
+  Mechanics:
+    food:
+      hunger: 10
+      saturation: 10
+
+beef_wellington:
+  displayname: "<#ffffff>Wellington de Tenera"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/beef_wellington
+  Mechanics:
+    food:
+      hunger: 10
+      saturation: 10
+
+beer:
+  displayname: "<#ffffff>Cerveza"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/beer
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 4
+
+beetroot_salad:
+  displayname: "<#ffffff>Ensalada de Remolacha"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/beetroot_salad
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 8
+
+bellpepper:
+  displayname: "<#ffffff>Pimiento Morron"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/bellpepper
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 4
+
+blackbean:
+  displayname: "<#ffffff>Alubia Negra"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/blackbean
+  Mechanics:
+    food:
+      hunger: 2
+      saturation: 2
+
+blackberry:
+  displayname: "<#ffffff>Mora"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/blackberry
+  Mechanics:
+    food:
+      hunger: 2
+      saturation: 2
+
+blackberry_jam:
+  displayname: "<#ffffff>Mermelada de Moras"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/blackberry_jam
+  Mechanics:
+    food:
+      hunger: 6
+      saturation: 6
+
+blt:
+  displayname: "<#ffffff>Sandwich BLT"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/blt
+  Mechanics:
+    food:
+      hunger: 12
+      saturation: 12
+
+blueberry:
+  displayname: "<#ffffff>Arandano Azul"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/blueberry
+  Mechanics:
+    food:
+      hunger: 2
+      saturation: 2
+
+blueberry_jam:
+  displayname: "<#ffffff>Mermelada de Arandanos Azules"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/blueberry_jam
+  Mechanics:
+    food:
+      hunger: 6
+      saturation: 6
+
+bone_broth:
+  displayname: "<#ffffff>Caldo de Hueso"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/bone_broth
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 8
+
+borscht:
+  displayname: "<#ffffff>Sopa de Remolachas"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/borscht
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 8
+
+broccoli:
+  displayname: "<#ffffff>Brocoli"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/broccoli
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 4
+
+brownies:
+  displayname: "<#ffffff>Brownies"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/brownies
+  Mechanics:
+    food:
+      hunger: 6
+      saturation: 6
+
+burrito:
+  displayname: "<#ffffff>Burrito"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/burrito
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 8
+
+butter:
+  displayname: "<#ffffff>Mantequilla"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/butter
+  Mechanics:
+    food:
+      hunger: 6
+      saturation: 6
+
+buttered_green_beans:
+  displayname: "<#ffffff>Alubias Verdes con Mantequilla"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/buttered_green_beans
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 8
+
+buttered_toast:
+  displayname: "<#ffffff>Tostada con Mantequilla"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/buttered_toast
+  Mechanics:
+    food:
+      hunger: 6
+      saturation: 6
+
+cabbage:
+  displayname: "<#ffffff>Repollo"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/cabbage
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 4
+
+cabbage_leaf:
+  displayname: "<#ffffff>Hoja de Repollo"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/cabbage_leaf
+  Mechanics:
+    food:
+      hunger: 2
+      saturation: 2
+
+cabbage_rolls:
+  displayname: "<#ffffff>Rollos de Repollo"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/cabbage_rolls
+  Mechanics:
+    food:
+      hunger: 6
+      saturation: 6
+
+caesar_salad:
+  displayname: "<#ffffff>Ensalada Cesar"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/caesar_salad
+  Mechanics:
+    food:
+      hunger: 12
+      saturation: 12
+
+cake_slice:
+  displayname: "<#ffffff>Porcion de Tarta"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/cake_slice
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 4
+
+calamari:
+  displayname: "<#ffffff>Tentaculo de Calamar"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/calamari
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 4
+
+candied_kumquats:
+  displayname: "<#ffffff>Quinotos Caramelizados"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/candied_kumquats
+  Mechanics:
+    food:
+      hunger: 6
+      saturation: 6
+
+candied_nuts:
+  displayname: "<#ffffff>Nueces Caramelizadas"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/candied_nuts
+  Mechanics:
+    food:
+      hunger: 6
+      saturation: 6
+
+candy_corn:
+  displayname: "<#ffffff>Maiz Dulce"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/candy_corn
+  Mechanics:
+    food:
+      hunger: 6
+      saturation: 6
+
+cantaloupe:
+  displayname: "<#ffffff>Rodaja de Melon Cantalupo"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/cantaloupe
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 4
+
+caramel:
+  displayname: "<#ffffff>Caramelo"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/caramel
+  Mechanics:
+    food:
+      hunger: 6
+      saturation: 6
+
+carnitas:
+  displayname: "<#ffffff>Carnitas"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/carnitas
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 8
+
+cashew:
+  displayname: "<#ffffff>Anacardo"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/cashew
+  Mechanics:
+    food:
+      hunger: 2
+      saturation: 2
+
+cashew_chicken:
+  displayname: "<#ffffff>Pollo con Anacardos"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/cashew_chicken
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 8
+
+cauliflower:
+  displayname: "<#ffffff>Coliflor"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/cauliflower
+  Mechanics:
+    food:
+      hunger: 6
+      saturation: 6
+
+celery:
+  displayname: "<#ffffff>Apio"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/celery
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 4
+
+cheese:
+  displayname: "<#ffffff>Queso"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/cheese
+  Mechanics:
+    food:
+      hunger: 6
+      saturation: 6
+
+cheese_cake:
+  displayname: "<#ffffff>Tarta de Queso"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/cheese_cake
+  Mechanics:
+    food:
+      hunger: 10
+      saturation: 10
+
+cheese_pizza:
+  displayname: "<#ffffff>Pizza de Queso"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/cheese_pizza
+  Mechanics:
+    food:
+      hunger: 10
+      saturation: 10
+
+cheeseburger:
+  displayname: "<#ffffff>Hamburguesa con Queso"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/cheeseburger
+  Mechanics:
+    food:
+      hunger: 12
+      saturation: 12
+
+cheesy_asparagus:
+  displayname: "<#ffffff>Esparrago con Queso"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/cheesy_asparagus
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 8
+
+cherry:
+  displayname: "<#ffffff>Cerezas"
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/comida/cherry
+  Mechanics:
+    food:
+      hunger: 2
+      saturation: 2
