@@ -22,7 +22,7 @@
 
   
 
- 1. 6GB de RAM para iniciar + 1GB por 10 jugadores simultáneos aproximadamente.
+ 1. 4GB de RAM para iniciar + 1GB por 10 jugadores simultáneos aproximadamente.
 
  2. Un servidor u ordenador para mantener el servidor encendido. 
 
