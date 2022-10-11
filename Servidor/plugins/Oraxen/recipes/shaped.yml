@@ -84,3 +84,15 @@ glass_sword:
     - _A_
     - _A_
     - _B_
+ajvar_toast:
+  result:
+    oraxen_item: ajvar_toast
+  ingredients:
+    A:
+      oraxen_item: ajvar
+    B:
+      minecraft_type: BREAD
+  shape:
+    - _A_
+    - ___
+    - _B_
