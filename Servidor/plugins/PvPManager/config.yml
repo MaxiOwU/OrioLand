@@ -252,15 +252,6 @@ PvP Toggle:
 
 # Section to configure interactions with other plugins
 Plugin Hooks:
-  BountyHunters:
-    # Disable PvP protection if the player has a bounty on themselves
-    No Protection With Bounty: true
-  Lands:
-    # Disable PvP protection if the player is in a Lands war
-    No Protection In War: true
-  SimpleClans:
-    # Disable PvP protection if the players are in a SimpleClans war
-    No Protection In War: true
   # This only works if you have the TAB plugin, disabling both options will make PvPManager use normal scoreboard teams
   TAB:
     # Show combat prefix in the playerlist (tab)

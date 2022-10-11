@@ -18,7 +18,7 @@ settings:
       # Placement #
       #############
       placement:
-        can-build: true # Only create graves where the entity can build, should work with all protection plugins.
+        can-build: false # Only create graves where the entity can build, should work with all protection plugins.
         can-build-protectionlib: false # Only create graves where the entity can build, (According to ProtectionLib).
         ground: true # If the entity dies in the air should the grave fall to the ground.
         void: true # If the entity dies in the void, should it place a grave in the air if it can't find anywhere else.
@@ -111,7 +111,7 @@ settings:
       # Graveyard #
       #############
       graveyard:
-        enabled: true # Enable the graveyard feature.
+        enabled: false # Enable the graveyard feature.
         death: false # If a suitable graveyard is found, should we still spawn the grave where the entity died.
 
       ############
@@ -144,7 +144,7 @@ settings:
       # Respawn #
       ###########
       respawn:
-        compass: true # Should entities be given a compass to their last grave when they respawn. (Only works for players)
+        compass: false # Should entities be given a compass to their last grave when they respawn. (Only works for players)
         compass-time: 300 # How long should the entity be given a compass on respawn after the grave was first created.
         function: "none" # Should we run a function after respawning, you can use menu and list among the other functions.
 
@@ -182,7 +182,7 @@ settings:
       ############
       # Put an obituary for the entity in the grave.
       obituary:
-        enabled: true # Should obituaries be enabled.
+        enabled: false # Should obituaries be enabled.
         title: "&c%owner_name%'s Obituary"
         author: "%killer_name%"
         glow: true # Should the obituary glow.

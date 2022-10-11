@@ -49,6 +49,7 @@ permissions:
 - blockball.command.use
 - blockball.game.join.all
 - blockball.game.spectate.all
+- blocklocker.protect
 - bukkit.command.plugins:
     value: false
 - chatmanager.message
@@ -313,6 +314,7 @@ permissions:
 - pvpmanager.pvpstatus.others
 - pvpmanager.pvpstatus.self
 - pvpmanager.user
+- pw.commands
 - quickshop.player
 - rankup.info
 - rankup.maxrankup

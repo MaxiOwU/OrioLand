@@ -10,7 +10,7 @@ type = "GOLD_ORE"
 # Another way to refer to the protection stone
 # Can be used for /ps give and /ps get
 # Must be one word (no spaces)
-alias = "16"
+alias = "32"
 
 # Description of the protection block type
 # Shows up in /ps get menu
@@ -48,7 +48,7 @@ placing_bypasses_wg_passthrough = true
     # Minimum distance between claims (that aren't owned by the same owner), measured from the protection block to the edge of another region
     # You will probably have to change this between blocks, since the region sizes will be different
     # Set to -1 for no minimum, but will still check for overlapping regions
-    distance_between_claims = -1
+    distance_between_claims = 32
 
     # Protection radius of block (radius of 64 -> 129 x 129 region)
     # Set y_radius to -1 if you want it to protect for all y levels.
@@ -150,7 +150,7 @@ placing_bypasses_wg_passthrough = true
     # Name given to protection block when obtained with /ps give or /ps get
     # Also affects custom crafted items (see custom_recipe)
     # Leave as '' for no name
-    display_name = "&a&m<---&r&b Proteccion de 16 &r&a&m--->"
+    display_name = "&a&m<---&r&b Proteccion de 32 &r&a&m--->"
 
     # Lore given to protection block when obtained with /ps give or /ps get
     # Also affects custom crafted items (see custom_recipe)

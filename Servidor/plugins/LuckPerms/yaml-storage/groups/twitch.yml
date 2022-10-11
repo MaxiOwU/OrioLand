@@ -49,6 +49,7 @@ permissions:
 - blockball.command.use
 - blockball.game.join.all
 - blockball.game.spectate.all
+- blocklocker.protect
 - bukkit.command.plugins:
     value: false
 - chatmanager.announcement
@@ -356,6 +357,7 @@ permissions:
 - pvpmanager.pvpstatus.others
 - pvpmanager.pvpstatus.self
 - pvpmanager.user
+- pw.commands
 - quickshop.player
 - rankup.info
 - rankup.maxrankup
@@ -381,9 +383,7 @@ permissions:
 - votingplugin.login.remindvotes
 - votingplugin.player
 - weight.0
-- weight.5
+- weight.6
 prefixes:
-- '&2Miembro &f':
-    priority: 1
-- '&dStreamer &f':
+- '&5&lTwitch &f':
     priority: 1
