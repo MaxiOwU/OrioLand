@@ -115,7 +115,7 @@ Anti_Advertising:
   Whitelist:
   - "google.com"
   - "orioland.com"
-  - "play.orioland.com
+  - "play.orioland.com"
 
 #=================================================================================================#
 # Prevent players from executing commands, or typing in chat until they move when they join your server.
