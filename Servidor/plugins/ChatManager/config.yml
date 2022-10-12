@@ -106,7 +106,7 @@ Anti_Advertising:
 
     #The command that is executed when a player advertises.
     #Set this section to Executed_Command: '' to disable
-    Executed_Command: kick {player} Please do not advertise in chat
+    Executed_Command: kick {player} No envíes enlaces.
 
     #Every time a player advertises on signs, their message will be logged in the Advertisements.txt file.
     Log_Advertisers: true
@@ -114,6 +114,8 @@ Anti_Advertising:
   #Websites that wont be blocked if said in chat, commands, or signs.
   Whitelist:
   - "google.com"
+  - "orioland.com"
+  - "play.orioland.com
 
 #=================================================================================================#
 # Prevent players from executing commands, or typing in chat until they move when they join your server.
@@ -152,7 +154,7 @@ Anti_Spam:
 
     #How many seconds does the player have to wait till they send their next message?
     #Set to 0 to disable.
-    Chat_Delay: 1
+    Chat_Delay: 0
 
     #Prevent players from repeating the same messages.
     Block_Repetitive_Messages: false
@@ -370,8 +372,8 @@ Chat_Format:
   Groups:
     default: #The name of the group, this is case sensitive!
       Format: "&2Miembro&r&8 | &7%essentials_nickname% &8» &f{message}" 
-    heroe:
-      Format: "&e&lVip &8| &7%essentials_nickname% &8» &f{message}"
+    jade:
+      Format: "&a&lJade &8| &7%essentials_nickname% &8» &f{message}"
     veterano:
       Format: "&bVeterano&r&8 | &7%essentials_nickname% &8» &f{message}"
     mod:
@@ -390,18 +392,20 @@ Chat_Format:
       Format: "&a&lHelper&6&l+&r&8 | &r&7%essentials_nickname% &8» &f{message}"
     builder:
       Format: "&a&lBuilder&r&8 | &r&7%essentials_nickname% &8» &f{message}"
-    omega:
-      Format: "&5&lOmega &8| &7%essentials_nickname% &8» &f{message}"
-    legend:
-      Format: "&d&lLegend &8| &7%essentials_nickname% &8» &f{message}"
+    ruby:
+      Format: "&4&lRuby &8| &7%essentials_nickname% &8» &f{message}"
+    lonsdaleita:
+      Format: "&b&lLonsdaleita &8| &7%essentials_nickname% &8» &f{message}"
+    orita:
+      Format: "&6&lOrita &8| &7%essentials_nickname% &8» &f{message}"
     manager:
       Format: "&5&lManager&r&8 | &7%essentials_nickname% &8» &f{message}"
     youtuber:
       Format: "&c&lYou&f&lTuber&r&8 | &7%essentials_nickname% &8» &f{message}"
     youtuber+:
       Format: "&c&lYou&f&lTuber&6&l+&r&8 | &7%essentials_nickname% &8» &f{message}"
-    streamer:
-      Format: "&d&lStreamer&r&8 | &7%essentials_nickname% &8» &f{message}"
+    twitch:
+      Format: "&d&lTwitch&r&8 | &7%essentials_nickname% &8» &f{message}"
     streamer+:
       Format: "&d&lStreamer&6&l+&r&8 | &7%essentials_nickname% &8» &f{message}"
     nitro:
