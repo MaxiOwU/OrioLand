@@ -4,7 +4,7 @@ header-footer:
   header:
   - '&8&l&m----------[ &r&6&lOrioLand &8&l&m]----------'
   - '&eNombre: &f%player%'
-  - '&eDinero: &f%vault_eco_balance_formatted%'
+  - '&eDinero: &f%vault_eco_balance_formatted%⛃'
   - '&eJugadores: &f%server_online%&e/&f%server_max_players%'
   - ''
   footer:
