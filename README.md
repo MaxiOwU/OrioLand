@@ -166,6 +166,4 @@ java -Xmx8192M -Xms8192M -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPause
 
  <a href="https://discord.gg/sHMF4dUYvM" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="sHMF4dUYvM" height="30" width="40" /></a> 
 
- </p> 
-
- <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=andiricum2&" alt="andiricum2" /></p>
+ </p>
