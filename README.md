@@ -38,7 +38,52 @@
 
  ## 🚀 Guía de Instalación 
 
-  
+ 1. Instalar Plugins Que por motivos de Licencia no Podemos Otorgar.
+
+###Necesarios:
+
+- Head Database:
+   Spigot (Pago): https://www.spigotmc.org/resources/head-database.14280/
+   
+- Model Engine:
+   Spigot (Pago): https://www.spigotmc.org/resources/model-engine.79477/
+   Demo (Gratis): https://github.com/Ticxo/Model-Engine-Wiki/tree/master/demo (No Se Recomienda)
+   
+- Oraxen:
+   Spigot (Pago): https://www.spigotmc.org/resources/oraxen.72448/
+   
+- PvPManager:
+   Spigot - Premium (Pago): https://www.spigotmc.org/resources/pvpmanager.10610/
+   Spigot - Lite (Gratis): https://www.spigotmc.org/resources/pvpmanager-lite.845/ (No Se Recomienda)
+   GitHub - Lite (Gratis): https://github.com/ChanceSD/PvPManager (No Se Recomienda)
+   
+- Citizens:
+   Spigot (Pago): https://www.spigotmc.org/resources/citizens.13811/
+   Desarrollo (Gratis): https://ci.citizensnpcs.co/job/Citizens2/
+
+###Recomendados:
+
+- EcoEnchants:
+   Spigot (Pago): https://www.spigotmc.org/resources/EcoEnchants.79573/
+   GitHub (Gratis): https://github.com/Auxilor/EcoEnchants/releases/latest/
+   
+- Kixs Chat Games:
+   Spigot (Pago): https://www.spigotmc.org/resources/kixs-chat-games.85143/
+   
+- RealisticSeasons:
+   Spigot (Pago): https://www.spigotmc.org/resources/realisticseasons.93275/
+
+###Opcionales:
+
+- BotSentry:
+   Spigot (Pago): https://www.spigotmc.org/resources/botsentry.55924/
+   
+- Farm Limiter:
+   Spigot (Pago): https://www.spigotmc.org/resources/farm-limiter.1419/
+   
+- Spartan:
+   Spigot (Pago): https://www.spigotmc.org/resources/spartan.25638/
+
 
  1. Ejecutar el siguiente comando:
  
