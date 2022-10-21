@@ -38,9 +38,9 @@
 
  ## 🚀 Guía de Instalación 
 
- 1. Instalar Plugins Que por motivos de Licencia no Podemos Otorgar. (Los plugins de aqui pueden cambiar a medida que vamos añadiendo mas contenido)
+ ### 1. Instalar Plugins Que por motivos de Licencia no Podemos Otorgar. (Los plugins de aqui pueden cambiar a medida que vamos añadiendo mas contenido)
 
-### Necesarios:
+#### Necesarios:
 
 - Head Database: **Para Cabezas Personalizadas**
    - Spigot (Pago): https://www.spigotmc.org/resources/head-database.14280/
@@ -61,7 +61,7 @@
    - Spigot (Pago): https://www.spigotmc.org/resources/citizens.13811/
    - Desarrollo (Gratis): https://ci.citizensnpcs.co/job/Citizens2/
 
-### Recomendados:
+#### Recomendados:
 
 - EcoEnchants: **Para Encantamientos Personalizados**
    - Spigot (Pago): https://www.spigotmc.org/resources/EcoEnchants.79573/
@@ -73,7 +73,7 @@
 - RealisticSeasons: **Para las estaciones dentro del Juego**
    - Spigot (Pago): https://www.spigotmc.org/resources/realisticseasons.93275/
 
-### Opcionales:
+#### Opcionales:
 
 - BotSentry: **Antibot**
    - Spigot (Pago): https://www.spigotmc.org/resources/botsentry.55924/
@@ -85,16 +85,16 @@
    - Spigot (Pago): https://www.spigotmc.org/resources/spartan.25638/
 
 
- 1. Ejecutar el siguiente comando:
+ ### 2. Ejecutar el siguiente comando:
  
  💯 Comando de inicio (Para 8GB de RAM): 
 ```
 java -Xmx8192M -Xms8192M -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Daikars.new.flags=true -Dusing.aikars.flags=https://mcflags.emc.gs -jar OrioLand.jar --nogui
 ```
 
- 2. Esperar a que se inicie del todo
+ ### 3. Esperar a que se inicie del todo
 
- 3. Conectarse al Servidor
+ ### 4. Conectarse al Servidor
 
 
   
