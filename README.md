@@ -114,6 +114,7 @@ java -Xmx8192M -Xms8192M -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPause
  🚨 **NUNCA compartáis contraseñas de las bases de datos.** 🚨 
 
   
+ 😉 **Damos Soporte Limitado a Servidores con Cambios**
   
 
  ## 🛠️ Características 
