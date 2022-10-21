@@ -38,7 +38,8 @@
 
  ## 🚀 Guía de Instalación 
 
- ### 1. Instalar Plugins Que por motivos de Licencia no Podemos Otorgar. (Los plugins de aqui pueden cambiar a medida que vamos añadiendo mas contenido)
+ ### 1. Instalar Plugins Que por motivos de Licencia no Podemos Otorgar. 
+(Los plugins de aqui pueden cambiar a medida que vamos añadiendo mas contenido)
 
 #### Necesarios:
 
