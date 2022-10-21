@@ -40,7 +40,7 @@
 
  1. Instalar Plugins Que por motivos de Licencia no Podemos Otorgar.
 
-###Necesarios:
+### Necesarios:
 
 - Head Database:
    Spigot (Pago): https://www.spigotmc.org/resources/head-database.14280/
@@ -61,7 +61,7 @@
    Spigot (Pago): https://www.spigotmc.org/resources/citizens.13811/
    Desarrollo (Gratis): https://ci.citizensnpcs.co/job/Citizens2/
 
-###Recomendados:
+### Recomendados:
 
 - EcoEnchants:
    Spigot (Pago): https://www.spigotmc.org/resources/EcoEnchants.79573/
@@ -73,7 +73,7 @@
 - RealisticSeasons:
    Spigot (Pago): https://www.spigotmc.org/resources/realisticseasons.93275/
 
-###Opcionales:
+### Opcionales:
 
 - BotSentry:
    Spigot (Pago): https://www.spigotmc.org/resources/botsentry.55924/
