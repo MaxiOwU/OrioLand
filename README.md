@@ -125,7 +125,7 @@ java -Xmx8192M -Xms8192M -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPause
 
  *   ✉️ Un chat 100% personalizado
 
- *   🇪🇸 Servidor en Español 
+ *   🇪🇸 Servidor en Español (Proximamente multilenguaje)
 
  *   ⚙️ Configuración
 
