@@ -164,10 +164,6 @@ java -Xmx8192M -Xms8192M -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPause
 
  <p align="left"> 
 
- <a href="https://twitter.com/andiricum22" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="andiricum22" height="30" width="40" /></a> 
-
- <a href="https://instagram.com/andiricum2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="andiricum2" height="30" width="40" /></a> 
-
  <a href="https://discord.gg/sHMF4dUYvM" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="sHMF4dUYvM" height="30" width="40" /></a> 
 
  </p> 
