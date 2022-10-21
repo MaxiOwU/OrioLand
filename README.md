@@ -159,10 +159,6 @@ java -Xmx8192M -Xms8192M -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPause
 
   
 
- <p align="left"> <a href="https://twitter.com/andiricum22" target="blank"><img src="https://img.shields.io/twitter/follow/andiricum22?logo=twitter&style=for-the-badge" alt="andiricum22" /></a> </p> 
-
-  
-
  <h3 align="left">Ponte en contacto con nosotros:</h3> 
 
  <p align="left"> 
