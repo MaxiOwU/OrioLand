@@ -42,46 +42,46 @@
 
 ### Necesarios:
 
-- Head Database:
+- Head Database: **Para Cabezas Personalizadas**
    - Spigot (Pago): https://www.spigotmc.org/resources/head-database.14280/
    
-- Model Engine:
+- Model Engine: **Para Modelos y Mobs Personalizados**
    - Spigot (Pago): https://www.spigotmc.org/resources/model-engine.79477/
    - Demo (Gratis): https://github.com/Ticxo/Model-Engine-Wiki/tree/master/demo (No Se Recomienda)
    
-- Oraxen:
+- Oraxen: **Para Objetos, Herramientas, Minerales, Bloques Personalizados y Modelos Personalizados**
    - Spigot (Pago): https://www.spigotmc.org/resources/oraxen.72448/
    
-- PvPManager:
+- PvPManager: **Para administrar el PvP entre Jugadores**
    - Spigot - Premium (Pago): https://www.spigotmc.org/resources/pvpmanager.10610/
    - Spigot - Lite (Gratis): https://www.spigotmc.org/resources/pvpmanager-lite.845/ (No Se Recomienda)
    - GitHub - Lite (Gratis): https://github.com/ChanceSD/PvPManager (No Se Recomienda)
    
-- Citizens:
+- Citizens: **Para Usar Los NPCs**
    - Spigot (Pago): https://www.spigotmc.org/resources/citizens.13811/
    - Desarrollo (Gratis): https://ci.citizensnpcs.co/job/Citizens2/
 
 ### Recomendados:
 
-- EcoEnchants:
+- EcoEnchants: **Para Encantamientos Personalizados**
    - Spigot (Pago): https://www.spigotmc.org/resources/EcoEnchants.79573/
    - GitHub (Gratis): https://github.com/Auxilor/EcoEnchants/releases/latest/
    
-- Kixs Chat Games:
+- Kixs Chat Games: **Para Juegos en el Chat**
    - Spigot (Pago): https://www.spigotmc.org/resources/kixs-chat-games.85143/
    
-- RealisticSeasons:
+- RealisticSeasons: **Para las estaciones dentro del Juego**
    - Spigot (Pago): https://www.spigotmc.org/resources/realisticseasons.93275/
 
 ### Opcionales:
 
-- BotSentry:
+- BotSentry: **Antibot**
    - Spigot (Pago): https://www.spigotmc.org/resources/botsentry.55924/
    
-- Farm Limiter:
+- Farm Limiter: **Limitador de Mobs**
    - Spigot (Pago): https://www.spigotmc.org/resources/farm-limiter.1419/
    
-- Spartan:
+- Spartan: **AntiCheat**
    - Spigot (Pago): https://www.spigotmc.org/resources/spartan.25638/
 
 
