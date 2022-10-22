@@ -141,3 +141,12 @@ fire:
   Pack:
     generate_model: false
     model: block/fire_floor0 # so we use the already existing fire model
+
+anillo:
+  displayname: "<gradient:#FFCC00:#FF9524>Anillo"
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/anillo.png
