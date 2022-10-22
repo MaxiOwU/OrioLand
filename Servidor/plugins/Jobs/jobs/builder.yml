@@ -1,8 +1,8 @@
 Builder:
-  fullname: Builder
+  fullname: Constructor
   shortname: B
   FullDescription:
-  - "Earns money for building structures."
+  - "Consigue dinero construyendo estructuras."
   ChatColour: WHITE
   chat-display: full
   max-level: 200
@@ -16,17 +16,17 @@ Builder:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Architect
+      Name: Aquitecto
       Objectives:
       - Place;spruce_planks;50
       - Place;birch_planks;50
       - Place;wool;50
       RewardCommands:
       - eco give [playerName] 100
-      - msg [playerName] Completed quest!
+      - msg [playerName] Mision completada!!
       RewardDesc:
-      - Place blocks and get money
-      - Get 100 for this!
+      - Coloca bloques y consigue dinero
+      - Gana 100 por esto!
   Gui:
     Item: brick_stairs
   Place:
