@@ -279,6 +279,12 @@ permissions:
 - mycommand.cmd.lobby
 - nuvotifier
 - oraxen.emoji.smile
+- oraxen.emoji.tiktok:
+    value: false
+- oraxen.emoji.twitch:
+    value: false
+- oraxen.emoji.youtuber:
+    value: false
 - pinataparty.pool
 - playerkits.kit.miembro
 - protectionstones.buysell
@@ -315,6 +321,7 @@ permissions:
 - pvpmanager.pvpstatus.self
 - pvpmanager.user
 - pw.commands
+- pw.limit.10
 - quickshop.player
 - rankup.info
 - rankup.maxrankup
@@ -339,6 +346,7 @@ permissions:
 - ultimatetimber.chop
 - votingplugin.login.remindvotes
 - votingplugin.player
+- weight.1
 prefixes:
 - '&2Miembro &f':
     priority: 1
