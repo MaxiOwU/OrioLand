@@ -1,8 +1,8 @@
 Enchanter:
-  fullname: Enchanter
+  fullname: Encantador
   shortname: E
   FullDescription:
-  - "Earns money enchanting weapons."
+  - "Gana dinero por encantar armas."
   ChatColour: DARK_BLUE
   chat-display: full
   max-level: 200
@@ -16,17 +16,17 @@ Enchanter:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Harry the wizard
+      Name: Harry El Mago
       Objectives:
       - Enchant;wood_sword;1
       - Enchant;diamond_sword;1
       - Enchant;ARROW_DAMAGE;1
       RewardCommands:
       - eco give [playerName] 100
-      - msg [playerName] Completed quest!
+      - msg [playerName] Mision completada!!
       RewardDesc:
-      - Be a wizard and get money
-      - Get 100 for this!
+      - Se un mago y consigue dinero
+      - Consigue 100 por esto!
   Gui:
     Item: enchanting_table
   Enchant:
