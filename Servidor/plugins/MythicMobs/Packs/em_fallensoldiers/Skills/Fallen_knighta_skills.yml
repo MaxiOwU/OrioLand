@@ -1,0 +1,1439 @@
+fknightastcheck: ##################FALLEN   R  A  V  A  G  E R ________________________________________ ========================================  F A L L E N    H E R O E S
+  Conditions:
+  - playerwithin{d=7} castinstead fknightastcheck2
+  Skills:
+  - stun{d=20;f=false;stopai=true} @Self
+  - spin{d=20;v=0} @self
+  - lunge{vy=-0.05;v=0;repeat=19;repeatinterval=1} @forward{f=0;y=-2}
+  - potion{type=SLOW;duration=23;level=200;p=false;delay=0;force=true} @Self
+  - velocity{m=set;x=0;y=0;z=0} @self
+fknightastcheck2: 
+  Conditions:
+  - playerwithin{d=7} orElseCast fknightastcheck3 #===== MODIFY: THIS IS THE ACTIVATION RANGE FOR THE FALLEN SOLDIERS =================================
+  Skills:
+  - setstance{stance=casting} @self
+  - lockmodel{l=false;delay=32} @Self #LOCKMODEL
+  - spin{d=30;v=0} @self
+  - stun{d=30;f=false;stopai=false} @Self
+  - lunge{vy=-0.45;v=0;repeat=30;repeatinterval=1;delay=0} @forward{f=0;y=-2} ?onground
+  - potion{type=SLOW;duration=33;level=200;p=false;delay=0;force=true} @Self
+  - potion{type=SLOW;duration=3;level=1;p=false;delay=0;force=true;delay=33} @Self
+  - setvariable{var=caster.casting;value="1";t=integer} @Self
+  - setvariable{var=caster.casting;value="0";t=integer;delay=45} @Self
+  - effect:particles{particle=reddust;color=#ECEBE2;amount=90;hS=0.4;vS=1.3;size=2} @Self
+  - setvariable{var=caster.statueform;value="0";t=integer} @Self
+#
+  - state{s=activate_body;li=0;lo=10;n=false} @self
+  - state{s=activate_legs;li=0;lo=10;n=false} @self
+  - state{s=activate_arms;li=0;lo=10;n=false} @self
+#_______ MODEL SWAP __________
+  - partvisibility{m=fallen_knight;p=sword;v=true;delay=18} @self
+  - partvisibility{m=fallen_knight;p=body_sword;v=false;delay=18} @self
+  - changepart{m=fallen_knight;pid=hip;nm=fallen_knight;npid=hip} @self
+  - changepart{m=fallen_knight;pid=chest;nm=fallen_knight;npid=chest} @self
+  - effect:particles{particle=reddust;color=#ECEBE2;amount=35;hS=0.3;vS=0.3;size=2} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+# left arm
+  - changepart{m=fallen_knight;pid=left_arm;nm=fallen_knight;npid=left_arm;delay=7} @self
+  - changepart{m=fallen_knight;pid=left_forearm;nm=fallen_knight;npid=left_forearm;delay=7} @self
+  - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=6} @ModelPart{m=fallen_knight;p=left_forearm;offset=LOCAL;y=0}
+# left leg
+  - changepart{m=fallen_knight;pid=left_leg;nm=fallen_knight;npid=left_leg;delay=10} @self
+  - changepart{m=fallen_knight;pid=left_shin;nm=fallen_knight;npid=left_shin;delay=10} @self
+  - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=8;repeat=12;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_forearm;offset=LOCAL;y=0}
+  - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=8;repeat=12;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_shin;offset=LOCAL;y=0}
+# right leg & arm
+  - changepart{m=fallen_knight;pid=right_arm;nm=fallen_knight;npid=right_arm;delay=12} @self
+  - changepart{m=fallen_knight;pid=right_forearm;nm=fallen_knight;npid=right_forearm;delay=12} @self
+  - changepart{m=fallen_knight;pid=right_leg;nm=fallen_knight;npid=right_leg;delay=12} @self
+  - changepart{m=fallen_knight;pid=right_shin;nm=fallen_knight;npid=right_shin;delay=12} @self
+  - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=11;repeat=12;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_forearm;offset=LOCAL;y=0}
+  - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=11;repeat=12;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_shin;offset=LOCAL;y=0}
+# head & eyes
+  - bodyclamp{m=fallen_knight;c=50} @self
+  - changepart{m=fallen_knight;pid=head;nm=fallen_knight;npid=head;delay=2} @self
+  - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.7;delay=1;repeat=7;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye1;offset=LOCAL;y=0}
+  - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.7;delay=1;repeat=7;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye2;offset=LOCAL;y=0}
+  - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=2;repeatinterval=1} @ModelPart{m=fallen_knight;p=swordparticles5;offset=LOCAL;y=0}
+  - delay 1
+  - sound{s=emaginationfallenheroes:custom.fallenhero.spawn;p=1;v=1} @selflocation
+  - RunAIGoalSelector{goal=randomstroll} @self
+  - RunAIGoalSelector{goal=meleeattack} @self
+  - RunAIGoalSelector{goal=randomlookaround} @self
+  - RunAIGoalSelector{goal=float} @self
+  - setspeed{speed=1.2;type=walking} @Self
+  - sound{s=emaginationfallenknights:custom.fallenknight.spawnb;p=1;v=1;cooldown=2} @selflocation
+  - auraremove{aura=staticfknighta} @self
+  - state{s=idlestatic;li=3;lo=10;n=false;remove=true} @self
+#  - DefaultState{type=IDLE;state=idle_combat;li=3;lo=2;n=false;frame=0;cooldown=2} @self
+  - velocity{m=set;x=0;y=0;z=0} @self
+  - delay 45
+  - setstance{stance=normal} @self
+  - Aura{auraName=checkrunfknighta;onTick=fknighta_runprotocolcheck;interval=30;duration=99999} @self
+  - Aura{auraName=backstepdodgerfknighta;onTick=fknighta_bstpcheck;interval=7;duration=99999} @self
+  - skill{s=fknighta_hp_check;cooldown=99999;sync=true} @PlayersInRadius{r=60}
+fknightastcheck3: 
+  Conditions:
+  - variableEquals{var=caster.statueform;value="1"} true
+  Skills:
+  - setstance{stance=casting} @self
+  - lockmodel{l=false;delay=32} @Self #LOCKMODEL
+  - spin{d=30;v=0} @self
+  - stun{d=30;f=false;stopai=false} @Self
+  - lunge{vy=-0.45;v=0;repeat=30;repeatinterval=1;delay=0} @forward{f=0;y=-2} ?onground
+  - potion{type=SLOW;duration=33;level=200;p=false;delay=0;force=true} @Self
+  - potion{type=SLOW;duration=3;level=1;p=false;delay=0;force=true;delay=33} @Self
+  - setvariable{var=caster.casting;value="1";t=integer} @Self
+  - setvariable{var=caster.casting;value="0";t=integer;delay=45} @Self
+  - effect:particles{particle=reddust;color=#ECEBE2;amount=90;hS=0.4;vS=1.3;size=2} @Self
+  - setvariable{var=caster.statueform;value="0";t=integer} @Self
+#
+  - state{s=activate_body;li=0;lo=10;n=false} @self
+  - state{s=activate_legs;li=0;lo=10;n=false} @self
+  - state{s=activate_arms;li=0;lo=10;n=false} @self
+#_______ MODEL SWAP __________
+  - partvisibility{m=fallen_knight;p=sword;v=true;delay=18} @self
+  - partvisibility{m=fallen_knight;p=body_sword;v=false;delay=18} @self
+  - changepart{m=fallen_knight;pid=hip;nm=fallen_knight;npid=hip} @self
+  - changepart{m=fallen_knight;pid=chest;nm=fallen_knight;npid=chest} @self
+  - effect:particles{particle=reddust;color=#ECEBE2;amount=35;hS=0.3;vS=0.3;size=2} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+# left arm
+  - changepart{m=fallen_knight;pid=left_arm;nm=fallen_knight;npid=left_arm;delay=7} @self
+  - changepart{m=fallen_knight;pid=left_forearm;nm=fallen_knight;npid=left_forearm;delay=7} @self
+  - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=6} @ModelPart{m=fallen_knight;p=left_forearm;offset=LOCAL;y=0}
+# left leg
+  - changepart{m=fallen_knight;pid=left_leg;nm=fallen_knight;npid=left_leg;delay=10} @self
+  - changepart{m=fallen_knight;pid=left_shin;nm=fallen_knight;npid=left_shin;delay=10} @self
+  - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=8;repeat=12;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_forearm;offset=LOCAL;y=0}
+  - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=8;repeat=12;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_shin;offset=LOCAL;y=0}
+# right leg & arm
+  - changepart{m=fallen_knight;pid=right_arm;nm=fallen_knight;npid=right_arm;delay=12} @self
+  - changepart{m=fallen_knight;pid=right_forearm;nm=fallen_knight;npid=right_forearm;delay=12} @self
+  - changepart{m=fallen_knight;pid=right_leg;nm=fallen_knight;npid=right_leg;delay=12} @self
+  - changepart{m=fallen_knight;pid=right_shin;nm=fallen_knight;npid=right_shin;delay=12} @self
+  - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=11;repeat=12;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_forearm;offset=LOCAL;y=0}
+  - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=11;repeat=12;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_shin;offset=LOCAL;y=0}
+# head & eyes
+  - bodyclamp{m=fallen_knight;c=50} @self
+  - changepart{m=fallen_knight;pid=head;nm=fallen_knight;npid=head;delay=2} @self
+  - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.7;delay=1;repeat=7;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye1;offset=LOCAL;y=0}
+  - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.7;delay=1;repeat=7;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye2;offset=LOCAL;y=0}
+  - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=2;repeatinterval=1} @ModelPart{m=fallen_knight;p=swordparticles5;offset=LOCAL;y=0}
+  - delay 1
+  - sound{s=emaginationfallenheroes:custom.fallenhero.spawn;p=1;v=1} @selflocation
+  - RunAIGoalSelector{goal=randomstroll} @self
+  - RunAIGoalSelector{goal=meleeattack} @self
+  - RunAIGoalSelector{goal=randomlookaround} @self
+  - RunAIGoalSelector{goal=float} @self
+  - setspeed{speed=1.2;type=walking} @Self
+  - sound{s=emaginationfallenknights:custom.fallenknight.spawnb;p=1;v=1;cooldown=2} @selflocation
+  - auraremove{aura=staticfknighta} @self
+  - state{s=idlestatic;li=3;lo=10;n=false;remove=true} @self
+#  - DefaultState{type=IDLE;state=idle_combat;li=3;lo=2;n=false;frame=0;cooldown=2} @self
+  - velocity{m=set;x=0;y=0;z=0} @self
+  - delay 45
+  - setstance{stance=normal} @self
+  - Aura{auraName=checkrunfknighta;onTick=fknighta_runprotocolcheck;interval=30;duration=99999} @self
+  - Aura{auraName=backstepdodgerfknighta;onTick=fknighta_bstpcheck;interval=7;duration=99999} @self
+  - skill{s=fknighta_hp_check;cooldown=99999;sync=true} @PlayersInRadius{r=60}
+
+fknighta_hp_check:
+  Conditions:
+  - playersinradius{a=2;r=60} orElseCast fknighta_hp_checkB
+  Skills:
+  - setmaxhealth{amount=35;mode=SCALE} @self
+fknighta_hp_checkB:
+  Conditions:
+  - playersinradius{a=1;r=60} false
+  - playersinradius{a=3;r=60} orElseCast fknighta_hp_checkC
+  Skills:
+  - setmaxhealth{amount=40;mode=SCALE} @self
+fknighta_hp_checkC:
+  Conditions:
+  - playersinradius{a=1;r=60} false
+  - playersinradius{a=4;r=60} orElseCast fknighta_hp_checkD
+  Skills:
+  - setmaxhealth{amount=44;mode=SCALE} @self
+fknighta_hp_checkD:
+  Conditions:
+  - playersinradius{a=1;r=60} false
+  - playersinradius{a=5;r=60} orElseCast fknighta_hp_checkE
+  Skills:
+  - setmaxhealth{amount=48;mode=SCALE} @self
+fknighta_hp_checkE:
+  Conditions:
+  - playersinradius{a=1;r=60} false
+  - playersinradius{a=6;r=60} orElseCast fknighta_hp_checkF
+  Skills:
+  - setmaxhealth{amount=51;mode=SCALE} @self
+fknighta_hp_checkF:
+  Conditions:
+  - playersinradius{a=1;r=60} false
+  - playersinradius{a=>6;r=60} true
+  - playersinradius{a=>9;r=60} castinstead fknighta_hp_checkG
+  Skills:
+  - setmaxhealth{amount=54;mode=SCALE} @self
+fknighta_hp_checkG:
+  Conditions:
+  - playersinradius{a=>9;r=60} true
+  Skills:
+  - setmaxhealth{amount=58;mode=SCALE} @self
+
+
+# HURT SKILLS
+
+hurt1fknighta:
+  Cooldown: 2
+  Skills:
+  - Aura{auraName=nule_parry;duration=8} @self 0.8
+  - skill{s=fknighta_backhurtCLEAR;sync=true} @Trigger 0.25
+  - variableadd{var=caster.hitrec;amount=1} @self
+  - variableadd{var=caster.combor;amount=1} @self
+  - state{state=hurt1;li=0;lo=0;n=false;speed=1.2} @self
+  - skill{s=fknighta_parrystance_trigger} @self 0.15 ?variableInRange{var=caster.hitrec;value=5to8}
+  - skill{s=fknighta_parrystance_trigger} @self 0.25 ?variableInRange{var=caster.hitrec;value=>8}
+  - Aura{auraName=shielderfknighta;onTick=fknighta_sdppcheck;interval=7;duration=40;mergeSameCaster=true} @self 0.15 ?variableInRange{var=caster.hitrec;value=5to8}
+  - Aura{auraName=shielderfknighta;onTick=fknighta_sdppcheck;interval=7;duration=40;mergeSameCaster=true} @self 0.28 ?variableInRange{var=caster.hitrec;value=>8}
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hurt;p=0.9;v=1.2;cooldown=2} @selflocation 0.65
+  - potion{type=SLOW;duration=20;level=0;p=false;force=false} @Self ?!haspotioneffect{type=SLOW;level=>0;duration=0to200}
+  - skill{s=hurtbad2_fknighta} @self 0.65 ?hasaura{n=hurtedbad}
+  - skill{s=hurtbfknighta} @self 0.18 ?!hasaura{n=quickrunned} ?!hasaura{n=largecast} ?!hasaura{n=parried}
+  - skill{s=hurtbfknighta} @self 0.10 ?hasaura{n=quickrunned}
+  - skill{s=hurtbfknighta} @self 0.05 ?hasaura{n=largecast}
+  - skill{s=hurtbfknighta} @self 0.85 ?hasaura{n=parried}
+  - delay 15
+hurt2fknighta:
+  Cooldown: 2
+  Skills:
+  - Aura{auraName=nule_parry;duration=8} @self 0.8
+  - skill{s=fknighta_backhurtCLEAR;sync=true} @Trigger 0.25
+  - variableadd{var=caster.hitrec;amount=1} @self
+  - variableadd{var=caster.combor;amount=1} @self
+  - state{state=hurt2;li=0;lo=0;n=false;speed=1.2} @self
+  - skill{s=fknighta_parrystance_trigger} @self 0.15 ?variableInRange{var=caster.hitrec;value=5to8}
+  - skill{s=fknighta_parrystance_trigger} @self 0.25 ?variableInRange{var=caster.hitrec;value=>8}
+  - Aura{auraName=shielderfknighta;onTick=fknighta_sdppcheck;interval=7;duration=40;mergeSameCaster=true} @self 0.15 ?variableInRange{var=caster.hitrec;value=5to8}
+  - Aura{auraName=shielderfknighta;onTick=fknighta_sdppcheck;interval=7;duration=40;mergeSameCaster=true} @self 0.28 ?variableInRange{var=caster.hitrec;value=>8}
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hurt;p=0.9;v=1.2;cooldown=2} @selflocation 0.65
+  - potion{type=SLOW;duration=20;level=0;p=false;force=false} @Self ?!haspotioneffect{type=SLOW;level=>0;duration=0to200}
+  - skill{s=hurtbad2_fknighta} @self 0.65 ?hasaura{n=hurtedbad}
+  - skill{s=hurtbfknighta} @self 0.18 ?!hasaura{n=quickrunned} ?!hasaura{n=largecast} ?!hasaura{n=parried}
+  - skill{s=hurtbfknighta} @self 0.10 ?hasaura{n=quickrunned}
+  - skill{s=hurtbfknighta} @self 0.05 ?hasaura{n=largecast}
+  - skill{s=hurtbfknighta} @self 0.85 ?hasaura{n=parried}
+  - delay 15
+hurt3fknighta:
+  Cooldown: 2
+  Skills:
+  - Aura{auraName=nule_parry;duration=8} @self 0.8
+  - skill{s=fknighta_backhurtCLEAR;sync=true} @Trigger 0.25
+  - variableadd{var=caster.hitrec;amount=1} @self
+  - variableadd{var=caster.combor;amount=1} @self
+  - state{state=hurt3;li=0;lo=0;n=false;speed=1.2} @self
+  - skill{s=fknighta_parrystance_trigger} @self 0.15 ?variableInRange{var=caster.hitrec;value=5to8}
+  - skill{s=fknighta_parrystance_trigger} @self 0.25 ?variableInRange{var=caster.hitrec;value=>8}
+  - Aura{auraName=shielderfknighta;onTick=fknighta_sdppcheck;interval=7;duration=40;mergeSameCaster=true} @self 0.15 ?variableInRange{var=caster.hitrec;value=5to8}
+  - Aura{auraName=shielderfknighta;onTick=fknighta_sdppcheck;interval=7;duration=40;mergeSameCaster=true} @self 0.28 ?variableInRange{var=caster.hitrec;value=>8}
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hurt;p=0.9;v=1.2;cooldown=2} @selflocation 0.65
+  - potion{type=SLOW;duration=20;level=0;p=false;force=false} @Self ?!haspotioneffect{type=SLOW;level=>0;duration=0to200}
+  - skill{s=hurtbad2_fknighta} @self 0.65 ?hasaura{n=hurtedbad}
+  - skill{s=hurtbfknighta} @self 0.18 ?!hasaura{n=quickrunned} ?!hasaura{n=largecast} ?!hasaura{n=parried}
+  - skill{s=hurtbfknighta} @self 0.10 ?hasaura{n=quickrunned}
+  - skill{s=hurtbfknighta} @self 0.05 ?hasaura{n=largecast}
+  - skill{s=hurtbfknighta} @self 0.85 ?hasaura{n=parried}
+  - delay 15
+hurt4fknighta:
+  Cooldown: 2
+  Skills:
+  - Aura{auraName=nule_parry;duration=8} @self 0.8
+  - skill{s=fknighta_backhurtCLEAR;sync=true} @Trigger 0.25
+  - variableadd{var=caster.hitrec;amount=1} @self
+  - variableadd{var=caster.combor;amount=1} @self
+  - state{state=hurt4;li=0;lo=0;n=false;speed=1.2} @self
+  - skill{s=fknighta_parrystance_trigger} @self 0.15 ?variableInRange{var=caster.hitrec;value=5to8}
+  - skill{s=fknighta_parrystance_trigger} @self 0.25 ?variableInRange{var=caster.hitrec;value=>8}
+  - Aura{auraName=shielderfknighta;onTick=fknighta_sdppcheck;interval=7;duration=40;mergeSameCaster=true} @self 0.15 ?variableInRange{var=caster.hitrec;value=5to8}
+  - Aura{auraName=shielderfknighta;onTick=fknighta_sdppcheck;interval=7;duration=40;mergeSameCaster=true} @self 0.28 ?variableInRange{var=caster.hitrec;value=>8}
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hurt;p=0.9;v=1.2;cooldown=2} @selflocation 0.65
+  - potion{type=SLOW;duration=20;level=0;p=false;force=false} @Self ?!haspotioneffect{type=SLOW;level=>0;duration=0to200}
+  - skill{s=hurtbad2_fknighta} @self 0.65 ?hasaura{n=hurtedbad}
+  - skill{s=hurtbfknighta} @self 0.18 ?!hasaura{n=quickrunned} ?!hasaura{n=largecast} ?!hasaura{n=parried} ?!hasaura{n=hurtedbad}
+  - skill{s=hurtbfknighta} @self 0.10 ?hasaura{n=quickrunned}
+  - skill{s=hurtbfknighta} @self 0.05 ?hasaura{n=largecast}
+  - skill{s=hurtbfknighta} @self 0.85 ?hasaura{n=parried}
+  - delay 15
+#HURTBAD
+hurtbfknighta:
+  Cooldown: 4
+  Conditions:
+  - variableEquals{var=caster.casting;value="1"} false
+  - variableEquals{var=caster.running;value="2"} false
+  - hasaura{n=hurtedbad} false
+  Skills:
+  - setstance{stance=casting} @self ?stance{s=normal}
+  - skill{s=fknighta_hurtCLEAR;sync=true} 0.35
+  - variableadd{var=caster.hitrec;amount=2} @self
+  - variableadd{var=caster.combor;amount=1} @self
+  - variableadd{var=caster.combor;amount=1} @self 0.5
+  - setvariable{var=caster.casting;value="1";t=integer} @Self ?variableEquals{var=caster.casting;value="0"} 
+  - summon{mob=knighta_expFXmarker1;amount=1;noise=0.5;r=0.6;yr=0} @SelfLocation{y=-2.2}
+  - randomskill{s=[
+      - state{state=hurtbad1;li=3;lo=8;n=false;speed=1} @self
+    ],
+      [
+      - state{state=hurtbad2;li=3;lo=8;n=false;speed=1} @self
+    ],
+      [
+      - state{state=hurtbad3;li=3;lo=8;n=false;speed=1} @self
+    ],
+      [
+      - state{state=hurtbad4;li=3;lo=8;n=false;speed=1} @self
+    ];sync=true}
+  - setvariable{var=caster.hurtened;value="1";t=integer} @Self
+  - potion{type=SLOW;duration=1;level=0;p=false;force=true} @Self
+  - potion{type=SLOW;duration=9;level=7;p=false;force=true;delay=1} @Self
+  - potion{type=SLOW;duration=10;level=7;p=false;force=true;delay=9} @Self
+  - potion{type=SLOW;duration=10;level=7;p=false;force=true;delay=19} @Self
+  - sound{s=emaginationfallenreaper:custom.fallenreaper.hurt;p=0.84;v=1.5;cooldown=2} @selflocation ############SOUND
+  - sound{s=emaginationfallenreaper:custom.fallenreaper.hurt;p=0.94;v=1.5;cooldown=2} @selflocation
+#STATEREMOVE
+  - state{remove=true;s=attack;lo=3;n=false} @self
+  - state{remove=true;s=attack1;lo=3;n=false} @self
+  - state{remove=true;s=attack2;lo=3;n=false} @self
+  - state{remove=true;s=attack3;lo=3;n=false} @self
+  - state{remove=true;s=attack3b;lo=3;n=false} @self
+  - state{remove=true;s=attack3c;lo=3;n=false} @self
+  - state{remove=true;state=attack5;lo=3;n=false;speed=1} @self
+  - state{remove=true;state=attack5_fast;lo=3;n=false;speed=1} @self
+  - state{remove=true;state=attack4;lo=3;n=false;speed=1} @self
+  - state{remove=true;state=attack4b;lo=3;n=false;speed=1} @self
+  - state{remove=true;state=attack4b_corrector;lo=3;n=false;speed=1} @self
+  - state{remove=true;state=attack6_cast;lo=3;n=false;speed=1} @self
+  - state{remove=true;state=attack7_cast;lo=3;n=false;speed=1} @self
+  - state{remove=true;state=attack7;lo=3;n=false;speed=1} @self
+  - state{remove=true;state=attack8;lo=3;n=false;speed=1} @self
+  - state{state=attackb1;li=0;lo=0;remove=true} @self
+  - state{state=attackb2;li=0;lo=0;remove=true} @self
+  - state{state=attackb3_a;li=0;lo=0;remove=true} @self
+  - state{state=attackb3_b;li=0;lo=0;remove=true} @self
+  - state{remove=true;state=attack6_channel;lo=3;n=false;speed=1} @self
+#
+  - Aura{auraName=hurtedbad;duration=32} @self
+  - delay 12
+  - skill{s=[
+    - Aura{auraName=shielderfknighta;onTick=fknighta_sdppcheck;interval=7;duration=60;mergeSameCaster=true} @self
+    - setvariable{var=caster.hurtened;value="0";t=integer} @Self
+    - setstance{stance=normal} @self ?stance{s=casting}
+    - setvariable{var=caster.casting;value="0";t=integer} @Self
+    - Aura{auraName=bruttackrest;duration=20} @self];sync=false} @Self 0.4 ?!variableEquals{var=caster.skillxd;value="hurtedvbad"} ?variableEquals{var=caster.skillxd;value="none"}
+  - skill{s=fknighta_parrystance_trigger} @Self =60%-95% 0.45 ?!variableEquals{var=caster.skillxd;value="hurtedvbad"} ?variableEquals{var=caster.skillxd;value="none"}
+  - skill{s=fknighta_parrystance_trigger} @Self =30%-60% 0.55 ?!variableEquals{var=caster.skillxd;value="hurtedvbad"} ?variableEquals{var=caster.skillxd;value="none"}
+  - skill{s=fknighta_parrystance_trigger} @Self <30% 0.65 ?!variableEquals{var=caster.skillxd;value="hurtedvbad"} ?variableEquals{var=caster.skillxd;value="none"}
+  - delay 21
+  - setvariable{var=caster.hurtened;value="0";t=integer} @Self ?!variableEquals{var=caster.skillxd;value="hurtedvbad"}
+  - setstance{stance=normal} @self ?stance{s=casting} ?!variableEquals{var=caster.skillxd;value="hurtedvbad"}
+  - setvariable{var=caster.casting;value="0";t=integer} @Self ?variableEquals{var=caster.casting;value="1"} ?!variableEquals{var=caster.skillxd;value="hurtedvbad"}
+  - skill{s=fknighta_parrystance_trigger} @Self =60%-95% 0.65 ?!variableEquals{var=caster.skillxd;value="hurtedvbad"}
+  - skill{s=fknighta_parrystance_trigger} @Self =30%-60% 0.75 ?!variableEquals{var=caster.skillxd;value="hurtedvbad"}
+  - skill{s=fknighta_parrystance_trigger} @Self <30% 0.85 ?!variableEquals{var=caster.skillxd;value="hurtedvbad"}
+
+####
+
+hurtedbad_antilunge1:
+  Conditions:
+  - variableEquals{var=caster.hurtened;value="1"} true
+  - variableEquals{var=caster.skillxd;value="hurtedvbad"} true
+  Skills:
+  - lunge{v=-0.15} @forward{f=-10}
+hurtedbad_antilunge2:
+  Conditions:
+  - variableEquals{var=caster.hurtened;value="1"} true
+  - variableEquals{var=caster.skillxd;value="hurtedvbad"} true
+  Skills:
+  - lunge{v=-0.07} @forward{f=-10}
+
+#HURTVERYBAD
+
+hurtbad2_fknighta:
+  Cooldown: 4
+  Conditions:
+  - hasaura{n=hurtedbad} true
+  Skills:
+  - message{m="Casted &eHurtedBad"} @PlayersNearOrigin{r=75} 0 #DEGBUGMESSAGE
+  - setstance{stance=casting} @self
+  - setvariable{var=caster.skillxd;value="hurtedvbad";t=string} @Self
+  - sound{s=emaginationfallenknights:custom.spell.swordclash;p=<random.float.1.5to2>;v=2} @selflocation
+  - sound{s=emaginationfallenreaper:custom.fallenreaper.hurt;p=1;v=1.5} @selflocation 
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=<random.float.1.5to2>;v=1.5} @selflocation
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=<random.float.1.5to2>;v=1} @selflocation
+  - variableadd{var=caster.hitrec;amount=4} @self
+  - randomskill{s=[
+      - state{state=hurtverybad1;li=3;lo=8;n=false;speed=1} @self
+    ],
+      [
+      - state{state=hurtverybad2;li=3;lo=8;n=false;speed=1} @self
+    ],
+      [
+      - state{state=hurtverybad3;li=3;lo=8;n=false;speed=1} @self
+    ],
+      [
+      - state{state=hurtverybad4;li=3;lo=8;n=false;speed=1} @self
+    ];sync=true}
+  - Aura{auraName=parried;duration=45} @self
+  - summon{mob=knighta_expFXmarker1;amount=1;noise=0.5;r=0.6;yr=0} @Forward{y=-2.4;f=0.2;sideOffset=0.7}
+  - summon{mob=knighta_expFXmarker1;amount=1;noise=1.5;r=1.3;yr=0.5;delay=1} @Forward{y=-2.4;f=0.1;sideOffset=0.4}
+  - summon{mob=knighta_expFXmarker1;amount=1;noise=2.5;r=1.2;yr=0.5;delay=2} @Forward{y=-2.4;f=0;sideOffset=0.4}
+  - summon{mob=knighta_expFXmarker1;amount=1;noise=3.5;r=1.2;yr=0.5;delay=3} @Forward{y=-2.4;f=0;sideOffset=0.4}
+  #
+  - potion{type=SLOW;duration=58;level=15;p=false;force=true} @Self
+  - state{remove=true;s=attack1;lo=3;n=false} @self
+  - state{remove=true;s=attack2;lo=3;n=false} @self
+  - state{remove=true;s=attack3;lo=3;n=false} @self
+  - state{remove=true;s=attack2_start;lo=3;n=false} @self
+  - state{remove=true;s=attack1_parrying;lo=3;n=false} @self
+  - state{remove=true;s=attack2_parrying;lo=3;n=false} @self
+  - state{remove=true;s=attack3_parrying;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad1;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad2;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad3;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad4;lo=3;n=false} @self
+  #
+  - setvariable{var=caster.hurtened;value="1";t=integer} @Self
+  - setvariable{var=caster.countered;value="1";t=integer} @Self
+  - setvariable{var=caster.casting;value="1";t=integer} @Self
+  - skill{s=hurtedbad_antilunge1;delay=1;repeat=14;repeatInterval=1} @Self
+  - skill{s=hurtedbad_antilunge2;repeat=5;repeatInterval=1;delay=15} @Self
+  - delay 20
+  - Aura{auraName=shielderfknighta;onTick=fknighta_sdppcheck;interval=7;duration=60;mergeSameCaster=true} @self 0.4
+  - skill{s=[
+    - setvariable{var=caster.hurtened;value="0";t=integer} @Self
+    - setstance{stance=normal} @self ?stance{s=casting}
+    - setvariable{var=caster.casting;value="0";t=integer} @Self
+    - Aura{auraName=bruttackrest;duration=30} @self
+    - setvariable{var=caster.skillxd;value="none";t=string} @Self];sync=false} @Self 0.25
+  - skill{s=fknighta_parrystance_trigger} @Self =60%-95% 0.56
+  - skill{s=fknighta_parrystance_trigger} @Self =30%-60% 0.65
+  - skill{s=fknighta_parrystance_trigger} @Self <30% 0.75
+  - delay 25
+  - skill{s=[
+    - setvariable{var=caster.hurtened;value="0";t=integer} @Self
+    - setstance{stance=normal} @self
+    - setvariable{var=caster.casting;value="0";t=integer} @Self
+    - setvariable{var=caster.skillxd;value="none";t=string} @Self];sync=false} @Self ?variableEquals{var=caster.skillxd;value="hurtedvbad"}
+  - skill{s=fknighta_parrystance_trigger} @Self =60%-95% 0.35
+  - skill{s=fknighta_parrystance_trigger} @Self =30%-60% 0.4
+  - skill{s=fknighta_parrystance_trigger} @Self <30% 0.5
+  
+#######
+
+
+
+fknighta_backhurtCLEAR:
+  Cooldown: 9
+  Conditions:
+  - hasaura{n=changedThreat} false
+  TriggerConditions:
+  - FieldOfView{angle=120;r=0} false
+  Skills:
+  - Aura{auraName=changedThreat;duration=220} @self
+  - clearThreat{} @self
+  - threat{amount=150} @TargetedTarget
+fknighta_hurtCLEAR:
+  Cooldown: 6
+  Conditions:
+  - hasaura{n=changedThreat} false
+  TriggerConditions:
+  - FieldOfView{angle=30;r=0} false
+  Skills:
+  - Aura{auraName=changedThreat;duration=200} @self
+  - clearThreat{} @self
+  - threat{amount=100} @TargetedTarget
+
+hurtgenfknighta:
+  Cooldown: 0
+  Conditions:
+  - damagecause{c=PROJECTILE} true
+  Skills:
+  - skill{s=hurtgenfknightaCLEAR;sync=true} @Trigger 0.15
+  - onShoot{auraName=fknighta_arrowWarning;onShoot=signalcheckWarning_fknighta;interval=3;duration=200;charges=5;cooldown=5} @trigger 0.5
+  - variableadd{var=caster.projrec;amount=1} @self
+  - variableadd{var=caster.projrec;amount=1} @self 0.5
+  - variableadd{var=caster.runstacks;amount=1} @self
+  - variableadd{var=caster.runstacks;amount=2} @self ?distance{d=>6}
+  - variableadd{var=caster.runstacks;amount=3} @self ?distance{d=>10} 0.8
+  - variableadd{var=caster.shieldstacks;amount=1} @self
+  - velocity{m=set;x=0;y=0;z=0;repeat=2;Repeatinterval=1} @self
+  - variableadd{var=caster.combor;amount=2} @self
+  - randomskill{s=fknighta_parrystance_trigger;sync=true} @Trigger 0.3
+  - stun{d=1;f=false;stopai=false} @Self
+hurtgenfknightaCLEAR:
+  Skills:
+  - clearThreat{} @self
+  - threat{amount=100} @Trigger
+hurtgenfknighta2:
+  Cooldown: 0
+  Conditions:
+  - damagecause{c=PROJECTILE} false
+  TriggerConditions:
+  - distance{d=>5} true
+  Skills:
+  - skill{s=hurtgenfknightaCLEAR;sync=true} @Trigger 0.25
+  - variableadd{var=caster.projrec;amount=1} @self
+  - variableadd{var=caster.projrec;amount=1} @self 0.5
+  - variableadd{var=caster.shieldstacks;amount=1} @self
+  - variableadd{var=caster.shieldstacks;amount=1} @self 0.6
+  - variableadd{var=caster.runstacks;amount=2} @self
+  - variableadd{var=caster.runstacks;amount=2} @self ?distance{d=>10}
+  - variableadd{var=caster.runstacks;amount=3} @self ?distance{d=>10} 0.8
+  - velocity{m=set;x=0;y=0;z=0;repeat=2;Repeatinterval=1} @self
+  - variableadd{var=caster.combor;amount=2} @self
+  - skill{s=fknighta_parrystance_trigger;sync=false} @Trigger 0.3
+  - stun{d=1;f=false;stopai=false} @Self
+
+outrun_discharge_fknighta:
+  Cooldown: 8
+  TargetConditions:
+  - lineofsight true
+  Skills:
+  - variablesubtract{var=caster.hitrec;amount=1} @self ?variableInRange{var=caster.hitrec;value=>0}
+  - variablesubtract{var=caster.hitrec;amount=1} @self 0.7 ?variableInRange{var=caster.hitrec;value=>0}
+  - variablesubtract{var=caster.hitrec;amount=1} @self 0.4 ?variableInRange{var=caster.hitrec;value=>0}
+  - message{m="FallenPirobo Hitrec: <caster.var.hitrec>"} @PlayersNearOrigin{r=75} 0 #DEBUGMESSAGE
+outrun_aleviate_fknighta:
+  TargetConditions:
+  - lineofsight true
+  Skills:
+  - variablesubtract{var=caster.hitrec;amount=1} @self 0.8 ?variableInRange{var=caster.hitrec;value=>0}
+  - message{m="Hitrec <caster.var.projrec> SUBTRACT-1"} @PlayersNearOrigin{r=75}  0 #DEBUGMESSAGE
+
+## MELEE TRIGGERS
+
+meleefknightatrigger:
+  Cooldown: 2
+  Conditions:
+  - variableEquals{var=caster.skillxd;value="hurtedvbad"} false
+  - variableEquals{var=caster.parrying;value="1"} CastInstead meleefknightatrigger2
+  Skills:
+  - delay <random.1to15>
+  - randomskill{s=bruttack1_fknighta,bruttack1_fknighta,bruttack2_fknighta_starter;sync=false} @LivingInCone{a=110.0;r=6.5;rot=0.0;ignore=samefaction}
+
+meleefknightatrigger2:
+  Conditions:
+  - variableEquals{var=caster.skillxd;value="hurtedvbad"} false
+  - variableEquals{var=caster.parrying;value="1"} true
+  Skills:
+  - delay <random.1to15>
+  - randomskill{s=bruttack1_fknighta,bruttack1_fknighta,bruttack2_fknighta_starter;sync=false} @LivingInCone{a=110.0;r=5.5;rot=0.0;ignore=samefaction}
+
+###################################################
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+fknighta_sdppcheck:
+  Cooldown: 0.3
+  Conditions:
+  - playersinradius{a=>0;r=7}
+  - variableEquals{var=caster.statueform;value="1"} false
+  - variableEquals{var=caster.running;value="2"} false
+  Skills:
+  - effect:particles{particle=reddust;color=#03c982;amount=2;hS=0.01;vS=0.01;size=0.75;forwardOffset=0.4;y=1.5} @Self 0 #DEBUGPARTICLES
+  - skill{s=fknighta_sdpcheckB;sync=true;delay=6;repeat=0;repeatinterval=3} @PlayersInRadius{r=7;limit=2;Sort=NEAREST;conditions=[  - distance{d=4to7}]}
+  - skill{s=fknighta_sdpcheckA;sync=true;delay=4;repeat=2;repeatinterval=3} @PlayersInRadius{r=4;limit=2;Sort=NEAREST;conditions=[  - distance{d=2to4}  - Moving{} true  - targetinlineofsight{} true]}
+fknighta_sdpcheckB:
+  Conditions:
+  - hasaura{n=ShieldennblockA} false
+  TargetConditions:
+  - isSprinting{} true
+  - distance{d=0to5}
+  Skills:
+  - skill{s=[
+    - look{headOnly=false;immediately=true;repeat=5;repeatInterval=1} @TargetedTarget 0
+    - randomskill{s=[  - skill{s=fknighta_bstpcheck_secondary1;sync=true} @Forward{f=-6;sideOffset=-2;y=-2.2}],[  - skill{s=fknighta_bstpcheck_secondary2;sync=true} @Forward{f=-6;sideOffset=2;y=-2.2}]} 0
+    - skill{s=fknightacommuterdefense;sync=false} @TargetedTarget
+    - message{m="&e<caster.name> &bcast &cfknighta_sdppcheckB &e@<target.name>"} @PlayersNearOrigin{r=75} 0
+    - variableadd{var=caster.shieldstacks;amount=1} @self
+    - variableadd{var=caster.shieldstacks;amount=1} @self 0.5
+    - Aura{auraName=ShieldennblockA;duration=20} @self];sync=true} @TargetedTarget{limit=1;Sort=NEAREST} 1 #DEBUGMESSAGESPECIAL
+  - effect:particles{particle=reddust;color=#1dd7ee;amount=105;hS=0.1;vS=0.1;size=0.8;repeat=1;repeatinterval=1} @Self 0 #DEBUGPARTICLES
+fknighta_sdpcheckA:
+  Conditions:
+  - hasaura{n=backstepB} false
+  - hasaura{n=ShieldennblockB} false
+  TargetConditions:
+  - distance{d=0to3}
+  Skills:
+  - skill{s=[
+    - look{headOnly=false;immediately=true;repeat=5;repeatInterval=1} @TargetedTarget 0
+    - randomskill{s=[  - skill{s=fknighta_bstpcheck_secondary1;sync=true} @Forward{f=-6;sideOffset=-2;y=-2.2}],[  - skill{s=fknighta_bstpcheck_secondary2;sync=true} @Forward{f=-6;sideOffset=2;y=-2.2}]} 0
+    - skill{s=fknightacommuterdefense;sync=false} @TargetedTarget
+    - message{m="&e<caster.name> &bcast &cfknighta_sdppcheckA &e@<target.name>"} @TargetedTarget 0
+    - variableadd{var=caster.shieldstacks;amount=1} @self
+    - variableadd{var=caster.shieldstacks;amount=1} @self 0.5
+    - Aura{auraName=ShieldennblockB;duration=15} @self];sync=true} @TargetedTarget{limit=1;Sort=NEAREST} 1 #DEBUGMESSAGESPECIAL
+  - effect:particles{particle=reddust;color=#1dd7ee;amount=105;hS=0.1;vS=0.1;size=0.8;repeat=1;repeatinterval=1} @Self 0 #DEBUGPARTICLES
+
+
+# COMMUTER
+
+fknightacommuterdefense:
+  Conditions:
+  - variableEquals{var=caster.parrying;value="1"} castinstead fknightacommuterdefenseparryien
+  TargetConditions:
+  - FieldOfView{angle=110;r=0} orElseCast fknightacommuterdefenseRear
+  Skills:
+  - message{m="&e<caster.name> &bcast &cfknightacommuterdefense &e@<target.name>"} @TargetedTarget 0 #DEBUGMESSAGE
+  - randomskill{s=fknighta_quickblock2,[  - skill{s=fknighta_bstpcheck_secondary1;sync=true} @Forward{f=-6;sideOffset=-2;y=-2.2}],[  - skill{s=fknighta_bstpcheck_secondary2;sync=true} @Forward{f=-6;sideOffset=2;y=-2.2}]} @TargetedTarget
+fknightacommuterdefenseRear:
+  Skills:
+  - randomskill{s=fknighta_quickblock1,[  - skill{s=fknighta_bstpcheck_secondary1;sync=true} @Forward{f=-6;sideOffset=-2;y=-2.2}],[  - skill{s=fknighta_bstpcheck_secondary2;sync=true} @Forward{f=-6;sideOffset=2;y=-2.2}]} @TargetedTarget
+  - skill{s=commuterfknightaCLEAR;sync=true} @TargetedTarget 0.45
+
+fknightacommuterdefenseparryien:
+  Conditions:
+  - variableEquals{var=caster.parrying;value="1"} true
+  TargetConditions:
+  - FieldOfView{angle=110;r=0} orElseCast fknightacommuterdefenseRearParryien
+  Skills:
+  - randomskill{s=fknighta_quickblock2,fknighta_quickblock2,fknighta_quickblock2,[  - skill{s=fknighta_bstpcheck_secondary1;sync=true} @Forward{f=-6;sideOffset=-2;y=-2.2}],[  - skill{s=fknighta_bstpcheck_secondary2;sync=true} @Forward{f=-6;sideOffset=2;y=-2.2}]} @TargetedTarget
+fknightacommuterdefenseRearParryien:
+  Skills:
+  - randomskill{s=fknighta_quickblock1,fknighta_quickblock1,[  - skill{s=fknighta_bstpcheck_secondary1;sync=true} @Forward{f=-6;sideOffset=-2;y=-2.2}],[  - skill{s=fknighta_bstpcheck_secondary2;sync=true} @Forward{f=-6;sideOffset=2;y=-2.2}]} @TargetedTarget
+  - skill{s=commuterfknightaCLEAR;sync=true} @TargetedTarget 0.45
+
+commuterfknightaCLEAR:
+  Skills:
+  - clearThreat{} @self
+  - threat{amount=150} @TargetedTarget
+
+# QUICKBLOCKS
+
+fknighta_quickblock1:
+  Cooldown: 2
+  Conditions:
+  - targetwithin{d=4.9}
+  - variableEquals{var=caster.running;value="1"} castinstead meleefknightatrigger
+  - hasaura{n=backstepB} false
+  - stance{s=normal} true
+  - stance{s=casting} false
+  TargetConditions:
+  - distance{d=0to5}
+  Skills:
+  - message{m="&e<caster.name> &bcast &cfknighta_quickblock1 &e@<target.name>"} @PlayersNearOrigin{r=75} 0 #DEBUGMESSAGE
+  - setstance{stance=casting} @self
+  - bodyclamp{m=fallen_knight;c=0} @self
+  - setvariable{var=caster.casting;value="1";t=integer} @Self
+  - Aura{auraName=backstepA;interval=10;duration=60} @self
+  - Aura{auraName=ShieldennblockA;refreshDuration=true;duration=60} @self
+  - state{state=quickparry1;li=3;lo=6;speed=1;delay=0} @self ?variableEquals{var=caster.parrying;value="1"}
+  - state{state=quickparry2;li=2;lo=6;speed=1;delay=0} @self ?!variableEquals{var=caster.parrying;value="1"}
+  # QUICKBLOCK STATE REMOVE
+  - state{remove=true;s=attack1;lo=3;n=false} @self
+  - state{remove=true;s=attack2;lo=3;n=false} @self
+  - state{remove=true;s=attack2_start;lo=3;n=false} @self
+  - state{remove=true;s=attack3;lo=3;n=false} @self
+  - state{remove=true;s=attack1_parrying;lo=3;n=false} @self
+  - state{remove=true;s=attack2_parrying;lo=3;n=false} @self
+  - state{remove=true;s=attack2_parrying_start;lo=3;n=false} @self
+  - state{remove=true;s=attack3_parrying;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad1;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad2;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad3;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad4;lo=3;n=false} @self
+  #
+  - potion{type=SLOW;duration=20;level=5;p=false;force=true} @Self
+  - spin{d=1;v=90} @self
+  - look{headOnly=false;immediately=true;repeat=40;repeatInterval=1} @Target
+  - delay 30
+  - bodyclamp{m=fallen_knight;c=50} @self
+  - setstance{stance=normal} @self ?stance{s=casting}
+  - setvariable{var=caster.casting;value="0";t=integer} @Self ?variableEquals{var=caster.casting;value="1"}
+fknighta_quickblock2:
+  Cooldown: 2
+  Conditions:
+  - targetwithin{d=4.9}
+  - variableEquals{var=caster.running;value="1"} castinstead meleefknightatrigger
+  - hasaura{n=backstepB} false
+  - stance{s=normal} true
+  - stance{s=casting} false
+  TargetConditions:
+  - distance{d=0to5}
+  Skills:
+  - message{m="&e<caster.name> &bcast &cfknighta_quickblock1 &e@<target.name>"} @PlayersNearOrigin{r=75} 0 #DEBUGMESSAGE
+  - setstance{stance=casting} @self
+  - bodyclamp{m=fallen_knight;c=0} @self
+  - setvariable{var=caster.casting;value="1";t=integer} @Self
+  - Aura{auraName=backstepA;interval=10;duration=60} @self
+  - Aura{auraName=ShieldennblockA;refreshDuration=true;duration=60} @self
+  - state{state=quickparry1;li=3;lo=6;speed=1;delay=0} @self ?variableEquals{var=caster.parrying;value="1"}
+  - state{state=quickparry2;li=2;lo=6;speed=1;delay=0} @self ?!variableEquals{var=caster.parrying;value="1"}
+  # QUICKBLOCK STATE REMOVE
+  - state{remove=true;s=attack1;lo=3;n=false} @self
+  - state{remove=true;s=attack2;lo=3;n=false} @self
+  - state{remove=true;s=attack2_start;lo=3;n=false} @self
+  - state{remove=true;s=attack3;lo=3;n=false} @self
+  - state{remove=true;s=attack1_parrying;lo=3;n=false} @self
+  - state{remove=true;s=attack2_parrying;lo=3;n=false} @self
+  - state{remove=true;s=attack2_parrying_start;lo=3;n=false} @self
+  - state{remove=true;s=attack3_parrying;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad1;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad2;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad3;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad4;lo=3;n=false} @self
+  #
+  - spin{d=1;v=0} @self
+  - potion{type=SLOW;duration=20;level=5;p=false;force=true} @Self
+  - look{headOnly=false;immediately=true;repeat=40;repeatInterval=1} @Target
+  - delay 30
+  - bodyclamp{m=fallen_knight;c=50} @self
+  - setstance{stance=normal} @self ?stance{s=casting}
+  - setvariable{var=caster.casting;value="0";t=integer} @Self ?variableEquals{var=caster.casting;value="1"}
+
+
+#====== BACKSTEPS
+
+fknighta_bstpcheck_secondary1:
+  Cooldown: 4
+  Conditions:
+  - targetwithin{d=4.9}
+  - variableEquals{var=caster.running;value="1"} castinstead meleefknightatrigger2
+  - variableEquals{var=caster.casting;value="1"} false
+  - variableEquals{var=caster.skillxd;value="hurtedvbad"} false
+  - variableEquals{var=caster.hurtened;value="1"} false
+  - hasaura{n=backstepB} false
+  - stance{s=normal} true
+  - stance{s=casting} false
+  TargetConditions:
+  - inblock{b=AIR} false
+  - isSprinting{} true
+  Skills:
+  - setstance{stance=casting} @self
+  - setvariable{var=caster.casting;value="1";t=integer} @Self
+  - Aura{auraName=backstepA;interval=10;duration=60} @self
+  - state{state=backstep;li=0;lo=6;speed=1;delay=1} @self ?!variableEquals{var=caster.parrying;value="1"}
+  - state{state=backstep_parrying;li=0;lo=6;speed=1;delay=1} @self ?variableEquals{var=caster.parrying;value="1"}
+  #REMOVESTATES
+  - state{remove=true;s=hurtbad1;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad2;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad3;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad4;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad1;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad2;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad3;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad4;lo=3;n=false} @self
+  - spin{d=1;v=45} @self
+  - delay 3
+  - sound{s=emaginationfallenreaper:custom.fallenreaper.reffortc;p=1;v=1.4} 0.7 @SelfLocation
+  - spin{d=5;v=-3} @self
+  - effect:sound{s=emaginationfallenreaper:custom.spell.land;v=2;repeat=0;repeatInterval=6} @self
+  - lunge{v=-0.75;repeat=5;repeatInterval=1} @forward{f=-10}
+  - delay 13
+  - potion{type=SLOW;duration=12;lvl=5;p=false} @Self
+  - effect:sound{s=emaginationfallenreaper:custom.spell.land;v=2} @self
+  - look{headOnly=false;immediately=true;repeat=5;repeatInterval=1} @Target
+  - setstance{stance=normal} @self ?!variableEquals{var=caster.skillxd;value="hurtedvbad"}
+  - setvariable{var=caster.casting;value="0";t=integer} @Self ?!variableEquals{var=caster.skillxd;value="hurtedvbad"}
+fknighta_bstpcheck_secondary2:
+  Cooldown: 4
+  Conditions:
+  - targetwithin{d=4.9}
+  - variableEquals{var=caster.running;value="1"} castinstead meleefknightatrigger2
+  - variableEquals{var=caster.casting;value="1"} false
+  - variableEquals{var=caster.skillxd;value="hurtedvbad"} false
+  - variableEquals{var=caster.hurtened;value="1"} false
+  - hasaura{n=backstepB} false
+  - stance{s=normal} true
+  - stance{s=casting} false
+  TargetConditions:
+  - inblock{b=AIR} false
+  - isSprinting{} true
+  Skills:
+  - setstance{stance=casting} @self
+  - setvariable{var=caster.casting;value="1";t=integer} @Self
+  - Aura{auraName=backstepA;interval=10;duration=60} @self
+  - effect:particles{particle=reddust;color=#1dd7ee;amount=105;hS=0.1;vS=0.1;size=0.8;repeat=1;repeatinterval=1} @Forward{f=-6;sideOffset=-2;y=1} 0
+  - state{state=backstep;li=0;lo=6;speed=1;delay=1} @self ?!variableEquals{var=caster.parrying;value="1"}
+  - state{state=backstep_parrying;li=0;lo=6;speed=1;delay=1} @self ?variableEquals{var=caster.parrying;value="1"}
+  #REMOVESTATES
+  - state{remove=true;s=hurtbad1;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad2;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad3;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad4;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad1;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad2;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad3;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad4;lo=3;n=false} @self
+  - spin{d=1;v=-45} @self
+  - delay 3
+  - sound{s=emaginationfallenreaper:custom.fallenreaper.reffortc;p=1;v=1.4} 0.7 @SelfLocation
+  - spin{d=5;v=-3} @self
+  - effect:sound{s=emaginationfallenreaper:custom.spell.land;v=2;repeat=0;repeatInterval=6} @self
+  - lunge{v=-0.75;repeat=5;repeatInterval=1} @forward{f=-10}
+  - delay 13
+  - potion{type=SLOW;duration=12;lvl=5;p=false} @Self
+  - effect:sound{s=emaginationfallenreaper:custom.spell.land;v=2} @self
+  - look{headOnly=false;immediately=true;repeat=5;repeatInterval=1} @Target
+  - setstance{stance=normal} @self ?!variableEquals{var=caster.skillxd;value="hurtedvbad"}
+  - setvariable{var=caster.casting;value="0";t=integer} @Self ?!variableEquals{var=caster.skillxd;value="hurtedvbad"}
+
+
+#COUNTERATTACKCS ===
+
+
+
+
+#
+
+#
+
+
+#
+
+
+
+countertacked_fknighta_A:
+  Conditions:
+  - variableEquals{var=caster.skillxd;value="bruttack1"} castinstead cakd_fknighta_cattack1
+  - variableEquals{var=caster.skillxd;value="bruttack2"} castinstead cakd_fknighta_cattack2
+  - variableEquals{var=caster.skillxd;value="bruttack3"} castinstead cakd_fknighta_cattack3
+  Skills:
+  - message{m="Casted &ecountertacked_fknighta_A"} @PlayersNearOrigin{r=75} 0 #DEGBUGMESSAGE
+countertacked_fknighta_B:
+  Conditions:
+  - variableEquals{var=caster.parrying;value="1"} true
+  Skills:
+  - randomskill{s=[
+      - state{state=parry_trigger1;li=0;lo=8;speed=1} @self
+    ],
+      [
+      - state{state=parry_trigger2;li=0;lo=8;speed=1} @self
+    ];sync=false}
+  - summon{mob=knighta_chipsumMarker;amount=1;noise=0.9;r=0.4;yr=0} @Forward{y=-1.9;f=1.45;sideOffset=-0.3}
+cakd_antilunge1:
+  Conditions:
+  - variableEquals{var=caster.hurtened;value="1"} true
+  Skills:
+  - lunge{v=-0.1} @forward{f=-10}
+  - propel{v=0.15;repeat=4;repeatInterval=1} @forward{f=10} 0
+  - message{m="Saltum 1"} @PlayersNearOrigin{r=75} 0 #DEBUGMESSAGE
+cakd_fknighta_cattack1:
+  Conditions:
+  - hasaura{n=nule_parry} false
+  Skills:
+  - message{m="Casted &eCountered attack 1"} @PlayersNearOrigin{r=75} 0 #DEGBUGMESSAGE
+  - setstance{stance=casting} @self ?stance{s=normal}
+  - setvariable{var=caster.skillxd;value="none";t=string} @Self
+  - variableadd{var=caster.hitrec;amount=3} @self
+  - state{s=attack1_parried;li=1;lo=3;n=false} @self ?!variableEquals{var=caster.parrying;value="1"}
+  - state{s=attack1_parried_parrying;li=1;lo=3;n=false} @self ?variableEquals{var=caster.parrying;value="1"}
+  - Aura{auraName=parried;duration=35} @self
+  - summon{mob=knighta_expFXmarker1;amount=1;noise=0.5;r=0.6;yr=0} @Forward{y=-2.4;f=1;sideOffset=0.7}
+  - summon{mob=knighta_expFXmarker1;amount=1;noise=0.5;r=0.6;yr=0} @ModelPart{m=fallen_knight;p=swordparticles2;offset=GLOBAL;y=-2} 0
+  #
+  - potion{type=SLOW;duration=22;level=8;p=false;force=true} @Self
+  - state{remove=true;s=attack1;lo=3;n=false} @self
+  - state{remove=true;s=attack2;lo=3;n=false} @self
+  - state{remove=true;s=attack3;lo=3;n=false} @self
+  - state{remove=true;s=attack2_start;lo=3;n=false} @self
+  - state{remove=true;s=attack1_parrying;lo=3;n=false} @self
+  - state{remove=true;s=attack2_parrying;lo=3;n=false} @self
+  - state{remove=true;s=attack3_parrying;lo=3;n=false} @self
+  #
+  - setvariable{var=caster.hurtened;value="1";t=integer} @Self
+  - setvariable{var=caster.countered;value="1";t=integer} @Self
+  - setvariable{var=caster.casting;value="1";t=integer} @Self
+  - skill{s=cakd_antilunge1;delay=2;repeat=7;repeatInterval=1} @Self
+  - delay 8
+  - Aura{auraName=shielderfknighta;onTick=fknighta_sdppcheck;interval=7;duration=60;mergeSameCaster=true} @self 0.4
+  - skill{s=[
+    - setvariable{var=caster.hurtened;value="0";t=integer} @Self
+    - setstance{stance=normal} @self ?stance{s=casting}
+    - setvariable{var=caster.casting;value="0";t=integer} @Self
+    - Aura{auraName=bruttackrest;duration=30} @self];sync=false} @Self 0.4
+  - delay 25
+  - skill{s=[
+    - setvariable{var=caster.hurtened;value="0";t=integer} @Self
+    - setstance{stance=normal} @self
+    - setvariable{var=caster.casting;value="0";t=integer} @Self];sync=false} @Self ?variableEquals{var=caster.skillxd;value="none"}
+
+cakd_fknighta_cattack2:
+  Conditions:
+  - hasaura{n=nule_parry} false
+  Skills:
+  - message{m="Casted &eCountered attack 2"} @PlayersNearOrigin{r=75} 0 #DEGBUGMESSAGE
+  - setstance{stance=casting} @self ?stance{s=normal}
+  - setvariable{var=caster.skillxd;value="none";t=string} @Self
+  - variableadd{var=caster.hitrec;amount=3} @self
+  - state{s=attack2_parried;li=1;lo=3;n=false} @self ?!variableEquals{var=caster.parrying;value="1"}
+  - state{s=attack2_parried_parrying;li=1;lo=3;n=false} @self ?variableEquals{var=caster.parrying;value="1"}
+  - Aura{auraName=parried;duration=35} @self
+  - summon{mob=knighta_expFXmarker1;amount=1;noise=0.5;r=0.6;yr=0} @Forward{y=-2.4;f=1;sideOffset=-0.7}
+  #
+  - potion{type=SLOW;duration=22;level=8;p=false;force=true} @Self
+  - state{remove=true;s=attack1;lo=3;n=false} @self
+  - state{remove=true;s=attack2;lo=3;n=false} @self
+  - state{remove=true;s=attack2_start;lo=3;n=false} @self
+  - state{remove=true;s=attack3;lo=3;n=false} @self
+  - state{remove=true;s=attack1_parrying;lo=3;n=false} @self
+  - state{remove=true;s=attack2_parrying;lo=3;n=false} @self
+  - state{remove=true;s=attack3_parrying;lo=3;n=false} @self
+  #
+  - setvariable{var=caster.hurtened;value="1";t=integer} @Self
+  - setvariable{var=caster.countered;value="1";t=integer} @Self
+  - setvariable{var=caster.casting;value="1";t=integer} @Self
+  - skill{s=cakd_antilunge1;delay=2;repeat=7;repeatInterval=1} @Self
+  - delay 8
+  - Aura{auraName=shielderfknighta;onTick=fknighta_sdppcheck;interval=7;duration=60;mergeSameCaster=true} @self 0.4
+  - skill{s=[
+    - setvariable{var=caster.hurtened;value="0";t=integer} @Self
+    - setstance{stance=normal} @self ?stance{s=casting}
+    - setvariable{var=caster.casting;value="0";t=integer} @Self
+    - Aura{auraName=bruttackrest;duration=30} @self];sync=false} @Self 0.4
+  - delay 25
+  - skill{s=[
+    - setvariable{var=caster.hurtened;value="0";t=integer} @Self
+    - setstance{stance=normal} @self
+    - setvariable{var=caster.casting;value="0";t=integer} @Self];sync=false} @Self ?variableEquals{var=caster.skillxd;value="none"}
+  
+
+cakd_fknighta_cattack3:
+  Conditions:
+  - hasaura{n=nule_parry} false
+  Skills:
+  - message{m="Casted &eCountered attack 2"} @PlayersNearOrigin{r=75} 0 #DEGBUGMESSAGE
+  - setstance{stance=casting} @self ?stance{s=normal}
+  - setvariable{var=caster.skillxd;value="none";t=string} @Self
+  - variableadd{var=caster.hitrec;amount=4} @self
+  - state{s=attack3_parried;li=1;lo=3;n=false} @self ?!variableEquals{var=caster.parrying;value="1"}
+  - state{s=attack3_parried_parrying;li=1;lo=3;n=false} @self ?variableEquals{var=caster.parrying;value="1"}
+  - Aura{auraName=parried;duration=50} @self
+  - summon{mob=knighta_expFXmarker1;amount=1;noise=0.5;r=0.6;yr=0} @Forward{y=-2.4;f=1.3;sideOffset=0.7}
+  #
+  - potion{type=SLOW;duration=32;level=8;p=false;force=true} @Self
+  - state{remove=true;s=attack1;lo=3;n=false} @self
+  - state{remove=true;s=attack2;lo=3;n=false} @self
+  - state{remove=true;s=attack2_start;lo=3;n=false} @self
+  - state{remove=true;s=attack3;lo=3;n=false} @self
+  - state{remove=true;s=attack1_parrying;lo=3;n=false} @self
+  - state{remove=true;s=attack2_parrying;lo=3;n=false} @self
+  - state{remove=true;s=attack3_parrying;lo=3;n=false} @self
+  #
+  - setvariable{var=caster.hurtened;value="1";t=integer} @Self
+  - setvariable{var=caster.countered;value="1";t=integer} @Self
+  - setvariable{var=caster.casting;value="1";t=integer} @Self
+  - skill{s=cakd_antilunge1;delay=2;repeat=7;repeatInterval=1} @Self
+  - delay 8
+  - Aura{auraName=shielderfknighta;onTick=fknighta_sdppcheck;interval=7;duration=60;mergeSameCaster=true} @self 0.4
+  - skill{s=[
+    - setvariable{var=caster.hurtened;value="0";t=integer} @Self
+    - setstance{stance=normal} @self ?stance{s=casting}
+    - setvariable{var=caster.casting;value="0";t=integer} @Self
+    - Aura{auraName=bruttackrest;duration=30} @self];sync=false} @Self 0.4
+  - delay 25
+  - skill{s=[
+    - setvariable{var=caster.hurtened;value="0";t=integer} @Self
+    - setstance{stance=normal} @self
+    - setvariable{var=caster.casting;value="0";t=integer} @Self];sync=false} @Self ?variableEquals{var=caster.skillxd;value="none"}
+
+# NORMAL COMBO ATTACKS
+
+bruttack1_fknighta:
+  Cooldown: 4
+  Conditions:
+  - variableEquals{var=caster.skillxd;value="hurtedvbad"} false
+  - stance{s=casting} false
+  - stance{s=normal} true
+  - variableEquals{var=caster.hurtened;value="1"} false
+#  - variableInRange{var=caster.hitrec;value=>2} true
+  - variableEquals{var=caster.casting;value="1"} false
+  - hasaura{n=bruttackrest} false
+  TargetConditions:
+  - distance{d=0to7} true
+  - fieldofview{angle=40} true
+  Skills:
+  - setstance{stance=casting} @self
+  - bodyclamp{m=fallenravager;c=0} @self
+  - sound{s=emaginationfallenheroes:custom.spell.channelstun;p=1.2;v=1} ######SOUND
+  - state{remove=true;s=run_roll;lo=1;n=false;frame=0} @self
+  - variableadd{var=caster.combor;amount=1} @self
+  - state{state=attack1;li=1;lo=10;n=false;speed=1} @self ?!variableEquals{var=caster.parrying;value="1"}
+  - state{state=attack1_parrying;li=1;lo=10;n=false;speed=1} @self ?variableEquals{var=caster.parrying;value="1"}
+  #
+  - state{remove=true;s=attack2;lo=3;n=false} @self
+  - state{remove=true;s=attack2_start;lo=3;n=false} @self
+  - state{remove=true;s=attack3;lo=3;n=false} @self
+  - state{remove=true;s=attack2_parrying;lo=3;n=false} @self
+  - state{remove=true;s=attack3_parrying;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad1;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad2;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad3;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad4;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad1;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad2;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad3;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad4;lo=3;n=false} @self
+  
+  #
+  - setvariable{var=caster.comboa;value="1";t=integer} @Self ?variableEquals{var=caster.comboa;value="0"}
+  - setvariable{var=caster.skillxd;value="bruttack1";t=string;delay=6} @Self
+  - potion{type=SLOW;duration=18;level=7;p=false;force=false} @Self
+  - potion{type=SLOW;duration=20;level=7;p=false;force=true;delay=18} @Self ?variableEquals{var=caster.skillxd;value="bruttack1"}
+  - potion{type=SLOW;duration=18;level=2;p=false;force=true;delay=38} @Self ?variableEquals{var=caster.skillxd;value="bruttack1"}
+  - look{headOnly=false;immediately=false;repeat=5;repeatInterval=1} @Target
+  - spin{d=25;v=0;delay=2} @self
+  - delay 10
+  - setvariable{var=caster.casting;value="1";t=integer} @Self ?!variableEquals{var=caster.hurtened;value="1"}
+  - skill{s=bruttack1_adaptivelunge;delay=1} @LivingInCone{a=180.0;r=7;rot=0.0;ignore=samefaction;limit=1;sort=NEAREST} ?!variableEquals{var=caster.hurtened;value="1"}
+  - delay 4
+  - sound{s=emaginationfallenheroes:custom.spell.herostun;p=1.2;v=1} ?!variableEquals{var=caster.hurtened;value="1"}
+  - skill{s=fknighta_atk1FX_A;delay=2} @self ?!variableEquals{var=caster.hurtened;value="1"} ### EFFECTENN
+  - delay 2
+  - sound{s=emaginationfallenheroes:custom.fallenhero.attackwindup;p=1;v=1} @selflocation ?!variableEquals{var=caster.hurtened;value="1"}
+  - skill{s=bruttack1_cripple_knighta;sync=true} @LivingInCone{a=180.0;r=4.5;rot=0.0;ignore=samefaction} ?!variableEquals{var=caster.hurtened;value="1"}
+  - Aura{auraName=tickfknightacomboa;onTick=reducestacksfknighta;interval=30;duration=110;mergeSameCaster=true;refreshDuration=true} @self ?!variableEquals{var=caster.hurtened;value="1"}
+  - skill{s=outrun_aleviate_fknighta;sync=true} @LivingInCone{a=180.0;r=4.8;rot=0.0;ignore=samefaction} 0.8 ?!variableEquals{var=caster.hurtened;value="1"}
+  - basedamage{m=1.9;ignorearmor=false} @LivingInCone{a=180.0;r=4.5;rot=0.0;ignore=samefaction} ?!variableEquals{var=caster.hurtened;value="1"}
+  - sudoskill{s=[
+    - summon{mob=knighta_expFXmarker1;amount=1;noise=0.5;r=0.6;yr=0} @SelfLocation{y=-2.3;ForwardOffset=0.3}];sync=true} @LivingInCone{a=180.0;r=4.5;rot=0.0;ignore=samefaction} ?!variableEquals{var=caster.hurtened;value="1"}
+  - sound{s=emaginationfallenheroes:custom.fallenhero.slashhitb;p=1;v=1} @LivingInCone{a=180.0;r=4.5;rot=0.0;ignore=samefaction} ?!variableEquals{var=caster.hurtened;value="1"}
+  - skill{s=fknighta_atk1FX_B} @self ?!variableEquals{var=caster.hurtened;value="1"} ### EFFECTENN
+  - delay 15
+  - randomskill{s=bruttack2_fknighta,bruttack2_fknighta,bruttack2_fknighta;sync=false;repeat=2;repeatinterval=4} @LivingInCone{a=100.0;r=5.5;rot=0.0;ignore=samefaction;limit1=sort=NEAREST} ?!variableEquals{var=caster.hurtened;value="1"}
+  - bodyclamp{m=fallenravager;c=50} @self
+  - setvariable{var=caster.casting;value="0";t=integer} @Self ?!variableEquals{var=caster.skillxd;value="bruttack2"}
+  - setvariable{var=caster.skillxd;value="none";t=string} @Self ?!variableEquals{var=caster.skillxd;value="bruttack2"}
+  - setstance{stance=normal} @self ?!variableEquals{var=caster.skillxd;value="bruttack2"}
+
+bruttack2_fknighta:
+  Cooldown: 4
+  Conditions:
+  - variableEquals{var=caster.skillxd;value="hurtedvbad"} false
+  - stance{s=casting} false
+  - stance{s=normal} true
+  - variableEquals{var=caster.hurtened;value="1"} false
+#  - variableInRange{var=caster.hitrec;value=>2} true
+  - variableEquals{var=caster.casting;value="1"} false
+  - hasaura{n=bruttackrest} false
+  TargetConditions:
+  - distance{d=0to7} true
+  - fieldofview{angle=40} true
+  Skills:
+  - setstance{stance=casting} @self
+  - bodyclamp{m=fallenravager;c=0} @self
+  - sound{s=emaginationfallenheroes:custom.spell.channelstun;p=1.2;v=1} ######SOUND
+  - state{remove=true;s=run_roll;lo=1;n=false;frame=0} @self
+  - variableadd{var=caster.combor;amount=1} @self
+  - state{state=attack2;li=1;lo=10;n=false;speed=1} @self
+  - state{state=attack2_parrying;li=1;lo=10;n=false;speed=1} @self ?variableEquals{var=caster.parrying;value="1"}
+  #
+  - state{remove=true;s=attack1;lo=3;n=false} @self
+  - state{remove=true;s=attack2_start;lo=3;n=false} @self
+  - state{remove=true;s=attack3;lo=3;n=false} @self
+  - state{remove=true;s=attack1_parrying;lo=3;n=false} @self
+  - state{remove=true;s=attack2_parrying_start;lo=3;n=false} @self
+  - state{remove=true;s=attack3_parrying;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad1;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad2;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad3;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad4;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad1;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad2;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad3;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad4;lo=3;n=false} @self
+  #
+  - setvariable{var=caster.comboa;value="1";t=integer} @Self ?variableEquals{var=caster.comboa;value="0"}
+  - setvariable{var=caster.skillxd;value="bruttack2";t=string;delay=6} @Self
+  - potion{type=SLOW;duration=18;level=7;p=false;force=false} @Self
+  - potion{type=SLOW;duration=20;level=7;p=false;force=true;delay=18} @Self ?variableEquals{var=caster.skillxd;value="bruttack2"}
+  - potion{type=SLOW;duration=18;level=2;p=false;force=true;delay=38} @Self ?variableEquals{var=caster.skillxd;value="bruttack2"}
+  - look{headOnly=false;immediately=false;repeat=5;repeatInterval=1} @Target
+  - spin{d=25;v=0;delay=2} @self
+  - delay 10
+  - setvariable{var=caster.casting;value="1";t=integer} @Self ?!variableEquals{var=caster.hurtened;value="1"}
+  - skill{s=bruttack1_adaptivelunge;delay=1} @LivingInCone{a=180.0;r=7;rot=0.0;ignore=samefaction;limit=1;sort=NEAREST} ?!variableEquals{var=caster.hurtened;value="1"}
+  - delay 4
+  - sound{s=emaginationfallenheroes:custom.spell.herostun;p=1.2;v=1} ?!variableEquals{var=caster.hurtened;value="1"}
+  - skill{s=fknighta_atk2FX_A;delay=2} @self ?!variableEquals{var=caster.hurtened;value="1"} ### EFFECTENN
+  - delay 2
+  - sound{s=emaginationfallenheroes:custom.fallenhero.attackwindup;p=1;v=1} @selflocation ?!variableEquals{var=caster.hurtened;value="1"}
+  - skill{s=bruttack1_cripple_knighta;sync=true} @LivingInCone{a=180.0;r=4.5;rot=0.0;ignore=samefaction} ?!variableEquals{var=caster.hurtened;value="1"}
+  - Aura{auraName=tickfknightacomboa;onTick=reducestacksfknighta;interval=30;duration=110;mergeSameCaster=true;refreshDuration=true} @self ?!variableEquals{var=caster.hurtened;value="1"}
+  - skill{s=outrun_aleviate_fknighta;sync=true} @LivingInCone{a=180.0;r=4.8;rot=0.0;ignore=samefaction} 0.8 ?!variableEquals{var=caster.hurtened;value="1"}
+  - basedamage{m=1.9;ignorearmor=false} @LivingInCone{a=180.0;r=4.5;rot=0.0;ignore=samefaction} ?!variableEquals{var=caster.hurtened;value="1"}
+  - sudoskill{s=[
+    - summon{mob=knighta_expFXmarker1;amount=1;noise=0.5;r=0.6;yr=0} @SelfLocation{y=-2.3;ForwardOffset=0.3}];sync=true} @LivingInCone{a=180.0;r=4.5;rot=0.0;ignore=samefaction} ?!variableEquals{var=caster.hurtened;value="1"}
+  - sound{s=emaginationfallenheroes:custom.fallenhero.slashhitb;p=1;v=1} @LivingInCone{a=180.0;r=4.5;rot=0.0;ignore=samefaction} ?!variableEquals{var=caster.hurtened;value="1"}
+  - skill{s=fknighta_atk2FX_B} @self ?!variableEquals{var=caster.hurtened;value="1"} ### EFFECTENN
+  - delay 15
+  - randomskill{s=bruttack3_fknighta,bruttack3_fknighta,bruttack3_fknighta;sync=true;repeat=2;repeatinterval=4} @LivingInCone{a=100.0;r=7;rot=0.0;ignore=samefaction;limit1=sort=NEAREST} ?!variableEquals{var=caster.hurtened;value="1"}
+  - bodyclamp{m=fallenravager;c=50} @self
+  - setvariable{var=caster.casting;value="0";t=integer} @Self ?!variableEquals{var=caster.skillxd;value="bruttack3"}
+  - setvariable{var=caster.skillxd;value="none";t=string} @Self ?!variableEquals{var=caster.skillxd;value="bruttack3"}
+  - setstance{stance=normal} @self ?!variableEquals{var=caster.skillxd;value="bruttack3"}
+bruttack2_fknighta_starter:
+  Cooldown: 4
+  Conditions:
+  - stance{s=casting} false
+  - variableEquals{var=caster.skillxd;value="hurtedvbad"} false
+  - stance{s=normal} true
+  - variableEquals{var=caster.hurtened;value="1"} false
+#  - variableInRange{var=caster.hitrec;value=>2} true
+  - variableEquals{var=caster.casting;value="1"} false
+  - hasaura{n=bruttackrest} false
+  TargetConditions:
+  - distance{d=0to7} true
+  - fieldofview{angle=40} true
+  Skills:
+  - setstance{stance=casting} @self
+  - bodyclamp{m=fallenravager;c=0} @self
+  - sound{s=emaginationfallenheroes:custom.spell.channelstun;p=1.2;v=1} ######SOUND
+  - state{remove=true;s=run_roll;lo=1;n=false;frame=0} @self
+  - variableadd{var=caster.combor;amount=1} @self
+  - state{state=attack2_start;li=1;lo=10;n=false;speed=1} @self ?!variableEquals{var=caster.parrying;value="1"}
+  - state{state=attack2_parrying_start;li=1;lo=10;n=false;speed=1} @self ?variableEquals{var=caster.parrying;value="1"}
+  #
+  - state{remove=true;s=attack1;lo=3;n=false} @self
+  - state{remove=true;s=attack2;lo=3;n=false} @self
+  - state{remove=true;s=attack3;lo=3;n=false} @self
+  - state{remove=true;s=attack1_parrying;lo=3;n=false} @self
+  - state{remove=true;s=attack2_parrying;lo=3;n=false} @self
+  - state{remove=true;s=attack3_parrying;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad1;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad2;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad3;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad4;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad1;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad2;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad3;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad4;lo=3;n=false} @self
+  #
+  - setvariable{var=caster.comboa;value="1";t=integer} @Self ?variableEquals{var=caster.comboa;value="0"}
+  - setvariable{var=caster.skillxd;value="bruttack2";t=string;delay=6} @Self
+  - potion{type=SLOW;duration=18;level=7;p=false;force=false} @Self
+  - potion{type=SLOW;duration=20;level=7;p=false;force=true;delay=18} @Self ?variableEquals{var=caster.skillxd;value="bruttack2"}
+  - potion{type=SLOW;duration=18;level=2;p=false;force=true;delay=38} @Self ?variableEquals{var=caster.skillxd;value="bruttack2"}
+  - look{headOnly=false;immediately=false;repeat=5;repeatInterval=1} @Target
+  - spin{d=25;v=0;delay=2} @self
+  - delay 10
+  - setvariable{var=caster.casting;value="1";t=integer} @Self ?!variableEquals{var=caster.hurtened;value="1"}
+  - skill{s=bruttack1_adaptivelunge;delay=1} @LivingInCone{a=180.0;r=7;rot=0.0;ignore=samefaction;limit=1;sort=NEAREST} ?!variableEquals{var=caster.hurtened;value="1"}
+  - delay 4
+  - sound{s=emaginationfallenheroes:custom.spell.herostun;p=1.2;v=1} ?!variableEquals{var=caster.hurtened;value="1"}
+  - skill{s=fknighta_atk2FX_A;delay=2} @self ?!variableEquals{var=caster.hurtened;value="1"} ### EFFECTENN
+  - delay 2
+  - sound{s=emaginationfallenheroes:custom.fallenhero.attackwindup;p=1;v=1} @selflocation ?!variableEquals{var=caster.hurtened;value="1"}
+  - skill{s=bruttack1_cripple_knighta;sync=true} @LivingInCone{a=180.0;r=4.5;rot=0.0;ignore=samefaction} ?!variableEquals{var=caster.hurtened;value="1"}
+  - Aura{auraName=tickfknightacomboa;onTick=reducestacksfknighta;interval=30;duration=110;mergeSameCaster=true;refreshDuration=true} @self ?!variableEquals{var=caster.hurtened;value="1"}
+  - skill{s=outrun_aleviate_fknighta;sync=true} @LivingInCone{a=180.0;r=4.8;rot=0.0;ignore=samefaction} 0.8 ?!variableEquals{var=caster.hurtened;value="1"}
+  - basedamage{m=1.9;ignorearmor=false} @LivingInCone{a=180.0;r=4.5;rot=0.0;ignore=samefaction} ?!variableEquals{var=caster.hurtened;value="1"}
+  - sudoskill{s=[
+    - summon{mob=knighta_expFXmarker1;amount=1;noise=0.5;r=0.6;yr=0} @SelfLocation{y=-2.3;ForwardOffset=0.3}];sync=true} @LivingInCone{a=180.0;r=4.5;rot=0.0;ignore=samefaction} ?!variableEquals{var=caster.hurtened;value="1"}
+  - sound{s=emaginationfallenheroes:custom.fallenhero.slashhitb;p=1;v=1} @LivingInCone{a=180.0;r=4.5;rot=0.0;ignore=samefaction} ?!variableEquals{var=caster.hurtened;value="1"}
+  - skill{s=fknighta_atk2FX_B} @self ?!variableEquals{var=caster.hurtened;value="1"} ### EFFECTENN
+  - delay 15
+  - randomskill{s=bruttack3_fknighta,bruttack3_fknighta,bruttack3_fknighta;sync=true;repeat=2;repeatinterval=4} @LivingInCone{a=100.0;r=6.5;rot=0.0;ignore=samefaction;limit1=sort=NEAREST} ?!variableEquals{var=caster.hurtened;value="1"}
+  - bodyclamp{m=fallenravager;c=50} @self
+  - setvariable{var=caster.casting;value="0";t=integer} @Self
+  - setvariable{var=caster.skillxd;value="none";t=string} @Self ?!variableEquals{var=caster.skillxd;value="bruttack3"}
+  - setstance{stance=normal} @self ?!variableEquals{var=caster.skillxd;value="bruttack3"}
+
+bruttack3_fknighta:
+  Cooldown: 4
+  Conditions:
+  - variableEquals{var=caster.skillxd;value="hurtedvbad"} false
+  - stance{s=casting} false
+  - stance{s=normal} true
+  - variableEquals{var=caster.hurtened;value="1"} false
+#  - variableInRange{var=caster.hitrec;value=>2} true
+  - variableEquals{var=caster.casting;value="1"} false
+  - hasaura{n=bruttackrest} false
+  TargetConditions:
+  - distance{d=0to7} true
+  - fieldofview{angle=40} true
+  Skills:
+  - setstance{stance=casting} @self
+  - bodyclamp{m=fallenravager;c=0} @self
+  - sound{s=emaginationfallenheroes:custom.spell.channelstun;p=1.2;v=1} ######SOUND
+  - state{remove=true;s=run_roll;lo=1;n=false;frame=0} @self
+  - variableadd{var=caster.combor;amount=1} @self
+  - state{state=attack3;li=1;lo=10;n=false;speed=1} @self ?!variableEquals{var=caster.parrying;value="1"}
+  - state{state=attack3_parrying;li=1;lo=10;n=false;speed=1} @self ?variableEquals{var=caster.parrying;value="1"}
+  #STATEREMOTION
+  - state{remove=true;s=hurtbad1;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad2;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad3;lo=3;n=false} @self
+  - state{remove=true;s=hurtbad4;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad1;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad2;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad3;lo=3;n=false} @self
+  - state{remove=true;s=hurtverybad4;lo=3;n=false} @self
+  #
+  - setvariable{var=caster.comboa;value="1";t=integer} @Self ?variableEquals{var=caster.comboa;value="0"}
+  - setvariable{var=caster.skillxd;value="bruttack3";t=string;delay=0} @Self
+  - potion{type=SLOW;duration=18;level=7;p=false;force=false} @Self
+  - potion{type=SLOW;duration=20;level=7;p=false;force=true;delay=18} @Self ?variableEquals{var=caster.skillxd;value="bruttack3"}
+  - potion{type=SLOW;duration=18;level=2;p=false;force=true;delay=38} @Self ?variableEquals{var=caster.skillxd;value="bruttack3"}
+  - look{headOnly=false;immediately=false;repeat=6;repeatInterval=1} @Target
+  - spin{d=25;v=0;delay=10} @self
+  - lockmodel{l=true;delay=10} @Self #LOCKMODEL
+  - sound{s=emaginationfallenreaper:custom.fallenreaper.reffortb;p=0.86;v=1.2;cooldown=2;delay=2} @selflocation 0.7 ?!variableEquals{var=caster.hurtened;value="1"}
+  - delay 12
+  - Aura{auraName=bruttackrest;duration=60} @self
+  - setvariable{var=caster.casting;value="1";t=integer} @Self ?!variableEquals{var=caster.hurtened;value="1"}
+  - skill{s=bruttack1_adaptivelunge;delay=1} @LivingInCone{a=180.0;r=7;rot=0.0;ignore=samefaction;limit=1;sort=NEAREST} ?!variableEquals{var=caster.hurtened;value="1"}
+  - delay 4
+  - sound{s=emaginationfallenheroes:custom.spell.herostun;p=<random.float.1.3to1.6>;v=1} ?!variableEquals{var=caster.hurtened;value="1"} 0
+  - delay 2
+  - sound{s=emaginationfallenreaper:custom.spell.attack4reaper;p=<random.float.1to1.4>;v=1.5;cooldown=2} @selflocation ?!variableEquals{var=caster.hurtened;value="1"}
+  - delay 1
+  #
+  - projectile{onTick=fknightaattack3tick;onHit=fknightaattack3hit;mr=6;v=30;i=1;hR=1.6;vR=0.8;hp=true;hnp=true;sB=false;sE=false;hs=false;d=150;syo=1;sso=0.5} @Forward{f=5;y=0.0} ?!variableEquals{var=caster.hurtened;value="1"}
+  - projectile{onTick=fknightaattack3tick2;mr=6;v=30;i=3;hR=1.6;hp=true;hnp=true;vR=3;sB=false;sE=false;hs=true;d=150;syo=0;hfs=0.1;sso=0.5} @Forward{f=5;y=0.0} ?!variableEquals{var=caster.hurtened;value="1"}
+  #
+  - summon{mob=knighta_thrustblade1;amount=1;noise=0;r=0.01;yr=0} @Forward{y=-3.9;f=2.5;sideOffset=0.55} ?!variableEquals{var=caster.hurtened;value="1"}
+  - summon{mob=knighta_thrustblade1;amount=1;noise=0;r=0.01;yr=0;delay=1} @Forward{y=-3.9;f=3.2;sideOffset=0.55} ?!variableEquals{var=caster.hurtened;value="1"}
+  - summon{mob=knighta_thrustblade1;amount=1;noise=0;r=0.01;yr=0;delay=2} @Forward{y=-3.9;f=3.9;sideOffset=0.55} ?!variableEquals{var=caster.hurtened;value="1"}
+  - sound{s=emaginationfallenheroes:custom.fallenhero.attackwindup;p=1;v=1} @selflocation ?!variableEquals{var=caster.hurtened;value="1"}
+  - skill{s=bruttack1_cripple_knighta;sync=true} @LivingInCone{a=40.0;r=4.5;rot=0.0;ignore=samefaction} ?!variableEquals{var=caster.hurtened;value="1"}
+  - Aura{auraName=tickfknightacomboa;onTick=reducestacksfknighta;interval=30;duration=110;mergeSameCaster=true;refreshDuration=true} @self ?!variableEquals{var=caster.hurtened;value="1"}
+  - skill{s=outrun_aleviate_fknighta;sync=true} @LivingInCone{a=40.0;r=5.5;rot=0.0;ignore=samefaction} 0.8 ?!variableEquals{var=caster.hurtened;value="1"}
+  - basedamage{m=1.9;ignorearmor=false} @LivingInCone{a=40.0;r=5.5;rot=0.0;ignore=samefaction} ?!variableEquals{var=caster.hurtened;value="1"}
+  - sudoskill{s=[
+    - summon{mob=knighta_expFXmarker1;amount=1;noise=0.5;r=0.6;yr=0} @SelfLocation{y=-2.3;ForwardOffset=0.3}];sync=true} @LivingInCone{a=40.0;r=5.5;rot=0.0;ignore=samefaction} ?!variableEquals{var=caster.hurtened;value="1"}
+  - sound{s=emaginationfallenheroes:custom.fallenhero.slashhitb;p=1;v=1} @LivingInCone{a=40.0;r=5.5;rot=0.0;ignore=samefaction} ?!variableEquals{var=caster.hurtened;value="1"}
+  - delay 20
+  - lockmodel{l=false;delay=1} @Self
+#  - randomskill{s=attack2fknighta,bruttack2_fknighta,bruttack2_fknighta,bruttack2_fknighta;sync=true;repeat=2;repeatinterval=4} @LivingInCone{a=100.0;r=5.5;rot=0.0;ignore=samefaction;limit1=sort=NEAREST} ?!variableEquals{var=caster.hurtened;value="1"}
+  - bodyclamp{m=fallenravager;c=50} @self
+  - setvariable{var=caster.casting;value="0";t=integer} @Self
+  - setvariable{var=caster.skillxd;value="none";t=string} @Self
+  - setstance{stance=normal} @self
+fknightaattack3tick:
+  Skills:
+  - effect:particles{p=reddust;c=#EAE6CE;a=15;s=20;hs=0.45;vs=0.3;y=0;sideOffset=0;Size=1.4;delay=0} @origin
+  - effect:particles{p=reddust;c=#EAE6CE;a=5;s=20;hs=0.1;vs=0.1;y=0;sideOffset=0.5.0625;Size=1.7;delay=0} @origin 0
+  - effect:particles{p=reddust;c=#EAE6CE;a=5;s=20;hs=0.1;vs=0.1;y=0;sideOffset=-0.5.0625;Size=1.7;delay=0} @origin 0
+fknightaattack3tick2:
+  Skills:
+  - sound{s=emaginationfallenheroes:custom.fallenhero.slashhitb;pitch=2;v=0.7} @Origin
+fknightaattack3hit:
+  TargetConditions:
+  - samefaction false
+  Skills:
+  - summon{mob=knighta_expFXmarker2;amount=1;noise=0.5;r=0.1;yr=0} @ProjectileForward{y=-3.7;f=0.9}
+  - skill{s=outrun_discharge_fknighta} @EntitiesNearOrigin{r=3;limit=1;sort=NEAREST;ignore=samefaction}
+  - basedamage{m=2.2;ignorearmor=false}
+  - basedamage{m=0.07;ignorearmor=true;preventknockback=true}
+  - sound{s=emaginationfallenheroes:custom.fallenhero.slashhitb;p=1;v=1}
+  - sound{s=emaginationfallenreaper:custom.spell.grandslashcast;pitch=2;v=2}
+  - throw{velocity=2;velocityY=1} 
+  - potion{type=LEVITATION;duration=9;level=1;p=false;delay=0} 
+  - potion{type=LEVITATION;duration=5;level=0;p=false;delay=9}
+  - potion{type=SLOW_FALLING;duration=5;level=0;p=false;delay=14}
+  - potion{type=SLOW;duration=16;lvl=7;particles=false}
+  - potion{type=SLOW;duration=40;lvl=4;delay=16;p=false}
+  - potion{type=SLOW;duration=20;lvl=3;delay=56;p=false}
+  - potion{type=SLOW;duration=20;lvl=2;delay=76;p=false} 0.5
+#  - randomskill{s=ravagefknighta1,bruttack1_fknighta,meleefknightatrigger2;delay=0;repeat=8;repeatinterval=8} @LivingInCone{a=110.0;r=5;rot=0.0;ignore=samefaction} 0.45
+
+bruttack1_adaptivelunge:
+  Conditions:
+  - variableEquals{var=caster.hurtened;value="1"} false
+  - targetwithin{d=4} orElseCast bruttack1_adaptivelunge2
+  Skills:
+  - lunge{v=0.42;repeat=4;repeatInterval=1} @forward{f=10} 0
+  - propel{v=0.15;repeat=4;repeatInterval=1} @forward{f=10}
+  - message{m="Saltum 1"} @PlayersNearOrigin{r=75} 0 #DEBUGMESSAGE
+bruttack1_adaptivelunge2:
+  Conditions:
+  - variableEquals{var=caster.hurtened;value="1"} false
+  - targetwithin{d=8} true
+  Skills:
+  - lunge{v=0.58;repeat=7;repeatInterval=1} @forward{f=10} 0
+  - propel{v=0.34;repeat=7;repeatInterval=1} @forward{f=10}
+  - message{m="Saltum 2"} @PlayersNearOrigin{r=75} 0 #DEBUGMESSAGE
+bruttack1_cripple_knighta:
+  Skills:
+  - actionmessage{m="&E&LKNOCKED AIRBORNE!";delay=0}
+  - potion{type=LEVITATION;duration=2;level=4;p=false;delay=0}
+  - throw{velocity=1;velocityY=2} ?distance{d=0to3}
+  - potion{type=LEVITATION;duration=2;level=2;p=false;delay=2}
+  - potion{type=LEVITATION;duration=1;level=1;p=false;delay=4}
+  - potion{type=SLOW_FALLING;duration=5;level=0;p=false;delay=5}
+  - potion{type=SLOW;duration=10;lvl=7}
+  - potion{type=SLOW;duration=20;level=0;p=false;force=true;delay=10}
+
+#
+#
+#
+#
+#################################################
+#################################################
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+fknighta_parrystance_trigger:
+  Conditions:
+  - variableEquals{var=caster.running;value="2"} false
+  - variableEquals{var=caster.running;value="1"} false
+  - variableEquals{var=caster.parrying;value="1"} false
+  - variableInRange{var=caster.hitrec;value=>4} true
+  - hasaura{n=parrycooldown} false
+  TargetConditions:
+  - distance{d=0to8}
+  Skills:
+  - Aura{auraName=shielderfknighta;onTick=fknighta_sdppcheck;interval=7;duration=140;mergeSameCaster=true} @self 0.8
+  - state{state=quickblock1;lo=0;remove=true} @self
+  - setvariable{var=caster.parrystacks;value="11";t=integer} @Self ?variableInRange{var=caster.parrystacks;value=<10}
+  - setvariable{var=caster.parrying;value="1";t=integer} @Self
+  - Aura{auraName=parryingaddstacks_temporary;duration=200} @Children{conditions=[  - variableEquals{var=target.parrybox;value="1"} true ]}
+  - DefaultState{type=WALK;state=walk_parrying;li=3;lo=2} @self ?!variableEquals{var=caster.running;value="2"} ?!variableEquals{var=caster.running;value="1"}
+  - DefaultState{type=IDLE;state=idle_parrying;li=3;lo=2} @self ?!variableEquals{var=caster.running;value="2"} ?!variableEquals{var=caster.running;value="1"}
+  - setspeed{speed=0.85;type=walking} @Self ?!variableEquals{var=caster.running;value="2"} ?!variableEquals{var=caster.running;value="1"}
+  - Aura{desot=true;auraName=checkparryfknighta;onTick=fknighta_parryproximitycheck;onEnd=fknighta_parryproximitycheckEND;interval=15;duration=400} @self
+
+fknighta_parryproximitycheck:
+  Conditions:
+  - targetnotwithin{d=9} castinstead fknighta_parryproximitycheckb
+  - incombat orElseCast fknighta_parryproximitycheck_nocombat
+  - variableInRange{var=caster.parrystacks;value=<1} castinstead fknighta_parryproximitycheckc
+  Skills:
+  - variablesubtract{var=caster.parrystacks;amount=1} @self 0.7
+  - message{m="parrystax <caster.var.parrystacks> STACKS"} @PlayersNearOrigin{r=75} 0 #DEBUGMESSAGE
+fknighta_parryproximitycheck_nocombat:
+  Conditions:
+  - variableEquals{var=caster.parrying;value="1"} true
+  - incombat false
+  Skills:
+  - auraremove{aura=checkparryfknighta} @self
+  - auraremove{aura=checkparryfknighta1b} @self
+  - Aura{auraName=parrycooldown;duration=40} @self
+  - effect:particles{particle=reddust;color=#e2eb32;amount=15;hS=0.1;vS=0.1;size=0.8;repeat=2;repeatinterval=1} @Origin{y=2.4} 0 #DEBUG
+  - setvariable{var=caster.parrying;value="0";t=integer} @Self
+  - state{state=parrying_to_normal;li=2;lo=3} @self
+  - potion{type=SLOW;duration=8;level=5;p=false;force=true} @Self
+  - DefaultState{type=WALK;state=walk;li=3;lo=2} @self 
+  - DefaultState{type=IDLE;state=idle;li=3;lo=2} @self 
+  - setspeed{speed=1.2;type=walking} @self
+fknighta_parryproximitycheckb:
+  Conditions:
+  - targetnotwithin{d=9} true
+  - variableEquals{var=caster.running;value="2"} false
+  Skills:
+  - variablesubtract{var=caster.parrystacks;amount=1} @self 1
+  - variablesubtract{var=caster.parrystacks;amount=1} @self 0.55
+  - variablesubtract{var=caster.parrystacks;amount=1} @self 0.3
+  - skill{s=[
+    - auraremove{aura=checkparryfknighta} @self
+    - auraremove{aura=checkparryfknighta1b} @self
+    - setvariable{var=caster.parrying;value="0";t=integer} @Self
+    - Aura{auraName=parrycooldown;duration=120} @self
+    - setvariable{var=caster.parrystacks;value="0";t=integer} @Self
+    - potion{type=SLOW;duration=8;level=5;p=false;force=true} @Self
+    - state{state=parrying_to_normal;li=2;lo=3} @self
+    - DefaultState{type=WALK;state=walk;li=3;lo=2} @self 
+    - DefaultState{type=IDLE;state=idle;li=3;lo=2} @self 
+    - setspeed{speed=1.2;type=walking} @self];sync=true} @self 0.16 ############## 0.25
+
+fknighta_parryproximitycheckc:
+  Conditions:
+  - variableEquals{var=caster.parrying;value="1"} true
+  Skills:
+  - auraremove{aura=checkparryfknighta} @self
+  - auraremove{aura=checkparryfknighta1b} @self
+  - Aura{auraName=parrycooldown;duration=120} @self
+  - effect:particles{particle=reddust;color=#e2eb32;amount=15;hS=0.1;vS=0.1;size=0.8;repeat=2;repeatinterval=1} @Origin{y=2.4} 0 #DEBUG
+  - setvariable{var=caster.parrying;value="0";t=integer} @Self
+  - setvariable{var=caster.parrystacks;value="0";t=integer} @Self
+  - potion{type=SLOW;duration=8;level=5;p=false;force=true} @Self
+  - state{state=parrying_to_normal;li=2;lo=3} @self
+  - DefaultState{type=WALK;state=walk;li=3;lo=2} @self 
+  - DefaultState{type=IDLE;state=idle;li=3;lo=2} @self 
+  - setspeed{speed=1.2;type=walking} @self
+fknighta_parryproximitycheckEND:
+  Conditions:
+  - variableEquals{var=caster.parrying;value="1"} true
+  Skills:
+  - Aura{auraName=parrycooldown;duration=120} @self
+  - effect:particles{particle=reddust;color=#e2eb32;amount=15;hS=0.1;vS=0.1;size=0.8;repeat=2;repeatinterval=1} @Origin{y=2.4} 0 #DEBUG
+  - setvariable{var=caster.parrying;value="0";t=integer} @Self
+  - setvariable{var=caster.parrystacks;value="0";t=integer} @Self
+  - potion{type=SLOW;duration=8;level=5;p=false;force=true} @Self
+  - state{state=parrying_to_normal;li=2;lo=3} @self
+  - DefaultState{type=WALK;state=walk;li=3;lo=2} @self 
+  - DefaultState{type=IDLE;state=idle;li=3;lo=2} @self 
+  - setspeed{speed=1.2;type=walking} @self
+fknighta_parryproximitycheckd:
+  Conditions:
+  - variableEquals{var=caster.parrying;value="1"} true
+  Skills:
+  - auraremove{aura=checkparryfknighta} @self
+  - auraremove{aura=checkparryfknighta1b} @self
+  - Aura{auraName=parrycooldown;duration=180} @self
+  - effect:particles{particle=reddust;color=#e2eb32;amount=15;hS=0.1;vS=0.1;size=0.8;repeat=2;repeatinterval=1} @Origin{y=2.4} 0 #DEBUG
+  - setvariable{var=caster.parrying;value="0";t=integer} @Self
+  - setvariable{var=caster.parrystacks;value="0";t=integer} @Self
+  - state{state=parrying_to_normal;li=2;lo=3} @self
+  - potion{type=SLOW;duration=8;level=5;p=false;force=true} @Self
+  - DefaultState{type=WALK;state=walk;li=3;lo=2} @self 
+  - DefaultState{type=IDLE;state=idle;li=3;lo=2} @self 
+  - setspeed{speed=1.2;type=walking} @self
+
+#
+#
+#
+#
+#
+########################################
+#     #           #         #          #
+#     #           #         #          #
+#     #                                #
+#     #                                #
+#     #                                # ########################
+#     #                                ############################################################
+#     #                                #
+#     #                                #
+#     #                                #
+########################################
+#
+#
+#
+#
+#
+#
+#
+
+fknighta_spirittick:
+  Skills:
+  - effect:particles{p=reddust;c=#EAE6CE;a=8;s=20;hs=0.16;vs=0.16;y=0;sideOffset=0;Size=1.4;delay=0} @origin
+  - effect:particles{p=reddust;c=#EAE6CE;a=5;s=20;hs=0.4;vs=0.4;y=0;sideOffset=0.5.0625;Size=0.7;delay=0} @origin
+  - effect:particles{p=reddust;c=#EAE6CE;a=5;s=20;hs=0.5;vs=0.5;y=0;sideOffset=-0.5.0625;Size=0.7;delay=0} @origin
+fknighta_possess:
+  TargetConditions:
+  - mythicmobtype{t=statue_knighta_s,statue_knighta_n,statue_knighta_e,statue_knighta_w,statue_knighta_s_activable,statue_knighta_n_activable,statue_knighta_e_activable,statue_knighta_w_activable,statue_knighta_s_resist,statue_knighta_n_resist,statue_knighta_e_resist,statue_knighta_w_resist} true
+  Skills:
+  - sudoskill{s=[
+    - summon{mob=knight_fallen;amount=1;noise=0;r=0;yr=0} @SelfLocation{y=0}
+    - signal{s=RAMPAGE_ACTIVATE;delay=1} @LivingEntitiesInRadius{r=5;limit=1;sort=NEAREST;conditions=[  - mythicmobtype{t=knight_fallen} true ]}
+    - remove{delay=1} @self];sync=true}
+  - delay 2
+  - remove @self
+posessing_missile_fknighta:
+  Skills:
+  - missile{onTick=fknighta_spirittick;onHit=fknighta_possess;v=4;i=1;hR=1;vR=1;g=1.5;hp=false;syo=1;sB=true;sE=false;HitNonPlayers=true;in=4;fromorigin=false;syo=3;tyo=1.5;vO=75;delay=35} @TargetedTarget
+  - setvariable{var=target.posess;value="1";t=integer} @TargetedTarget
+  - setvariable{var=target.posess;value="0";t=integer;delay=80} @TargetedTarget

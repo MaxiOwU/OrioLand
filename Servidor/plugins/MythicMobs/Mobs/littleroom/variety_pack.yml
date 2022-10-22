@@ -1,0 +1,187 @@
+golem:
+ Type: IRON_GOLEM
+ Display: 'Golem'
+ Health: 50
+ Modules:
+   ThreatTable: true
+ Damage: 0
+ Armor: 25
+ DamageModifiers:
+ - ENTITY_EXPLOSION 0.0 
+ AITargetSelectors:
+ - 0 clear
+ - 1 players
+ Skills:
+ - model{mid=golem;n=false} @self ~onSpawn
+ - skill{s=GOLEMInit;sync=true} @self ~onAttack
+ - skill{s=GOLEMore_wooden} @target ~onDamaged
+ - skill{s=GOLEMore_stone} @target ~onDamaged
+ - skill{s=GOLEMore_iron} @target ~onDamaged
+ - skill{s=GOLEMore_golden} @target ~onDamaged
+ - skill{s=GOLEMore_diamond} @target ~onDamaged
+ - skill{s=die_GOLEM} @self ~onDeath
+ Options:
+   FollowRange: 16
+   Silent: true
+   #MovementSpeed: 0.2
+   MaxCombatDistance: 25
+   PreventOtherDrops: true
+   KnockbackResistance: 1
+    
+
+  
+  
+hermitcrab:
+  Type: OCELOT
+  Display: Hermitcrab
+  Health: 2
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  - 1 fleeplayers
+  DamageModifiers:
+  - DROWNING 0
+  - SUFFOCATION 0
+  Drops:
+  - NAUTILUS_SHELL 1 1
+  Skills:
+  - model{mid=hermitcrab;n=false} @self ~onSpawn
+  - skill{s=die_hermitcrab} @self ~onDeath
+  Options:
+    Silent: true
+    MovementSpeed: 0.3
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    
+jelly:
+  Type: COD
+  Health: 2
+  Damage: 0
+  Faction: Jelly
+  Skills:
+  - model{mid=jelly;n=false} @self ~onSpawn
+  - setAI{ai=false} @self ~onSpawn
+  - skill{s=jellyshock} @self ~onTimer:60
+  - summon{type=babyjelly;amount=5;radius=4} @Self ~onSpawn
+  - skill{s=die_jelly} @self ~onDeath
+  - setname{name='Jellyfish'} @self ~onDamaged
+  Options:
+    Silent: true
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    AlwaysShowName: false
+    
+babyjelly:
+  Type: COD
+  Health: 2
+  Damage: 0
+  Faction: Jelly
+  Skills:
+  - model{mid=jelly;n=false} @self ~onSpawn
+  - setAI{ai=false} @self ~onSpawn
+  - skill{s=jellyshock} @self ~onTimer:60
+  - skill{s=die_jelly} @self ~onDeath
+  - setname{name='Jellyfish'} @self ~onDamaged
+  Options:
+    Silent: true
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    AlwaysShowName: false
+    
+mimic:
+  Type: CAVE_SPIDER
+  Health: 20
+  Damage: 1
+  Skills:
+  - model{mid=mimic;n=false} @self ~onSpawn
+  - runaigoalselector{goal=clear} @self ~onSpawn
+  - skill{s=activate_mimic} @self ~onInteract
+  - skill{s=activate_mimic2} @self ~onDamaged
+  - skill{s=activate_mimic3} @self ~onTimer:20
+  - skill{s=die_mimic} @self ~onDeath
+  - setname{name='Mimic'} @self ~onDamaged
+  Drops:
+  - MIMICdrops 1 1
+  Options:
+    PreventSlimeSplit: true
+    Size: 1
+    AlwaysShowName: false
+    Silent: true
+    MovementSpeed: 0.3
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    PreventBlockInfection: true
+    
+rhino:
+  Type: POLAR_BEAR
+  Display: 'Rhino'
+  Options:
+    AlwaysShowName: false
+    Silent: true
+    MovementSpeed: 0.125
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    PreventBlockInfection: true
+  Health: 30
+  Damage: 0
+  Faction: Rhino
+  AIGoalSelectors:
+  - 1 randomstroll
+  DamageModifiers:
+  - FALL 0
+  Drops:
+  - GOLD_NUGGET 3 .25
+  - IRON_NUGGET 3 .75
+  Skills:
+  - skill{s=rhinoInit;sync=true} @self ~onAttack
+  - model{mid=rhino;n=false} @self ~onSpawn
+  - skill{s=die_rhino} @self ~onDeath
+  - skill{s=fly_rhino} @self ~onTimer:40 >75%
+  - skill{s=flee_rhino} @self ~onCombat >75%
+  - skill{s=aggro_rhino} @self ~onCombat <75%
+  
+scorpid:
+  Type: POLAR_BEAR
+  Display: 'Scorpid'
+  Health: 20
+  Damage: 0
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    AlwaysShowName: false
+    Silent: true
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    PreventBlockInfection: true
+  Drops:
+  - FERMENTED_SPIDER_EYE 1 .25
+  - SPIDER_EYE 1 .75
+  Skills:
+  - model{mid=scorpid;n=false} @self ~onSpawn
+  - randomskill{skills=scorpidInitSnip,scorpidInitSting;sync=true} @self ~onAttack
+  - skill{s=die_scorpid} @self ~onDeath
+
+
+shark:
+  Type: DOLPHIN
+  Display: 'Shark'
+  AITargetSelectors:
+  - 1 players
+  AIGoalSelectors:
+  - 1 meleeattack
+  Health: 20
+  Damage: 0
+  Options:
+    AlwaysShowName: false
+    Silent: true
+    MaxCombatDistance: 8
+    PreventOtherDrops: true
+    PreventMobKillDrops: true
+  Skills:
+  - model{mid=shark;n=false} @self ~onSpawn
+  - skill{s=sharkInit;sync=true} @self ~onAttack
+  - skill{s=die_shark} @self ~onDeath
+  - skill{s=sharkaggro} @self ~onTimer:60
+  - skill{s=sharkflee} @self ~onDamaged

@@ -1,0 +1,602 @@
+statue_knighta_n:
+  Type: vindicator
+  Display: ''
+  Health: 30
+  Faction: FallenHero
+  AIGoalSelectors:
+  - 0 clear
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 2.7
+  - PROJECTILE 0.6
+  Drops:
+  - exp 20-40 1
+  Damage: 10
+  Skills:
+  - cancelEvent{sync=true} ~onAttack
+  - stance{stance=statue} @self ~onSpawn
+  - model{mid=statue_knighta;s=idle;n=false;delay=2;damagetint=false} @self ~onSpawn 
+  - state{s=idlestatic;li=0;lo=3;n=false;frame=0} @self ~onSpawn
+  - bodyclamp{m=statue_knighta;c=360;delay=1} @self ~onSpawn
+  - setvariable{var=caster.zlocxd;value="<caster.l.z>-10";t=integer} @Self ~onSpawn
+  - look{headOnly=false;immediately=false;repeat=40;repeatInterval=1;delay=0} @Location{c=<caster.l.x>,<caster.l.y>,<caster.var.zlocxd>,-180,-1} ~onSpawn
+  - spin{d=1;v=110;delay=0} @self ~onSpawn
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDamaged 1 ?!damagecause{c=PROJECTILE}
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1.6;v=1} @selflocation ~onDamaged 1 ?damagecause{c=PROJECTILE}
+  
+  - skill{s=[
+    - sound{s=emaginationfallenravager:custom.fallenravager.statuefall;p=1;v=1.5} @selflocation
+    - model{mid=statue_knighta;remove=true;delay=1} @self
+    - bodyclamp{m=statue_knighta;c=0} @self
+    - model{mid=fallen_knight3;delay=0;damagetint=false} @self
+    - partvisibility{m=fallen_knight3;p=core;v=false;delay=0} @self
+    - partvisibility{m=fallen_knight3;p=core;v=true;delay=1} @self
+    - effect:particles{particle=cloud;amount=150;hS=1.1;vS=0.55;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=hip;offset=LOCAL;y=0} 
+    - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=axe;offset=LOCAL;y=0}
+    - effect:particles{particle=cloud;amount=30;hS=0.3;vS=0.3;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=head;offset=LOCAL;y=0} ];sync=true} @Self ~onDeath
+  Options:
+    ApplyInvisibility: true
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.01 #0.27
+    Interactable: true
+    Invincible: false
+    NoGravity: false
+    NoAi: false
+    FollowRange: 2
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+statue_knighta_s:
+  Type: vindicator
+  Display: ''
+  Health: 30
+  Faction: FallenHero
+  AIGoalSelectors:
+  - 0 clear
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 2.7
+  - PROJECTILE 0.6
+  Drops:
+  - exp 20-40 1
+  Damage: 10
+  Skills:
+  - cancelEvent{sync=true} ~onAttack
+  - stance{stance=statue} @self ~onSpawn
+  - model{mid=statue_knighta;s=idle;n=false;delay=2;damagetint=false} @self ~onSpawn 
+  - bodyclamp{m=statue_knighta;c=360;delay=1} @self ~onSpawn
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDamaged 1 ?!damagecause{c=PROJECTILE}
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1.6;v=1} @selflocation ~onDamaged 1 ?damagecause{c=PROJECTILE}
+  
+  - skill{s=[
+    - sound{s=emaginationfallenravager:custom.fallenravager.statuefall;p=1;v=1.5} @selflocation
+    - model{mid=statue_knighta;remove=true;delay=1} @self
+    - bodyclamp{m=statue_knighta;c=0} @self
+    - model{mid=fallen_knight3;delay=0;damagetint=false} @self
+    - partvisibility{m=fallen_knight3;p=core;v=false;delay=0} @self
+    - partvisibility{m=fallen_knight3;p=core;v=true;delay=1} @self
+    - effect:particles{particle=cloud;amount=150;hS=1.1;vS=0.55;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=hip;offset=LOCAL;y=0} 
+    - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=axe;offset=LOCAL;y=0}
+    - effect:particles{particle=cloud;amount=30;hS=0.3;vS=0.3;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=head;offset=LOCAL;y=0} ];sync=true} @Self ~onDeath
+  Options:
+    ApplyInvisibility: true
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.01 #0.27
+    Interactable: true
+    Invincible: false
+    NoGravity: false
+    NoAi: false
+    FollowRange: 2
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+
+statue_knighta_e:
+  Type: vindicator
+  Display: ''
+  Health: 30
+  Faction: FallenHero
+  AIGoalSelectors:
+  - 0 clear
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 2.7
+  - PROJECTILE 0.6
+  Drops:
+  - exp 20-40 1
+  Damage: 10
+  Skills:
+  - cancelEvent{sync=true} ~onAttack
+  - stance{stance=statue} @self ~onSpawn
+  - model{mid=statue_knighta;s=idle;n=false;delay=2;damagetint=false} @self ~onSpawn 
+  - state{s=idlestatic;li=0;lo=3;n=false;frame=0} @self ~onSpawn
+  - bodyclamp{m=statue_knighta;c=360;delay=1} @self ~onSpawn
+  - setvariable{var=caster.xlocxd;value="<caster.l.x>+10";t=integer} @Self ~onSpawn
+  - look{headOnly=false;immediately=false;repeat=40;repeatInterval=1;delay=0} @Location{c=<caster.var.xlocxd>,<caster.l.y>,<caster.l.z>,-90,-1} ~onSpawn
+  - spin{d=1;v=90;delay=0} @self ~onSpawn
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDamaged 1 ?!damagecause{c=PROJECTILE}
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1.6;v=1} @selflocation ~onDamaged 1 ?damagecause{c=PROJECTILE}
+
+  - skill{s=[
+    - sound{s=emaginationfallenravager:custom.fallenravager.statuefall;p=1;v=1.5} @selflocation
+    - model{mid=statue_knighta;remove=true;delay=1} @self
+    - bodyclamp{m=statue_knighta;c=0} @self
+    - model{mid=fallen_knight3;delay=0;damagetint=false} @self
+    - partvisibility{m=fallen_knight3;p=core;v=false;delay=0} @self
+    - partvisibility{m=fallen_knight3;p=core;v=true;delay=1} @self
+    - effect:particles{particle=cloud;amount=150;hS=1.1;vS=0.55;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=hip;offset=LOCAL;y=0} 
+    - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=axe;offset=LOCAL;y=0}
+    - effect:particles{particle=cloud;amount=30;hS=0.3;vS=0.3;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=head;offset=LOCAL;y=0} ];sync=true} @Self ~onDeath
+  Options:
+    ApplyInvisibility: true
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.01 #0.27
+    Interactable: true
+    Invincible: false
+    NoGravity: false
+    NoAi: false
+    FollowRange: 2
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+
+statue_knighta_w:
+  Type: vindicator
+  Display: ''
+  Health: 30
+  Faction: FallenHero
+  AIGoalSelectors:
+  - 0 clear
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 2.7
+  - PROJECTILE 0.6
+  Drops:
+  - exp 20-40 1
+  Damage: 10
+  Skills:
+  - cancelEvent{sync=true} ~onAttack
+  - stance{stance=statue} @self ~onSpawn
+  - model{mid=statue_knighta;s=idle;n=false;delay=2;damagetint=false} @self ~onSpawn 
+  - state{s=idlestatic;li=0;lo=3;n=false;frame=0} @self ~onSpawn
+  - bodyclamp{m=statue_knighta;c=360;delay=1} @self ~onSpawn
+  - setvariable{var=caster.xlocxd;value="<caster.l.x>-10";t=integer} @Self ~onSpawn
+  - look{headOnly=false;immediately=false;repeat=40;repeatInterval=1;delay=0} @Location{c=<caster.var.xlocxd>,<caster.l.y>,<caster.l.z>,-90,-1} ~onSpawn
+  - spin{d=1;v=-90;delay=0} @self ~onSpawn
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDamaged 1 ?!damagecause{c=PROJECTILE}
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1.6;v=1} @selflocation ~onDamaged 1 ?damagecause{c=PROJECTILE}
+
+  - skill{s=[
+    - sound{s=emaginationfallenravager:custom.fallenravager.statuefall;p=1;v=1.5} @selflocation
+    - model{mid=statue_knighta;remove=true;delay=1} @self
+    - bodyclamp{m=statue_knighta;c=0} @self
+    - model{mid=fallen_knight3;delay=0;damagetint=false} @self
+    - partvisibility{m=fallen_knight3;p=core;v=false;delay=0} @self
+    - partvisibility{m=fallen_knight3;p=core;v=true;delay=1} @self
+    - effect:particles{particle=cloud;amount=150;hS=1.1;vS=0.55;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=hip;offset=LOCAL;y=0} 
+    - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=axe;offset=LOCAL;y=0}
+    - effect:particles{particle=cloud;amount=30;hS=0.3;vS=0.3;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=head;offset=LOCAL;y=0} ];sync=true} @Self ~onDeath
+  Options:
+    ApplyInvisibility: true
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.01 #0.27
+    Interactable: true
+    Invincible: false
+    NoGravity: false
+    NoAi: false
+    FollowRange: 2
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+
+#PARTIALLY RESISTANT STATUES ======== HAVE A SLIGHT CHANCE TO SPAWN A HERO WHEN STRUCK
+
+statue_knighta_n_activable:
+  Type: vindicator
+  Display: ''
+  Health: 30
+  Faction: FallenHero
+  AIGoalSelectors:
+  - 0 clear
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 2.7
+  - PROJECTILE 0.6
+  Drops:
+  - exp 20-40 1
+  Damage: 10
+  Skills:
+  - cancelEvent{sync=true} ~onAttack
+  - stance{stance=statue} @self ~onSpawn
+  - model{mid=statue_knighta;s=idle;n=false;delay=2;damagetint=false} @self ~onSpawn 
+  - state{s=idlestatic;li=0;lo=3;n=false;frame=0} @self ~onSpawn
+  - bodyclamp{m=statue_knighta;c=360;delay=1} @self ~onSpawn
+  - setvariable{var=caster.zlocxd;value="<caster.l.z>-10";t=integer} @Self ~onSpawn
+  - look{headOnly=false;immediately=false;repeat=40;repeatInterval=1;delay=0} @Location{c=<caster.l.x>,<caster.l.y>,<caster.var.zlocxd>,-180,-1} ~onSpawn
+  - spin{d=1;v=110;delay=0} @self ~onSpawn
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDamaged 1 ?!damagecause{c=PROJECTILE}
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1.6;v=1} @selflocation ~onDamaged 1 ?damagecause{c=PROJECTILE}
+  - skill{s=[
+    - summon{mob=knight_fallen;amount=1;noise=0;r=0;yr=0} @SelfLocation{y=0}
+    - signal{s=RAMPAGE_ACTIVATE;delay=1} @LivingEntitiesInRadius{r=5;limit=1;sort=NEAREST;conditions=[  - mythicmobtype{t=knight_fallen} true ]}
+    - remove{delay=1} @self];sync=true} ~onDamaged >20% 0.08 
+  - skill{s=[
+    - sound{s=emaginationfallenravager:custom.fallenravager.statuefall;p=1;v=1.5} @selflocation
+    - model{mid=statue_knighta;remove=true;delay=1} @self
+    - bodyclamp{m=statue_knighta;c=0} @self
+    - model{mid=fallen_knight3;delay=0;damagetint=false} @self
+    - partvisibility{m=fallen_knight3;p=core;v=false;delay=0} @self
+    - partvisibility{m=fallen_knight3;p=core;v=true;delay=1} @self
+    - effect:particles{particle=cloud;amount=150;hS=1.1;vS=0.55;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=hip;offset=LOCAL;y=0} 
+    - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=axe;offset=LOCAL;y=0}
+    - effect:particles{particle=cloud;amount=30;hS=0.3;vS=0.3;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=head;offset=LOCAL;y=0} ];sync=true} @Self ~onDeath
+  Options:
+    ApplyInvisibility: true
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.01 #0.27
+    Interactable: true
+    Invincible: false
+    NoGravity: false
+    NoAi: false
+    FollowRange: 2
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+statue_knighta_s_activable:
+  Type: vindicator
+  Display: ''
+  Health: 30
+  Faction: FallenHero
+  AIGoalSelectors:
+  - 0 clear
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 2.7
+  - PROJECTILE 0.6
+  Drops:
+  - exp 20-40 1
+  Damage: 10
+  Skills:
+  - cancelEvent{sync=true} ~onAttack
+  - stance{stance=statue} @self ~onSpawn
+  - model{mid=statue_knighta;s=idle;n=false;delay=2;damagetint=false} @self ~onSpawn 
+  - bodyclamp{m=statue_knighta;c=360;delay=1} @self ~onSpawn
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDamaged 1 ?!damagecause{c=PROJECTILE}
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1.6;v=1} @selflocation ~onDamaged 1 ?damagecause{c=PROJECTILE}
+  - skill{s=[
+    - summon{mob=knight_fallen;amount=1;noise=0;r=0;yr=0} @SelfLocation{y=0}
+    - signal{s=RAMPAGE_ACTIVATE;delay=1} @LivingEntitiesInRadius{r=5;limit=1;sort=NEAREST;conditions=[  - mythicmobtype{t=knight_fallen} true ]}
+    - remove{delay=1} @self];sync=true} ~onDamaged >20% 0.08 
+  - skill{s=[
+    - sound{s=emaginationfallenravager:custom.fallenravager.statuefall;p=1;v=1.5} @selflocation
+    - model{mid=statue_knighta;remove=true;delay=1} @self
+    - bodyclamp{m=statue_knighta;c=0} @self
+    - model{mid=fallen_knight3;delay=0;damagetint=false} @self
+    - partvisibility{m=fallen_knight3;p=core;v=false;delay=0} @self
+    - partvisibility{m=fallen_knight3;p=core;v=true;delay=1} @self
+    - effect:particles{particle=cloud;amount=150;hS=1.1;vS=0.55;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=hip;offset=LOCAL;y=0} 
+    - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=axe;offset=LOCAL;y=0}
+    - effect:particles{particle=cloud;amount=30;hS=0.3;vS=0.3;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=head;offset=LOCAL;y=0} ];sync=true} @Self ~onDeath
+  Options:
+    ApplyInvisibility: true
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.01 #0.27
+    Interactable: true
+    Invincible: false
+    NoGravity: false
+    NoAi: false
+    FollowRange: 2
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+
+statue_knighta_e_activable:
+  Type: vindicator
+  Display: ''
+  Health: 30
+  Faction: FallenHero
+  AIGoalSelectors:
+  - 0 clear
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 2.7
+  - PROJECTILE 0.6
+  Drops:
+  - exp 20-40 1
+  Damage: 10
+  Skills:
+  - cancelEvent{sync=true} ~onAttack
+  - stance{stance=statue} @self ~onSpawn
+  - model{mid=statue_knighta;s=idle;n=false;delay=2;damagetint=false} @self ~onSpawn 
+  - state{s=idlestatic;li=0;lo=3;n=false;frame=0} @self ~onSpawn
+  - bodyclamp{m=statue_knighta;c=360;delay=1} @self ~onSpawn
+  - setvariable{var=caster.xlocxd;value="<caster.l.x>+10";t=integer} @Self ~onSpawn
+  - look{headOnly=false;immediately=false;repeat=40;repeatInterval=1;delay=0} @Location{c=<caster.var.xlocxd>,<caster.l.y>,<caster.l.z>,-90,-1} ~onSpawn
+  - spin{d=1;v=90;delay=0} @self ~onSpawn
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDamaged 1 ?!damagecause{c=PROJECTILE}
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1.6;v=1} @selflocation ~onDamaged 1 ?damagecause{c=PROJECTILE}
+  - skill{s=[
+    - summon{mob=knight_fallen;amount=1;noise=0;r=0;yr=0} @SelfLocation{y=0}
+    - signal{s=RAMPAGE_ACTIVATE;delay=1} @LivingEntitiesInRadius{r=5;limit=1;sort=NEAREST;conditions=[  - mythicmobtype{t=knight_fallen} true ]}
+    - remove{delay=1} @self];sync=true} ~onDamaged >20% 0.08 
+  - skill{s=[
+    - sound{s=emaginationfallenravager:custom.fallenravager.statuefall;p=1;v=1.5} @selflocation
+    - model{mid=statue_knighta;remove=true;delay=1} @self
+    - bodyclamp{m=statue_knighta;c=0} @self
+    - model{mid=fallen_knight3;delay=0;damagetint=false} @self
+    - partvisibility{m=fallen_knight3;p=core;v=false;delay=0} @self
+    - partvisibility{m=fallen_knight3;p=core;v=true;delay=1} @self
+    - effect:particles{particle=cloud;amount=150;hS=1.1;vS=0.55;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=hip;offset=LOCAL;y=0} 
+    - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=axe;offset=LOCAL;y=0}
+    - effect:particles{particle=cloud;amount=30;hS=0.3;vS=0.3;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=head;offset=LOCAL;y=0} ];sync=true} @Self ~onDeath
+  Options:
+    ApplyInvisibility: true
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.01 #0.27
+    Interactable: true
+    Invincible: false
+    NoGravity: false
+    NoAi: false
+    FollowRange: 2
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+
+statue_knighta_w_activable:
+  Type: vindicator
+  Display: ''
+  Health: 30
+  Faction: FallenHero
+  AIGoalSelectors:
+  - 0 clear
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 2.7
+  - PROJECTILE 0.6
+  Drops:
+  - exp 20-40 1
+  Damage: 10
+  Skills:
+  - cancelEvent{sync=true} ~onAttack
+  - stance{stance=statue} @self ~onSpawn
+  - model{mid=statue_knighta;s=idle;n=false;delay=2;damagetint=false} @self ~onSpawn 
+  - state{s=idlestatic;li=0;lo=3;n=false;frame=0} @self ~onSpawn
+  - bodyclamp{m=statue_knighta;c=360;delay=1} @self ~onSpawn
+  - setvariable{var=caster.xlocxd;value="<caster.l.x>-10";t=integer} @Self ~onSpawn
+  - look{headOnly=false;immediately=false;repeat=40;repeatInterval=1;delay=0} @Location{c=<caster.var.xlocxd>,<caster.l.y>,<caster.l.z>,-90,-1} ~onSpawn
+  - spin{d=1;v=-90;delay=0} @self ~onSpawn
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDamaged 1 ?!damagecause{c=PROJECTILE}
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1.6;v=1} @selflocation ~onDamaged 1 ?damagecause{c=PROJECTILE}
+  - skill{s=[
+    - summon{mob=knight_fallen;amount=1;noise=0;r=0;yr=0} @SelfLocation{y=0}
+    - signal{s=RAMPAGE_ACTIVATE;delay=1} @LivingEntitiesInRadius{r=5;limit=1;sort=NEAREST;conditions=[  - mythicmobtype{t=knight_fallen} true ]}
+    - remove{delay=1} @self];sync=true} ~onDamaged >20% 0.08 
+  - skill{s=[
+    - sound{s=emaginationfallenravager:custom.fallenravager.statuefall;p=1;v=1.5} @selflocation
+    - model{mid=statue_knighta;remove=true;delay=1} @self
+    - bodyclamp{m=statue_knighta;c=0} @self
+    - model{mid=fallen_knight3;delay=0;damagetint=false} @self
+    - partvisibility{m=fallen_knight3;p=core;v=false;delay=0} @self
+    - partvisibility{m=fallen_knight3;p=core;v=true;delay=1} @self
+    - effect:particles{particle=cloud;amount=150;hS=1.1;vS=0.55;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=hip;offset=LOCAL;y=0} 
+    - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=axe;offset=LOCAL;y=0}
+    - effect:particles{particle=cloud;amount=30;hS=0.3;vS=0.3;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=head;offset=LOCAL;y=0} ];sync=true} @Self ~onDeath
+  Options:
+    ApplyInvisibility: true
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.01 #0.27
+    Interactable: true
+    Invincible: false
+    NoGravity: false
+    NoAi: false
+    FollowRange: 2
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+
+#RESISTANT STATUES ==== USEFUL FOR WHEN YOUR PLAYERS ALREADY REALIZED THE MOBS CAN REVIVE, SO THAT THEY GET
+#                       LURED INTO DESTROYING THE STATUES, POTENTIALLY ACTIVATING A NEW HERO.
+
+statue_knighta_n_resist:
+  Type: vindicator
+  Display: ''
+  Health: 85
+  Faction: FallenHero
+  AIGoalSelectors:
+  - 0 clear
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 2.7
+  - PROJECTILE 0.6
+  Drops:
+  - exp 20-40 1
+  Damage: 10
+  Skills:
+  - cancelEvent{sync=true} ~onAttack
+  - stance{stance=statue} @self ~onSpawn
+  - model{mid=statue_knighta;s=idle;n=false;delay=2;damagetint=false} @self ~onSpawn 
+  - state{s=idlestatic;li=0;lo=3;n=false;frame=0} @self ~onSpawn
+  - bodyclamp{m=statue_knighta;c=360;delay=1} @self ~onSpawn
+  - setvariable{var=caster.zlocxd;value="<caster.l.z>-10";t=integer} @Self ~onSpawn
+  - look{headOnly=false;immediately=false;repeat=40;repeatInterval=1;delay=0} @Location{c=<caster.l.x>,<caster.l.y>,<caster.var.zlocxd>,-180,-1} ~onSpawn
+  - spin{d=1;v=110;delay=0} @self ~onSpawn
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDamaged 1 ?!damagecause{c=PROJECTILE}
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1.6;v=1} @selflocation ~onDamaged 1 ?damagecause{c=PROJECTILE}
+  - skill{s=[
+    - summon{mob=knight_fallen;amount=1;noise=0;r=0;yr=0} @SelfLocation{y=0}
+    - setvariable{var=caster.reviving;value="1";t=integer} @Self
+    - signal{s=RAMPAGE_ACTIVATE;delay=1} @LivingEntitiesInRadius{r=5;limit=1;sort=NEAREST;conditions=[  - mythicmobtype{t=knight_fallen} true ]}
+    - remove{delay=1} @self];sync=true} ~onDamaged >20% 0.07 
+  - skill{s=[
+    - sound{s=emaginationfallenravager:custom.fallenravager.statuefall;p=1;v=1.5} @selflocation
+    - model{mid=statue_knighta;remove=true;delay=1} @self
+    - bodyclamp{m=statue_knighta;c=0} @self
+    - model{mid=fallen_knight3;delay=0;damagetint=false} @self
+    - partvisibility{m=fallen_knight3;p=core;v=false;delay=0} @self
+    - partvisibility{m=fallen_knight3;p=core;v=true;delay=1} @self
+    - effect:particles{particle=cloud;amount=150;hS=1.1;vS=0.55;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=hip;offset=LOCAL;y=0} 
+    - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=axe;offset=LOCAL;y=0}
+    - effect:particles{particle=cloud;amount=30;hS=0.3;vS=0.3;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=head;offset=LOCAL;y=0} ];sync=true} @Self ~onDeath
+  Options:
+    ApplyInvisibility: true
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.01 #0.27
+    Interactable: true
+    Invincible: false
+    NoGravity: false
+    NoAi: false
+    FollowRange: 2
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+statue_knighta_s_resist:
+  Type: vindicator
+  Display: ''
+  Health: 85
+  Faction: FallenHero
+  AIGoalSelectors:
+  - 0 clear
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 2.7
+  - PROJECTILE 0.6
+  Drops:
+  - exp 20-40 1
+  Damage: 10
+  Skills:
+  - cancelEvent{sync=true} ~onAttack
+  - stance{stance=statue} @self ~onSpawn
+  - model{mid=statue_knighta;s=idle;n=false;delay=2;damagetint=false} @self ~onSpawn 
+  - bodyclamp{m=statue_knighta;c=360;delay=1} @self ~onSpawn
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDamaged 1 ?!damagecause{c=PROJECTILE}
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1.6;v=1} @selflocation ~onDamaged 1 ?damagecause{c=PROJECTILE}
+  - skill{s=[
+    - summon{mob=knight_fallen;amount=1;noise=0;r=0;yr=0} @SelfLocation{y=0}
+    - signal{s=RAMPAGE_ACTIVATE;delay=1} @LivingEntitiesInRadius{r=5;limit=1;sort=NEAREST;conditions=[  - mythicmobtype{t=knight_fallen} true ]}
+    - remove{delay=1} @self];sync=true} ~onDamaged 0.05
+  - skill{s=[
+    - sound{s=emaginationfallenravager:custom.fallenravager.statuefall;p=1;v=1.5} @selflocation
+    - model{mid=statue_knighta;remove=true;delay=1} @self
+    - bodyclamp{m=statue_knighta;c=0} @self
+    - model{mid=fallen_knight3;delay=0;damagetint=false} @self
+    - partvisibility{m=fallen_knight3;p=core;v=false;delay=0} @self
+    - partvisibility{m=fallen_knight3;p=core;v=true;delay=1} @self
+    - effect:particles{particle=cloud;amount=150;hS=1.1;vS=0.55;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=hip;offset=LOCAL;y=0} 
+    - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=axe;offset=LOCAL;y=0}
+    - effect:particles{particle=cloud;amount=30;hS=0.3;vS=0.3;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=head;offset=LOCAL;y=0} ];sync=true} @Self ~onDeath
+  Options:
+    ApplyInvisibility: true
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.01 #0.27
+    Interactable: true
+    Invincible: false
+    NoGravity: false
+    NoAi: false
+    FollowRange: 2
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+
+statue_knighta_e_resist:
+  Type: vindicator
+  Display: ''
+  Health: 85
+  Faction: FallenHero
+  AIGoalSelectors:
+  - 0 clear
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 2.7
+  - PROJECTILE 0.6
+  Drops:
+  - exp 20-40 1
+  Damage: 10
+  Skills:
+  - cancelEvent{sync=true} ~onAttack
+  - stance{stance=statue} @self ~onSpawn
+  - model{mid=statue_knighta;s=idle;n=false;delay=2;damagetint=false} @self ~onSpawn 
+  - state{s=idlestatic;li=0;lo=3;n=false;frame=0} @self ~onSpawn
+  - bodyclamp{m=statue_knighta;c=360;delay=1} @self ~onSpawn
+  - setvariable{var=caster.xlocxd;value="<caster.l.x>+10";t=integer} @Self ~onSpawn
+  - look{headOnly=false;immediately=false;repeat=40;repeatInterval=1;delay=0} @Location{c=<caster.var.xlocxd>,<caster.l.y>,<caster.l.z>,-90,-1} ~onSpawn
+  - spin{d=1;v=90;delay=0} @self ~onSpawn
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDamaged 1 ?!damagecause{c=PROJECTILE}
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1.6;v=1} @selflocation ~onDamaged 1 ?damagecause{c=PROJECTILE}
+  - skill{s=[
+    - summon{mob=knight_fallen;amount=1;noise=0;r=0;yr=0} @SelfLocation{y=0}
+    - signal{s=RAMPAGE_ACTIVATE;delay=1} @LivingEntitiesInRadius{r=5;limit=1;sort=NEAREST;conditions=[  - mythicmobtype{t=knight_fallen} true ]}
+    - remove{delay=1} @self];sync=true} ~onDamaged 0.05
+  - skill{s=[
+    - sound{s=emaginationfallenravager:custom.fallenravager.statuefall;p=1;v=1.5} @selflocation
+    - model{mid=statue_knighta;remove=true;delay=1} @self
+    - bodyclamp{m=statue_knighta;c=0} @self
+    - model{mid=fallen_knight3;delay=0;damagetint=false} @self
+    - partvisibility{m=fallen_knight3;p=core;v=false;delay=0} @self
+    - partvisibility{m=fallen_knight3;p=core;v=true;delay=1} @self
+    - effect:particles{particle=cloud;amount=150;hS=1.1;vS=0.55;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=hip;offset=LOCAL;y=0} 
+    - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=axe;offset=LOCAL;y=0}
+    - effect:particles{particle=cloud;amount=30;hS=0.3;vS=0.3;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=head;offset=LOCAL;y=0} ];sync=true} @Self ~onDeath
+  Options:
+    ApplyInvisibility: true
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.01 #0.27
+    Interactable: true
+    Invincible: false
+    NoGravity: false
+    NoAi: false
+    FollowRange: 2
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+
+statue_knighta_w_resist:
+  Type: vindicator
+  Display: ''
+  Health: 85
+  Faction: FallenHero
+  AIGoalSelectors:
+  - 0 clear
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 2.7
+  - PROJECTILE 0.6
+  Drops:
+  - exp 20-40 1
+  Damage: 10
+  Skills:
+  - cancelEvent{sync=true} ~onAttack
+  - stance{stance=statue} @self ~onSpawn
+  - model{mid=statue_knighta;s=idle;n=false;delay=2;damagetint=false} @self ~onSpawn 
+  - state{s=idlestatic;li=0;lo=3;n=false;frame=0} @self ~onSpawn
+  - bodyclamp{m=statue_knighta;c=360;delay=1} @self ~onSpawn
+  - setvariable{var=caster.xlocxd;value="<caster.l.x>-10";t=integer} @Self ~onSpawn
+  - look{headOnly=false;immediately=false;repeat=40;repeatInterval=1;delay=0} @Location{c=<caster.var.xlocxd>,<caster.l.y>,<caster.l.z>,-90,-1} ~onSpawn
+  - spin{d=1;v=-90;delay=0} @self ~onSpawn
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDamaged 1 ?!damagecause{c=PROJECTILE}
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1.6;v=1} @selflocation ~onDamaged 1 ?damagecause{c=PROJECTILE}
+  - skill{s=[
+    - summon{mob=knight_fallen;amount=1;noise=0;r=0;yr=0} @SelfLocation{y=0}
+    - signal{s=RAMPAGE_ACTIVATE;delay=1} @LivingEntitiesInRadius{r=5;limit=1;sort=NEAREST;conditions=[  - mythicmobtype{t=knight_fallen} true ]}
+    - remove{delay=1} @self];sync=true} ~onDamaged 0.05
+  - skill{s=[
+    - sound{s=emaginationfallenravager:custom.fallenravager.statuefall;p=1;v=1.5} @selflocation
+    - model{mid=statue_knighta;remove=true;delay=1} @self
+    - bodyclamp{m=statue_knighta;c=0} @self
+    - model{mid=fallen_knight3;delay=0;damagetint=false} @self
+    - partvisibility{m=fallen_knight3;p=core;v=false;delay=0} @self
+    - partvisibility{m=fallen_knight3;p=core;v=true;delay=1} @self
+    - effect:particles{particle=cloud;amount=150;hS=1.1;vS=0.55;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=hip;offset=LOCAL;y=0} 
+    - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=axe;offset=LOCAL;y=0}
+    - effect:particles{particle=cloud;amount=30;hS=0.3;vS=0.3;speed=0;size=4.5;sideOffset=0;delay=60} @ModelPart{m=fallen_knight3;p=head;offset=LOCAL;y=0} ];sync=true} @Self ~onDeath
+  Options:
+    ApplyInvisibility: true
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.01 #0.27
+    Interactable: true
+    Invincible: false
+    NoGravity: false
+    NoAi: false
+    FollowRange: 2
+    KnockbackResistance: 1
+    PreventOtherDrops: true

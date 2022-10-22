@@ -1,0 +1,259 @@
+#### GOLEM ####
+
+GOLEMInit:
+  Skills:
+  - CancelEvent
+  - skill{s=GOLEMPunch} @self
+
+GOLEMPunch:
+  Cooldown: 5.0
+  Skills:
+  - state{s=attack;li=3;lo=2} @self
+  - delay 30
+  - totem{ch=1;onStart=GOLEMPunchDamage;int=1;hR=3;md=1} @Forward{f=0.5}
+  - throw{velocity=5;velocityY=8} @PlayersInRadius{r=3}
+
+GOLEMPunchDamage:
+  Skills:
+  - damage{amount=5} @EntitiesNearOrigin{r=3}
+
+GOLEMore_wooden:
+  TargetConditions:
+  - holding{m=WOODEN_PICKAXE} true
+  Skills:
+  - damagepercent{percent=0.2} @self
+  - dropitem{i=GOLEMdrops_wooden} @Origin{yoffset=2}
+  - effect:particles{particle=block_crack;m=cobblestone;amount=100;hS=.75;vS=1} @self
+
+GOLEMore_stone:
+  TargetConditions:
+  - holding{m=STONE_PICKAXE} true
+  Skills:
+  - damagepercent{percent=0.2} @self
+  - dropitem{i=GOLEMdrops_stone} @Origin{yoffset=2}
+  - effect:particles{particle=block_crack;m=cobblestone;amount=100;hS=.75;vS=1} @self
+
+GOLEMore_iron:
+  TargetConditions:
+  - holding{m=IRON_PICKAXE} true
+  Skills:
+  - damagepercent{percent=0.2} @self
+  - dropitem{i=GOLEMdrops_iron} @Origin{yoffset=2}
+  - effect:particles{particle=block_crack;m=cobblestone;amount=100;hS=.75;vS=1} @self
+
+GOLEMore_golden:
+  TargetConditions:
+  - holding{m=GOLDEN_PICKAXE} true
+  Skills:
+  - damagepercent{percent=0.2} @self
+  - dropitem{i=GOLEMdrops_golden} @Origin{yoffset=2}
+  - effect:particles{particle=block_crack;m=cobblestone;amount=100;hS=.75;vS=1} @self
+
+GOLEMore_diamond:
+  TargetConditions:
+  - holding{m=DIAMOND_PICKAXE} true
+  Skills:
+  - damagepercent{percent=0.4} @self
+  - dropitem{i=GOLEMdrops_diamond} @Origin{yoffset=2}
+  - effect:particles{particle=block_crack;m=cobblestone;amount=100;hS=.75;vS=1} @self
+  
+  
+die_GOLEM:
+  Skills:
+  - sound{s=entity.blaze.death} @self
+  #- state{s=death} @self
+  - effect:particles{particle=block_crack;m=cobblestone;amount=100;hS=.75;vS=.75} @self
+  - delay 2
+  - effect:particles{particle=block_crack;m=cobblestone;amount=100;hS=.75;vS=.75} @self
+  - delay 2
+  - effect:particles{particle=block_crack;m=cobblestone;amount=100;hS=.75;vS=.75} @self
+  - delay 2
+  - effect:particles{particle=block_crack;m=cobblestone;amount=100;hS=.75;vS=.75} @self
+  - delay 32
+  - effect:particles{particle=cloud;amount=125;hS=1;vS=1;speed=.01} @self
+  
+  
+#### HERMITCRAB ####
+
+die_hermitcrab:
+  Skills:
+  - sound{s=entity.bat.death} @self
+  - delay 22
+  - effect:particles{particle=cloud;amount=25;hS=.5;vS=.5;speed=.01} @self
+  
+#### JELLY ####
+
+jellyshock:
+  Skills:
+  - stun{d=30} @PlayersInRadius{r=3}
+  - damage{amount=2} @PlayersInRadius{r=3}
+die_jelly:
+  Skills:
+  - delay 13
+  - effect:particles{particle=cloud;amount=15;hS=.5;vS=.5;speed=.01} @self
+  
+  
+#### MIMIC ####
+
+activate_mimic:
+  Skills:
+  - state{s=activated} @self
+  - runaigoalselector{goal=meleeattack} @self
+  - runaitargetselector{target=players} @self
+activate_mimic2:
+  Skills:
+  - state{s=activated} @self
+  - runaigoalselector{goal=meleeattack} @self
+  - runaitargetselector{target=players} @self
+activate_mimic3:
+  Conditions:
+  - playerwithin{d=2} true
+  Skills:
+  - delay 40
+  - state{s=activated} @self
+  - runaigoalselector{goal=meleeattack} @self
+  - runaitargetselector{target=players} @self
+die_mimic:
+  Skills:
+  - sound{s=entity.guardian.death} @self
+  - state{s=death;li=3;lo=2} @self
+  - delay 30
+  - effect:particles{particle=cloud;amount=25;hS=.5;vS=1;speed=.01} @self
+  
+  
+#### RHINO ####
+
+die_rhino:
+  Skills:
+  - sound{s=entity.bat.death} @self
+  - state{s=death} @self
+  - delay 20
+  - effect:particles{particle=cloud;amount=25;hS=.5;vS=.5;speed=.01} @self
+  
+flee_rhino:
+  Skills:
+  - runaigoalselector{goal=fleeplayers} @self
+  
+fly_rhino:
+  Conditions:
+  - playerwithin{d=5} true
+  Skills:
+  - state{s=fly} @self
+  - leap{velocity=200} @Forward{f=30;y=2.0}
+  - potion{type=SLOW_FALLING;duration=60;level=1;p=false} @self
+  
+aggro_rhino:
+  Skills:
+  - runaigoalselector{goal=movetowardstarget} @self
+  - runaitargetselector{target=meleeattack} @self
+  - potion{type=SPEED;duration=400;level=3} @self
+
+rhinoInit:
+  Skills:
+  - CancelEvent
+  - skill{s=rhinoAttack} @self
+
+rhinoAttack:
+  Cooldown: 2.0
+  Skills:
+  - state{s=attack} @self
+  - delay 10
+  - totem{ch=1;onStart=rhinoDamage;int=1;hR=3;md=1} @Forward{f=0.5}
+  - throw{velocity=2;velocityY=6} @EntitiesInRadius{r=2.5}
+
+rhinoDamage:
+  Skills:
+  - damage{amount=2} @EntitiesNearOrigin{r=3}
+  
+  
+#### SCORPID ####
+
+
+scorpidInitSnip:
+  Skills:
+  - CancelEvent
+  - skill{s=scorpidSnip} @self
+  
+scorpidInitSting:
+  Skills:
+  - CancelEvent
+  - skill{s=scorpidSting} @self
+
+scorpidSnip:
+  Cooldown: 3.0
+  Skills:
+  - state{s=attack;li=3;lo=2} @self
+  - delay 15
+  - totem{ch=1;onStart=scorpidDamage;int=1;hR=3;md=1} @Forward{f=0.5}
+  
+scorpidSting:
+  Cooldown: 25.0
+  Skills:
+  - state{s=sting;li=3;lo=2} @self
+  - delay 25
+  - potion{type=POISON;duration=60;level=1} @PlayersInRadius{r=2}
+  - effect:particles{p=reddust;color=#008000;amount=50;hS=.5;vS=.5;speed=.01} @target
+  
+  
+die_scorpid:
+  Skills:
+  - sound{s=entity.spider.death} @self
+  - state{s=death;li=3;lo=2} @self
+  - delay 12
+  - effect:particles{particle=cloud;amount=25;hS=.5;vS=.5;speed=.01} @self
+  
+scorpidDamage:
+  Skills:
+  - damage{amount=2} @EntitiesNearOrigin{r=3}
+  
+  
+#### SHARK ####
+
+
+
+sharkInit:
+  Skills:
+  - CancelEvent
+  - skill{s=sharkBite} @self
+  
+
+sharkBite:
+  Cooldown: 8
+  Skills:
+  - state{s=attack;li=3;lo=2} @self
+  - sound{s=entity.generic.eat} @self
+  - effect:bloodyScreen{d=60} @target
+  - effect:particles{p=reddust;color=#FF0017;amount=200;hS=.25;vS=.25;speed=.001} @target
+  - delay 10
+  - effect:particles{p=reddust;color=#FF0017;amount=100;hS=.5;vS=.5;speed=.001} @target
+  - delay 10
+  - effect:particles{p=reddust;color=#FF0017;amount=50;hS=1;vS=1;speed=.001} @target
+  - totem{ch=1;onStart=sharkDamage;int=1;hR=1;md=1} @Forward{f=0.5}
+  - rally{types=shark;radius=32;ot=false} @Trigger
+  
+
+die_shark:
+  Skills:
+  - sound{s=entity.spider.death} @self
+  - state{s=death;li=3;lo=2} @self
+  - delay 12
+  - effect:particles{particle=cloud;amount=25;hS=.5;vS=.5;speed=.01} @self
+  
+
+sharkDamage:
+  Skills:
+  - damage{amount=2} @EntitiesNearOrigin{r=.5}
+  
+sharkaggro:
+  Conditions:
+  - playerwithin{d=16} true
+  Skills:
+  - runaitargetselector{target=players} @self
+  - state{s=swim_aggro;li=3;lo=2} @self
+  - potion{type=SPEED;duration=120;level=5;} @self
+  - delay 60
+  
+sharkflee:
+  Skills:
+  - disengage @self
+  

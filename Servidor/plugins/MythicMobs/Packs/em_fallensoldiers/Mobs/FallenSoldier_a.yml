@@ -1,0 +1,1482 @@
+knight_fallen:
+  Type: skeleton
+  Display: 'Fallen Knight'
+  AIGoalSelectors:
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 SpecificFaction CorruptedFlesh
+  - 2 SpecificFaction Zombie
+  - 2 attacker
+  - 3 players
+  AIGoalSelectors:
+  - 0 clear
+  Health: 30
+  Faction: FallenHero
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 1.1
+  - PROJECTILE 0.25
+  Damage: 10 #10 is the BASE damage. Setting it to 20 will DOUBLE damage. Setting it to 5 will REDUCE damage in 50% from the original.
+  KillMessages:
+  - '<target.name> was killed by the fallen heroes.'
+  - 'The fallen heroes have claimed justice over <target.name>.'
+  - "<target.name> suffered the revenge of the fallen heroes."
+  - "The fallen heroes have claimed <target.name>'s soul."
+  - '<target.name> tried to defy the fallen heroes. Tried.'
+  Equipment:
+  - air:4
+  - air:3
+  - air:2
+  - imbootsfallensoldier:1
+  - air:0
+  - air:5
+  Drops:
+  - exp 10-25 1
+  - exp 10-25 1
+  - exp 10-25 1
+  - exp 10-25 1
+  LevelModifiers:
+    Health: 2
+    Damage: 0.03
+  Skills:
+  - message{m="Hitrec <caster.var.hitrec> STACKS"} @PlayersNearOrigin{r=75} ~onDamaged 0 #DEBUGMESSAGE
+#====== MODEL ASSIGNEMENT =============
+  - model{mid=fallen_knight;s=idle;n=false} @self ~onSpawn 1
+  - lockmodel{l=true;delay=10} @Self ~onSpawn
+  - bodyclamp{m=fallen_knight;c=0} @self ~onSpawn
+  - RunAIGoalSelector{goal=clear} @self ~onSpawn
+  - partvisibility{m=fallen_knight;p=sword;v=false;delay=0} @self ~onSpawn
+  - spin{d=1;v=10} @self ~onSpawn
+  - state{s=idlestatic;li=0;lo=0;n=false;delay=1} @self ~onSpawn
+  - setlevel{a=set;l=0} ~onSpawn
+  - bindhitbox{m=fallen_knight;p=ob_parrybox;t=fknighta_parrybox;delay=2} @self ~onSpawn
+  - hitboxconfig{m=fallen_knight;p=ob_parrybox;pass=0;delay=2} @self ~onSpawn
+  - setvariable{var=caster.skillxd;value="none";t=string} @Self ~onSpawn
+#============ DISGUISE =================
+  - changepart{m=fallen_knight;pid=head;nm=fallen_knight2;npid=head} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=right_arm;nm=fallen_knight2;npid=right_arm} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=right_forearm;nm=fallen_knight2;npid=right_forearm} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=left_arm;nm=fallen_knight2;npid=left_arm} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=left_forearm;nm=fallen_knight2;npid=left_forearm} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=hip;nm=fallen_knight2;npid=hip} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=chest;nm=fallen_knight2;npid=chest} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=left_leg;nm=fallen_knight2;npid=left_leg} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=left_shin;nm=fallen_knight2;npid=left_shin} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=right_leg;nm=fallen_knight2;npid=right_leg} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=right_shin;nm=fallen_knight2;npid=right_shin} @self ~onSpawn
+#============ ATTACK =================
+  - CancelEvent{sync=true} @self ~onAttack 1 #CANCEL ATTACKS
+  - skill{s=fknighta_parrystance_trigger;sync=true} @self ~onInteract
+  - skill{s=meleefknightatrigger;sync=false} @LivingInCone{a=110.0;r=6.5;rot=0.0;ignore=samefaction} ~onTimer:25 0.7 ?!variableEquals{var=caster.parrying;value="1"} ###### 0.6
+  - skill{s=meleefknightatrigger2;sync=false} @LivingInCone{a=110.0;r=5.5;rot=0.0;ignore=samefaction} ~onTimer:37 0.45 ?variableEquals{var=caster.parrying;value="1"}
+  - setvariable{var=caster.combor;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.comboa;value="0";t=integer} @Self ~onSpawn
+#================ RIP IN PEPSI PROTOCOL
+  - sound{s=emaginationfallenheroes:custom.fallenhero.death;p=1;v=1} @selflocation ~onDeath 1
+  - sound{s=emaginationfallenravager:custom.fallenravager.statuefall;p=1;v=1.5} @selflocation ~onDeath 1
+  - effect:particles{particle=cloud;amount=150;hS=1.1;vS=0.55;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=179} @ModelPart{m=fallen_knight;p=hip;offset=LOCAL;y=0} ~onDeath
+  - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=179} @ModelPart{m=fallen_knight;p=axe;offset=LOCAL;y=0} ~onDeath
+  - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=179} @ModelPart{m=fallen_knight;p=head;offset=LOCAL;y=0} ~onDeath
+  - skill{s=[
+    - bodyclamp{m=fallen_knight;c=0} @self
+    - changeparent{model=fallen_knight;parent=left_leg_death;child=left_leg} @self
+    - changeparent{model=fallen_knight;parent=left_shin_death;child=left_shin} @self
+    - changeparent{model=fallen_knight;parent=right_leg_death;child=right_leg} @self
+    - changeparent{model=fallen_knight;parent=right_shin_death;child=right_shin} @self
+    - changeparent{model=fallen_knight;parent=left_arm_death;child=left_arm} @self 0
+    - changeparent{model=fallen_knight;parent=left_forearm_death;child=left_forearm} @self
+    - changeparent{model=fallen_knight;parent=right_arm_death;child=right_arm} @self 0
+    - changeparent{model=fallen_knight;parent=right_forearm_death;child=right_forearm} @self
+    - changeparent{model=fallen_knight;parent=head_death;child=head} @self
+    - changeparent{model=fallen_knight;parent=hip_death;child=hip} @self
+    - changeparent{model=fallen_knight;parent=chest_death;child=chest} @self
+    - changeparent{model=fallen_knight;parent=axe_death;child=superior_sword_control} @self
+    
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=35;hS=0.3;vS=0.3;size=2} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.2;vS=0.1;size=0.75;delay=0;repeat=20;repeatinterval=1} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.2;vS=0.1;size=1.5;delay=20;repeat=22;repeatinterval=1} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.2;vS=0.1;size=0.75;delay=42;repeat=40;repeatinterval=1} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=84;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_forearm;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=100;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_shin;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=72;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_forearm;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=100;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_shin;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.16;size=0.8;delay=0;repeat=140;repeatinterval=1} @ModelPart{m=fallen_knight;p=axeparticles1;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=0;repeat=95;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye1;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=0;repeat=95;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye2;offset=LOCAL;y=0}
+
+    - changepart{m=fallen_knight;pid=hip;nm=fallen_knight3;npid=hip;delay=10} @self
+    - changepart{m=fallen_knight;pid=chest;nm=fallen_knight3;npid=chest;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=45;hS=0.15;vS=0.25;size=1.8;delay=10;repeat=3} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    
+    - changepart{m=fallen_knight;pid=left_arm;nm=fallen_knight3;npid=left_arm;delay=10} @self
+    - changepart{m=fallen_knight;pid=left_forearm;nm=fallen_knight3;npid=left_forearm;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=15;hS=0.15;vS=0.15;size=1.4;delay=10;repeat=2;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_forearm;offset=LOCAL;y=0}
+
+    - changepart{m=fallen_knight;pid=right_forearm;nm=fallen_knight3;npid=right_forearm;delay=10} @self
+    - changepart{m=fallen_knight;pid=right_arm;nm=fallen_knight3;npid=right_arm;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=15;hS=0.15;vS=0.15;size=1.4;delay=9;repeat=2;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_forearm;offset=LOCAL;y=0}
+    
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.5;delay=10;repeat=17;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye1;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.5;delay=10;repeat=17;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye2;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=10;repeat=40;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye1;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=10;repeat=40;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye2;offset=LOCAL;y=0}
+    - changepart{m=fallen_knight;pid=head;nm=fallen_knight3;npid=head;delay=10} @self
+
+    - changepart{m=fallen_knight;pid=left_leg;nm=fallen_knight3;npid=left_leg;delay=10} @self
+    - changepart{m=fallen_knight;pid=left_shin;nm=fallen_knight3;npid=left_shin;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=20;hS=0.17;vS=0.17;size=1.5;delay=10;repeat=3;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_shin;offset=LOCAL;y=0}
+    - changepart{m=fallen_knight;pid=right_leg;nm=fallen_knight3;npid=right_leg;delay=10} @self
+    - changepart{m=fallen_knight;pid=right_shin;nm=fallen_knight3;npid=right_shin;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=20;hS=0.17;vS=0.17;size=1.5;delay=10;repeat=3;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_shin;offset=LOCAL;y=0}];sync=true} @Self ~onDeath
+#  
+  - summon{mob=knighta_spirit;amount=1;noise=0;r=0;yr=0} @SelfLocation{y=-3} ~onDeath
+#==============
+  - randomskill{s=hurt1fknighta,hurt2fknighta,hurt3fknighta,hurt4fknighta;sync=true} @self ~onDamaged 0.92 #Hurtmechanic
+  - velocity{m=set;x=0;y=0;z=0} @self ~onDamaged
+  - setvariable{var=caster.statueform;value="1";t=integer} @Self ~onSpawn #=====================
+  - skill{s=fknightastcheck3;cooldown=99999;sync=true} @self ~onDamaged 1 #=====================
+
+# ========= Anti-ranged protocol
+  - message{m="COUNTERATTACKED"} @PlayersNearOrigin{r=75} ~onSignal:COUNTERATTACK 0 #DEBUGMESSAGE
+  - skill{s=countertacked_fknighta_A;cooldown=2;sync=true} @self ~onSignal:COUNTERATTACK
+  - skill{s=countertacked_fknighta_B;cooldown=0.3;sync=false} @self ~onSignal:COUNTERATTACK ?variableEquals{var=caster.parrying;value="1"}
+  - skill{s=meleefknightatrigger2;cooldown=1;sync=false} @Trigger ~onSignal:COUNTERATTACK 0.45 ?variableEquals{var=caster.parrying;value="1"}
+  
+#
+
+# ========= Anti-ranged protocol
+  - skill{s=hurtgenfknighta;sync=true} @self ~onDamaged 1 #Hurtmechanic ANTIARROW
+  - skill{s=hurtgenfknighta2;sync=true} @self ~onDamaged 1 #Hurtmechanic ANTIMMSkills
+  - setvariable{var=caster.rollumterr;value="0";t=integer} @Self ~OnSpawn #Hurtmechanic ANTIARROW
+  - setvariable{var=caster.projrec;value="0";t=integer} @Self ~OnSpawn #Hurtmechanic ANTIARROW
+  - setvariable{var=caster.running;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.runstacks;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.hurtened;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.parrying;value="0";t=integer} @Self ~onSpawn
+#======== RUNNER PROTOCOL (Activate if you remove statue pose)
+  - Aura{auraName=checkrunfknighta;onTick=fknighta_runprotocolcheck;interval=30;duration=99999} @self ~onSpawn 0 #=============== RUN MECHANICUS
+  - setvariable{var=caster.hitrec;value="0";t=integer} @Self ~OnSpawn #Hurtmechanic ANTIARROW
+  - message{m="Hitrec <caster.var.hitrec>"} @PlayersNearOrigin{r=75} ~onDamaged 0 #DEBUGMESSAGE
+  - message{m="&eCOMBOR &a<caster.var.combor>"} @PlayersNearOrigin{r=75} ~onDamaged 0 #DEBUGMESSAGE
+
+# ======== Dodger Protocol (activate here if you remove statue pose)
+  - Aura{auraName=backstepdodgerfknighta;onTick=fknighta_bstpcheck;interval=7;duration=99999} @self ~onSpawn 0
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDamaged 1 #Hurtmechanic SOUND
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDeath 1 
+  - setstance{stance=static} @self ~onSpawn
+#  - message{m="<caster.var.runstacks>"} @PlayersNearOrigin{r=35} ~onTimer:40 0
+  #ACTIVATION AURA
+  - Aura{auraName=staticfknighta;onTick=fknightastcheck;interval=20;duration=99999} @self ~onSpawn
+  - skill{s=fknightastcheck3;cooldown=0.3;sync=false} @self ~onSignal:RAMPAGE_ACTIVATE
+  Options:
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.18
+    Interactable: true
+    PreventOtherDrops: true
+    KnockbackResistance: 0.9
+    PreventSunburn: true
+knight_fallen_activated:
+  Type: skeleton
+  Display: 'Fallen Knight'
+  AIGoalSelectors:
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 SpecificFaction CorruptedFlesh
+  - 2 SpecificFaction Zombie
+  - 2 attacker
+  - 3 players
+  Health: 30
+  Faction: FallenHero
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 1.1
+  - PROJECTILE 0.25
+  Damage: 10 #10 is the BASE damage. Setting it to 20 will DOUBLE damage. Setting it to 5 will REDUCE damage in 50% from the original.
+  KillMessages:
+  - '<target.name> was killed by the fallen heroes.'
+  - 'The fallen heroes have claimed justice over <target.name>.'
+  - "<target.name> suffered the revenge of the fallen heroes."
+  - "The fallen heroes have claimed <target.name>'s soul."
+  - '<target.name> tried to defy the fallen heroes. Tried.'
+  Equipment:
+  - air:4
+  - air:3
+  - air:2
+  - imbootsfallensoldier:1
+  - air:0
+  - air:5
+  Drops:
+  - exp 10-25 1
+  - exp 10-25 1
+  - exp 10-25 1
+  - exp 10-25 1
+  LevelModifiers:
+    Health: 2
+    Damage: 0.03
+  Skills:
+  - message{m="Hitrec <caster.var.hitrec> STACKS"} @PlayersNearOrigin{r=75} ~onDamaged 0 #DEBUGMESSAGE
+#====== MODEL ASSIGNEMENT =============
+  - model{mid=fallen_knight;s=idle;n=false} @self ~onSpawn 1
+  - partvisibility{m=fallen_knight;p=body_sword;v=false;delay=1} @self ~onSpawn
+  - spin{d=1;v=10} @self ~onSpawn
+  - setlevel{a=set;l=0} ~onSpawn
+  - bindhitbox{m=fallen_knight;p=ob_parrybox;t=fknighta_parrybox;delay=1} @self ~onSpawn
+  - hitboxconfig{m=fallen_knight;p=ob_parrybox;pass=0;delay=1} @self ~onSpawn
+  - setvariable{var=caster.skillxd;value="none";t=string} @Self ~onSpawn
+  - setspeed{speed=0.95;type=walking} @Self ~onDropCombat
+  - setspeed{speed=1.2;type=walking} @Self ~onEnterCombat ?!variableEquals{var=caster.parrying;value="1"}
+  - setspeed{speed=0.85;type=walking} @Self ~onEnterCombat ?variableEquals{var=caster.parrying;value="1"}
+
+#============ ATTACK =================
+  - CancelEvent{sync=true} @self ~onAttack 1 #CANCEL ATTACKS
+  - skill{s=fknighta_parrystance_trigger;sync=true} @self ~onInteract
+  - skill{s=meleefknightatrigger;sync=false} @LivingInCone{a=110.0;r=6.5;rot=0.0;ignore=samefaction} ~onTimer:25 0.7 ?!variableEquals{var=caster.parrying;value="1"} ###### 0.6
+  - skill{s=meleefknightatrigger2;sync=false} @LivingInCone{a=110.0;r=5.5;rot=0.0;ignore=samefaction} ~onTimer:37 0.45 ?variableEquals{var=caster.parrying;value="1"}
+  - setvariable{var=caster.combor;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.comboa;value="0";t=integer} @Self ~onSpawn
+#================ RIP IN PEPSI PROTOCOL
+  - sound{s=emaginationfallenheroes:custom.fallenhero.death;p=1;v=1} @selflocation ~onDeath 1
+  - sound{s=emaginationfallenravager:custom.fallenravager.statuefall;p=1;v=1.5} @selflocation ~onDeath 1
+  - effect:particles{particle=cloud;amount=150;hS=1.1;vS=0.55;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=179} @ModelPart{m=fallen_knight;p=hip;offset=LOCAL;y=0} ~onDeath
+  - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=179} @ModelPart{m=fallen_knight;p=axe;offset=LOCAL;y=0} ~onDeath
+  - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=179} @ModelPart{m=fallen_knight;p=head;offset=LOCAL;y=0} ~onDeath
+  - skill{s=[
+    - bodyclamp{m=fallen_knight;c=0} @self
+    - changeparent{model=fallen_knight;parent=left_leg_death;child=left_leg} @self
+    - changeparent{model=fallen_knight;parent=left_shin_death;child=left_shin} @self
+    - changeparent{model=fallen_knight;parent=right_leg_death;child=right_leg} @self
+    - changeparent{model=fallen_knight;parent=right_shin_death;child=right_shin} @self
+    - changeparent{model=fallen_knight;parent=left_arm_death;child=left_arm} @self 0
+    - changeparent{model=fallen_knight;parent=left_forearm_death;child=left_forearm} @self
+    - changeparent{model=fallen_knight;parent=right_arm_death;child=right_arm} @self 0
+    - changeparent{model=fallen_knight;parent=right_forearm_death;child=right_forearm} @self
+    - changeparent{model=fallen_knight;parent=head_death;child=head} @self
+    - changeparent{model=fallen_knight;parent=hip_death;child=hip} @self
+    - changeparent{model=fallen_knight;parent=chest_death;child=chest} @self
+    - changeparent{model=fallen_knight;parent=axe_death;child=superior_sword_control} @self
+    
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=35;hS=0.3;vS=0.3;size=2} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.2;vS=0.1;size=0.75;delay=0;repeat=20;repeatinterval=1} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.2;vS=0.1;size=1.5;delay=20;repeat=22;repeatinterval=1} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.2;vS=0.1;size=0.75;delay=42;repeat=40;repeatinterval=1} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=84;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_forearm;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=100;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_shin;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=72;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_forearm;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=100;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_shin;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.16;size=0.8;delay=0;repeat=140;repeatinterval=1} @ModelPart{m=fallen_knight;p=axeparticles1;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=0;repeat=95;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye1;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=0;repeat=95;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye2;offset=LOCAL;y=0}
+
+    - changepart{m=fallen_knight;pid=hip;nm=fallen_knight3;npid=hip;delay=10} @self
+    - changepart{m=fallen_knight;pid=chest;nm=fallen_knight3;npid=chest;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=45;hS=0.15;vS=0.25;size=1.8;delay=10;repeat=3} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    
+    - changepart{m=fallen_knight;pid=left_arm;nm=fallen_knight3;npid=left_arm;delay=10} @self
+    - changepart{m=fallen_knight;pid=left_forearm;nm=fallen_knight3;npid=left_forearm;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=15;hS=0.15;vS=0.15;size=1.4;delay=10;repeat=2;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_forearm;offset=LOCAL;y=0}
+
+    - changepart{m=fallen_knight;pid=right_forearm;nm=fallen_knight3;npid=right_forearm;delay=10} @self
+    - changepart{m=fallen_knight;pid=right_arm;nm=fallen_knight3;npid=right_arm;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=15;hS=0.15;vS=0.15;size=1.4;delay=9;repeat=2;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_forearm;offset=LOCAL;y=0}
+    
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.5;delay=10;repeat=17;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye1;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.5;delay=10;repeat=17;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye2;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=10;repeat=40;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye1;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=10;repeat=40;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye2;offset=LOCAL;y=0}
+    - changepart{m=fallen_knight;pid=head;nm=fallen_knight3;npid=head;delay=10} @self
+
+    - changepart{m=fallen_knight;pid=left_leg;nm=fallen_knight3;npid=left_leg;delay=10} @self
+    - changepart{m=fallen_knight;pid=left_shin;nm=fallen_knight3;npid=left_shin;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=20;hS=0.17;vS=0.17;size=1.5;delay=10;repeat=3;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_shin;offset=LOCAL;y=0}
+    - changepart{m=fallen_knight;pid=right_leg;nm=fallen_knight3;npid=right_leg;delay=10} @self
+    - changepart{m=fallen_knight;pid=right_shin;nm=fallen_knight3;npid=right_shin;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=20;hS=0.17;vS=0.17;size=1.5;delay=10;repeat=3;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_shin;offset=LOCAL;y=0}];sync=true} @Self ~onDeath
+#  
+  - summon{mob=knighta_spirit;amount=1;noise=0;r=0;yr=0} @SelfLocation{y=-3} ~onDeath
+#==============
+  - randomskill{s=hurt1fknighta,hurt2fknighta,hurt3fknighta,hurt4fknighta;sync=true} @self ~onDamaged 0.92 #Hurtmechanic
+  - velocity{m=set;x=0;y=0;z=0} @self ~onDamaged
+  - setvariable{var=caster.statueform;value="0";t=integer} @Self ~onSpawn #=====================
+
+# ========= Anti-ranged protocol
+  - message{m="COUNTERATTACKED"} @PlayersNearOrigin{r=75} ~onSignal:COUNTERATTACK 0 #DEBUGMESSAGE
+  - skill{s=countertacked_fknighta_A;cooldown=2;sync=true} @self ~onSignal:COUNTERATTACK
+  - skill{s=countertacked_fknighta_B;cooldown=0.3;sync=false} @self ~onSignal:COUNTERATTACK ?variableEquals{var=caster.parrying;value="1"}
+  - skill{s=meleefknightatrigger2;cooldown=1;sync=false} @Trigger ~onSignal:COUNTERATTACK 0.45 ?variableEquals{var=caster.parrying;value="1"}
+  
+#
+
+# ========= Anti-ranged protocol
+  - skill{s=hurtgenfknighta;sync=true} @self ~onDamaged 1 #Hurtmechanic ANTIARROW
+  - skill{s=hurtgenfknighta2;sync=true} @self ~onDamaged 1 #Hurtmechanic ANTIMMSkills
+  - setvariable{var=caster.rollumterr;value="0";t=integer} @Self ~OnSpawn #Hurtmechanic ANTIARROW
+  - setvariable{var=caster.projrec;value="0";t=integer} @Self ~OnSpawn #Hurtmechanic ANTIARROW
+  - setvariable{var=caster.running;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.runstacks;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.hurtened;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.parrying;value="0";t=integer} @Self ~onSpawn
+#======== RUNNER PROTOCOL (Activate if you remove statue pose)
+  - Aura{auraName=checkrunfknighta;onTick=fknighta_runprotocolcheck;interval=30;duration=99999} @self ~onSpawn 0 #=============== RUN MECHANICUS
+  - setvariable{var=caster.hitrec;value="0";t=integer} @Self ~OnSpawn #Hurtmechanic ANTIARROW
+  - message{m="Hitrec <caster.var.hitrec>"} @PlayersNearOrigin{r=75} ~onDamaged 0 #DEBUGMESSAGE
+  - message{m="&eCOMBOR &a<caster.var.combor>"} @PlayersNearOrigin{r=75} ~onDamaged 0 #DEBUGMESSAGE
+
+# ======== Dodger Protocol (activate here if you remove statue pose)
+  - Aura{auraName=backstepdodgerfknighta;onTick=fknighta_bstpcheck;interval=7;duration=99999} @self ~onSpawn 0
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDamaged 1 #Hurtmechanic SOUND
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDeath 1 
+  - setstance{stance=normal} @self ~onSpawn
+#  - message{m="<caster.var.runstacks>"} @PlayersNearOrigin{r=35} ~onTimer:40 0
+  #ACTIVATION AURA
+#  - Aura{auraName=staticfknighta;onTick=fknightastcheck;interval=20;duration=99999} @self ~onSpawn
+#  - skill{s=fknightastcheck3;cooldown=0.3;sync=false} @self ~onSignal:RAMPAGE_ACTIVATE
+  Options:
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.18
+    Interactable: true
+    PreventOtherDrops: true
+    KnockbackResistance: 0.9
+    PreventSunburn: true
+knight_fallen_n:
+  Type: skeleton
+  Display: 'Fallen Knight'
+  AIGoalSelectors:
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 SpecificFaction CorruptedFlesh
+  - 2 SpecificFaction Zombie
+  - 2 attacker
+  - 3 players
+  AIGoalSelectors:
+  - 0 clear
+  Health: 30
+  Faction: FallenHero
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 1.1
+  - PROJECTILE 0.25
+  Damage: 10 #10 is the BASE damage. Setting it to 20 will DOUBLE damage. Setting it to 5 will REDUCE damage in 50% from the original.
+  KillMessages:
+  - '<target.name> was killed by the fallen heroes.'
+  - 'The fallen heroes have claimed justice over <target.name>.'
+  - "<target.name> suffered the revenge of the fallen heroes."
+  - "The fallen heroes have claimed <target.name>'s soul."
+  - '<target.name> tried to defy the fallen heroes. Tried.'
+  Equipment:
+  - air:4
+  - air:3
+  - air:2
+  - imbootsfallensoldier:1
+  - air:0
+  - air:5
+  Drops:
+  - exp 10-25 1
+  - exp 10-25 1
+  - exp 10-25 1
+  - exp 10-25 1
+  LevelModifiers:
+    Health: 2
+    Damage: 0.03
+  Skills:
+  - message{m="Hitrec <caster.var.hitrec> STACKS"} @PlayersNearOrigin{r=75} ~onDamaged 0 #DEBUGMESSAGE
+#====== MODEL ASSIGNEMENT =============
+  - model{mid=fallen_knight;s=idle;n=false} @self ~onSpawn 1
+  #ROTATION
+  - lockmodel{l=true;delay=40} @Self ~onSpawn
+  - bodyclamp{m=fallen_knight;c=0;delay=1} @self ~onSpawn
+  - bodyclamp{m=fallen_knight;c=50;delay=70} @self ~onSpawn
+  #
+  - setvariable{var=caster.zlocxd;value="<caster.l.z>-10";t=integer} @Self ~onSpawn
+  - look{headOnly=false;immediately=false;repeat=40;repeatInterval=1;delay=0} @Location{c=<caster.l.x>,<caster.l.y>,<caster.var.zlocxd>,-180,-1} ~onSpawn
+  - spin{d=1;v=110;delay=0} @self ~onSpawn
+  #
+  - RunAIGoalSelector{goal=clear} @self ~onSpawn
+  - partvisibility{m=fallen_knight;p=sword;v=false;delay=0} @self ~onSpawn
+  - state{s=idlestatic;li=0;lo=0;n=false;delay=1} @self ~onSpawn
+  - setlevel{a=set;l=0} ~onSpawn
+  - bindhitbox{m=fallen_knight;p=ob_parrybox;t=fknighta_parrybox;delay=2} @self ~onSpawn
+  - hitboxconfig{m=fallen_knight;p=ob_parrybox;pass=0;delay=2} @self ~onSpawn
+  - setvariable{var=caster.skillxd;value="none";t=string} @Self ~onSpawn
+#============ DISGUISE =================
+  - changepart{m=fallen_knight;pid=head;nm=fallen_knight2;npid=head} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=right_arm;nm=fallen_knight2;npid=right_arm} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=right_forearm;nm=fallen_knight2;npid=right_forearm} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=left_arm;nm=fallen_knight2;npid=left_arm} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=left_forearm;nm=fallen_knight2;npid=left_forearm} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=hip;nm=fallen_knight2;npid=hip} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=chest;nm=fallen_knight2;npid=chest} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=left_leg;nm=fallen_knight2;npid=left_leg} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=left_shin;nm=fallen_knight2;npid=left_shin} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=right_leg;nm=fallen_knight2;npid=right_leg} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=right_shin;nm=fallen_knight2;npid=right_shin} @self ~onSpawn
+#============ ATTACK =================
+  - CancelEvent{sync=true} @self ~onAttack 1 #CANCEL ATTACKS
+  - skill{s=fknighta_parrystance_trigger;sync=true} @self ~onInteract
+  - skill{s=meleefknightatrigger;sync=false} @LivingInCone{a=110.0;r=6.5;rot=0.0;ignore=samefaction} ~onTimer:25 0.7 ?!variableEquals{var=caster.parrying;value="1"} ###### 0.6
+  - skill{s=meleefknightatrigger2;sync=false} @LivingInCone{a=110.0;r=5.5;rot=0.0;ignore=samefaction} ~onTimer:37 0.45 ?variableEquals{var=caster.parrying;value="1"}
+  - setvariable{var=caster.combor;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.comboa;value="0";t=integer} @Self ~onSpawn
+#================ RIP IN PEPSI PROTOCOL
+  - sound{s=emaginationfallenheroes:custom.fallenhero.death;p=1;v=1} @selflocation ~onDeath 1
+  - sound{s=emaginationfallenravager:custom.fallenravager.statuefall;p=1;v=1.5} @selflocation ~onDeath 1
+  - effect:particles{particle=cloud;amount=150;hS=1.1;vS=0.55;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=179} @ModelPart{m=fallen_knight;p=hip;offset=LOCAL;y=0} ~onDeath
+  - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=179} @ModelPart{m=fallen_knight;p=axe;offset=LOCAL;y=0} ~onDeath
+  - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=179} @ModelPart{m=fallen_knight;p=head;offset=LOCAL;y=0} ~onDeath
+  - skill{s=[
+    - bodyclamp{m=fallen_knight;c=0} @self
+    - changeparent{model=fallen_knight;parent=left_leg_death;child=left_leg} @self
+    - changeparent{model=fallen_knight;parent=left_shin_death;child=left_shin} @self
+    - changeparent{model=fallen_knight;parent=right_leg_death;child=right_leg} @self
+    - changeparent{model=fallen_knight;parent=right_shin_death;child=right_shin} @self
+    - changeparent{model=fallen_knight;parent=left_arm_death;child=left_arm} @self 0
+    - changeparent{model=fallen_knight;parent=left_forearm_death;child=left_forearm} @self
+    - changeparent{model=fallen_knight;parent=right_arm_death;child=right_arm} @self 0
+    - changeparent{model=fallen_knight;parent=right_forearm_death;child=right_forearm} @self
+    - changeparent{model=fallen_knight;parent=head_death;child=head} @self
+    - changeparent{model=fallen_knight;parent=hip_death;child=hip} @self
+    - changeparent{model=fallen_knight;parent=chest_death;child=chest} @self
+    - changeparent{model=fallen_knight;parent=axe_death;child=superior_sword_control} @self
+    
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=35;hS=0.3;vS=0.3;size=2} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.2;vS=0.1;size=0.75;delay=0;repeat=20;repeatinterval=1} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.2;vS=0.1;size=1.5;delay=20;repeat=22;repeatinterval=1} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.2;vS=0.1;size=0.75;delay=42;repeat=40;repeatinterval=1} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=84;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_forearm;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=100;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_shin;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=72;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_forearm;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=100;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_shin;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.16;size=0.8;delay=0;repeat=140;repeatinterval=1} @ModelPart{m=fallen_knight;p=axeparticles1;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=0;repeat=95;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye1;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=0;repeat=95;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye2;offset=LOCAL;y=0}
+
+    - changepart{m=fallen_knight;pid=hip;nm=fallen_knight3;npid=hip;delay=10} @self
+    - changepart{m=fallen_knight;pid=chest;nm=fallen_knight3;npid=chest;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=45;hS=0.15;vS=0.25;size=1.8;delay=10;repeat=3} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    
+    - changepart{m=fallen_knight;pid=left_arm;nm=fallen_knight3;npid=left_arm;delay=10} @self
+    - changepart{m=fallen_knight;pid=left_forearm;nm=fallen_knight3;npid=left_forearm;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=15;hS=0.15;vS=0.15;size=1.4;delay=10;repeat=2;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_forearm;offset=LOCAL;y=0}
+
+    - changepart{m=fallen_knight;pid=right_forearm;nm=fallen_knight3;npid=right_forearm;delay=10} @self
+    - changepart{m=fallen_knight;pid=right_arm;nm=fallen_knight3;npid=right_arm;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=15;hS=0.15;vS=0.15;size=1.4;delay=9;repeat=2;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_forearm;offset=LOCAL;y=0}
+    
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.5;delay=10;repeat=17;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye1;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.5;delay=10;repeat=17;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye2;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=10;repeat=40;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye1;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=10;repeat=40;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye2;offset=LOCAL;y=0}
+    - changepart{m=fallen_knight;pid=head;nm=fallen_knight3;npid=head;delay=10} @self
+
+    - changepart{m=fallen_knight;pid=left_leg;nm=fallen_knight3;npid=left_leg;delay=10} @self
+    - changepart{m=fallen_knight;pid=left_shin;nm=fallen_knight3;npid=left_shin;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=20;hS=0.17;vS=0.17;size=1.5;delay=10;repeat=3;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_shin;offset=LOCAL;y=0}
+    - changepart{m=fallen_knight;pid=right_leg;nm=fallen_knight3;npid=right_leg;delay=10} @self
+    - changepart{m=fallen_knight;pid=right_shin;nm=fallen_knight3;npid=right_shin;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=20;hS=0.17;vS=0.17;size=1.5;delay=10;repeat=3;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_shin;offset=LOCAL;y=0}];sync=true} @Self ~onDeath
+#  
+  - summon{mob=knighta_spirit;amount=1;noise=0;r=0;yr=0} @SelfLocation{y=-3} ~onDeath
+#==============
+  - randomskill{s=hurt1fknighta,hurt2fknighta,hurt3fknighta,hurt4fknighta;sync=true} @self ~onDamaged 0.92 #Hurtmechanic
+  - velocity{m=set;x=0;y=0;z=0} @self ~onDamaged
+  - setvariable{var=caster.statueform;value="1";t=integer} @Self ~onSpawn #=====================
+  - skill{s=fknightastcheck3;cooldown=99999;sync=true} @self ~onDamaged 1 #=====================
+
+# ========= Anti-ranged protocol
+  - message{m="COUNTERATTACKED"} @PlayersNearOrigin{r=75} ~onSignal:COUNTERATTACK 0 #DEBUGMESSAGE
+  - skill{s=countertacked_fknighta_A;cooldown=2;sync=true} @self ~onSignal:COUNTERATTACK
+  - skill{s=countertacked_fknighta_B;cooldown=0.3;sync=false} @self ~onSignal:COUNTERATTACK ?variableEquals{var=caster.parrying;value="1"}
+  - skill{s=meleefknightatrigger2;cooldown=1;sync=false} @Trigger ~onSignal:COUNTERATTACK 0.45 ?variableEquals{var=caster.parrying;value="1"}
+  
+#
+
+# ========= Anti-ranged protocol
+  - skill{s=hurtgenfknighta;sync=true} @self ~onDamaged 1 #Hurtmechanic ANTIARROW
+  - skill{s=hurtgenfknighta2;sync=true} @self ~onDamaged 1 #Hurtmechanic ANTIMMSkills
+  - setvariable{var=caster.rollumterr;value="0";t=integer} @Self ~OnSpawn #Hurtmechanic ANTIARROW
+  - setvariable{var=caster.projrec;value="0";t=integer} @Self ~OnSpawn #Hurtmechanic ANTIARROW
+  - setvariable{var=caster.running;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.runstacks;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.hurtened;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.parrying;value="0";t=integer} @Self ~onSpawn
+#======== RUNNER PROTOCOL (Activate if you remove statue pose)
+  - Aura{auraName=checkrunfknighta;onTick=fknighta_runprotocolcheck;interval=30;duration=99999} @self ~onSpawn 0 #=============== RUN MECHANICUS
+  - setvariable{var=caster.hitrec;value="0";t=integer} @Self ~OnSpawn #Hurtmechanic ANTIARROW
+  - message{m="Hitrec <caster.var.hitrec>"} @PlayersNearOrigin{r=75} ~onDamaged 0 #DEBUGMESSAGE
+  - message{m="&eCOMBOR &a<caster.var.combor>"} @PlayersNearOrigin{r=75} ~onDamaged 0 #DEBUGMESSAGE
+
+# ======== Dodger Protocol (activate here if you remove statue pose)
+  - Aura{auraName=backstepdodgerfknighta;onTick=fknighta_bstpcheck;interval=7;duration=99999} @self ~onSpawn 0
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDamaged 1 #Hurtmechanic SOUND
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDeath 1 
+  - setstance{stance=static} @self ~onSpawn
+#  - message{m="<caster.var.runstacks>"} @PlayersNearOrigin{r=35} ~onTimer:40 0
+  #ACTIVATION AURA
+  - Aura{auraName=staticfknighta;onTick=fknightastcheck;interval=20;duration=99999;delay=40} @self ~onSpawn
+  - skill{s=fknightastcheck3;cooldown=0.3;sync=false} @self ~onSignal:RAMPAGE_ACTIVATE
+  Options:
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.18
+    Interactable: true
+    PreventOtherDrops: true
+    KnockbackResistance: 0.9
+    PreventSunburn: true
+
+knight_fallen_s:
+  Type: skeleton
+  Display: 'Fallen Knight'
+  AIGoalSelectors:
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 SpecificFaction CorruptedFlesh
+  - 2 SpecificFaction Zombie
+  - 2 attacker
+  - 3 players
+  AIGoalSelectors:
+  - 0 clear
+  Health: 30
+  Faction: FallenHero
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 1.1
+  - PROJECTILE 0.25
+  Damage: 10 #10 is the BASE damage. Setting it to 20 will DOUBLE damage. Setting it to 5 will REDUCE damage in 50% from the original.
+  KillMessages:
+  - '<target.name> was killed by the fallen heroes.'
+  - 'The fallen heroes have claimed justice over <target.name>.'
+  - "<target.name> suffered the revenge of the fallen heroes."
+  - "The fallen heroes have claimed <target.name>'s soul."
+  - '<target.name> tried to defy the fallen heroes. Tried.'
+  Equipment:
+  - air:4
+  - air:3
+  - air:2
+  - imbootsfallensoldier:1
+  - air:0
+  - air:5
+  Drops:
+  - exp 10-25 1
+  - exp 10-25 1
+  - exp 10-25 1
+  - exp 10-25 1
+  LevelModifiers:
+    Health: 2
+    Damage: 0.03
+  Skills:
+  - message{m="Hitrec <caster.var.hitrec> STACKS"} @PlayersNearOrigin{r=75} ~onDamaged 0 #DEBUGMESSAGE
+#====== MODEL ASSIGNEMENT =============
+  - model{mid=fallen_knight;s=idle;n=false} @self ~onSpawn 1
+  #ROTATION
+  - lockmodel{l=true;delay=40} @Self ~onSpawn
+  - bodyclamp{m=fallen_knight;c=0;delay=1} @self ~onSpawn
+  - bodyclamp{m=fallen_knight;c=50;delay=70} @self ~onSpawn
+  #
+  - setvariable{var=caster.zlocxd;value="<caster.l.z>+10";t=integer} @Self ~onSpawn
+  - look{headOnly=false;immediately=false;repeat=40;repeatInterval=1;delay=0} @Location{c=<caster.l.x>,<caster.l.y>,<caster.var.zlocxd>,-180,-1} ~onSpawn
+  #
+  - RunAIGoalSelector{goal=clear} @self ~onSpawn
+  - partvisibility{m=fallen_knight;p=sword;v=false;delay=0} @self ~onSpawn
+  - state{s=idlestatic;li=0;lo=0;n=false;delay=1} @self ~onSpawn
+  - setlevel{a=set;l=0} ~onSpawn
+  - bindhitbox{m=fallen_knight;p=ob_parrybox;t=fknighta_parrybox;delay=2} @self ~onSpawn
+  - hitboxconfig{m=fallen_knight;p=ob_parrybox;pass=0;delay=2} @self ~onSpawn
+  - setvariable{var=caster.skillxd;value="none";t=string} @Self ~onSpawn
+#============ DISGUISE =================
+  - changepart{m=fallen_knight;pid=head;nm=fallen_knight2;npid=head} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=right_arm;nm=fallen_knight2;npid=right_arm} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=right_forearm;nm=fallen_knight2;npid=right_forearm} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=left_arm;nm=fallen_knight2;npid=left_arm} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=left_forearm;nm=fallen_knight2;npid=left_forearm} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=hip;nm=fallen_knight2;npid=hip} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=chest;nm=fallen_knight2;npid=chest} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=left_leg;nm=fallen_knight2;npid=left_leg} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=left_shin;nm=fallen_knight2;npid=left_shin} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=right_leg;nm=fallen_knight2;npid=right_leg} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=right_shin;nm=fallen_knight2;npid=right_shin} @self ~onSpawn
+#============ ATTACK =================
+  - CancelEvent{sync=true} @self ~onAttack 1 #CANCEL ATTACKS
+  - skill{s=fknighta_parrystance_trigger;sync=true} @self ~onInteract
+  - skill{s=meleefknightatrigger;sync=false} @LivingInCone{a=110.0;r=6.5;rot=0.0;ignore=samefaction} ~onTimer:25 0.7 ?!variableEquals{var=caster.parrying;value="1"} ###### 0.6
+  - skill{s=meleefknightatrigger2;sync=false} @LivingInCone{a=110.0;r=5.5;rot=0.0;ignore=samefaction} ~onTimer:37 0.45 ?variableEquals{var=caster.parrying;value="1"}
+  - setvariable{var=caster.combor;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.comboa;value="0";t=integer} @Self ~onSpawn
+#================ RIP IN PEPSI PROTOCOL
+  - sound{s=emaginationfallenheroes:custom.fallenhero.death;p=1;v=1} @selflocation ~onDeath 1
+  - sound{s=emaginationfallenravager:custom.fallenravager.statuefall;p=1;v=1.5} @selflocation ~onDeath 1
+  - effect:particles{particle=cloud;amount=150;hS=1.1;vS=0.55;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=179} @ModelPart{m=fallen_knight;p=hip;offset=LOCAL;y=0} ~onDeath
+  - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=179} @ModelPart{m=fallen_knight;p=axe;offset=LOCAL;y=0} ~onDeath
+  - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=179} @ModelPart{m=fallen_knight;p=head;offset=LOCAL;y=0} ~onDeath
+  - skill{s=[
+    - bodyclamp{m=fallen_knight;c=0} @self
+    - changeparent{model=fallen_knight;parent=left_leg_death;child=left_leg} @self
+    - changeparent{model=fallen_knight;parent=left_shin_death;child=left_shin} @self
+    - changeparent{model=fallen_knight;parent=right_leg_death;child=right_leg} @self
+    - changeparent{model=fallen_knight;parent=right_shin_death;child=right_shin} @self
+    - changeparent{model=fallen_knight;parent=left_arm_death;child=left_arm} @self 0
+    - changeparent{model=fallen_knight;parent=left_forearm_death;child=left_forearm} @self
+    - changeparent{model=fallen_knight;parent=right_arm_death;child=right_arm} @self 0
+    - changeparent{model=fallen_knight;parent=right_forearm_death;child=right_forearm} @self
+    - changeparent{model=fallen_knight;parent=head_death;child=head} @self
+    - changeparent{model=fallen_knight;parent=hip_death;child=hip} @self
+    - changeparent{model=fallen_knight;parent=chest_death;child=chest} @self
+    - changeparent{model=fallen_knight;parent=axe_death;child=superior_sword_control} @self
+    
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=35;hS=0.3;vS=0.3;size=2} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.2;vS=0.1;size=0.75;delay=0;repeat=20;repeatinterval=1} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.2;vS=0.1;size=1.5;delay=20;repeat=22;repeatinterval=1} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.2;vS=0.1;size=0.75;delay=42;repeat=40;repeatinterval=1} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=84;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_forearm;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=100;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_shin;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=72;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_forearm;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=100;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_shin;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.16;size=0.8;delay=0;repeat=140;repeatinterval=1} @ModelPart{m=fallen_knight;p=axeparticles1;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=0;repeat=95;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye1;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=0;repeat=95;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye2;offset=LOCAL;y=0}
+
+    - changepart{m=fallen_knight;pid=hip;nm=fallen_knight3;npid=hip;delay=10} @self
+    - changepart{m=fallen_knight;pid=chest;nm=fallen_knight3;npid=chest;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=45;hS=0.15;vS=0.25;size=1.8;delay=10;repeat=3} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    
+    - changepart{m=fallen_knight;pid=left_arm;nm=fallen_knight3;npid=left_arm;delay=10} @self
+    - changepart{m=fallen_knight;pid=left_forearm;nm=fallen_knight3;npid=left_forearm;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=15;hS=0.15;vS=0.15;size=1.4;delay=10;repeat=2;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_forearm;offset=LOCAL;y=0}
+
+    - changepart{m=fallen_knight;pid=right_forearm;nm=fallen_knight3;npid=right_forearm;delay=10} @self
+    - changepart{m=fallen_knight;pid=right_arm;nm=fallen_knight3;npid=right_arm;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=15;hS=0.15;vS=0.15;size=1.4;delay=9;repeat=2;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_forearm;offset=LOCAL;y=0}
+    
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.5;delay=10;repeat=17;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye1;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.5;delay=10;repeat=17;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye2;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=10;repeat=40;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye1;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=10;repeat=40;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye2;offset=LOCAL;y=0}
+    - changepart{m=fallen_knight;pid=head;nm=fallen_knight3;npid=head;delay=10} @self
+
+    - changepart{m=fallen_knight;pid=left_leg;nm=fallen_knight3;npid=left_leg;delay=10} @self
+    - changepart{m=fallen_knight;pid=left_shin;nm=fallen_knight3;npid=left_shin;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=20;hS=0.17;vS=0.17;size=1.5;delay=10;repeat=3;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_shin;offset=LOCAL;y=0}
+    - changepart{m=fallen_knight;pid=right_leg;nm=fallen_knight3;npid=right_leg;delay=10} @self
+    - changepart{m=fallen_knight;pid=right_shin;nm=fallen_knight3;npid=right_shin;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=20;hS=0.17;vS=0.17;size=1.5;delay=10;repeat=3;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_shin;offset=LOCAL;y=0}];sync=true} @Self ~onDeath
+#  
+  - summon{mob=knighta_spirit;amount=1;noise=0;r=0;yr=0} @SelfLocation{y=-3} ~onDeath
+#==============
+  - randomskill{s=hurt1fknighta,hurt2fknighta,hurt3fknighta,hurt4fknighta;sync=true} @self ~onDamaged 0.92 #Hurtmechanic
+  - velocity{m=set;x=0;y=0;z=0} @self ~onDamaged
+  - setvariable{var=caster.statueform;value="1";t=integer} @Self ~onSpawn #=====================
+  - skill{s=fknightastcheck3;cooldown=99999;sync=true} @self ~onDamaged 1 #=====================
+
+# ========= Anti-ranged protocol
+  - message{m="COUNTERATTACKED"} @PlayersNearOrigin{r=75} ~onSignal:COUNTERATTACK 0 #DEBUGMESSAGE
+  - skill{s=countertacked_fknighta_A;cooldown=2;sync=true} @self ~onSignal:COUNTERATTACK
+  - skill{s=countertacked_fknighta_B;cooldown=0.3;sync=false} @self ~onSignal:COUNTERATTACK ?variableEquals{var=caster.parrying;value="1"}
+  - skill{s=meleefknightatrigger2;cooldown=1;sync=false} @Trigger ~onSignal:COUNTERATTACK 0.45 ?variableEquals{var=caster.parrying;value="1"}
+  
+#
+
+# ========= Anti-ranged protocol
+  - skill{s=hurtgenfknighta;sync=true} @self ~onDamaged 1 #Hurtmechanic ANTIARROW
+  - skill{s=hurtgenfknighta2;sync=true} @self ~onDamaged 1 #Hurtmechanic ANTIMMSkills
+  - setvariable{var=caster.rollumterr;value="0";t=integer} @Self ~OnSpawn #Hurtmechanic ANTIARROW
+  - setvariable{var=caster.projrec;value="0";t=integer} @Self ~OnSpawn #Hurtmechanic ANTIARROW
+  - setvariable{var=caster.running;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.runstacks;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.hurtened;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.parrying;value="0";t=integer} @Self ~onSpawn
+#======== RUNNER PROTOCOL (Activate if you remove statue pose)
+  - Aura{auraName=checkrunfknighta;onTick=fknighta_runprotocolcheck;interval=30;duration=99999} @self ~onSpawn 0 #=============== RUN MECHANICUS
+  - setvariable{var=caster.hitrec;value="0";t=integer} @Self ~OnSpawn #Hurtmechanic ANTIARROW
+  - message{m="Hitrec <caster.var.hitrec>"} @PlayersNearOrigin{r=75} ~onDamaged 0 #DEBUGMESSAGE
+  - message{m="&eCOMBOR &a<caster.var.combor>"} @PlayersNearOrigin{r=75} ~onDamaged 0 #DEBUGMESSAGE
+
+# ======== Dodger Protocol (activate here if you remove statue pose)
+  - Aura{auraName=backstepdodgerfknighta;onTick=fknighta_bstpcheck;interval=7;duration=99999} @self ~onSpawn 0
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDamaged 1 #Hurtmechanic SOUND
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDeath 1 
+  - setstance{stance=static} @self ~onSpawn
+#  - message{m="<caster.var.runstacks>"} @PlayersNearOrigin{r=35} ~onTimer:40 0
+  #ACTIVATION AURA
+  - Aura{auraName=staticfknighta;onTick=fknightastcheck;interval=20;duration=99999;delay=40} @self ~onSpawn
+  - skill{s=fknightastcheck3;cooldown=0.3;sync=false} @self ~onSignal:RAMPAGE_ACTIVATE
+  Options:
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.18
+    Interactable: true
+    PreventOtherDrops: true
+    KnockbackResistance: 0.9
+    PreventSunburn: true
+
+knight_fallen_w:
+  Type: skeleton
+  Display: 'Fallen Knight'
+  AIGoalSelectors:
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 SpecificFaction CorruptedFlesh
+  - 2 SpecificFaction Zombie
+  - 2 attacker
+  - 3 players
+  AIGoalSelectors:
+  - 0 clear
+  Health: 30
+  Faction: FallenHero
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 1.1
+  - PROJECTILE 0.25
+  Damage: 10 #10 is the BASE damage. Setting it to 20 will DOUBLE damage. Setting it to 5 will REDUCE damage in 50% from the original.
+  KillMessages:
+  - '<target.name> was killed by the fallen heroes.'
+  - 'The fallen heroes have claimed justice over <target.name>.'
+  - "<target.name> suffered the revenge of the fallen heroes."
+  - "The fallen heroes have claimed <target.name>'s soul."
+  - '<target.name> tried to defy the fallen heroes. Tried.'
+  Equipment:
+  - air:4
+  - air:3
+  - air:2
+  - imbootsfallensoldier:1
+  - air:0
+  - air:5
+  Drops:
+  - exp 10-25 1
+  - exp 10-25 1
+  - exp 10-25 1
+  - exp 10-25 1
+  LevelModifiers:
+    Health: 2
+    Damage: 0.03
+  Skills:
+  - message{m="Hitrec <caster.var.hitrec> STACKS"} @PlayersNearOrigin{r=75} ~onDamaged 0 #DEBUGMESSAGE
+#====== MODEL ASSIGNEMENT =============
+  - model{mid=fallen_knight;s=idle;n=false} @self ~onSpawn 1
+  #ROTATION
+  - lockmodel{l=true;delay=40} @Self ~onSpawn
+  - bodyclamp{m=fallen_knight;c=0;delay=1} @self ~onSpawn
+  - bodyclamp{m=fallen_knight;c=50;delay=70} @self ~onSpawn
+  #
+  - setvariable{var=caster.xlocxd;value="<caster.l.x>-10";t=integer} @Self ~onSpawn
+  - look{headOnly=false;immediately=false;repeat=40;repeatInterval=1;delay=0} @Location{c=<caster.var.xlocxd>,<caster.l.y>,<caster.l.z>,-90,-1} ~onSpawn
+  - spin{d=1;v=-90;delay=0} @self ~onSpawn
+  #
+  - RunAIGoalSelector{goal=clear} @self ~onSpawn
+  - partvisibility{m=fallen_knight;p=sword;v=false;delay=0} @self ~onSpawn
+  - state{s=idlestatic;li=0;lo=0;n=false;delay=1} @self ~onSpawn
+  - setlevel{a=set;l=0} ~onSpawn
+  - bindhitbox{m=fallen_knight;p=ob_parrybox;t=fknighta_parrybox;delay=2} @self ~onSpawn
+  - hitboxconfig{m=fallen_knight;p=ob_parrybox;pass=0;delay=2} @self ~onSpawn
+  - setvariable{var=caster.skillxd;value="none";t=string} @Self ~onSpawn
+#============ DISGUISE =================
+  - changepart{m=fallen_knight;pid=head;nm=fallen_knight2;npid=head} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=right_arm;nm=fallen_knight2;npid=right_arm} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=right_forearm;nm=fallen_knight2;npid=right_forearm} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=left_arm;nm=fallen_knight2;npid=left_arm} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=left_forearm;nm=fallen_knight2;npid=left_forearm} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=hip;nm=fallen_knight2;npid=hip} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=chest;nm=fallen_knight2;npid=chest} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=left_leg;nm=fallen_knight2;npid=left_leg} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=left_shin;nm=fallen_knight2;npid=left_shin} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=right_leg;nm=fallen_knight2;npid=right_leg} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=right_shin;nm=fallen_knight2;npid=right_shin} @self ~onSpawn
+#============ ATTACK =================
+  - CancelEvent{sync=true} @self ~onAttack 1 #CANCEL ATTACKS
+  - skill{s=fknighta_parrystance_trigger;sync=true} @self ~onInteract
+  - skill{s=meleefknightatrigger;sync=false} @LivingInCone{a=110.0;r=6.5;rot=0.0;ignore=samefaction} ~onTimer:25 0.7 ?!variableEquals{var=caster.parrying;value="1"} ###### 0.6
+  - skill{s=meleefknightatrigger2;sync=false} @LivingInCone{a=110.0;r=5.5;rot=0.0;ignore=samefaction} ~onTimer:37 0.45 ?variableEquals{var=caster.parrying;value="1"}
+  - setvariable{var=caster.combor;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.comboa;value="0";t=integer} @Self ~onSpawn
+#================ RIP IN PEPSI PROTOCOL
+  - sound{s=emaginationfallenheroes:custom.fallenhero.death;p=1;v=1} @selflocation ~onDeath 1
+  - sound{s=emaginationfallenravager:custom.fallenravager.statuefall;p=1;v=1.5} @selflocation ~onDeath 1
+  - effect:particles{particle=cloud;amount=150;hS=1.1;vS=0.55;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=179} @ModelPart{m=fallen_knight;p=hip;offset=LOCAL;y=0} ~onDeath
+  - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=179} @ModelPart{m=fallen_knight;p=axe;offset=LOCAL;y=0} ~onDeath
+  - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=179} @ModelPart{m=fallen_knight;p=head;offset=LOCAL;y=0} ~onDeath
+  - skill{s=[
+    - bodyclamp{m=fallen_knight;c=0} @self
+    - changeparent{model=fallen_knight;parent=left_leg_death;child=left_leg} @self
+    - changeparent{model=fallen_knight;parent=left_shin_death;child=left_shin} @self
+    - changeparent{model=fallen_knight;parent=right_leg_death;child=right_leg} @self
+    - changeparent{model=fallen_knight;parent=right_shin_death;child=right_shin} @self
+    - changeparent{model=fallen_knight;parent=left_arm_death;child=left_arm} @self 0
+    - changeparent{model=fallen_knight;parent=left_forearm_death;child=left_forearm} @self
+    - changeparent{model=fallen_knight;parent=right_arm_death;child=right_arm} @self 0
+    - changeparent{model=fallen_knight;parent=right_forearm_death;child=right_forearm} @self
+    - changeparent{model=fallen_knight;parent=head_death;child=head} @self
+    - changeparent{model=fallen_knight;parent=hip_death;child=hip} @self
+    - changeparent{model=fallen_knight;parent=chest_death;child=chest} @self
+    - changeparent{model=fallen_knight;parent=axe_death;child=superior_sword_control} @self
+    
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=35;hS=0.3;vS=0.3;size=2} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.2;vS=0.1;size=0.75;delay=0;repeat=20;repeatinterval=1} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.2;vS=0.1;size=1.5;delay=20;repeat=22;repeatinterval=1} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.2;vS=0.1;size=0.75;delay=42;repeat=40;repeatinterval=1} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=84;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_forearm;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=100;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_shin;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=72;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_forearm;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=100;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_shin;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.16;size=0.8;delay=0;repeat=140;repeatinterval=1} @ModelPart{m=fallen_knight;p=axeparticles1;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=0;repeat=95;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye1;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=0;repeat=95;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye2;offset=LOCAL;y=0}
+
+    - changepart{m=fallen_knight;pid=hip;nm=fallen_knight3;npid=hip;delay=10} @self
+    - changepart{m=fallen_knight;pid=chest;nm=fallen_knight3;npid=chest;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=45;hS=0.15;vS=0.25;size=1.8;delay=10;repeat=3} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    
+    - changepart{m=fallen_knight;pid=left_arm;nm=fallen_knight3;npid=left_arm;delay=10} @self
+    - changepart{m=fallen_knight;pid=left_forearm;nm=fallen_knight3;npid=left_forearm;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=15;hS=0.15;vS=0.15;size=1.4;delay=10;repeat=2;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_forearm;offset=LOCAL;y=0}
+
+    - changepart{m=fallen_knight;pid=right_forearm;nm=fallen_knight3;npid=right_forearm;delay=10} @self
+    - changepart{m=fallen_knight;pid=right_arm;nm=fallen_knight3;npid=right_arm;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=15;hS=0.15;vS=0.15;size=1.4;delay=9;repeat=2;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_forearm;offset=LOCAL;y=0}
+    
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.5;delay=10;repeat=17;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye1;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.5;delay=10;repeat=17;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye2;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=10;repeat=40;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye1;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=10;repeat=40;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye2;offset=LOCAL;y=0}
+    - changepart{m=fallen_knight;pid=head;nm=fallen_knight3;npid=head;delay=10} @self
+
+    - changepart{m=fallen_knight;pid=left_leg;nm=fallen_knight3;npid=left_leg;delay=10} @self
+    - changepart{m=fallen_knight;pid=left_shin;nm=fallen_knight3;npid=left_shin;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=20;hS=0.17;vS=0.17;size=1.5;delay=10;repeat=3;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_shin;offset=LOCAL;y=0}
+    - changepart{m=fallen_knight;pid=right_leg;nm=fallen_knight3;npid=right_leg;delay=10} @self
+    - changepart{m=fallen_knight;pid=right_shin;nm=fallen_knight3;npid=right_shin;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=20;hS=0.17;vS=0.17;size=1.5;delay=10;repeat=3;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_shin;offset=LOCAL;y=0}];sync=true} @Self ~onDeath
+#  
+  - summon{mob=knighta_spirit;amount=1;noise=0;r=0;yr=0} @SelfLocation{y=-3} ~onDeath
+#==============
+  - randomskill{s=hurt1fknighta,hurt2fknighta,hurt3fknighta,hurt4fknighta;sync=true} @self ~onDamaged 0.92 #Hurtmechanic
+  - velocity{m=set;x=0;y=0;z=0} @self ~onDamaged
+  - setvariable{var=caster.statueform;value="1";t=integer} @Self ~onSpawn #=====================
+  - skill{s=fknightastcheck3;cooldown=99999;sync=true} @self ~onDamaged 1 #=====================
+
+# ========= Anti-ranged protocol
+  - message{m="COUNTERATTACKED"} @PlayersNearOrigin{r=75} ~onSignal:COUNTERATTACK 0 #DEBUGMESSAGE
+  - skill{s=countertacked_fknighta_A;cooldown=2;sync=true} @self ~onSignal:COUNTERATTACK
+  - skill{s=countertacked_fknighta_B;cooldown=0.3;sync=false} @self ~onSignal:COUNTERATTACK ?variableEquals{var=caster.parrying;value="1"}
+  - skill{s=meleefknightatrigger2;cooldown=1;sync=false} @Trigger ~onSignal:COUNTERATTACK 0.45 ?variableEquals{var=caster.parrying;value="1"}
+  
+#
+
+# ========= Anti-ranged protocol
+  - skill{s=hurtgenfknighta;sync=true} @self ~onDamaged 1 #Hurtmechanic ANTIARROW
+  - skill{s=hurtgenfknighta2;sync=true} @self ~onDamaged 1 #Hurtmechanic ANTIMMSkills
+  - setvariable{var=caster.rollumterr;value="0";t=integer} @Self ~OnSpawn #Hurtmechanic ANTIARROW
+  - setvariable{var=caster.projrec;value="0";t=integer} @Self ~OnSpawn #Hurtmechanic ANTIARROW
+  - setvariable{var=caster.running;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.runstacks;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.hurtened;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.parrying;value="0";t=integer} @Self ~onSpawn
+#======== RUNNER PROTOCOL (Activate if you remove statue pose)
+  - Aura{auraName=checkrunfknighta;onTick=fknighta_runprotocolcheck;interval=30;duration=99999} @self ~onSpawn 0 #=============== RUN MECHANICUS
+  - setvariable{var=caster.hitrec;value="0";t=integer} @Self ~OnSpawn #Hurtmechanic ANTIARROW
+  - message{m="Hitrec <caster.var.hitrec>"} @PlayersNearOrigin{r=75} ~onDamaged 0 #DEBUGMESSAGE
+  - message{m="&eCOMBOR &a<caster.var.combor>"} @PlayersNearOrigin{r=75} ~onDamaged 0 #DEBUGMESSAGE
+
+# ======== Dodger Protocol (activate here if you remove statue pose)
+  - Aura{auraName=backstepdodgerfknighta;onTick=fknighta_bstpcheck;interval=7;duration=99999} @self ~onSpawn 0
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDamaged 1 #Hurtmechanic SOUND
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDeath 1 
+  - setstance{stance=static} @self ~onSpawn
+#  - message{m="<caster.var.runstacks>"} @PlayersNearOrigin{r=35} ~onTimer:40 0
+  #ACTIVATION AURA
+  - Aura{auraName=staticfknighta;onTick=fknightastcheck;interval=20;duration=99999;delay=40} @self ~onSpawn
+  - skill{s=fknightastcheck3;cooldown=0.3;sync=false} @self ~onSignal:RAMPAGE_ACTIVATE
+  Options:
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.18
+    Interactable: true
+    PreventOtherDrops: true
+    KnockbackResistance: 0.9
+    PreventSunburn: true
+
+knight_fallen_e:
+  Type: skeleton
+  Display: 'Fallen Knight'
+  AIGoalSelectors:
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 SpecificFaction CorruptedFlesh
+  - 2 SpecificFaction Zombie
+  - 2 attacker
+  - 3 players
+  AIGoalSelectors:
+  - 0 clear
+  Health: 30
+  Faction: FallenHero
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 1.1
+  - PROJECTILE 0.25
+  Damage: 10 #10 is the BASE damage. Setting it to 20 will DOUBLE damage. Setting it to 5 will REDUCE damage in 50% from the original.
+  KillMessages:
+  - '<target.name> was killed by the fallen heroes.'
+  - 'The fallen heroes have claimed justice over <target.name>.'
+  - "<target.name> suffered the revenge of the fallen heroes."
+  - "The fallen heroes have claimed <target.name>'s soul."
+  - '<target.name> tried to defy the fallen heroes. Tried.'
+  Equipment:
+  - air:4
+  - air:3
+  - air:2
+  - imbootsfallensoldier:1
+  - air:0
+  - air:5
+  Drops:
+  - exp 10-25 1
+  - exp 10-25 1
+  - exp 10-25 1
+  - exp 10-25 1
+  LevelModifiers:
+    Health: 2
+    Damage: 0.03
+  Skills:
+  - message{m="Hitrec <caster.var.hitrec> STACKS"} @PlayersNearOrigin{r=75} ~onDamaged 0 #DEBUGMESSAGE
+#====== MODEL ASSIGNEMENT =============
+  - model{mid=fallen_knight;s=idle;n=false} @self ~onSpawn 1
+  #ROTATION
+  - lockmodel{l=true;delay=40} @Self ~onSpawn
+  - bodyclamp{m=fallen_knight;c=0;delay=1} @self ~onSpawn
+  - bodyclamp{m=fallen_knight;c=50;delay=70} @self ~onSpawn
+  #
+  - setvariable{var=caster.xlocxd;value="<caster.l.x>+10";t=integer} @Self ~onSpawn
+  - look{headOnly=false;immediately=false;repeat=40;repeatInterval=1;delay=0} @Location{c=<caster.var.xlocxd>,<caster.l.y>,<caster.l.z>,-90,-1} ~onSpawn
+  - spin{d=1;v=90;delay=0} @self ~onSpawn
+  #
+  - RunAIGoalSelector{goal=clear} @self ~onSpawn
+  - partvisibility{m=fallen_knight;p=sword;v=false;delay=0} @self ~onSpawn
+  - state{s=idlestatic;li=0;lo=0;n=false;delay=1} @self ~onSpawn
+  - setlevel{a=set;l=0} ~onSpawn
+  - bindhitbox{m=fallen_knight;p=ob_parrybox;t=fknighta_parrybox;delay=2} @self ~onSpawn
+  - hitboxconfig{m=fallen_knight;p=ob_parrybox;pass=0;delay=2} @self ~onSpawn
+  - setvariable{var=caster.skillxd;value="none";t=string} @Self ~onSpawn
+#============ DISGUISE =================
+  - changepart{m=fallen_knight;pid=head;nm=fallen_knight2;npid=head} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=right_arm;nm=fallen_knight2;npid=right_arm} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=right_forearm;nm=fallen_knight2;npid=right_forearm} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=left_arm;nm=fallen_knight2;npid=left_arm} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=left_forearm;nm=fallen_knight2;npid=left_forearm} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=hip;nm=fallen_knight2;npid=hip} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=chest;nm=fallen_knight2;npid=chest} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=left_leg;nm=fallen_knight2;npid=left_leg} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=left_shin;nm=fallen_knight2;npid=left_shin} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=right_leg;nm=fallen_knight2;npid=right_leg} @self ~onSpawn
+  - changepart{m=fallen_knight;pid=right_shin;nm=fallen_knight2;npid=right_shin} @self ~onSpawn
+#============ ATTACK =================
+  - CancelEvent{sync=true} @self ~onAttack 1 #CANCEL ATTACKS
+  - skill{s=fknighta_parrystance_trigger;sync=true} @self ~onInteract
+  - skill{s=meleefknightatrigger;sync=false} @LivingInCone{a=110.0;r=6.5;rot=0.0;ignore=samefaction} ~onTimer:25 0.7 ?!variableEquals{var=caster.parrying;value="1"} ###### 0.6
+  - skill{s=meleefknightatrigger2;sync=false} @LivingInCone{a=110.0;r=5.5;rot=0.0;ignore=samefaction} ~onTimer:37 0.45 ?variableEquals{var=caster.parrying;value="1"}
+  - setvariable{var=caster.combor;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.comboa;value="0";t=integer} @Self ~onSpawn
+#================ RIP IN PEPSI PROTOCOL
+  - sound{s=emaginationfallenheroes:custom.fallenhero.death;p=1;v=1} @selflocation ~onDeath 1
+  - sound{s=emaginationfallenravager:custom.fallenravager.statuefall;p=1;v=1.5} @selflocation ~onDeath 1
+  - effect:particles{particle=cloud;amount=150;hS=1.1;vS=0.55;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=179} @ModelPart{m=fallen_knight;p=hip;offset=LOCAL;y=0} ~onDeath
+  - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=179} @ModelPart{m=fallen_knight;p=axe;offset=LOCAL;y=0} ~onDeath
+  - effect:particles{particle=cloud;amount=60;hS=0.6;vS=0.2;speed=0;size=4.5;repeat=0;repeatinterval=1;sideOffset=0;delay=179} @ModelPart{m=fallen_knight;p=head;offset=LOCAL;y=0} ~onDeath
+  - skill{s=[
+    - bodyclamp{m=fallen_knight;c=0} @self
+    - changeparent{model=fallen_knight;parent=left_leg_death;child=left_leg} @self
+    - changeparent{model=fallen_knight;parent=left_shin_death;child=left_shin} @self
+    - changeparent{model=fallen_knight;parent=right_leg_death;child=right_leg} @self
+    - changeparent{model=fallen_knight;parent=right_shin_death;child=right_shin} @self
+    - changeparent{model=fallen_knight;parent=left_arm_death;child=left_arm} @self 0
+    - changeparent{model=fallen_knight;parent=left_forearm_death;child=left_forearm} @self
+    - changeparent{model=fallen_knight;parent=right_arm_death;child=right_arm} @self 0
+    - changeparent{model=fallen_knight;parent=right_forearm_death;child=right_forearm} @self
+    - changeparent{model=fallen_knight;parent=head_death;child=head} @self
+    - changeparent{model=fallen_knight;parent=hip_death;child=hip} @self
+    - changeparent{model=fallen_knight;parent=chest_death;child=chest} @self
+    - changeparent{model=fallen_knight;parent=axe_death;child=superior_sword_control} @self
+    
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=35;hS=0.3;vS=0.3;size=2} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.2;vS=0.1;size=0.75;delay=0;repeat=20;repeatinterval=1} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.2;vS=0.1;size=1.5;delay=20;repeat=22;repeatinterval=1} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.2;vS=0.1;size=0.75;delay=42;repeat=40;repeatinterval=1} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=84;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_forearm;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=100;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_shin;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=72;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_forearm;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.1;size=0.7;delay=0;repeat=100;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_shin;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=6;hS=0.1;vS=0.16;size=0.8;delay=0;repeat=140;repeatinterval=1} @ModelPart{m=fallen_knight;p=axeparticles1;offset=LOCAL;y=0}
+
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=0;repeat=95;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye1;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=0;repeat=95;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye2;offset=LOCAL;y=0}
+
+    - changepart{m=fallen_knight;pid=hip;nm=fallen_knight3;npid=hip;delay=10} @self
+    - changepart{m=fallen_knight;pid=chest;nm=fallen_knight3;npid=chest;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=45;hS=0.15;vS=0.25;size=1.8;delay=10;repeat=3} @ModelPart{m=fallen_knight;p=chest;offset=LOCAL;y=0}
+    
+    - changepart{m=fallen_knight;pid=left_arm;nm=fallen_knight3;npid=left_arm;delay=10} @self
+    - changepart{m=fallen_knight;pid=left_forearm;nm=fallen_knight3;npid=left_forearm;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=15;hS=0.15;vS=0.15;size=1.4;delay=10;repeat=2;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_forearm;offset=LOCAL;y=0}
+
+    - changepart{m=fallen_knight;pid=right_forearm;nm=fallen_knight3;npid=right_forearm;delay=10} @self
+    - changepart{m=fallen_knight;pid=right_arm;nm=fallen_knight3;npid=right_arm;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=15;hS=0.15;vS=0.15;size=1.4;delay=9;repeat=2;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_forearm;offset=LOCAL;y=0}
+    
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.5;delay=10;repeat=17;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye1;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.5;delay=10;repeat=17;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye2;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=10;repeat=40;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye1;offset=LOCAL;y=0}
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=3;hS=0.1;vS=0.1;size=0.4;delay=10;repeat=40;repeatinterval=1} @ModelPart{m=fallen_knight;p=eye2;offset=LOCAL;y=0}
+    - changepart{m=fallen_knight;pid=head;nm=fallen_knight3;npid=head;delay=10} @self
+
+    - changepart{m=fallen_knight;pid=left_leg;nm=fallen_knight3;npid=left_leg;delay=10} @self
+    - changepart{m=fallen_knight;pid=left_shin;nm=fallen_knight3;npid=left_shin;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=20;hS=0.17;vS=0.17;size=1.5;delay=10;repeat=3;repeatinterval=1} @ModelPart{m=fallen_knight;p=left_shin;offset=LOCAL;y=0}
+    - changepart{m=fallen_knight;pid=right_leg;nm=fallen_knight3;npid=right_leg;delay=10} @self
+    - changepart{m=fallen_knight;pid=right_shin;nm=fallen_knight3;npid=right_shin;delay=10} @self
+    - effect:particles{particle=reddust;color=#ECEBE2;amount=20;hS=0.17;vS=0.17;size=1.5;delay=10;repeat=3;repeatinterval=1} @ModelPart{m=fallen_knight;p=right_shin;offset=LOCAL;y=0}];sync=true} @Self ~onDeath
+#  
+  - summon{mob=knighta_spirit;amount=1;noise=0;r=0;yr=0} @SelfLocation{y=-3} ~onDeath
+#==============
+  - randomskill{s=hurt1fknighta,hurt2fknighta,hurt3fknighta,hurt4fknighta;sync=true} @self ~onDamaged 0.92 #Hurtmechanic
+  - velocity{m=set;x=0;y=0;z=0} @self ~onDamaged
+  - setvariable{var=caster.statueform;value="1";t=integer} @Self ~onSpawn #=====================
+  - skill{s=fknightastcheck3;cooldown=99999;sync=true} @self ~onDamaged 1 #=====================
+
+# ========= Anti-ranged protocol
+  - message{m="COUNTERATTACKED"} @PlayersNearOrigin{r=75} ~onSignal:COUNTERATTACK 0 #DEBUGMESSAGE
+  - skill{s=countertacked_fknighta_A;cooldown=2;sync=true} @self ~onSignal:COUNTERATTACK
+  - skill{s=countertacked_fknighta_B;cooldown=0.3;sync=false} @self ~onSignal:COUNTERATTACK ?variableEquals{var=caster.parrying;value="1"}
+  - skill{s=meleefknightatrigger2;cooldown=1;sync=false} @Trigger ~onSignal:COUNTERATTACK 0.45 ?variableEquals{var=caster.parrying;value="1"}
+  
+#
+
+# ========= Anti-ranged protocol
+  - skill{s=hurtgenfknighta;sync=true} @self ~onDamaged 1 #Hurtmechanic ANTIARROW
+  - skill{s=hurtgenfknighta2;sync=true} @self ~onDamaged 1 #Hurtmechanic ANTIMMSkills
+  - setvariable{var=caster.rollumterr;value="0";t=integer} @Self ~OnSpawn #Hurtmechanic ANTIARROW
+  - setvariable{var=caster.projrec;value="0";t=integer} @Self ~OnSpawn #Hurtmechanic ANTIARROW
+  - setvariable{var=caster.running;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.runstacks;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.hurtened;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.parrying;value="0";t=integer} @Self ~onSpawn
+#======== RUNNER PROTOCOL (Activate if you remove statue pose)
+  - Aura{auraName=checkrunfknighta;onTick=fknighta_runprotocolcheck;interval=30;duration=99999} @self ~onSpawn 0 #=============== RUN MECHANICUS
+  - setvariable{var=caster.hitrec;value="0";t=integer} @Self ~OnSpawn #Hurtmechanic ANTIARROW
+  - message{m="Hitrec <caster.var.hitrec>"} @PlayersNearOrigin{r=75} ~onDamaged 0 #DEBUGMESSAGE
+  - message{m="&eCOMBOR &a<caster.var.combor>"} @PlayersNearOrigin{r=75} ~onDamaged 0 #DEBUGMESSAGE
+
+# ======== Dodger Protocol (activate here if you remove statue pose)
+  - Aura{auraName=backstepdodgerfknighta;onTick=fknighta_bstpcheck;interval=7;duration=99999} @self ~onSpawn 0
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDamaged 1 #Hurtmechanic SOUND
+  - sound{s=emaginationfallenheroes:custom.fallenhero.hitmetal;p=1;v=1} @selflocation ~onDeath 1 
+  - setstance{stance=static} @self ~onSpawn
+#  - message{m="<caster.var.runstacks>"} @PlayersNearOrigin{r=35} ~onTimer:40 0
+  #ACTIVATION AURA
+  - Aura{auraName=staticfknighta;onTick=fknightastcheck;interval=20;duration=99999;delay=40} @self ~onSpawn
+  - skill{s=fknightastcheck3;cooldown=0.3;sync=false} @self ~onSignal:RAMPAGE_ACTIVATE
+  Options:
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.18
+    Interactable: true
+    PreventOtherDrops: true
+    KnockbackResistance: 0.9
+    PreventSunburn: true
+
+#HITBOXES
+
+fknighta_parrybox:
+  Type: vex
+  Display: ''
+  Faction: FallenHero
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  Health: 1500
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 2.7
+  Damage: 0
+  Equipment:
+  - air:4
+  - air:3
+  - air:2
+  - air:1
+  - air:0
+  Skills:
+  - setvariable{var=caster.parrybox;value="1";t=integer;delay=1} @Self ~onSpawn
+  - cancelEvent{sync=true} @Trigger ~onDamaged
+  - cancelEvent{sync=true} @parent ~onDamaged
+  - message{m="&aParrybox Damaged"} @PlayersNearOrigin{r=75} ~onDamaged 0 #DEBUG MESSAGE
+  - message{m="&aParrybox Spawned"} @PlayersNearOrigin{r=75} ~onSpawn 0 #DEBUG MESSAGE
+#  - variableadd{var=target.shieldstacks;amount=1;cooldown=2.5} @parent{conditions=[  - variableInRange{var=target.shieldstacks;value=>15} false ]} ~onDamaged 0.4 ?hasaura{n=shieldenaddstacks_temporary}
+#  - sudoskill{s=[
+#    - skill{s=meleefdefendertriggerShieldenn;sync=true} @LivingInCone{a=160.0;r=4.5;rot=0.0;ignore=samefaction}];sync=true;cat=true} @parent{conditions=[  - variableEquals{var=target.shielding;value="1"} true ]} ~onDamaged 0.8
+#  - sudoskill{s=[
+#    - randomskill{s=fdefender_forcefield_execute_commute_xd;cooldown=1} @Self <80%
+#    - message{m="&aFallen Defender &dCasting&c Conmutando stacks SHIELDING=1 SHIELDENNBOX"} @PlayersNearOrigin{r=75} 0];sync=true;cat=true} @parent{conditions=[  - variableEquals{var=target.shielding;value="1"} true ]} ~onDamaged 0.5
+#  - sudoskill{s=[
+#    - randomskill{s=fdefender_forcefield_execute_commute_xd;cooldown=1} @Self <65%
+#    - message{m="&aFallen Defender &dCasting&b Conmutando stacks SHIELDING=0 SHIELDENNBOX"} @PlayersNearOrigin{r=75} 0];sync=true;cat=true} @parent{conditions=[  - variableEquals{var=target.shielding;value="0"} true ]} ~onDamaged 0.3
+  - signal{s=COUNTERATTACK} @parent ~onDamaged 1
+  - randomskill{s=[
+      - state{state=block_trigger1;li=0;lo=8;n=false;speed=1} @parent
+    ],
+      [
+      - state{state=block_trigger2;li=0;lo=8;n=false;speed=1} @parent
+    ];sync=true} @parent ~onDamaged
+  - sound{s=emaginationfallenknights:custom.spell.swordclash;p=<random.float.1to1.5>;v=2} @selflocation ~onDamaged
+  Options:
+    ApplyInvisibility: true
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.01
+    MaxCombatDistance: 60
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    FollowRange: 50
+    Despawn: true
+    Interactable: true
+    KnockbackResistance: 0
+    Collidable: false
+    NoGravity: true
+
+knighta_spirit:
+  Type: silverfish
+  Display: ''
+  Faction: FallenHero
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  Health: 150
+  Damage: 0
+  Skills:
+   - model{mid=soldier_fireblade;n=false;delay=1} @self ~onSpawn 1
+   - skill{s=posessing_missile_fknighta} @LivingEntitiesInRadius{r=30;limit=1;sort=NEAREST;conditions=[  - mythicmobtype{t=statue_knighta_s,statue_knighta_n,statue_knighta_e,statue_knighta_w,statue_knighta_s_activable,statue_knighta_n_activable,statue_knighta_e_activable,statue_knighta_w_activable,statue_knighta_s_resist,statue_knighta_n_resist,statue_knighta_e_resist,statue_knighta_w_resist} true  - variableEquals{var=target.posess;value="1"} false ]} ~onSpawn
+   - bodyclamp{m=soldier_fireblade;c=360} @self ~onSpawn 0
+   - skill{s=[
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb1;delay=0} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb2;delay=1} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb3;delay=2} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb4;delay=3} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb5;delay=4} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb6;delay=5} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb7;delay=6} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb8;delay=7} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb9;delay=8} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb10;delay=9} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb11;delay=10} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb12;delay=11} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb13;delay=12} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb14;delay=13} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb15;delay=14} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb16;delay=15} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb17;delay=16} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb18;delay=17} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb19;delay=18} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb20;delay=19} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldier_fireblade;npid=fb1;delay=20} @self];sync=false} @self ~onSpawn 1
+   - potion{type=INVISIBILITY;duration=99999;level=1;p=false} @Self ~onSpawn 1
+   - cancelEvent{sync=true} ~onAttack
+   - remove{delay=20} @Self ~onSpawn 0
+   - effect:particles{particle=reddust;color=#ECEBE2;amount=4;hS=0.3;vS=0.3;size=1.2;repeat=1;repeatinterval=1} @Origin{y=2.3} ~onSpawn 1
+  Options:
+    ApplyInvisibility: true
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.001
+    MaxCombatDistance: 1
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    FollowRange: 50
+    Invincible: true
+    Despawn: true
+    Interactable: false
+    KnockbackResistance: 1
+    Collidable: false
+    NoGravity: true
+#VFX
+
+knighta_fireblade1:
+  Type: silverfish
+  Display: ''
+  Faction: FallenHero
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  Health: 150
+  Damage: 0
+  Skills:
+   - model{mid=soldier_fireblade;n=false;delay=1} @self ~onSpawn 1
+   - bodyclamp{m=soldier_fireblade;c=360} @self ~onSpawn 0
+   - skill{s=[
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb1;delay=0} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb2;delay=1} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb3;delay=2} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb4;delay=3} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb5;delay=4} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb6;delay=5} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb7;delay=6} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb8;delay=7} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb9;delay=8} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb10;delay=9} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb11;delay=10} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb12;delay=11} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb13;delay=12} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb14;delay=13} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb15;delay=14} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb16;delay=15} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb17;delay=16} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb18;delay=17} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb19;delay=18} @self
+    - changepart{m=soldier_fireblade;pid=fb1;nm=soldierplosion_reources;npid=fb20;delay=19} @self];sync=false} @self ~onSpawn 1
+   - potion{type=INVISIBILITY;duration=99999;level=1;p=false} @Self ~onSpawn 1
+   - cancelEvent{sync=true} ~onAttack
+   - remove{delay=20} @Self ~onSpawn
+   - effect:particles{particle=reddust;color=#ECEBE2;amount=4;hS=0.3;vS=0.3;size=1.2;repeat=1;repeatinterval=1} @Origin{y=2.3} ~onSpawn 1
+  Options:
+    ApplyInvisibility: true
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.001
+    MaxCombatDistance: 1
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    FollowRange: 50
+    Invincible: true
+    Despawn: true
+    Interactable: false
+    KnockbackResistance: 1
+    Collidable: false
+    NoGravity: true
+knighta_thrustblade1:
+  Type: silverfish
+  Display: ''
+  Faction: FallenHero
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  Health: 150
+  Damage: 0
+  Skills:
+   - model{mid=soldier_thrustblade;n=false;delay=1} @self ~onSpawn 1
+   - bodyclamp{m=soldier_thrustblade;c=360} @self ~onSpawn 0
+   - skill{s=[
+    - changepart{m=soldier_thrustblade;pid=fb1;nm=soldierplosion_reources;npid=fbtr1;delay=0} @self
+    - changepart{m=soldier_thrustblade;pid=fb1;nm=soldierplosion_reources;npid=fbtr2;delay=1} @self
+    - changepart{m=soldier_thrustblade;pid=fb1;nm=soldierplosion_reources;npid=fbtr3;delay=2} @self
+    - changepart{m=soldier_thrustblade;pid=fb1;nm=soldierplosion_reources;npid=fbtr4;delay=3} @self
+    - changepart{m=soldier_thrustblade;pid=fb1;nm=soldierplosion_reources;npid=fbtr5;delay=4} @self
+    - changepart{m=soldier_thrustblade;pid=fb1;nm=soldierplosion_reources;npid=fbtr6;delay=5} @self
+    - changepart{m=soldier_thrustblade;pid=fb1;nm=soldierplosion_reources;npid=fbtr7;delay=6} @self
+    - changepart{m=soldier_thrustblade;pid=fb1;nm=soldierplosion_reources;npid=fbtr8;delay=7} @self
+    - changepart{m=soldier_thrustblade;pid=fb1;nm=soldierplosion_reources;npid=fbtr9;delay=8} @self
+    - changepart{m=soldier_thrustblade;pid=fb1;nm=soldierplosion_reources;npid=fbtr10;delay=9} @self
+    - changepart{m=soldier_thrustblade;pid=fb1;nm=soldierplosion_reources;npid=fbtr11;delay=10} @self
+    - changepart{m=soldier_thrustblade;pid=fb1;nm=soldierplosion_reources;npid=fbtr12;delay=11} @self
+    - changepart{m=soldier_thrustblade;pid=fb1;nm=soldierplosion_reources;npid=fbtr13;delay=12} @self
+    - changepart{m=soldier_thrustblade;pid=fb1;nm=soldierplosion_reources;npid=fbtr14;delay=13} @self
+    - changepart{m=soldier_thrustblade;pid=fb1;nm=soldierplosion_reources;npid=fbtr15;delay=14} @self];sync=false;delay=1} @self ~onSpawn 1
+   - potion{type=INVISIBILITY;duration=99999;level=1;p=false} @Self ~onSpawn 1
+   - cancelEvent{sync=true} ~onAttack
+   - remove{delay=16} @Self ~onSpawn
+   - effect:particles{particle=reddust;color=#ECEBE2;amount=4;hS=0.3;vS=0.3;size=1.2;repeat=1;repeatinterval=1} @Origin{y=2.3} ~onSpawn 1
+  Options:
+    ApplyInvisibility: true
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.001
+    MaxCombatDistance: 1
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    FollowRange: 50
+    Invincible: true
+    Despawn: true
+    Interactable: false
+    KnockbackResistance: 1
+    Collidable: false
+    NoGravity: true
+knighta_expFXmarker1:
+  Type: silverfish
+  Display: ''
+  Faction: FallenHero
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  Health: 150
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 2.7
+  Damage: 0
+  Equipment:
+  - air:4
+  - air:3
+  - air:2
+  - air:1
+  - air:0
+  Drops:
+  Skills:
+   - model{mid=fsoldier_fireexplosion;s=idle;n=false;delay=2} @self ~onSpawn 1
+   - skill{s=[
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=frame1;delay=0} @self
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=frame2;delay=1} @self
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=frame3;delay=2} @self
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=frame4;delay=3} @self
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=frame5;delay=4} @self
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=frame6;delay=5} @self
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=frame7;delay=6} @self
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=frame8;delay=7} @self];sync=true;delay=2} @self ~onSpawn 1
+   - potion{type=INVISIBILITY;duration=99999;level=1;p=false} @Self ~onSpawn 1
+   - cancelEvent{sync=true} ~onAttack
+   - remove{delay=8} @Self ~onSpawn
+   - effect:particles{particle=reddust;color=#ECEBE2;amount=5;hS=0.3;vS=0.3;size=0.8;repeat=1;repeatinterval=1} @Origin{y=0.3} ~onSpawn 1
+  Options:
+    ApplyInvisibility: true
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.56
+    MaxCombatDistance: 5
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    FollowRange: 50
+    Despawn: true
+    Interactable: true
+    KnockbackResistance: 0
+    Collidable: false
+    NoGravity: true
+knighta_expFXmarker2:
+  Type: silverfish
+  Display: ''
+  Faction: FallenHero
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  Health: 150
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 2.7
+  Damage: 0
+  Equipment:
+  - air:4
+  - air:3
+  - air:2
+  - air:1
+  - air:0
+  Drops:
+  Skills:
+   - model{mid=fsoldier_fireexplosion;s=idle;n=false;delay=1} @self ~onSpawn 1
+   - skill{s=[
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=explosionb1;delay=0} @self
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=explosionb2;delay=1} @self
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=explosionb3;delay=2} @self
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=explosionb4;delay=3} @self
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=explosionb5;delay=4} @self
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=explosionb6;delay=5} @self
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=explosionb7;delay=6} @self
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=explosionb8;delay=7} @self
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=explosionb9;delay=8} @self
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=explosionb10;delay=9} @self
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=explosionb11;delay=10} @self
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=explosionb12;delay=11} @self];sync=true;delay=1} @self ~onSpawn 1
+   - potion{type=INVISIBILITY;duration=99999;level=1;p=false} @Self ~onSpawn 1
+   - cancelEvent{sync=true} ~onAttack
+   - remove{delay=13} @Self ~onSpawn
+   - effect:particles{particle=reddust;color=#ECEBE2;amount=5;hS=0.3;vS=0.3;size=0.8;repeat=1;repeatinterval=1} @Origin{y=0.3} ~onSpawn 1
+  Options:
+    ApplyInvisibility: true
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.56
+    MaxCombatDistance: 5
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    FollowRange: 50
+    Despawn: true
+    Interactable: true
+    KnockbackResistance: 0
+    Collidable: false
+    NoGravity: true
+knighta_chipsumMarker:
+  Type: silverfish
+  Display: ''
+  Faction: FallenHero
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  Health: 150
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 2.7
+  Damage: 0
+  Equipment:
+  - air:4
+  - air:3
+  - air:2
+  - air:1
+  - air:0
+  Drops:
+  Skills:
+   - model{mid=fsoldier_fireexplosion;s=idle;n=false;delay=1} @self ~onSpawn 1
+   - skill{s=[
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=chipsum1;delay=0} @self
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=chipsum2;delay=1} @self
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=chipsum3;delay=2} @self
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=chipsum4;delay=4} @self
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=chipsum5;delay=6} @self
+    - changepart{m=fsoldier_fireexplosion;pid=frame1;nm=soldierplosion_reources;npid=chipsum6;delay=8} @self];sync=true;delay=1} @self ~onSpawn 1
+   - potion{type=INVISIBILITY;duration=99999;level=1;p=false} @Self ~onSpawn 1
+   - cancelEvent{sync=true} ~onAttack
+   - remove{delay=9} @Self ~onSpawn
+   - effect:particles{particle=reddust;color=#ECEBE2;amount=5;hS=0.3;vS=0.3;size=0.8;repeat=1;repeatinterval=1} @Origin{y=0.5} ~onSpawn 1
+  Options:
+    ApplyInvisibility: true
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.56
+    MaxCombatDistance: 5
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    FollowRange: 50
+    Despawn: true
+    Interactable: true
+    KnockbackResistance: 0
+    Collidable: false
+    NoGravity: true

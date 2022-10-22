@@ -1,0 +1,76 @@
+ForesterAttack:
+  Skills:
+  - cancelEvent
+  - skill{s=[
+             - aura{auraName=Casting;d=20} @self
+             - state{m=forester;s=attack2;li=2;lo=1} @self ?hasaura{n=SecondAttack}
+             - state{m=forester;s=attack1;li=2;lo=2} @self ?!hasaura{n=SecondAttack}
+             - auraremove{aura=SecondAttack;delay=1} @self ?hasaura{n=SecondAttack}
+             - aura{auraName=SecondAttack;d=100;rd=true} @self ?!hasaura{n=SecondAttack}
+             - sound{s=entity.player.attack.sweep;p=0.1;v=0.4} @self
+             - delay 6
+             - skill{s=[
+                        - damage{a=8}
+                        - potion{t=POISON;l=0;d=60;p=true}
+                        - potion{t=SLOW;l=0;d=60;p=false}
+                        - effect:particles{p=reddust;color=#396338;y=0.6;hs=0.3;vs=0.5;a=10}
+                        - sound{s=entity.player.attack.strong;p=0.1;v=0.5}
+                        ]} @PIR{r=1.9;conditions=[  - fieldofview{angle=90} true]}
+             ]} ?!hasaura{auraName=Casting}
+             
+ForesterPull:
+  Conditions:
+  - hasaura{auraName=Casting} false
+  TargetConditions:
+  - distance{d=5to24}
+  Skills:
+  - aura{auraName=Casting;d=23;rd=true} @self
+  - state{m=forester;s=wine_throw;li=3;lo=5} @self
+  - stun{d=23;f=true} @self
+  - sound{s=entity.wither.shoot;p=0.7;v=0.3} @self
+  - delay 11
+  - sound{s=entity.arrow.shoot;p=0.1} @self
+  - projectile{v=20;mr=24;sb=true;onTick=[
+                                          - effect:particles{p=reddust;color=#396338;hs=0.1;vs=0.1;a=4;delay=1}
+                                          - effect:particlesphere{p=reddust;color=#396338;r=0.12;a=6}
+                                          ]; onHit=ForesterPullHit}
+ForesterPullHit:
+  Skills:
+  - aura{auraName=Casting;d=20;rd=true} @self
+  - stun{d=20;f=true} @self
+  - state{m=forester;s=wine_pull;li=1;lo=5} @self
+  - sound{s=block.grass.break;p=0.1}
+  - effect:particleline{p=reddust;color=#396338;y=0.6;a=3;hs=0.05;vs=0.05}
+  - potion{t=SLOW;l=3;d=60;force=true;p=false}
+  - effect:particlering{p=reddust;color=#396338;r=0.4;y=0.4;a=1;points=6}
+  - effect:particlering{p=reddust;color=#396338;r=0.4;y=0.5;a=1;points=6}
+  - effect:particlering{p=reddust;color=#396338;r=0.4;y=0.6;a=1;points=6}
+  - effect:particles{p=reddust;color=#396338;y=0.6;hs=0.3;vs=0.5;a=10}
+  - delay 3
+  - pull{v=9;vy=3}
+  - sound{s=entity.fishing_bobber.retrieve;p=0.1} @self 
+  - effect:particleline{p=reddust;color=#396338;y=0.6;a=3;hs=0.05;vs=0.05}
+  - delay 10
+  - auraremove{aura=Casting} @self
+  
+ForesterRoot:
+  Cooldown: 5
+  Conditions:
+  - hasaura{auraName=Casting} false
+  TargetConditions:
+  - distance{d=15to24}
+  Skills:
+  - aura{auraName=Casting;d=20;rd=true} @self
+  - state{m=forester;s=ground_wines;li=3;lo=5} @self
+  - stun{d=24} @self
+  - sound{s=entity.wither.shoot;p=0.7;v=0.3} @self
+  - delay 12
+  - sound{s=block.grass.break;p=0.1}
+  - effect:particleline{p=reddust;color=#396338;a=5;hs=0.3;vs=0.1;y=0.1}
+  - effect:particles{p=reddust;color=#396338;y=0.2;hs=0.3;vs=0.2;a=20}
+  - effect:particlering{p=reddust;color=#396338;r=0.4;y=0.4;a=1;points=6;repeat=2;repeatInterval=5}
+  - effect:particlering{p=reddust;color=#396338;r=0.4;y=0.4;a=1;points=6;repeat=2;repeatInterval=5}
+  - effect:particlering{p=reddust;color=#396338;r=0.4;y=0.4;a=1;points=6;repeat=2;repeatInterval=5}
+  - potion{t=SLOW;l=200;d=20;force=true;p=false}
+  - delay 9
+  - skill{s=ForesterPull}

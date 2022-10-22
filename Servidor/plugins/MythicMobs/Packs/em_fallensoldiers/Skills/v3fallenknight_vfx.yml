@@ -1,0 +1,166 @@
+fknighta_atk1FX_A:
+  Skills:
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.2500;y=1.1430;Size=0.90;delay=1;sideOffset=3.7220} @self
+  - effect:particles{p=reddust;c=#000000;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.2500;y=1.5695;Size=0.90;delay=0;sideOffset=0.2481} @self
+  - effect:particles{p=reddust;c=#000000;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.2500;y=1.6000;Size=0.90;delay=0;sideOffset=0.0000} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.0000;y=1.1430;Size=0.90;delay=1;sideOffset=3.7220} @self
+  - effect:particles{p=reddust;c=#000000;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.0000;y=1.5695;Size=0.90;delay=0;sideOffset=0.2481} @self
+  - effect:particles{p=reddust;c=#000000;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.0000;y=1.6000;Size=0.90;delay=0;sideOffset=0.0000} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-0.2500;y=1.1430;Size=0.90;delay=1;sideOffset=3.7220} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-0.5000;y=1.1430;Size=0.90;delay=1;sideOffset=3.7220} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-0.7500;y=1.1735;Size=0.90;delay=1;sideOffset=3.4739} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-1.0000;y=1.1735;Size=0.90;delay=1;sideOffset=3.4739} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-1.2500;y=1.1735;Size=0.90;delay=1;sideOffset=3.4739} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-1.5000;y=1.2039;Size=0.90;delay=1;sideOffset=3.2258} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-1.7500;y=1.2039;Size=0.90;delay=1;sideOffset=3.2258} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-2.0000;y=1.2039;Size=0.90;delay=0;sideOffset=3.2258} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-2.2500;y=1.2344;Size=0.90;delay=0;sideOffset=2.9776} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-2.5000;y=1.2344;Size=0.90;delay=0;sideOffset=2.9776} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-2.7500;y=1.2649;Size=0.90;delay=0;sideOffset=2.7295} @self
+
+fknighta_atk1FX_B:
+  Skills:
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.7500;y=1.5086;Size=0.90;delay=2;sideOffset=0.7444} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.7500;y=1.5391;Size=0.90;delay=2;sideOffset=0.4963} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.7500;y=1.5695;Size=0.90;delay=2;sideOffset=0.2481} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.7500;y=1.6000;Size=0.90;delay=3;sideOffset=0.0000} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.7500;y=1.6305;Size=0.90;delay=3;sideOffset=-0.2481} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.7500;y=1.6609;Size=0.90;delay=3;sideOffset=-0.4963} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.5000;y=1.4172;Size=0.90;delay=2;sideOffset=1.4888} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.5000;y=1.4477;Size=0.90;delay=2;sideOffset=1.2407} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.5000;y=1.4781;Size=0.90;delay=2;sideOffset=0.9925} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.5000;y=1.6914;Size=0.90;delay=3;sideOffset=-0.7444} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.5000;y=1.7219;Size=0.90;delay=3;sideOffset=-0.9925} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.5000;y=1.7523;Size=0.90;delay=3;sideOffset=-1.2407} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.2500;y=1.3258;Size=0.90;delay=2;sideOffset=2.2332} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.2500;y=1.3563;Size=0.90;delay=2;sideOffset=1.9851} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.2500;y=1.3867;Size=0.90;delay=2;sideOffset=1.7370} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.2500;y=1.7828;Size=0.90;delay=3;sideOffset=-1.4888} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.2500;y=1.8133;Size=0.90;delay=3;sideOffset=-1.7370} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.2500;y=1.8437;Size=0.90;delay=3;sideOffset=-1.9851} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.0000;y=1.2649;Size=0.90;delay=2;sideOffset=2.7295} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.0000;y=1.2953;Size=0.90;delay=2;sideOffset=2.4814} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.0000;y=1.8742;Size=0.90;delay=3;sideOffset=-2.2332} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.0000;y=1.9047;Size=0.90;delay=3;sideOffset=-2.4814} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=2.7500;y=1.2344;Size=0.90;delay=2;sideOffset=2.9776} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=2.7500;y=1.9351;Size=0.90;delay=3;sideOffset=-2.7295} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=2.5000;y=1.2344;Size=0.90;delay=2;sideOffset=2.9776} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=2.5000;y=1.9351;Size=0.90;delay=3;sideOffset=-2.7295} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=2.2500;y=1.2039;Size=0.90;delay=1;sideOffset=3.2258} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=2.2500;y=1.9656;Size=0.90;delay=3;sideOffset=-2.9776} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=2.0000;y=1.2039;Size=0.90;delay=1;sideOffset=3.2258} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=2.0000;y=1.9656;Size=0.90;delay=4;sideOffset=-2.9776} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=1.7500;y=1.9656;Size=0.90;delay=4;sideOffset=-2.9776} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=1.5000;y=1.1735;Size=0.90;delay=1;sideOffset=3.4739} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=1.5000;y=1.9961;Size=0.90;delay=4;sideOffset=-3.2258} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=1.2500;y=1.1735;Size=0.90;delay=1;sideOffset=3.4739} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=1.2500;y=1.9961;Size=0.90;delay=4;sideOffset=-3.2258} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=1.0000;y=1.1735;Size=0.90;delay=1;sideOffset=3.4739} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=1.0000;y=1.9961;Size=0.90;delay=4;sideOffset=-3.2258} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.7500;y=1.1430;Size=0.90;delay=1;sideOffset=3.7220} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.7500;y=2.0265;Size=0.90;delay=4;sideOffset=-3.4739} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.5000;y=1.1430;Size=0.90;delay=1;sideOffset=3.7220} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.5000;y=2.0265;Size=0.90;delay=4;sideOffset=-3.4739} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.2500;y=1.1430;Size=0.90;delay=1;sideOffset=3.7220} @self
+  - effect:particles{p=reddust;c=#000000;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.2500;y=1.5695;Size=0.90;delay=0;sideOffset=0.2481} @self
+  - effect:particles{p=reddust;c=#000000;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.2500;y=1.6000;Size=0.90;delay=0;sideOffset=0.0000} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.2500;y=2.0265;Size=0.90;delay=4;sideOffset=-3.4739} @self
+  - effect:particles{p=reddust;c=#000000;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.0000;y=1.5695;Size=0.90;delay=0;sideOffset=0.2481} @self
+  - effect:particles{p=reddust;c=#000000;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.0000;y=1.6000;Size=0.90;delay=0;sideOffset=0.0000} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.0000;y=2.0265;Size=0.90;delay=4;sideOffset=-3.4739} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-0.2500;y=2.0265;Size=0.90;delay=4;sideOffset=-3.4739} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-0.5000;y=2.0265;Size=0.90;delay=5;sideOffset=-3.4739} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-0.7500;y=1.9961;Size=0.90;delay=5;sideOffset=-3.2258} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-1.0000;y=1.9961;Size=0.90;delay=5;sideOffset=-3.2258} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-1.2500;y=1.9961;Size=0.90;delay=5;sideOffset=-3.2258} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-1.5000;y=1.9656;Size=0.90;delay=5;sideOffset=-2.9776} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-1.7500;y=1.9656;Size=0.90;delay=5;sideOffset=-2.9776} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-2.0000;y=1.9656;Size=0.90;delay=5;sideOffset=-2.9776} @self
+
+fknighta_atk2FX_A:
+  Skills:
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.9250;y=1.2054;Size=0.90;delay=1;sideOffset=-3.2134} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.6938;y=1.1773;Size=0.90;delay=1;sideOffset=-3.4429} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.4625;y=1.1773;Size=0.90;delay=1;sideOffset=-3.4429} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.2313;y=1.1773;Size=0.90;delay=1;sideOffset=-3.4429} @self
+  - effect:particles{p=reddust;c=#000000;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.2313;y=1.5718;Size=0.90;delay=0;sideOffset=-0.2295} @self
+  - effect:particles{p=reddust;c=#000000;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.2313;y=1.6000;Size=0.90;delay=0;sideOffset=0.0000} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.0000;y=1.1773;Size=0.90;delay=1;sideOffset=-3.4429} @self
+  - effect:particles{p=reddust;c=#000000;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.0000;y=1.5718;Size=0.90;delay=0;sideOffset=-0.2295} @self
+  - effect:particles{p=reddust;c=#000000;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.0000;y=1.6000;Size=0.90;delay=0;sideOffset=0.0000} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-0.2313;y=1.1773;Size=0.90;delay=1;sideOffset=-3.4429} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-0.4625;y=1.1773;Size=0.90;delay=1;sideOffset=-3.4429} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-0.6938;y=1.2054;Size=0.90;delay=1;sideOffset=-3.2134} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-0.9250;y=1.2054;Size=0.90;delay=1;sideOffset=-3.2134} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-1.1563;y=1.2054;Size=0.90;delay=1;sideOffset=-3.2134} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-1.3875;y=1.2336;Size=0.90;delay=1;sideOffset=-2.9838} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-1.6188;y=1.2336;Size=0.90;delay=1;sideOffset=-2.9838} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-1.8500;y=1.2336;Size=0.90;delay=0;sideOffset=-2.9838} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-2.0813;y=1.2618;Size=0.90;delay=0;sideOffset=-2.7543} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-2.3125;y=1.2618;Size=0.90;delay=0;sideOffset=-2.7543} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-2.5438;y=1.2900;Size=0.90;delay=0;sideOffset=-2.5248} @self
+
+fknighta_atk2FX_B:
+  Skills:
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.4688;y=1.5155;Size=0.90;delay=2;sideOffset=-0.6886} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.4688;y=1.5436;Size=0.90;delay=2;sideOffset=-0.4591} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.4688;y=1.5718;Size=0.90;delay=2;sideOffset=-0.2295} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.4688;y=1.6000;Size=0.90;delay=3;sideOffset=0.0000} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.4688;y=1.6282;Size=0.90;delay=3;sideOffset=0.2295} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.4688;y=1.6564;Size=0.90;delay=3;sideOffset=0.4591} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.2375;y=1.4309;Size=0.90;delay=2;sideOffset=-1.3772} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.2375;y=1.4591;Size=0.90;delay=2;sideOffset=-1.1476} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.2375;y=1.4873;Size=0.90;delay=2;sideOffset=-0.9181} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.2375;y=1.6845;Size=0.90;delay=3;sideOffset=0.6886} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.2375;y=1.7127;Size=0.90;delay=3;sideOffset=0.9181} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.2375;y=1.7409;Size=0.90;delay=3;sideOffset=1.1476} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.0063;y=1.3464;Size=0.90;delay=2;sideOffset=-2.0657} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.0063;y=1.3745;Size=0.90;delay=2;sideOffset=-1.8362} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.0063;y=1.4027;Size=0.90;delay=2;sideOffset=-1.6067} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.0063;y=1.7691;Size=0.90;delay=3;sideOffset=1.3772} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.0063;y=1.7973;Size=0.90;delay=3;sideOffset=1.6067} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=3.0063;y=1.8255;Size=0.90;delay=3;sideOffset=1.8362} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=2.7750;y=1.2900;Size=0.90;delay=2;sideOffset=-2.5248} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=2.7750;y=1.3182;Size=0.90;delay=2;sideOffset=-2.2953} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=2.7750;y=1.8536;Size=0.90;delay=3;sideOffset=2.0657} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=2.7750;y=1.8818;Size=0.90;delay=3;sideOffset=2.2953} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=2.5438;y=1.2618;Size=0.90;delay=2;sideOffset=-2.7543} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=2.5438;y=1.9100;Size=0.90;delay=3;sideOffset=2.5248} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=2.3125;y=1.2618;Size=0.90;delay=2;sideOffset=-2.7543} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=2.3125;y=1.9100;Size=0.90;delay=3;sideOffset=2.5248} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=2.0813;y=1.2336;Size=0.90;delay=1;sideOffset=-2.9838} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=2.0813;y=1.9382;Size=0.90;delay=3;sideOffset=2.7543} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=1.8500;y=1.2336;Size=0.90;delay=1;sideOffset=-2.9838} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=1.8500;y=1.9382;Size=0.90;delay=4;sideOffset=2.7543} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=1.6188;y=1.2336;Size=0.90;delay=1;sideOffset=-2.9838} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=1.6188;y=1.9382;Size=0.90;delay=4;sideOffset=2.7543} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=1.3875;y=1.2054;Size=0.90;delay=1;sideOffset=-3.2134} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=1.3875;y=1.9664;Size=0.90;delay=4;sideOffset=2.9838} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=1.1563;y=1.2054;Size=0.90;delay=1;sideOffset=-3.2134} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=1.1563;y=1.9664;Size=0.90;delay=4;sideOffset=2.9838} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.9250;y=1.2054;Size=0.90;delay=1;sideOffset=-3.2134} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.9250;y=1.9664;Size=0.90;delay=4;sideOffset=2.9838} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.6938;y=1.9946;Size=0.90;delay=4;sideOffset=3.2134} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.4625;y=1.9946;Size=0.90;delay=4;sideOffset=3.2134} @self
+  - effect:particles{p=reddust;c=#000000;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.2313;y=1.5718;Size=0.90;delay=0;sideOffset=-0.2295} @self
+  - effect:particles{p=reddust;c=#000000;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.2313;y=1.6000;Size=0.90;delay=0;sideOffset=0.0000} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.2313;y=1.9946;Size=0.90;delay=4;sideOffset=3.2134} @self
+  - effect:particles{p=reddust;c=#000000;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.0000;y=1.5718;Size=0.90;delay=0;sideOffset=-0.2295} @self
+  - effect:particles{p=reddust;c=#000000;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.0000;y=1.6000;Size=0.90;delay=0;sideOffset=0.0000} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=0.0000;y=1.9946;Size=0.90;delay=4;sideOffset=3.2134} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-0.2313;y=1.9946;Size=0.90;delay=4;sideOffset=3.2134} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-0.4625;y=1.9946;Size=0.90;delay=5;sideOffset=3.2134} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-0.6938;y=1.9664;Size=0.90;delay=5;sideOffset=2.9838} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-0.9250;y=1.9664;Size=0.90;delay=5;sideOffset=2.9838} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-1.1563;y=1.9664;Size=0.90;delay=5;sideOffset=2.9838} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-1.3875;y=1.9382;Size=0.90;delay=5;sideOffset=2.7543} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-1.6188;y=1.9382;Size=0.90;delay=5;sideOffset=2.7543} @self
+  - effect:particles{p=reddust;c=#EAE6CE;a=1;speed=0.00;hs=0.05;vs=0.00;forwardOffset=-1.8500;y=1.9382;Size=0.90;delay=5;sideOffset=2.7543} @self
+
+
+
+
+
+
+
+

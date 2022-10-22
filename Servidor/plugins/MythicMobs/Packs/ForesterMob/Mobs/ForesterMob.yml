@@ -1,0 +1,18 @@
+Forester:
+  Type: Zombie
+  Display: '&aForester'
+  Health: 250
+  Options:
+    MovementSpeed: 0.24
+    PreventRandomEquipment: true
+    Silent: true
+    AlwaysShowName: true
+    FollowRange: 40
+    PreventOtherDrops: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+  Skills:
+  - model{m=forester} @self ~onSpawn
+  - skill{s=ForesterAttack;sync=true} @trigger ~onAttack
+  - skill{s=ForesterPull;cooldown=10} @target ~onTimer:10 0.2
+  - skill{s=ForesterRoot} @PIR{r=20;limit=1;sort=FURTHEST} ~onTimer:10

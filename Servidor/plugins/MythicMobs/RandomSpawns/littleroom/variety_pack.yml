@@ -1,0 +1,69 @@
+
+RandomShark:
+  MobType: shark
+  Worlds: world
+  Chance: .1
+  Priority: 1
+  Action: REPLACE
+  Conditions:
+  - blocktype WATER true
+  - biome{b=DEEP_OCEAN} true
+
+RandomJelly:
+  MobType: jelly
+  Worlds: world
+  Chance: 1
+  Priority: 75
+  Action: REPLACE
+  Conditions:
+  - blocktype WATER true
+  - biome{b=WARM_OCEAN} true
+  
+RandomScorpid:
+  MobType: scorpid
+  Worlds: world
+  Chance: 1
+  Priority: 75
+  Action: REPLACE
+  Conditions:
+  - outside{} true
+  - onblock{b=SAND}
+  
+RandomHermitcrab:
+  MobType: hermitcrab
+  Worlds: world
+  Chance: 1
+  Priority: 76
+  Action: REPLACE
+  Conditions:
+  - outside{} true
+  - onblock{b=SAND}
+  
+RandomGolem:
+  MobType: golem
+  Worlds: world
+  Chance: .01
+  Priority: 1
+  Action: REPLACE
+  Conditions:
+  - onblock STONE true
+
+RandomMimic:
+  MobType: mimic
+  Worlds: world
+  Chance: .001
+  Priority: 1
+  Action: REPLACE
+  Conditions:
+  - outside{} true
+  
+RandomRhino:
+  MobType: rhino
+  Worlds: world
+  Chance: .5
+  Priority: 75
+  Action: REPLACE
+  Conditions:
+  - outside{} true
+  - biome JUNGLE_EDGE
+  - day{} true

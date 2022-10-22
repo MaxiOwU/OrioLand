@@ -1,0 +1,58 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+  
+  
+GOLEMdrops_wooden:
+  TotalItems: 1
+  Drops:
+  - IRON_ORE 1 .5
+  - COAL 2 1  
+  
+GOLEMdrops_stone:
+  TotalItems: 1
+  Drops:
+  - IRON_ORE 1 1
+  - COAL 1 1  
+  
+GOLEMdrops_iron:
+  TotalItems: 1
+  Drops:
+  - DIAMOND 1 .1
+  - IRON_ORE 1 1
+  - GOLD_ORE 1 .25
+  - COAL 1 .5  
+  
+GOLEMdrops_golden:
+  TotalItems: 1
+  Drops:
+  - DIAMOND 1 .1
+  - IRON_ORE 1 1
+  - GOLD_ORE 2 1
+  - COAL 1 .5
+  
+GOLEMdrops_diamond:
+  TotalItems: 2
+  Drops:
+  - DIAMOND 1 .75
+  - IRON_ORE 1 .5
+  - GOLD_ORE 1 .5
+  - COAL 1 .5
+  
+MIMICdrops:
+  TotalItems: 3
+  Drops:
+  - BOW 1 1
+  - IRON_INGOT 3 1
+  - FLINT_AND_STEEL 1 1
+  - DIAMOND_BOOTS 1 1
+  - DIAMOND_LEGGINGS 1 1
+  - DIAMOND_CHESTPLATE 1 1
+  - DIAMOND_HELMET 1 1
+  - COMPASS 1 1
+  - TORCH 2 1
+  - SHIELD 1 1
+  - CLOCK 1 1
+  - EMERALD 15 1
+  - BOOK 1 1
+  

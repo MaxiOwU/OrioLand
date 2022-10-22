@@ -1,0 +1,18 @@
+#FALLEN SOLDIER===============
+imbootsfallensoldier: 
+  Id: netherite_boots
+  Data: 0
+  Display: "&3[DEV]Imaginary boots of the fallen hero"
+  Lore:
+  - '         &DDEV ITEM          '
+  - "&6This is intended to make the "
+  - "&mob non-explotable in water. "
+  - "&6don't tamper with it. "
+  Enchantments:
+  - DURABILITY:7
+  - DEPTH_STRIDER:4
+  Attributes:
+    Feet:
+      MovementSpeed: 0
+      Armor: 30
+      ArmorToughness: 7
