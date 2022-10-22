@@ -22,19 +22,19 @@ Boost:
     BroadcastOnStart: true
     MessageOnStart:
     - '&e***********************************************'
-    - '&e* All jobs got 2x rate for exp and money!'
-    - '&e* For limited time only!'
+    - '&e* Todos los trabajos consiguieron un'
+    - '&e* boost x2 a la XP y Dinero temporalmente'
     - '&e***********************************************'
     BroadcastOnStop: true
     MessageOnStop:
     - '&e***********************************************'
-    - '&e* Boost time for jobs have been stopped'
-    - '&e* All rates reseted to original ones'
+    - '&e* El tiempo de boost para trabajos terminó.'
+    - '&e* Todos los trabajos han vuelto a la normalidad'
     - '&e***********************************************'
     BroadcastInterval: 15
     BroadcastMessage:
     - '&e******************************************************'
-    - '&e* 2x boost time for all jobs is activated until [until] *'
+    - '&e* Boost x2 para los trabajos activado hasta [until] *'
     - '&e******************************************************'
   ShortMoneyBoost:
     Enabled: false
@@ -51,18 +51,18 @@ Boost:
     BroadcastOnStart: true
     MessageOnStart:
     - '&e***********************************************'
-    - '&e* Miner and Woodcutter got 2x rate for money!'
-    - '&e* Until 8AM!'
+    - '&e* Minero y Talador consiguieron un boost x2'
+    - '&e* de dinero hasta las  8AM!'
     - '&e***********************************************'
     BroadcastOnStop: true
     MessageOnStop:
     - '&e***********************************************'
-    - '&e* Boost time for Miner and Woodcutter have been stopped'
-    - '&e* Money rates reseted to original ones'
+    - '&e* tiempo de boost para Minero y Talador se han'
+    - '&e* detenido. los trabajos vuelven a la normalidad'
     - '&e***********************************************'
     BroadcastInterval: 15
     BroadcastMessage:
     - '&e******************************************************'
-    - '&e* 2x money boost time for Miner and Woodcutter jobs'
-    - '&e* Is activated until [until]'
+    - '&e* boost x2 de dinero para Minero y Talador'
+    - '&e* Esta activado hasta [until]'
     - '&e******************************************************'
