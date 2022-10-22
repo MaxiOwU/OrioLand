@@ -14,7 +14,7 @@ config-version: 163
 
 settings:
   # What language do you want the plugin to read? The list langs are in the lang/ folder.
-  lang: en_US
+  lang: es_MX
   # Very useful to tell if there are any memory leaks or if the author needs
   # information.
   # Current debug levels are:
