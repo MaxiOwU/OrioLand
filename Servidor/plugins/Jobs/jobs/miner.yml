@@ -1,8 +1,8 @@
 Miner:
-  fullname: Miner
+  fullname: Minero
   shortname: M
   FullDescription:
-  - "Earns money mining minerals and ores."
+  - "Gana dinero minando Ores y Minerales"
   ChatColour: DARK_GRAY
   chat-display: full
   max-level: 200
@@ -16,17 +16,17 @@ Miner:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: DarkOne
+      Name: Un Oscuro
       Objectives:
       - Break;stone;50
       - Break;granite;50
       - Break;sandstone;50
       RewardCommands:
       - eco give [playerName] 100
-      - msg [playerName] Completed quest!
+      - msg [playerName] Mision completada!
       RewardDesc:
-      - Break blocks and get money
-      - Get 100 for this!
+      - Rompe bloques y gana dinero
+      - Consigue 100 por esto!
   Gui:
     Item: wooden_pickaxe
   TNTBreak:

@@ -1,8 +1,8 @@
 Woodcutter:
-  fullname: Woodcutter
+  fullname: Talador
   shortname: W
   FullDescription:
-  - "Earns money felling and planting trees"
+  - "Gana dinero plantando y talando arboles."
   ChatColour: GREEN
   chat-display: full
   max-level: 200
@@ -16,17 +16,17 @@ Woodcutter:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Woodpecker
+      Name: Deforestacion
       Objectives:
       - Break;oak_log;50
       - Break;birch_log;50
       - Break;jungle_log;50
       RewardCommands:
       - eco give [playerName] 100
-      - msg [playerName] Completed quest!
+      - msg [playerName] Mision completada!
       RewardDesc:
-      - Break logs and get money
-      - Get 100 for this!
+      - Rompe troncos y consigue dinero
+      - Consigue 100 por esto!
   Gui:
     Item: birch_log
   Break:
