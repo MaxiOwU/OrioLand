@@ -1,8 +1,8 @@
 Crafter:
-  fullname: Crafter
-  shortname: Cr
+  fullname: Crafteador
+  shortname: Ar
   FullDescription:
-  - "Earns money from crafting items."
+  - "Consigue dinero crafteando items"
   ChatColour: RED
   chat-display: full
   max-level: 200
@@ -16,17 +16,17 @@ Crafter:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Master Crafter
+      Name: Crafteador Maestro
       Objectives:
       - Craft;dispenser;10
       - Craft;chest;10
       - Craft;ladder;30
       RewardCommands:
       - eco give [playerName] 100
-      - msg [playerName] Completed quest!
+      - msg [playerName] Mision completada!!
       RewardDesc:
-      - Craft and get money
-      - Get 100 for this!
+      - Craftea y consigue dinero
+      - Consigue 100 por esto!
   Gui:
     Item: crafting_table
   Craft:
