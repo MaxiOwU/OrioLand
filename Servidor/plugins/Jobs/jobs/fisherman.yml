@@ -1,8 +1,8 @@
 Fisherman:
-  fullname: Fisherman
+  fullname: Pescador
   shortname: Fi
   FullDescription:
-  - "Earns money from fishing."
+  - "Gana dinero pescando"
   ChatColour: AQUA
   chat-display: full
   max-level: 200
@@ -16,17 +16,17 @@ Fisherman:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Catcher
+      Name: Capturador
       Objectives:
       - Fish;cod;2
       - Fish;salmon;2
       - Fish;tropical_fish;2
       RewardCommands:
       - eco give [playerName] 100
-      - msg [playerName] Completed quest!
+      - msg [playerName] Mision completada!
       RewardDesc:
-      - Catch fish and get money
-      - Get 100 for this!
+      - Captura peces y gana dinero!
+      - Gana 100 por esto!
   Gui:
     Item: fishing_rod
   Fish:
