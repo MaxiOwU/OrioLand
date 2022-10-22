@@ -33,7 +33,7 @@ golem:
   
 hermitcrab:
   Type: OCELOT
-  Display: Hermitcrab
+  Display: Hermitaño
   Health: 2
   Damage: 0
   AIGoalSelectors:
@@ -55,6 +55,7 @@ hermitcrab:
     
 jelly:
   Type: COD
+  Display: Medusa
   Health: 2
   Damage: 0
   Faction: Jelly
@@ -73,6 +74,7 @@ jelly:
     
 babyjelly:
   Type: COD
+  Display: Medusa
   Health: 2
   Damage: 0
   Faction: Jelly
@@ -114,7 +116,7 @@ mimic:
     
 rhino:
   Type: POLAR_BEAR
-  Display: 'Rhino'
+  Display: 'Rinoceronte'
   Options:
     AlwaysShowName: false
     Silent: true
@@ -142,7 +144,7 @@ rhino:
   
 scorpid:
   Type: POLAR_BEAR
-  Display: 'Scorpid'
+  Display: 'Escorpion'
   Health: 20
   Damage: 0
   AITargetSelectors:
@@ -166,7 +168,7 @@ scorpid:
 
 shark:
   Type: DOLPHIN
-  Display: 'Shark'
+  Display: 'Tiburon'
   AITargetSelectors:
   - 1 players
   AIGoalSelectors:
