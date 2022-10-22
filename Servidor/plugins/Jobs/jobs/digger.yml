@@ -1,8 +1,8 @@
 Digger:
-  fullname: Digger
+  fullname: Excavador
   shortname: D
   FullDescription:
-  - "Earns money for terraforming the world."
+  - "Gana dinero terraformando el mundo."
   ChatColour: GOLD
   chat-display: full
   max-level: 200
@@ -16,17 +16,17 @@ Digger:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Ground Mole
+      Name: Topo De Tierra
       Objectives:
       - Break;dirt;50
       - Break;grass_block;50
       - Break;gravel;50
       RewardCommands:
       - eco give [playerName] 100
-      - msg [playerName] Completed quest!
+      - msg [playerName] Mision completada!
       RewardDesc:
-      - Dig blocks and get money
-      - Get 100 for this!
+      - Excava bloques y gana dinero
+      - Consigue 100 por esto
   Gui:
     Item: wooden_shovel
   Break:
