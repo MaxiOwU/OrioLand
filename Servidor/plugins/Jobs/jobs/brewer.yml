@@ -1,8 +1,8 @@
 Brewer:
-  fullname: Brewer
-  shortname: Br
+  fullname: Alquimista
+  shortname: Alqim
   FullDescription:
-  - "Earns money brewing potions."
+  - "Ganas dinero haciendo pociones."
   ChatColour: LIGHT_PURPLE
   chat-display: full
   max-level: 200
@@ -16,17 +16,17 @@ Brewer:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Heavy drinker
+      Name: Bebedor pesado
       Objectives:
       - Brew;glowstone_dust;2
       - Brew;redstone;2
       - Brew;sugar;2
       RewardCommands:
       - eco give [playerName] 100
-      - msg [playerName] Completed quest!
+      - msg [playerName] Mision completada!
       RewardDesc:
-      - Brew some stuff and get money
-      - Get 100 for this!
+      - Prepara pociones y gana dinero.
+      - Consigue 100 con esto!
   Gui:
     Item: brewing_stand
   Brew:
