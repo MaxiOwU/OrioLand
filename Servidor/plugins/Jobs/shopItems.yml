@@ -8,12 +8,12 @@ Items:
       # (Optional - Default: 1) Icon item amount
       Amount: 1
       # (Optional) Icon name. Supports usual color codes
-      Name: "&eBest pick axe ever!"
+      Name: "&eEl mejor pico hacha que hay!"
       # (Optional) Icon lore. Supports usual color codes
       Lore:
-      - "&6Efficiency V"
-      - "&6Unbreaking III"
-      - "&eAnd one tasty apple!"
+      - "&6Eficiencia V"
+      - "&6Irrompibilidad III"
+      - "&eY una manzana sabrosa!"
       # (Optional - default: false) Hides icon if player don't have permission to get this item
       HideWithoutPermission: true
       # (Optional - default: false) Hides icon if player don't have enough point levels to get this icon
@@ -38,7 +38,7 @@ Items:
     # all other commands will be performed normally as they would be executed from console
     # use [player] variable to include buyers name
     PerformCommands:
-    - "msg &eThanks for buying this super pick axe!"
+    - "msg &eGracias por comprar este super pico hacha!"
     # (Optional) Gives items by defined criteria
     GiveItems:
       # Can be any word
@@ -48,7 +48,7 @@ Items:
         # (Optional - Default: 1) Item amount
         Amount: 1
         # (Optional) Item name
-        Name: "&eSuper PickAxe"
+        Name: "&eSuper Pico Hacha"
         # (Optional) Item lore
         Lore:
         - "&eUber pickAxe"
@@ -76,22 +76,22 @@ Items:
     RequiredJobLevels:
     - Digger-5
     PerformCommands:
-    - "msg &eThanks [player] for buying this shovel!"
+    - "msg &eGracias [player] por comprar esta pala!"
     - "give [player] wooden_shovel 1"
   LureEnchantBook:
     Price: 100.0
     Icon:
       Id: enchanted_book
-      Name: "&eEnchant book"
+      Name: "&eLibro encantado"
       Lore:
-      - "&eContains Lure 3 enchant"
+      - "&eContiene El encantamiento Atraccion III"
       HideWithoutPermission: true
     RequiredPermission:
     - jobs.item.LureBook
     RequiredJobLevels:
     - Fisherman-100
     PerformCommands:
-    - "msg &eThanks [player] for buying this book!"
+    - "msg &eGracias [player] por comprar este libro!"
     GiveItems:
       Book:
         Id: enchanted_book
@@ -101,12 +101,12 @@ Items:
     Price: 100000.0
     Icon:
       Id: elytra
-      Name: "&eAngel wings"
+      Name: "&eAlas de angel"
       HideWithoutPermission: true
     RequiredPermission:
     - jobs.item.elytra
     PerformCommands:
-    - "msg &eThanks [player] for buying Angel Wings!"
+    - "msg &eGracias [player] por comprar Alas de angel!"
     # (Optional) Gives items by defined criteria
     GiveItems:
       Elytra:
