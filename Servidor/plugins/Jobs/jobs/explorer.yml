@@ -1,8 +1,8 @@
 Explorer:
-  fullname: Explorer
+  fullname: Explorador
   shortname: Ex
   FullDescription:
-  - "Earns money from exploring map."
+  - "Gana dinero por explorar mapas"
   ChatColour: AQUA
   chat-display: full
   max-level: 200
@@ -21,10 +21,10 @@ Explorer:
       - Explore;1;30
       RewardCommands:
       - eco give [playerName] 100
-      - msg [playerName] Completed quest!
+      - msg [playerName] Mision completada!
       RewardDesc:
-      - Go on a trip and get money
-      - Get 100 for this!
+      - Ve de viaje y gana dinero
+      - Consigue 100 por esto!
   Gui:
     Item: leather_boots
   Explore:
