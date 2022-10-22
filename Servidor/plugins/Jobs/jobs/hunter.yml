@@ -1,8 +1,8 @@
 Hunter:
-  fullname: Hunter
+  fullname: Cazador
   shortname: H
   FullDescription:
-  - "Earns money killing animals and monsters."
+  - "Gana dinero cazando monstruos"
   ChatColour: RED
   chat-display: full
   max-level: 200
@@ -16,17 +16,17 @@ Hunter:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Predator
+      Name: Depredador
       Objectives:
       - Kill;Wolf;10
       - Kill;Creeper;3
       - Kill;Skeleton;10
       RewardCommands:
       - eco give [playerName] 100
-      - msg [playerName] Completed quest!
+      - msg [playerName] Mision completada!
       RewardDesc:
-      - Kill everything what moves and get money
-      - Get 100 for this!
+      - Mata todo lo que se mueva y consigue dinero
+      - Consgiue 100 por esto!
   Gui:
     Item: bow
   Tame:
