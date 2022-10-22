@@ -1,8 +1,8 @@
 Farmer:
-  fullname: Farmer
+  fullname: Granjero
   shortname: Fa
   FullDescription:
-  - "Earns money farming crops."
+  - "Gana dinero cosechando cultivos."
   ChatColour: BLUE
   chat-display: full
   max-level: 200
@@ -16,17 +16,17 @@ Farmer:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Regular Joe
+      Name: Joe Regular
       Objectives:
       - Breed;Sheep;10
       - Shear;White;10
       - Milk;Cow;3
       RewardCommands:
       - eco give [playerName] 100
-      - msg [playerName] Completed quest!
+      - msg [playerName] Mision Completada!
       RewardDesc:
-      - Be a farmer and get money
-      - Get 100 for this!
+      - Se un granjero y consigue dinero
+      - Consigue 100 por esto!
   Gui:
     Item: wooden_hoe
   Tame:
