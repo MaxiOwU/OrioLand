@@ -1,8 +1,8 @@
 Weaponsmith:
-  fullname: Weaponsmith
+  fullname: Herrero
   shortname: W
   FullDescription:
-  - "Earns money from crafting and repairing weapons."
+  - "Gana dinero reparando y crafteando armas."
   ChatColour: DARK_PURPLE
   chat-display: full
   max-level: 200
@@ -16,17 +16,17 @@ Weaponsmith:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: War never ends
+      Name: Guerra nunca termina
       Objectives:
       - Craft;wooden_sword;2
       - Craft;iron_chestplate;2
       - Craft;gold_leggings;2
       RewardCommands:
       - eco give [playerName] 100
-      - msg [playerName] Completed quest!
+      - msg [playerName] Mision completada!
       RewardDesc:
-      - Craft weapons and get money
-      - Get 100 for this!
+      - Craftea armas y consigue dinero
+      - Consigue 100 por esto
   Gui:
     Item: crafting_table
   Craft:
