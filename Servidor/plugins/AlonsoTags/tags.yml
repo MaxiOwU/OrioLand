@@ -48,7 +48,7 @@ Tags:
       - "&aEquipada"
     No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
     Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
-    tag-española: 
+  tag-española: 
     Material: NAME_TAG
     Custom-model-data: 0
     Tag: "&f[&4E&6S&4P&f]"
@@ -120,7 +120,7 @@ Tags:
       - "&aEquipada"
     No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
     Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
-    tag-colombiana:
+  tag-colombiana:
     Material: NAME_TAG
     Custom-model-data: 0
     Tag: "&f[&6C&9O&4L&f]"
@@ -144,7 +144,7 @@ Tags:
       - "&aEquipada"
     No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
     Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
-    tag-guatemalteca:
+  tag-guatemalteca:
     Material: NAME_TAG
     Custom-model-data: 0
     Tag: "&f[&bG&fT&bM&f]"
