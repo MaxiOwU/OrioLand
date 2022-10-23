@@ -91,7 +91,7 @@ Menu-Item:
   # Slot: 0-8
   Slot: 4
   # Should give player menu selector when they join the server.
-  Give-On-Join: true
+  Give-On-Join: false
   # The way to open menu selector.
   # Click Type: LEFT, RIGHT, LEFT_AND_RIGHT
   Click-Type: LEFT_AND_RIGHT
