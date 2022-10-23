@@ -84,7 +84,7 @@ Settings:
 # The menu selector settings.
 Menu-Item:
   # The name of the selector.
-  Name: '&aGadgetsMenu'
+  Name: '&aCosmeticos'
   # The material of the selector.
   # Material: https://github.com/OnlyNoobDied/GadgetsMenu/wiki/Material-Syntax
   Material: NETHER_STAR
@@ -98,12 +98,12 @@ Menu-Item:
   # Set to true allows player to move menu selector to another slot.
   Able-To-Move: false
   Lore:
-  - '&7Mystery Dust: &b{MYSTERY_DUST}'
+  - '&7Puntos: &b{MYSTERY_DUST}'
   - ''
-  - '&7Enjoy fun cosmetic features!'
-  - '&7More stuff will be added over time,'
-  - '&7make sure to check our update forums!'
-  - '&7Thanks you for supporting our server.'
+  - '&7Disfruta de funciones cosméticas divertidas!'
+  - '&7Se agregarán más cosas con el tiempo,'
+  - '&7asegúrese de consultar nuestros Discord!'
+  - '&7Gracias por apoyar nuestro servidor..'
 
 # List of the worlds where cosmetics are enabled!
 Enabled-Worlds:
