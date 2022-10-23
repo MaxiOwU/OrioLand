@@ -1,4 +1,3 @@
-
 RandomShark:
   MobType: shark
   Worlds: world
@@ -56,7 +55,9 @@ RandomMimic:
   Action: REPLACE
   Conditions:
   - outside{} true
-  
+  - night{} true
+  - onblock CHEST true
+
 RandomRhino:
   MobType: rhino
   Worlds: world

@@ -63,7 +63,7 @@ jelly:
   - model{mid=jelly;n=false} @self ~onSpawn
   - setAI{ai=false} @self ~onSpawn
   - skill{s=jellyshock} @self ~onTimer:60
-  - summon{type=babyjelly;amount=5;radius=4} @Self ~onSpawn
+  - summon{type=babyjelly;amount=1;radius=400} @Self ~onSpawn
   - skill{s=die_jelly} @self ~onDeath
   - setname{name='Jellyfish'} @self ~onDamaged
   Options:
