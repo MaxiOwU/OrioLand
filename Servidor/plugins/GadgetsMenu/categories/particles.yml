@@ -1,6 +1,6 @@
 Particles:
   Water Splash:
-    Name: '&aWater Splash Particle'
+    Name: '&b&lSalpicaduras'
     Material: NETHER_STAR
     Mystery Dust: 15
     Rarity: Common
@@ -8,11 +8,10 @@ Particles:
     CanBeFound: true
     Purchasable: true
     Lore:
-    - '&7Display a custom Water'
-    - '&7Splash particles around'
-    - '&7you in lobby.'
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Drip Water:
-    Name: '&9Drip Water Particle'
+    Name: '&b&lGoteo de Agua'
     Material: WATER_BUCKET
     Mystery Dust: 25
     Rarity: Rare
@@ -20,11 +19,10 @@ Particles:
     CanBeFound: true
     Purchasable: true
     Lore:
-    - '&7Display a custom Drip'
-    - '&7Water particles around'
-    - '&7you in lobby.'
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Drip Lava:
-    Name: '&9Drip Lava Particle'
+    Name: '&b&lGoteo de Lava'
     Material: LAVA_BUCKET
     Mystery Dust: 25
     Rarity: Rare
@@ -32,11 +30,10 @@ Particles:
     CanBeFound: true
     Purchasable: true
     Lore:
-    - '&7Display a custom Drip'
-    - '&7Lava particles around'
-    - '&7you in lobby.'
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Crit:
-    Name: '&9Crit Particle'
+    Name: '&b&lCriticos'
     Material: STONE_SWORD
     Mystery Dust: 22
     Rarity: Rare
@@ -44,23 +41,21 @@ Particles:
     CanBeFound: true
     Purchasable: true
     Lore:
-    - '&7Display a custom Crit'
-    - '&7particles around you'
-    - '&7in lobby.'
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Magic Crit:
-    Name: '&9Magic Crit Particle'
-    Material: SPLASH_POTION:8204
+    Name: '&b&lCriticos magicos'
+    Material: POTION:8204
     Mystery Dust: 20
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
     Lore:
-    - '&7Display a custom Magic'
-    - '&7Crit particles around'
-    - '&7you in lobby.'
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Spell:
-    Name: '&5Spell Particle'
+    Name: '&b&lHechizo'
     Material: ENDER_CHEST
     Mystery Dust: 30
     Rarity: Epic
@@ -68,11 +63,10 @@ Particles:
     CanBeFound: true
     Purchasable: true
     Lore:
-    - '&7Display a custom Spell'
-    - '&7particles around you'
-    - '&7in lobby.'
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&lEPICO"
   Instant Spell:
-    Name: '&5Instant Spell Particle'
+    Name: '&b&lHechizo instantaneo'
     Material: GHAST_TEAR
     Mystery Dust: 32
     Rarity: Epic
@@ -80,11 +74,10 @@ Particles:
     CanBeFound: true
     Purchasable: true
     Lore:
-    - '&7Display a custom Instant'
-    - '&7Spell particles around'
-    - '&7you in lobby.'
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&lEPICO"
   Mob Spell:
-    Name: '&5Mob Spell Particle'
+    Name: '&b&lHechizo de Mob'
     Material: EXPERIENCE_BOTTLE
     Mystery Dust: 35
     Rarity: Epic
@@ -92,11 +85,10 @@ Particles:
     CanBeFound: true
     Purchasable: true
     Lore:
-    - '&7Display a custom Mob'
-    - '&7Spell particles around'
-    - '&7you in lobby.'
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&lEPICO"
   Witch Spell:
-    Name: '&6Witch Spell Particle'
+    Name: '&b&lHechizo de Bruja'
     Material: POTION:8260
     Mystery Dust: 40
     Rarity: Legendary
@@ -104,11 +96,10 @@ Particles:
     CanBeFound: true
     Purchasable: true
     Lore:
-    - '&7Display a custom Witch'
-    - '&7Spell particles around'
-    - '&7you in lobby.'
+    - '&f'
+    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
   Angry Villager:
-    Name: '&5Angry Villager Particle'
+    Name: '&b&lEnojado'
     Material: FIRE_CHARGE
     Mystery Dust: 32
     Rarity: Epic
@@ -116,11 +107,10 @@ Particles:
     CanBeFound: true
     Purchasable: true
     Lore:
-    - '&7Display a custom Angry'
-    - '&7Villager particles around'
-    - '&7you in lobby.'
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&lEPICO"
   Happy Villager:
-    Name: '&5Happy Villager Particle'
+    Name: '&b&lFeliz'
     Material: EMERALD
     Mystery Dust: 35
     Rarity: Epic
@@ -128,11 +118,10 @@ Particles:
     CanBeFound: true
     Purchasable: true
     Lore:
-    - '&7Display a custom Happy'
-    - '&7Villager particles around'
-    - '&7you in lobby.'
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&lEPICO"
   Town Aura:
-    Name: '&aTown Aura Particle'
+    Name: '&b&lAura Gris'
     Material: MYCELIUM
     Mystery Dust: 18
     Rarity: Common
@@ -140,11 +129,10 @@ Particles:
     CanBeFound: true
     Purchasable: true
     Lore:
-    - '&7Display a custom Town'
-    - '&7Aura particles around'
-    - '&7you in lobby.'
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Note:
-    Name: '&5Note Particle'
+    Name: '&b&lNotas'
     Material: NOTE_BLOCK
     Mystery Dust: 35
     Rarity: Epic
@@ -152,11 +140,10 @@ Particles:
     CanBeFound: true
     Purchasable: true
     Lore:
-    - '&7Display a custom Note'
-    - '&7particles around you'
-    - '&7in lobby.'
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&lEPICO"
   Portal:
-    Name: '&aPortal Particle'
+    Name: '&b&lPortal'
     Material: ENDER_PEARL
     Mystery Dust: 18
     Rarity: Common
@@ -164,11 +151,10 @@ Particles:
     CanBeFound: true
     Purchasable: true
     Lore:
-    - '&7Display a custom Portal'
-    - '&7particles around you'
-    - '&7in lobby.'
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Enchantment Table:
-    Name: '&9Enchantment Table Particle'
+    Name: '&b&lEncantamientos'
     Material: ENCHANTING_TABLE
     Mystery Dust: 28
     Rarity: Rare
@@ -176,11 +162,10 @@ Particles:
     CanBeFound: true
     Purchasable: true
     Lore:
-    - '&7Display a custom Enchantment'
-    - '&7Table particles around'
-    - '&7you in lobby.'
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Flame:
-    Name: '&6Flame Particle'
+    Name: '&b&lFlamas'
     Material: GOLD_NUGGET
     Mystery Dust: 45
     Rarity: Legendary
@@ -188,11 +173,10 @@ Particles:
     CanBeFound: true
     Purchasable: true
     Lore:
-    - '&7Display a custom Flame'
-    - '&7particles around you'
-    - '&7in lobby.'
+    - '&f'
+    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
   Redstone:
-    Name: '&6Redstone Particle'
+    Name: '&b&lRedstone'
     Material: REDSTONE
     Mystery Dust: 48
     Rarity: Legendary
@@ -200,11 +184,10 @@ Particles:
     CanBeFound: true
     Purchasable: true
     Lore:
-    - '&7Display a custom Redstone'
-    - '&7particles around you'
-    - '&7in lobby.'
+    - '&f'
+    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
   Heart:
-    Name: '&9Heart Particle'
+    Name: '&b&lCorazones'
     Material: POPPY
     Mystery Dust: 28
     Rarity: Rare
@@ -212,11 +195,10 @@ Particles:
     CanBeFound: true
     Purchasable: true
     Lore:
-    - '&7Display a custom Heart'
-    - '&7particles around you'
-    - '&7in lobby.'
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Fireworks Spark:
-    Name: '&6Fireworks Spark Particle'
+    Name: '&b&lFuegos Artificiales'
     Material: FIREWORK_ROCKET
     Mystery Dust: 52
     Rarity: Legendary
@@ -224,11 +206,10 @@ Particles:
     CanBeFound: true
     Purchasable: true
     Lore:
-    - '&7Display a custom Fireworks'
-    - '&7Spark particles around'
-    - '&7you in lobby.'
+    - '&f'
+    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
   Smoke:
-    Name: '&aSmoke Particle'
+    Name: '&b&lHumo'
     Material: FIREWORK_STAR
     Mystery Dust: 18
     Rarity: Common
@@ -236,11 +217,10 @@ Particles:
     CanBeFound: true
     Purchasable: true
     Lore:
-    - '&7Display a custom Smoke'
-    - '&7particles around you'
-    - '&7in lobby.'
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Slime:
-    Name: '&aSlime Particle'
+    Name: '&b&lSlime'
     Material: SLIME_BALL
     Mystery Dust: 22
     Rarity: Common
@@ -248,6 +228,5 @@ Particles:
     CanBeFound: true
     Purchasable: true
     Lore:
-    - '&7Display a custom slime'
-    - '&7particles around you'
-    - '&7in lobby.'
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"

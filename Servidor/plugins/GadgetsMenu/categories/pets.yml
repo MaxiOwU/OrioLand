@@ -1,1857 +1,4290 @@
 Pets:
-  Cow:
-    Name: '&eCow'
-    Material: LEATHER
-    Enabled: true
-    Lore:
-    - '&7Click here to see all pets'
-    - '&7in the Cow category!'
-    Types:
-      Cow:
-        Name: '&aCow'
-        Material: LEATHER
-        Mystery Dust: 10
-        Rarity: Common
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Cow'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Cow:
-        Name: '&9Cow (Baby)'
-        Material: WHEAT
-        Mystery Dust: 30
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Cow (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Mushroom Cow:
-        Name: '&5Mushroom Cow'
-        Material: RED_MUSHROOM
-        Mystery Dust: 50
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Mushroom Cow'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Mushroom Cow:
-        Name: '&6Mushroom Cow (Baby)'
-        Material: MUSHROOM_STEW
-        Mystery Dust: 90
-        Rarity: Legendary
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Mushroom Cow (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-  Chicken:
-    Name: '&eChicken'
-    Material: EGG
-    Enabled: true
-    Lore:
-    - '&7Click here to see all pets'
-    - '&7in the Chicken category!'
-    Types:
-      Chicken:
-        Name: '&aChicken'
-        Material: FEATHER
-        Mystery Dust: 10
-        Rarity: Common
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Chicken'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Chicken:
-        Name: '&9Chicken (Baby)'
-        Material: WHEAT_SEEDS
-        Mystery Dust: 30
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Chicken (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-  Wolf:
-    Name: '&eWolf'
-    Material: BONE
-    Enabled: true
-    Lore:
-    - '&7Click here to see all pets'
-    - '&7in the Wolf category!'
-    Types:
-      Wolf:
-        Name: '&aWolf'
-        Material: BONE
-        Mystery Dust: 10
-        Rarity: Common
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Wolf'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Wolf:
-        Name: '&9Wolf (Baby)'
-        Material: BONE_MEAL
-        Mystery Dust: 30
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Wolf (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-  Pig:
-    Name: '&ePig'
-    Material: PORKCHOP
-    Enabled: true
-    Lore:
-    - '&7Click here to see all pets'
-    - '&7in the Pig category!'
-    Types:
-      Pig:
-        Name: '&aPig'
-        Material: COOKED_PORKCHOP
-        Mystery Dust: 10
-        Rarity: Common
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Pig'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Pig:
-        Name: '&9Pig (Baby)'
-        Material: CARROT
-        Mystery Dust: 30
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Pig (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Pig Zombie:
-        Name: '&5Pig Zombie'
-        Material: GOLD_INGOT
-        Mystery Dust: 50
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.6
-        Lore:
-        - '&7Type: &9Pig Zombie'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Pig Zombie:
-        Name: '&6Pig Zombie (Baby)'
-        Material: GOLD_NUGGET
-        Mystery Dust: 85
-        Rarity: Legendary
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.5
-        Lore:
-        - '&7Type: &9Pig Zombie (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
   Silverfish:
-    Name: '&eSilverfish'
+    Name: '&b&lPeces Plata'
     Material: SILVERFISH_SPAWN_EGG
+    GUI-Name: Pez Plata
     Enabled: true
     Lore:
-    - '&7Click here to see all pets'
-    - '&7in the Silverfish category!'
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Pez Plata.'
     Types:
       Silverfish:
-        Name: '&aSilverfish'
+        Name: '&b&lPez Plata'
         Material: SILVERFISH_SPAWN_EGG
         Mystery Dust: 12
         Rarity: Common
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&ePez Plata'
         Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Rotten Flesh
+          - Milk
+          - Ball
+          Favourite:
+          - Bone
+          - Water
+          - Stick
         Lore:
-        - '&7Type: &9Silverfish'
-        - ''
-        - '&7Click to summon this pet.'
-  Endermite:
-    Name: '&eEndermite'
-    Material: ENDERMITE_SPAWN_EGG
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Chicken:
+    Name: '&b&lPollos'
+    Material: CHICKEN_SPAWN_EGG
+    GUI-Name: Pollos
     Enabled: true
     Lore:
-    - '&7Click here to see all pets'
-    - '&7in the Endermite category!'
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Pollos.'
     Types:
-      Endermite:
-        Name: '&6Endermite'
-        Material: ENDERMITE_SPAWN_EGG
-        Mystery Dust: 55
-        Rarity: Legendary
+      Chicken:
+        Name: '&b&lPollo'
+        Material: EGG
+        Mystery Dust: 10
+        Rarity: Common
         Enabled: true
         CanBeFound: true
         Purchasable: true
-        Move-Speed: 0.6
+        Default-Pet-Name: '&ePollo'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Bread
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Melon
+          - Cookie
+          - Milk
+          - Stick
+          Favourite:
+          - Flower
+          - Water
+          - Frisbee
         Lore:
-        - '&7Type: &9Endermite'
-        - ''
-        - '&7Click to summon this pet.'
-  Zombie:
-    Name: '&eZombie'
-    Material: ZOMBIE_HEAD
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
+      Baby Chicken:
+        Name: '&b&lPollo &7(Bebe)'
+        Material: FEATHER
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&ePollo (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Flower
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Melon
+          - Wheat
+          - Water
+          - Frisbee
+          Favourite:
+          - Cookie
+          - Milk
+          - Stick
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+  Wolf:
+    Name: '&b&lLobos'
+    Material: WOLF_SPAWN_EGG
+    GUI-Name: Lobos
     Enabled: true
     Lore:
-    - '&7Click here to see all pets'
-    - '&7in the Zombie category!'
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Lobos.'
+    Types:
+      Wolf:
+        Name: '&b&lLobo'
+        Material: BONE
+        Mystery Dust: 10
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&b&lLobo'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Hay
+          - Wheat
+          - Lava
+          - Frisbee
+          - Sparring Sword
+          Really-Like:
+          - Angus Steak
+          - Milk
+          - Ball
+          Favourite:
+          - Bone
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
+      Baby Wolf:
+        Name: '&b&lLobo &7(Baby)'
+        Material: BONE_MEAL
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eLobo (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Baked Potato
+          - Flower
+          - Hay
+          - Wheat
+          - Bread
+          - Cake
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Frisbee
+          - Sparring Sword
+          Really-Like:
+          - Raw Porkchop
+          - Bone
+          - Water
+          - Stick
+          - Leash
+          Favourite:
+          - Cookie
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+  Cat:
+    Name: '&b&lGatos'
+    Material: OCELOT_SPAWN_EGG
+    GUI-Name: Gatos
+    Enabled: true
+    Lore:
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Gatos.'
+    Types:
+      Black Cat:
+        Name: '&b&lGato Negro'
+        Material: COOKED_COD
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eGato Negro'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Baked Potato
+          - Flower
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Cookie
+          - Cake
+          - Milk
+          - Frisbee
+          Favourite:
+          - Raw Fish
+          - Water
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
+      Baby Black Cat:
+        Name: '&b&lGato Negro &7(Bebe)'
+        Material: COOKED_COD
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eGato Negro (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Baked Potato
+          - Flower
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Cookie
+          - Cake
+          - Water
+          - Frisbee
+          Favourite:
+          - Raw Fish
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+      Red Cat:
+        Name: '&b&lGato Rojo'
+        Material: COOKED_SALMON
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eGato Rojo'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Baked Potato
+          - Flower
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Cookie
+          - Cake
+          - Milk
+          - Frisbee
+          Favourite:
+          - Raw Fish
+          - Water
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
+      Baby Red Cat:
+        Name: '&b&LGato Rojo &7(Bebe)'
+        Material: COOKED_SALMON
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eGato Rojo (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Baked Potato
+          - Flower
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Cookie
+          - Cake
+          - Water
+          - Frisbee
+          Favourite:
+          - Raw Fish
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+      Siamese Cat:
+        Name: '&b&lGato Siames'
+        Material: TROPICAL_FISH
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eGato Siames'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Baked Potato
+          - Flower
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Cookie
+          - Cake
+          - Milk
+          - Frisbee
+          Favourite:
+          - Raw Fish
+          - Water
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
+      Baby Siamese Cat:
+        Name: '&b&lGato Siames &7(Bebe)'
+        Material: TROPICAL_FISH
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eGato Siames (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Baked Potato
+          - Flower
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Cookie
+          - Cake
+          - Water
+          - Frisbee
+          Favourite:
+          - Raw Fish
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+      Wild Ocelot:
+        Name: '&b&lOcelote Salvaje'
+        Material: COD
+        Mystery Dust: 15
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOcelote Salvaje'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Baked Potato
+          - Flower
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Cookie
+          - Cake
+          - Milk
+          - Frisbee
+          Favourite:
+          - Raw Fish
+          - Water
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+      Baby Wild Ocelot:
+        Name: '&b&lOcelote Salvaje &7(Bebe)'
+        Material: COD
+        Mystery Dust: 35
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOcelote Salvaje (Bebe'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Baked Potato
+          - Flower
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Cookie
+          - Cake
+          - Water
+          - Frisbee
+          Favourite:
+          - Raw Fish
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+  Zombie:
+    Name: '&b&lZombies'
+    Material: ZOMBIE_SPAWN_EGG
+    GUI-Name: Zombies
+    Enabled: true
+    Lore:
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Zombies.'
     Types:
       Zombie:
-        Name: '&aZombie'
+        Name: '&b&lZombie'
         Material: ROTTEN_FLESH
         Mystery Dust: 12
         Rarity: Common
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&eZombie'
         Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Water
+          - Leash
+          Really-Like:
+          - Raw Porkchop
+          - Milk
+          - Stick
+          Favourite:
+          - Angus Steak
+          - Lava
+          - Sparring Sword
         Lore:
-        - '&7Type: &9Zombie'
-        - ''
-        - '&7Click to summon this pet.'
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
       Baby Zombie:
-        Name: '&9Zombie (Baby)'
+        Name: '&b&lZombie &7(Bebe)'
         Material: POTATO
         Mystery Dust: 50
         Rarity: Rare
         Enabled: true
         CanBeFound: true
         Purchasable: true
-        Move-Speed: 0.5
+        Default-Pet-Name: '&eZombie (Bebe)'
+        Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Water
+          - Frisbee
+          Really-Like:
+          - Cookie
+          - Lava
+          - Ball
+          Favourite:
+          - Rotten Flesh
+          - Milk
+          - Sparring Sword
         Lore:
-        - '&7Type: &9Zombie (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
       Husk:
-        Name: '&9Zombie Husk'
+        Name: '&b&lZombie Husk'
         Material: head:d674c63c8db5f4ca628d69a3b1f8a36e29d8fd775e1a6bdb6cabb4be4db121
         Mystery Dust: 45
         Rarity: Rare
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&eZombie Husk'
         Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Water
+          - Leash
+          Really-Like:
+          - Raw Porkchop
+          - Milk
+          - Ball
+          Favourite:
+          - Angus Steak
+          - Lava
+          - Sparring Sword
         Lore:
-        - '&7Type: &9Zombie Husk'
-        - ''
-        - '&7Click to summon this pet.'
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
       Baby Husk:
-        Name: '&5Zombie Husk (Baby)'
+        Name: '&b&lZombie Husk &7(Bebe)'
         Material: head:d674c63c8db5f4ca628d69a3b1f8a36e29d8fd775e1a6bdb6cabb4be4db121
         Mystery Dust: 60
         Rarity: Epic
         Enabled: true
         CanBeFound: true
         Purchasable: true
-        Move-Speed: 0.5
+        Default-Pet-Name: '&eZombie Husk (Babe)'
+        Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Water
+          - Leash
+          Really-Like:
+          - Rotten Flesh
+          - Lava
+          - Sparring Sword
+          Favourite:
+          - Cookie
+          - Milk
+          - Ball
         Lore:
-        - '&7Type: &9Zombie Husk (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
       Red Little Helper:
-        Name: '&5Red Little Helper'
+        Name: "&b&lPeque\xc3\xb1o Ayudante Rojo"
         Material: LEATHER_HELMET:#FF0000
         Mystery Dust: 50
         Rarity: Epic
         Enabled: true
         CanBeFound: true
         Purchasable: true
-        Move-Speed: 0.5
+        Default-Pet-Name: "&ePeque\xc3\xb1o Ayudante Rojo"
+        Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Flower
+          - Water
+          - Leash
+          Really-Like:
+          - Cake
+          - Lava
+          - Ball
+          Favourite:
+          - Cookie
+          - Milk
+          - Frisbee
         Lore:
-        - '&7Type: &9Red Little Helper'
-        - ''
-        - '&7Click to summon this pet.'
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
       Green Little Helper:
-        Name: '&5Green Little Helper'
+        Name: "&b&lPeque\xc3\xb1o Ayudante Verde"
         Material: LEATHER_HELMET:#00FF00
         Mystery Dust: 30
         Rarity: Epic
         Enabled: true
         CanBeFound: true
         Purchasable: true
-        Move-Speed: 0.5
+        Default-Pet-Name: "&ePeque\xc3\xb1o Ayudante Verde"
+        Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Flower
+          - Water
+          - Leash
+          Really-Like:
+          - Cookie
+          - Lava
+          - Frisbee
+          Favourite:
+          - Cake
+          - Milk
+          - Ball
         Lore:
-        - '&7Type: &9Green Little Helper'
-        - ''
-        - '&7Click to summon this pet.'
-  Cat:
-    Name: '&eCat'
-    Material: COD
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+  Bat:
+    Name: '&b&lMurcielagos'
+    Material: BAT_SPAWN_EGG
+    GUI-Name: Murcielagos
     Enabled: true
     Lore:
-    - '&7Click here to see all pets'
-    - '&7in the Cat category!'
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Murcielagos.'
     Types:
-      Black Cat:
-        Name: '&aCat: Black'
-        Material: BLACK_WOOL
-        Mystery Dust: 12
-        Rarity: Common
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Cat: Black'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Black Cat:
-        Name: '&9Cat: Black (Baby)'
-        Material: BLACK_CARPET
-        Mystery Dust: 30
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Cat: Black (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Red Cat:
-        Name: '&aCat: Red'
-        Material: RED_WOOL
-        Mystery Dust: 12
-        Rarity: Common
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Cat: Red'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Red Cat:
-        Name: '&9Cat: Red (Baby)'
-        Material: RED_CARPET
-        Mystery Dust: 30
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Cat: Red (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Siamese Cat:
-        Name: '&aCat: Siamese'
-        Material: GRAY_WOOL
-        Mystery Dust: 12
-        Rarity: Common
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Cat: Siamese'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Siamese Cat:
-        Name: '&9Cat: Siamese (Baby)'
-        Material: GRAY_CARPET
-        Mystery Dust: 30
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Cat: Siamese (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Wild Ocelot:
-        Name: '&9Wild Ocelot'
-        Material: ORANGE_WOOL
-        Mystery Dust: 15
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Wild Ocelot'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Wild Ocelot:
-        Name: '&5Wild Ocelot (Baby)'
-        Material: ORANGE_CARPET
-        Mystery Dust: 35
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Wild Ocelot (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-  Rabbit:
-    Name: '&eRabbit'
-    Material: CARROT
-    Enabled: true
-    Lore:
-    - '&7Click here to see all pets'
-    - '&7in the Rabbit category!'
-    Types:
-      Black Rabbit:
-        Name: '&9Rabbit: Black'
-        Material: head:72c58116a147d1a9a26269224a8be184fe8e5f3f3df9b61751369ad87382ec9
-        Mystery Dust: 22
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.9
-        Lore:
-        - '&7Type: &9Rabbit: Black'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Black Rabbit:
-        Name: '&5Rabbit: Black (Baby)'
-        Material: CARROT
-        Mystery Dust: 28
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.9
-        Lore:
-        - '&7Type: &9Rabbit: Black (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Black & White Rabbit:
-        Name: '&5Rabbit: Black & White'
-        Material: head:cb8cff4b15b8ca37e25750f345718f289cb22c5b3ad22627a71223faccc
-        Mystery Dust: 45
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.9
-        Lore:
-        - '&7Type: &9Rabbit: Black & White'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Black & White Rabbit:
-        Name: '&6Rabbit: Black & White (Baby)'
-        Material: CARROT
-        Mystery Dust: 51
-        Rarity: Legendary
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.9
-        Lore:
-        - '&7Type: &9Rabbit: Black & White (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Brown Rabbit:
-        Name: '&9Rabbit: Brown'
-        Material: head:7d1169b2694a6aba826360992365bcda5a10c89a3aa2b48c438531dd8685c3a7
-        Mystery Dust: 22
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.9
-        Lore:
-        - '&7Type: &9Rabbit: Brown'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Brown Rabbit:
-        Name: '&5Rabbit: Brown (Baby)'
-        Material: CARROT
-        Mystery Dust: 28
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.9
-        Lore:
-        - '&7Type: &9Rabbit: Brown (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Gold Rabbit:
-        Name: '&5Rabbit: Gold'
-        Material: head:c977a3266bf3b9eaf17e5a02ea5fbb46801159863dd288b93e6c12c9cb
-        Mystery Dust: 45
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.9
-        Lore:
-        - '&7Type: &9Rabbit: Gold'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Gold Rabbit:
-        Name: '&6Rabbit: Gold (Baby)'
-        Material: CARROT
-        Mystery Dust: 51
-        Rarity: Legendary
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.9
-        Lore:
-        - '&7Type: &9Rabbit: Gold (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Salt & Pepper Rabbit:
-        Name: '&5Rabbit: Salt & Pepper'
-        Material: head:dc29aebe803e5d4dc3b010c9dd56444f863b2d86a6a2afd4a6a721748ba4fa
-        Mystery Dust: 45
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.9
-        Lore:
-        - '&7Type: &9Rabbit: Salt & Pepper'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Salt & Pepper Rabbit:
-        Name: '&6Rabbit: Salt & Pepper (Baby)'
-        Material: CARROT
-        Mystery Dust: 51
-        Rarity: Legendary
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.9
-        Lore:
-        - '&7Type: &9Rabbit: Salt & Pepper (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      White Rabbit:
-        Name: '&9Rabbit: White'
-        Material: head:374d8298797e712bb1f75ad6ffa7734ac4237ea69be1db92f0e41115a2c170cf
-        Mystery Dust: 22
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.9
-        Lore:
-        - '&7Type: &9Rabbit: White'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby White Rabbit:
-        Name: '&5Rabbit: White (Baby)'
-        Material: CARROT
-        Mystery Dust: 28
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.9
-        Lore:
-        - '&7Type: &9Rabbit: White (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-  Sheep:
-    Name: '&eSheep'
-    Material: WHITE_WOOL
-    Enabled: true
-    Lore:
-    - '&7Click here to see all pets'
-    - '&7in the Sheep category!'
-    Types:
-      Black Sheep:
-        Name: '&5Sheep: Black'
-        Material: BLACK_TERRACOTTA
-        Mystery Dust: 40
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Black'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Black Sheep:
-        Name: '&6Sheep: Black (Baby)'
-        Material: BLACK_WOOL
-        Mystery Dust: 75
-        Rarity: Legendary
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Black (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Blue Sheep:
-        Name: '&9Sheep: Blue'
-        Material: BLUE_TERRACOTTA
-        Mystery Dust: 20
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Blue'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Blue Sheep:
-        Name: '&5Sheep: Blue (Baby)'
-        Material: BLUE_WOOL
-        Mystery Dust: 55
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Blue (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Brown Sheep:
-        Name: '&aSheep: Brown'
-        Material: BROWN_TERRACOTTA
-        Mystery Dust: 12
-        Rarity: Common
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Brown'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Brown Sheep:
-        Name: '&9Sheep: Brown (Baby)'
-        Material: BROWN_WOOL
-        Mystery Dust: 30
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Brown (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Cyan Sheep:
-        Name: '&9Sheep: Cyan'
-        Material: CYAN_TERRACOTTA
-        Mystery Dust: 20
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Cyan'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Cyan Sheep:
-        Name: '&5Sheep: Cyan (Baby)'
-        Material: CYAN_WOOL
-        Mystery Dust: 55
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Cyan (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Gray Sheep:
-        Name: '&aSheep: Gray'
-        Material: GRAY_TERRACOTTA
-        Mystery Dust: 12
-        Rarity: Common
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Gray'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Gray Sheep:
-        Name: '&9Sheep: Gray (Baby)'
-        Material: GRAY_WOOL
-        Mystery Dust: 30
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Gray (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Green Sheep:
-        Name: '&9Sheep: Green'
-        Material: GREEN_TERRACOTTA
-        Mystery Dust: 20
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Green'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Green Sheep:
-        Name: '&5Sheep: Green (Baby)'
-        Material: GREEN_WOOL
-        Mystery Dust: 55
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Green (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Light Blue Sheep:
-        Name: '&9Sheep: Light Blue'
-        Material: LIGHT_BLUE_TERRACOTTA
-        Mystery Dust: 20
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Light Blue'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Light Blue Sheep:
-        Name: '&5Sheep: Light Blue (Baby)'
-        Material: LIGHT_BLUE_WOOL
-        Mystery Dust: 55
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Light Blue (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Lime Sheep:
-        Name: '&9Sheep: Lime'
-        Material: LIME_TERRACOTTA
-        Mystery Dust: 20
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Lime'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Lime Sheep:
-        Name: '&5Sheep: Lime (Baby)'
-        Material: LIME_WOOL
-        Mystery Dust: 55
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Lime (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Magenta Sheep:
-        Name: '&9Sheep: Magenta'
-        Material: MAGENTA_TERRACOTTA
-        Mystery Dust: 20
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Magenta'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Magenta Sheep:
-        Name: '&5Sheep: Magenta (Baby)'
-        Material: MAGENTA_WOOL
-        Mystery Dust: 55
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Magenta (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Orange Sheep:
-        Name: '&9Sheep: Orange'
-        Material: ORANGE_TERRACOTTA
-        Mystery Dust: 20
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Orange'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Orange Sheep:
-        Name: '&5Sheep: Orange (Baby)'
-        Material: ORANGE_WOOL
-        Mystery Dust: 55
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Orange (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Pink Sheep:
-        Name: '&5Sheep: Pink'
-        Material: PINK_TERRACOTTA
-        Mystery Dust: 55
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Pink'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Pink Sheep:
-        Name: '&6Sheep: Pink (Baby)'
-        Material: PINK_WOOL
-        Mystery Dust: 75
-        Rarity: Legendary
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Pink (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Purple Sheep:
-        Name: '&9Sheep: Purple'
-        Material: PURPLE_TERRACOTTA
-        Mystery Dust: 55
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Purple'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Purple Sheep:
-        Name: '&5Sheep: Purple (Baby)'
-        Material: PURPLE_WOOL
-        Mystery Dust: 75
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Purple (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Red Sheep:
-        Name: '&9Sheep: Red'
-        Material: RED_TERRACOTTA
-        Mystery Dust: 20
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Red'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Red Sheep:
-        Name: '&5Sheep: Red (Baby)'
-        Material: RED_WOOL
-        Mystery Dust: 55
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Red (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Silver Sheep:
-        Name: '&aSheep: Silver'
-        Material: LIGHT_GRAY_TERRACOTTA
-        Mystery Dust: 12
-        Rarity: Common
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Silver'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Silver Sheep:
-        Name: '&9Sheep: Silver (Baby)'
-        Material: LIGHT_GRAY_WOOL
-        Mystery Dust: 30
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Silver (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      White Sheep:
-        Name: '&aSheep: White'
-        Material: WHITE_TERRACOTTA
-        Mystery Dust: 12
-        Rarity: Common
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: White'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby White Sheep:
-        Name: '&9Sheep: White (Baby)'
-        Material: WHITE_WOOL
-        Mystery Dust: 30
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: White (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Yellow Sheep:
-        Name: '&9Sheep: Yellow'
-        Material: YELLOW_TERRACOTTA
-        Mystery Dust: 20
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Yellow'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Yellow Sheep:
-        Name: '&5Sheep: Yellow (Baby)'
-        Material: YELLOW_WOOL
-        Mystery Dust: 55
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Sheep: Yellow (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-  Horse:
-    Name: '&eHorse'
-    Material: SADDLE
-    Enabled: true
-    Lore:
-    - '&7Click here to see all pets'
-    - '&7in the Horse category!'
-    Types:
-      Black Horse:
-        Name: '&5Horse: Black'
+      Bat:
+        Name: '&b&lMurcielago'
         Material: COAL
-        Mystery Dust: 42
+        Mystery Dust: 37
         Rarity: Epic
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&eMurcielago'
         Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Leash
+          Really-Like:
+          - Cookie
+          - Milk
+          - Ball
+          Favourite:
+          - Melon
+          - Water
+          - Stick
         Lore:
-        - '&7Type: &9Horse: Black'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Black Horse:
-        Name: '&6Horse: Black (Baby)'
-        Material: CHARCOAL
-        Mystery Dust: 60
-        Rarity: Legendary
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.6
-        Lore:
-        - '&7Type: &9Horse: Black (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Brown Horse:
-        Name: '&aHorse: Brown'
-        Material: BRICK
-        Mystery Dust: 15
-        Rarity: Common
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Horse: Brown'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Brown Horse:
-        Name: '&9Horse: Brown (Baby)'
-        Material: COCOA_BEANS
-        Mystery Dust: 30
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.6
-        Lore:
-        - '&7Type: &9Horse: Brown (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Chestnut Horse:
-        Name: '&9Horse: Chestnut'
-        Material: MELON_SEEDS
-        Mystery Dust: 25
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Horse: Chestnut'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Chestnut Horse:
-        Name: '&5Horse: Chestnut (Baby)'
-        Material: PUMPKIN_SEEDS
-        Mystery Dust: 55
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.6
-        Lore:
-        - '&7Type: &9Horse: Chestnut (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Creamy Horse:
-        Name: '&9Horse: Creamy'
-        Material: MILK_BUCKET
-        Mystery Dust: 25
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Horse: Creamy'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Creamy Horse:
-        Name: '&5Horse: Creamy (Baby)'
-        Material: SUGAR
-        Mystery Dust: 55
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.6
-        Lore:
-        - '&7Type: &9Horse: Creamy (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Dark Brown Horse:
-        Name: '&9Horse: Dark Brown'
-        Material: DARK_OAK_LOG
-        Mystery Dust: 25
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Horse: Dark Brown'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Dark Brown Horse:
-        Name: '&5Horse: Dark Brown (Baby)'
-        Material: DARK_OAK_PLANKS
-        Mystery Dust: 55
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.6
-        Lore:
-        - '&7Type: &9Horse: Dark Brown (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Gray Horse:
-        Name: '&9Horse: Gray'
-        Material: APPLE
-        Mystery Dust: 25
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Horse: Gray'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Gray Horse:
-        Name: '&5Horse: Gray (Baby)'
-        Material: GRAY_DYE
-        Mystery Dust: 55
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.6
-        Lore:
-        - '&7Type: &9Horse: Gray (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      White Horse:
-        Name: '&5Horse: White'
-        Material: QUARTZ_BLOCK
-        Mystery Dust: 42
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Horse: White'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby White Horse:
-        Name: '&6Horse: White (Baby)'
-        Material: DIORITE
-        Mystery Dust: 60
-        Rarity: Legendary
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.6
-        Lore:
-        - '&7Type: &9Horse: White (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Donkey:
-        Name: '&9Donkey'
-        Material: LEATHER
-        Mystery Dust: 27
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Donkey'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Donkey:
-        Name: '&5Donkey (Baby)'
-        Material: CARROT
-        Mystery Dust: 40
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.6
-        Lore:
-        - '&7Type: &9Donkey (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Mule:
-        Name: '&9Mule'
-        Material: COOKED_MUTTON
-        Mystery Dust: 22
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Mule'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Mule:
-        Name: '&5Mule (Baby)'
-        Material: MUTTON
-        Mystery Dust: 35
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Mule (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Skeleton Horse:
-        Name: '&6Skeleton Horse'
-        Material: BONE
-        Mystery Dust: 65
-        Rarity: Legendary
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Skeleton Horse'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Skeleton Horse:
-        Name: '&6Skeleton Horse (Baby)'
-        Material: BONE_MEAL
-        Mystery Dust: 85
-        Rarity: Legendary
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.6
-        Lore:
-        - '&7Type: &9Skeleton Horse (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Undead Horse:
-        Name: '&5Undead Horse'
-        Material: DARK_OAK_SAPLING
-        Mystery Dust: 63
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Undead Horse'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Undead Horse:
-        Name: '&6Undead Horse (Baby)'
-        Material: DEAD_BUSH
-        Mystery Dust: 85
-        Rarity: Legendary
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.6
-        Lore:
-        - '&7Type: &9Undead Horse (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-  Villager:
-    Name: '&eVillager'
-    Material: EMERALD
-    Enabled: true
-    Lore:
-    - '&7Click here to see all pets'
-    - '&7in the Villager category!'
-    Types:
-      Blacksmith Villager:
-        Name: '&9Villager: Blacksmith'
-        Material: IRON_ORE
-        Mystery Dust: 22
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Villager: Blacksmith'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Blacksmith Villager:
-        Name: '&5Villager: Blacksmith (Baby)'
-        Material: IRON_INGOT
-        Mystery Dust: 55
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Villager: Blacksmith (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Butcher Villager:
-        Name: '&9Villager: Butcher'
-        Material: IRON_AXE
-        Mystery Dust: 22
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Villager: Butcher'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Butcher Villager:
-        Name: '&5Villager: Butcher (Baby)'
-        Material: WOODEN_AXE
-        Mystery Dust: 55
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Villager: Butcher (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Farmer Villager:
-        Name: '&9Villager: Farmer'
-        Material: IRON_HOE
-        Mystery Dust: 22
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Villager: Farmer'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Farmer Villager:
-        Name: '&5Villager: Farmer (Baby)'
-        Material: WOODEN_HOE
-        Mystery Dust: 55
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Villager: Farmer (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Librarian Villager:
-        Name: '&9Villager: Librarian'
-        Material: BOOKSHELF
-        Mystery Dust: 22
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Villager: Librarian'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Librarian Villager:
-        Name: '&5Villager: Librarian (Baby)'
-        Material: BOOK
-        Mystery Dust: 55
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Villager: Librarian (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Priest Villager:
-        Name: '&9Villager: Priest'
-        Material: WRITABLE_BOOK
-        Mystery Dust: 22
-        Rarity: Rare
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Villager: Priest'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Priest Villager:
-        Name: '&5Villager: Priest (Baby)'
-        Material: MAP
-        Mystery Dust: 55
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Villager: Priest (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Zombie Villager:
-        Name: '&5Villager: Zombie'
-        Material: GOLDEN_APPLE
-        Mystery Dust: 52
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.6
-        Lore:
-        - '&7Type: &9Villager: Zombie'
-        - ''
-        - '&7Click to summon this pet.'
-      Baby Zombie Villager:
-        Name: '&6Villager: Zombie (Baby)'
-        Material: GOLDEN_HELMET
-        Mystery Dust: 75
-        Rarity: Legendary
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.5
-        Lore:
-        - '&7Type: &9Villager: Zombie (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
-      Witch:
-        Name: '&5Witch'
-        Material: POTION:8196
-        Mystery Dust: 45
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Witch'
-        - ''
-        - '&7Click to summon this pet.'
-      Evoker:
-        Name: '&6Evoker'
-        Material: head:4f6fb89d1c631bd7e79fe185ba1a6705425f5c31a5ff626521e395d4a6f7e2
-        Mystery Dust: 80
-        Rarity: Legendary
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.6
-        Lore:
-        - '&7Type: &9Evoker'
-        - ''
-        - '&7Click to summon this pet.'
-      Vindicator:
-        Name: '&6Vindicator'
-        Material: head:4f6fb89d1c631bd7e79fe185ba1a6705425f5c31a5ff626521e395d4a6f7e2
-        Mystery Dust: 80
-        Rarity: Legendary
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.6
-        Lore:
-        - '&7Type: &9Vindicator'
-        - ''
-        - '&7Click to summon this pet.'
-      Illusioner:
-        Name: '&6Illusioner'
-        Material: head:1c678c9f4c6dd4d991930f82e6e7d8b89b2891f35cba48a4b18539bbe7ec927
-        Mystery Dust: 85
-        Rarity: Legendary
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.6
-        Lore:
-        - '&7Type: &9Illusioner'
-        - ''
-        - '&7Click to summon this pet.'
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
   Spider:
-    Name: '&eSpider'
-    Material: STRING
+    Name: "&b&lAra\xc3\xb1as"
+    Material: SPIDER_SPAWN_EGG
+    GUI-Name: "&8Ara\xc3\xb1as"
     Enabled: true
     Lore:
-    - '&7Click here to see all pets'
-    - '&7in the Spider category!'
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - "&ftodos los tipos de Ara\xc3\xb1as."
     Types:
       Spider:
-        Name: '&5Spider'
+        Name: "&b&lAra\xf1a"
         Material: SPIDER_EYE
         Mystery Dust: 42
         Rarity: Epic
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: "&eAra\xf1a"
         Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Bread
+          - Lava
+          - Leash
+          Really-Like:
+          - Angus Steak
+          - Milk
+          - Sparring Sword
+          Favourite:
+          - Rotten Flesh
+          - Water
+          - Stick
         Lore:
-        - '&7Type: &9Spider'
-        - ''
-        - '&7Click to summon this pet.'
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
       Cave Spider:
-        Name: '&9Cave Spider'
+        Name: "&b&lAra\xc3\xb1a de Cueva"
         Material: STRING
         Mystery Dust: 27
         Rarity: Rare
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: "&eAra\xc3\xb1a de Cueva"
         Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Bread
+          - Lava
+          - Leash
+          Really-Like:
+          - Rotten Flesh
+          - Milk
+          - Stick
+          Favourite:
+          - Angus Steak
+          - Water
+          - Sparring Sword
         Lore:
-        - '&7Type: &9Cave Spider'
-        - ''
-        - '&7Click to summon this pet.'
-  Skeleton:
-    Name: '&eSkeleton'
-    Material: BOW
-    Enabled: true
-    Lore:
-    - '&7Click here to see all pets'
-    - '&7in the Skeleton category!'
-    Types:
-      Skeleton:
-        Name: '&5Skeleton'
-        Material: BOW
-        Mystery Dust: 50
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Skeleton'
-        - ''
-        - '&7Click to summon this pet.'
-      Wither Skeleton:
-        Name: '&6Wither Skeleton'
-        Material: STONE_SWORD
-        Mystery Dust: 70
-        Rarity: Legendary
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Wither Skeleton'
-        - ''
-        - '&7Click to summon this pet.'
-      Stray Skeleton:
-        Name: '&6Stray Skeleton'
-        Material: head:78ddf76e555dd5c4aa8a0a5fc584520cd63d489c253de969f7f22f85a9a2d56
-        Mystery Dust: 85
-        Rarity: Legendary
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.6
-        Lore:
-        - '&7Type: &9Stray Skeleton'
-        - ''
-        - '&7Click to summon this pet.'
-  Blaze:
-    Name: '&eBlaze'
-    Material: BLAZE_ROD
-    Enabled: true
-    Lore:
-    - '&7Click here to see all pets'
-    - '&7in the Blaze category!'
-    Types:
-      Blaze:
-        Name: '&6Blaze'
-        Material: BLAZE_ROD
-        Mystery Dust: 55
-        Rarity: Legendary
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Blaze'
-        - ''
-        - '&7Click to summon this pet.'
-  Creeper:
-    Name: '&eCreeper'
-    Material: CREEPER_HEAD
-    Enabled: true
-    Lore:
-    - '&7Click here to see all pets'
-    - '&7in the Creeper category!'
-    Types:
-      Creeper:
-        Name: '&5Creeper'
-        Material: GUNPOWDER
-        Mystery Dust: 52
-        Rarity: Epic
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Creeper'
-        - ''
-        - '&7Click to summon this pet.'
-      Powered Creeper:
-        Name: '&6Powered Creeper'
-        Material: TNT
-        Mystery Dust: 75
-        Rarity: Legendary
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.7
-        Lore:
-        - '&7Type: &9Powered Creeper'
-        - ''
-        - '&7Click to summon this pet.'
-  Golem:
-    Name: '&eGolem'
-    Material: head:89091d79ea0f59ef7ef94d7bba6e5f17f2f7d4572c44f90f76c4819a714
-    Enabled: true
-    Lore:
-    - '&7Click here to see all pets'
-    - '&7in the Golem category!'
-    Types:
-      Golem:
-        Name: '&6Golem'
-        Material: IRON_BLOCK
-        Mystery Dust: 200
-        Rarity: Legendary
-        Enabled: true
-        CanBeFound: true
-        Purchasable: true
-        Move-Speed: 0.6
-        Lore:
-        - '&7Type: &9Golem'
-        - ''
-        - '&7Click to summon this pet.'
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
   Snowman:
-    Name: '&eSnowman'
-    Material: SNOWBALL
+    Name: "&b&lMu\xf1ecos de Nieve"
+    Material: head:8d47a101dfd3ca7ab352fd5302f9e06adc0dfedc8544b7f02b991a38ff0950e4
+    GUI-Name: "Mu\xf1eco de Nieve"
     Enabled: true
     Lore:
-    - '&7Click here to see all pets'
-    - '&7in the Snowman category!'
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - "&ftodos los tipos de Mu\xf1ecos de Nieve."
     Types:
       Snowman:
-        Name: '&5Snowman'
+        Name: "&b&lMu\xf1eco de Nieve"
         Material: SNOWBALL
         Mystery Dust: 52
         Rarity: Epic
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: "&eMu\xf1eco de Nieve"
         Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Pumpkin Pie
+          - Milk
+          - Ball
+          Favourite:
+          - Carrot
+          - Water
+          - Stick
         Lore:
-        - '&7Type: &9Snowman'
-        - ''
-        - '&7Click to summon this pet.'
-  Polar Bear:
-    Name: '&ePolar Bear'
-    Material: head:bab178f5cdd750f0e356860aa5539153eb2abec1e146ca57c65d25a5df8fdfe
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+  Rabbit:
+    Name: '&b&lConejos'
+    Material: RABBIT_SPAWN_EGG
+    GUI-Name: Conejos
     Enabled: true
     Lore:
-    - '&7Click here to see all pets'
-    - '&7in the Polar Bear category!'
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Conejos.'
+    Types:
+      Black Rabbit:
+        Name: '&b&lConejo Negro'
+        Material: head:72c58116a147d1a9a26269224a8be184fe8e5f3f3df9b61751369ad87382ec9
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&b&lConejo Negro'
+        Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Bread
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cookie
+          - Milk
+          - Ball
+          Favourite:
+          - Carrot
+          - Water
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Black Rabbit:
+        Name: '&b&lConejo Negro &7(Bebe)'
+        Material: CARROT
+        Mystery Dust: 28
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eConejo Negro (Bebe)'
+        Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Bread
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Carrot
+          - Water
+          - Frisbee
+          Favourite:
+          - Cookie
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Black & White Rabbit:
+        Name: '&b&lConejo Blanco y Negro'
+        Material: head:cb8cff4b15b8ca37e25750f345718f289cb22c5b3ad22627a71223faccc
+        Mystery Dust: 45
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eConejo Blanco y Negro'
+        Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Bread
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cookie
+          - Milk
+          - Ball
+          Favourite:
+          - Carrot
+          - Water
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Black & White Rabbit:
+        Name: '&b&lConejo Blanco y Negro &7(Bebe)'
+        Material: CARROT
+        Mystery Dust: 51
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eConejo Blanco y Negro (Bebe)'
+        Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Bread
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Carrot
+          - Water
+          - Frisbee
+          Favourite:
+          - Cookie
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Brown Rabbit:
+        Name: '&b&lConejo Cafe'
+        Material: head:7d1169b2694a6aba826360992365bcda5a10c89a3aa2b48c438531dd8685c3a7
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eConejo Cafe'
+        Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Bread
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cookie
+          - Milk
+          - Ball
+          Favourite:
+          - Carrot
+          - Water
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Brown Rabbit:
+        Name: '&b&lConejo Cafe &7(Baby)'
+        Material: CARROT
+        Mystery Dust: 28
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eConejo Cafe (Bebe)'
+        Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Bread
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Carrot
+          - Water
+          - Frisbee
+          Favourite:
+          - Cookie
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Gold Rabbit:
+        Name: '&b&lConejo Dorado'
+        Material: head:c977a3266bf3b9eaf17e5a02ea5fbb46801159863dd288b93e6c12c9cb
+        Mystery Dust: 45
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eConejo Dorado'
+        Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Bread
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cookie
+          - Milk
+          - Ball
+          Favourite:
+          - Carrot
+          - Water
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Gold Rabbit:
+        Name: '&b&lConejo Dorado &7(Baby)'
+        Material: CARROT
+        Mystery Dust: 51
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eConejo Dorado (Bebe)'
+        Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Bread
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Carrot
+          - Water
+          - Frisbee
+          Favourite:
+          - Cookie
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Salt & Pepper Rabbit:
+        Name: '&b&lConejo Pimienta'
+        Material: head:dc29aebe803e5d4dc3b010c9dd56444f863b2d86a6a2afd4a6a721748ba4fa
+        Mystery Dust: 45
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eConejo Pimienta'
+        Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Bread
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cookie
+          - Milk
+          - Ball
+          Favourite:
+          - Carrot
+          - Water
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Salt & Pepper Rabbit:
+        Name: '&b&lConejo Pimienta &7(Bebe)'
+        Material: CARROT
+        Mystery Dust: 51
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eConejo Pimienta (Bebe)'
+        Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Bread
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Carrot
+          - Water
+          - Frisbee
+          Favourite:
+          - Cookie
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      White Rabbit:
+        Name: '&b&lConejo Blanco'
+        Material: head:374d8298797e712bb1f75ad6ffa7734ac4237ea69be1db92f0e41115a2c170cf
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eConejo Blanco'
+        Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Bread
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cookie
+          - Milk
+          - Ball
+          Favourite:
+          - Carrot
+          - Water
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby White Rabbit:
+        Name: '&b&LConejo Blanco &7(Bebe)'
+        Material: CARROT
+        Mystery Dust: 28
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eConejo Blanco (Bebe)'
+        Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Bread
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Carrot
+          - Water
+          - Frisbee
+          Favourite:
+          - Cookie
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+  Villager:
+    Name: '&b&lAldeanos'
+    Material: VILLAGER_SPAWN_EGG
+    GUI-Name: Aldeanos
+    Enabled: true
+    Lore:
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Aldeanos.'
+    Types:
+      Blacksmith Villager:
+        Name: '&b&lHerrero'
+        Material: IRON_ORE
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eHerrero'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cookie
+          - Milk
+          - Feather
+          Favourite:
+          - Bread
+          - Water
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Blacksmith Villager:
+        Name: '&b&lHerrero &7(Bebe)'
+        Material: IRON_INGOT
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eHerrero (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Bread
+          - Water
+          - Frisbee
+          Favourite:
+          - Cookie
+          - Milk
+          - Feather
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Butcher Villager:
+        Name: '&b&lCarnicero'
+        Material: IRON_AXE
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eCarnicero'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cookie
+          - Milk
+          - Feather
+          Favourite:
+          - Bread
+          - Water
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Butcher Villager:
+        Name: '&b&lCarnicero &7(Bebe)'
+        Material: WOODEN_AXE
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eCarnicero (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Bread
+          - Water
+          - Frisbee
+          Favourite:
+          - Cookie
+          - Milk
+          - Feather
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Farmer Villager:
+        Name: '&b&lGranjero'
+        Material: IRON_HOE
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eGranjero'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cookie
+          - Milk
+          - Feather
+          Favourite:
+          - Bread
+          - Water
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Farmer Villager:
+        Name: '&b&lGranjero &7(Bebe)'
+        Material: WOODEN_HOE
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eGranjero (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Bread
+          - Water
+          - Frisbee
+          Favourite:
+          - Cookie
+          - Milk
+          - Feather
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Librarian Villager:
+        Name: '&b&lLibrero'
+        Material: BOOKSHELF
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eLibrero'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cookie
+          - Milk
+          - Feather
+          Favourite:
+          - Bread
+          - Water
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Librarian Villager:
+        Name: '&b&lLibrero (Bebe)'
+        Material: BOOK
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eLibrero &7(Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Bread
+          - Water
+          - Frisbee
+          Favourite:
+          - Cookie
+          - Milk
+          - Feather
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Priest Villager:
+        Name: '&b&lSacerdote'
+        Material: WRITABLE_BOOK
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eSacerdote'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cookie
+          - Milk
+          - Feather
+          Favourite:
+          - Bread
+          - Water
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Priest Villager:
+        Name: '&b&lSacerdote &7(Bebe)'
+        Material: MAP
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&bSacerdote (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Bread
+          - Water
+          - Frisbee
+          Favourite:
+          - Cookie
+          - Milk
+          - Feather
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Zombie Villager:
+        Name: '&b&lZombie'
+        Material: GOLDEN_APPLE
+        Mystery Dust: 52
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eZombie'
+        Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Cake
+          - Water
+          - Leash
+          Really-Like:
+          - Raw Porkchop
+          - Milk
+          - Ball
+          Favourite:
+          - Rotten Flesh
+          - Lava
+          - Stick
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Zombie Villager:
+        Name: '&b&lZombie &7(Bebe)'
+        Material: GOLDEN_HELMET
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eZombie (Bebe)'
+        Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Cake
+          - Water
+          - Leash
+          Really-Like:
+          - Bone
+          - Lava
+          - Stick
+          Favourite:
+          - Rotten Flesh
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Witch:
+        Name: '&b&lBruja'
+        Material: POTION:8196
+        Mystery Dust: 45
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eBruja'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Raw Fish
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Baked Potato
+          - Water
+          - Feather
+          Favourite:
+          - Pumpkin Pie
+          - Milk
+          - Stick
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Evoker:
+        Name: '&b&lEvocador'
+        Material: head:4f6fb89d1c631bd7e79fe185ba1a6705425f5c31a5ff626521e395d4a6f7e2
+        Mystery Dust: 80
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eEvocador'
+        Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Melon
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Angus Steak
+          - Milk
+          - Feather
+          Favourite:
+          - Bone
+          - Water
+          - Stick
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Vindicator:
+        Name: '&b&lVindicador'
+        Material: head:4f6fb89d1c631bd7e79fe185ba1a6705425f5c31a5ff626521e395d4a6f7e2
+        Mystery Dust: 80
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eVindicador'
+        Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Melon
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Angus Steak
+          - Milk
+          - Feather
+          Favourite:
+          - Bone
+          - Water
+          - Stick
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Illusioner:
+        Name: '&b&lIlusionador'
+        Material: head:1c678c9f4c6dd4d991930f82e6e7d8b89b2891f35cba48a4b18539bbe7ec927
+        Mystery Dust: 85
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eIlusionador'
+        Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Melon
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Angus Steak
+          - Milk
+          - Feather
+          Favourite:
+          - Bone
+          - Water
+          - Stick
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+  Golem:
+    Name: '&b&lGolems de Hierro'
+    Material: head:89091d79ea0f59ef7ef94d7bba6e5f17f2f7d4572c44f90f76c4819a714
+    GUI-Name: Golems
+    Enabled: true
+    Lore:
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Golems de Hierro.'
+    Types:
+      Golem:
+        Name: '&b&lGolem de Hierro'
+        Material: IRON_BLOCK
+        Mystery Dust: 200
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eGolem de Hierro'
+        Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Water
+          - Sparring Sword
+          Really-Like:
+          - Cake
+          - Milk
+          - Frisbee
+          Favourite:
+          - Flower
+          - Lava
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+  Enderman:
+    Name: '&b&lEndermans'
+    Material: ENDERMAN_SPAWN_EGG
+    GUI-Name: Endermans
+    Enabled: true
+    Lore:
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Endermans.'
+    Types:
+      Enderman:
+        Name: '&b&lEnderman'
+        Material: head:7a59bb0a7a32965b3d90d8eafa899d1835f424509eadd4e6b709ada50b9cf
+        Mystery Dust: 150
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eEnderman'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Mushroom Soup
+          - Hay
+          - Wheat
+          - Raw Porkchop
+          - Angus Steak
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          Really-Like:
+          - Pumpkin Pie
+          - Bone
+          - Water
+          - Leash
+          - Sparring Sword
+          Favourite:
+          - Baked Potato
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+  Blaze:
+    Name: '&b&lBlazes'
+    Material: BLAZE_SPAWN_EGG
+    GUI-Name: Blazes
+    Enabled: true
+    Lore:
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Blazes.'
+    Types:
+      Blaze:
+        Name: '&b&lBlaze'
+        Material: BLAZE_ROD
+        Mystery Dust: 55
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eBlaze'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Melon
+          - Water
+          - Sparring Sword
+          Really-Like:
+          - Bone
+          - Milk
+          - Frisbee
+          Favourite:
+          - Magma Cream
+          - Lava
+          - Stick
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+  Endermite:
+    Name: '&b&lEndermites'
+    Material: ENDERMITE_SPAWN_EGG
+    GUI-Name: Endermites
+    Enabled: true
+    Lore:
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Endermites.'
+    Types:
+      Endermite:
+        Name: '&b&lEndermite'
+        Material: ENDERMITE_SPAWN_EGG
+        Mystery Dust: 55
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eEndermite'
+        Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Cake
+          - Water
+          - Sparring Sword
+          Really-Like:
+          - Raw Porkchop
+          - Milk
+          - Ball
+          Favourite:
+          - Rotten Flesh
+          - Lava
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+  Cow:
+    Name: '&b&lVacas'
+    Material: COW_SPAWN_EGG
+    GUI-Name: Vacas
+    Enabled: true
+    Lore:
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Vacas.'
+    Types:
+      Cow:
+        Name: '&b&lVaca'
+        Material: LEATHER
+        Mystery Dust: 10
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eVaca'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Angus Steak
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Mushroom Soup
+          - Cookie
+          - Water
+          - Ball
+          Favourite:
+          - Wheat
+          - Milk
+          - Feather
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
+      Baby Cow:
+        Name: '&b&lVaca &7(Bebe)'
+        Material: WHEAT
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eVaca (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Angus Steak
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Mushroom Soup
+          - Wheat
+          - Water
+          - Feather
+          Favourite:
+          - Cookie
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+      Mushroom Cow:
+        Name: '&b&lVaca &7(Mushroom&7)'
+        Material: RED_MUSHROOM
+        Mystery Dust: 50
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eVaca Mushroom'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Angus Steak
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Wheat
+          - Milk
+          - Stick
+          Favourite:
+          - Mushroom Soup
+          - Water
+          - Feather
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Mushroom Cow:
+        Name: '&b&lVaca Bebe &7(Mushroom)'
+        Material: BROWN_MUSHROOM
+        Mystery Dust: 90
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eVaca Bebe (Mushroom)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Cookie
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Mushroom Soup
+          - Water
+          - Ball
+          Favourite:
+          - Wheat
+          - Milk
+          - Feather
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+  Creeper:
+    Name: '&b&lCreepers'
+    Material: CREEPER_SPAWN_EGG
+    GUI-Name: Creepers
+    Enabled: true
+    Lore:
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Creepers'
+    Types:
+      Creeper:
+        Name: '&b&lCreeper'
+        Material: GUNPOWDER
+        Mystery Dust: 52
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eCreeper'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Hay
+          - Water
+          - Sparring Sword
+          Really-Like:
+          - Flower
+          - Milk
+          - Frisbee
+          Favourite:
+          - Cake
+          - Lava
+          - Stick
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Powered Creeper:
+        Name: '&b&LCreeper &7(Recargado)'
+        Material: TNT
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eCreeper Recargado'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Hay
+          - Water
+          - Sparring Sword
+          Really-Like:
+          - Cake
+          - Milk
+          - Stick
+          Favourite:
+          - Flower
+          - Lava
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+  Horse:
+    Name: '&b&lCaballos'
+    Material: HORSE_SPAWN_EGG
+    GUI-Name: Caballos
+    Enabled: true
+    Lore:
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Caballos'
+    Types:
+      Black Horse:
+        Name: '&b&lCaballo Negro'
+        Material: COAL
+        Mystery Dust: 42
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eCaballo Negro'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Melon
+          - Hay
+          - Wheat
+          - Milk
+          - Ball
+          Favourite:
+          - Apple
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Black Horse:
+        Name: '&b&lCaballo Negro &7(Bebe)'
+        Material: CHARCOAL
+        Mystery Dust: 60
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&b&lCaballo Negro (Bebe)'
+        Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Melon
+          - Hay
+          - Wheat
+          - Water
+          - Leash
+          Favourite:
+          - Apple
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Brown Horse:
+        Name: '&b&lCaballo Cafe'
+        Material: BRICK
+        Mystery Dust: 15
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eCaballo Cafe'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Melon
+          - Hay
+          - Wheat
+          - Milk
+          - Ball
+          Favourite:
+          - Apple
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Brown Horse:
+        Name: '&b&lCaballo Cafe &7(Bebe)'
+        Material: COCOA_BEANS
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eCaballo Cafe (Bebe)'
+        Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Melon
+          - Hay
+          - Wheat
+          - Water
+          - Leash
+          Favourite:
+          - Apple
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Chestnut Horse:
+        Name: "&b&lCasta\xf1o"
+        Material: MELON_SEEDS
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: "&eCasta\xf1o"
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Melon
+          - Hay
+          - Wheat
+          - Milk
+          - Ball
+          Favourite:
+          - Apple
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Chestnut Horse:
+        Name: "&b&lCasta\xf1o &7(Bebe)"
+        Material: PUMPKIN_SEEDS
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: "&eCasta\xf1o (Bebe)"
+        Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Melon
+          - Hay
+          - Wheat
+          - Water
+          - Leash
+          Favourite:
+          - Apple
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Creamy Horse:
+        Name: '&b&lCremoso'
+        Material: MILK_BUCKET
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eCremoso'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Melon
+          - Hay
+          - Wheat
+          - Milk
+          - Ball
+          Favourite:
+          - Apple
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Creamy Horse:
+        Name: '&b&lCremoso &7(Bebe)'
+        Material: SUGAR
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eCremoso (Bebe)'
+        Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Melon
+          - Hay
+          - Wheat
+          - Water
+          - Leash
+          Favourite:
+          - Apple
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Dark Brown Horse:
+        Name: '&b&lCafe Oscuro'
+        Material: DARK_OAK_LOG
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eCafe Oscuro'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Melon
+          - Hay
+          - Wheat
+          - Milk
+          - Ball
+          Favourite:
+          - Apple
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Dark Brown Horse:
+        Name: '&b&lCafe Oscuro &7(Bebe)'
+        Material: DARK_OAK_PLANKS
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eCafe Oscuro (Bebe)'
+        Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Melon
+          - Hay
+          - Wheat
+          - Water
+          - Leash
+          Favourite:
+          - Apple
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Gray Horse:
+        Name: '&b&lGris'
+        Material: APPLE
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eGris'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Melon
+          - Hay
+          - Wheat
+          - Milk
+          - Ball
+          Favourite:
+          - Apple
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Gray Horse:
+        Name: '&b&lGris &7(Bebe)'
+        Material: GRAY_DYE
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eGris (Bebe)'
+        Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Melon
+          - Hay
+          - Wheat
+          - Water
+          - Leash
+          Favourite:
+          - Apple
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      White Horse:
+        Name: '&b&lBlanco'
+        Material: QUARTZ_BLOCK
+        Mystery Dust: 42
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eBlanco'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Melon
+          - Hay
+          - Wheat
+          - Milk
+          - Ball
+          Favourite:
+          - Apple
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby White Horse:
+        Name: '&b&lBlanco (Bebe)'
+        Material: DIORITE
+        Mystery Dust: 60
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eBlanco &7(Bebe)'
+        Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Melon
+          - Hay
+          - Wheat
+          - Water
+          - Leash
+          Favourite:
+          - Apple
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Donkey:
+        Name: '&b&lBurro'
+        Material: LEATHER
+        Mystery Dust: 27
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eBurro'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Melon
+          - Hay
+          - Wheat
+          - Milk
+          - Ball
+          Favourite:
+          - Apple
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Donkey:
+        Name: '&b&lBurro &7(Bebe)'
+        Material: CARROT
+        Mystery Dust: 40
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eBurro (Bebe)'
+        Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Melon
+          - Hay
+          - Wheat
+          - Water
+          - Leash
+          Favourite:
+          - Apple
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Mule:
+        Name: '&b&lMula'
+        Material: COOKED_MUTTON
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eMula'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Melon
+          - Hay
+          - Wheat
+          - Milk
+          - Ball
+          Favourite:
+          - Apple
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Mule:
+        Name: '&b&lMula &7(Bebe)'
+        Material: MUTTON
+        Mystery Dust: 35
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&b&lMula (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Melon
+          - Hay
+          - Wheat
+          - Water
+          - Leash
+          Favourite:
+          - Apple
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Skeleton Horse:
+        Name: '&b&lCaballo Esqueleto'
+        Material: BONE
+        Mystery Dust: 65
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eCaballo Esqueleto'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Melon
+          - Water
+          - Frisbee
+          Really-Like:
+          - Magma Cream
+          - Milk
+          - Ball
+          Favourite:
+          - Bone
+          - Lava
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Skeleton Horse:
+        Name: '&b&lCaballo Esqueleto &7(Bebe)'
+        Material: BONE_MEAL
+        Mystery Dust: 85
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eCaballo Esqueleto (Bebe)'
+        Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Melon
+          - Water
+          - Feather
+          Really-Like:
+          - Magma Cream
+          - Lava
+          - Leash
+          Favourite:
+          - Bone
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Undead Horse:
+        Name: '&b&lCaballo Zombie'
+        Material: DARK_OAK_SAPLING
+        Mystery Dust: 63
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eCaballo Zombie'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Melon
+          - Water
+          - Feather
+          Really-Like:
+          - Bone
+          - Milk
+          - Ball
+          Favourite:
+          - Rotten Flesh
+          - Lava
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Undead Horse:
+        Name: '&b&lCaballo Zombie &7(Bebe)'
+        Material: DEAD_BUSH
+        Mystery Dust: 85
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eCaballo Zombie (Bebe)'
+        Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Melon
+          - Water
+          - Feather
+          Really-Like:
+          - Bone
+          - Lava
+          - Leash
+          Favourite:
+          - Rotten Flesh
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+  Pig:
+    Name: '&b&lCerdos'
+    Material: PIG_SPAWN_EGG
+    GUI-Name: Cerdos
+    Enabled: true
+    Lore:
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Cerdos.'
+    Types:
+      Pig:
+        Name: '&b&lCerdo'
+        Material: COOKED_PORKCHOP
+        Mystery Dust: 10
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eCerdo'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Leash
+          Really-Like:
+          - Melon
+          - Pumpkin Pie
+          - Carrot
+          - Milk
+          - Ball
+          Favourite:
+          - Apple
+          - Water
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
+      Baby Pig:
+        Name: '&b&lCerdo &7(Bebe)'
+        Material: CARROT
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eCerdo (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Leash
+          Really-Like:
+          - Melon
+          - Pumpkin Pie
+          - Baked Potato
+          - Water
+          - Stick
+          - Frisbee
+          Favourite:
+          - Apple
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+      Pig Zombie:
+        Name: '&b&lCerdo &7(Zombie)'
+        Material: GOLD_INGOT
+        Mystery Dust: 50
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eCerdo Zombie'
+        Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Melon
+          - Water
+          - Frisbee
+          Really-Like:
+          - Angus Steak
+          - Milk
+          - Stick
+          Favourite:
+          - Rotten Flesh
+          - Lava
+          - Sparring Sword
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Pig Zombie:
+        Name: '&b&LCerdo Bebe &7(Zombie)'
+        Material: GOLD_NUGGET
+        Mystery Dust: 85
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eCerdo Zombie Bebe'
+        Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Melon
+          - Water
+          - Frisbee
+          Really-Like:
+          - Angus Steak
+          - Lava
+          - Sparring Sword
+          Favourite:
+          - Rotten Flesh
+          - Milk
+          - Stick
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+  Sheep:
+    Name: '&b&lOvejas'
+    Material: SHEEP_SPAWN_EGG
+    GUI-Name: Ovejas
+    Enabled: true
+    Lore:
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Ovejas.'
+    Types:
+      Black Sheep:
+        Name: '&B&LOveja Negra'
+        Material: BLACK_TERRACOTTA
+        Mystery Dust: 40
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Negra'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Milk
+          - Stick
+          - Ball
+          Favourite:
+          - Wheat
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Baby Black Sheep:
+        Name: '&b&lOveja Negra &7(Bebe)'
+        Material: BLACK_WOOL
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Bebe (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Water
+          - Stick
+          - Ball
+          Favourite:
+          - Melon
+          - Milk
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Blue Sheep:
+        Name: '&b&lOveja Azul'
+        Material: BLUE_TERRACOTTA
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Azul'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Milk
+          - Stick
+          - Ball
+          Favourite:
+          - Wheat
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Baby Blue Sheep:
+        Name: '&b&lOveja Azul &7(Bebe)'
+        Material: BLUE_WOOL
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Azul (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Water
+          - Stick
+          - Ball
+          Favourite:
+          - Melon
+          - Milk
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Brown Sheep:
+        Name: '&b&lOveja Cafe'
+        Material: BROWN_TERRACOTTA
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Cafe'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Milk
+          - Stick
+          - Ball
+          Favourite:
+          - Wheat
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Baby Brown Sheep:
+        Name: '&b&lOveja Cafe &7(Bebe)'
+        Material: BROWN_WOOL
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Cafe (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Water
+          - Stick
+          - Ball
+          Favourite:
+          - Melon
+          - Milk
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Cyan Sheep:
+        Name: '&b&lOveja Cyan'
+        Material: CYAN_TERRACOTTA
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Cyan'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Milk
+          - Stick
+          - Ball
+          Favourite:
+          - Wheat
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Baby Cyan Sheep:
+        Name: '&b&lOveja Cyan &7(Bebe)'
+        Material: CYAN_WOOL
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Cyan (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Water
+          - Stick
+          - Ball
+          Favourite:
+          - Melon
+          - Milk
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Gray Sheep:
+        Name: '&b&lOveja Gris'
+        Material: GRAY_TERRACOTTA
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Gris'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Milk
+          - Stick
+          - Ball
+          Favourite:
+          - Wheat
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Baby Gray Sheep:
+        Name: '&b&lOveja Gris &7(Bebe)'
+        Material: GRAY_WOOL
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Gris (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Water
+          - Stick
+          - Ball
+          Favourite:
+          - Melon
+          - Milk
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Green Sheep:
+        Name: '&b&lOveja Verde'
+        Material: GREEN_TERRACOTTA
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Verde'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Milk
+          - Stick
+          - Ball
+          Favourite:
+          - Wheat
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Baby Green Sheep:
+        Name: '&b&lOveja Verde &7(Bebe)'
+        Material: GREEN_WOOL
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Verde (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Water
+          - Stick
+          - Ball
+          Favourite:
+          - Melon
+          - Milk
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Light Blue Sheep:
+        Name: '&b&lOveja Celeste'
+        Material: LIGHT_BLUE_TERRACOTTA
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Celeste'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Milk
+          - Stick
+          - Ball
+          Favourite:
+          - Wheat
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Baby Light Blue Sheep:
+        Name: '&b&lOveja Celeste &7(Bebe)'
+        Material: LIGHT_BLUE_WOOL
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Celeste (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Water
+          - Stick
+          - Ball
+          Favourite:
+          - Melon
+          - Milk
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Lime Sheep:
+        Name: '&b&lOveja Lima'
+        Material: LIME_TERRACOTTA
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Lima'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Milk
+          - Stick
+          - Ball
+          Favourite:
+          - Wheat
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Baby Lime Sheep:
+        Name: '&b&lOveja Lima &7(Bebe)'
+        Material: LIME_WOOL
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Lima (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Water
+          - Stick
+          - Ball
+          Favourite:
+          - Melon
+          - Milk
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Magenta Sheep:
+        Name: '&b&lOveja Magneta'
+        Material: MAGENTA_TERRACOTTA
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Magneta'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Milk
+          - Stick
+          - Ball
+          Favourite:
+          - Wheat
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Baby Magenta Sheep:
+        Name: '&b&lOveja Magneta (Bebe)'
+        Material: MAGENTA_WOOL
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Magneta &7(Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Water
+          - Stick
+          - Ball
+          Favourite:
+          - Melon
+          - Milk
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Orange Sheep:
+        Name: '&b&lOveja Naranja'
+        Material: ORANGE_TERRACOTTA
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Naranja'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Milk
+          - Stick
+          - Ball
+          Favourite:
+          - Wheat
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Baby Orange Sheep:
+        Name: '&b&lOveja Naranja &7(Bebe)'
+        Material: ORANGE_WOOL
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Naranja (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Water
+          - Stick
+          - Ball
+          Favourite:
+          - Melon
+          - Milk
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Pink Sheep:
+        Name: '&b&lOveja Rosa'
+        Material: PINK_TERRACOTTA
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Rosa'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Milk
+          - Stick
+          - Ball
+          Favourite:
+          - Wheat
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Baby Pink Sheep:
+        Name: '&b&lOveja Rosa &7(Bebe)'
+        Material: PINK_WOOL
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Rosa (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Water
+          - Stick
+          - Ball
+          Favourite:
+          - Melon
+          - Milk
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Purple Sheep:
+        Name: '&b&lOveja Morada'
+        Material: PURPLE_TERRACOTTA
+        Mystery Dust: 55
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Morada'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Milk
+          - Stick
+          - Ball
+          Favourite:
+          - Wheat
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Baby Purple Sheep:
+        Name: '&b&lOveja Morada &7(Bebe)'
+        Material: PURPLE_WOOL
+        Mystery Dust: 75
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Morada (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Water
+          - Stick
+          - Ball
+          Favourite:
+          - Melon
+          - Milk
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Red Sheep:
+        Name: '&b&lOveja Roja'
+        Material: RED_TERRACOTTA
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Roja'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Milk
+          - Stick
+          - Ball
+          Favourite:
+          - Wheat
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Baby Red Sheep:
+        Name: '&b&lOveja Roja &7(Bebe)'
+        Material: RED_WOOL
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Roja (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Water
+          - Stick
+          - Ball
+          Favourite:
+          - Melon
+          - Milk
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Silver Sheep:
+        Name: '&b&lOveja Gris'
+        Material: LIGHT_GRAY_TERRACOTTA
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Gris'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Milk
+          - Stick
+          - Ball
+          Favourite:
+          - Wheat
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Baby Silver Sheep:
+        Name: '&b&lOveja Gris &7(Bebe)'
+        Material: LIGHT_GRAY_WOOL
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Gris (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Water
+          - Stick
+          - Ball
+          Favourite:
+          - Melon
+          - Milk
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      White Sheep:
+        Name: '&b&lOveja Blanca'
+        Material: WHITE_TERRACOTTA
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Blanca'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Milk
+          - Stick
+          - Ball
+          Favourite:
+          - Wheat
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Baby White Sheep:
+        Name: '&b&lOveja Blanca &7(Bebe)'
+        Material: WHITE_WOOL
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&b&lOveja Blanca (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Water
+          - Stick
+          - Ball
+          Favourite:
+          - Melon
+          - Milk
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Yellow Sheep:
+        Name: '&b&LOveja Amarilla'
+        Material: YELLOW_TERRACOTTA
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Amarilla'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Milk
+          - Stick
+          - Ball
+          Favourite:
+          - Wheat
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Baby Yellow Sheep:
+        Name: '&b&LOveja Amarilla &7(Bebe)'
+        Material: YELLOW_WOOL
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Amarilla (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Water
+          - Stick
+          - Ball
+          Favourite:
+          - Melon
+          - Milk
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Rainbow Sheep:
+        Name: '&b&lOveja Colorida'
+        Material: EXPERIENCE_BOTTLE
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eOveja Colorida'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Rotten Flesh
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Apple
+          - Carrot
+          - Hay
+          - Milk
+          - Stick
+          - Ball
+          Favourite:
+          - Wheat
+          - Water
+          - Leash
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+  Slime:
+    Name: '&b&lSlimes'
+    Material: SLIME_SPAWN_EGG
+    GUI-Name: Slimes
+    Enabled: true
+    Lore:
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Slimes.'
+    Types:
+      Big Slime:
+        Name: '&b&lSlime &7(Grande)'
+        Material: SLIME_BLOCK
+        Mystery Dust: 100
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eSlime &7(Grande)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Rotten Flesh
+          - Water
+          - Stick
+          Favourite:
+          - Bone
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Small Slime:
+        Name: '&b&lSlime &7(Normal)'
+        Material: SLIME_BLOCK
+        Mystery Dust: 63
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eSlime &7(Normal)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Rotten Flesh
+          - Water
+          - Stick
+          Favourite:
+          - Bone
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Tiny Slime:
+        Name: "&b&lSlime &7(Peque\xf1o)"
+        Material: SLIME_BALL
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: "&eSlime &7(Peque\xf1o)"
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Rotten Flesh
+          - Water
+          - Stick
+          Favourite:
+          - Bone
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Big Magma Cube:
+        Name: '&b&lMagma &7(Grande)'
+        Material: MAGMA_CREAM
+        Mystery Dust: 100
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eMagma &7(Grande)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Apple
+          - Melon
+          - Pumpkin Pie
+          - Carrot
+          - Baked Potato
+          - Flower
+          - Hay
+          - Wheat
+          - Bread
+          - Cookie
+          - Cake
+          - Water
+          - Stick
+          Really-Like:
+          - Raw Porkchop
+          - Angus Steak
+          - Bone
+          - Milk
+          - Leash
+          - Frisbee
+          Favourite:
+          - Magma Cream
+          - Lava
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Small Magma Cube:
+        Name: '&b&lMagma &7(Normal)'
+        Material: BLAZE_POWDER
+        Mystery Dust: 63
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eMagma (Normal)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Apple
+          - Melon
+          - Pumpkin Pie
+          - Carrot
+          - Baked Potato
+          - Flower
+          - Hay
+          - Wheat
+          - Bread
+          - Cookie
+          - Cake
+          - Water
+          - Stick
+          Really-Like:
+          - Raw Porkchop
+          - Angus Steak
+          - Bone
+          - Milk
+          - Leash
+          - Frisbee
+          Favourite:
+          - Magma Cream
+          - Lava
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Tiny Magma Cube:
+        Name: "&b&lMagma &7(Peque\xf1o)"
+        Material: LAVA_BUCKET
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: "&eMagma &7(Peque\xf1o)"
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Apple
+          - Melon
+          - Pumpkin Pie
+          - Carrot
+          - Baked Potato
+          - Flower
+          - Hay
+          - Wheat
+          - Bread
+          - Cookie
+          - Cake
+          - Water
+          - Stick
+          Really-Like:
+          - Raw Porkchop
+          - Angus Steak
+          - Bone
+          - Milk
+          - Leash
+          - Frisbee
+          Favourite:
+          - Magma Cream
+          - Lava
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+  Skeleton:
+    Name: '&b&lEsqueletos'
+    Material: SKELETON_SPAWN_EGG
+    GUI-Name: Esqueletos
+    Enabled: true
+    Lore:
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Esqueletos.'
+    Types:
+      Skeleton:
+        Name: '&b&lEsqueleto'
+        Material: BOW
+        Mystery Dust: 50
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eEsqueleto'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Melon
+          - Water
+          - Feather
+          Really-Like:
+          - Bone
+          - Milk
+          - Stick
+          Favourite:
+          - Rotten Flesh
+          - Lava
+          - Sparring Sword
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Wither Skeleton:
+        Name: '&b&lEsqueleto Wither'
+        Material: STONE_SWORD
+        Mystery Dust: 70
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eEsqueleto Wither'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Melon
+          - Water
+          - Feather
+          Really-Like:
+          - Rotten Flesh
+          - Milk
+          - Stick
+          Favourite:
+          - Bone
+          - Lava
+          - Sparring Sword
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Stray Skeleton:
+        Name: '&b&lEsqueleto Callejero'
+        Material: head:78ddf76e555dd5c4aa8a0a5fc584520cd63d489c253de969f7f22f85a9a2d56
+        Mystery Dust: 85
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eEsqueleto Callejero'
+        Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Melon
+          - Water
+          - Feather
+          Really-Like:
+          - Rotten Flesh
+          - Milk
+          - Frisbee
+          Favourite:
+          - Angus Steak
+          - Lava
+          - Sparring Sword
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+  Squid:
+    Name: '&b&lCalamares'
+    Material: SQUID_SPAWN_EGG
+    GUI-Name: Calamares
+    Enabled: true
+    Lore:
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Calamares.'
+    Types:
+      Squid:
+        Name: '&b&lCalamar'
+        Material: INK_SAC
+        Mystery Dust: 78
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eCalamar'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Pumpkin Pie
+          - Wheat
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Milk
+          - Stick
+          - Ball
+          Favourite:
+          - Raw Fish
+          - Water
+          - Frisbee
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+  Polar Bear:
+    Name: '&b&lOsos Polares'
+    Material: head:bab178f5cdd750f0e356860aa5539153eb2abec1e146ca57c65d25a5df8fdfe
+    GUI-Name: Osos Polares
+    Enabled: true
+    Lore:
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Osos Polares.'
     Types:
       Polar Bear:
-        Name: '&5Polar Bear'
+        Name: '&b&lOso Polar'
         Material: head:bab178f5cdd750f0e356860aa5539153eb2abec1e146ca57c65d25a5df8fdfe
         Mystery Dust: 55
         Rarity: Epic
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&eOso Polar'
         Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Leash
+          Really-Like:
+          - Wheat
+          - Milk
+          - Ball
+          Favourite:
+          - Raw Fish
+          - Water
+          - Stick
         Lore:
-        - '&7Type: &9Polar Bear'
-        - ''
-        - '&7Click to summon this pet.'
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
       Baby Polar Bear:
-        Name: '&6Polar Bear (Baby)'
+        Name: '&b&lOso Polar &7(Bebe)'
         Material: head:bab178f5cdd750f0e356860aa5539153eb2abec1e146ca57c65d25a5df8fdfe
         Mystery Dust: 75
         Rarity: Legendary
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&eOso Polar (Bebe)'
         Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Magma Cream
+          - Lava
+          - Leash
+          Really-Like:
+          - Raw Fish
+          - Water
+          - Stick
+          Favourite:
+          - Wheat
+          - Milk
+          - Ball
         Lore:
-        - '&7Type: &9Polar Bear (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
   Llama:
-    Name: '&eLlama'
+    Name: '&b&lLlamas'
     Material: head:83d9b5915912ffc2b85761d6adcb428a812f9b83ff634e331162ce46c99e9
+    GUI-Name: Llamas
     Enabled: true
     Lore:
-    - '&7Click here to see all pets'
-    - '&7in the Llama category!'
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Llamas.'
     Types:
       Brown Llama:
-        Name: '&5Llama: Brown'
+        Name: '&b&lLlama Cafe'
         Material: head:c2b1ecff77ffe3b503c30a548eb23a1a08fa26fd67cdff389855d74921368
         Mystery Dust: 60
         Rarity: Epic
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&eLlama Cafe'
         Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Angus Steak
+          - Lava
+          - Leash
+          Really-Like:
+          - Wheat
+          - Milk
+          - Ball
+          Favourite:
+          - Hay
+          - Water
+          - Stick
         Lore:
-        - '&7Type: &9Llama: Brown'
-        - ''
-        - '&7Click to summon this pet.'
+          - '&f'
+          - "&8&l\xbb &fRareza: &5&lEPICO"
       Baby Brown Llama:
-        Name: '&6Llama: Brown (Baby)'
+        Name: '&b&lLlama Cafe &7(Bebe)'
         Material: head:c2b1ecff77ffe3b503c30a548eb23a1a08fa26fd67cdff389855d74921368
         Mystery Dust: 80
         Rarity: Legendary
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&b&lLlama Cafe (Bebe)'
         Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Angus Steak
+          - Lava
+          - Leash
+          Really-Like:
+          - Wheat
+          - Water
+          - Stick
+          Favourite:
+          - Cookie
+          - Milk
+          - Ball
         Lore:
-        - '&7Type: &9Llama: Brown (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
+          - '&f'
+          - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
       Creamy Llama:
-        Name: '&5Llama: Creamy'
+        Name: '&b&lLlama Cremosa'
         Material: head:80899acfebf947a0effc4022deb080543f7e389116bd4964c2c227ffa34a3375
         Mystery Dust: 55
         Rarity: Epic
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&eLlama Cremosa'
         Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Angus Steak
+          - Lava
+          - Leash
+          Really-Like:
+          - Wheat
+          - Milk
+          - Ball
+          Favourite:
+          - Hay
+          - Water
+          - Stick
         Lore:
-        - '&7Type: &9Llama: Creamy'
-        - ''
-        - '&7Click to summon this pet.'
+          - '&f'
+          - "&8&l\xbb &fRareza: &5&lEPICO"
       Baby Creamy Llama:
-        Name: '&6Llama: Creamy (Baby)'
+        Name: '&b&lLlama Cremosa &7(Bebe)'
         Material: head:80899acfebf947a0effc4022deb080543f7e389116bd4964c2c227ffa34a3375
         Mystery Dust: 75
         Rarity: Legendary
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&eLlama Cremosa (Bebe)'
         Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Angus Steak
+          - Lava
+          - Leash
+          Really-Like:
+          - Wheat
+          - Water
+          - Stick
+          Favourite:
+          - Cookie
+          - Milk
+          - Ball
         Lore:
-        - '&7Type: &9Llama: Creamy (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
+          - '&f'
+          - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
       Gray Llama:
-        Name: '&5Llama: Gray'
+        Name: '&b&lLlama Gris'
         Material: head:cf24e56fd9ffd7133da6d1f3e2f455952b1da462686f753c597ee82299a
         Mystery Dust: 55
         Rarity: Epic
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&eLlama Gris'
         Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Angus Steak
+          - Lava
+          - Leash
+          Really-Like:
+          - Wheat
+          - Milk
+          - Ball
+          Favourite:
+          - Hay
+          - Water
+          - Stick
         Lore:
-        - '&7Type: &9Llama: Gray'
-        - ''
-        - '&7Click to summon this pet.'
+          - '&f'
+          - "&8&l\xbb &fRareza: &5&lEPICO"
       Baby Gray Llama:
-        Name: '&6Llama: Gray (Baby)'
+        Name: '&b&lLlama Gris &7(Bebe)'
         Material: head:cf24e56fd9ffd7133da6d1f3e2f455952b1da462686f753c597ee82299a
         Mystery Dust: 75
         Rarity: Legendary
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&b&lLlama Gris (Bebe)'
         Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Angus Steak
+          - Lava
+          - Leash
+          Really-Like:
+          - Wheat
+          - Water
+          - Stick
+          Favourite:
+          - Cookie
+          - Milk
+          - Ball
         Lore:
-        - '&7Type: &9Llama: Gray (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
       White Llama:
-        Name: '&5Llama: White'
+        Name: '&b&lLlama Blanca'
         Material: head:83d9b5915912ffc2b85761d6adcb428a812f9b83ff634e331162ce46c99e9
         Mystery Dust: 55
         Rarity: Epic
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&eLlama Blanca'
         Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Angus Steak
+          - Lava
+          - Leash
+          Really-Like:
+          - Wheat
+          - Milk
+          - Ball
+          Favourite:
+          - Hay
+          - Water
+          - Stick
         Lore:
-        - '&7Type: &9Llama: White'
-        - ''
-        - '&7Click to summon this pet.'
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
       Baby White Llama:
-        Name: '&6Llama: White (Baby)'
+        Name: '&b&lLlama Blanca &7(Bebe)'
         Material: head:83d9b5915912ffc2b85761d6adcb428a812f9b83ff634e331162ce46c99e9
         Mystery Dust: 75
         Rarity: Legendary
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&eLlama Blanca (Bebe)'
         Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Angus Steak
+          - Lava
+          - Leash
+          Really-Like:
+          - Wheat
+          - Water
+          - Stick
+          Favourite:
+          - Cookie
+          - Milk
+          - Ball
         Lore:
-        - '&7Type: &9Llama: White (Baby)'
-        - ''
-        - '&7Click to summon this pet.'
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
   Panda:
-    Name: '&ePanda'
+    Name: '&6Panda'
     Material: head:dca096eea506301bea6d4b17ee1605625a6f5082c71f74a639cc940439f47166
+    GUI-Name: Panda
     Enabled: true
     Lore:
     - '&7Click here to see all pets'
@@ -1865,11 +4298,37 @@ Pets:
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&5Panda: Normal'
         Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Raw Fish
+          - Raw Porkchop
+          - Angus Steak
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cake
+          - Water
+          - Ball
+          Favourite:
+          - Apple
+          - Milk
+          - Stick
         Lore:
+        - '&7Make this awesome and'
+        - '&7cuddly Panda: Normal yours'
+        - '&7today!'
+        - '{LEVEL}{PET_NAME}'
+        - '&7EXP: {EXP}'
         - '&7Type: &9Panda: Normal'
         - ''
-        - '&7Click to summon this pet.'
+        - '&7Status: {HAPPINESS}'
+        - ''
+        - '&7Hunger: {HUNGER}'
+        - '&7Thirst: {THIRST}'
+        - '&7Exercise: {EXERCISE}'
       Baby Normal Panda:
         Name: '&6Panda: Normal (Baby)'
         Material: head:dca096eea506301bea6d4b17ee1605625a6f5082c71f74a639cc940439f47166
@@ -1878,11 +4337,37 @@ Pets:
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&6Panda: Normal (Baby)'
         Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Raw Fish
+          - Raw Porkchop
+          - Angus Steak
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cake
+          - Water
+          - Stick
+          Favourite:
+          - Apple
+          - Milk
+          - Ball
         Lore:
+        - '&7Make this awesome and'
+        - '&7cuddly Panda: Normal (Baby) yours'
+        - '&7today!'
+        - '{LEVEL}{PET_NAME}'
+        - '&7EXP: {EXP}'
         - '&7Type: &9Panda: Normal (Baby)'
         - ''
-        - '&7Click to summon this pet.'
+        - '&7Status: {HAPPINESS}'
+        - ''
+        - '&7Hunger: {HUNGER}'
+        - '&7Thirst: {THIRST}'
+        - '&7Exercise: {EXERCISE}'
       Lazy Panda:
         Name: '&5Panda: Lazy'
         Material: head:7818b681cace1c641919f53edadecb142330d089a826b56219138c33b7a5e0db
@@ -1891,11 +4376,37 @@ Pets:
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&5Panda: Lazy'
         Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Raw Fish
+          - Raw Porkchop
+          - Angus Steak
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cake
+          - Water
+          - Ball
+          Favourite:
+          - Apple
+          - Milk
+          - Stick
         Lore:
+        - '&7Make this awesome and'
+        - '&7cuddly Panda: Lazy yours'
+        - '&7today!'
+        - '{LEVEL}{PET_NAME}'
+        - '&7EXP: {EXP}'
         - '&7Type: &9Panda: Lazy'
         - ''
-        - '&7Click to summon this pet.'
+        - '&7Status: {HAPPINESS}'
+        - ''
+        - '&7Hunger: {HUNGER}'
+        - '&7Thirst: {THIRST}'
+        - '&7Exercise: {EXERCISE}'
       Baby Lazy Panda:
         Name: '&6Panda: Lazy (Baby)'
         Material: head:7818b681cace1c641919f53edadecb142330d089a826b56219138c33b7a5e0db
@@ -1904,11 +4415,37 @@ Pets:
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&6Panda: Lazy (Baby)'
         Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Raw Fish
+          - Raw Porkchop
+          - Angus Steak
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cake
+          - Water
+          - Stick
+          Favourite:
+          - Apple
+          - Milk
+          - Ball
         Lore:
+        - '&7Make this awesome and'
+        - '&7cuddly Panda: Lazy (Baby) yours'
+        - '&7today!'
+        - '{LEVEL}{PET_NAME}'
+        - '&7EXP: {EXP}'
         - '&7Type: &9Panda: Lazy (Baby)'
         - ''
-        - '&7Click to summon this pet.'
+        - '&7Status: {HAPPINESS}'
+        - ''
+        - '&7Hunger: {HUNGER}'
+        - '&7Thirst: {THIRST}'
+        - '&7Exercise: {EXERCISE}'
       Worried Panda:
         Name: '&5Panda: Worried'
         Material: head:c8e921c57e54dd07337ffba629e72caf3850d836b76562b1bc3bc5949f2d41d
@@ -1917,11 +4454,37 @@ Pets:
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&5Panda: Worried'
         Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Raw Fish
+          - Raw Porkchop
+          - Angus Steak
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cake
+          - Water
+          - Ball
+          Favourite:
+          - Apple
+          - Milk
+          - Stick
         Lore:
+        - '&7Make this awesome and'
+        - '&7cuddly Panda: Worried yours'
+        - '&7today!'
+        - '{LEVEL}{PET_NAME}'
+        - '&7EXP: {EXP}'
         - '&7Type: &9Panda: Worried'
         - ''
-        - '&7Click to summon this pet.'
+        - '&7Status: {HAPPINESS}'
+        - ''
+        - '&7Hunger: {HUNGER}'
+        - '&7Thirst: {THIRST}'
+        - '&7Exercise: {EXERCISE}'
       Baby Worried Panda:
         Name: '&6Panda: Worried (Baby)'
         Material: head:c8e921c57e54dd07337ffba629e72caf3850d836b76562b1bc3bc5949f2d41d
@@ -1930,11 +4493,37 @@ Pets:
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&6Panda: Worried (Baby)'
         Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Raw Fish
+          - Raw Porkchop
+          - Angus Steak
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cake
+          - Water
+          - Stick
+          Favourite:
+          - Apple
+          - Milk
+          - Ball
         Lore:
+        - '&7Make this awesome and'
+        - '&7cuddly Panda: Worried (Baby) yours'
+        - '&7today!'
+        - '{LEVEL}{PET_NAME}'
+        - '&7EXP: {EXP}'
         - '&7Type: &9Panda: Worried (Baby)'
         - ''
-        - '&7Click to summon this pet.'
+        - '&7Status: {HAPPINESS}'
+        - ''
+        - '&7Hunger: {HUNGER}'
+        - '&7Thirst: {THIRST}'
+        - '&7Exercise: {EXERCISE}'
       Playful Panda:
         Name: '&5Panda: Playful'
         Material: head:b6463e64ce29764db3cb46806cee606afc24bdf0ce14b6660c270a96c787426
@@ -1943,11 +4532,37 @@ Pets:
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&5Panda: Playful'
         Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Raw Fish
+          - Raw Porkchop
+          - Angus Steak
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cake
+          - Water
+          - Ball
+          Favourite:
+          - Apple
+          - Milk
+          - Stick
         Lore:
+        - '&7Make this awesome and'
+        - '&7cuddly Panda: Playful yours'
+        - '&7today!'
+        - '{LEVEL}{PET_NAME}'
+        - '&7EXP: {EXP}'
         - '&7Type: &9Panda: Playful'
         - ''
-        - '&7Click to summon this pet.'
+        - '&7Status: {HAPPINESS}'
+        - ''
+        - '&7Hunger: {HUNGER}'
+        - '&7Thirst: {THIRST}'
+        - '&7Exercise: {EXERCISE}'
       Baby Playful Panda:
         Name: '&6Panda: Playful (Baby)'
         Material: head:b6463e64ce29764db3cb46806cee606afc24bdf0ce14b6660c270a96c787426
@@ -1956,11 +4571,37 @@ Pets:
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&6Panda: Playful (Baby)'
         Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Raw Fish
+          - Raw Porkchop
+          - Angus Steak
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cake
+          - Water
+          - Stick
+          Favourite:
+          - Apple
+          - Milk
+          - Ball
         Lore:
+        - '&7Make this awesome and'
+        - '&7cuddly Panda: Playful (Baby) yours'
+        - '&7today!'
+        - '{LEVEL}{PET_NAME}'
+        - '&7EXP: {EXP}'
         - '&7Type: &9Panda: Playful (Baby)'
         - ''
-        - '&7Click to summon this pet.'
+        - '&7Status: {HAPPINESS}'
+        - ''
+        - '&7Hunger: {HUNGER}'
+        - '&7Thirst: {THIRST}'
+        - '&7Exercise: {EXERCISE}'
       Brown Panda:
         Name: '&5Panda: Brown'
         Material: head:c5d0d45bf992b072cf5c513e06beefe8bdc809c8150f3d14b883796a7b74e406
@@ -1969,11 +4610,37 @@ Pets:
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&5Panda: Brown'
         Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Raw Fish
+          - Raw Porkchop
+          - Angus Steak
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cake
+          - Water
+          - Ball
+          Favourite:
+          - Apple
+          - Milk
+          - Stick
         Lore:
+        - '&7Make this awesome and'
+        - '&7cuddly Panda: Brown yours'
+        - '&7today!'
+        - '{LEVEL}{PET_NAME}'
+        - '&7EXP: {EXP}'
         - '&7Type: &9Panda: Brown'
         - ''
-        - '&7Click to summon this pet.'
+        - '&7Status: {HAPPINESS}'
+        - ''
+        - '&7Hunger: {HUNGER}'
+        - '&7Thirst: {THIRST}'
+        - '&7Exercise: {EXERCISE}'
       Baby Brown Panda:
         Name: '&6Panda: Brown (Baby)'
         Material: head:c5d0d45bf992b072cf5c513e06beefe8bdc809c8150f3d14b883796a7b74e406
@@ -1982,11 +4649,37 @@ Pets:
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&6Panda: Brown (Baby)'
         Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Raw Fish
+          - Raw Porkchop
+          - Angus Steak
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cake
+          - Water
+          - Stick
+          Favourite:
+          - Apple
+          - Milk
+          - Ball
         Lore:
+        - '&7Make this awesome and'
+        - '&7cuddly Panda: Brown (Baby) yours'
+        - '&7today!'
+        - '{LEVEL}{PET_NAME}'
+        - '&7EXP: {EXP}'
         - '&7Type: &9Panda: Brown (Baby)'
         - ''
-        - '&7Click to summon this pet.'
+        - '&7Status: {HAPPINESS}'
+        - ''
+        - '&7Hunger: {HUNGER}'
+        - '&7Thirst: {THIRST}'
+        - '&7Exercise: {EXERCISE}'
       Weak Panda:
         Name: '&5Panda: Weak'
         Material: head:5c2d25e956337d82791fa0e6617a40086f02d6ebfbfd5a6459889cf206fca787
@@ -1995,11 +4688,37 @@ Pets:
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&5Panda: Weak'
         Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Raw Fish
+          - Raw Porkchop
+          - Angus Steak
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cake
+          - Water
+          - Ball
+          Favourite:
+          - Apple
+          - Milk
+          - Stick
         Lore:
+        - '&7Make this awesome and'
+        - '&7cuddly Panda: Weak yours'
+        - '&7today!'
+        - '{LEVEL}{PET_NAME}'
+        - '&7EXP: {EXP}'
         - '&7Type: &9Panda: Weak'
         - ''
-        - '&7Click to summon this pet.'
+        - '&7Status: {HAPPINESS}'
+        - ''
+        - '&7Hunger: {HUNGER}'
+        - '&7Thirst: {THIRST}'
+        - '&7Exercise: {EXERCISE}'
       Baby Weak Panda:
         Name: '&6Panda: Weak (Baby)'
         Material: head:5c2d25e956337d82791fa0e6617a40086f02d6ebfbfd5a6459889cf206fca787
@@ -2008,11 +4727,37 @@ Pets:
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&6Panda: Weak (Baby)'
         Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Raw Fish
+          - Raw Porkchop
+          - Angus Steak
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cake
+          - Water
+          - Stick
+          Favourite:
+          - Apple
+          - Milk
+          - Ball
         Lore:
+        - '&7Make this awesome and'
+        - '&7cuddly Panda: Weak (Baby) yours'
+        - '&7today!'
+        - '{LEVEL}{PET_NAME}'
+        - '&7EXP: {EXP}'
         - '&7Type: &9Panda: Weak (Baby)'
         - ''
-        - '&7Click to summon this pet.'
+        - '&7Status: {HAPPINESS}'
+        - ''
+        - '&7Hunger: {HUNGER}'
+        - '&7Thirst: {THIRST}'
+        - '&7Exercise: {EXERCISE}'
       Aggressive Panda:
         Name: '&5Panda: Aggressive'
         Material: head:83fe1e782ae96a30336a03ef74681ce3a6905fcc673fa56c046aaee6aa28307d
@@ -2021,11 +4766,37 @@ Pets:
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&5Panda: Aggressive'
         Move-Speed: 0.6
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Raw Fish
+          - Raw Porkchop
+          - Angus Steak
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cake
+          - Water
+          - Ball
+          Favourite:
+          - Apple
+          - Milk
+          - Stick
         Lore:
+        - '&7Make this awesome and'
+        - '&7cuddly Panda: Aggressive yours'
+        - '&7today!'
+        - '{LEVEL}{PET_NAME}'
+        - '&7EXP: {EXP}'
         - '&7Type: &9Panda: Aggressive'
         - ''
-        - '&7Click to summon this pet.'
+        - '&7Status: {HAPPINESS}'
+        - ''
+        - '&7Hunger: {HUNGER}'
+        - '&7Thirst: {THIRST}'
+        - '&7Exercise: {EXERCISE}'
       Baby Aggressive Panda:
         Name: '&6Panda: Aggressive (Baby)'
         Material: head:83fe1e782ae96a30336a03ef74681ce3a6905fcc673fa56c046aaee6aa28307d
@@ -2034,8 +4805,331 @@ Pets:
         Enabled: true
         CanBeFound: true
         Purchasable: true
+        Default-Pet-Name: '&6Panda: Aggressive (Baby)'
         Move-Speed: 0.5
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Raw Fish
+          - Raw Porkchop
+          - Angus Steak
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cake
+          - Water
+          - Stick
+          Favourite:
+          - Apple
+          - Milk
+          - Ball
         Lore:
+        - '&7Make this awesome and'
+        - '&7cuddly Panda: Aggressive (Baby) yours'
+        - '&7today!'
+        - '{LEVEL}{PET_NAME}'
+        - '&7EXP: {EXP}'
         - '&7Type: &9Panda: Aggressive (Baby)'
         - ''
-        - '&7Click to summon this pet.'
+        - '&7Status: {HAPPINESS}'
+        - ''
+        - '&7Hunger: {HUNGER}'
+        - '&7Thirst: {THIRST}'
+        - '&7Exercise: {EXERCISE}'
+  Turtle:
+    Name: '&6Turtle'
+    Material: head:fc8593b91058ff24a0f6845130ed3e449569ce9c6b22fa9cd1ed7360b5045ea3
+    GUI-Name: Turtle
+    Enabled: true
+    Lore:
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Tortugas.'
+    Types:
+      Turtle:
+        Name: '&b&lTortuga'
+        Material: head:fc8593b91058ff24a0f6845130ed3e449569ce9c6b22fa9cd1ed7360b5045ea3
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eTortuga'
+        Move-Speed: 0.4
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Raw Porkchop
+          - Angus Steak
+          - Rotten Flesh
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Raw Fish
+          - Water
+          - Ball
+          Favourite:
+          - Carrot
+          - Milk
+          - Stick
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Turtle:
+        Name: '&b&lTortuga &7(Bebe)'
+        Material: TURTLE_EGG
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eTortuga (Bebe)'
+        Move-Speed: 0.4
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Raw Porkchop
+          - Angus Steak
+          - Rotten Flesh
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Raw Fish
+          - Water
+          - Stick
+          Favourite:
+          - Carrot
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+  Fox:
+    Name: '&6Fox'
+    Material: head:d8954a42e69e0881ae6d24d4281459c144a0d5a968aed35d6d3d73a3c65d26a
+    GUI-Name: Fox
+    Enabled: true
+    Lore:
+    - '&7Click here to see all pets'
+    - '&7in the Fox category!'
+    Types:
+      Red Fox:
+        Name: '&5Red Fox'
+        Material: head:d8954a42e69e0881ae6d24d4281459c144a0d5a968aed35d6d3d73a3c65d26a
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&5Red Fox'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Flower
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cake
+          - Water
+          - Frisbee
+          Favourite:
+          - Wheat
+          - Milk
+          - Ball
+        Lore:
+        - '&7Make this awesome and'
+        - '&7cuddly Red Fox yours'
+        - '&7today!'
+        - '{LEVEL}{PET_NAME}'
+        - '&7EXP: {EXP}'
+        - '&7Type: &9Red Fox'
+        - ''
+        - '&7Status: {HAPPINESS}'
+        - ''
+        - '&7Hunger: {HUNGER}'
+        - '&7Thirst: {THIRST}'
+        - '&7Exercise: {EXERCISE}'
+      Baby Red Fox:
+        Name: '&6Red Fox (Baby)'
+        Material: FOX_SPAWN_EGG
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&6Red Fox (Baby)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Flower
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Wheat
+          - Water
+          - Frisbee
+          Favourite:
+          - Cake
+          - Milk
+          - Ball
+        Lore:
+        - '&7Make this awesome and'
+        - '&7cuddly Red Fox (Baby) yours'
+        - '&7today!'
+        - '{LEVEL}{PET_NAME}'
+        - '&7EXP: {EXP}'
+        - '&7Type: &9Red Fox (Baby)'
+        - ''
+        - '&7Status: {HAPPINESS}'
+        - ''
+        - '&7Hunger: {HUNGER}'
+        - '&7Thirst: {THIRST}'
+        - '&7Exercise: {EXERCISE}'
+      Snow Fox:
+        Name: '&6Snow Fox'
+        Material: head:41436377eb4c4b4e39fb0e1ed8899fb61ee1814a9169b8d08729ef01dc85d1ba
+        Mystery Dust: 65
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&6Snow Fox'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Flower
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Cake
+          - Water
+          - Frisbee
+          Favourite:
+          - Wheat
+          - Milk
+          - Ball
+        Lore:
+        - '&7Make this awesome and'
+        - '&7cuddly Snow Fox yours'
+        - '&7today!'
+        - '{LEVEL}{PET_NAME}'
+        - '&7EXP: {EXP}'
+        - '&7Type: &9Snow Fox'
+        - ''
+        - '&7Status: {HAPPINESS}'
+        - ''
+        - '&7Hunger: {HUNGER}'
+        - '&7Thirst: {THIRST}'
+        - '&7Exercise: {EXERCISE}'
+      Baby Snow Fox:
+        Name: '&6Snow Fox (Baby)'
+        Material: FOX_SPAWN_EGG
+        Mystery Dust: 80
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&6Snow Fox (Baby)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Flower
+          - Magma Cream
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Wheat
+          - Water
+          - Frisbee
+          Favourite:
+          - Cake
+          - Milk
+          - Ball
+        Lore:
+        - '&7Make this awesome and'
+        - '&7cuddly Snow Fox (Baby) yours'
+        - '&7today!'
+        - '{LEVEL}{PET_NAME}'
+        - '&7EXP: {EXP}'
+        - '&7Type: &9Snow Fox (Baby)'
+        - ''
+        - '&7Status: {HAPPINESS}'
+        - ''
+        - '&7Hunger: {HUNGER}'
+        - '&7Thirst: {THIRST}'
+        - '&7Exercise: {EXERCISE}'
+  Goat:
+    Name: '&b&lCabras'
+    Material: head:457a0d538fa08a7affe312903468861720f9fa34e86d44b89dcec5639265f03
+    GUI-Name: Cabras
+    Enabled: true
+    Lore:
+    - ''
+    - '&fIngresa al menu donde se encuentran'
+    - '&ftodos los tipos de Cabras.'
+    Types:
+      Goat:
+        Name: '&5Goat'
+        Material: head:457a0d538fa08a7affe312903468861720f9fa34e86d44b89dcec5639265f03
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&5Goat'
+        Move-Speed: 0.7
+        Ride-Speed: 0.45
+        Pet-Item-Interest:
+          Dislike:
+          - Raw Porkchop
+          - Angus Steak
+          - Rotten Flesh
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Carrot
+          - Water
+          - Ball
+          Favourite:
+          - Wheat
+          - Milk
+          - Stick
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baby Goat:
+        Name: '&b&lCabra &7(Bebe)'
+        Material: WHEAT
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Default-Pet-Name: '&eCabra (Bebe)'
+        Move-Speed: 0.7
+        Ride-Speed: 0.4
+        Pet-Item-Interest:
+          Dislike:
+          - Raw Porkchop
+          - Angus Steak
+          - Rotten Flesh
+          - Lava
+          - Sparring Sword
+          Really-Like:
+          - Carrot
+          - Water
+          - Stick
+          Favourite:
+          - Wheat
+          - Milk
+          - Ball
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"

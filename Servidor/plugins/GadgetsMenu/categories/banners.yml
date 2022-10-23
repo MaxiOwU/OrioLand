@@ -1,97 +1,121 @@
 Banners:
   Snow Bunny:
-    Name: '&5Snow Bunny Banner'
+    Name: '&b&lConejo Blanco'
     Mystery Dust: 15
     Rarity: Epic
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&lEPICO"
   Reindeer:
-    Name: '&5Reindeer Banner'
+    Name: '&b&lReno'
     Mystery Dust: 20
     Rarity: Epic
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&lEPICO"
   Holiday Tree:
-    Name: '&5Holiday Tree Banner'
+    Name: '&b&lArbol de Navidad'
     Mystery Dust: 20
     Rarity: Epic
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&lEPICO"
   Santa:
-    Name: '&5Santa Banner'
+    Name: '&b&lSanta'
     Mystery Dust: 25
     Rarity: Epic
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&lEPICO"
   Holiday Wreath:
-    Name: '&5Holiday Wreath Banner'
+    Name: '&b&lCorona de Navidad'
     Mystery Dust: 28
     Rarity: Epic
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&lEPICO"
   Heart:
-    Name: '&5Heart Banner'
+    Name: '&b&lCorazon'
     Mystery Dust: 30
     Rarity: Epic
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&lEPICO"
   Guitar:
-    Name: '&5Guitar Banner'
+    Name: '&b&lGuitarra'
     Mystery Dust: 25
     Rarity: Epic
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&lEPICO"
   Dino:
-    Name: '&5Dino Banner'
+    Name: '&b&lDinosaurio'
     Mystery Dust: 40
     Rarity: Epic
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&lEPICO"
   Redpool:
-    Name: '&5Redpool Banner'
+    Name: '&b&lDeadpool'
     Mystery Dust: 42
     Rarity: Epic
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&lEPICO"
   Pengu:
-    Name: '&5Pengu Banner'
+    Name: "&b&lPing\xfcino"
     Mystery Dust: 50
     Rarity: Epic
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&lEPICO"
   Pug:
-    Name: '&5Pug Banner'
+    Name: '&b&lPerro'
     Mystery Dust: 48
     Rarity: Epic
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&lEPICO"
   Skull King:
-    Name: '&6Skull King Banner'
+    Name: '&b&lRey'
     Mystery Dust: 65
     Rarity: Legendary
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"

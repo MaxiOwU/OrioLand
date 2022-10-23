@@ -107,12 +107,7 @@ Menu-Item:
 
 # List of the worlds where cosmetics are enabled!
 Enabled-Worlds:
-- survival
-- survival_nether
-- survival_the_end
-- flatroom
 - Lobby
-- parkour
 
 # List of the disabled cosmetics.
 # Set to true to disable it.

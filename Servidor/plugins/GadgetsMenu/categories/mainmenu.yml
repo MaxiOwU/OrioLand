@@ -1,78 +1,72 @@
 MainMenu:
   Hats:
-    Name: '&eHats'
+    Name: '&b&lCabezas'
     Material: DIAMOND_HELMET
     Lore:
-    - '&7Collect all the hats and'
-    - '&7wear them while in a lobby.'
+    - ''
+    - '&fIngresa a una enorme variedad de'
+    - '&fcaebezas de todo tipo.'
   Animated Hats:
-    Name: '&eAnimated Hats'
+    Name: '&b&lCabezas Animadas'
     Material: head:5ebfd2396cbabdb42c348bcf41599c87a506a71ef60948c496f95c6cb63141
     Lore:
-    - '&7These hats take it a step'
-    - '&7further and move while on'
-    - '&7your head.'
+    - ''
+    - '&fUtiliza cabezas animadas'
+    - '&fque se ven increibles.'
   Particles:
-    Name: '&eParticles'
+    Name: '&b&lParticulas'
     Material: BLAZE_POWDER
     Lore:
-    - '&7Make particles around you'
-    - '&7while standing in lobbies'
-    - '&7using these cool particle'
-    - '&7effects!'
+    - ''
+    - '&fAparece hermosas particulas de'
+    - '&fmuchos tipos que te seguiran en el lobby.'
   Suits:
-    Name: '&eSuits'
+    Name: '&b&lTrajes'
     Material: GOLDEN_LEGGINGS
     Lore:
-    - '&7Collect and wear all the'
-    - '&7pieces from a specific suit'
-    - '&7to gain unique effects!'
+    - '&f'
+    - '&fColecciona todos los trajes'
+    - '&fdisponibles y vistete de muchas formas.'
   Gadgets:
-    Name: '&eGadgets'
+    Name: '&b&lArtefactos'
     Material: PISTON
     Lore:
-    - '&7Wanted to show off to your'
-    - '&7friends with special gadget?'
-    - '&7These fun little toys can'
-    - '&7be used while in a lobby.'
+    - '&f'
+    - '&fSi te encuentras aburrido diviertete'
+    - '&futilizando artefactos geniales en el lobby.'
   Pets:
-    Name: '&ePets'
+    Name: '&b&lMascotas'
     Material: BONE
     Lore:
-    - '&7Unlock these pets to have'
-    - '&7them follow you around in'
-    - '&7lobbies!'
+    - '&f'
+    - '&fDesbloquea nuevos amigos que te'
+    - "&facompa\xf1aran en todo el lobby."
   Morphs:
-    Name: '&eMorphs'
+    Name: '&b&lTransformaciones'
     Material: ZOMBIE_HEAD
     Lore:
-    - '&7The ultimate transformation!'
-    - '&7Using these in lobbies'
-    - '&7will make you transform'
-    - '&7into a monster and unlock'
-    - '&7unique powers for everyone'
-    - '&7else to see!'
+    - ''
+    - '&fConviertete en un Mob, encontraras'
+    - '&falgunos hostiles y otros muy amigables.'
   Banners:
-    Name: '&eBanners'
+    Name: '&b&lBanderas'
     Material: CUSTOM_MATERIAL_1
     Lore:
-    - '&7Unlock all the Banners and'
-    - '&7wear them as hats while in'
-    - '&7in a lobby!'
+    - '&f'
+    - '&fDesbloquea banderas maravillosas'
+    - '&fpara utilizar sobre ti en el lobby.'
   Emotes:
-    Name: '&eEmotes'
+    Name: '&b&lEmoticones'
     Material: head:60c432cbc490a8af6e9dfeb28095c0a0ec79fff705fb184674d1e743bd05baa
     Lore:
-    - '&7Express yourself! Show the'
-    - '&7world how you''re feeling'
-    - '&7with these unique animated'
-    - '&7Emotes.'
+    - '&f'
+    - '&fExpresa como te encuentras utilizando'
+    - '&femoticones animados.'
   Cloaks:
-    Name: '&eCloaks'
+    Name: '&b&lParticulas Especiales'
     Material: ENCHANTING_TABLE
     Lore:
-    - '&7Made of particles, these'
-    - '&7cloaks provide ultimate'
-    - '&7swag. To activate them,'
-    - '&7stand still for 1 second'
-    - '&7while in a lobby.'
+    - '&f'
+    - '&fEste tipo de particulas son diferentes,'
+    - '&fpodras utilizar varias con efectos y formas diferentes.'
+Slot-Layout: 11, 12, 13, 14, 15, 19, 20, 22, 24, 25

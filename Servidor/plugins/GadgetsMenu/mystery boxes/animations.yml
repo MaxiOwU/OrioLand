@@ -1,48 +1,48 @@
 Animations:
   None:
-    Name: '&aAnimation: None'
-    Material: BARRIER
+    Name: '&b&lNinguna'
+    Material: head:3ed1aba73f639f4bc42bd48196c715197be2712c3b962c97ebf9e9ed8efa025
     Enabled: true
     Mini-Block:
       Material: ENDER_CHEST
     Lore:
-    - '&7Set your mystery vault'
-    - '&7animation to &aNone&7.'
+    - '&fElimina la animacion al abrir'
+    - '&funa caja, esta se abrira instantaneamente.'
   Normal:
-    Name: '&aAnimation: Normal'
-    Material: ENDER_CHEST
+    Name: '&b&lNormal'
+    Material: head:d5c6dc2bbf51c36cfc7714585a6a5683ef2b14d47d8ff714654a893f5da622
     Enabled: true
     Mini-Block:
-      Material: ENDER_CHEST
+      Material: head:d5c6dc2bbf51c36cfc7714585a6a5683ef2b14d47d8ff714654a893f5da622
     Lore:
-    - '&7Set your mystery vault'
-    - '&7animation to &aNormal&7.'
+    - '&fColoca la animacion al abrir una'
+    - '&fCaja en Normal.'
   CountDown:
-    Name: '&aAnimation: Countdown'
-    Material: CLOCK
+    Name: '&b&lContador'
+    Material: head:b86b9d58bcd1a555f93e7d8659159cfd25b8dd6e9bce1e973822824291862
     Enabled: true
     Mini-Block:
-      Material: ENDER_CHEST
+      Material: head:b86b9d58bcd1a555f93e7d8659159cfd25b8dd6e9bce1e973822824291862
     Lore:
-    - '&7Set your mystery vault'
-    - '&7animation to &aCountdown&7.'
+    - '&fColoca la animacion al abrir una'
+    - '&fCaja en Contador.'
   Star:
-    Name: '&aAnimation: Star'
-    Material: NETHER_STAR
+    Name: '&b&lEstrella'
+    Material: head:adc56355f11ce53e14d374ecf2a0b255301b734d99c674240afacc73e2145c
     Enabled: true
     Mini-Block:
-      Material: ENDER_CHEST
+      Material: head:adc56355f11ce53e14d374ecf2a0b255301b734d99c674240afacc73e2145c
     Mystery-Box-Quality-Block:
       Material: NETHER_STAR
     Lore:
-    - '&7Set your mystery vault'
-    - '&7animation to &aStar&7.'
+    - '&fColoca la animacion al abrir una'
+    - '&fCaja en Estrella.'
   Crafting:
-    Name: '&aAnimation: Crafting'
-    Material: CRAFTING_TABLE
+    Name: '&b&lCrafteo'
+    Material: head:2cdc0feb7001e2c10fd5066e501b87e3d64793092b85a50c856d962f8be92c78
     Enabled: true
     Mini-Block:
-      Material: ENDER_CHEST
+      Material: head:2cdc0feb7001e2c10fd5066e501b87e3d64793092b85a50c856d962f8be92c78
     Mystery-Box-Quality-Block:
       Material: CRAFTING_TABLE
       Rotational-Angle:
@@ -50,36 +50,36 @@ Animations:
         Y: 0
         Z: 45
     Lore:
-    - '&7Set your mystery vault'
-    - '&7animation to &aCrafting&7.'
+    - '&fColoca la animacion al abrir una'
+    - '&fCaja en Crafteo.'
   Summer:
-    Name: '&aAnimation: Summer'
-    Material: SUNFLOWER
+    Name: '&b&lVerano'
+    Material: head:5a5ab05ea254c32e3c48f3fdcf9fd9d77d3cba04e6b5ec2e68b3cbdcfac3fd
     Enabled: true
     Mini-Block:
       Material: head:5a5ab05ea254c32e3c48f3fdcf9fd9d77d3cba04e6b5ec2e68b3cbdcfac3fd
     Mystery-Box-Quality-Block:
       Material: SUNFLOWER
     Lore:
-    - '&7Set your mystery vault'
-    - '&7animation to &aSummer&7.'
+    - '&fColoca la animacion al abrir una'
+    - '&fCaja en Verano.'
   Halloween:
-    Name: '&aAnimation: Halloween'
-    Material: JACK_O_LANTERN
+    Name: '&b&lHalloween'
+    Material: head:cec751573e9884809cf87d7e5d64fdc1eabffd3fc75ae11a0f7837eb1b91331
     Enabled: true
     Mini-Block:
-      Material: JACK_O_LANTERN
+      Material: head:cec751573e9884809cf87d7e5d64fdc1eabffd3fc75ae11a0f7837eb1b91331
     Lore:
-    - '&7Set your mystery vault'
-    - '&7animation to &aHalloween&7.'
+    - '&fColoca la animacion al abrir una'
+    - '&fCaja en Halloween.'
   Holiday:
-    Name: '&aAnimation: Holiday'
-    Material: SNOWBALL
+    Name: '&b&lNavidad'
+    Material: head:f5612dc7b86d71afc1197301c15fd979e9f39e7b1f41d8f1ebdf8115576e2e
     Enabled: true
     Mini-Block:
       Material: head:f5612dc7b86d71afc1197301c15fd979e9f39e7b1f41d8f1ebdf8115576e2e
     Mystery-Box-Quality-Block:
       Material: SNOWBALL
     Lore:
-    - '&7Set your mystery vault'
-    - '&7animation to &aHoliday&7.'
+    - '&fColoca la animacion al abrir una'
+    - '&fCaja en Navidad.'

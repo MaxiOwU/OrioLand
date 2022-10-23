@@ -1,1185 +1,1961 @@
 Hats:
   Hamburger:
-    Name: '&aHamburger Hat'
+    Name: '&b&lHamburguesa'
     Mystery Dust: 12
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Chocolate Donut:
-    Name: '&aChocolate Donut Hat'
+    Name: '&b&lDona de Chocolate'
     Mystery Dust: 15
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Sandwich:
-    Name: '&aSandwich Hat'
+    Name: '&b&lSandwich'
     Mystery Dust: 15
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Black Chocolate Bar:
-    Name: '&aBlack Chocolate Bar Hat'
+    Name: '&b&lChocolate Negro'
     Mystery Dust: 15
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   White Chocolate Bar:
-    Name: '&aWhite Chocolate Bar Hat'
+    Name: '&b&lChocolate Blanco'
     Mystery Dust: 15
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Candy Cane:
-    Name: '&9Candy Cane Hat'
+    Name: '&b&lDulce'
     Mystery Dust: 25
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Computer:
-    Name: '&aComputer Hat'
+    Name: '&b&lComputadora'
     Mystery Dust: 12
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Gold Steve:
-    Name: '&9Gold Steve Hat'
+    Name: '&b&lSteve Dorado'
     Mystery Dust: 28
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Diamond Steve:
-    Name: '&5Diamond Steve Hat'
+    Name: '&b&lSteve de Diamante'
     Mystery Dust: 38
     Rarity: Epic
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&lEPICO"
   Emerald Steve:
-    Name: '&6Emerald Steve Hat'
+    Name: '&b&lSteve de Esmeralda'
     Mystery Dust: 48
     Rarity: Legendary
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+  Gold Block:
+    Name: '&b&lBloque de Oro'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
+  Diamond Block:
+    Name: '&b&lBloque de Diamante'
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&lEPICO"
   Scared:
-    Name: '&aScared Hat'
+    Name: '&b&lAsustado'
     Mystery Dust: 8
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Angel:
-    Name: '&aAngel Hat'
+    Name: '&b&lAngel'
     Mystery Dust: 8
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Embarrassed:
-    Name: '&aEmbarrassed Hat'
+    Name: '&b&lAvergonzado'
     Mystery Dust: 8
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Sad:
-    Name: '&aSad Hat'
+    Name: '&b&lTriste'
     Mystery Dust: 8
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Cool:
-    Name: '&aCool Hat'
+    Name: '&b&lCool'
     Mystery Dust: 8
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Surprised:
-    Name: '&aSurprised Hat'
+    Name: '&b&lSorprendido'
     Mystery Dust: 8
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Dead:
-    Name: '&aDead Hat'
+    Name: '&b&lMuerto'
     Mystery Dust: 8
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Cry:
-    Name: '&aCry Hat'
+    Name: '&b&lLlorando'
     Mystery Dust: 8
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Grin:
-    Name: '&aGrin Hat'
+    Name: '&b&lFeliz'
     Mystery Dust: 8
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Wink:
-    Name: '&aWink Hat'
+    Name: "&b&lGui\xf1o"
     Mystery Dust: 8
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Derp:
-    Name: '&aDerp Hat'
+    Name: '&b&lDistraido'
     Mystery Dust: 8
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Mustache:
-    Name: '&aMustache Hat'
+    Name: '&b&lBigote'
     Mystery Dust: 8
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Big Smile:
-    Name: '&aBig Smile Hat'
+    Name: '&b&lGran Sonrisa'
     Mystery Dust: 8
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Smile:
-    Name: '&aSmile Hat'
+    Name: '&b&lSonrisa'
     Mystery Dust: 8
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Neutral:
+    Name: '&b&lNeutral'
+    Mystery Dust: 8
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Fall In Love:
+    Name: '&b&lEnamorado'
+    Mystery Dust: 8
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Netherlands:
-    Name: '&aNetherlands Hat'
+    Name: '&b&lNetherlands'
     Mystery Dust: 15
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Norway:
-    Name: '&aNorway Hat'
+    Name: '&b&lNoruega'
     Mystery Dust: 15
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Sweden:
-    Name: '&aSweden Hat'
+    Name: '&b&lSuecia'
     Mystery Dust: 15
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Chile:
-    Name: '&aChile Hat'
+    Name: '&b&lChile'
     Mystery Dust: 15
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Monaco:
-    Name: '&aMonaco Hat'
+    Name: '&b&lMonaco'
     Mystery Dust: 15
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Canada:
-    Name: '&aCanada Hat'
+    Name: '&b&lCanada'
     Mystery Dust: 15
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   United States:
-    Name: '&aUnited States Hat'
+    Name: '&b&lUnited States'
     Mystery Dust: 15
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Italy:
-    Name: '&aItaly Hat'
+    Name: '&b&lItalia'
     Mystery Dust: 15
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   England:
-    Name: '&aEngland Hat'
+    Name: '&b&lInglaterra'
     Mystery Dust: 15
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Germany:
-    Name: '&aGermany Hat'
+    Name: '&b&lAlemania'
     Mystery Dust: 15
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Singapore:
-    Name: '&aSingapore Hat'
+    Name: '&b&lSingapur'
     Mystery Dust: 15
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   France:
-    Name: '&aFrance Hat'
+    Name: '&b&lFrancia'
     Mystery Dust: 15
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Spain:
-    Name: '&aSpain Hat'
+    Name: "&b&lEspa\xf1a"
     Mystery Dust: 15
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Australia:
-    Name: '&aAustralia Hat'
+    Name: '&b&lAustralia'
     Mystery Dust: 15
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  China:
+    Name: '&b&lChina'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-A:
-    Name: '&a''''A'''' Hat'
+    Name: '&b&lLetra A'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-B:
-    Name: '&a''''B'''' Hat'
+    Name: '&b&lLetra B'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-C:
-    Name: '&a''''C'''' Hat'
+    Name: '&b&lLetra C'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-D:
-    Name: '&a''''D'''' Hat'
+    Name: '&b&lLetra D'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-E:
-    Name: '&a''''E'''' Hat'
+    Name: '&b&lLetra E'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-F:
-    Name: '&a''''F'''' Hat'
+    Name: '&b&lLetra F'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-G:
-    Name: '&a''''G'''' Hat'
+    Name: '&b&lLetra G'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-H:
-    Name: '&a''''H'''' Hat'
+    Name: '&b&lLetra H'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-I:
-    Name: '&a''''I'''' Hat'
+    Name: '&b&lLetra I'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-J:
-    Name: '&a''''J'''' Hat'
+    Name: '&b&lLetra J'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-K:
-    Name: '&a''''K'''' Hat'
+    Name: '&b&lLetra K'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-L:
-    Name: '&a''''L'''' Hat'
+    Name: '&b&lLetra L'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-M:
-    Name: '&a''''M'''' Hat'
+    Name: '&b&lLetra M'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-N:
-    Name: '&a''''N'''' Hat'
+    Name: '&b&lLetra N'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-O:
-    Name: '&a''''O'''' Hat'
+    Name: '&b&lLetra O'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-P:
-    Name: '&a''''P'''' Hat'
+    Name: '&b&lLetra P'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-Q:
-    Name: '&a''''Q'''' Hat'
+    Name: '&b&lLetra Q'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-R:
-    Name: '&a''''R'''' Hat'
+    Name: '&b&lLetra R'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-S:
-    Name: '&a''''S'''' Hat'
+    Name: '&b&lLetra S'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-T:
-    Name: '&a''''T'''' Hat'
+    Name: '&b&lLetra T'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-U:
-    Name: '&a''''U'''' Hat'
+    Name: '&b&lLetra U'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-V:
-    Name: '&a''''V'''' Hat'
+    Name: '&b&lLetra V'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-W:
-    Name: '&a''''W'''' Hat'
+    Name: '&b&lLetra W'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-X:
-    Name: '&a''''X'''' Hat'
+    Name: '&b&lLetra X'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-Y:
-    Name: '&a''''Y'''' Hat'
+    Name: '&b&lLetra Y'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Letter-Z:
-    Name: '&a''''Z'''' Hat'
+    Name: '&b&lLetra Z'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
-  Number-0:
-    Name: '&a''''0'''' Hat'
-    Mystery Dust: 7
-    Rarity: Common
-    Enabled: true
-    CanBeFound: true
-    Purchasable: true
-    Lore: ''
-  Number-1:
-    Name: '&a''''1'''' Hat'
-    Mystery Dust: 7
-    Rarity: Common
-    Enabled: true
-    CanBeFound: true
-    Purchasable: true
-    Lore: ''
-  Number-2:
-    Name: '&a''''2'''' Hat'
-    Mystery Dust: 7
-    Rarity: Common
-    Enabled: true
-    CanBeFound: true
-    Purchasable: true
-    Lore: ''
-  Number-3:
-    Name: '&a''''3'''' Hat'
-    Mystery Dust: 7
-    Rarity: Common
-    Enabled: true
-    CanBeFound: true
-    Purchasable: true
-    Lore: ''
-  Number-4:
-    Name: '&a''''4'''' Hat'
-    Mystery Dust: 7
-    Rarity: Common
-    Enabled: true
-    CanBeFound: true
-    Purchasable: true
-    Lore: ''
-  Number-5:
-    Name: '&a''''5'''' Hat'
-    Mystery Dust: 7
-    Rarity: Common
-    Enabled: true
-    CanBeFound: true
-    Purchasable: true
-    Lore: ''
-  Number-6:
-    Name: '&a''''6'''' Hat'
-    Mystery Dust: 7
-    Rarity: Common
-    Enabled: true
-    CanBeFound: true
-    Purchasable: true
-    Lore: ''
-  Number-7:
-    Name: '&a''''7'''' Hat'
-    Mystery Dust: 7
-    Rarity: Common
-    Enabled: true
-    CanBeFound: true
-    Purchasable: true
-    Lore: ''
-  Number-8:
-    Name: '&a''''8'''' Hat'
-    Mystery Dust: 7
-    Rarity: Common
-    Enabled: true
-    CanBeFound: true
-    Purchasable: true
-    Lore: ''
-  Number-9:
-    Name: '&a''''9'''' Hat'
-    Mystery Dust: 7
-    Rarity: Common
-    Enabled: true
-    CanBeFound: true
-    Purchasable: true
-    Lore: ''
-  Symbol-Plus:
-    Name: '&a''''+'''' Hat'
-    Mystery Dust: 7
-    Rarity: Common
-    Enabled: true
-    CanBeFound: true
-    Purchasable: true
-    Lore: ''
-  Symbol-Pound-Key:
-    Name: '&a''''#'''' Hat'
-    Mystery Dust: 7
-    Rarity: Common
-    Enabled: true
-    CanBeFound: true
-    Purchasable: true
-    Lore: ''
-  Symbol-Question:
-    Name: '&a''''?'''' Hat'
-    Mystery Dust: 7
-    Rarity: Common
-    Enabled: true
-    CanBeFound: true
-    Purchasable: true
-    Lore: ''
-  Symbol-Exclamation:
-    Name: '&a''''!'''' Hat'
-    Mystery Dust: 7
-    Rarity: Common
-    Enabled: true
-    CanBeFound: true
-    Purchasable: true
-    Lore: ''
-  Blaze:
-    Name: '&aBlaze Hat'
-    Mystery Dust: 12
-    Rarity: Common
-    Enabled: true
-    CanBeFound: true
-    Purchasable: true
-    Lore: ''
-  Enderman:
-    Name: '&aEnderman Hat'
-    Mystery Dust: 12
-    Rarity: Common
-    Enabled: true
-    CanBeFound: true
-    Purchasable: true
-    Lore: ''
-  Slime:
-    Name: '&aSlime Hat'
-    Mystery Dust: 12
-    Rarity: Common
-    Enabled: true
-    CanBeFound: true
-    Purchasable: true
-    Lore: ''
-  Magma Cube:
-    Name: '&aMagma Cube Hat'
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-A:
+    Name: '&b&lLetra colorida A'
     Mystery Dust: 15
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
-  Ocelot:
-    Name: '&aOcelot Hat'
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-B:
+    Name: '&b&lLetra colorida B'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-C:
+    Name: '&b&lLetra colorida C'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-D:
+    Name: '&b&lLetra colorida D'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-E:
+    Name: '&b&lLetra colorida E'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-F:
+    Name: '&b&lLetra colorida F'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-G:
+    Name: '&b&lLetra colorida G'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-H:
+    Name: '&b&lLetra colorida H'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-I:
+    Name: '&b&lLetra colorida I'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-J:
+    Name: '&b&lLetra colorida J'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-K:
+    Name: '&b&lLetra colorida K'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-L:
+    Name: '&b&lLetra colorida L'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-M:
+    Name: '&b&lLetra colorida M'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-N:
+    Name: '&b&lLetra colorida N'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-O:
+    Name: '&b&lLetra colorida O'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-P:
+    Name: '&b&lLetra colorida P'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-Q:
+    Name: '&b&lLetra colorida Q'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-R:
+    Name: '&b&lLetra colorida R'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-S:
+    Name: '&b&lLetra colorida S'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-T:
+    Name: '&b&lLetra colorida T'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-U:
+    Name: '&b&lLetra colorida U'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-V:
+    Name: '&b&lLetra colorida V'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-W:
+    Name: '&b&lLetra colorida W'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-X:
+    Name: '&b&lLetra colorida X'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-Y:
+    Name: '&b&lLetra colorida Y'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Rainbow-Letter-Z:
+    Name: '&b&lLetra colorida Z'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Number-0:
+    Name: '&b&lNumero 0'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Number-1:
+    Name: '&b&lNumero 1'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Number-2:
+    Name: '&b&lNumero 2'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Number-3:
+    Name: '&b&lNumero 3'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Number-4:
+    Name: '&b&lNumero 4'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Number-5:
+    Name: '&b&lNumero 5'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Number-6:
+    Name: '&b&lNumero 6'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Number-7:
+    Name: '&b&lNumero 7'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Number-8:
+    Name: '&b&lNumero 8'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Number-9:
+    Name: '&b&lNumero 9'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Symbol-Plus:
+    Name: '&b&lSimbolo +'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Symbol-Pound-Key:
+    Name: '&b&lSimbolo #'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Symbol-Question:
+    Name: '&b&lSimbolo ?'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Symbol-Exclamation:
+    Name: '&b&lSimbolo !'
+    Mystery Dust: 7
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Aquarius Constellation:
+    Name: '&b&lZodiaco Acuario'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
+  Pisces Constellation:
+    Name: '&b&lZodiaco Piscis'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
+  Aries Constellation:
+    Name: '&b&lZodiaco Aries'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
+  Taurus Constellation:
+    Name: '&b&lZodiaco Tauro'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
+  Gemini Constellation:
+    Name: '&b&lZodiaco Geminis'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
+  Cancer Constellation:
+    Name: '&b&lZodiaco Cancer'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
+  Leo Constellation:
+    Name: '&b&lZodiaco Leo'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
+  Virgo Constellation:
+    Name: '&b&lZodiaco Virgo'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
+  Libra Constellation:
+    Name: '&b&lZodiaco Libra'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
+  Scorpio Constellation:
+    Name: '&b&lZodiaco Escorpio'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
+  Sagittarius Constellation:
+    Name: '&b&lZodiaco Sagitario'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
+  Capricorn Constellation:
+    Name: '&b&lZodiaco Capricornio'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
+  Blaze:
+    Name: '&b&lBlaze'
     Mystery Dust: 12
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Enderman:
+    Name: '&b&lEnderman'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Slime:
+    Name: '&b&lSlime'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Magma Cube:
+    Name: '&b&lCubo de Magma'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Ocelot:
+    Name: '&b&lOcelote'
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Ender Dragon:
-    Name: '&9Ender Dragon Hat'
+    Name: '&b&lDragon del End'
     Mystery Dust: 18
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Cave Spider:
-    Name: '&aCave Spider Hat'
+    Name: "&b&lAra\xf1a de Cueva"
     Mystery Dust: 12
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Ghast:
-    Name: '&9Ghast Hat'
+    Name: '&b&lGhast'
     Mystery Dust: 25
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Pig Zombie:
-    Name: '&9Pig Zombie Hat'
+    Name: '&b&lZombie Cerdo'
     Mystery Dust: 18
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Chicken:
-    Name: '&aChicken Hat'
+    Name: '&b&lPollo'
     Mystery Dust: 12
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Pig:
-    Name: '&aPig Hat'
+    Name: '&b&lCerdo'
     Mystery Dust: 12
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Cow:
-    Name: '&aCow Hat'
+    Name: '&b&lVaca'
     Mystery Dust: 12
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Mushroom Cow:
-    Name: '&aMushroom Cow Hat'
+    Name: '&b&lVaca Mushroom'
     Mystery Dust: 15
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Squid:
-    Name: '&9Squid Hat'
+    Name: '&b&lCalamar'
     Mystery Dust: 20
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Iron Golem:
-    Name: '&9Iron Golem Hat'
+    Name: '&b&lGolem de Hierro'
     Mystery Dust: 25
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Horse:
-    Name: '&9Horse Hat'
+    Name: '&b&lCaballo'
     Mystery Dust: 15
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
-  Herobrine:
-    Name: '&9Herobrine Hat'
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
+  Herobine:
+    Name: '&b&lHerobrine'
     Mystery Dust: 25
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Bird:
-    Name: '&aBird Hat'
+    Name: '&b&lPajaro'
     Mystery Dust: 12
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Poke Ball:
-    Name: '&aPoke Ball Hat'
+    Name: '&b&lPoke Bola'
     Mystery Dust: 12
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Mario:
-    Name: '&aMario Hat'
+    Name: '&b&lMario'
     Mystery Dust: 8
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Nurse:
+    Name: '&b&lEnfermero'
+    Mystery Dust: 8
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Freddy Fazbear:
-    Name: '&aFreddy Fazbear Hat'
+    Name: '&b&lFreddy Fazbear'
     Mystery Dust: 12
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Bonnie:
-    Name: '&aBonnie Hat'
+    Name: '&b&lBonnie'
     Mystery Dust: 12
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Jake:
-    Name: '&aJake Hat'
+    Name: '&b&lJake'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Doge:
-    Name: '&aDoge Hat'
+    Name: '&b&lDoge'
     Mystery Dust: 9
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Cool Doge:
+    Name: '&b&lDoge Cool'
+    Mystery Dust: 15
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Polar Bear:
-    Name: '&aPolar Bear Hat'
+    Name: '&b&lOso Polar'
     Mystery Dust: 12
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Rabbit:
-    Name: '&aRabbit Hat'
+    Name: '&b&lConejo'
     Mystery Dust: 12
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Koala:
-    Name: '&aKoala Hat'
+    Name: '&b&lKoala'
     Mystery Dust: 9
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Bee:
-    Name: '&aBee Hat'
+    Name: '&b&lAbeja'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Clownfish:
-    Name: '&9Clownfish Hat'
+    Name: '&b&lPez Payaso'
     Mystery Dust: 7
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Ferret:
-    Name: '&aFerret Hat'
+    Name: '&b&lHuron'
     Mystery Dust: 9
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Walrus:
-    Name: '&aWalrus Hat'
+    Name: '&b&lMorsa'
     Mystery Dust: 12
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Tiger:
-    Name: '&aTiger Hat'
+    Name: '&b&lTigre'
     Mystery Dust: 12
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Monkey:
-    Name: '&aMonkey Hat'
+    Name: '&b&lMono'
     Mystery Dust: 12
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Cactus:
-    Name: '&aCactus Hat'
+    Name: '&b&lCactus'
     Mystery Dust: 7
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Duck:
-    Name: '&9Duck Hat'
+    Name: '&b&lPato'
     Mystery Dust: 15
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Earth:
-    Name: '&aEarth Hat'
+    Name: '&b&lGlobo Terrestre'
     Mystery Dust: 9
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Beach Ball:
-    Name: '&aBeach Ball Hat'
+    Name: '&b&lPelota de Playa'
     Mystery Dust: 12
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Snowglobe:
-    Name: '&aSnowglobe Hat'
+    Name: '&b&lGlobo de Nieve'
     Mystery Dust: 12
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Toaster:
-    Name: '&aToaster Hat'
+    Name: '&b&lTostadora'
     Mystery Dust: 12
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Cheese:
-    Name: '&9Cheese Hat'
+    Name: '&b&lQueso'
     Mystery Dust: 15
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Mars:
-    Name: '&9Mars Hat'
+    Name: '&b&lMarte'
     Mystery Dust: 15
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Penguin:
-    Name: '&aPenguin Hat'
+    Name: "&b&lPing\xfcino"
     Mystery Dust: 12
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Elephant:
-    Name: '&aElephant Hat'
+    Name: '&b&lElefante'
     Mystery Dust: 12
     Rarity: Common
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &e&lCOMUN"
   Astronaut:
-    Name: '&9Astronaut Hat'
+    Name: '&b&lAstronauta'
     Mystery Dust: 15
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Otter:
-    Name: '&9Otter Hat'
+    Name: '&b&lNutria'
     Mystery Dust: 20
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Mummy:
-    Name: '&9Mummy Hat'
+    Name: '&b&lMomia'
     Mystery Dust: 20
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Orc:
-    Name: '&9Orc Hat'
+    Name: '&b&lOrco'
     Mystery Dust: 18
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Minotaur:
-    Name: '&9Minotaur Hat'
+    Name: '&b&lMinotauro'
     Mystery Dust: 18
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Demon Knight:
-    Name: '&9Demon Knight Hat'
+    Name: '&b&lCaballero Demonio'
     Mystery Dust: 21
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   White Wizard:
-    Name: '&9White Wizard Hat'
+    Name: '&b&lMago Blanco'
     Mystery Dust: 15
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Miner:
-    Name: '&9Miner Hat'
+    Name: '&b&lMinero'
     Mystery Dust: 15
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Monk:
-    Name: '&9Monk Hat'
+    Name: '&b&lMonje'
     Mystery Dust: 15
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Wood Elf:
-    Name: '&9Wood Elf Hat'
+    Name: '&b&lElefante de Madera'
     Mystery Dust: 15
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Pirate:
-    Name: '&9Pirate Hat'
+    Name: '&b&lPirata'
     Mystery Dust: 18
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Odin:
-    Name: '&9Odin Hat'
+    Name: '&b&lOdin'
     Mystery Dust: 18
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Ghost:
-    Name: '&9Ghost Hat'
+    Name: '&b&lFantasma'
     Mystery Dust: 20
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
+  Skull:
+    Name: '&b&lCraneo'
+    Mystery Dust: 22
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
+  Pumpkin:
+    Name: '&b&lCalabaza'
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Scarecrow:
-    Name: '&9Scarecrow Hat'
+    Name: '&b&lEspantapajaros'
     Mystery Dust: 20
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Fox:
-    Name: '&9Fox Hat'
+    Name: '&b&LZorro'
     Mystery Dust: 18
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Pug:
-    Name: '&9Pug Hat'
+    Name: '&b&lPerro'
     Mystery Dust: 18
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Owl:
-    Name: '&9Owl Hat'
+    Name: '&b&lBuho'
     Mystery Dust: 20
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Panda:
-    Name: '&9Panda Hat'
+    Name: '&b&lPanda'
     Mystery Dust: 20
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Sloth:
-    Name: '&9Sloth Hat'
+    Name: '&b&lPerezoso'
     Mystery Dust: 25
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Gorilla:
-    Name: '&9Gorilla Hat'
+    Name: '&b&lGorilla'
     Mystery Dust: 25
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
   Snowman:
-    Name: '&5Snowman Hat'
+    Name: "&b&lMu\xf1eco de Nieve"
     Mystery Dust: 43
     Rarity: Epic
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&lEPICO"
   Reindeer:
-    Name: '&5Reindeer Hat'
+    Name: '&b&lReno'
     Mystery Dust: 43
     Rarity: Epic
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&lEPICO"
   Shulker:
-    Name: '&5Shulker Hat'
+    Name: '&b&lShulker'
     Mystery Dust: 45
     Rarity: Epic
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&lEPICO"
   Turtle:
-    Name: '&5Turtle Hat'
+    Name: '&b&lTortuga'
     Mystery Dust: 45
     Rarity: Epic
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&lEPICO"
   Solved Rubiks Cube:
-    Name: '&5Solved Rubik''s Cube Hat'
+    Name: '&b&lCubo Rubik Resuelto'
     Mystery Dust: 45
     Rarity: Epic
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &5&LEPICO"
   Scrambled Rubiks Cube:
-    Name: '&6Scrambled Rubik''s Cube Hat'
+    Name: '&b&lCubo Rubik Revuelto'
     Mystery Dust: 55
     Rarity: Legendary
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
   Rainbow Glitch:
-    Name: '&9Rainbow Glitch Hat'
+    Name: '&b&lGlitch Colorido'
     Mystery Dust: 18
     Rarity: Rare
     Enabled: true
     CanBeFound: true
     Purchasable: true
-    Lore: ''
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
+  Pacman:
+    Name: '&b&lPacman'
+    Mystery Dust: 18
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - "&8&l\xbb &fRareza: &9&lRARO"
