@@ -1,4 +1,4 @@
-Title: '&8&l「 &9Excellent Crates - Editor &8&l」'
+Title: '&8&l「 &6OrioCrates - Editor &8&l」'
 Size: 27
 
 Content: {}
@@ -13,7 +13,7 @@ Editor:
           Durability: 0
           Name: '&6&lCrate Manager'
           Lore:
-          - '&eCreate and edit crates here!'
+          - '&eCrea Y Edita Crates Aqui!'
           Item_Flags: []
           Unbreakable: false
     Slots: 11
@@ -28,7 +28,7 @@ Editor:
           Durability: 0
           Name: '&6&lKey Manager'
           Lore:
-          - '&eCreate and edit keys here!'
+          - '&eCrea Y Edita Llaves Aqui!'
           Item_Flags: []
           Unbreakable: false
     Slots: 15
