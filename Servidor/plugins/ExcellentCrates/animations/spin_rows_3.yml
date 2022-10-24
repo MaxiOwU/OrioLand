@@ -1,7 +1,7 @@
 Type: SPIN
 
 Menu:
-  Title: '&nOpening crate...'
+  Title: '&nAbriendo Crate...'
   Size: 45
 
   Content:
@@ -18,7 +18,7 @@ Menu:
         default:
           Item:
             Material: 'REDSTONE_TORCH'
-            Name: '&c&l&nPrize Line'
+            Name: '&c&l&nLinea de Premio'
       Slots: '18,26'
 
     green_panes1:
@@ -26,7 +26,7 @@ Menu:
         default:
           Item:
             Material: 'LIME_STAINED_GLASS_PANE'
-            Name: '&aYour Prize »'
+            Name: '&aTu Premio »'
       Slots: '19'
       Type: RAINBOW_SYNC
 
@@ -35,7 +35,7 @@ Menu:
         default:
           Item:
             Material: 'LIME_STAINED_GLASS_PANE'
-            Name: '&a« Your Prize »'
+            Name: '&a« Tu Premio »'
       Slots: '21,23'
       Type: RAINBOW_SYNC
 
@@ -44,7 +44,7 @@ Menu:
         default:
           Item:
             Material: 'LIME_STAINED_GLASS_PANE'
-            Name: '&a« Your Prize'
+            Name: '&a« Tu Premio'
       Slots: '25'
       Type: RAINBOW_SYNC
 
