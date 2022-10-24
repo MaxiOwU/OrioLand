@@ -1,0 +1,13 @@
+[22/10 08:04:37] [info] panchito5647 | quest panchito5647/halloween | pushing quest halloween = da755fe9-b7b0-4d06-9f0e-566a5c835c02
+[22/10 08:04:37] [info] panchito5647 | quest panchito5647/halloween | started quest : cause ACTIVATOR_PHYSICAL
+[22/10 08:04:37] [info] panchito5647 | quest panchito5647/halloween/main | started branch
+[22/10 08:05:11] [info] panchito5647 | quest panchito5647/halloween | goto QUEST_SUCCESS | applying goto
+[22/10 08:05:11] [info] panchito5647 | quest panchito5647/halloween | give rewards for group, debug : group rewards processing debug |
+model : halloween
+groups : 
+quest players : 71eab57f-4681-3dd8-b623-58a104e68fc2
+- preparing to process player 71eab57f-4681-3dd8-b623-58a104e68fc2
+-- processing player 71eab57f-4681-3dd8-b623-58a104e68fc2, panchito5647
+--- end type : SUCCESS
+--- groups here : 
+[22/10 08:05:11] [info] panchito5647 | quest panchito5647/halloween | stopped quest : cause GOTO

@@ -1,0 +1,41 @@
+[18/10 03:51:06] [info] Geo | connected
+[18/10 03:51:06] [info] Geo | fetched user data : no value ; created it
+[18/10 03:51:06] [info] Geo | pushing user d734784a-94a6-3f6e-9d9a-2681880e0c40, active quests : 
+[18/10 03:51:06] [info] Geo | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[18/10 03:51:06] [info] Geo | fetched user quests : 
+[18/10 04:23:18] [info] Geo | disposing user quests data : 
+- must dispose quests
+[18/10 04:23:18] [info] Geo | disposed user data
+[18/10 04:23:18] [info] Geo | disconnected
+[18/10 16:49:26] [info] Geo | connected
+[18/10 16:49:26] [info] Geo | fetched user data : active quests 
+[18/10 16:49:26] [info] Geo | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[18/10 16:49:26] [info] Geo | fetched user quests : 
+[18/10 17:11:32] [info] Geo | disposing user quests data : 
+- must dispose quests
+[18/10 17:11:32] [info] Geo | disposed user data
+[18/10 17:11:32] [info] Geo | disconnected
+[19/10 03:50:15] [info] Geo | connected
+[19/10 03:50:15] [info] Geo | fetched user data : active quests 
+[19/10 03:50:15] [info] Geo | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[19/10 03:50:15] [info] Geo | fetched user quests : 
+[19/10 04:17:02] [info] Geo | disposing user quests data : 
+- must dispose quests
+[19/10 04:17:02] [info] Geo | disposed user data
+[19/10 04:17:02] [info] Geo | disconnected
+[19/10 16:46:50] [info] Geo | connected
+[19/10 16:46:50] [info] Geo | fetched user data : active quests 
+[19/10 16:46:50] [info] Geo | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[19/10 16:46:50] [info] Geo | fetched user quests : 
+[19/10 17:00:44] [info] Geo | disposing user quests data : 
+- must dispose quests
+[19/10 17:00:44] [info] Geo | disposed user data
+[19/10 17:00:44] [info] Geo | disconnected

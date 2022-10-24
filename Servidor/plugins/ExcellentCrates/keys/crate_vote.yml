@@ -1,0 +1,13 @@
+Name: §a§lCrate Vote
+Virtual: false
+Item:
+  Material: TRIPWIRE_HOOK
+  Amount: 1
+  Durability: 0
+  Name: '&a&lLlave Vote'
+  Lore:
+  - '&fUsa esta llave en &a/Warp crates'
+  Enchants:
+    abrasion: 1
+  Item_Flags: []
+  Unbreakable: false

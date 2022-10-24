@@ -1,0 +1,11 @@
+[21/10 00:07:15] [info] thiaguitooo | connected
+[21/10 00:07:15] [info] thiaguitooo | fetched user data : no value ; created it
+[21/10 00:07:15] [info] thiaguitooo | pushing user f66abbe8-6e3e-3314-9977-f1aefa43b8bc, active quests : 
+[21/10 00:07:15] [info] thiaguitooo | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[21/10 00:07:15] [info] thiaguitooo | fetched user quests : 
+[21/10 00:07:45] [info] thiaguitooo | disposing user quests data : 
+- must dispose quests
+[21/10 00:07:45] [info] thiaguitooo | disposed user data
+[21/10 00:07:45] [info] thiaguitooo | disconnected

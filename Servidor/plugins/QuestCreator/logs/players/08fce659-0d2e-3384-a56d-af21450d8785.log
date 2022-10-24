@@ -1,0 +1,11 @@
+[20/10 18:31:07] [info] ivanlopezxcv | connected
+[20/10 18:31:07] [info] ivanlopezxcv | fetched user data : no value ; created it
+[20/10 18:31:07] [info] ivanlopezxcv | pushing user 08fce659-0d2e-3384-a56d-af21450d8785, active quests : 
+[20/10 18:31:07] [info] ivanlopezxcv | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[20/10 18:31:07] [info] ivanlopezxcv | fetched user quests : 
+[20/10 18:39:42] [info] ivanlopezxcv | disposing user quests data : 
+- must dispose quests
+[20/10 18:39:42] [info] ivanlopezxcv | disposed user data
+[20/10 18:39:42] [info] ivanlopezxcv | disconnected

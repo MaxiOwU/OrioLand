@@ -1,0 +1,41 @@
+[23/10 16:56:43] [info] aso | connected
+[23/10 16:56:43] [info] aso | fetched user data : no value ; created it
+[23/10 16:56:43] [info] aso | pushing user 492c8f52-56b6-3101-98ee-f5c4da702e8a, active quests : 
+[23/10 16:56:43] [info] aso | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 16:56:43] [info] aso | fetched user quests : 
+[23/10 17:05:23] [info] aso | disposing user quests data : 
+- must dispose quests
+[23/10 17:05:23] [info] aso | disposed user data
+[23/10 17:05:23] [info] aso | disconnected
+[23/10 19:10:27] [info] aso | connected
+[23/10 19:10:27] [info] aso | fetched user data : active quests 
+[23/10 19:10:27] [info] aso | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 19:10:27] [info] aso | fetched user quests : 
+[23/10 19:37:59] [info] aso | disposing user quests data : 
+- must dispose quests
+[23/10 19:37:59] [info] aso | disposed user data
+[23/10 19:37:59] [info] aso | disconnected
+[23/10 19:38:03] [info] aso | connected
+[23/10 19:38:03] [info] aso | fetched user data : active quests 
+[23/10 19:38:03] [info] aso | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 19:38:03] [info] aso | fetched user quests : 
+[23/10 19:38:20] [info] aso | disposing user quests data : 
+- must dispose quests
+[23/10 19:38:20] [info] aso | disposed user data
+[23/10 19:38:20] [info] aso | disconnected
+[23/10 19:38:53] [info] aso | connected
+[23/10 19:38:53] [info] aso | fetched user data : active quests 
+[23/10 19:38:53] [info] aso | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 19:38:53] [info] aso | fetched user quests : 
+[23/10 19:49:35] [info] aso | disposing user quests data : 
+- must dispose quests
+[23/10 19:49:35] [info] aso | disposed user data
+[23/10 19:49:35] [info] aso | disconnected

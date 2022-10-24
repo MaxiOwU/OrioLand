@@ -1,0 +1,21 @@
+[22/10 20:48:35] [info] Josesylas | connected
+[22/10 20:48:36] [info] Josesylas | fetched user data : no value ; created it
+[22/10 20:48:36] [info] Josesylas | pushing user 0750b923-037c-3b26-b91d-1c2eafd8c85d, active quests : 
+[22/10 20:48:36] [info] Josesylas | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[22/10 20:48:36] [info] Josesylas | fetched user quests : 
+[22/10 21:08:55] [info] Josesylas | disposing user quests data : 
+- must dispose quests
+[22/10 21:08:55] [info] Josesylas | disposed user data
+[22/10 21:08:55] [info] Josesylas | disconnected
+[22/10 21:24:57] [info] Josesylas | connected
+[22/10 21:24:57] [info] Josesylas | fetched user data : active quests 
+[22/10 21:24:57] [info] Josesylas | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[22/10 21:24:57] [info] Josesylas | fetched user quests : 
+[22/10 21:36:00] [info] Josesylas | disposing user quests data : 
+- must dispose quests
+[22/10 21:36:00] [info] Josesylas | disposed user data
+[22/10 21:36:00] [info] Josesylas | disconnected

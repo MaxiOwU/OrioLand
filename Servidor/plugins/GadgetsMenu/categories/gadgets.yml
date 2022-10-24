@@ -23,18 +23,18 @@ Gadgets:
         - '&bEl troll dice: &fTrololololololol'
         - '&bEl staff dice: &fPor favor no rompas las reglas.'
         - '&bTu mama dice: &fJuegas demasiados videojuegos, para un poco.'
-        - "&bAnna dice: &f\xbfQuieres construir un mu\xf1eco de nieve?"
-        - "&bMinion dicen: &f\xa1BEE DO BEE DO BEE DO!"
-        - "&bHerobrine says: &f\xa1Nadie sobrevivira!"
+        - '&bAnna dice: &f¿Quieres construir un muñeco de nieve?'
+        - '&bMinion dicen: &f¡BEE DO BEE DO BEE DO!'
+        - '&bHerobrine says: &f¡Nadie sobrevivira!'
         - '&bEl perro dice: &fMeow!'
         - '&bDarth Vader dice: &fYo soy tu padre.'
         - '&bElsa dice: &fEl frio nunca me molesto.'
-        - "&bEl creeper dice: &fNo, no te preocupes. No explotar\xe9 en tu cara"
+        - '&bEl creeper dice: &fNo, no te preocupes. No explotaré en tu cara'
         - '&bNotch dice: &fLa vida es mas divertida si juegas Minecraft.'
-        - "&bMario dice: &f\xa1It's me, Mario!"
+        - '&bMario dice: &f¡It''s me, Mario!'
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &e&lCOMUN"
+        - '&8&l» &fRareza: &e&lCOMUN'
       Fortune Cookie:
         Name: '&b&lFortune Cookie Gadget'
         Material: COOKIE
@@ -46,27 +46,26 @@ Gadgets:
         Purchasable: true
         Messages:
           Player:
-          - "&e{PLAYER}&f: \xa1Oh mira, una Galleta!"
-          - "&e{PLAYER}&f: \xa1Estaba deliciosa!"
-          - "&e{PLAYER}&f: Pero espera, habia un papel dentro de ella \xbfQue dice?"
+          - '&e{PLAYER}&f: ¡Oh mira, una Galleta!'
+          - '&e{PLAYER}&f: ¡Estaba deliciosa!'
+          - '&e{PLAYER}&f: Pero espera, habia un papel dentro de ella ¿Que dice?'
           Fortune Cookie:
-          - "&eGalleta de la Fortuna&f: Si no est\xe1 contento con el lugar en el\
-            \ que se encuentra, siga algunos pasos A la izquierda. Si a\xfan no est\xe1\
-            \ satisfecho, no podemos ayudarlo."
+          - '&eGalleta de la Fortuna&f: Si no está contento con el lugar en el que
+            se encuentra, siga algunos pasos A la izquierda. Si aún no está satisfecho,
+            no podemos ayudarlo.'
           - '&eGalleta de la Fortuna&f: Algunos aprendemos de los errores de otros;
             el resto de los otros.'
-          - "&eGalleta de la Fortuna&f: Ma\xf1ana, gire a la izquierda. Luego un giro\
-            \ a la derecha. Luego otro giro a la izquierda. Ahora ha llegado a su\
-            \ destino."
-          - "&eGalleta de la Fortuna&f: Eres \xfanico, como todos los dem\xe1s."
+          - '&eGalleta de la Fortuna&f: Mañana, gire a la izquierda. Luego un giro
+            a la derecha. Luego otro giro a la izquierda. Ahora ha llegado a su destino.'
+          - '&eGalleta de la Fortuna&f: Eres único, como todos los demás.'
           - '&eGalleta de la Fortuna&f: Puede o no ser una persona indecisa.'
-          - "&eGalleta de la Fortuna&f: La fortuna que buscas est\xe1 dentro de otra\
-            \ galleta."
-          - "&eGalleta de la Fortuna&f: Hay tres tipos de personas en el mundo: las\
-            \ qui\xe9n puede contar y los que no pueden."
+          - '&eGalleta de la Fortuna&f: La fortuna que buscas está dentro de otra
+            galleta.'
+          - '&eGalleta de la Fortuna&f: Hay tres tipos de personas en el mundo: las
+            quién puede contar y los que no pueden.'
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &e&lCOMUN"
+        - '&8&l» &fRareza: &e&lCOMUN'
       Tetherball:
         Name: '&b&lTetherball'
         Material: OAK_FENCE
@@ -78,7 +77,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Diving Board:
         Name: '&b&lPiscina'
         Material: CAULDRON
@@ -89,14 +88,14 @@ Gadgets:
         CanBeFound: true
         Purchasable: true
         Messages:
-        - "&\xa1Backflip!"
-        - "&b\xa1Frontflip!"
-        - "&b\xa1Clavado!"
-        - "&b\xa1Golpe de Panza!"
-        - "&b\xa1Bala de Ca\xf1on!"
+        - '&¡Backflip!'
+        - '&b¡Frontflip!'
+        - '&b¡Clavado!'
+        - '&b¡Golpe de Panza!'
+        - '&b¡Bala de Cañon!'
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Trampoline:
         Name: '&b&lTrampolin'
         Material: HOPPER
@@ -108,7 +107,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Flower Giver:
         Name: '&b&lFlower Giver Gadget'
         Material: FLOWER_POT
@@ -121,7 +120,7 @@ Gadgets:
         Messages:
           Target-A-Player: '&cTienes que hacer Click Derecho en un jugador.'
           Already-Had-A-Flower: '&cEste jugador ya tiene una Rosa.'
-          Sent-A-Flower: "&a\xa1Has enviado una Rosa a &e{PLAYER}&a!"
+          Sent-A-Flower: '&a¡Has enviado una Rosa a &e{PLAYER}&a!'
           Already-Sent-A-Request: '&cLe has enviado una solicitud de Rosa a {PLAYER}.'
           Received-Flower: '&e{PLAYER} &ate ha regalado una Rosa.'
           Accept: '&2&l&l[ACCEPTAR]'
@@ -134,7 +133,7 @@ Gadgets:
           Right-Click-To-Remove-Flower: '&eClick Derecho para remover tu Rosa.'
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       Sand Castle:
         Name: '&b&lCastillo de Arena'
         Material: head:9918b3b7516b1946566fd7b287f82ef44afafea9a2c3bd385691f7f0f42097f8
@@ -146,7 +145,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       BBQ Grill:
         Name: '&b&lParrilla de BBQ'
         Material: OBSIDIAN
@@ -158,7 +157,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Pocket Beach:
         Name: '&b&lSilla de Playa'
         Material: SAND
@@ -170,7 +169,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Ice Cream Stand:
         Name: '&b&lCarrito de Helados'
         Material: head:239299c36b54bb11e57c686bfe53a5c1c441310f90f69347bacddbf343609d
@@ -181,14 +180,14 @@ Gadgets:
         CanBeFound: true
         Purchasable: true
         Messages:
-        - "&eSr de los Helados&f: De Fresa... Doble chcolate... Y vainilla... \xbf\
-          Olvide algo?"
-        - "&eSr de los Helados&f: Helado de Fresa, \xa1Mi favorito!"
+        - '&eSr de los Helados&f: De Fresa... Doble chcolate... Y vainilla... ¿Olvide
+          algo?'
+        - '&eSr de los Helados&f: Helado de Fresa, ¡Mi favorito!'
         - '&eSr de los Helados&f: Me temo que no tengo cambio en este momento :('
-        - "&eSr de los Helados&f: Lo sentimos, \xa1solo aceptamos efectivo por ahora!"
+        - '&eSr de los Helados&f: Lo sentimos, ¡solo aceptamos efectivo por ahora!'
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Tic Tac Toe:
         Name: '&b&lTic Tac Toe Gadget'
         Material: head:a6864136e374f5d676fb4f5b03e10a7bcdb4190b376378ae9492045fb4adf9d
@@ -259,7 +258,7 @@ Gadgets:
             - '&7equipo Azul.'
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
   Mobs And NPCs:
     Name: '&b&lArtefactos de Mobs'
     Material: CREEPER_HEAD
@@ -281,7 +280,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       CATapult:
         Name: '&b&lCatapulta'
         Material: OCELOT_SPAWN_EGG
@@ -293,7 +292,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       When Pigs Fly:
         Name: '&b&lCerdo Volador'
         Material: SADDLE
@@ -305,7 +304,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       Creeper Astronaut:
         Name: '&b&lCreeper Astronauta'
         Material: CREEPER_SPAWN_EGG
@@ -317,7 +316,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       Exploding Sheep:
         Name: '&b&lOveja explosiva'
         Material: SHEARS
@@ -330,7 +329,7 @@ Gadgets:
         Remain-Time: '&c&l{REMAIN_TIME}s'
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       Bat Launcher:
         Name: '&b&lPistola de Muercielagos'
         Material: IRON_HORSE_ARMOR
@@ -343,7 +342,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       Scarecrow:
         Name: '&b&lEspantapajaros'
         Material: JACK_O_LANTERN
@@ -356,7 +355,7 @@ Gadgets:
         Jack-O-Lantern-DisplayName: '&cScarecrow'
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
   Movement:
     Name: '&b&lArtefactos de Movimiento'
     Material: GOLDEN_BOOTS
@@ -378,7 +377,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Teleport Stick:
         Name: '&b&lPalo teletransportador'
         Material: STICK
@@ -391,7 +390,7 @@ Gadgets:
         Range: 30
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       Fire Trail:
         Name: '&b&lRastro de Fuego'
         Material: BLAZE_POWDER
@@ -403,7 +402,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       Paint Trail:
         Name: '&b&lRastro de Pintura'
         Material: MAGENTA_DYE
@@ -417,7 +416,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       Parachute:
         Name: '&b&lParacaidas'
         Material: LEAD
@@ -429,7 +428,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Teleporter:
         Name: '&b&lTeletransportador'
         Material: ENDER_EYE
@@ -452,7 +451,7 @@ Gadgets:
           Aborted-Teleport-Sequence: '&cAbortando la secuencia de teletransportacion...'
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Rocket:
         Name: '&b&lCohete'
         Material: FIREWORK_ROCKET
@@ -464,7 +463,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Let It Snow:
         Name: '&b&lTormenta de Nieve'
         Material: SNOW_BLOCK
@@ -476,7 +475,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
   Musical:
     Name: '&b&lArtefactos de Musica'
     Material: JUKEBOX
@@ -498,7 +497,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
         Items:
           GUI-Name: Jukebox
           Track:
@@ -523,7 +522,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
         Items:
           GUI-Name: Radio
           Track:
@@ -550,7 +549,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       DJ Booth:
         Name: '&b&lCabina de DJ'
         Material: NOTE_BLOCK
@@ -563,7 +562,11 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
+        Blacklist:
+        - SAND
+        - GRAVEL
+        - SPAWNER
   Projectile:
     Name: '&b&lArtefactos de Projectiles'
     Material: BOW
@@ -585,7 +588,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
         Actionbar-Message: '{GADGET} &r- {MOB}'
         Mob-Name:
           Pig: Cerdo
@@ -593,7 +596,7 @@ Gadgets:
           Ocelot: Ocelote
           Cow: Vaca
           Creeper: Creeper
-          Spider: "Ara\xc3\xb1a"
+          Spider: AraÃ±a
           Squid: Calamar
           Chicken: Pollo
           Sheep: Oveja
@@ -604,7 +607,7 @@ Gadgets:
           Zombie: Zombie
           Skeleton: Esqueleto
           MushroomCow: Vaca Mushroom
-          CaveSpider: "Ara\xc3\xb1a de Cueva"
+          CaveSpider: AraÃ±a de Cueva
           PigZombie: Zombie Cerdo
       Railgun:
         Name: '&b&lPistola'
@@ -617,7 +620,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &e&lCOMUN"
+        - '&8&l» &fRareza: &e&lCOMUN'
       Explosive Bow:
         Name: '&b&lArco Explosivo'
         Material: BOW
@@ -629,7 +632,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &e&lCOMUN"
+        - '&8&l» &fRareza: &e&lCOMUN'
       Paintball Gun:
         Name: '&b&lPistola de Pintura'
         Material: DIAMOND_HORSE_ARMOR
@@ -646,7 +649,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &e&lCOMUN"
+        - '&8&l» &fRareza: &e&lCOMUN'
       Melon Launcher:
         Name: '&b&lLanzador de Sandias'
         Material: MELON
@@ -658,7 +661,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &e&lCOMUN"
+        - '&8&l» &fRareza: &e&lCOMUN'
   Visual:
     Name: '&b&lArtefactos Visuales'
     Material: head:fec5963e1f78f2f05943f4dd32224661374c220ecfde1e54754f5ee1e555dd
@@ -680,7 +683,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&LEPICO"
+        - '&8&l» &fRareza: &5&LEPICO'
       Pyromaniac:
         Name: '&b&lPiromano'
         Material: FLINT_AND_STEEL
@@ -692,9 +695,9 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       Diamond Shower:
-        Name: "&b&lBa\xc3\xb1era de Diamantes"
+        Name: '&b&lBaÃ±era de Diamantes'
         Material: DIAMOND
         Cooldown: 60
         Mystery Dust: 75
@@ -704,7 +707,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Gold Fountain:
         Name: '&b&lFuente de Oro'
         Material: GOLD_NUGGET
@@ -716,7 +719,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       Kawarimi No Jutsu:
         Name: '&b&lKawarimi No Jutsu'
         Material: OAK_LOG
@@ -728,7 +731,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       Cryotube:
         Name: '&b&lCriotubo'
         Material: SNOWBALL
@@ -740,7 +743,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       Ghosts:
         Name: '&b&lFantasmas'
         Material: WITHER_SKELETON_SKULL
@@ -752,7 +755,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       Party Popper:
         Name: '&b&lFiesta de Lanas'
         Material: ENDER_CHEST
@@ -765,7 +768,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       Poop Bomb:
         Name: '&b&lBomba de Poop'
         Material: COCOA_BEANS
@@ -777,7 +780,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       TNT Fountain:
         Name: '&b&lFuente de TNT'
         Material: TNT
@@ -789,7 +792,7 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Dracula:
         Name: '&b&lDracula'
         Material: GHAST_TEAR
@@ -801,4 +804,4 @@ Gadgets:
         Purchasable: true
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &e&lCOMUN"
+        - '&8&l» &fRareza: &e&lCOMUN'

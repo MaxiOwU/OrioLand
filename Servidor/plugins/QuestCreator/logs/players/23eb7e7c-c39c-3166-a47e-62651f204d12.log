@@ -1,0 +1,31 @@
+[16/10 15:17:41] [info] Rojemon_57YT | connected
+[16/10 15:17:41] [info] Rojemon_57YT | fetched user data : no value ; created it
+[16/10 15:17:41] [info] Rojemon_57YT | pushing user 23eb7e7c-c39c-3166-a47e-62651f204d12, active quests : 
+[16/10 15:17:41] [info] Rojemon_57YT | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 15:17:41] [info] Rojemon_57YT | fetched user quests : 
+[16/10 15:19:44] [info] Rojemon_57YT | disposing user quests data : 
+- must dispose quests
+[16/10 15:19:44] [info] Rojemon_57YT | disposed user data
+[16/10 15:19:44] [info] Rojemon_57YT | disconnected
+[16/10 15:20:59] [info] Rojemon_57YT | connected
+[16/10 15:20:59] [info] Rojemon_57YT | fetched user data : active quests 
+[16/10 15:20:59] [info] Rojemon_57YT | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 15:20:59] [info] Rojemon_57YT | fetched user quests : 
+[16/10 15:28:57] [info] Rojemon_57YT | disposing user quests data : 
+- must dispose quests
+[16/10 15:28:57] [info] Rojemon_57YT | disposed user data
+[16/10 15:28:57] [info] Rojemon_57YT | disconnected
+[16/10 15:29:03] [info] Rojemon_57YT | connected
+[16/10 15:29:03] [info] Rojemon_57YT | fetched user data : active quests 
+[16/10 15:29:03] [info] Rojemon_57YT | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 15:29:03] [info] Rojemon_57YT | fetched user quests : 
+[16/10 15:49:46] [info] Rojemon_57YT | disposing user quests data : 
+- must dispose quests
+[16/10 15:49:46] [info] Rojemon_57YT | disposed user data
+[16/10 15:49:46] [info] Rojemon_57YT | disconnected

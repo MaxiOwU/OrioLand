@@ -1,0 +1,11 @@
+[21/10 19:04:12] [info] Xx_PolRV_xX | connected
+[21/10 19:04:12] [info] Xx_PolRV_xX | fetched user data : no value ; created it
+[21/10 19:04:12] [info] Xx_PolRV_xX | pushing user 64c077a9-bc03-3ed4-bcf7-5bd2b88d1ede, active quests : 
+[21/10 19:04:12] [info] Xx_PolRV_xX | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[21/10 19:04:12] [info] Xx_PolRV_xX | fetched user quests : 
+[21/10 19:28:15] [info] Xx_PolRV_xX | disposing user quests data : 
+- must dispose quests
+[21/10 19:28:15] [info] Xx_PolRV_xX | disposed user data
+[21/10 19:28:15] [info] Xx_PolRV_xX | disconnected

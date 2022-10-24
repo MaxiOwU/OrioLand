@@ -40,7 +40,7 @@ MainMenu:
     Lore:
     - '&f'
     - '&fDesbloquea nuevos amigos que te'
-    - "&facompa\xf1aran en todo el lobby."
+    - '&facompañaran en todo el lobby.'
   Morphs:
     Name: '&b&lTransformaciones'
     Material: ZOMBIE_HEAD
@@ -69,4 +69,4 @@ MainMenu:
     - '&f'
     - '&fEste tipo de particulas son diferentes,'
     - '&fpodras utilizar varias con efectos y formas diferentes.'
-Slot-Layout: 11, 12, 13, 14, 15, 19, 20, 22, 24, 25
+Slot-Layout: 10, 12, 14, 16, 27, 29, 31, 33, 35

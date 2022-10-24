@@ -1,0 +1,642 @@
+# -------------------- Commands --------------------
+
+commandParameterUsageModel: Görev
+commandParameterUsageBranch: bölüm
+commandParameterUsageObject: amaç
+commandParameterUsagePartId: ilerleme bölümü kimliği
+commandParameterUsageGUI: ekran
+commandParameterUsagePool: havuz
+commandParameterUsageState: durum
+commandParameterUsagePointsCategory: kategori
+commandParameterUsageVariable: değişken
+
+commandDescriptionQuestcreator: Görev yaratıcı için ana komut
+commandDescriptionQuestcreatorReload: Görev yaratıcıyı yeniden yükle 
+commandDescriptionQuestcreatorActionbar: görev eylem çubuğunu aç/kapat
+commandDescriptionQuestcreatorBossbar: görev boss çubuğunu aç/kapat
+commandDescriptionQuestcreatorComplete: tamamlandı olarak işaretle
+commandDescriptionQuestcreatorCompletebranch: şu anki bölüm amacını tamamlandı olarak işaretle
+commandDescriptionQuestcreatorCoop: ortak görevi yönet
+commandDescriptionQuestcreatorGoto: görevi güncelle
+commandDescriptionQuestcreatorGPS: görev GPS'ini aç/kapat
+commandDescriptionQuestcreatorIncreaseProgress: görevin ilerlemesini arttır
+commandDescriptionQuestcreatorEdit: oyun içi düzenle
+commandDescriptionQuestcreatorJournal: görev günlüğünü yönet
+commandDescriptionQuestcreatorList: görevleri listele
+commandDescriptionQuestcreatorLogspam: hata ayıklama için log spamini aç/kapat
+commandDescriptionQuestcreatorPoints: görev puanlarını yönet
+commandDescriptionQuestcreatorMenu: özel menü aç
+commandDescriptionQuestcreatorPerformglobalbranch: global bir daldaki tüm amaçları gerçekleştir
+commandDescriptionQuestcreatorPerformglobalobject: global bir amaç gerçekleştir
+commandDescriptionQuestcreatorProgress: görev durumunu kontrol et
+commandDescriptionQuestcreatorQueue: sıra durumunu kontrol et
+commandDescriptionQuestcreatorStop: görev(leri) durdur
+commandDescriptionQuestcreatorStart: görevi başlat
+commandDescriptionQuestcreatorState: durum ayarla
+commandDescriptionQuestcreatorReset: görev(leri) yeniden başlat
+commandDescriptionQuestcreatorResetpool: havuz(ları) yeniden başlat
+commandDescriptionQuestcreatorScoreboard: puan tabelasını aç/kapat
+commandDescriptionQuestcreatorServerVariable: sunucu değişkenklerini yönet
+commandDescriptionQuestcreatorSetpooltokens: havuz biletlerini ayarla
+commandDescriptionQuestcreatorTitle: görev başlığını aç/kapat
+commandDescriptionQuestcreatorUser: bir kullanıcının verilerini gör
+commandDescriptionQuestcreatorVariable: değişkenleri yönet
+
+messageCommandInvalidModel: |
+  &7görev modeli &c{value}, &7argüman &c{argument} &7için geçersiz.
+
+messageCommandInvalidBranch: |
+  &7görev bölümü &c{value}, &7argüman &c{argument} &7için geçersiz.
+
+messageCommandInvalidQuestObject: |
+  &7görev amacı &c{value}, &7argüman &c{argument} &7için geçersiz.
+
+messageCommandQuestcreatorBungeePlayerIsntOffline: |
+  &7bu oyuncu başka bir sunucudan bağlanmış. lütfen önce o sunucuya bağlanın.
+
+messageCommandQuestcreatorActionbarToggleOn: |
+  &7görev aksiyon çubuğunuz &aaçıldı&7.
+
+messageCommandQuestcreatorActionbarToggleOff: |
+  &7görev aksiyon çubuğunuz &ckapatıldı&7.
+
+messageCommandQuestcreatorBossbarToggleOn: |
+  &7görev boss çubuğunuz &aaçıldı&7.
+
+messageCommandQuestcreatorBossbarToggleOff: |
+  &7görev boss çubuğunuz &ckapatıldı&7.
+
+messageCommandQuestcreatorCoopNotInvited: |
+  &7Bekleyen bir ortak görev davetiniz yok.
+
+messageCommandQuestcreatorCoopLeaveEmpty: |
+  &7ayrılacak bir göreviniz yok.
+
+messageCommandQuestcreatorCoopLeaveCouldnt: |
+  &7Görevden ayrılamazsınız : &c{quest}&7.
+
+messageCommandQuestcreatorCoopLeaveLeft: |
+  &7Görevden ayrıldınız : &a{quest}&7.
+
+messageCommandQuestcreatorComplete: |
+  &7Göreviniz tamamlandı olarak işaretlendi &a{amount} time{plural} &7: &a{quest}&7.
+
+messageCommandQuestcreatorCompleteBranch: |
+  &a{quest} &7görevinizdeki bölüm için olan amacınız gerçekleştirdiniz &a{branch}&7.
+
+messageCommandQuestcreatorCompleteBranchNoQuest: |
+  &7Bu görev mevcut değil.
+
+messageCommandQuestcreatorGoto: |
+  &7Görevinizde değişiklikler yapıldı : &a{quest}&7.
+
+messageCommandQuestcreatorGotoNoQuest: |
+  &7Bu görev mevcut değil.
+
+messageCommandQuestcreatorGPSToggleOn: |
+  &7Görev GPS'iniz &aaçıldı&7.
+
+messageCommandQuestcreatorGPSToggleOff: |
+  &7Görev GPS'iniz &ckapatıldı&7.
+
+messageCommandQuestcreatorIncreaseProgressNotFound: |
+  &7İlerleme için bir şey bulunamadı.
+
+messageCommandQuestcreatorIncreaseProgressIncreased: |
+  &7ilerleme durumunuz : &a{progression}&7.
+
+messageCommandQuestcreatorJournalToggleOn: |
+  &7Görev günlüğünüz &aaçıldı&7.
+
+messageCommandQuestcreatorJournalToggleOff: |
+  &7Görev günlüğünüz &ckapatıldı&7.
+
+messageCommandQuestcreatorListEmpty: |
+  &7Herhangi bir göreviniz yok.
+
+messageCommandQuestcreatorListHeader: |
+  &2Görevler :
+
+messageCommandQuestcreatorListElement: |
+  &7- {id} : {name}
+
+messageCommandQuestcreatorLogspamToggleOn: |
+  &a{player}&7 Adlı oyuncu için log spam &aaçıldı&7.
+
+messageCommandQuestcreatorLogspamToggleOff: |
+  &c{player}&7 Adlı oyuncu için log spam &ckapatıldı&7.
+
+messageCommandQuestcreatorRunglobalbranchUnknown: |
+  &7bilinmeyen global bölüm &c{branch}&7.
+
+messageCommandQuestcreatorRunglobalobjectUnknown: |
+  &7bilinmeyen global amaç &c{object}&7.
+
+messageCommandQuestcreatorPoints: |
+  &a{category}&7 kategorisinde &a{points}&7 puanınız var.
+
+messageCommandQuestcreatorPointsOperate: |
+  &a{category} &7kategorisi için puanınız &a{amount} &7olarak ayarlandı.
+
+messageCommandQuestcreatorProgressEmpty: |
+  &7Aktif bir göreviniz yok.
+
+messageCommandQuestcreatorProgressOnlineElement: |
+  &7&m          &r &7{id} : {name} &7&m          &r
+  &7Lider : &a{leader}
+  &7Ortak : &a{coop}
+  &7Başlama nedeni : &a{start_cause}
+  &7süre : &a{uptime}
+  &7yol : &a{path}
+  &7Checkpoint : &a{checkpoint}
+  {branches}
+
+messageCommandQuestcreatorProgressOnlineElementBranch: |
+  &7- bölüm &a{branch}&7, amaç &a{object}
+  {progression}
+
+messageCommandQuestcreatorProgressOnlineElementProgression: |
+  &7  > &a{object}&7/&a{part} &7: &a{progression}&7/&a{goal}
+
+messageCommandQuestcreatorQueueNone: |
+  &7Bir görev için sırada değilsiniz.
+
+messageCommandQuestcreatorQueueActive: |
+  &e{quest} &7(players : &e{players}&7) &7İçin sıradasınız.
+  &7Sıranız : &e{position}&7/&e{max}
+
+messageCommandQuestcreatorQueueActiveError: |
+  &e{quest} &7(players : &e{players}&7) &7için sıradasınız..
+  &7sıranız : &e{position}&7/&e{max}
+  &c1. sıraya gelmeden bu hatayı çözdüğünüzden emin olun : {error}
+
+messageCommandQuestcreatorResetEmpty: |
+  &7Yeniden başlatacak bir göreviniz yok.
+
+messageCommandQuestcreatorReset: |
+  &7Göreviniz yeniden başlatıldı : &a{quest}&7.
+
+messageCommandQuestcreatorResetpoolEmpty: |
+  &7Yeniden başlatacak bir görev havunuz yok.
+
+messageCommandQuestcreatorResetpool: |
+  &7Görev havuzunuz yeniden başlatıldı : &a{pool}&7.
+
+messageCommandQuestcreatorScoreboardToggleOn: |
+  &7Görev puan tabelanız &aaçıldı&7.
+
+messageCommandQuestcreatorScoreboardToggleOff: |
+  &7Görev puan tabelanız &ckapatıldı&7.
+
+messageCommandQuestcreatorServerVariable: |
+  &7Sunucu değişkeni &a{variable}&7, &a{value}&7 değerine sahip.
+
+messageCommandQuestcreatorServerVariableOperate: |
+  &7Sunucu değişkeni &a{variable}&7, &a{value}&7 olarak ayarlandı.
+
+messageCommandQuestcreatorSetpooltokens: |
+  &a{quest}&7 görevi için &a{amount}&7 bilete sahipsiniz.
+
+messageCommandQuestcreatorStartCouldnt: |
+  &c{quest}&7 Görevi başlatılamadı.
+
+messageCommandQuestcreatorStartEmpty: |
+  &7Başlatacak bir göreviniz yok.
+
+messageCommandQuestcreatorStarted: |
+  &a{quest}&7 Görevi başlatıldı.
+
+messageCommandQuestcreatorState: |
+  &7durum ayarla &a{state}&7.
+
+messageCommandQuestcreatorStopEmpty: |
+  &7Durduracak bir göreviniz yok.
+
+messageCommandQuestcreatorStopCouldnt: |
+  &c{quest}&7 Göreviniz durdurulamadı.
+
+messageCommandQuestcreatorStopped: |
+  &a{quest}&7Göreviniz durduruldu.
+
+messageCommandQuestcreatorTitleToggleOn: |
+  &7Görev başlığınız &aaçıldı&7.
+
+messageCommandQuestcreatorTitleToggleOff: |
+  &7Görev başlığınız &ckapatıldı&7.
+
+messageCommandQuestcreatorUser: |
+  &7&m          &r &7{player} &7&m          &r
+  &7Havuz biletleriniz : &a{pool_tokens}
+  &7Aktif görevleriniz : &a{active_quests}
+  &7Tamamlanmış görevleriniz :
+  {completed_quests}
+
+messageCommandQuestcreatorUserCompletedQuestElement: |
+  &7- &a{quest} &7: &a{counts}
+
+messageCommandQuestcreatorVariable: |
+  &7Değişkeniniz &a{variable}&7, &a{value}&7 değerine sahip.
+
+messageCommandQuestcreatorVariableOperate: |
+  &7değişkeniniz &a{variable}&7, &a{value}&7 olarak ayarlandı.
+
+# -------------------- Quest --------------------
+
+messageQuestCancelInactive: |
+  &7Göreviniz &c{quest} &7şu kadar süredir inaktif olduğu için iptal edildi&c{time}&7 .
+
+# -------------------- Coop --------------------
+
+messageCoopCreateLeader: |
+  &7Bir ortak görev oluşturdunuz : &a{quest}&7. [1/{max}]
+
+messageCoopCreateAlreadyCoop: |
+  &c{player} &7Bu kişi zaten bir ortak görevde.
+
+messageCoopFull: |
+  &c{leader}&7 &7bu kişini daha fazla ortak görev alamaz.
+
+messageCoopInvite: |
+  &7Davet etmek için oyuncunun adını yazınız, ya da iptal etmek için --> &c{cancel} .
+
+messageCoopInviteAlreadyThereLeader: |
+  &a{player} &7bu kişi zaten ortak görevinizde veya davet edildi.
+
+messageCoopInvited: |
+  &a{leader} &7sizi işbirliği için bir göreve davet etti : &a{quest}&7. /quest coop yazarak katılabilirsiniz.
+
+messageCoopInvitedLeader: |
+  &a{player}&7 adlı kişiyi göreviniz için işbirliğine davet ettiniz.
+
+messageCoopNotInvited: |
+  &7&a{leader} &7bu kişinin görevine katılmak için davet edilmeniz gerek.
+
+messageCoopNotInvitedLeader: |
+  &c{player} &7görevinize katılmaya çalıştı ancak davetli değil.
+
+messageCoopJoin: |
+  &7&a{leader} &7adlı kişinin görevine katıldınız : &a{quest}&7. [{current}/{max}]
+
+messageCoopJoinOthers: |
+  &a{player} &7ortak göreve katıldı : &a{quest}&7. [{current}/{max}]
+
+messageCoopLeave: |
+  &7&c{leader}&7 adlı kişinin görevinden ayrıldın.
+
+messageCoopLeaveOthers: |
+  &c{player} &7ortak görevden ayrıldı. [{current}/{max}]
+
+messageCoopDisband: |
+  &7ortak görev grubunuzu dağıttınız : &c{quest}&7.
+
+messageCoopDisbandOthers: |
+  &c{leader} &7ortak görev grubunu dağıttı : &c{quest}&7.
+
+messageCoopKickNotInLeader: |
+  &c{player} &7ortak görevinizde değil, ve davet edilmedi.
+
+messageCoopKickInviteLeader: |
+  &c{player} &7adlı kişinin daveti iptal edildi.
+
+messageCoopKick: |
+  &c{leader} &7adlı kişinin ortak görev grubundan atıldınız : &c{quest}&7.
+
+messageCoopKickOthers: |
+  &c{player} &7adlı kişi ortak görev grubunuzdan atıldı. [{current}/{max}]
+
+# -------------------- Queue --------------------
+
+messageQueueCreateAlreadyCoop: |
+  &c{player} &7adlı kişi zaten bu görev için sırada.
+
+messageQueueCreateCantMultiple: |
+  &7Aynı anda birden çok görev için sıraya giremezsiniz.
+
+messageQueueCouldntStartPosition: |
+  &cGörev başlatılamadı : &c{quest}&7. Görev için sonradan sıraya girdiniz, sıranız &c{position}&7/&c{max}&7.
+
+messageQueuePosition: |
+  &a{quest} &7görevi için, sıranız &a{position}&7/&a{max}
+
+messageQueueStarted: |
+  &a{quest} &7görevi için sıranız geldi, göreviniz başlatılıyor!
+
+messageQueueLeave: |
+  &c{quest} &7görevi için sıradan ayrıldınız. 
+
+# -------------------- Preconditions --------------------
+
+messagePreconditionsError: |
+  &c{error}
+
+textPreconditionsErrorInvalidModelErrors: |
+  &7Görev modeli geçersiz :
+  &c{errors}
+
+textPreconditionsErrorAloneUserNotLoader: |
+  &7Oyuncu veriniz yüklenmedi.
+
+textPreconditionsErrorCoopUserNotLoader: |
+  &c{player} &7adlı oyuncunun verisi yüklenmedi.
+
+textPreconditionsErrorQuestTooManyInstances: |
+  &7Bu görevi şu anda çok fazla oyuncu oynuyor.
+
+textPreconditionsErrorAlonePlayerAlreadyActive: |
+  &7Zaten bu görevi takip ediyorsunuz.
+
+textPreconditionsErrorCoopPlayerAlreadyActive: |
+  &c{player} &7adlı oyuncu zaten bu görevi takip ediyor.
+
+textPreconditionsErrorAlonePlayerTooManyQuests: |
+  &7Şu anda daha fazla görev takip edemezsiniz.
+
+textPreconditionsErrorCoopPlayerTooManyQuests: |
+  &c{player} &7adlı kişi daha fazla görev takip edemez.
+
+textPreconditionsErrorAlonePlayerMaxCompletions: |
+  &7Bu görevi zaten tamamladınız.
+
+textPreconditionsErrorCoopPlayerMaxCompletions: |
+  &c{player} &7adlı oyuncu bu görevi zaten tamamladı.
+
+textPreconditionsErrorAlonePlayerGroupTooManyQuests: |
+  &7Bu grup için daha fazla sayıda görev takip edemezsin.
+
+textPreconditionsErrorCoopPlayerGroupTooManyQuests: |
+  &c{player} &7adlı kişi bu grup için daha fazla görev takip edemez.
+
+textPreconditionsErrorAlonePlayerGroupPreviousQuestNotCompleted: |
+  &7Aynı grup için bir önceki görevi tamamlamadınız.
+
+textPreconditionsErrorCoopPlayerGroupPreviousQuestNotCompleted: |
+  &c{player} &7adlı oyuncu aynı grup için bir önceki görevi tamamlamadı.
+
+textPreconditionsErrorAlonePlayerCooldown: |
+  &7Bu görevi yeniden takip edebilmek için şu kadar süre daha beklemelisiniz &c{time}&7.
+
+textPreconditionsErrorCoopPlayerCooldown: |
+  &c{player} &7adlı kişi bu görevi yeniden takip edebilmek için şu kadar süre daha beklemeli &c{time}&7.
+
+textPreconditionsErrorAlonePlayerNoTokens: |
+  &7Bu görev için yeterli biletiniz yok.
+
+textPreconditionsErrorCoopPlayerNoTokens: |
+  &c{player} &7adlı kişinin bu görev için yeterli bileti yok.
+
+textPreconditionsErrorQuestCoopQuest: |
+  &cBu bir ortak görev.
+
+textPreconditionsErrorQuestNotCoopQuest: |
+  &cBu bir ortak görev değil.
+
+textPreconditionsErrorQuestNotEnoughPlayers: |
+  &7Bu görev için en az &c{min} kişi &7olmalısınız.
+
+textPreconditionsErrorQuestTooManyPlayers: |
+  &7Bu görev için en fazla &c{max} kişi &7olabilirsiniz.
+
+textPreconditionsErrorAlonePlayerNoPermission: |
+  &7Bu görevi başlatmak için yetkiniz yok.
+
+textPreconditionsErrorCoopPlayerNoPermission: |
+  &c{player} &7adlı kişinin görevi başlatmak için yetkisi yok.
+
+textPreconditionsErrorAlonePlayerDisallowedWorld: |
+  &7Bu görev için izin verilmeyen bir dünyadasınız.
+
+textPreconditionsErrorCoopPlayerDisallowedWorld: |
+  &c{player} &7adlı kişi bu görev için izin verilmeyen bir dünyada.
+
+textPreconditionsErrorStartConditionsDontMatch: |
+  &7Başlamak için gerekli koşullar sağlanmadı.
+
+textPreconditionsErrorGroupStartConditionsDontMatch: |
+  &7Grubun koşulları başlamak için geçersiz.
+
+# -------------------- Detailed progression (verbose) --------------------
+
+textDetailedProgressionBranch: '&2&l{name}'
+textDetailedProgressionBranchNoName: []
+
+textDetailedProgressionObject: '&a> &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionObjectDistance: '&a> &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionObjectNoDetail: '&2> &7{name}'
+textDetailedProgressionObjectNoName: []
+
+textDetailedProgressionObjectDelegateHeader: '&a> &7{name}'
+textDetailedProgressionObjectDelegateHeaderNoName: []
+
+textDetailedProgressionObjectDelegate: '&a- &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionObjectDelegateCompleted: '&7&m- {name} &7({progression}/{goal}&7)'
+textDetailedProgressionObjectDelegateDistance: '&a- &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionObjectDelegateDistanceCompleted: '&7&m- {name} &7({distance}m&7)'
+textDetailedProgressionObjectDelegateNoDetail: '&a- &7{name}'
+textDetailedProgressionObjectDelegateNoDetailCompleted: '&7&m- {name}&7'
+textDetailedProgressionObjectDelegateNoName: []
+textDetailedProgressionObjectDelegateNoNameCompleted: []
+
+# -------------------- Detailed progression (scoreboard) --------------------
+
+textDetailedProgressionScoreboardBranch: '&2&l{name}'
+textDetailedProgressionScoreboardBranchNoName: []
+
+textDetailedProgressionScoreboardObject: '&a> &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionScoreboardObjectDistance: '&a> &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionScoreboardObjectNoDetail: '&2> &7{name}'
+textDetailedProgressionScoreboardObjectNoName: []
+
+textDetailedProgressionScoreboardObjectDelegateHeader: '&a> &7{name}'
+textDetailedProgressionScoreboardObjectDelegateHeaderNoName: []
+
+textDetailedProgressionScoreboardObjectDelegate: '&a- &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionScoreboardObjectDelegateCompleted: '&7&m- {name} &7({progression}/{goal}&7)'
+textDetailedProgressionScoreboardObjectDelegateDistance: '&a- &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionScoreboardObjectDelegateDistanceCompleted: '&7&m- {name} &7({distance}m&7)'
+textDetailedProgressionScoreboardObjectDelegateNoDetail: '&a- &7{name}'
+textDetailedProgressionScoreboardObjectDelegateNoDetailCompleted: '&7&m- {name}&7'
+textDetailedProgressionScoreboardObjectDelegateNoName: []
+textDetailedProgressionScoreboardObjectDelegateNoNameCompleted: []
+
+# -------------------- Detailed progression (PlaceholderAPI) --------------------
+
+textDetailedProgressionPlaceholderAPIObject: '&7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionPlaceholderAPIObjectDistance: '&7{name} &7(&a{distance}m&7)'
+
+textDetailedProgressionPlaceholderAPIObjectNoDetail: '&7{name}'
+textDetailedProgressionPlaceholderAPIObjectNoName: '&7/'
+
+# -------------------- Journal --------------------
+
+textJournalEmpty: |
+  &7Görev günlüğünüz boş.
+
+# -------------------- Diverge --------------------
+
+textDivergeLineSplit: '&r    '
+
+textDivergeSelect: |
+  &dSeçmek için tıklayınız
+
+textDivergeCantSelect: |
+  &7Bu görev için tercihte bulunamazsınız
+
+textDivergeCantSelectUnavailable: |
+  &7bu tercih mevcut değil
+
+textServerActionPromptNext: |
+  &dDevam etmek için tıklayınız
+
+# -------------------- Scoreboard --------------------
+
+textScoreboarOneQuestTitle: |
+  &7&m    &r &d&lQuest &7&m    &r
+
+textScoreboardOneQuestContent: |
+  &r
+  &a{quest}
+  &r
+  {detailed_progression}
+  &r
+  &e&ohttp://guillaumevdn.com
+
+textScoreboardOneQuestContentNone: |
+  &r
+  &7Aktif bir görev yok !
+  &r
+  &dguillaumevdn.com
+
+textScoreboardMultipleQuestTitle: |
+  &7&m    &r &d&lQuest &7&m    &r
+
+textScoreboardMultipleQuestContent: |
+  {quests}
+  &r
+  &e&ohttp://guillaumevdn.com
+
+textScoreboardMultipleQuestContentQuest: |
+  &r
+  &a{quest}
+  &r
+  {detailed_progression}
+
+textScoreboardMultipleQuestContentNone: |
+  &r
+  &7Aktif bir görev yok !
+  &r
+  &e&ohttp://guillaumevdn.com
+
+# -------------------- GUI --------------------
+
+guiDefaultActivatorName: |
+  &7Görevler
+
+guiQuestCoopPlayers: |
+  &r
+  &7iki kişilik görevler &b{players}
+  &7{leader}
+  &r
+
+guiQuestCoopLeader: |
+  &7Lider sizsiniz.
+
+guiQuestCoopNotLeader: |
+  &7Lider: {leader}.
+
+guiQuestControls: |
+  &r
+  &d{controls}
+
+guiQuestControlsInfo: |
+  &dDaha fazla bilgi için sol tıklayınız
+
+guiQuestControlsStart: |
+  &dGörevi başlatmak için sağ tıklayınız
+
+guiQuestControlsStartCoop: |
+  &dOrtak görevi başlatmak için Shift + Sağ tık
+
+guiQuestControlsPhysicalActivatorGUIStart: |
+  &dGörevi başlatmak için sağ tıklayınız
+
+guiQuestControlsPhysicalActivatorGUIStartCoop: |
+  &dOrtak görevi başlatmak için Shift + Sağ tık
+
+guiQuestControlsStop: |
+  &dGörevi durdurmak için sağ tıklayınız
+
+guiQuestControlsLeave: |
+  &dOrtak görevden ayrılmak için sağ tıklayınız
+
+guiQuestDetailedProgression: |
+  &r
+  {detailed_progression}
+
+guiQuestDetailedErrors: |
+  &r
+  {detailed_errors}
+
+guiQuestCompletionCount: |
+  &r
+  &7Bu görevi {count} kere tamamladınız
+
+guiQuestCompletionCountGoal: |
+  &r
+  &7Bu görevi {count}/{max} kere tamamladınız
+
+guiQuestCooldown: |
+  &r
+  &7Bu görevi yeniden başlatmak için şu kadar süre daha beklemelisiniz &a{time}&7.
+
+guiQuestCooldownPool: |
+  &r
+  &7yeni görevler şu kadar süre içinde hesaplanacak &a{time}&7.
+
+guiQuestCompleted: |
+  &7tamamlama tarihi : &a{date}&7.
+
+guiConfirmLoreStopQuest: |
+  &7görevi &cdurdurmak &7 için tıklayınız:
+  &c{quest}
+
+guiConfirmLoreLeaveCoopQuest: |
+  &7ortak görevden &cayrılmak  &7için tıklayınız:
+  &c{quest}
+
+guiConfirmLoreStartQuest: |
+  &7Görevi &abaşlatmak &7için tıklayınız:
+  &a{quest}
+
+guiConfirmLoreStartCoopQuest: |
+  &7Görevi &aortak &7olarak başlatmak için tıklayınız:
+  &a{quest}
+
+guiConfirmLoreStartQuestAfterActivatorDialog: |
+  &7Görevler : &a{quest}
+
+guiConfirmLoreStartCoopQuestAfterActivatorDialog: |
+  &7Görevi &aortak &7olarak başlatmak için buraya tıklayınız:
+  &a{quest}
+
+# -------------------- Integration --------------------
+
+integrationDynmapMarkerSetName: Görevler
+integrationHolographicDisplaysActivatorHologramStatusCount: '&a{count}'
+integrationHolographicDisplaysActivatorHologramNoStatusCount: '&c0'
+integrationHolographicDisplaysActivatorHologramStatusList: '&a{list}'
+integrationHolographicDisplaysActivatorHologramStatusListSeparator: '&7, &a'
+integrationHolographicDisplaysActivatorHologramNoStatusList: '&cnone'
+
+# -------------------- Scoreboard --------------------
+
+messageScoreboardScrollingStart: >
+  &apuan tablosunda gezinmeye başladınız. yukarı gitmek için sol, aşağı gitmek için sağ tıklayınız. çıkmak için komutu tekrar ediniz.
+
+messageScoreboardScrollingStop: >
+  &7puan tablosunda gezinmeyi bitirdiniz.
+
+messageScoreboardScrollingReachedTop: >
+  &7puan tablosunun en üstüne ulaştınız.
+
+messageScoreboardScrollingReachedBottom: >
+  &7puan tablosunun en altına ulaştınız.

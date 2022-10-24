@@ -1,0 +1,11 @@
+[19/10 12:50:48] [info] juncahacks | connected
+[19/10 12:50:48] [info] juncahacks | fetched user data : no value ; created it
+[19/10 12:50:48] [info] juncahacks | pushing user 7fcba7b9-9396-3479-8816-cd9e67c950f3, active quests : 
+[19/10 12:50:48] [info] juncahacks | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[19/10 12:50:48] [info] juncahacks | fetched user quests : 
+[19/10 13:16:16] [info] juncahacks | disposing user quests data : 
+- must dispose quests
+[19/10 13:16:16] [info] juncahacks | disposed user data
+[19/10 13:16:16] [info] juncahacks | disconnected

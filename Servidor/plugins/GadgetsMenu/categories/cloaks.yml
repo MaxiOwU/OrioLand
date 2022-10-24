@@ -9,7 +9,7 @@ Cloaks:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+    - '&8&l» &fRareza: &d&lLEGENDARIO'
   Mystical:
     Name: '&b&lMistico'
     Material: BOOK
@@ -20,7 +20,7 @@ Cloaks:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+    - '&8&l» &fRareza: &d&lLEGENDARIO'
   Firewings:
     Name: '&b&lAlas de Fuego'
     Material: BLAZE_POWDER
@@ -31,7 +31,7 @@ Cloaks:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+    - '&8&l» &fRareza: &d&lLEGENDARIO'
   Vampire Wings:
     Name: '&b&lAlas de Vampiro'
     Material: REDSTONE
@@ -42,7 +42,7 @@ Cloaks:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+    - '&8&l» &fRareza: &d&lLEGENDARIO'
   Frosty:
     Name: '&b&lHelado'
     Material: SNOWBALL
@@ -53,7 +53,7 @@ Cloaks:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+    - '&8&l» &fRareza: &d&lLEGENDARIO'
   Icewings:
     Name: '&b&lAlas de Hielo'
     Material: ICE
@@ -64,7 +64,7 @@ Cloaks:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+    - '&8&l» &fRareza: &d&lLEGENDARIO'
   Shaman:
     Name: '&b&lEfectos de Chaman'
     Material: BONE
@@ -75,7 +75,7 @@ Cloaks:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+    - '&8&l» &fRareza: &d&lLEGENDARIO'
   Firerings:
     Name: '&b&lAros de Fuego'
     Material: BLAZE_ROD
@@ -86,7 +86,7 @@ Cloaks:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+    - '&8&l» &fRareza: &d&lLEGENDARIO'
   Scanner:
     Name: '&b&lEscaner'
     Material: BEACON
@@ -97,4 +97,4 @@ Cloaks:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+    - '&8&l» &fRareza: &d&lLEGENDARIO'

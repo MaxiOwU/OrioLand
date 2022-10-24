@@ -1,0 +1,41 @@
+[19/10 19:13:26] [info] AndalucianBoy | connected
+[19/10 19:13:26] [info] AndalucianBoy | fetched user data : no value ; created it
+[19/10 19:13:26] [info] AndalucianBoy | pushing user b09266b8-c892-3084-8762-e015d991ddf9, active quests : 
+[19/10 19:13:26] [info] AndalucianBoy | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[19/10 19:13:26] [info] AndalucianBoy | fetched user quests : 
+[19/10 21:02:52] [info] AndalucianBoy | disposing user quests data : 
+- must dispose quests
+[19/10 21:02:52] [info] AndalucianBoy | disposed user data
+[19/10 21:02:52] [info] AndalucianBoy | disconnected
+[21/10 18:34:04] [info] AndalucianBoy | connected
+[21/10 18:34:04] [info] AndalucianBoy | fetched user data : active quests 
+[21/10 18:34:04] [info] AndalucianBoy | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[21/10 18:34:04] [info] AndalucianBoy | fetched user quests : 
+[21/10 18:37:46] [info] AndalucianBoy | disposing user quests data : 
+- must dispose quests
+[21/10 18:37:46] [info] AndalucianBoy | disposed user data
+[21/10 18:37:46] [info] AndalucianBoy | disconnected
+[21/10 18:38:34] [info] AndalucianBoy | connected
+[21/10 18:38:34] [info] AndalucianBoy | fetched user data : active quests 
+[21/10 18:38:34] [info] AndalucianBoy | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[21/10 18:38:34] [info] AndalucianBoy | fetched user quests : 
+[21/10 20:03:58] [info] AndalucianBoy | disposing user quests data : 
+- must dispose quests
+[21/10 20:03:58] [info] AndalucianBoy | disposed user data
+[21/10 20:03:58] [info] AndalucianBoy | disconnected
+[23/10 16:55:59] [info] AndalucianBoy | connected
+[23/10 16:55:59] [info] AndalucianBoy | fetched user data : active quests 
+[23/10 16:55:59] [info] AndalucianBoy | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 16:55:59] [info] AndalucianBoy | fetched user quests : 
+[23/10 17:08:34] [info] AndalucianBoy | disposing user quests data : 
+- must dispose quests
+[23/10 17:08:34] [info] AndalucianBoy | disposed user data
+[23/10 17:08:34] [info] AndalucianBoy | disconnected

@@ -1,0 +1,11 @@
+[23/10 19:46:40] [info] elspreenDC | connected
+[23/10 19:46:40] [info] elspreenDC | fetched user data : no value ; created it
+[23/10 19:46:40] [info] elspreenDC | pushing user c467f6e9-7a80-3cd9-a612-96dacea975a4, active quests : 
+[23/10 19:46:40] [info] elspreenDC | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 19:46:40] [info] elspreenDC | fetched user quests : 
+[23/10 19:50:15] [info] elspreenDC | disposing user quests data : 
+- must dispose quests
+[23/10 19:50:15] [info] elspreenDC | disposed user data
+[23/10 19:50:15] [info] elspreenDC | disconnected

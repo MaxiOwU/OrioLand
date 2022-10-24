@@ -1,0 +1,1617 @@
+# -------------------- Editor --------------------
+
+editorMainTitle: QuestCreator
+
+editorActivatorsTitle: Görev başlatıcılar
+editorActivatorsIconName: |
+  &aGörev başlatıcılar
+
+editorGlobalBranchesTitle: Global dallar
+editorGlobalBranchesIconName: |
+  &aGlobal bölümler
+
+editorGlobalConditionsTitle: Global koşullar
+editorGlobalConditionsIconName: |
+  &aGlobal koşullar
+
+editorGlobalGUIItemsTitle: Global GUI öğeleri
+editorGlobalGUIItemsIconName: |
+  &aGlobal ekran eşyaları
+
+editorGlobalObjectsTitle: Global nesneler
+editorGlobalObjectsIconName: |
+  &aGlobal amaçlar
+
+editorGlobalTimeFramesTitle: Global zaman dilimleri
+editorGlobalTimeFramesIconName: |
+  &aGlobal zaman çerçeveleri
+
+editorGlobalStatesTitle: States
+editorGlobalStatesIconName: |
+  &adurumlar
+
+editorGlobalVariablesTitle: Global değişkenler
+editorGlobalVariablesIconName: |
+  &aGlobal değişkenler
+
+editorGlobalVariableElementLore: |
+  &7
+  {current}
+  &7
+  &7Bu değer için yer tutucuları kullanabilirsiniz
+  &dDüzenlemek için sol tıklayın
+  &dsilmek için Shift + sağ-tık
+
+editorGroupsTitle: Görev grupları
+editorGroupsIconName: |
+  &aGörev grupları
+
+editorGUIsTitle: GUIs
+editorGUIsIconName: |
+  &aekranlar
+
+editorModelsTitle: Görev modelleri
+editorModelsIconName: |
+  &aGörev modelleri
+
+editorPoolsTitle: Görev havuzları
+editorPoolsIconName: |
+  &aGörev havuzları
+
+elementGlobalObject: |
+  &7Yerel git : {goto}
+  &dYerel geçişi düzenlemek için Shift + sağ tıklayın
+
+elementBasicShopkeeperSelect: |
+  &dhızlı seçim için Shift + sağ-tık
+messageElementBasicImportShopkeeper: |
+  &7İçe aktarmak için yeni dükkan sahibiyle etkileşime geçin veya iptal etmek için sohbette &c{cancel} &7 girin.
+
+# -------------------- Quest model --------------------
+
+descriptionModelDisplayName: |
+  &7Görevin adını göster
+
+descriptionModelDescription: |
+  &7Görevin açıklaması
+
+descriptionModelDescriptionPlaceholder: |
+  &7Yer tutucularla alabileceğiniz alternatif açıklama
+
+descriptionModelInformationMessage: |
+  &7Görev için bilgi mesajı
+
+descriptionModelStartNotify: |
+  &7Bu görev başladığında bir bildirim göndermek için
+
+descriptionModelProgressNotify: |
+  &7Mevcut ilerleme ile bir hatırlatıcı göndermek için
+
+descriptionModelProgressNotifyScoreboard: |
+  &7Skor tablosunda mevcut ilerlemeyi görüntülemek için
+
+descriptionModelDisplayPriority: |
+  &7Belirlenmiş bir görüntüleme önceliğine sahip modeller (skor tablosu/başlık/eylem çubuğu/...) bu önceliğin ardından veya aynı önceliğe sahiplerse son güncelleme tarihinden sonra görüntülenecektir.
+  &7Öncelikli modeller, öncelik ayarı olmayan modellerden önce görüntülenecektir.
+
+descriptionModelDynmapMarker: |
+  &7Bu görev için bir dynmap işaretçisi görüntülemek için
+
+descriptionModelAllStatusItem: |
+  &7Bir GUI öğesi eklemek için, bu görevin her durumu için aynı
+
+descriptionModelStatusItems: |
+  &7Bu görevin durumları için GUI öğesi görünümü eklemek için
+  &7Bir eyalette öğe yoksa, eklenti &6all_status_item'e geri döner
+
+descriptionModelPermissionStartRestriction: |
+  &7Bu görevin başlamasını bir izinle kısıtlamak için
+
+descriptionModelPermissionStartCommandRestriction: |
+  &7Bu görevin başlamasını bir izinle komut aracılığıyla kısıtlamak için
+
+descriptionModelConditionsStartRestriction: |
+  &7Bu görevin başlangıcını koşullarla kısıtlamak için
+
+descriptionModelWorldRestriction: |
+  &7Bu arayışı dünyalarla sınırlamak için
+
+descriptionModelCommandRestriction: |
+  &7Bu görev aktifken komut kullanımını kısıtlamak için
+
+descriptionModelCooldown: |
+  &7Bitirdikten sonra bu görev için bir bekleme süresi koymak için
+
+descriptionModelTimeLimit: |
+  &7Bu göreve bir zaman sınırı koymak için
+
+descriptionModelTimeLimitFailGoto: |
+  &7Zaman sınırı dolduğunda aramaya git
+
+descriptionModelSaving: |
+  &7Bu görev için kaydetme türü
+
+descriptionModelCompletion: |
+  &7Bu görev için tamamlama ayarları
+
+descriptionModelMaxConcurrentInstances: |
+  &7Bu görevin maksimum eşzamanlı aktif örneği
+
+descriptionModelMaxConcurrentInstancesQueue: |
+  &7Şu anda çok fazla örnek varsa, oyuncuları bu görev için katılma sırasına koymak için
+
+descriptionModelModelVariables: |
+  &7Bu modelin değişkenleri için varsayılan değerler
+  &7Her görev, aktif olduğunda, oyunculardan bağımsız kendi değişkenlerine sahiptir ve görev bittiğinde bu değişkenler atılır.
+
+descriptionModelMinPlayers: |
+  &7Minimum oyuncu sayısı (lider dahil)
+
+descriptionModelMaxPlayers: |
+  &7Maksimum oyuncu sayısı (lider dahil)
+
+descriptionModelMinActivePlayers: |
+  &7Minimum aktif oyuncu sayısı (bu görev devam ederken)
+  &7Coop oyuncularının görev devam ederken görevden ayrılabilmesini istiyorsanız, bu sayının maksimum oyuncu sayısından küçük olması gerekir.
+
+descriptionModelAllowLeaderStop: |
+  &7Görev liderinin bu görevi durdurmasına izin vermek için
+
+descriptionModelDisposeOnLeaderDisconnect: |
+  &7Liderin bağlantısı kesildiğinde görevi duraklatmak ve kaydetmek için
+  &7Bunu devre dışı bırakmak, grup oyuncularının lider çevrimdışı olduğunda göreve devam etmelerini sağlar.
+  &7Değişkenler liderin değişkenleri olduğundan ve çevrimdışıyken yüklenmediğinden, arayışınız değişkenler içeriyorsa bu kesinlikle önerilmez.
+
+descriptionModelOnlyLeaderParsing: |
+  &7Ayarları ayrıştırmak için yalnızca liderin kullanımına izin vermek için
+  &7Bunu devre dışı bırakmak, lider çevrimdışı olduğunda küme oyuncularının ayarları ayrıştırmak için kullanılmasına izin verecektir.
+
+descriptionModelNotifyCoopPlayerLeave: |
+  &7Diğer oyunculara bir grup üyesinin ayrıldığını bildirmek için
+
+descriptionModelActivators: |
+  &7Bu arayışın aktivatörleri
+
+descriptionModelActivatorsDialog: |
+  &7Göreve başlamadan önce etkinleştirici ile belirli bir diyalog eklemek için (sadece fiziksel etkinleştiricilerle çalışır: bloklar/npcs/...)
+  &7Oyuncunun bu mesajları almak için aktivatöre tıklaması gerekecek.
+  &7Son mesaja ulaştığında, görevi başlatmak isteyip istemediklerini sormak için sonunda bir onay GUI'si açılır (veya bu seçenek yapılandırmada devre dışı bırakılmışsa doğrudan başlar)
+  &7Bu, etkinleştiricinin bağlı özel bir GUI'si varsa veya etkinleştiricinin görev GUI'sini açmak için yeterli görev varsa çalışmaz.
+
+descriptionModelActivatorsDialogReset: |
+  &7Konuşma sıfırlama seçenekleri
+
+descriptionModelBranches: |
+  &7Bu arayışın dalları
+
+descriptionModelEndObjects: |
+  &7Görevin sonunda nesneleri gerçekleştirmek için
+
+descriptionModelEndObjectsForOfflinePlayers: |
+  &7Görev tamamlandığında çevrimdışı olan oyuncular için görev sonunda nesneleri gerçekleştirmek için
+  &7Daha sonra yeniden bağlandıklarında gerçekleştirilecekler
+
+descriptionModelFunctionalAutoStart: |
+  &7Bu işlevsel görevi otomatik olarak başlatmak için
+
+# -------------------- Quest cooldown --------------------
+
+descriptionQuestCooldownDuration: |
+  &7Bu bekleme süresi
+
+descriptionQuestCooldownEndTypes: |
+  &7Bu bekleme süresini yalnızca bazı görev bitiş türleri için uygulamak için
+
+descriptionQuestCooldownApplyActorRestriction: |
+  &7Bekleme süresini yalnızca bazı oyunculara uygulamak için
+
+# -------------------- Quest completion --------------------
+
+descriptionQuestCompletionMaxCompletions: |
+  &7Bu görev için maksimum tamamlama miktarını sınırlamak için
+
+descriptionQuestCompletionApplyActorRestriction: |
+  &7Yalnızca bazı oyuncuların tamamlama sayısını artırmak için
+
+descriptionQuestCompletionNotify: |
+  &7Oyuncuya bu görevin sona erdiğini bildirmek için
+
+descriptionQuestCompletionNotifyCoop: |
+  &7Coop oyuncularına (varsa) bu görevin sona erdiğini bildirmek için
+  &7Bu belirtilmişse, coop oyuncuları normal tamamlama bildirimini almazlar
+
+# -------------------- Dialog --------------------
+
+descriptionDialogAutoStartDistance: |
+  &7Oyuncu belirli bir mesafenin altındaysa ilk diyalog satırını otomatik olarak göndermek için
+
+descriptionDialogResetDelay: |
+  &7Oynatıcı belirli bir süre boyunca tıklamazsa, iletişim kutusunu baştan yeniden başlatmak için
+
+descriptionDialogResetDistance: |
+  &7Oyuncunun başından itibaren diyaloğu yeniden başlatmak için çok uzaklaşıyor
+
+descriptionDialogResetNotify: |
+  &7İletişim kutusu sıfırlandığında oynatıcıyı bilgilendirmek için
+
+descriptionDialogResetGoto: |
+  &7Belirli bir işlemi gerçekleştirmek için iletişim kutusu sıfırlandığında şuraya gidin:
+
+# -------------------- Quest object --------------------
+
+descriptionQuestObjectType: |
+  &7Bu nesnenin türü
+
+descriptionQuestObjectNameLong: |
+  &7Bu nesneyi ayrıntılı olarak açıklamak için uzun bir ad
+  &7Örneğin: 'Spawnın etrafındaki 10 taş bloğu kırın'
+
+descriptionQuestObjectNameShort: |
+  &7Bu nesneyi kısaca açıklamak için kısa bir ad
+  &7Örneğin: 'Spawnın etrafındaki taşı kırın'
+
+descriptionQuestObjectObjectiveDetail: |
+  &7Bu nesnenin {objective} yer tutucusu için özel bir değer
+
+descriptionQuestObjectObjectiveDetailVerbose: |
+  &7Bu nesnenin GUI nesnesi yer tutucusu için özel bir değer
+
+descriptionQuestObjectForceDisplayDetail: |
+  &7Eğer nesne ilerleme detayı (<mevcut>/<hedef>) hedef 1 olsa bile görüntülenmelidir.
+
+descriptionQuestObjectStartNotify: |
+  &7Oyuncuya bu nesnenin başladığını bildirmek için
+
+descriptionQuestObjectCompleteNotify: |
+  &7Oyuncuya bu nesnenin tamamlandığını bildirmek için
+
+descriptionQuestObjectCompleteNotifyParticleScript: |
+  &7Bu nesne tamamlandığında bir parçacık komut dosyasını oynatmak için (&6pozisyon&7 ayarını gerektirir)
+
+descriptionQuestObjectProgressNotify: |
+  &7Nesneyi ilerlettiğinde oyuncuyu bilgilendirmek için
+
+descriptionQuestObjectUpdateNotify: |
+  &7Belirli bir süre nesneye ilerleme olmazsa oyuncuyu bilgilendirmek
+
+descriptionQuestObjectUpdateNotifyParticleScript: |
+  &7Belirli bir süre boyunca nesneye ilerleme kaydedilmezse bir parçacık komut dosyasını oynatmak için (&6konum&7 ayarını gerektirir)
+
+descriptionQuestObjectUpdateNotifyParticleScriptPosition: |
+  &7&6update_notify_particle_script &7at'in görüntüleneceği konum
+  &7Aksi takdirde, varsa bu nesnenin & position & 7 ayarı kullanılacaktır
+
+descriptionQuestObjectUpdateNotifyDelay: |
+  &7The delay for &6update_notify
+
+descriptionQuestObjectExecutionChance: |
+  &7Nesneyi yalnızca belirli bir şans yüzdesiyle başlatmak veya doğrudan geçiş aramak için
+
+descriptionQuestObjectExecutionChanceFailGoto: |
+  &7İlerleme şansı başarısız olursa belirli bir noktaya gitmek için
+  &7Bu mevcut değilse, ancak şans hala başarısız olursa, normal geçiş yapılacaktır
+
+descriptionQuestObjectWaitTime: |
+  &7Nesneyi başlatmadan önce belirli bir süre beklemek
+
+descriptionQuestObjectTimeLimit: |
+  &7Nesnenin belirli bir süre içinde tamamlanması gerekiyorsa
+
+descriptionQuestObjectCheckpoint: |
+  &7Bu nesneyi başlatırken bir kontrol noktasını kaydetmek için
+
+descriptionQuestObjectHideChat: |
+  &7Bu nesne aktifken sohbeti gizlemek için
+
+descriptionQuestObjectHidePlayers: |
+  &7Bu nesne aktifken diğer oyuncuları gizlemek (ve gizlenmek) için
+
+descriptionQuestObjectAddToHistory: |
+  &7Bu nesneyi görev geçmişine eklemek için
+
+descriptionQuestObjectProgressActorRestriction: |
+  &7Bu nesnenin ilerlemesini belirli oyuncularla sınırlamak için
+
+descriptionQuestObjectProgressConditions: |
+  &7Görevi ilerletmek için eşleşmesi gereken koşullar
+
+descriptionQuestObjectProgressConditionsFailGoto: |
+  &7İlerleme koşulları eşleşmediğinde aramaya git
+
+descriptionQuestObjectProgressChance: |
+  &7Nesneyi yalnızca belirli bir şans yüzdesiyle ilerletmek veya ilerletmemek
+  &7Bu, kalan tüm eşleşmelerden sonra kontrol edilir (örneğin, doğru bloğu doğru yerde kırmak)
+
+descriptionQuestObjectProgressChanceFailGoto: |
+  &7İlerleme şansı başarısız olursa belirli bir noktaya gitmek için
+
+descriptionQuestObjectPositionFailGoto: |
+  &7Nesnenin konumuna uyulmadığında belirli bir geçişi gerçekleştirmek için
+
+descriptionQuestObjectNoMatchFailGoto: |
+  &7Doğru olay oyuncu tarafından tetiklendiğinde belirli bir geçiş gerçekleştirmek için, ancak hiçbir eşleşme bulunamadı (örneğin, bir bloğu kırdıysa, ancak yanlış olanı)
+
+descriptionQuestObjectWaitAfterMatchFail: |
+  &7Eşleşmeyi yeniden kontrol etmeye çalışmadan önce belirli bir süre beklemek için (nesne ayarları, ilerleme koşulları, gerekli öğeler, ...) bu yüzden spam yapmayın
+
+descriptionQuestObjectGPS: |
+  &7Bu nesne için GPS ayarları
+
+descriptionQuestObjectGoto: |
+  &7Bu nesne tamamlandıktan sonra başka bir öğeyi (nesne, dal, ...) tetiklemek için
+
+descriptionQuestObjectGotoStartBranches: |
+  &7Bu nesne tamamlandıktan sonra diğer dalları başlatmak için
+  &7Bu, bu nesnenin goto'sunu çağırdıktan sonra yürütülür
+
+descriptionQuestObjectGotoStartIndividualBranches: |
+  &7Bu nesne tamamlandıktan sonra diğer bireysel dalları başlatmak için
+  &7Bu, bu nesnenin goto'su çağrıldıktan sonra yürütülür.
+
+descriptionQuestObjectGotoStopBranches: |
+  &7Bu nesne tamamlandıktan sonra diğer dalları durdurmak için
+  &7Bu, bu nesnenin goto'su çağrıldıktan sonra yürütülür.
+
+descriptionQuestObjectJournalEntry: |
+  &7Bu nesneyi tamamladıktan sonra oyuncunun günlüğüne bir giriş eklemek için
+  &7Bu, oyuncuya görev günlüğü her verildiğinde, görev geçmişine bağlı olarak yeniden hesaplanır.
+
+descriptionQuestObjectJournalEntryTitle: |
+  &7Bu girişin başlığı
+
+descriptionQuestObjectJournalEntryDetail: |
+  &7Bu girişin içeriği
+
+descriptionQuestObjectJournalEntryEndTypes: |
+  &7Bu girişi yalnızca bazı görev bitiş türleri için görüntülemek için
+
+descriptionQuestObjectPosition: |
+  &7Nesneyi ilerletme konumu
+  &7Bu, sunucu tarafından yönlendirilen bir nesneyse eylemin yapılacağı veya oyuncu tarafından yönlendirilen bir nesneyse oyuncunun eylemi yapması gereken yerdir
+
+descriptionQuestObjectPositionStay: |
+  &7Oynatıcıyı yapılandırılmış konumda kalmaya zorlamak için
+
+descriptionQuestObjectPositionStayWarningDelay: |
+  &7Oyuncu yapılandırılan pozisyondan ayrılırsa, oraya geri dönmek zorunda kalacakları zamandır.
+
+descriptionQuestObjectPositionStayWarningNotify: |
+  &7Oyuncu yapılandırılan konumun dışındayken gönderilir
+
+descriptionQuestObjectPositionStayFailGoto: |
+  &7Oyuncu, uyarı gecikmesinden daha uzun bir süre boyunca yapılandırılmış konumun dışında kaldığında gerçekleştirilir
+
+descriptionQuestObjectItemsNeeded: |
+  &7Nesneyi ilerletmek için oyuncuların belirli öğelere sahip olmasını istemek
+
+descriptionQuestObjectItemsNeededFailGoto: |
+  &7Belirli bir işlemi gerçekleştirmek için, gerekli öğelere uyulmadığında gitmeniz gerekir
+
+descriptionQuestObjectInitialProgression: |
+  &7Bu hedef için ilk ilerleme
+
+# -------------------- Quest object : event --------------------
+
+descriptionQuestObjectMatchFailCancelEvent: |
+  &7Etkinliği iptal etmek için (destekleniyorsa), oyuncu tarafından doğru etkinlik tetiklendiğinde, ancak eşleşme bulunmadığında (örneğin, bir blok kırdıysa, ancak yanlış olansa)
+
+descriptionQuestObjectProgressChanceFailCancelEvent: |
+  &7İlerleme şansı başarısız olduğunda etkinliği iptal etmek (destekleniyorsa)
+
+descriptionQuestObjectProgressConditionsFailCancelEvent: |
+  &7İlerleme koşulları başarısız olduğunda etkinliği (destekleniyorsa) iptal etmek için
+
+descriptionQuestObjectProgressCancelEvent: |
+  &7Nesne ilerlediğinde olayı (destekleniyorsa) iptal etmek için
+
+# -------------------- Quest object : types --------------------
+
+descriptionObjectTypeGenericGoal: |
+  &7Bu nesnenin amacı
+  &7Çoğu zaman, bu, oyuncunun bu nesnenin parametreleriyle eşleşen eylemi tekrarlaması gereken miktar olacaktır.
+  &7Bazı belirli nesneler için değişebilir
+
+descriptionObjectTypeGenericBlockObjectives: |
+  &7Bu nesne için blok hedefleri
+  &7Birden çok izin verilen blok türü/durumu/... ile birden çok hedef belirleyebilir ve farklı hedeflere sahip olabilirsiniz.
+
+descriptionObjectTypeGenericBlockObjectiveTypes: |
+  &7İzin verilen blok türleri
+  &7Herhangi bir bloğa izin vermek için boş bırakın
+
+descriptionObjectTypeGenericBlockObjectiveStates: |
+  &7Gerekli olan blok durumları
+  &7izin vermek için boş bırakın
+
+descriptionObjectTypeGenericBlockObjectiveStatesRequiredCount: |
+  &7Saygı duyulması gereken blok durumlarının miktarı
+  &7Bu seçeneği listeden tümünü gerektirecek şekilde ayarlamayın
+
+descriptionObjectTypeGenericBlockObjectiveGoal: |
+  &7Bu blok hedefinin amacı
+
+descriptionObjectTypeGenericEntityObjectives: |
+  &7Bu nesne için varlık hedefleri
+  &7Birden çok izin verilen varlık türü/adıyla/... ile birden çok hedef belirleyebilir ve farklı hedeflere sahip olabilirsiniz.
+
+descriptionObjectTypeGenericEntityObjectiveTypes: |
+  &7İzin verilen varlık türleri
+  &7Herhangi bir türe izin vermek için boş bırakın
+
+descriptionObjectTypeGenericEntityObjectiveNames: |
+  &7İzin verilen varlık adları
+  &7Herhangi bir isme (veya hiçbir isme) izin vermek için boş bırakın
+
+descriptionObjectTypeGenericEntityObjectiveColors: |
+  &7İzin verilen varlık renkleri (renklendirilebilir varlıklar için)
+  &7Herhangi bir renge izin vermek için boş bırakın
+
+descriptionObjectTypeGenericEntityObjectiveHorseColors: |
+  &7İzin verilen at renkleri
+  &7Herhangi bir renge izin vermek için boş bırakın
+
+descriptionObjectTypeGenericEntityObjectiveHorseStyles: |
+  &7İzin verilen at stilleri
+  &7Herhangi bir stile izin vermek için boş bırakın
+
+descriptionObjectTypeGenericEntityObjectiveGoal: |
+  &7Bu varlık hedefinin hedefi
+
+descriptionObjectTypeGenericEntityAllowSpawnerEntities: |
+  &7Yaratık yumurtlayıcılarından gelen varlıkların bu nesneyi ilerletmesine izin vermek için
+
+descriptionObjectTypeGenericEntityAllowSpawnerEntitiesErrorMessage: |
+  &7&6allow_spawner_entities &7 yanlışsa ancak oyuncu yine de denerse
+
+descriptionObjectTypeGenericItemObjectives: |
+  &7Bu nesne için öğe hedefleri
+  &7Birden çok izin verilen öğe türü/durumu/... ile birden çok hedef belirleyebilir ve farklı hedeflere sahip olabilirsiniz.
+
+descriptionObjectTypeGenericItemObjectiveItem: |
+  &7İzin verilen öğe
+  &7Herhangi bir öğeye izin vermek için boş bırakın
+
+descriptionObjectTypeGenericItemObjectiveItems: |
+  &7İzin verilen öğeler
+  &7Herhangi bir öğeye izin vermek için boş bırakın
+
+descriptionObjectTypeGenericItemObjectiveCheck: |
+  &7Gerçekleştirilecek kontrol
+
+descriptionObjectTypeGenericItemObjectiveGoal: |
+  &7Bu öğe hedefinin hedefi
+
+descriptionObjectTypeGenericItemObjectiveTake: |
+  &7Daha sonra eşyaları almak için
+
+descriptionObjectTypeConditionsSwitchCases: |
+  &7Anahtar kutuları
+
+descriptionObjectTypeConditionsSwitchElementConditions: |
+  &7Eşleşme koşulları
+
+descriptionObjectTypeConditionsSwitchElementGoto: |
+  &7Bu öğenin koşulları geçerliyse uygulanacak
+
+descriptionObjectTypeDivergeChatChoices: |
+  &7Bu nesne için mevcut seçenekler
+
+descriptionObjectTypeDivergeChatRepeatDelay: |
+  &7Hiçbiri seçilmemişse, bir süre sonra sohbetteki seçenekleri yeniden göndermek için
+
+descriptionObjectTypeDivergeGUIChoices: |
+  &7Bu nesne için mevcut seçenekler
+
+descriptionObjectTypeDivergeGUIReopenDelay: |
+  &7Hiçbiri seçilmemişse, bir süre sonra GUI'yi yeniden açmak için
+
+descriptionObjectTypeDivergeChoicesChoices: |
+  &7Bu nesne için mevcut seçenekler
+
+descriptionObjectTypeGroupObjects: |
+  &7Bu grubun nesneleri
+
+descriptionObjectTypeGroupOrderedObjects: |
+  &7Nesneleri sırayla tamamlamaya zorlamak
+
+descriptionObjectTypeGroupRequiredObjects: |
+  &7Tamamlanması gereken nesnelerin miktarı
+
+descriptionObjectTypeRandomGotos: |
+  &7Rastgele seçilecek seçenekler
+
+descriptionObjectTypeRandomGotosAvoidRepeatEndTypes: |
+  &7Tekrarları kontrol ederken dikkate alınması gereken son türleri
+
+descriptionObjectTypeLogicSwitchCases: |
+  &7Anahtar kutuları
+
+descriptionObjectTypeLogicSwitchElementGoto: |
+  &7Bu öğenin mantığı geçerliyse uygulamak için git
+
+# -------------------- Quest object : types (player) --------------------
+
+descriptionObjectTypePlayerAchievementAwardAchievementType: |
+  &7Ödüllendirilecek başarı türü
+
+descriptionObjectTypePlayerChatWhitelist: |
+  &7Yalnızca bu listedeki mesajları kabul etmek için
+
+descriptionObjectTypePlayerChatBlacklist: |
+  &7Bu listenin öğelerini içeren mesajları reddetmek için
+
+descriptionObjectTypePlayerChatRegex: |
+  &7Yalnızca bu normal ifadeyle eşleşen iletileri kabul etmek için
+
+descriptionObjectTypePlayerChatMinLength: |
+  &7Mesajın minimum uzunluğu
+
+descriptionObjectTypePlayerChatMaxLength: |
+  &7Mesajın maksimum uzunluğu
+
+descriptionObjectTypePlayerChatErrorMessage: |
+  &7Geçersiz bir değer girerse oyuncuya gönderilen bir mesaj
+
+descriptionObjectTypePlayerChatStoreInVariable: |
+  &7Sohbet mesajını bir değişkende saklamak için
+
+descriptionObjectTypePlayerWaitGoal: |
+  &7Beklenmesi gereken süre
+
+# -------------------- Quest object : types (player blocks) --------------------
+
+descriptionObjectTypePlayerBlocksBreakAllowPlayerBlocks: |
+  &7Birisi tarafından yerleştirilen bloklara izin vermek (oyuncu dahil)
+
+descriptionObjectTypePlayerBlocksBreakAllowPlayerBlocksErrorMessage: |
+  &7&6allow_player_blocks &7 yanlışsa ancak oyuncu yine de denerse
+
+descriptionObjectTypePlayerBlocksIgniteAllowPlayerBlocks: |
+  &7Halihazırda biri tarafından ateşlenen bloklara izin vermek için (oyuncu dahil)
+
+descriptionObjectTypePlayerBlocksIgniteAllowPlayerBlocksErrorMessage: |
+  &7 &6allow_player_blocks &7 yanlışsa ancak oyuncu yine de denerse
+
+descriptionObjectTypePlayerBlocksInteractClickType: |
+  &7Yalnızca belirli bir tıklama türünü kabul etmek için
+
+descriptionObjectTypePlayerBlocksInteractAllowPlayerBlocks: |
+  &7Birisi tarafından yerleştirilen bloklara izin vermek (oyuncu dahil)
+
+descriptionObjectTypePlayerBlocksInteractAllowPlayerBlocksErrorMessage: |
+  &7 &6allow_player_blocks &7 yanlışsa ancak oyuncu yine de denerse
+
+descriptionObjectTypePlayerBlocksInteractAllowSameBlocks: |
+  &7Aynı blokların birden çok kez tıklanmasına izin vermek için
+
+descriptionObjectTypePlayerBlocksInteractAllowSameBlocksErrorMessage: |
+  &7 &6allow_same_blocks &7 yanlışsa ancak oyuncu yine de denerse
+
+descriptionObjectTypePlayerBlocksStripAllowPlayerBlocks: |
+  &7Birisi (oyuncu dahil) tarafından yerleştirilen blokların çıkarılmasına izin vermek için
+
+descriptionObjectTypePlayerBlocksStripAllowPlayerBlocksErrorMessage: |
+  &7 &6allow_player_blocks &7 yanlışsa ancak oyuncu yine de denerse
+
+descriptionObjectTypePlayerTreeGrowTreeType: |
+  &Yalnızca belirli bir ağaç türünü kabul etmek için
+
+descriptionObjectTypePlayerSpawnerPlaceTypes: |
+  &7Yalnızca bazı oluşturulan varlık türlerini kabul etmek için
+
+# -------------------- Quest object : types (player entities) --------------------
+
+descriptionObjectTypePlayerEntitiesCatchAllowSameEntities: |
+  &7Aynı varlıkların birden çok kez izlenmesine izin vermek için
+
+descriptionObjectTypePlayerEntitiesCatchAllowSameEntitiesErrorMessage: |
+  &7&6allow_same_entities &7 yanlışsa ancak oyuncu yine de denerse
+
+descriptionObjectTypePlayerEntitiesDamageAllowSameEntities: |
+  &7To allow the same entities to be damaged multiple times
+
+descriptionObjectTypePlayerEntitiesDamageAllowSameEntitiesErrorMessage: |
+  &7&6allow_same_entities &7 yanlışsa ancak oyuncu yine de denerse
+
+descriptionObjectTypePlayerEntitiesDismountAllowSameEntities: |
+  &7Aynı varlıkların birden çok kez sökülmesine izin vermek için
+
+descriptionObjectTypePlayerEntitiesDismountAllowSameEntitiesErrorMessage: |
+  &7&6allow_same_entities &7 yanlışsa ancak oyuncu yine de denerse
+
+descriptionObjectTypePlayerEntitiesGetDamagedAllowSameEntities: |
+  &7Oyuncunun aynı varlık tarafından birden çok kez hasar görmesine izin vermek için
+
+descriptionObjectTypePlayerEntitiesGetDamagedAllowSameEntitiesErrorMessage: |
+  &7&6allow_same_entities &7 yanlışsa ancak oyuncu yine de denerse
+
+descriptionObjectTypePlayerEntitiesInteractAllowSameEntities: |
+  &7Aynı varlıkların birden çok kez tıklanmasına izin vermek için
+
+descriptionObjectTypePlayerEntitiesInteractAllowSameEntitiesErrorMessage: |
+  &7&6allow_same_entities &7 yanlışsa ancak oyuncu yine de denerse
+
+descriptionObjectTypePlayerEntitiesMountAllowSameEntities: |
+  &7Aynı varlıkların birden çok kez monte edilmesine izin vermek için
+
+descriptionObjectTypePlayerEntitiesMountAllowSameEntitiesErrorMessage: |
+  &7&6allow_same_entities &7 yanlışsa ancak oyuncu yine de denerse
+
+# -------------------- Quest object : types (player items) --------------------
+
+descriptionObjectTypePlayerItemsContainerPutInventoryTypes: |
+  &7Yalnızca belirli envanter türlerine izin vermek için
+
+descriptionObjectTypePlayerItemsContainerTakeInventoryTypes: |
+  &7Yalnızca belirli envanter türlerine izin vermek için
+
+descriptionObjectTypePlayerItemsTradeAllowSameVillagers: |
+  &7Aynı köylülerin birden çok kez takas edilmesine izin vermek için
+
+descriptionObjectTypePlayerItemsTradeAllowSameVillagersErrorMessage: |
+  &7&6allow_same_villagers &7 yanlışsa ancak oyuncu yine de denerse
+
+# -------------------- Quest object : types (player move) --------------------
+
+descriptionObjectTypePlayerPositionMatchDisplayDistance: |
+  &7Kalan mesafeyi görüntülemek için
+
+descriptionObjectTypePlayerVehicleDistanceVehicleType: |
+  &7Sadece belirli bir araç tipini kabul etmek
+
+# -------------------- Quest object : types (player physical) --------------------
+
+descriptionObjectTypePlayerBucketFillBucketType: |
+  &7Yalnızca belirli bir paket türünü kabul etmek için
+
+descriptionObjectTypePlayerBurnGoal: |
+  &7Oyuncunun yanması gereken süre
+
+descriptionObjectTypePlayerTakeDamageCauses: |
+  &7Yalnızca bazı hasar türlerini kabul etmek için
+
+descriptionObjectTypePlayerGainHealthFinalHealth: |
+  &7 &6hedef &7'yi sahip olunan son sağlık miktarı olarak kabul etmek ve kademeli olarak saymamak
+
+descriptionObjectTypePlayerShootProjectileProjectileType: |
+  &7Yalnızca belirli bir mermi türünü kabul etmek için
+
+descriptionObjectTypePlayerGainXPFinalXP: |
+  &7&6hedef &7'yi sahip olunan ve kademeli olarak sayılmayan son XP miktarı olarak kabul etmek
+
+descriptionObjectTypePlayerSneakGoal: |
+  &7Oyuncunun gizlice girmesi gereken süre
+
+descriptionObjectTypePlayerGainHealthRegainCauses: |
+  &7Yalnızca bazı yeniden kazanma nedenlerini kabul etmek
+
+descriptionObjectTypePlayerVehicleEnterVehicleType: |
+  &7Yalnızca belirli bir araç tipini kabul etmek için
+
+descriptionObjectTypePlayerVehicleLeaveVehicleType: |
+  &7Yalnızca belirli bir araç tipini kabul etmek için
+
+# -------------------- Quest object : types (server) --------------------
+
+descriptionObjectTypeServerAchievementAwardAchievementType: |
+  &7Ödüllendirilecek başarı türü
+
+descriptionObjectTypeServerActionsActions: |
+  &7Gerçekleştirilecek eylemler
+
+descriptionObjectTypeServerActionsCompleteJournalEntryMessage: |
+  &7Mesaj eylemlerinin içeriğini görev günlüğüne kaydetmek için
+  &7Bu, yalnızca &6complete_journal_entry giriş ayrıntısında bir &6{messages} &7yer tutucu varsa etkili olur
+
+descriptionObjectTypeServerCameraModeToggleToggle: |
+  &7Açık veya kapalı olup olmadığını belirtmek için
+
+descriptionObjectTypeServerCommandsPerformCommands: |
+  &7Gerçekleştirilecek komutlar
+
+descriptionObjectTypeServerCommandsPerformAsPlayer: |
+  &7Komutları sunucu yerine oyuncu olarak gerçekleştirmek için
+  &7{player} yer tutucusunu içeren komutların herkes için uygulanacağını unutmayın.
+
+# -------------------- Quest object : types (server items) --------------------
+
+descriptionObjectTypeServerItemsDropItems: |
+  &7Atılacak eşyalar
+
+descriptionObjectTypeServerItemsDropCount: |
+  &7Listeden atılacak öğelerin miktarı
+  &7Bu liste boyutundan daha küçükse, öğeler listeden rastgele seçilecek ve hiçbir kopya olmayacaktır
+  &7Bu, liste boyutuna eşitse, listedeki tüm öğeler atılır.
+  &7Bu, liste boyutundan büyükse, öğeler listeden rastgele seçilecek ve kopyalar olacaktır.
+
+descriptionObjectTypeServerItemsGiveItems: |
+  &7Verilecek eşyalar
+
+descriptionObjectTypeServerItemsGiveCount: |
+  &7Listeden verilecek eleman miktarı
+  &7Bu liste boyutundan daha küçükse, öğeler listeden rastgele seçilecek ve hiçbir kopya olmayacaktır
+  &7Bu, liste boyutuna eşitse, listedeki tüm öğeler verilecektir.
+  &7Bu, liste boyutundan büyükse, öğeler listeden rastgele seçilecek ve kopyalar olacaktır.
+
+descriptionObjectTypeServerItemsGiveLinkToQuest: |
+  &7Öğeleri göreve bağlamak için (oyuncular onları kaybedemez)
+
+descriptionObjectTypeServerItemsModifyItems: |
+  &7Değiştirilecek maddeler
+
+descriptionObjectTypeServerItemsModifyCount: |
+  &7Listeden değiştirilecek öğelerin miktarı
+  &7Bu liste boyutundan daha küçükse, öğeler listeden rastgele seçilecek ve hiçbir kopya olmayacaktır
+  &7Bu, liste boyutuna eşitse, listedeki tüm öğeler değiştirilecektir.
+  &7Bu, liste boyutundan büyükse, öğeler listeden rastgele seçilecek ve kopyalar olacaktır.
+
+descriptionObjectTypeServerItemsModifyUnlinkQuest: |
+  &7Öğeye bağlı görevin bağlantısını kaldırmak için
+
+descriptionObjectTypeServerItemsModifyDurabilitySet: |
+  &7Dayanıklılığı değiştirmek için
+
+descriptionObjectTypeServerItemsModifyCustomModelDataSet: |
+  &7Özel model verilerini değiştirmek için
+
+descriptionObjectTypeServerItemsModifyNameSet: |
+  &7Adı değiştirmek için
+
+descriptionObjectTypeServerItemsModifyNameRemove: |
+  &7İsimden bir şey çıkarmak için
+
+descriptionObjectTypeServerItemsModifyLoreSet: |
+  &7İlmin yerini almak için
+
+descriptionObjectTypeServerItemsModifyLoreAdd: |
+  &7Bilgiye satırlar eklemek için
+
+descriptionObjectTypeServerItemsModifyLoreRemove: |
+  &7Bazı değerler içeriyorsa, satırları bilgiden kaldırmak için
+
+descriptionObjectTypeServerItemsModifyEnchantmentsAdd: |
+  &7Öğeye büyüler eklemek için
+
+descriptionObjectTypeServerItemsModifyEnchantmentsRemove: |
+  &7Öğeden büyüleri kaldırmak için
+
+descriptionObjectTypeServerItemsTakeItems: |
+  &7Alınacak eşyalar
+descriptionObjectTypeServerItemsTakeCount: |
+  &7Listeden alınacak eleman miktarı
+  &7Bu liste boyutundan daha küçükse, öğeler listeden rastgele seçilecek ve hiçbir kopya olmayacaktır
+  &7Bu, liste boyutuna eşitse, listedeki tüm öğeler alınacaktır.
+  &7Bu, liste boyutundan büyükse, öğeler listeden rastgele seçilecek ve kopyalar olacaktır.
+
+# -------------------- Quest object : types (server entities) --------------------
+
+descriptionObjectTypeServerEntitiesDamageEntitiesObjectives: |
+  &7Eşleşecek varlıklar
+  &7Doğru konumdalarsa eşleşen varlıklar zarar görür
+  &7Varlıklar için hedef, zarar verebilecek maksimum varlık miktarı olarak kabul edilecektir.
+
+descriptionObjectTypeServerEntitiesDamageDamage: |
+  &7The amount of damage to cause
+
+descriptionObjectTypeServerEntitiesKillEntitiesObjectives: |
+  &7Eşleşecek varlıklar
+  &7Doğru konumdalarsa eşleşen varlıklar öldürülür
+  &7Varlıklar için hedef, öldürülecek maksimum varlık miktarı olarak kabul edilecektir.
+
+descriptionObjectTypeServerEntitiesSpawnEntitiesObjectives: |
+  &7Yaratılacak varlıklar
+  &7Eğer birden fazla ayar seçiliyse, birtanesi rastgele seçilecektir.
+
+descriptionObjectTypeServerEntitiesSpawnLinkToQuest: |
+  &7Mobları göreve bağlamak için (Başka oyuncular etkileşime geçemeyecek)
+
+descriptionObjectTypeServerEntitiesTeleportEntitiesObjectives: |
+  &7Eşleştirilecek varlıklar
+  &7Eşleştirilen varlıklar doğru konumdaysalar ışınlanır
+  &7Goal for entities will be considered as the maximum amount of entities to teleport
+
+descriptionObjectTypeServerEntitiesTeleportTeleportPosition: |
+  &7Varlıkların ışınlanacakları konum
+
+# -------------------- Quest object : types (server physical) --------------------
+
+descriptionObjectTypeServerBlocksPlaceBlockType: |
+  &7Yerleştirilecek blok türü
+
+descriptionObjectTypeServerBlocksPlaceBlockStates: |
+  &7Blokların ayarlanacak durumu
+
+descriptionObjectTypeServerExplosionsCreatePower: |
+  &7Patlama gücü (normal tnt = 2 )
+
+descriptionObjectTypeServerExplosionsCreateCount: |
+  &7Patlamanın sayısı
+
+descriptionObjectTypeServerFireworksLaunchEffects: |
+  &7Havai fişeklerin efekti
+
+descriptionObjectTypeServerFireworksLaunchCount: |
+  &7Havai fişeklerin sayısı
+
+descriptionObjectTypeServerLightningStrikeDamage: |
+  &7Varlıklara verilen şimşek hasarı
+
+descriptionObjectTypeServerLightningStrikeCount: |
+  &7Saldırıların sayısı
+
+descriptionObjectTypeServerPlayerDamageDamage: |
+  &7verilecek hasar
+
+descriptionObjectTypeServerPlayerEffectsGiveEffects: |
+  &7Verilecek efektler
+
+descriptionObjectTypeServerPlayerEffectsGiveCount: |
+  &7Verilecek listedeki unsurların sayısı
+  &7Eğer bu liste ideal boyutdan küçükse, efektler kopyalanmamak suretiyle listeden rastgele seçilecektir
+  &7Eğer bu liste ideal boyutta ise, bütün efektler verilecektir
+  &7Eğer bu liste ideal boyutdan büyük ise, efektler kopyalanmak suretiyle listeden rastgele seçilecektir
+
+descriptionObjectTypeServerPlayerEffectsRemoveEffects: |
+  &7Kaldırılacak efektler
+
+descriptionObjectTypeServerPlayerEffectsRemoveCount: |
+  &7Listeden kaldırılacak unsur sayısı
+  &7Eğer bu liste ideal boyutdan küçükse, efektler kopyalanmamak suretiyle listeden rastgele seçilecektir
+  &7Eğer bu liste ideal boyutta ise, listedeki bütün efektler kaldırılacaktır
+  &7Eğer bu liste ideal boyutdan büyük ise, efektler kopyalanmak suretiyle listeden rastgele seçilecektir
+
+# -------------------- Quest object : types (server logic) --------------------
+
+descriptionObjectTypeGenericServerLogicValueFormula: |
+  &7Yeni değeri hesaplayacak formül
+  &7örnek olarak, &6{value} + 10&7, &6{value} ^ 2 &7ve ya düzeltmek için sadece değer
+  &7şimdiki değeri elde etmek için şunu kullan: {value}. (eğer şu anki değer bir sayı değil ise, değer olarak 0 kullanılacaktır)
+  &7Eğer formül gerçekten bir formül değilse (sadece değer ise), veya formük hesaplayamadıysa, temel değer ayarlanacaktır
+
+descriptionObjectTypeServerLogicModelVariableVariable: |
+  &7Model değişken adı
+
+descriptionObjectTypeServerLogicServerVariableVariable: |
+  &7Server değişken adı
+
+descriptionObjectTypeServerLogicMoneyCurrency: |
+  &7Kullanılacak para birimi
+
+descriptionObjectTypeServerLogicPointsCategory: |
+  &7Puanlar kategorisi
+
+descriptionObjectTypeServerLogicVariableVariable: |
+  &7Değişken adı
+
+# -------------------- Quest object : types (integrations) --------------------
+
+descriptionIntegrationAdvancedMobArenaArena: |
+  &7Gelişmişmobarena arenası
+
+descriptionIntegrationAdvancedMobArenaWaveNumber: |
+  &7Dalga sayısı
+
+descriptionIntegrationCitizensNPC: |
+  &7The Citizens NPC
+
+descriptionIntegrationCitizensNPCNames: |
+  &7Yurttaş NPC isim(leri)
+
+descriptionIntegrationCitizensClickTypes: |
+  &7NPC için kabul edilen tıklama türleri
+
+descriptionIntegrationCitizensNPCs: |
+  &7The Citizens NPCs
+
+descriptionIntegrationCitizensDialogMessages: |
+  &7Diyalog mesajları
+  &7Oyuncunun NPC her etkileşime geçişinde, sonraki mesaj gönderilecektir
+
+descriptionIntegrationCitizensDialogReset: |
+  &7Diyalog sıfırlama ayarları
+
+descriptionObjectTypeCitizensDialogCompleteJournalEntryMessage: |
+  &7Görev günlüğündeki mesaj içeriklerini kaydetmek için
+  &7Bu, yalnızca giriş detayında bir &6{messages} &7 yer tutucu (placeholder) varsa etkili olacaktır &6complete_journal_entry
+
+descriptionIntegrationCitizensNavigateWaitForCompletion: |
+  &7Bir sonraki nesneye ulaşmadan önce npc'nin yolculuğunu tamamlamasını bekle
+
+descriptionIntegrationCitizensNavigateWaitForPlayerRadius: |
+  &7NPC'nin oyuncuyu belirli bir yarıçapın dışına çıktığı zaman beklemesini sağlar
+  &7Eğer &6wait_for_completion &7devre dışı ise bu çalışmaz
+
+descriptionIntegrationCitizensNavigateWaitForPlayerNotify: |
+  &7NPC oyuncu için beklemeye başladığı zaman gönderilecektir
+
+descriptionIntegrationCitizensNavigateWaitForPlayerNotifyDelay: |
+  &7'bekleme bilidirimini' arada bir tekrar eder
+
+descriptionIntegrationDenizenAction: |
+  &7The Denizen action for this NPC
+
+descriptionIntegrationDreamFishObjectives: |
+  &7Balık hedefleri
+
+descriptionIntegrationDreamFishObjectiveFishes: |
+  &7İzin verilen balıklar
+  &7Herhangi bir balığa izin vermek için boş bırakın
+
+descriptionIntegrationDreamFishObjectiveGoal: |
+  &7Balıkçılık görevleri için hedef
+
+descriptionIntegrationDreamFishObjectiveTake: |
+  &7Balıkları daha sonra almak için
+
+descriptionIntegrationGPSObjectEnabled: |
+  &7GPS nesnesini etkinleştirmek/devre dışı bırakmak için
+
+descriptionIntegrationGPSObjectMode: |
+  &7GPS modu
+
+descriptionIntegrationGPSObjectCustomPoint: |
+  &7Bu nesnenin konum ayarından hesaplanan bir nokta yerine özel bir GPS noktası kullanmak için
+
+descriptionIntegrationDungeonsXLDungeon: |
+  &7DungeonsXL zindanı
+
+descriptionIntegrationHeroesClass: |
+  &7Kahramanlar sınıfı
+
+descriptionIntegrationHeroesSkill: |
+  &7Kahramanlar becerisi
+
+descriptionIntegrationHolographicHologram: |
+  &7Hologram
+
+descriptionIntegrationHolographicDisplaysLines: |
+  &7Hologram çizgileri
+
+descriptionIntegrationHolographicDisplaysItem: |
+  &7Holograma bir öğe eklemek için
+
+descriptionIntegrationHolographicDisplaysExpiration: |
+  &7Belirli bir süre sonra hologramın kaybolmasını sağlamak için
+
+descriptionIntegrationJobsRebornJob: |
+  &7JobsReborn işi
+
+descriptionIntegrationMagicMob: |
+  &7Sihirli varlık
+
+descriptionIntegrationMagicSpell: |
+  &7Büyü
+
+descriptionIntegrationMagicWand: |
+  &7Büyü asası
+
+descriptionIntegrationMCMMOSkill: |
+  &7mcMMO yeteneği
+
+descriptionIntegrationMMOCoreSkill: |
+  &7MMOCore yeteneği
+
+descriptionIntegrationMMOCoreClass: |
+  &7MMOCore sınıfı
+
+descriptionIntegrationMMOCoreProfession: |
+  &7MMOCore mesleği
+
+descriptionIntegrationMMOCoreExpSource: |
+  &7MMOCore XP kaynağı
+
+descriptionIntegrationMMOCorePlayerResource: |
+  &7MMOCore oyuncu kaynağı
+
+descriptionIntegrationMMOCorePlayerAttribute: |
+  &7MMOCore oyuncu özelliği
+
+descriptionIntegrationMMOCoreCombatMode: |
+  &7Oyuncunun savaş moduna girmesi veya çıkması gerekiyorsa
+
+descriptionIntegrationMythicMobsObjectives: |
+  &7Mobların hedefleri
+
+descriptionIntegrationMythicMobsObjectiveMobs: |
+  &7İzin verilen moblar
+  &7Herhangi bir mob'a izin vermek için boş bırakın
+
+descriptionIntegrationMythicMobsObjectiveFactions: |
+  &7İzin verilen klanlar
+  &7Herhangi bir klana izin vermek için boş bırakın
+
+descriptionIntegrationMythicMobsObjectiveGoal: |
+  &7Mob objektifi için hedef
+
+descriptionIntegrationMythicMobsObjectiveDeathInRadius: |
+  &7Oyuncudan maksimum uzaklık
+
+descriptionIntegrationMythicMobsSpawnLinkToQuest: |
+  &7Mobları göreve bağlamak için (diğer oyuncular etkileşime geçemeyecek)
+
+descriptionIntegrationMythicMobsSignal: |
+  &7Gönderilecek sinyal
+
+descriptionIntegrationBossObjectives: |
+  &7Bossların hedefleri
+
+descriptionIntegrationBossObjectiveBosses: |
+  &7İzin verilen bosslar
+  &7Herhangi bir bossa izin vermek için boş bırakın
+ 
+descriptionIntegrationBossObjectiveGoal: |
+  &7Boss objektifi için hedef
+
+descriptionIntegrationBossSpawnLinkToQuest: |
+  &7Mobları göreve bağlamak için (diğer oyuncular etkileşime geçemeyecek)
+
+descriptionIntegrationQuantumRPGClass: |
+  &7QuantumRPG sınıfı
+
+descriptionIntegrationQuantumRPGClassAttribute: |
+  &7QuantumRPG sınıfı niteliği
+
+descriptionIntegrationRacesOfThanaRace: |
+  &7RacesOfThana yarışı
+
+descriptionIntegrationShopkeepersShopkeeper: |
+  &7Esnaflar
+
+descriptionIntegrationSkillAPIClass: |
+  &7SkillAPI sınıfı
+
+descriptionIntegrationSkillAPISkill: |
+  &7SkillAPI yeteneği
+
+descriptionIntegrationSuperiorSkyblockUpgrade: |
+  &7SuperiorSkyblock yükseltmesi
+
+descriptionIntegrationSuperiorSkyblockMission: |
+  &7SuperiorSkyblock görevi
+
+descriptionIntegrationTokenEnchantTokenType: |
+  &7TokenEnchant jeton tipi
+
+descriptionIntegrationTokenEnchantEnchant: |
+  &7TokenEnchant büyü adı
+
+descriptionIntegrationTokenEnchantEnchantLevel: |
+  &7TokenEnchant büyü seviyesi
+
+# -------------------- Divergence : chat --------------------
+
+descriptionDivergenceChatText: |
+  &7Bu seçenek için metin
+
+descriptionDivergenceChatRedoText: |
+  &7Bu görevi yeniden yaparken farklı bit metin göndermek için
+
+descriptionDivergenceChatUnavailableText: |
+  &7Bu seçeneğin koşulları eşleşmese bile veya &6max_completions &7'a ulaşılsa bile bu seçimi görüntülemek için
+
+descriptionDivergenceChatMaxCompletions: |
+  &7Bu seçimin maksimum kaç kez seçilebileceği
+
+descriptionDivergenceChatConditions: |
+  &7Bu seçimi koşullarla sınırlamak için
+
+descriptionDivergenceChatGoto: |
+  &7Bu seçenek seçilirse uygulanacak
+
+# -------------------- Divergence : GUI --------------------
+
+descriptionDivergenceGUISlot: |
+  &7Bu seçenek için yer
+
+descriptionDivergenceGUIItem: |
+  &7Bu seçim için eşya
+
+descriptionDivergenceGUIRedoItem: |
+  &7Bu objektifi yeniden yaparken farklı bir eşya görüntülemek için
+
+descriptionDivergenceGUIUnavailableItem: |
+  &7Bu seçeneğin koşulları eşleşmese veya &6max_completions &7'a ulaşılsa bile bu seçimi görüntülemek için
+
+descriptionDivergenceGUIMaxCompletions: |
+  &7Bu seçimin maksimum kaç kez seçilebileceği
+
+descriptionDivergenceGUIConditions: |
+  &7Bu seçimi koşullarla sınırlamak için
+
+descriptionDivergenceGUIGoto: |
+  &7Bu seçenek seçilirse uygulanacak
+
+# -------------------- Divergence : objects --------------------
+
+descriptionDivergenceObjectsObject: |
+  &7Bu seçenek için objektif
+
+descriptionDivergenceObjectsConditions: |
+  &7Bu seçimi koşullarla sınırlamak için
+
+descriptionDivergenceObjectsGoto: |
+  &7Bu seçenek seçilirse uygulanacak
+
+# -------------------- Quest branch --------------------
+
+descriptionBranchType: |
+  &7Bu bölümün türü
+
+descriptionBranchObjects: |
+  &7Bu bölüm için objektif
+
+descriptionBranchStartsAt: |
+  &7Bu Bölümün ilk objektifi
+
+descriptionBranchStartsDirectly: |
+  &7görev başladığında bu bölümü doğrudan başlatmak için
+
+# -------------------- Quest branch : named --------------------
+
+descriptionBranchDisplayName: |
+  &7Bu bölümün görünen adı
+
+# -------------------- Quest group --------------------
+
+descriptionGroupQuests: |
+  &7Bu grubun görev modelleri
+
+descriptionGroupMaxConcurrent: |
+  &7Bu gruptaki maksimum eşzamanlı aktif görev
+
+descriptionGroupExecutionOrder: |
+  &7Bu grubun görevlerini sırayla yürütülmeye zorlamak için
+
+descriptionGroupConditionsStartRestriction: |
+  &7Bu grubun görevlerinin başlamasını koşullarla kısıtlamak için
+
+descriptionGroupRewards: |
+  &7Bu grup tamamlandığında verilecek ödüller
+
+# -------------------- Conditions --------------------
+
+descriptionConditionsConditions: |
+  &7Kontrol edilecek koşulların listesi
+
+descriptionConditionsMatchAmount: |
+  &7Eşleşmesi gereken minimum koşul miktarı
+  &7Bu, mevcut koşulların miktarından daha büyükse, bu kullanılacaktır.
+
+descriptionConditionsNoMatchAmount: |
+  &7Eşleşmemesi gereken minimum koşul miktarı
+  &7Bu, mevcut koşulların miktarından daha büyükse, bu kullanılacaktır.
+
+descriptionConditionsErrorMessage: |
+  &7Çalışmayan eşleşme bulunduğunda görüntülenecek hata mesajı
+
+# -------------------- Condition : common --------------------
+
+descriptionConditionType: |
+  &7Koşul türü
+
+descriptionConditionErrorMessage: |
+  &7Koşul sağlanmadığında gönderilecek hata mesajı
+
+descriptionConditionGameTimeStartTicks: |
+  &7Başlangıç ​​saniyeleri
+
+descriptionConditionGameTimeEndTicks: |
+  &7Bitiş saniyeleri
+
+descriptionConditionInventoryFreeForItemsItems: |
+  &7Oyuncunun envanterinde yeterli boş alana sahip olması gereken eşyalar
+
+descriptionConditionItemsItems: |
+  &7Eşyaların bir listesi
+
+descriptionConditionGenericLogicLogic: |
+  &7The logic string to parse
+  &7Karşılaştırma türlerini kullanabilirsiniz (=, !=, <, <=, >, >=), örneğin &6{placeholder} * 4 >= 10 * 20 &7veya &6{placeholder} = my_value
+  &7Birden fazla karşılaştırma türünü birleştirebilirsiniz, örneğin &610 <= {placeholder} <= 100
+  &7'In' operatörünü kullanabilirsiniz (|in|), örneğin &6{placeholder} |in| value1 | value2 | value3
+  &7'and' operatörünü kullanabilirsiniz (&&), örneğin &6{placeholder} > 50 && {placeholder} < 100
+  &7'or' operatörünü kullanabilirsiniz (||), örneğin &6{placeholder} <= 50 || {placeholder} >= 100
+  &7Koşulları aşşağıdakilerle birleştirebilirsiniz [], örneğin &6[{placeholder} >= 10 || {placeholder}] && [{variable:test2} < 10 || {variable:test2} > 50]
+
+descriptionConditionGenericLogicLogicPlaceholder: |
+  &r
+  &7Bu koşula özgü yer tutucular (placeholders) : {placeholders}
+
+descriptionConditionLogicMoneyCurrency: |
+  &7Kontrol edilecek para birimi
+
+descriptionConditionPermissionPermission: |
+  &7Yetki
+
+descriptionConditionPositionPosition: |
+  &7Posizyon
+
+descriptionConditionScoreboardTagTagName: |
+  &7Skorbord etiketi adı
+
+descriptionConditionScoreboardTagMustHave: |
+  &7Oyuncunun etikete sahip olması gerekip gerekmediği
+
+descriptionConditionLogicScoreboardValueObjectiveName: |
+  &7Skorbord hedefi adı
+
+descriptionConditionLogicScoreboardValueScoreName: |
+  &7Skorbord skor adı
+
+descriptionConditionScoreboardValueValue: |
+  &7Karşılaştırılacak değer
+
+descriptionConditionScoreboardValueComparison: |
+  &7yapılacak karşılaştırma
+
+descriptionConditionDayTimeStart: |
+  &7Gün içinde başlangıç ​​zamanı
+
+descriptionConditionDayTimeEnd: |
+  &7Gün içindeki bitiş zamanı (günler arasında geçiş başladıktan sonra olabilir)
+
+descriptionConditionWeekTimeStart: |
+  &7Haftada başlama zamanı
+
+descriptionConditionWeekTimeEnd: |
+  &7Haftadaki bitiş zamanı (haftalar arasında geçiş başladıktan sonra olabilir)
+
+descriptionConditionMonthTimeStart: |
+  &7Aydaki başlangıç ​​zamanı
+
+descriptionConditionMonthTimeEnd: |
+  &7Aydaki bitiş zamanı (aylar arasında geçiş başladıktan sonra olabilir)
+
+descriptionConditionYearTimeStart: |
+  &7Yıl içinde başlama zamanı
+
+descriptionConditionYearTimeEnd: |
+  &7Yıl içindeki bitiş zamanı (yıllar arası geçiş başladıktan sonra olabilir)
+
+# -------------------- Condition --------------------
+
+descriptionConditionActorRestriction: |
+  &7Bu koşulun kontrolünü belirli oyuncularla sınırlamak için
+
+descriptionConditionMustTake: |
+  &7Kontrollerden sonra koşulu (destekleniyorsa) almak için
+
+descriptionConditionGroupCompletedGroup: |
+  &7Kontrol edilecek görev grubu
+
+descriptionConditionGroupCompletedAmount: |
+  &7Gerekli tamamlama sayısı
+
+descriptionConditionQuestCompletedModel: |
+  &7Kontrol edilecek görev modeli
+
+descriptionConditionQuestCompletedEndTypes: |
+  &7Dikkate alınması gereken son türleri
+
+descriptionConditionQuestCompletedInTime: |
+  &7sadece belirli bir dönemi kontrol etmek için
+
+descriptionConditionQuestCompletedAmount: |
+  &7Gerekli tamamlama sayısı
+
+descriptionConditionQuestPlayersAmount: |
+  &7Gerekli oyuncu sayısı
+
+descriptionConditionQuestPointsCategory: |
+  &7Karşılaştırılacak puan kategorisi
+
+descriptionConditionQuestCompletedObjectQuest: |
+  &7Kontrol edilecek görev
+
+descriptionConditionQuestCompletedObjectBranch: |
+  &7Kontrol edilecek bölüm
+
+descriptionConditionQuestCompletedObjectObject: |
+  &7Kontrol edilecek nesne
+
+descriptionConditionQuestCompletedObjectCheckActive: |
+  &7Mevcut görevin aktif olup olmadığını da kontrol etmek için
+
+descriptionConditionQuestCompletedObjectEndTypes: |
+  &7Dikkate alınması gereken son türleri
+
+descriptionConditionQuestCompletedObjectInTime: |
+  &7Yalnızca belirli bir dönemi kontrol etmek için
+
+descriptionConditionQuestCompletedObjectAmount: |
+  &7Gerekli tamamlama sayısı
+
+# -------------------- Pool --------------------
+
+descriptionPoolDisplayName: |
+  &7Bu havuzun görünen adı
+
+descriptionPoolTimeFrames: |
+  &7Jetonların verilmesi gereken zaman çerçevelerinin bir listesi
+
+descriptionPoolOrder: |
+  &7Bu havuz için görevlerin işlenme sırası
+
+descriptionPoolAmount: |
+  &7Bu havuzun her zaman aralığında jeton vereceği görev veya grup miktarı
+  &7İlk olarak, görevler işlenir; jeton verilen her görev miktarı 1 azaltır
+  &7Daha sonra görev grupları işlenir; en az bir göreve jeton verilen her grup, miktarı 1 azaltır
+
+descriptionPoolAmountTolerance: |
+  &7Halihazırda aktif olan görevlerin sayısını, verilecek jeton miktarından çıkarmak (veya çıkarmamak)
+
+descriptionPoolQuests: |
+  &7Bu havuzun jeton verebileceği görevler ve ayarları
+
+descriptionPoolQuestsGroups: |
+  &7Bu havuzun jeton verebileceği görev grupları ve ayarları
+
+descriptionPoolQuestProcessConditions: |
+  &7Bu koşullar eşleşmezse bu görevin işlenmesini önlemek için
+
+descriptionPoolQuestPreResetTokens: |
+  &7Bu görevin jetonları (varsa) seçilmemiş olsa bile 0'a sıfırlanırsa
+
+descriptionPoolQuestPreStop: |
+  &7Bu görev seçilmemiş olsa bile durdurulmalı mı (etkinse)
+
+descriptionPoolQuestPreResetHistory: |
+  &7Bu görevin geçmişi (varsa) seçilmemiş olsa bile sıfırlanmalı mı?
+
+descriptionPoolQuestSelectedResetTokens: |
+  &7Bu görevin jetonları (varsa) yeni jetonlar seçilmeden önce 0'a sıfırlanmalı mı?
+
+descriptionPoolQuestSelectedStop: |
+  &7Seçilmişse yeni jetonlar vermeden önce bu görev durdurulmalı mı (etkinse)
+
+descriptionPoolQuestSelectedResetHistory: |
+  &7Seçilmişse, bu görevin geçmişi (varsa) yeni jetonlar vermeden önce sıfırlanmalı mı?
+
+descriptionPoolQuestRefundTokenOnEndTypes: |
+  &7Jetonlar hangi bitiş türleri için iade edilmelidir (tüketildiyse)
+
+descriptionPoolQuestMinTokens: |
+  &7Bu göreve verilecek minimum jeton miktarı
+
+descriptionPoolQuestMaxTokens: |
+  &7Bu göreve verilecek maksimum jeton miktarı
+
+descriptionPoolQuestGroupProcessConditions: |
+  &7Bu koşullar eşleşmezse bu grubun işlenmesini önlemek için
+
+descriptionPoolQuestGroupAmount: |
+  &7Bu grupta seçildiği takdirde jeton verilecek görevlerin miktarı
+
+descriptionPoolQuestGroupPreResetTokens: |
+  &7Bu grubun (varsa) tüm görevlerinin jetonları, seçilmemiş olsa bile 0'a sıfırlanırsa
+
+descriptionPoolQuestGroupPreStop: |
+  &7Bu grubun tüm görevleri seçilmemiş olsa bile (etkinse) durdurulmalı mı?
+
+descriptionPoolQuestGroupPreResetHistory: |
+  &7Bu grubun (varsa) tüm görevlerinin geçmişi, seçilmemiş olsa bile sıfırlanmalı mı?
+
+descriptionPoolQuestGroupSelectedResetTokens: |
+  &7Bu grubun (varsa) tüm görevlerinin jetonları, seçiliyse yeni jetonlar vermeden önce 0'a sıfırlanmalı mı?
+
+descriptionPoolQuestGroupSelectedStop: |
+  &7Seçilmişse yeni jetonlar vermeden önce bu grubun tüm görevleri (etkinse) durdurulmalı mı?
+
+descriptionPoolQuestGroupSelectedResetHistory: |
+  &7Bu grubun (varsa) tüm görevlerinin geçmişi, seçiliyse yeni jetonlar vermeden önce sıfırlanmalı mı?
+
+descriptionPoolQuestGroupRefundTokenOnEndTypes: |
+  &7Jetonlar hangi bitiş türleri için iade edilmelidir (tüketildiyse)
+
+descriptionPoolQuestGroupMinTokens: |
+  &7Bu grubun görevlerine verilecek minimum jeton miktarı
+
+descriptionPoolQuestGroupMaxTokens: |
+  &7Bu grubun görevlerine verilecek maksimum jeton miktarı
+
+descriptionPoolRewards: |
+  &7Bu havuz tamamlandığında verilecek ödüller
+
+# -------------------- Rewards --------------------
+
+descriptionRewardObjectObject: |
+  &7Havuzu/grubu tamamlayan oyuncu için gerçekleştirilen nesne
+  &7Yalnızca anlık etkileri olan nesneler gerçekleştirilecektir.
+
+descriptionRewardObjectMinStreak: |
+  &7Bu havuz/grup için nesnenin gerçekleştirmesi için gereken minimum seri
+
+descriptionRewardObjectMaxStreak: |
+  &7Bu havuz/grup için maksimum seri, mevcut seri bunun üzerindeyse nesne gerçekleştirilmez
+
+# -------------------- Activator --------------------
+
+descriptionActivatorType: |
+  &7Bu aktivatörün türü
+
+descriptionActivatorParticles: |
+  &7Farklı görev durumları için parçacık komut dosyaları
+
+descriptionActivatorParticlesLocation: |
+  &7Parçacıkların görüntülenme konumunu uyarlamak için
+
+descriptionActivatorHolograms: |
+  &7The HolographicDisplays hologramları için başka hologram statüleri gerekli
+  &7Placeholders : {status_count:STATUS}, {status_list:STATUS}
+
+descriptionActivatorHologramLocation: |
+  &7Hologramın görüntülenme konumunu uyarlamak için
+
+descriptionActivatorCustomGui: |
+  &7Belirli bir ekran oluşturmak yerine bu aktivatöre bağlamak için
+
+descriptionActivatorRequiredGuiQuests: |
+  &7Ekran'nın görünmesi için gereken öğe miktarı (özel ekran yoksa)
+
+descriptionActivatorInteractionClicks: |
+  &7Bir etkileşimi tetikleyecek tıklama türleri
+
+descriptionActivatorSneakClickCancel: |
+  &7Gizlice girerken ve bir etkileşim kullanırken görevleri iptal etmek için tıklayın
+
+descriptionActivatorGuiShowStatus: |
+  &7Görev, bu etkinleştirici GUI'de izin verileceğini belirtir (özel GUI yoksa)
+
+descriptionActivatorGuiName: |
+  &7&7Bu etkinleştiricinin Grafik kullanıcı arayüzünün adı (if no custom GUI)
+
+descriptionActivatorGuiType: |
+  &7Bu etkinleştiricinin Grafik kullanıcı arabiriminin türü (if no custom GUI)
+
+descriptionActivatorPositionsInteract: |
+  &7Eşleşecek pozisyonlar
+
+descriptionActivatorEntitiesEntityTypes: |
+  &7İzin verilen varlık türleri
+  &7Herhangi bir türe izin vermek için boş bırakın
+
+descriptionActivatorEntitiesEntityNames: |
+  &7İzin verilen varlık adları
+  &7Herhangi bir isme (veya hiçbir isme) izin vermek için boş bırakın
+
+descriptionActivatorEntitiesEntityColors: |
+  &7İzin verilen varlık renkleri (renklendirilebilir varlıklar için)
+  &7Herhangi bir renge izin vermek için boş bırakın
+
+descriptionActivatorAutoDelay: |
+  &7Bu etkinleştiricinin her X zaman biriminde tetiklenmesini sağlamak için
+
+descriptionActivatorPosition: |
+  &7Eşleşmesi gereken pozisyon
+
+descriptionActivatorPositionDelay: |
+  &7Bu etkinleştiricinin her X zaman biriminde tetiklenmesini sağlamak için
+
+# -------------------- GUI --------------------
+
+descriptionGuiShowStatus: |
+  &7Görev, bu Grafik kullanıcı arayüzünde izin verilecek olanı belirtir.
+
+descriptionGuiOrderQuests: |
+  &7Görevleri liste sırasına göre sıralamak veya rastgele görüntüler
+
+descriptionGuiOverrideClickTypeInfo: |
+  &7Bu Grafik kullanıcı arayüzü bilgi tıklama türünü geçersiz kılar.
+
+descriptionGuiOverrideClickTypeStart: |
+  &7Bu Grafik kullanıcı arayüzü başlatma tıklama türünü geçersiz kılar
+
+descriptionGuiOverrideClickTypeStartCoop: |
+  &7Bu Grafik kullanıcı arayüzü için küme başlatmayı geçersiz kılar
+
+descriptionGuiOverrideClickTypeStop: |
+  &7Bu Grafik kullanıcı arayüzü için durdurma tıklama türünü geçersiz kılar
+
+descriptionGuiOverrideClickTypeLeave: |
+  &7Bu Grafik kullanıcı arayüzü için bırakma tıklama türünü geçersiz kılar
+
+descriptionGuiItemQuestsQuests: |
+  &7Bu eşya için gösterilecek görevler
+  &7Durumlarına göre gösterilecekler
+
+descriptionGuiItemQuestsMode: |
+  &7Tüm konumlarda aynı görevin mi yoksa listedeki farklı görevlerin uygun konumlarda mı gösterilmesi gerektiğini belirlemek için
+
+descriptionGuiItemGUIGUI: |
+  &7Bu öğeyle bağlantı kurmak için Grafik kullanıcı arayüzü
+
+descriptionGuiItemGUIPointsRankingCategory: |
+  &7puan kategorisi
+
+descriptionGuiItemPointsRankingCategory: |
+  &7puan kategorisi
+
+descriptionGuiItemToggleSettingSetting: |
+  &7Geçiş yapmak için ayar
+
+descriptionGuiItemToggleSettingIconOn: |
+  &7Ayar etkinleştirildiğinde görüntülenecek simge
+
+descriptionGuiItemToggleSettingIconOff: |
+  &7Ayar devre dışı bırakıldığında görüntülenecek simge
+
+# -------------------- Checkpoint --------------------
+
+descriptionCheckpointSaveLocation: |
+  &7Oyuncuların konumunu kaydetmek için
+
+descriptionCheckpointSaveSpecificLocation: |
+  &7Oyuncuların konumu yerine belirli bir konumu kaydetmek için
+
+descriptionCheckpointSaveBranches: |
+  &7Şubelerin durumunu kaydetmek için
+
+descriptionCheckpointSaveIndividualBranches: |
+  &7Bireysel şubelerin durumunu kaydetmek için
+
+descriptionCheckpointSaveModelVariables: |
+  &7Model değişkenlerini kaydetmek için
+
+descriptionCheckpointSaveUserVariables: |
+  &7Kaydedilecek kullanıcı değişkenlerinin listesi
+
+descriptionCheckpointRestoreOnRespawn: |
+  &7Yeniden doğma sırasında kontrol noktasını geri yüklemek için
+
+descriptionCheckpointRestoreOnConnect: |
+  &7Yeniden bağlanıldığında kontrol noktasını geri yüklemek için
+
+descriptionCheckpointRestoreOnResume: |
+  &7Görev devam ederken kontrol noktasını geri yüklemek için
+
+descriptionCheckpointRestoreOnConditions: |
+  &7Bu kontrol noktasının geri yüklenmesine yol açabilecek ekstra koşullar
+
+descriptionCheckpointRestoreOnIndividualConditions: |
+  &Bu kontrol noktasının bireysel olarak geri yüklenmesine yol açabilecek ekstra koşullar
+
+descriptionCheckpointRestoreNotify: |
+  &7Bir şubeyi geri yüklerken başlangıç ​​bildirimi gönderilmeli mi
+
+descriptionCheckpointRestoreObjects: |
+  &7Bu kontrol noktasını geri yüklerken gerçekleştirilecek nesneler
+
+# -------------------- State --------------------
+
+descriptionStateDisplayName: |
+  &7Bu durum için bir görünen ad (only used when performing the state command)
+
+descriptionStateQuests: |
+  &7Görevler hakkında çeşitli bilgiler
+  &7Görev zaten başlatılmışsa, mevcut durumu kullanılacak ve özellikler değiştirilecek
+  &7Görev başlatılmazsa başlatılacak ve özellikler eklenecek
+
+descriptionStateStopQuests: |
+  &7Etkinse durdurulması gereken görevlerin listesi
+
+descriptionStateUserVariables: |
+  &7Kullanıcı değişkenlerinin listesi ve ayarlanacak değerleri
+
+descriptionStatePosition: |
+  &7Kullanıcıyı ışınlamak için bir pozisyon
+
+descriptionStatePreStateObjects: |
+  &7Durumu ayarlamadan önce gerçekleştirilecek anlık nesnelerin listesi
+
+descriptionStatePostStateObjects: |
+  &7Durumu ayarladıktan sonra gerçekleştirilecek anlık nesnelerin listesi
+
+descriptionQuestStateBranches: |
+  &7Etkinleştirilecek dalların listesi ve geçerli nesneleri
+
+descriptionQuestStateIndividualBranches: |
+  &7Etkinleştirilecek bireysel dalların ve mevcut nesnelerinin bir listesi
+
+descriptionQuestStateModelVariables: |
+  &7Model değişkenlerinin listesi ve ayarlanacak değerleri
+
+descriptionQuestStatePreStateObjects: |
+  &7Bu görevin durumunu ayarlamadan önce gerçekleştirilecek anlık nesnelerin listesi
+
+descriptionQuestStatePostStateObjects: |
+  &7Bu görev için durumu ayarladıktan sonra gerçekleştirilecek anlık nesnelerin listesi

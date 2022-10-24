@@ -98,7 +98,7 @@ Menu-Item:
   # Set to true allows player to move menu selector to another slot.
   Able-To-Move: false
   Lore:
-  - '&7Puntos: &b{MYSTERY_DUST}'
+  - '&7Polvos: &b{MYSTERY_DUST}'
   - ''
   - '&7Disfruta de funciones cosméticas divertidas!'
   - '&7Se agregarán más cosas con el tiempo,'

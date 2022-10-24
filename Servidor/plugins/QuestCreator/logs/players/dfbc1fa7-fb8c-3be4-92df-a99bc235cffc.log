@@ -1,0 +1,11 @@
+[19/10 02:04:31] [info] mampool | connected
+[19/10 02:04:31] [info] mampool | fetched user data : no value ; created it
+[19/10 02:04:31] [info] mampool | pushing user dfbc1fa7-fb8c-3be4-92df-a99bc235cffc, active quests : 
+[19/10 02:04:31] [info] mampool | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[19/10 02:04:31] [info] mampool | fetched user quests : 
+[19/10 02:06:44] [info] mampool | disposing user quests data : 
+- must dispose quests
+[19/10 02:06:44] [info] mampool | disposed user data
+[19/10 02:06:44] [info] mampool | disconnected

@@ -1,0 +1,21 @@
+[21/10 20:13:40] [info] terry_silver | connected
+[21/10 20:13:40] [info] terry_silver | fetched user data : no value ; created it
+[21/10 20:13:40] [info] terry_silver | pushing user 98151805-3a28-3f8f-a736-22ff82f37305, active quests : 
+[21/10 20:13:40] [info] terry_silver | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[21/10 20:13:40] [info] terry_silver | fetched user quests : 
+[21/10 20:30:50] [info] terry_silver | disposing user quests data : 
+- must dispose quests
+[21/10 20:30:50] [info] terry_silver | disposed user data
+[21/10 20:30:50] [info] terry_silver | disconnected
+[22/10 17:11:14] [info] terry_silver | connected
+[22/10 17:11:14] [info] terry_silver | fetched user data : active quests 
+[22/10 17:11:14] [info] terry_silver | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[22/10 17:11:14] [info] terry_silver | fetched user quests : 
+[22/10 17:36:12] [info] terry_silver | disposing user quests data : 
+- must dispose quests
+[22/10 17:36:12] [info] terry_silver | disposed user data
+[22/10 17:36:12] [info] terry_silver | disconnected

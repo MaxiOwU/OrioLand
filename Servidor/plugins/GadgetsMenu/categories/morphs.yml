@@ -10,7 +10,7 @@ Morphs:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'
     Enabled-Ability: true
   Cow:
     Name: '&b&lVaca'
@@ -23,7 +23,7 @@ Morphs:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'
     Enabled-Ability: true
   Enderman:
     Name: '&b&lEnderman'
@@ -36,7 +36,7 @@ Morphs:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &5&lEPICO"
+    - '&8&l» &fRareza: &5&lEPICO'
     Enabled-Ability: true
   Chicken:
     Name: '&b&lPollo'
@@ -49,10 +49,10 @@ Morphs:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &5&lEPICO"
+    - '&8&l» &fRareza: &5&lEPICO'
     Enabled-Ability: true
   Spider:
-    Name: "&b&lAra\xc3\xb1a"
+    Name: '&b&lAraÃ±a'
     Material: COBWEB
     Cooldown: 10
     Mystery Dust: 50
@@ -62,7 +62,7 @@ Morphs:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &5&lEPICO"
+    - '&8&l» &fRareza: &5&lEPICO'
     Enabled-Ability: true
   Sheep:
     Name: '&b&lOveja'
@@ -75,7 +75,7 @@ Morphs:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &5&lEPICO"
+    - '&8&l» &fRareza: &5&lEPICO'
     Enabled-Ability: true
   Skeleton:
     Name: '&b&lEsqueleto'
@@ -88,7 +88,7 @@ Morphs:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &5&lEPICO"
+    - '&8&l» &fRareza: &5&lEPICO'
     Enabled-Ability: true
   Creeper:
     Name: '&b&lCreeper'
@@ -102,7 +102,7 @@ Morphs:
     Affect-Players: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+    - '&8&l» &fRareza: &d&lLEGENDARIO'
     Enabled-Ability: true
   Blaze:
     Name: '&b&lBlaze'
@@ -115,7 +115,7 @@ Morphs:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+    - '&8&l» &fRareza: &d&lLEGENDARIO'
     Enabled-Ability: true
   Zombie:
     Name: '&b&lZombie'
@@ -128,7 +128,7 @@ Morphs:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+    - '&8&l» &fRareza: &d&lLEGENDARIO'
     Enabled-Ability: true
   Iron Golem:
     Name: '&b&lGolem de Hierro'
@@ -141,7 +141,7 @@ Morphs:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+    - '&8&l» &fRareza: &d&lLEGENDARIO'
     Enabled-Ability: true
   Witch:
     Name: '&b&lBruja'
@@ -154,10 +154,10 @@ Morphs:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+    - '&8&l» &fRareza: &d&lLEGENDARIO'
     Enabled-Ability: true
   Snowman:
-    Name: "&b&lMu\xc3\xb1eco de Nieve"
+    Name: '&b&lMuÃ±eco de Nieve'
     Material: SNOWBALL
     Cooldown: 0
     Mystery Dust: 125
@@ -167,7 +167,7 @@ Morphs:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+    - '&8&l» &fRareza: &d&lLEGENDARIO'
     Enabled-Ability: true
   Guardian:
     Name: '&b&lGuardian'
@@ -180,5 +180,5 @@ Morphs:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+    - '&8&l» &fRareza: &d&lLEGENDARIO'
     Enabled-Ability: true

@@ -1,0 +1,11 @@
+[16/10 10:20:43] [info] Alba_n_c | connected
+[16/10 10:20:43] [info] Alba_n_c | fetched user data : no value ; created it
+[16/10 10:20:43] [info] Alba_n_c | pushing user 51100631-3e1a-3828-b70e-2768d07fd17f, active quests : 
+[16/10 10:20:43] [info] Alba_n_c | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 10:20:43] [info] Alba_n_c | fetched user quests : 
+[16/10 10:23:06] [info] Alba_n_c | disposing user quests data : 
+- must dispose quests
+[16/10 10:23:06] [info] Alba_n_c | disposed user data
+[16/10 10:23:06] [info] Alba_n_c | disconnected

@@ -1,0 +1,13 @@
+{
+  "version": "4",
+  "uuid": "a8340d5b-27d9-348a-949d-1421f11600dc",
+  "questPools": {
+    "tokens": ""
+  },
+  "journalToggle": "true",
+  "gpsToggle": "true",
+  "actionbarToggle": "true",
+  "bossbarToggle": "true",
+  "scoreboardToggle": "true",
+  "titleToggle": "true"
+}

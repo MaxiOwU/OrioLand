@@ -1,0 +1,1543 @@
+# -------------------- Editor --------------------
+
+editorMainTitle: QuestCreator
+editorActivatorsTitle: Activadores de misiones
+editorActivatorsIconName: |
+  &aActivadores de misiones
+
+editorGlobalBranchesTitle: Brancas globales
+editorGlobalBranchesIconName: |
+  &aBrancas globales
+
+editorGlobalConditionsTitle: Condiciones globales
+editorGlobalConditionsIconName: |
+  &aCondiciones globales
+
+editorGlobalGUIItemsTitle: Objetos GUI globales
+editorGlobalGUIItemsIconName: |
+  &aObjetos GUI globales
+
+editorGlobalObjectsTitle: Objetivos globales
+editorGlobalObjectsIconName: |
+  &aObjetivos globales
+
+editorGlobalTimeFramesTitle: Períodos de tiempo globales
+editorGlobalTimeFramesIconName: |
+  &aPeríodos de tiempo globales
+
+editorGlobalStatesTitle: Estados
+editorGlobalStatesIconName: |
+  &aEstados
+
+editorGlobalVariablesTitle: Variables globales
+editorGlobalVariablesIconName: |
+  &aVariables globales
+
+editorGlobalVariableElementLore: |
+  &7
+  {current}
+  &7
+  &7Puedes usar placeholders para este valor
+  &dClick izquierdo para editar
+  &dShift + click derecho para borrar
+
+editorGroupsTitle: Grupos de misiones
+editorGroupsIconName: |
+  &aGrupos de misiones
+
+editorGUIsTitle: GUIs
+editorGUIsIconName: |
+  &aGUIs
+
+editorModelsTitle: Modelos de misión
+editorModelsIconName: |
+  &aModelos de misión
+
+editorPoolsTitle: Grupos de misiones
+editorPoolsIconName: |
+  &aGrupos de misiones
+
+elementGlobalObject: |
+  &7Go-to global: {goto}
+  &dShift + click derecho para editar el go-to global
+
+elementBasicShopkeeperSelect: |
+  &dShift + click derecho para seleccionar rápidamente
+
+messageElementBasicImportShopkeeper: |
+  &7Interactúa con el nuevo shopkeeper para importar, o escribe &c{cancel} &7en el chat para cancelar.
+
+# -------------------- Quest model --------------------
+
+descriptionModelDisplayName: |
+  &7Nombre de esta misión
+
+descriptionModelDescription: |
+  &7Descripción de esta misión
+
+descriptionModelDescriptionPlaceholder: |
+  &7Descripción alternativa que puedes obtener con placeholders
+
+descriptionModelInformationMessage: |
+  &7Mensaje informativo para esta misión
+
+descriptionModelStartNotify: |
+  &7Mandar una notificación cuando se inicie la misión
+
+descriptionModelProgressNotify: |
+  &7Mandar un recordatorio con el progreso actual
+
+descriptionModelProgressNotifyScoreboard: |
+  &7Mostrar el progreso actual en la scoreboard
+
+descriptionModelDisplayPriority: |
+  &7Los modelos con una prioridad configurada se mostrarán (scoreboard/título/actionbar/...) siguiendo esta prioridad primero, o la fecha de última actualización si tienen la misma prioridad
+  &7Los modelos con prioridad se mostrarán antes que los modelos que no tienen ninguna prioridad establecida
+
+descriptionModelDynmapMarker: |
+  &7Mostrar un marcador de dynmap para esta misión
+
+descriptionModelAllStatusItem: |
+  &7Añadir un objeto para la GUI, el mismo para cada estado de la misión
+
+descriptionModelStatusItems: |
+  &7Añadir una apariencia del objeto de la GUI para los estados de esta misión
+  &7Si un estado no tiene un objeto, el plugin recurrirá a &6all_status_item
+
+descriptionModelPermissionStartRestriction: |
+  &7Restringir el inicio de esta misión con un permiso
+
+descriptionModelConditionsStartRestriction: |
+  &7Restringir el inicio de esta misión con unas condiciones
+
+descriptionModelWorldRestriction: |
+  &7Restringir esta misión con mundos
+
+descriptionModelCommandRestriction: |
+  &7Restringir el uso de comandos mientras se realiza la misión
+
+descriptionModelCooldown: |
+  &7Establecer un cooldown para esta misión después de finalizarla
+
+descriptionModelTimeLimit: |
+  &7Establecer un tiempo límite para esta misión
+
+descriptionModelTimeLimitFailGoto: |
+  &7Go-to que se llamará cuando se acabe el tiempo
+
+descriptionModelSaving: |
+  &7Tipo de guardado para esta misión
+
+descriptionModelCompletion: |
+  &7La configuración de finalización para esta misión
+
+descriptionModelMaxConcurrentInstances: |
+  &7Instancias máximas a la vez para esta misión
+
+descriptionModelMaxConcurrentInstancesQueue: |
+  &7Colocar a los jugadores en una cola si hay demasiadas instancias en la misión
+
+descriptionModelModelVariables: |
+  &7Los valores por defecto para las variables de este modelo
+  &7Cada misión, cuando está activa, tiene sus propias variables independientes de los jugadores, y estas variables se descartan cuando se termina la misión
+
+descriptionModelMinPlayers: |
+  &7La cantidad mínima de jugadores (incluyendo al líder)
+
+descriptionModelMaxPlayers: |
+  &7La cantidad máxima de jugadores (incluyendo al líder)
+
+descriptionModelMinActivePlayers: |
+  &7La cantidad mínima de jugadores activos (cuando la misión está ejecutándose)
+  &7Si quieres que los jugadores cooperativos puedan salir de la misión mientras está en curso, este número debe ser menor que los jugadores máximos
+
+descriptionModelAllowLeaderStop: |
+  &7Permitir al líder detener la misión
+
+descriptionModelDisposeOnLeaderDisconnect: |
+  &7Pausar y guardar la misión cuando el líder se desconecte
+  &7Al desactivar esto permitirás que los jugadores puedan seguir la misión sin el líder conectado
+  &7No se recomienda si la misión contiene variables como las del líder, que no se cargan cuando está desconectado
+
+descriptionModelOnlyLeaderParsing: |
+  &7Permitir únicamente el uso del líder para analizar la configuración
+  &7Al desactivar esto permitirás que los jugadores cooperativos analicen configuraciones sin el líder conectado
+
+descriptionModelNotifyCoopPlayerLeave: |
+  &7Notificar a los demás jugadores que otro usuario ha abandonado la misión
+
+descriptionModelActivators: |
+  &7Los activadores de esta misión
+
+descriptionModelActivatorsDialog: |
+  &7Añadir un diálogo con el activador antes de iniciar la misión (solo funciona con activadores físicos: bloques, npcs...)
+  &7El jugador tendrá que hacer click sobre el activador para obtener los mensajes
+  &7Cuando alcance el último mensaje, se abrirá una GUI de confirmación para preguntarle si quiere iniciar la misión (o se iniciará directamente si esta opción está desactivada)
+  &7Esto no funciona si el activador tiene una GUI personalizada, o si hay misiones suficientes para abrir la GUI del activador
+
+descriptionModelActivatorsDialogReset: |
+  &7Opciones de reinicio de diálogo
+
+descriptionModelBranches: |
+  &7Las brancas de esta misión
+
+descriptionModelEndObjects: |
+  &7Fabricar objetos de finalización para la misión
+
+descriptionModelEndObjectsForOfflinePlayers: |
+  &7Fabricar objetos de finalización para la misión (para jugadores desconectados)
+  &7Se les dará los objetos cuando se reconecten
+
+descriptionModelFunctionalAutoStart: |
+  &7Iniciar automáticamente esta misión funcional
+
+# -------------------- Quest cooldown --------------------
+
+descriptionQuestCooldownDuration: |
+  &7La duración de este cooldown
+
+descriptionQuestCooldownEndTypes: |
+  &7Aplicar este cooldown únicamente a unos tipos de finalización de misiones
+
+descriptionQuestCooldownApplyActorRestriction: |
+  &7Aplicar este cooldown únicamente a algunos jugadores
+
+# -------------------- Quest completion --------------------
+
+descriptionQuestCompletionMaxCompletions: |
+  &7Restringir la cantidad de veces que un usuario puede realizar la misión
+
+descriptionQuestCompletionApplyActorRestriction: |
+  &7Aumentar la cantidad de veces que algunos usuarios pueden realizar la misión
+
+descriptionQuestCompletionNotify: |
+  &7Notificar al jugador que ha finalizado su misión
+
+descriptionQuestCompletionNotifyCoop: |
+  &7Notificar a los jugadores cooperativos (si los hay) que ha finalizado la misión
+  &7Si se especifica esto, los jugadores cooperativos no serán notificados con la finalización regular
+
+# -------------------- Dialog --------------------
+
+descriptionDialogAutoStartDistance: |
+  &7Mandar automáticamente la primera línea de diálogo si el jugador está bajo una cierta distancia
+
+descriptionDialogResetDelay: |
+  &7Reiniciar el diálogo desde el principio si el jugador no hace click en un tiempo determinado
+
+descriptionDialogResetDistance: |
+  &7Reiniciar el diálogo desde el principio si el jugador camina demasiado lejos
+
+descriptionDialogResetNotify: |
+  &7Notificar al jugador cuando el diálogo se reinicie
+
+descriptionDialogResetGoto: |
+  &7Ejecutar un go-to específico cuando el diálogo se reinicie
+
+# -------------------- Quest object --------------------
+
+descriptionQuestObjectType: |
+  &7Tipo de objetivo
+
+descriptionQuestObjectNameLong: |
+  &7Un nombre largo para describir la misión con detalle
+  &7Por ejemplo: 'Romper 10 bloques de piedra alrededor del spawn'
+
+descriptionQuestObjectNameShort: |
+  &7Un nombre corto para describir la misión brevemente
+  &7Por ejemplo: 'Romper piedra alrededor del spawn'
+
+descriptionQuestObjectObjectiveDetail: |
+  &7Un valor personalizado para el placeholder de {objective} de esta misión
+
+descriptionQuestObjectObjectiveDetailVerbose: |
+  &7Un valor personalizado para el placeholder de objetivo de la GUI de este objetivo
+
+descriptionQuestObjectStartNotify: |
+  &7Notificar al jugador que el objetivo ha comenzado
+
+descriptionQuestObjectCompleteNotify: |
+  &7Notificar al jugador que el objetivo ha finalizado
+
+descriptionQuestObjectCompleteNotifyParticleScript: |
+  &7Reproducir un script de partícula cuando se complete este objetivo (requiere la opción de &6posición&7)
+
+descriptionQuestObjectProgressNotify: |
+  &7Notificar al jugador cuando progrese en sus objetivos
+
+descriptionQuestObjectUpdateNotify: |
+  &7Notificar al jugador si no hace progresos en su objetivo por un tiempo
+
+descriptionQuestObjectUpdateNotifyParticleScript: |
+  &7Reproducir un script de partícula si no se hacen progresos en el objetivo por un tiempo (requiere la opción de &6posición&7)
+
+descriptionQuestObjectUpdateNotifyDelay: |
+  &7El retardo para &6update_notify
+
+descriptionQuestObjectExecutionChance: |
+  &7Empezar el objetivo únicamente con un porcentaje de probabilidad, o directamente llamar al go-to
+
+descriptionQuestObjectExecutionChanceFailGoto: |
+  &7Ejecutar un go-to determinado si la probabilidad del progreso falla
+  &7Si esto no está presente pero la probabilidad sigue fallando, se ejecutará el go-to regular
+
+descriptionQuestObjectWaitTime: |
+  &7Esperar un tiempo determinado antes de empezar el objetivo
+
+descriptionQuestObjectTimeLimit: |
+  &7Realizar la misión en un tiempo determinado
+
+descriptionQuestObjectCheckpoint: |
+  &7Guardar un checkpoint cuando se inicie el objetivo
+
+descriptionQuestObjectHideChat: |
+  &7Ocultar el chat cuando el objetivo esté activo
+
+descriptionQuestObjectHidePlayers: |
+  &7Ocultarse y ocultar a los demás jugadores cuando el objetivo esté activo
+
+descriptionQuestObjectProgressActorRestriction: |
+  &7Limitar el progreso del objetivo a ciertos jugadores
+
+descriptionQuestObjectProgressConditions: |
+  &7Condiciones requeridas para la finalización de la misión
+
+descriptionQuestObjectProgressChance: |
+  &7Permitir el progreso en el objetivo únicamente con una probabilidad, o no permitirlo
+  &7Esto se comprueba después de que todo el resto coincida (por ejemplo, rompiendo el bloque correcto en la ubicación correcta)
+
+descriptionQuestObjectProgressChanceFailGoto: |
+  &7Ejecutar un go-to determinado si la probabilidad de progreso falla
+
+descriptionQuestObjectWaitAfterMatchFail: |
+  &7Esperar un tiempo determinado antes de intentar una nueva comprobación de coincidencia (opciones del objetivo, condiciones del progreso, objetos necesarios...)
+
+descriptionQuestObjectGPS: |
+  &7Opciones de GPS para este objetivo
+
+descriptionQuestObjectGoto: |
+  &7Ejecutar otro elemento (objetivo, branca...) después de completar este objetivo
+
+descriptionQuestObjectGotoStartBranches: |
+  &7Iniciar otras brancas después de completar este objetivo
+  &7Esto se ejecuta después de llamar al go-to de este objetivo
+
+descriptionQuestObjectGotoStartIndividualBranches: |
+  &7Iniciar otras brancas individuales después de completar este objetivo
+  &7Esto se ejecuta después de llamar al go-to de este objetivo
+
+descriptionQuestObjectGotoStopBranches: |
+  &7Detener otras brancas después de completar este objetivo
+  &7Esto se ejecuta después de llamar al go-to de este objetivo
+
+descriptionQuestObjectJournalEntry: |
+  &7Añadir una entrada al diario de misiones del jugador cuando complete este objetivo
+  &7Esto se recalcula cada vez que se da el diario de misiones, dependiendo del historial
+
+descriptionQuestObjectJournalEntryTitle: |
+  &7El título de esta entrada
+
+descriptionQuestObjectJournalEntryDetail: |
+  &7El contenido de esta entrada
+
+descriptionQuestObjectJournalEntryEndTypes: |
+  &7Mostrar esta entrada únicamente para algunas misiones y tipos
+
+descriptionQuestObjectPosition: |
+  &7La posición donde progresar el objetivo
+  &7Esto define dónde se realizará la acción si el objetivo lo maneja el servidor, o dónde debe realizar la acción el jugador si este maneja el objetivo
+
+descriptionQuestObjectPositionStay: |
+  &7Forzar al jugador a estar en la posición configurada
+
+descriptionQuestObjectPositionStayWarningDelay: |
+  &7Si el jugador deja la posición configurada, este es el tiempo que tendrá para volver atrás
+
+descriptionQuestObjectPositionStayWarningNotify: |
+  &7Mandado cuando el jugador está fuera de la posición configurada
+
+descriptionQuestObjectPositionStayFailGoto: |
+  &7Ejecutado cuando el jugador ha estado fuera de la posición configurada por más tiempo que el retardo de advertencia
+
+descriptionQuestObjectItemsNeeded: |
+  &7Requerir a los jugadores ciertos objetos para progresar en el objetivo
+
+# -------------------- Quest object : event --------------------
+
+descriptionQuestObjectProgressCancelEvent: |
+  &7Cancelar el evento (si se soporta) cuando el objetivo progrese
+
+descriptionQuestObjectProgressChanceFailCancelEvent: |
+  &7Cancelar el evento (si se soporta) cuando la probabilidad de progreso falle
+
+descriptionQuestObjectProgressConditionsFailCancelEvent: |
+  &7Cancelar el evento (si se soporta) cuando las condiciones del progreso fallen
+
+# -------------------- Quest object : types --------------------
+
+descriptionObjectTypeGenericGoal: |
+  &7La meta de este objetivo
+  &7La mayoría de las veces, esto será la cantidad de veces que el jugador deberá repetir la acción relacionada con los parámetros del objetivo
+  &7Puede variar para algunos objetivos específicos
+
+descriptionObjectTypeGenericBlockObjectives: |
+  &7Los objetivos de bloque para esta misión
+  &7Puedes establecer múltiples objetivos, con diferentes tipos/estados/... de bloques para tener metas distintas
+
+descriptionObjectTypeGenericBlockObjectiveTypes: |
+  &7Tipos de bloque permitidos
+  &7Déjalo en blanco para permitir cualquier bloque
+
+descriptionObjectTypeGenericBlockObjectiveStates: |
+  &7Estados de bloque requeridos
+
+descriptionObjectTypeGenericBlockObjectiveGoal: |
+  &7La meta para este objetivo de bloques
+
+descriptionObjectTypeGenericEntityObjectives: |
+  &7Los objetivos de entidad para esta misión
+  &7Puedes establecer múltiples objetivos, con diferentes tipos/nombres/... de entidades para tener metas distintas
+
+descriptionObjectTypeGenericEntityObjectiveTypes: |
+  &7Tipos de entidad permitidos
+  &7Déjalo en blanco para permitir cualquier tipo
+
+descriptionObjectTypeGenericEntityObjectiveNames: |
+  &7Nombres de entidad permitidos
+  &7Déjalo en blanco para permitir cualquier nombre (o ninguno)
+
+descriptionObjectTypeGenericEntityObjectiveColors: |
+  &7Colores de entidad permitidos (para entidades de colores)
+  &7Déjalo en blanco para permitir cualquier color
+
+descriptionObjectTypeGenericEntityObjectiveGoal: |
+  &7La meta para este objetivo de entidades
+
+descriptionObjectTypeGenericEntityAllowSpawnerEntities: |
+  &7Permitir a las entidades de los spawners progresar en el objetivo
+
+descriptionObjectTypeGenericEntityAllowSpawnerEntitiesErrorMessage: |
+  &7Si &6allow_spawner_entities &7está en false pero el jugador aún intenta
+
+descriptionObjectTypeGenericItemObjectives: |
+  &7Los metas de objetos para este objetivo
+  Puedes establecer múltiples objetivos, con diferentes tipos/estados/... de objetos permitidos para tener metas distintas
+
+descriptionObjectTypeGenericItemObjectiveItem: |
+  &7El objeto que se permite
+  &7Déjalo en blanco para permitir cualquier objeto
+
+descriptionObjectTypeGenericItemObjectiveCheck: |
+  &7La comprobación a realizar
+
+descriptionObjectTypeGenericItemObjectiveGoal: |
+  &7La meta para este objetivo de objetos
+
+descriptionObjectTypeGenericItemObjectiveTake: |
+  &7Tomar los objetos después
+
+descriptionObjectTypeConditionsSwitchCases: |
+  &7Los casos de cambio
+
+descriptionObjectTypeConditionsSwitchElementConditions: |
+  &7Las condiciones para relacionar
+
+descriptionObjectTypeConditionsSwitchElementGoto: |
+  &7El go-to que se aplicará si las condiciones de este elemento son válidas
+
+descriptionObjectTypeDivergeChatChoices: |
+  &7Las opciones disponibles para este objetivo
+
+descriptionObjectTypeDivergeChatRepeatDelay: |
+  &7Reenviar las opciones al chat en un tiempo si no se ha escogido ninguna
+
+descriptionObjectTypeDivergeGUIChoices: |
+  &7Las opciones disponibles para este objetivo
+
+descriptionObjectTypeDivergeGUIReopenDelay: |
+  &7Reabrir la GUI después de un tiempo si no se ha escogido ninguna
+
+descriptionObjectTypeDivergeChoicesChoices: |
+  &7Las opciones disponibles para este objetivo
+
+descriptionObjectTypeGroupObjects: |
+  &7Las opciones de este grupo
+
+descriptionObjectTypeGroupOrderedObjects: |
+  &7Forzar que los objetivos se completen en orden
+
+descriptionObjectTypeGroupRequiredObjects: |
+  &7La cantidad de objetivos que deben completarse
+
+descriptionObjectTypeRandomGotos: |
+  &7Las opciones para ser seleccionado aleatoriamente desde
+
+descriptionObjectTypeRandomGotosAvoidRepeatEndTypes: |
+  &7The end types to take into consideration when checking for repetitions
+
+descriptionObjectTypeLogicSwitchCases: |
+  &7Los casos de cambio
+
+descriptionObjectTypeLogicSwitchElementGoto: |
+  &7El go-to que se aplicará si la lógica de este elemento es válida
+
+# -------------------- Quest object : types (player) --------------------
+
+descriptionObjectTypePlayerAchievementAwardAchievementType: |
+  &7El tipo de logro que se otorgará
+
+descriptionObjectTypePlayerChatWhitelist: |
+  &7Aceptar únicamente mensajes en esta lista
+
+descriptionObjectTypePlayerChatBlacklist: |
+  &7Rechazar mensajes que contengan elementos de esta lista
+
+descriptionObjectTypePlayerChatRegex: |
+  &7Aceptar únicamente mensajes que se relacionen con este regex
+
+descriptionObjectTypePlayerChatMinLength: |
+  &7La longitud mínima del mensaje
+
+descriptionObjectTypePlayerChatMaxLength: |
+  &7La longitud máxima del mensaje
+
+descriptionObjectTypePlayerChatErrorMessage: |
+  &7El mensaje que se enviará al jugador si introduce un valor no válido
+
+descriptionObjectTypePlayerChatStoreInVariable: |
+  &7Guardar el mensaje de chat en una variable
+
+descriptionObjectTypePlayerWaitGoal: |
+  &7La cantidad de tiempo que se debe esperar
+
+# -------------------- Quest object : types (player blocks) --------------------
+
+descriptionObjectTypePlayerBlocksBreakAllowPlayerBlocks: |
+  &7Permitir bloques colocados por alguien (incluyendo al jugador)
+
+descriptionObjectTypePlayerBlocksBreakAllowPlayerBlocksErrorMessage: |
+  &7Si &6allow_player_blocks &7está en false pero el jugador aún intenta
+
+descriptionObjectTypePlayerBlocksIgniteAllowPlayerBlocks: |
+  &7Permitir bloques ya encendidos por alguien (incluyendo al jugador)
+
+descriptionObjectTypePlayerBlocksIgniteAllowPlayerBlocksErrorMessage: |
+  &7Si &6allow_player_blocks &7está en false pero el jugador aún intenta
+
+descriptionObjectTypePlayerBlocksInteractClickType: |
+  &7Aceptar únicamente un tipo específico de click
+
+descriptionObjectTypePlayerBlocksInteractAllowPlayerBlocks: |
+  &7Permitir bloques colocados por alguien (incluyendo al jugador)
+
+descriptionObjectTypePlayerBlocksInteractAllowPlayerBlocksErrorMessage: |
+  &7Si &6allow_player_blocks &7está en false pero el jugador aún intenta
+
+descriptionObjectTypePlayerBlocksInteractAllowSameBlocks: |
+  &7Permitir que los bloques puedan ser pulsados múltiples veces
+
+descriptionObjectTypePlayerBlocksInteractAllowSameBlocksErrorMessage: |
+  &7Si &6allow_same_blocks &7está en false pero el jugador aún intenta
+
+descriptionObjectTypePlayerBlocksStripAllowPlayerBlocks: |
+  &7Permitir el pelado de bloques colocados por alguien (incluyendo al jugador)
+
+descriptionObjectTypePlayerBlocksStripAllowPlayerBlocksErrorMessage: |
+  &7Si &6allow_player_blocks &7está en false pero el jugador aún intenta
+
+descriptionObjectTypePlayerTreeGrowTreeType: |
+  &7Aceptar únicamente un tipo específico de árbol
+
+# -------------------- Quest object : types (player entities) --------------------
+
+descriptionObjectTypePlayerEntitiesCatchAllowSameEntities: |
+  &7Permitir que las entidades puedan ser atrapadas múltiples veces
+
+descriptionObjectTypePlayerEntitiesCatchAllowSameEntitiesErrorMessage: |
+  &7Si &6allow_same_entities &7está en false pero el jugador aún intenta
+
+descriptionObjectTypePlayerEntitiesDamageAllowSameEntities: |
+  &7Permitir el daño a las mismas entidades múltiples veces
+
+descriptionObjectTypePlayerEntitiesDamageAllowSameEntitiesErrorMessage: |
+  &7Si &6allow_same_entities &7está en false pero el jugador aún intenta
+
+descriptionObjectTypePlayerEntitiesDismountAllowSameEntities: |
+  &7Permitir desmontar las mismas entidades múltiples veces
+
+descriptionObjectTypePlayerEntitiesDismountAllowSameEntitiesErrorMessage: |
+  &7Si &6allow_same_entities &7está en false pero el jugador aún intenta
+
+descriptionObjectTypePlayerEntitiesGetDamagedAllowSameEntities: |
+  &7Permitir al jugador ser dañado por la misma entidad múltiples veces
+
+descriptionObjectTypePlayerEntitiesGetDamagedAllowSameEntitiesErrorMessage: |
+  &7Si &6allow_same_entities &7está en false pero el jugador aún intenta
+
+descriptionObjectTypePlayerEntitiesInteractAllowSameEntities: |
+  &7Permitir a las mismas entidades ser pulsadas múltiples veces
+
+descriptionObjectTypePlayerEntitiesInteractAllowSameEntitiesErrorMessage: |
+  &7Si &6allow_same_entities &7está en false pero el jugador aún intenta
+
+descriptionObjectTypePlayerEntitiesMountAllowSameEntities: |
+  &7Permitir que las entidades puedan ser montadas múltiples veces
+
+descriptionObjectTypePlayerEntitiesMountAllowSameEntitiesErrorMessage: |
+  &7Si &6allow_same_entities &7está en false pero el jugador aún intenta
+
+# -------------------- Quest object : types (player items) --------------------
+
+descriptionObjectTypePlayerItemsContainerPutInventoryTypes: |
+  &7Permitir únicamente tipos determinados de inventario
+
+descriptionObjectTypePlayerItemsContainerTakeInventoryTypes: |
+  &7Permitir únicamente tipos determinados de inventario
+
+descriptionObjectTypePlayerItemsTradeAllowSameVillagers: |
+  &7Permitir que los aldeanos puedan intercambiar con el jugador múltiples veces
+
+descriptionObjectTypePlayerItemsTradeAllowSameVillagersErrorMessage: |
+  &7Si &6allow_same_villagers &7está en false pero el jugador aún intenta
+
+# -------------------- Quest object : types (player move) --------------------
+
+descriptionObjectTypePlayerPositionMatchDisplayDistance: |
+  &7Mostrar la distancia restante
+
+descriptionObjectTypePlayerVehicleDistanceVehicleType: |
+  &7Aceptar únicamente un tipo de vehículo
+
+# -------------------- Quest object : types (player physical) --------------------
+
+descriptionObjectTypePlayerBucketFillBucketType: |
+  &7Aceptar únicamente un tipo de cubo
+
+descriptionObjectTypePlayerBurnGoal: |
+  &7El tiempo durante el cual el jugador debe quemarse
+
+descriptionObjectTypePlayerTakeDamageCauses: |
+  &7Aceptar únicamente algunos tipos de daño
+
+descriptionObjectTypePlayerGainHealthFinalHealth: |
+  &7Considerar &6goal &7como la cantidad final de salud a tener y no contar gradualmente
+
+descriptionObjectTypePlayerShootProjectileProjectileType: |
+  &7Aceptar únicamente un tipo de proyectil específico
+
+descriptionObjectTypePlayerGainXPFinalXP: |
+  &7Considerar &6goal &7como la cantidad final de XP a tener y no contar gradualmente
+
+descriptionObjectTypePlayerSneakGoal: |
+  &7El tiempo durante el cual el jugador debe estar agachado
+
+descriptionObjectTypePlayerGainHealthRegainCauses: |
+  &7Aceptar únicamente algunos tipos de causas de recuperación
+
+descriptionObjectTypePlayerVehicleEnterVehicleType: |
+  &7Aceptar únicamente un tipo de vehículo específico
+
+descriptionObjectTypePlayerVehicleLeaveVehicleType: |
+  &7Aceptar únicamente un tipo de vehículo específico
+
+# -------------------- Quest object : types (server) --------------------
+
+descriptionObjectTypeServerAchievementAwardAchievementType: |
+  &7El tipo de logro que se otorgará
+
+descriptionObjectTypeServerActionsActions: |
+  &7Las acciones que se llevarán a cabo
+
+descriptionObjectTypeServerActionsCompleteJournalEntryMessage: |
+  &7Guardar el contenido de las acciones de mensaje en el diario de misiones
+  &7Esto solo tendrá efecto si hay un placeholder de &6{messages} &7en el detalle de entrada de &6complete_journal_entry
+
+descriptionObjectTypeServerCameraModeToggleToggle: |
+  &7Especificar si está encendido o apagado
+
+descriptionObjectTypeServerCommandsPerformCommands: |
+  &7Los comandos que se ejecutarán
+
+descriptionObjectTypeServerCommandsPerformAsPlayer: |
+  &7Ejecutar las acciones como un jugador, no como el servidor
+  &7Recuerda que los comandos que contengan el placeholder {player} se ejecutarán para todo el mundo en absoluto
+
+# -------------------- Quest object : types (server items) --------------------
+
+descriptionObjectTypeServerItemsDropItems: |
+  &7Los objetos que se lanzarán
+
+descriptionObjectTypeServerItemsDropCount: |
+  &7La cantidad de elementos de la lista que se lanzarán
+  &7Si esto es menor que el tamaño de la lista, los objetos se seleccionarán aleatoriamente y no habrá duplicados
+  &7Si esto es igual que el tamaño de la lista, se lanzarán todos los objetos de la misma
+  &7Si esto es mayor que el tamaño de la lista, los objetos se seleccionarán aleatoriamente y habrá duplicados
+
+descriptionObjectTypeServerItemsGiveItems: |
+  &7Los objetos que se darán
+
+descriptionObjectTypeServerItemsGiveCount: |
+  &7La cantidad de elementos de la lista que se lanzarán
+  &7Si esto es menor que el tamaño de la lista, los objetos se seleccionarán aleatoriamente y no habrá duplicados
+  &7Si esto es igual que el tamaño de la lista, se darán todos los objetos de la misma
+  &7Si esto es mayor que el tamaño de la lista, los objetos se seleccionarán aleatoriamente y habrá duplicados
+
+descriptionObjectTypeServerItemsGiveLinkToQuest: |
+  &7Vincular los objetos a la misión (los jugadores no podrán perderlos)
+
+descriptionObjectTypeServerItemsModifyItems: |
+  &7Los objetos que se modificarán
+
+descriptionObjectTypeServerItemsModifyCount: |
+  &7La cantidad de elementos de la lista que se modificarán
+  &7Si esto es menor que el tamaño de la lista, los objetos se seleccionarán aleatoriamente y no habrá duplicados
+  &7Si esto es igual que el tamaño de la lista, se modificarán todos los objetos de la misma
+  &7Si esto es mayor que el tamaño de la lista, los objetos se seleccionarán aleatoriamente y habrá duplicados
+
+descriptionObjectTypeServerItemsModifyUnlinkQuest: |
+  &7Desvincular la misión vinculada al objeto
+
+descriptionObjectTypeServerItemsModifyDurabilitySet: |
+  &7Reemplazar la durabilidad
+
+descriptionObjectTypeServerItemsModifyCustomModelDataSet: |
+  &7Reemplazar los datos del modelo personalizado
+
+descriptionObjectTypeServerItemsModifyNameSet: |
+  &7Reemplazar el nombre
+
+descriptionObjectTypeServerItemsModifyNameRemove: |
+  &7Eliminar contenido del nombre
+
+descriptionObjectTypeServerItemsModifyLoreSet: |
+  &7Reemplazar la descripción
+
+descriptionObjectTypeServerItemsModifyLoreAdd: |
+  &7Añadir líneas a la descripción
+
+descriptionObjectTypeServerItemsModifyLoreRemove: |
+  &7Eliminar líneas de la descripción si tienen algún valor
+
+descriptionObjectTypeServerItemsModifyEnchantmentsAdd: |
+  &7Añadir encantamientos al objeto
+
+descriptionObjectTypeServerItemsModifyEnchantmentsRemove: |
+  &7Eliminar encantamientos del objeto
+
+descriptionObjectTypeServerItemsTakeItems: |
+  &7Los objetos que se tomarán
+
+descriptionObjectTypeServerItemsTakeCount: |
+  &7La cantidad de elementos de la lista que se tomarán
+  &7Si esto es menor que el tamaño de la lista, los objetos se seleccionarán aleatoriamente y no habrá duplicados
+  &7Si esto es igual que el tamaño de la lista, se tomarán todos los objetos de la misma
+  &7Si esto es mayor que el tamaño de la lista, los objetos se seleccionarán aleatoriamente y habrá duplicados
+
+# -------------------- Quest object : types (server entities) --------------------
+
+descriptionObjectTypeServerEntitiesDamageEntitiesObjectives: |
+  &7Las entidades que se relacionarán
+  &7Las entidades relacionadas serán dañadas si están en la posición correcta
+  &7La meta para las entidades será la cantidad máxima de entidades que dañarán
+
+descriptionObjectTypeServerEntitiesDamageDamage: |
+  &7La cantidad de daño que se causará
+
+descriptionObjectTypeServerEntitiesKillEntitiesObjectives: |
+  &7Las entidades que se relacionarán
+  &7Las entidades relacionadas serán asesinadas si están en la posición correcta
+  &7La meta para las entidades será la cantidad máxima de entidades que asesinarán
+
+descriptionObjectTypeServerEntitiesSpawnEntitiesObjectives: |
+  &7Las entidades que se generarán
+  &7Si se configuran diferentes opciones (tipos, nombres, colores), se elegirá una aleatoriamente
+
+descriptionObjectTypeServerEntitiesSpawnLinkToQuest: |
+  &7Vincular los mobs a la misión (los demás jugadores no podrán interactuar)
+
+descriptionObjectTypeServerEntitiesTeleportEntitiesObjectives: |
+  &7Las entidades que se relacionarán
+  &7Las entidades relacionadas serán teletransportadas si están en la posición correcta
+  &7La meta para las entidades será la cantidad máxima de entidades que teletransportarán
+
+descriptionObjectTypeServerEntitiesTeleportTeleportPosition: |
+  &7La posición donde se teletransportarán las entidades
+
+# -------------------- Quest object : types (server physical) --------------------
+
+descriptionObjectTypeServerBlocksPlaceBlockType: |
+  &7El tipo de bloque que se colocará
+
+descriptionObjectTypeServerBlocksPlaceBlockStates: |
+  &7Los estados de bloques que se establecerán
+
+descriptionObjectTypeServerExplosionsCreatePower: |
+  &7El poder de explosión (2 es una TNT normal)
+
+descriptionObjectTypeServerExplosionsCreateCount: |
+  &7La cantidad de explosiones
+
+descriptionObjectTypeServerFireworksLaunchEffects: |
+  &7Los efectos para los fuegos artificiales
+
+descriptionObjectTypeServerFireworksLaunchCount: |
+  &7La cantidad de fuegos artificiales
+
+descriptionObjectTypeServerLightningStrikeDamage: |
+  &7Hacer que los rayos puedan dañar entidades
+
+descriptionObjectTypeServerLightningStrikeCount: |
+  &7La cantidad de relámpagos
+
+descriptionObjectTypeServerPlayerDamageDamage: |
+  &7La cantidad de daño que se provocará
+
+descriptionObjectTypeServerPlayerEffectsGiveEffects: |
+  &7Los efectos que se darán
+
+descriptionObjectTypeServerPlayerEffectsGiveCount: |
+  &7La cantidad de elementos de la lista que se darán
+  &7Si esto es menor que el tamaño de la lista, los objetos se seleccionarán aleatoriamente y no habrá duplicados
+  &7Si esto es igual que el tamaño de la lista, se darán todos los objetos de la misma
+  &7Si esto es mayor que el tamaño de la lista, los objetos se seleccionarán aleatoriamente y habrá duplicados
+
+descriptionObjectTypeServerPlayerEffectsRemoveEffects: |
+  &7Los efectos que se eliminarán
+
+descriptionObjectTypeServerPlayerEffectsRemoveCount: |
+  &7La cantidad de elementos de la lista que se eliminarán
+  &7Si esto es menor que el tamaño de la lista, los objetos se seleccionarán aleatoriamente y no habrá duplicados
+  &7Si esto es igual que el tamaño de la lista, se eliminarán todos los objetos de la misma
+  &7Si esto es mayor que el tamaño de la lista, los objetos se seleccionarán aleatoriamente y habrá duplicados
+
+# -------------------- Quest object : types (server logic) --------------------
+
+descriptionObjectTypeGenericServerLogicValueFormula: |
+  &7La fórmula para calcular el nuevo valor
+  &7Por ejemplo, &6{value} + 10&7, &6{value} ^ 2 &7o solo un valor para fijarlo
+  &7Usa el placeholder {value} para obtener el valor actual (si el valor actual no es un número, se usará el valor 0)
+  &7Si realmente no es una fórmula (únicamente un valor), o es una fórmula que no puede ser calculada, se establecerá el valor puro
+
+descriptionObjectTypeServerLogicModelVariableVariable: |
+  &7El nombre de la variable del modelo
+
+descriptionObjectTypeServerLogicServerVariableVariable: |
+  &7El nombre de la variable del servidor
+
+descriptionObjectTypeServerLogicMoneyCurrency: |
+  &7La moneda que se usará
+
+descriptionObjectTypeServerLogicPointsCategory: |
+  &7La categoría de puntos
+
+descriptionObjectTypeServerLogicVariableVariable: |
+  &7El nombre de la variable
+
+# -------------------- Quest object : types (integrations) --------------------
+
+descriptionIntegrationAdvancedMobArenaArena: |
+  &7La arena de AdvancedMobArena
+
+descriptionIntegrationAdvancedMobArenaWaveNumber: |
+  &7El número de oleada
+
+descriptionIntegrationCitizensNPC: |
+  &7El NPC de Citizens
+
+descriptionIntegrationCitizensNPCs: |
+  &7Los NPCs de Citizens
+
+descriptionIntegrationCitizensDialogMessages: |
+  &7Los mensajes de diálogo
+  &7Caza vez que un jugador interactúe con el NPC, se enviará el siguiente mensaje
+
+descriptionIntegrationCitizensDialogReset: |
+  &7Opciones de reinicio de diálogo
+
+descriptionObjectTypeCitizensDialogCompleteJournalEntryMessage: |
+  &7Guardar el contenido de los mensajes en el diario de misiones
+  &7Esto solo tendrá efecto si hay un placeholder de &6{messages} &7en el detalle de entrada de &6complete_journal_entry
+
+descriptionIntegrationCitizensNavigateWaitForCompletion: |
+  &7Esperar a que el NPC complete su viaje antes de ir al segundo objetivo
+
+descriptionIntegrationCitizensNavigateWaitForPlayerRadius: |
+  &7Hacer que el NPC espere al jugador cuando está fuera de un radio específico
+  &7Esto se ignorará si &6wait_for_completion &7está deshabilitado
+
+descriptionIntegrationCitizensNavigateWaitForPlayerNotify: |
+  &7Esto se enviará cuando el NPC empiece a esperar al jugador
+
+descriptionIntegrationCitizensNavigateWaitForPlayerNotifyDelay: |
+  &7Repetir la notificación de espera de vez en cuando
+
+descriptionIntegrationDenizenAction: |
+  &7La acción de Denizen para este NPC
+
+descriptionIntegrationDreamFishObjectives: |
+  &7Los objetivos de pesca
+
+descriptionIntegrationDreamFishObjectiveFishes: |
+  &7Tipos de pescado permitidos
+  &7Déjalo en blanco para permitir cualquier pescado
+
+descriptionIntegrationDreamFishObjectiveGoal: |
+  &7La meta para este objetivo de pesca
+
+descriptionIntegrationDreamFishObjectiveTake: |
+  &7Tomar el pescado después
+
+descriptionIntegrationGPSObjectEnabled: |
+  &7Activar o desactivar el objetivo de GPS
+
+descriptionIntegrationGPSObjectMode: |
+  &7El modo GPS
+
+descriptionIntegrationGPSObjectCustomPoint: |
+  &7Usar un punto de GPS personalizado en lugar de uno calculado desde la configuración de posición del objetivo
+
+descriptionIntegrationDungeonsXLDungeon: |
+  &7La mazmorra de DungeonsXL
+
+descriptionIntegrationHeroesClass: |
+  &7La clase de Heroes
+
+descriptionIntegrationHeroesSkill: |
+  &7La habilidad de Heroes
+
+descriptionIntegrationHolographicHologram: |
+  &7El holograma
+
+descriptionIntegrationHolographicDisplaysLines: |
+  &7Las líneas del holograma
+
+descriptionIntegrationHolographicDisplaysItem: |
+  &7Añadir un objeto al holograma
+
+descriptionIntegrationHolographicDisplaysExpiration: |
+  &7Hacer desaparecer al holograma después de un tiempo
+
+descriptionIntegrationJobsRebornJob: |
+  &7El trabajo de JobsReborn
+
+descriptionIntegrationMagicMob: |
+  &7El mob mágico
+
+descriptionIntegrationMagicSpell: |
+  &7El hechizo mágico
+
+descriptionIntegrationMagicWand: |
+  &7La varita mágica
+
+descriptionIntegrationMCMMOSkill: |
+  &7La habilidad de mcMMO
+
+descriptionIntegrationMMOCoreSkill: |
+  &7La habilidad de mcMMOCore
+
+descriptionIntegrationMMOCoreClass: |
+  &7La clase de mcMMOCore
+
+descriptionIntegrationMMOCoreProfession: |
+  &7La profesión de mcMMOCore
+
+descriptionIntegrationMMOCoreExpSource: |
+  &7La fuente de experiencia de mcMMOCore
+
+descriptionIntegrationMMOCorePlayerResource: |
+  &7El recurso del jugador para MMOCore
+
+descriptionIntegrationMMOCorePlayerAttribute: |
+  &7El atributo del jugador para MMOCore
+
+descriptionIntegrationMMOCoreCombatMode: |
+  &7Si el jugador debe entrar o salir del modo de combate
+
+descriptionIntegrationMythicMobsObjectives: |
+  &7Los objetivos de los mobs
+
+descriptionIntegrationMythicMobsObjectiveMob: |
+  &7Tipos de mobs permitidos
+  &7Déjalo en blanco para permitir cualquier mob
+
+descriptionIntegrationMythicMobsObjectiveGoal: |
+  &7La meta para este objetivo de mobs
+
+descriptionIntegrationMythicMobsSpawnLinkToQuest: |
+  &7Vincular los mobs a la misión (los demás jugadores no podrán interactuar)
+
+descriptionIntegrationMythicMobsSignal: |
+  &7La señal que se enviará
+
+descriptionIntegrationBossObjectives: |
+  &7Los objetivos de bosses
+
+descriptionIntegrationBossObjectiveBosses: |
+  &7Tipos de boss permitidos
+  &7Déjalo en blanco para permitir cualquier boss
+
+descriptionIntegrationBossObjectiveGoal: |
+  &7La meta para este objetivo de boss
+
+descriptionIntegrationBossSpawnLinkToQuest: |
+  &7Vincular los mobs a la misión (los demás jugadores no podrán interactuar)
+
+descriptionIntegrationQuantumRPGClass: |
+  &7La clase de QuantumRPG
+
+descriptionIntegrationQuantumRPGClassAttribute: |
+  &7El atributo de clase de QuantumRPG
+
+descriptionIntegrationRacesOfThanaRace: |
+  &7La carrera de RacesOfThana
+
+descriptionIntegrationShopkeepersShopkeeper: |
+  &7Los shopkeepers
+
+descriptionIntegrationSkillAPIClass: |
+  &7Las clases de SkillAPI
+
+descriptionIntegrationSkillAPISkill: |
+  &7La habilidad de SkillAPI
+
+descriptionIntegrationSuperiorSkyblockUpgrade: |
+  &7La mejora de SuperiorSkyblock
+
+descriptionIntegrationSuperiorSkyblockMission: |
+  &7La misión de SuperiorSkyblock
+
+descriptionIntegrationTokenEnchantTokenType: |
+  &7El tipo de token de TokenEnchant
+
+descriptionIntegrationTokenEnchantEnchant: |
+  &7El nombre del encantamiento de TokenEnchant
+
+descriptionIntegrationTokenEnchantEnchantLevel: |
+  &7El nivel del encantamiento de TokenEnchant
+
+# -------------------- Divergence : chat --------------------
+
+descriptionDivergenceChatText: |
+  &7El texto para esta opción
+
+descriptionDivergenceChatRedoText: |
+  &7Enviar un texto diferente al rehacer la misión
+
+descriptionDivergenceChatUnavailableText: |
+  &7Mostrar esta opción aunque sus condiciones no estén relacionadas o si se ha alcanzado &6max_completions
+
+descriptionDivergenceChatMaxCompletions: |
+  &7La cantidad máxima de veces que puede escogerse esta opción
+
+descriptionDivergenceChatConditions: |
+  &7Restringir esta opción con condiciones
+
+descriptionDivergenceChatGoto: |
+  &7El go-to se aplicará si se escoge la opción
+
+# -------------------- Divergence : GUI --------------------
+
+descriptionDivergenceGUISlot: |
+  &7El slot para esta opción
+
+descriptionDivergenceGUIItem: |
+  &7El objeto para esta opción
+
+descriptionDivergenceGUIRedoItem: |
+  &7Mostrar un objeto diferente al rehacer la misión
+
+descriptionDivergenceGUIUnavailableItem: |
+  &7Mostrar esta opción aunque sus condiciones no estén relacionadas o si se ha alcanzado &6max_completions
+
+descriptionDivergenceGUIMaxCompletions: |
+  &7La cantidad máxima de veces que puede escogerse esta opción
+
+descriptionDivergenceGUIConditions: |
+  &7Restringir esta opción con condiciones
+
+descriptionDivergenceGUIGoto: |
+  &7El go-to se aplicará si se escoge la opción
+
+# -------------------- Divergence : objects --------------------
+
+descriptionDivergenceObjectsObject: |
+  &7El objeto para esta opción
+
+descriptionDivergenceObjectsConditions: |
+  &7Restringir esta opción con condiciones
+
+descriptionDivergenceObjectsGoto: |
+  &7El go-to se aplicará si se escoge la opción
+
+# -------------------- Quest branch --------------------
+
+descriptionBranchType: |
+  &7El tipo de branca
+
+descriptionBranchObjects: |
+  &7Los objetos de esta branca
+
+descriptionBranchStartsAt: |
+  &7El primer objeto de esta branca
+
+descriptionBranchStartsDirectly: |
+  &7Empezar esta branca cuando empieza la misión
+
+# -------------------- Quest branch : named --------------------
+
+descriptionBranchDisplayName: |
+  &7El nombre de la branca
+
+# -------------------- Quest group --------------------
+
+descriptionGroupQuests: |
+  &7Los modelos de misión de este grupo
+
+descriptionGroupMaxConcurrent: |
+  &7Las misiones máximas que este grupo puede realizar a la vez
+
+descriptionGroupExecutionOrder: |
+  &7Forzar la ejecución ordenada de las misiones de este grupo
+
+# -------------------- Conditions --------------------
+
+descriptionConditionsConditions: |
+  &7List of conditions to check
+
+descriptionConditionsMatchAmount: |
+  &7La cantidad mínima de condiciones que deben coincidir
+  &7Si esto es mayor que la cantidad de condiciones disponibles, se usará esta
+
+descriptionConditionsNoMatchAmount: |
+  &7La cantidad mínima de condiciones que no deben coincidir
+  &7Si esto es mayor que la cantidad de condiciones disponibles, se usará esta
+
+descriptionConditionsErrorMessage: |
+  &7Mensaje de error que se mostrará si no se encuentran coincidencias
+
+descriptionConditionsFailGoto: |
+  &7Go-to que se llamará si no se encuentran coincidencias
+
+# -------------------- Condition : common --------------------
+
+descriptionConditionType: |
+  &7Tipo de condición
+
+descriptionConditionErrorMessage: |
+  &7Mensaje de error que se mostrará si no se respeta la condición
+
+descriptionConditionGameTimeStartTicks: |
+  &7Los ticks iniciales
+
+descriptionConditionGameTimeEndTicks: |
+  &7Los ticks finales
+
+descriptionConditionInventoryFreeForItemsItems: |
+  &7Los objetos para los que el jugador debe tener suficiente espacio libre en su inventario
+
+descriptionConditionItemsItems: |
+  &7Una lista de objetos
+
+descriptionConditionGenericLogicLogic: |
+  &7La cadena básica que se analizará
+  &7Puedes usar operadores de comparación (=, !=, <, <=, >, >=), por ejemplo &6{placeholder} * 4 >= 10 * 20 &7o &6{placeholder} = mi_valor
+  &7Puedes combinar múltiples operadores de comparación, por ejemplo &610 <= {placeholder} <= 100
+  &7Puedes usar el operador 'in' (|in|), por ejemplo &6{placeholder} |in| valor1 | valor2 | valor3
+  &7Puedes usar el operador 'and' (&&), por ejemplo &6{placeholder} > 50 && {placeholder} < 100
+  &7Puedes usar el operador 'or' (||), por ejemplo &6{placeholder} <= 50 || {placeholder} >= 100
+  &7Puedes juntar condiciones con [], por ejemplo &6[{placeholder} >= 10 || {placeholder}] && [{variable:test2} < 10 || {variable:test2} > 50]
+
+descriptionConditionGenericLogicLogicPlaceholder: |
+  &r
+  &7Placeholders específicos para esta condición: {placeholders}
+
+descriptionConditionLogicMoneyCurrency: |
+  &7La moneda a comprobar
+
+descriptionConditionPermissionPermission: |
+  &7El permiso
+
+descriptionConditionPositionPosition: |
+  &7La posición
+
+descriptionConditionScoreboardTagTagName: |
+  &7El nombre de etiqueta del scoreboard
+
+descriptionConditionScoreboardTagMustHave: |
+  &7Si el jugador debe tener la etiqueta o no
+
+descriptionConditionLogicScoreboardValueObjectiveName: |
+  &7El nombre del objetivo para la scoreboard
+
+descriptionConditionLogicScoreboardValueScoreName: |
+  &7El nombre de la puntuación para la scoreboard
+
+descriptionConditionScoreboardValueValue: |
+  &7El valor con el que comparar
+
+descriptionConditionScoreboardValueComparison: |
+  &7La comparación a realizar
+
+descriptionConditionDayTimeStart: |
+  &7Tiempo de inicio (por día)
+
+descriptionConditionDayTimeEnd: |
+  &7Tiempo de finalización (puede ser después del día de inicio para ir a través de los días)
+
+descriptionConditionWeekTimeStart: |
+  &7Tiempo de inicio (por semana)
+
+descriptionConditionWeekTimeEnd: |
+  &7Tiempo de finalización (puede ser después de la semana de inicio para ir a través de las semanas)
+
+descriptionConditionMonthTimeStart: |
+  &7Tiempo de inicio (por mese)
+
+descriptionConditionMonthTimeEnd: |
+  &7Tiempo de finalización (puede ser después del mes de inicio para ir a través de los meses)
+
+descriptionConditionYearTimeStart: |
+  &7Tiempo de inicio (por año)
+
+descriptionConditionYearTimeEnd: |
+  &7Tiempo de finalización (por año, puede ser después del día de inicio para ir a través de los años)
+
+# -------------------- Condition --------------------
+
+descriptionConditionActorRestriction: |
+  &7Limitar la comprobación de esta condición para algunos jugadores
+
+descriptionConditionMustTake: |
+  &7Tomar la condición (si se soporta) después de comprobarla
+
+descriptionConditionQuestCompletedModel: |
+  &7El modelo de misión a comprobar
+
+descriptionConditionQuestCompletedEndTypes: |
+  &7Los tipos de finales a considerar
+
+descriptionConditionQuestCompletedInTime: |
+  &7Comprobar únicamente un cierto período
+
+descriptionConditionQuestCompletedAmount: |
+  &7La cantidad de finalizaciones que se requerirá
+
+descriptionConditionQuestPlayersAmount: |
+  &7La cantidad de jugadores que se requerirá
+
+descriptionConditionQuestPointsCategory: |
+  &7La categoría de puntos a comparar
+
+descriptionConditionQuestCompletedObjectQuest: |
+  &7La misión a comprobar
+
+descriptionConditionQuestCompletedObjectBranch: |
+  &7La branca a comprobar
+
+descriptionConditionQuestCompletedObjectObject: |
+  &7El objetivo a comprobar
+
+descriptionConditionQuestCompletedObjectCheckActive: |
+  &7Comprobar también la misión actual si está activa
+
+descriptionConditionQuestCompletedObjectEndTypes: |
+  &7Los tipos de finales a considerar
+
+descriptionConditionQuestCompletedObjectInTime: |
+  &7Comprobar únicamente un cierto período
+
+descriptionConditionQuestCompletedObjectAmount: |
+  &7La cantidad de finalizaciones que se requerirá
+
+# -------------------- Pool --------------------
+
+descriptionPoolDisplayName: |
+  &7Nombre del grupo
+
+descriptionPoolTimeFrames: |
+  &7Una lista de períodos de tiempo donde se deben dar los tokens
+
+descriptionPoolOrder: |
+  &7El orden de procesamiento de misiones para este grupo
+
+descriptionPoolAmount: |
+  &7La cantidad de misiones o grupos por los que este grupo dará fichas, durante cada período de tiempo
+  &7Primero se procesan las misiones; cada misión que recibe una ficha reduce la cantidad en 1
+  &7Después se procesan los grupos de misiones; cada grupo en el que al menos una misión recibe una ficha reduce la cantidad en 1
+
+descriptionPoolAmountTolerance: |
+  &7Restar (o no) el recuento de misiones que ya están activas de la cantidad de tokens que se darán
+
+descriptionPoolQuests: |
+  &7Las misiones a las que este grupo podría dar tokens y su configuración
+
+descriptionPoolQuestsGroups: |
+  &7Los grupos de misiones a los que este grupo podría dar tokens y su configuración
+
+descriptionPoolQuestProcessConditions: |
+  &7Evitar el procesamiento de esta misión si estas condiciones no coinciden
+
+descriptionPoolQuestPreResetTokens: |
+  &7¿Deberían restablecerse a 0 los tokens de esta misión (si los hay) incluso si no está seleccionada?
+
+descriptionPoolQuestPreStop: |
+  &7¿Debería detenerse esta misión (si está activa) incluso si no está seleccionada?
+
+descriptionPoolQuestPreResetHistory: |
+  &7¿Debería reiniciarse el historial de esta misión (si existe) incluso si no está seleccionada?
+
+descriptionPoolQuestSelectedResetTokens: |
+  &7¿Deberían restablecerse a 0 los tokens de esta misión (si los hay) antes de dar nuevos tokens si está seleccionada?
+
+descriptionPoolQuestSelectedStop: |
+  &7¿Debería detenerse esta misión (si está activa) antes de dar nuevos tokens si está seleccionada?
+
+descriptionPoolQuestSelectedResetHistory: |
+  &7¿Debería reiniciarse el historial de esta misión (si existe) antes de dar nuevas fichas si está seleccionada?
+
+descriptionPoolQuestRefundTokenOnEndTypes: |
+  &7¿Para qué tipos de finalización se deben reembolsar los tokens (si se consumen)?
+
+descriptionPoolQuestMinTokens: |
+  &7La cantidad mínima de tokens que se darán a esta misión
+
+descriptionPoolQuestMaxTokens: |
+  &7La cantidad máxima de tokens que se darán a esta misión
+
+descriptionPoolQuestGroupProcessConditions: |
+  &7Evitar el procesamiento de este grupo si esas condiciones no coinciden
+
+descriptionPoolQuestGroupAmount: |
+  &7La cantidad de misiones de este grupo que recibirán tokens si se selecciona
+
+descriptionPoolQuestGroupPreResetTokens: |
+  &7¿Deberían restablecerse a 0 los tokens de todas las misiones de este grupo (si los hay) incluso si no está seleccionado?
+
+descriptionPoolQuestGroupPreStop: |
+  &7¿Deben detenerse todas las misiones de este grupo (si están activas) incluso si no está seleccionado?
+
+descriptionPoolQuestGroupPreResetHistory: |
+  &7¿Debería reiniciarse el historial de todas las misiones de este grupo (si las hubiera) incluso si no está seleccionado?
+
+descriptionPoolQuestGroupSelectedResetTokens: |
+  &7¿Deberían restablecerse a 0 los tokens de este grupo (si las hay) antes de dar nuevos tokens si está seleccionado?
+
+descriptionPoolQuestGroupSelectedStop: |
+  &7¿Deben detenerse todas las misiones de este grupo (si están activas) antes de dar nuevos tokens si está seleccionado?
+
+descriptionPoolQuestGroupSelectedResetHistory: |
+  &7¿Debería reiniciarse el historial de todas las misiones de este grupo (si las hubiera) antes de dar nuevos tokens si está seleccionado?
+
+descriptionPoolQuestGroupRefundTokenOnEndTypes: |
+  &7¿Para qué tipos de finalización se deben reembolsar los tokens (si se consumen)?
+
+descriptionPoolQuestGroupMinTokens: |
+  &7La cantidad mínima de tokens que se darán a las misiones de este grupo
+
+descriptionPoolQuestGroupMaxTokens: |
+  &7La cantidad máxima de tokens que se darán a las misiones de este grupo
+
+descriptionPoolRewards: |
+  &7Recompensas que se darán cuando se complete este grupo
+
+descriptionPoolRewardObjectObject: |
+  &7El objetivo realizado para el jugador que completa el grupo
+  &7Sólo se ejecutarán objetivos que tengan efectos instantáneos
+
+descriptionPoolRewardObjectMinStreak: |
+  &7La racha mínima para este grupo, necesaria para que el objetivo funcione
+
+descriptionPoolRewardObjectMaxStreak: |
+  &7La racha máxima para este grupo, el objetivoo no se ejecutará si la racha actual está por encima de esta
+
+# -------------------- Activator --------------------
+
+descriptionActivatorType: |
+  &7Tipo de activador
+
+descriptionActivatorParticles: |
+  &7Los scripts de partículas para los diferentes estados de misión
+
+descriptionActivatorParticlesLocation: |
+  &7Adaptar la localización donde se muestran las partículas
+
+descriptionActivatorHolograms: |
+  &7Los hologramas de HolographicDisplays para los diferentes estados de misión
+  &7Placeholders: {status_count:STATUS}, {status_list:STATUS}
+
+descriptionActivatorHologramLocation: |
+  &7Adaptar la localización donde se muestra el holograma
+
+descriptionActivatorCustomGui: |
+  &7Vincular una GUI específica a este activador en lugar de generar una
+
+descriptionActivatorRequiredGuiQuests: |
+  &7La cantidad de elementos necesarios para que se muestre la GUI (si no hay una GUI personalizada)
+
+descriptionActivatorInteractionClicks: |
+  &7Los tipos de click que provocarán una interacción
+
+descriptionActivatorSneakClickCancel: |
+  &7Cancelar misiones al agacharse y usar un click de interacción
+
+descriptionActivatorGuiShowStatus: |
+  &7Los estados de misión que se permitirán en esta GUI de activador (si no hay una GUI personalizada)
+
+descriptionActivatorGuiName: |
+  &7El nombre de esta GUI de activador (si no hay una GUI personalizada)
+
+descriptionActivatorGuiType: |
+  &7El tipo de esta GUI de activador (si no hay una GUI personalizada)
+
+descriptionActivatorPositionsInteract: |
+  &7Las posiciones a relacionar
+
+descriptionActivatorEntitiesEntityTypes: |
+  &7Tipos de entidad permitidos
+  &7Déjalo en blanco para permitir cualquier tipo
+
+descriptionActivatorEntitiesEntityNames: |
+  &7Nombres de entidades permitidos
+  &7Déjalo en blanco para permitir cualquier nombre (o ninguno)
+
+descriptionActivatorEntitiesEntityColors: |
+  &7Colores de entidad permitidos (para entidades de colores)
+  &7Déjalo en blanco para permitir cualquier color
+
+descriptionActivatorAutoDelay: |
+  &7Hacer que el activador se inicie cada X unidades de tiempo
+
+descriptionActivatorPosition: |
+  &7La posición que debe relacionar
+
+descriptionActivatorPositionDelay: |
+  &7Hacer que el activador se inicie cada X unidades de tiempo
+
+# -------------------- GUI --------------------
+
+descriptionGuiName: |
+  &7El nombre de la GUI
+
+descriptionGuiType: |
+  &7El tipo de la GUI
+
+descriptionGuiContents: |
+  &7Los contenidos de la GUI
+
+descriptionGuiShowStatus: |
+  &7Los estados de misión que se permitirán en esta GUI
+
+descriptionGuiItemType: |
+  &7Tipo de objeto
+
+descriptionGuiItemIcon: |
+  &7El icono a mostrar (si el tipo seleccionado no genera uno automáticamente)
+
+descriptionGuiItemLocations: |
+  &7Las ubicaciones de este objeto
+  &7Cada elemento debe ser formateado como &epágina,slot &7o únicamente &eslot &7(se tomará la primera página disponible)
+  &7Si esta configuración está vacía, se tomarán la primera página y slot disponibles
+  &7Si el objeto es persistente, no se necesitarán los números de página y se ignorarán
+
+descriptionGuiItemPersistent: |
+  &7Convertir este objeto en resistente (mismo slot para cada página si hay múltiples páginas)
+
+descriptionGuiItemClickSound: |
+  &7Reproducir un sonido cuando el jugador haga click en este objeto
+
+descriptionGuiItemOverrideClicks: |
+  &7Especificar los tipos de click que tendrán efectos diferenciados a los del tipo inicial de objetivo
+
+descriptionGuiItemQuestsQuests: |
+  &7Las misiones que se mostrarán con este objeto
+  &7Se mostrarán acorde a sus estados
+
+descriptionGuiItemGUIGUI: |
+  &7La GUI que se vinculará con este objeto
+
+descriptionGuiItemGUIPointsRankingCategory: |
+  &7La categoría de puntos
+
+descriptionGuiItemPointsRankingCategory: |
+  &7La categoría de puntos
+
+# -------------------- Checkpoint --------------------
+
+descriptionCheckpointSaveLocation: |
+  &7Guardar la localización de los jugadores
+
+descriptionCheckpointSaveSpecificLocation: |
+  &7Guardar una localización específica en lugar de la de los jugadores
+
+descriptionCheckpointSaveBranches: |
+  &7Guardar el estado de las brancas
+
+descriptionCheckpointSaveIndividualBranches: |
+  &7Guardar el estado de las brancas individuales
+
+descriptionCheckpointSaveModelVariables: |
+  &7Guardar las variables de modelo
+
+descriptionCheckpointSaveUserVariables: |
+  &7Una lista de variables de usuario para guardar
+
+descriptionCheckpointRestoreOnRespawn: |
+  &7Recuperar el checkpoint al volver
+
+descriptionCheckpointRestoreOnConnect: |
+  &7Recuperar el checkpoint al reconectarse
+
+descriptionCheckpointRestoreOnResume: |
+  &7Recuperar el checkpoint al reanudar la misión
+
+descriptionCheckpointRestoreOnConditions: |
+  &7Condiciones extra que pueden conducir a la restauración de este checkpoint
+
+descriptionCheckpointRestoreOnIndividualConditions: |
+  &7Condiciones extra que pueden conducir a la restauración individual de este checkpoint
+
+descriptionCheckpointRestoreNotify: |
+  &7¿Debería enviarse la notificación de inicio al reiniciar una branca?
+
+descriptionCheckpointRestoreObjects: |
+  &7Objetos que se fabricarán al reiniciar este checkpoint
+
+# -------------------- State --------------------
+
+descriptionStateDisplayName: |
+  &7Un nombre para este estado (únicamente utilizado al ejecutar el comando state)
+
+descriptionStateQuests: |
+  &7Información variada sobre las misiones
+  &7Si la misión ya ha comenzado, se usará su estado actual y las propiedades serán reemplazadas
+  &7Si la misión no está iniciada, se iniciará y se añadirán propiedades
+
+descriptionStateStopQuests: |
+  &7Una lista de misiones para detener si están activas
+
+descriptionStateUserVariables: |
+  &7Una lista de variables de usuario y sus valores por establecer
+
+descriptionStatePosition: |
+  &7Una posición para teletransportar al usuario
+
+descriptionStatePreStateObjects: |
+  &7Una lista de objetos instantáneos para fabricar antes de establecer el estado
+
+descriptionStatePostStateObjects: |
+  &7Una lista de objetos instantáneos para fabricar después de establecer el estado
+
+descriptionQuestStateBranches: |
+  &7Una lista de ramas y su objetivo actual por activar
+
+descriptionQuestStateIndividualBranches: |
+  &7Una lista de ramas individuales y su objetivo actual por activar
+
+descriptionQuestStateModelVariables: |
+  &7Una lista de variables de modelo y sus valores por establecer
+
+descriptionQuestStatePreStateObjects: |
+  &7Una lista de objetos instantáneos para fabricar antes de establecer el estado de esta misión
+
+descriptionQuestStatePostStateObjects: |
+  &7Una lista de objetos instantáneos para fabricar después de establecer el estado de esta misión

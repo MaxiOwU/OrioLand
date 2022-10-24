@@ -12,7 +12,7 @@ Emotes:
       Text: '&6Linda Sonrisa'
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &e&lCOMUN"
+    - '&8&l» &fRareza: &e&lCOMUN'
   Cool:
     Name: '&b&lCool'
     Cooldown: 10
@@ -26,9 +26,9 @@ Emotes:
       Text: '&6B)'
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &e&lCOMUN"
+    - '&8&l» &fRareza: &e&lCOMUN'
   Wink:
-    Name: "&b&lGui\xf1o"
+    Name: '&b&lGuiño'
     Cooldown: 10
     Mystery Dust: 12
     Rarity: Common
@@ -37,10 +37,10 @@ Emotes:
     Purchasable: true
     Hologram:
       Enabled: true
-      Text: "&6Gui\xf1os"
+      Text: '&6Guiños'
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &e&lCOMUN"
+    - '&8&l» &fRareza: &e&lCOMUN'
   Grin:
     Name: '&b&lGran Sonrisa'
     Cooldown: 10
@@ -54,7 +54,7 @@ Emotes:
       Text: '&6Yey!'
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &e&lCOMUN"
+    - '&8&l» &fRareza: &e&lCOMUN'
   Surprised:
     Name: '&b&lSorprendido'
     Cooldown: 10
@@ -68,7 +68,7 @@ Emotes:
       Text: '&6OMG'
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &e&lCOMUN"
+    - '&8&l» &fRareza: &e&lCOMUN'
   Cry:
     Name: '&b&lLlorar'
     Cooldown: 10
@@ -82,7 +82,7 @@ Emotes:
       Text: '&6Waaaaa!'
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'
   Sleepy:
     Name: '&b&lDormido'
     Cooldown: 10
@@ -96,7 +96,7 @@ Emotes:
       Text: '&6ZZzzzz'
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'
   Rage:
     Name: '&b&lRabia'
     Cooldown: 10
@@ -110,7 +110,7 @@ Emotes:
       Text: '&cGRRRRR!!!'
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'
   Frown:
     Name: '&b&lFruncido'
     Cooldown: 10
@@ -124,7 +124,7 @@ Emotes:
       Text: '&fsniff'
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'
   Cheeky:
     Name: '&b&lFresco'
     Cooldown: 10
@@ -138,7 +138,7 @@ Emotes:
       Text: '&6:P'
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'
   Sun Tan:
     Name: '&b&lBronceado'
     Cooldown: 10
@@ -152,7 +152,7 @@ Emotes:
       Text: '&6Soleado'
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'
   Heart Eyes:
     Name: '&b&lEnamorado'
     Cooldown: 10
@@ -163,10 +163,10 @@ Emotes:
     Purchasable: true
     Hologram:
       Enabled: true
-      Text: "&d\u2764  \u2764"
+      Text: '&d❤  ❤'
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'
   Dizzy:
     Name: '&b&lMareado'
     Cooldown: 10
@@ -180,7 +180,7 @@ Emotes:
       Text: '&c'
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'
   RIP:
     Name: '&b&LRIP'
     Cooldown: 10
@@ -194,7 +194,7 @@ Emotes:
       Text: '&cx_x'
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'
   Relax:
     Name: '&b&lRelajado'
     Cooldown: 10
@@ -208,7 +208,7 @@ Emotes:
       Text: '&6:)'
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'
   Spicy:
     Name: '&b&lPicante'
     Cooldown: 10
@@ -222,7 +222,7 @@ Emotes:
       Text: '&6Uff'
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'
   Deal With It:
     Name: '&b&lTratado'
     Cooldown: 10
@@ -236,4 +236,4 @@ Emotes:
       Text: '&6Tratando con el'
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'

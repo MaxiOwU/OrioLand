@@ -1,0 +1,11 @@
+[21/10 19:03:11] [info] 630alacran | quest 630alacran/halloween | pushing quest halloween = 0d60970b-7209-4ee0-a232-95d846448a3f
+[21/10 19:03:11] [info] 630alacran | quest 630alacran/halloween | started quest : cause ACTIVATOR_PHYSICAL
+[21/10 19:03:11] [info] 630alacran | quest 630alacran/halloween/main | started branch
+[21/10 19:05:41] [info] 630alacran | quest 630alacran/halloween | give rewards for group, debug : group rewards processing debug |
+model : halloween
+groups : 
+quest players : 755be4d4-4975-3079-9c76-ca13aea34503
+- preparing to process player 755be4d4-4975-3079-9c76-ca13aea34503
+-- processing player 755be4d4-4975-3079-9c76-ca13aea34503, 630alacran
+--- end type : CANCEL
+[21/10 19:05:41] [info] 630alacran | quest 630alacran/halloween | stopped quest : cause GUI

@@ -1,0 +1,18 @@
+{
+  "version": "4",
+  "uuid": "755be4d4-4975-3079-9c76-ca13aea34503",
+  "questHistory": {
+    "elements": [
+      "halloween@null@1666378991247@1666379141098@0@ACTIVATOR_PHYSICAL@GUI@CANCEL@null"
+    ]
+  },
+  "questPools": {
+    "tokens": ""
+  },
+  "journalToggle": "true",
+  "gpsToggle": "true",
+  "actionbarToggle": "true",
+  "bossbarToggle": "true",
+  "scoreboardToggle": "true",
+  "titleToggle": "true"
+}

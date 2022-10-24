@@ -8,7 +8,7 @@ Banners:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &5&lEPICO"
+    - '&8&l» &fRareza: &5&lEPICO'
   Reindeer:
     Name: '&b&lReno'
     Mystery Dust: 20
@@ -18,7 +18,7 @@ Banners:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &5&lEPICO"
+    - '&8&l» &fRareza: &5&lEPICO'
   Holiday Tree:
     Name: '&b&lArbol de Navidad'
     Mystery Dust: 20
@@ -28,7 +28,7 @@ Banners:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &5&lEPICO"
+    - '&8&l» &fRareza: &5&lEPICO'
   Santa:
     Name: '&b&lSanta'
     Mystery Dust: 25
@@ -38,7 +38,7 @@ Banners:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &5&lEPICO"
+    - '&8&l» &fRareza: &5&lEPICO'
   Holiday Wreath:
     Name: '&b&lCorona de Navidad'
     Mystery Dust: 28
@@ -48,7 +48,7 @@ Banners:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &5&lEPICO"
+    - '&8&l» &fRareza: &5&lEPICO'
   Heart:
     Name: '&b&lCorazon'
     Mystery Dust: 30
@@ -58,7 +58,7 @@ Banners:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &5&lEPICO"
+    - '&8&l» &fRareza: &5&lEPICO'
   Guitar:
     Name: '&b&lGuitarra'
     Mystery Dust: 25
@@ -68,7 +68,7 @@ Banners:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &5&lEPICO"
+    - '&8&l» &fRareza: &5&lEPICO'
   Dino:
     Name: '&b&lDinosaurio'
     Mystery Dust: 40
@@ -78,7 +78,7 @@ Banners:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &5&lEPICO"
+    - '&8&l» &fRareza: &5&lEPICO'
   Redpool:
     Name: '&b&lDeadpool'
     Mystery Dust: 42
@@ -88,9 +88,9 @@ Banners:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &5&lEPICO"
+    - '&8&l» &fRareza: &5&lEPICO'
   Pengu:
-    Name: "&b&lPing\xfcino"
+    Name: '&b&lPingüino'
     Mystery Dust: 50
     Rarity: Epic
     Enabled: true
@@ -98,7 +98,7 @@ Banners:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &5&lEPICO"
+    - '&8&l» &fRareza: &5&lEPICO'
   Pug:
     Name: '&b&lPerro'
     Mystery Dust: 48
@@ -108,7 +108,7 @@ Banners:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &5&lEPICO"
+    - '&8&l» &fRareza: &5&lEPICO'
   Skull King:
     Name: '&b&lRey'
     Mystery Dust: 65
@@ -118,4 +118,4 @@ Banners:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+    - '&8&l» &fRareza: &d&lLEGENDARIO'

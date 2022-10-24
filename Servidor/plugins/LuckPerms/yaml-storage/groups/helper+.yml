@@ -241,6 +241,8 @@ permissions:
 - essentials.ignore
 - essentials.kit
 - essentials.msg
+- essentials.nick
+- essentials.nick.allowunsafe
 - essentials.pay
 - essentials.plugin:
     value: false
@@ -386,6 +388,7 @@ permissions:
 - pvpmanager.pvpstatus.self
 - pvpmanager.user
 - pw.commands
+- pw.limit.10
 - quickshop.player
 - rankup.info
 - rankup.maxrankup

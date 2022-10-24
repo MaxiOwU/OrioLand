@@ -1,0 +1,21 @@
+[16/10 15:28:41] [info] Oriol_13 | connected
+[16/10 15:28:41] [info] Oriol_13 | fetched user data : no value ; created it
+[16/10 15:28:41] [info] Oriol_13 | pushing user f916bb1f-3f76-32e3-84ff-832dfe72639c, active quests : 
+[16/10 15:28:41] [info] Oriol_13 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 15:28:41] [info] Oriol_13 | fetched user quests : 
+[16/10 15:44:09] [info] Oriol_13 | disposing user quests data : 
+- must dispose quests
+[16/10 15:44:09] [info] Oriol_13 | disposed user data
+[16/10 15:44:09] [info] Oriol_13 | disconnected
+[23/10 11:06:45] [info] Oriol_13 | connected
+[23/10 11:06:45] [info] Oriol_13 | fetched user data : active quests 
+[23/10 11:06:45] [info] Oriol_13 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 11:06:45] [info] Oriol_13 | fetched user quests : 
+[23/10 11:40:55] [info] Oriol_13 | disposing user quests data : 
+- must dispose quests
+[23/10 11:40:55] [info] Oriol_13 | disposed user data
+[23/10 11:40:55] [info] Oriol_13 | disconnected

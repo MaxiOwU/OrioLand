@@ -1,0 +1,21 @@
+[21/10 12:33:49] [info] angelmool | connected
+[21/10 12:33:49] [info] angelmool | fetched user data : no value ; created it
+[21/10 12:33:49] [info] angelmool | pushing user 82cb0cb9-ca87-3159-b847-aad8c4df6744, active quests : 
+[21/10 12:33:49] [info] angelmool | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[21/10 12:33:49] [info] angelmool | fetched user quests : 
+[21/10 12:34:19] [info] angelmool | disposing user quests data : 
+- must dispose quests
+[21/10 12:34:19] [info] angelmool | disposed user data
+[21/10 12:34:19] [info] angelmool | disconnected
+[21/10 12:34:46] [info] angelmool | connected
+[21/10 12:34:46] [info] angelmool | fetched user data : active quests 
+[21/10 12:34:46] [info] angelmool | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[21/10 12:34:46] [info] angelmool | fetched user quests : 
+[21/10 12:42:55] [info] angelmool | disposing user quests data : 
+- must dispose quests
+[21/10 12:42:55] [info] angelmool | disposed user data
+[21/10 12:42:55] [info] angelmool | disconnected

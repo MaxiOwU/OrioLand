@@ -460,6 +460,7 @@ permissions:
 - pvpmanager.pvpstatus.self
 - pvpmanager.user
 - pw.commands
+- pw.limit.10
 - quickshop.player
 - rankup.info
 - rankup.maxrankup
@@ -478,8 +479,10 @@ permissions:
 - skinsrestorer.command.set.url
 - skinsrestorer.command.update
 - spartan.admin
+- staff.bans
 - staff.counter-show-vanished
 - staff.reports
+- staff.staffplus.ban
 - staff.staffplus.hideip
 - staff.staffplus.kick
 - staff.vanish

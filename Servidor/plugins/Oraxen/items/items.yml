@@ -150,3 +150,12 @@ anillo:
     parent_model: "item/generated"
     textures:
       - default/anillo.png
+
+llavehalloween:
+  displayname: "<gradient:#FF8000:#FFCC00>Halloween"
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: "item/generated"
+    textures:
+      - default/llavehalloween.png

@@ -358,6 +358,7 @@ permissions:
 - pvpmanager.pvpstatus.self
 - pvpmanager.user
 - pw.commands
+- pw.limit.10
 - quickshop.player
 - rankup.info
 - rankup.maxrankup

@@ -1,0 +1,11 @@
+[23/10 16:50:37] [info] Delcastorm | connected
+[23/10 16:50:37] [info] Delcastorm | fetched user data : no value ; created it
+[23/10 16:50:37] [info] Delcastorm | pushing user 7bcfc85a-96d3-3805-acd1-892b9739c86f, active quests : 
+[23/10 16:50:37] [info] Delcastorm | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 16:50:37] [info] Delcastorm | fetched user quests : 
+[23/10 17:38:06] [info] Delcastorm | disposing user quests data : 
+- must dispose quests
+[23/10 17:38:06] [info] Delcastorm | disposed user data
+[23/10 17:38:06] [info] Delcastorm | disconnected

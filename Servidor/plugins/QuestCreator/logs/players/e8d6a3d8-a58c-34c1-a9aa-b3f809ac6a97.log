@@ -1,0 +1,31 @@
+[17/10 18:20:54] [info] Rambolo14 | connected
+[17/10 18:20:54] [info] Rambolo14 | fetched user data : no value ; created it
+[17/10 18:20:54] [info] Rambolo14 | pushing user e8d6a3d8-a58c-34c1-a9aa-b3f809ac6a97, active quests : 
+[17/10 18:20:54] [info] Rambolo14 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[17/10 18:20:54] [info] Rambolo14 | fetched user quests : 
+[17/10 18:32:44] [info] Rambolo14 | disposing user quests data : 
+- must dispose quests
+[17/10 18:32:44] [info] Rambolo14 | disposed user data
+[17/10 18:32:44] [info] Rambolo14 | disconnected
+[17/10 18:33:01] [info] Rambolo14 | connected
+[17/10 18:33:01] [info] Rambolo14 | fetched user data : active quests 
+[17/10 18:33:01] [info] Rambolo14 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[17/10 18:33:01] [info] Rambolo14 | fetched user quests : 
+[17/10 18:56:03] [info] Rambolo14 | disposing user quests data : 
+- must dispose quests
+[17/10 18:56:03] [info] Rambolo14 | disposed user data
+[17/10 18:56:03] [info] Rambolo14 | disconnected
+[17/10 19:02:59] [info] Rambolo14 | connected
+[17/10 19:02:59] [info] Rambolo14 | fetched user data : active quests 
+[17/10 19:02:59] [info] Rambolo14 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[17/10 19:02:59] [info] Rambolo14 | fetched user quests : 
+[17/10 19:09:16] [info] Rambolo14 | disposing user quests data : 
+- must dispose quests
+[17/10 19:09:16] [info] Rambolo14 | disposed user data
+[17/10 19:09:16] [info] Rambolo14 | disconnected

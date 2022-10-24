@@ -1,0 +1,673 @@
+# ===================
+# QuestCreator 語言文件 (zh_TW)
+# 作者: GuillaumeVDN
+# 語言: 中文繁體
+# 翻譯: Kevin
+# Discord: ༄༊࿆さくらじま いོྂཾ࿐#9685
+# 如在翻譯上有任何疑慮歡迎私訊༄༊࿆さくらじま いོྂཾ࿐#9685
+# 在插件上有任何疑慮請至 https://discord.com/invite/wSm9A8Y 尋求幫助
+# ===================
+# QuestCreator language files (zh_TW)
+# Author: GuillaumeVDN
+# Language: Chinese Traditional
+# Translation: Kevin
+# Discord: ༄༊࿆さくらじま いོྂཾ࿐#9685
+# If you have any doubts about translation, please send a private message ༄༊࿆さくらじま いོྂཾ࿐#9685
+# If you have any concerns about the plugin, please go to https://discord.com/invite/wSm9A8Y for help
+# ===================
+
+# -------------------- 指令 --------------------
+
+commandParameterUsageModel: 任務
+commandParameterUsageBranch: 分支
+commandParameterUsageObject: 目標
+commandParameterUsagePartId: 進度部分 ID
+commandParameterUsageGUI: GUI
+commandParameterUsagePool: 任務池
+commandParameterUsageState: 任務狀態
+commandParameterUsagePointsCategory: 任務類別
+commandParameterUsageVariable: 變量
+
+commandDescriptionQuestcreator: QuestCreator的主指令
+commandDescriptionQuestcreatorActionbar: 開關任務actionbar
+commandDescriptionQuestcreatorBossbar: 開關任務bossbar
+commandDescriptionQuestcreatorComplete: 將任務標記為已完成
+commandDescriptionQuestcreatorCompletebranch: 將當前分支目標標記為已完成
+commandDescriptionQuestcreatorCoop: 管理多人任務
+commandDescriptionQuestcreatorGoto: 更新任務
+commandDescriptionQuestcreatorGPS: 開關任務GPS
+commandDescriptionQuestcreatorIncreaseProgress: 增加任務的進度
+commandDescriptionQuestcreatorEdit: 在遊戲內編輯
+commandDescriptionQuestcreatorJournal: 管理任務日誌
+commandDescriptionQuestcreatorList: 列出全部任務
+commandDescriptionQuestcreatorLogspam: 開關調試記錄
+commandDescriptionQuestcreatorPoints: 管理任務點數
+commandDescriptionQuestcreatorMenu: 打開特定菜單
+commandDescriptionQuestcreatorModelVariable: manage variables for a quest
+commandDescriptionQuestcreatorPerformglobalbranch: 從全局分支中執行目標
+commandDescriptionQuestcreatorPerformglobalobject: 執行一個全局目標
+commandDescriptionQuestcreatorProgress: 查看任務進度
+commandDescriptionQuestcreatorQueue: 查看隊列進度
+commandDescriptionQuestcreatorStop: 停止任務
+commandDescriptionQuestcreatorStart: 開始任務
+commandDescriptionQuestcreatorState: 設置任務狀態
+commandDescriptionQuestcreatorReset: 重置任務
+commandDescriptionQuestcreatorResetpool: 重置任務池
+commandDescriptionQuestcreatorScoreboard: 開關任務計分板
+commandDescriptionQuestcreatorServerVariable: 管理伺服器變量
+commandDescriptionQuestcreatorSetpooltokens: 設置任務券
+commandDescriptionQuestcreatorTitle: 開關任務標題
+commandDescriptionQuestcreatorUser: 查看有關用戶的一些數據
+commandDescriptionQuestcreatorVariable: 管理變量
+
+messageCommandInvalidModel: |
+  &7任務模型&c{value}&7的參數&c{argument}&7無效。
+
+messageCommandInvalidBranch: |
+  &7任務分支 &c{value}&7的參數&c{argument}&7無效。
+
+messageCommandInvalidQuestObject: |
+  &7任務目標 &c{value}&7的參數&c{argument}&7無效。
+
+messageCommandQuestcreatorBungeePlayerIsntOffline: |
+  &7那名玩家似乎連接到了其它伺服器。請先加入該伺服器。
+
+messageCommandQuestcreatorActionbarToggleOn: |
+  &7你的任務actionbar已&a開啟&7。
+
+messageCommandQuestcreatorActionbarToggleOff: |
+  &7你的任務actionbar已&c關閉&7。
+
+messageCommandQuestcreatorBossbarToggleOn: |
+  &7你的任務bossbar已&a開啟&7。
+
+messageCommandQuestcreatorBossbarToggleOff: |
+  &7你的任務bossbar已&c關閉&7。
+
+messageCommandQuestcreatorCoopNotInvited: |
+  &7你沒有任何待接受的組隊邀請。開始多人任務時你會看到更多多人選項!
+
+messageCommandQuestcreatorCoopLeaveEmpty: |
+  &7沒有可以離開的任務。
+
+messageCommandQuestcreatorCoopLeaveCouldnt: |
+  &7無法離開任務:&c{quest}&7。
+
+messageCommandQuestcreatorCoopLeaveLeft: |
+  &7你離開了任務:&a{quest}&7。
+
+messageCommandQuestcreatorComplete: |
+  &7你的任務已被標記為已完成&a{amount}次&7:&a{quest}&7。
+
+messageCommandQuestcreatorCompleteBranch: |
+  &7完成任務&a{quest}的分支&a{branch}&7裡的當前目標&7。
+
+messageCommandQuestcreatorCompleteBranchNoQuest: |
+  &7該任務未激活。
+
+messageCommandQuestcreatorGoto: |
+  &7已變更你的任務:&a{quest}&7。
+
+messageCommandQuestcreatorGotoNoQuest: |
+  &7該任務未激活。
+
+messageCommandQuestcreatorGPSToggleOn: |
+  &7你的任務GPS已&a開啟&7。
+
+messageCommandQuestcreatorGPSToggleOff: |
+  &7你的任務GPS已&c關閉&7。
+
+messageCommandQuestcreatorIncreaseProgressNotFound: |
+  &7沒有發現任何進展。
+
+messageCommandQuestcreatorIncreaseProgressIncreased: |
+  &7現在進度是&a{progression}&7。
+
+messageCommandQuestcreatorJournalToggleOn: |
+  &7你的任務日誌已&a開啟&7。
+
+messageCommandQuestcreatorJournalToggleOff: |
+  &7你的任務日誌已&c關閉&7。
+
+messageCommandQuestcreatorListEmpty: |
+  &7沒有任務。
+
+messageCommandQuestcreatorListHeader: |
+  &2任務:
+
+messageCommandQuestcreatorListElement: |
+  &7- {id} : {name}
+
+messageCommandQuestcreatorLogspamToggleOn: |
+  &a{player}&7的記錄已&a開啟&7。
+
+messageCommandQuestcreatorLogspamToggleOff: |
+  &c{player}&7的記錄已&c關閉&7。
+
+messageCommandQuestcreatorModelVariableNoQuest: |
+  &7此任務未激活。
+
+messageCommandQuestcreatorRunglobalbranchUnknown: |
+  &7未知全局分支&c{branch}&7。
+
+messageCommandQuestcreatorRunglobalobjectUnknown: |
+  &7未知全局目標&c{object}&7。
+
+messageCommandQuestcreatorPoints: |
+  &7在類別&a{category}中你有&a{points}點任務點數&7。
+
+messageCommandQuestcreatorPointsOperate: |
+  &7在類別&a{category}中你的任務點數被設置為&a{amount}&7。
+
+messageCommandQuestcreatorProgressEmpty: |
+  &7沒有已激活的任務。
+
+messageCommandQuestcreatorProgressOnlineElement: |
+  &7&m          &r &7{id}:{name} &7&m          &r
+  &7隊長:&a{leader}
+  &7隊員:&a{coop}
+  &7開始原因:&a{start_cause}
+  &7時間:&a{uptime}
+  &7路徑:&a{path}
+  &7檢查點:&a{checkpoint}
+  {branches}
+
+messageCommandQuestcreatorProgressOnlineElementBranch: |
+  &7- 分支 &a{branch}&7，目標 &a{object}
+  {progression}
+
+messageCommandQuestcreatorProgressOnlineElementProgression: |
+  &7  > &a{object}&7/&a{part} &7: &a{progression}&7/&a{goal}
+
+messageCommandQuestcreatorQueueNone: |
+  &7你不在任務隊列中。
+
+messageCommandQuestcreatorQueueActive: |
+  &7你在該任務隊列中:&e{quest} &7(玩家:&e{players}&7)。
+  &7位置:&e{position}&7/&e{max}
+
+messageCommandQuestcreatorQueueActiveError: |
+  &7你在該任務隊列中:&e{quest} &7(玩家:&e{players}&7)。
+  &7位置 : &e{position}&7/&e{max}
+  &c請在到達位置1前修復該問題:{error}
+
+messageCommandQuestcreatorResetEmpty: |
+  &7沒有可重置的任務。
+
+messageCommandQuestcreatorReset: |
+  &7你的任務已重置: &a{quest}&7。
+
+messageCommandQuestcreatorResetpoolEmpty: |
+  &7沒有可重置的任務池。
+
+messageCommandQuestcreatorResetpoolReprocessed: |
+  &7Reprocessed quest pools : &a{pools}&7.
+
+messageCommandQuestcreatorResetpool: |
+  &7你的任務池已重置:&a{pool}&7。
+
+messageCommandQuestcreatorScoreboardToggleOn: |
+  &7你的任務計分板已&a開啟&7。
+
+messageCommandQuestcreatorScoreboardToggleOff: |
+  &7你的任務計分板已&c關閉&7。
+
+messageCommandQuestcreatorServerVariable: |
+  &7伺服器變量&a{variable}&7具有值&a{value}&7。
+
+messageCommandQuestcreatorServerVariableOperate: |
+  &7伺服器變量&a{variable}&7被設置為&a{value}&7。
+
+messageCommandQuestcreatorSetpooltokens: |
+  &7你現在擁有&a{amount}&7個任務&a{quest}的任務券&7。
+
+messageCommandQuestcreatorStartCouldnt: |
+  &7無法開始任務:&c{quest}&7。
+
+messageCommandQuestcreatorStartEmpty: |
+  &7沒有可開始的任務。
+
+messageCommandQuestcreatorStarted: |
+  &7已開始任務:&a{quest}&7。
+
+messageCommandQuestcreatorState: |
+  &7設置任務狀態為&a{state}&7。
+
+messageCommandQuestcreatorStopEmpty: |
+  &7沒有可以停止的任務。
+
+messageCommandQuestcreatorStopCouldnt: |
+  &7無法停止任務:&c{quest}&7。
+
+messageCommandQuestcreatorStopped: |
+  &7已停止你的任務:&a{quest}&7。
+
+messageCommandQuestcreatorTitleToggleOn: |
+  &7你的任務標題已&a開啟&7。
+
+messageCommandQuestcreatorTitleToggleOff: |
+  &7你的任務標題已&c關閉&7。
+
+messageCommandQuestcreatorUser: |
+  &7&m          &r &7{player} &7&m          &r
+  &7任務池代幣 : &a{pool_tokens}
+  &7進行中的任務 : &a{active_quests}
+  &7完成的任務 :
+  {completed_quests}
+
+messageCommandQuestcreatorUserCompletedQuestElement: |
+  &7- &a{quest} &7: &a{counts}
+
+messageCommandQuestcreatorVariable: |
+  &7你的變量&a{variable}&7的值為&a{value}&7。
+
+messageCommandQuestcreatorVariableOperate: |
+  &7你的變量&a{variable}&7值被設置為&a{value}&7。
+
+# -------------------- 任務 --------------------
+
+messageQuestCancelInactive: |
+  &7你的任務&c{quest}&7在&c{time}&7後仍無進展，因此任務失敗。
+
+# -------------------- 多人 --------------------
+
+messageCoopCreateLeader: |
+  &7你創建了一個多人任務隊伍:&a{quest}&7。 [1/{max}]
+
+messageCoopCreateAlreadyCoop: |
+  &c{player}&7已經加入了一個隊伍。
+
+messageCoopFull: |
+  &7&c{leader}&7的隊伍人數已滿。
+
+messageCoopInvite: |
+  &7請在聊天框處輸入你想要邀請的玩家名，或輸入&c{cancel}&7以取消。
+
+messageCoopInviteAlreadyThereLeader: |
+  &a{player}&7已在你的隊伍中或已發送邀請。
+
+messageCoopInvited: |
+  &a{leader}&7邀請你加入多人任務:&a{quest}&7。輸入 /quest 多人接受邀請
+
+messageCoopInvitedLeader: |
+  &7你邀請了&a{player}&7加入你的隊伍。
+  
+messageCoopNotInvited: |
+  &7你需要&a{leader}&7邀請你才能加入他的隊伍。
+
+messageCoopNotInvitedLeader: |
+  &c{player}&7嘗試加入你的隊伍，但他沒有受到你的邀請。
+
+messageCoopJoin: |
+  &7你加入了&a{leader}&7的隊伍:&a{quest}&7。 [{current}/{max}]
+
+messageCoopJoinOthers: |
+  &a{player}&7加入了隊伍:&a{quest}&7。 [{current}/{max}]
+
+messageCoopLeave: |
+  &7你離開了&c{leader}&7的隊伍。
+
+messageCoopLeaveOthers: |
+  &c{player}&7離開了隊伍。 [{current}/{max}]
+
+messageCoopDisband: |
+  &7你解散了隊伍:&c{quest}&7。
+
+messageCoopDisbandOthers: |
+  &c{leader}&7解散了隊伍:&c{quest}&7。
+
+messageCoopKickNotInLeader: |
+  &c{player}&7不在你的隊伍中且未受到邀請。
+
+messageCoopKickInviteLeader: |
+  &7已取消發給&c{player}&7的邀請。
+
+messageCoopKick: |
+  &7你被踢出了&c{leader}&7的隊伍:&c{quest}&7。
+
+messageCoopKickOthers: |
+  &c{player}&7被踢出了隊伍。 [{current}/{max}]
+
+# -------------------- 隊列 --------------------
+
+messageQueueCreateAlreadyCoop: |
+  &c{player}&7已在任務隊列中。
+
+messageQueueCreateCantMultiple: |
+  &7你不能同時加入多個任務的隊列中。
+
+messageQueueCouldntStartPosition: |
+  &c無法開始任務&c{quest}&7。你被添加到了隊列中，你的位置是 &c{position}&7/&c{max}&7。
+
+messageQueuePosition: |
+  &7你在任務&a{quest}隊列中的位置是 &a{position}&7/&a{max}&7。
+
+messageQueueStarted: |
+  &7排隊結束:&a{quest}&7。正在開始任務。
+
+messageQueueLeave: |
+  &7你離開了任務隊列:&c{quest}&7。
+
+# -------------------- Preconditions --------------------
+
+messagePreconditionsError: |
+  &c{error}
+
+textPreconditionsErrorInvalidModelErrors: |
+  &7無效的任務模型:
+  &c{errors}
+
+textPreconditionsErrorAloneUserNotLoader: |
+  &7未加載你的用戶數據。
+
+textPreconditionsErrorCoopUserNotLoader: |
+  &c未加載{player}&7的用戶數據。
+
+textPreconditionsErrorQuestTooManyInstances: |
+  &7正在進行該任務的玩家數過多。
+
+textPreconditionsErrorAlonePlayerAlreadyActive: |
+  &7你已接受該任務。
+
+textPreconditionsErrorCoopPlayerAlreadyActive: |
+  &c{player}&7已接受該任務。
+
+textPreconditionsErrorAlonePlayerTooManyQuests: |
+  &7你已達同時進行的任務數上限。
+
+textPreconditionsErrorCoopPlayerTooManyQuests: |
+  &c{player}&7正在進行的任務數過多。
+
+textPreconditionsErrorAlonePlayerMaxCompletions: |
+  &7你已完成該任務。
+
+textPreconditionsErrorCoopPlayerMaxCompletions: |
+  &c{player}&7已完成該任務。
+
+textPreconditionsErrorAlonePlayerGroupTooManyQuests: |
+  &7你正進行的同組任務數過多。
+
+textPreconditionsErrorCoopPlayerGroupTooManyQuests: |
+  &c{player}&7正進行的同組任務數過多。
+
+textPreconditionsErrorAlonePlayerGroupPreviousQuestNotCompleted: |
+  &7你未完成同一組任務的上一個任務。
+
+textPreconditionsErrorCoopPlayerGroupPreviousQuestNotCompleted: |
+  &c{player}&7未完成同一組任務的上一個任務。
+
+textPreconditionsErrorAlonePlayerCooldown: |
+  &7你必須等候&c{time}&7才能再次進行該任務。
+
+textPreconditionsErrorCoopPlayerCooldown: |
+  &c{player}&7必須等候&c{time}&7才能再次進行該任務。
+
+textPreconditionsErrorAlonePlayerNoTokens: |
+  &7你沒有該任務的任務券。
+
+textPreconditionsErrorCoopPlayerNoTokens: |
+  &c{player}&7沒有該任務的任務券。
+
+textPreconditionsErrorQuestCoopQuest: |
+  &c這是個多人任務。
+
+textPreconditionsErrorQuestNotCoopQuest: |
+  &c這不是個多人任務。
+
+textPreconditionsErrorQuestNotEnoughPlayers: |
+  &7至少要有&c{min}名玩家才能開始該任務。
+
+textPreconditionsErrorQuestTooManyPlayers: |
+  &7該任務最多只能有&c{max}名玩家參加&7。
+
+textPreconditionsErrorAlonePlayerNoPermission: |
+  &7你沒有開始該任務的權限。
+
+textPreconditionsErrorCoopPlayerNoPermission: |
+  &c{player}&7沒有開始該任務的權限。
+
+textPreconditionsErrorAlonePlayerDisallowedWorld: |
+  &7你所在世界無法開始該任務。
+
+textPreconditionsErrorCoopPlayerDisallowedWorld: |
+  &c{player}&7所在世界無法開始該任務。
+
+textPreconditionsErrorStartConditionsDontMatch: |
+  &7開始條件無效。
+
+textPreconditionsErrorGroupStartConditionsDontMatch: |
+  &7Group start conditions are invalid.
+
+# -------------------- 詳細進度(冗雜內容) --------------------
+
+textDetailedProgressionBranch: '&2&l{name}'
+textDetailedProgressionBranchNoName: []
+
+textDetailedProgressionObject: '&a> &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionObjectDistance: '&a> &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionObjectTime: '&a> &7{name} &7(&a{time}&7)'
+textDetailedProgressionObjectNoDetail: '&2> &7{name}'
+textDetailedProgressionObjectNoName: []
+
+textDetailedProgressionObjectDelegateHeader: '&a> &7{name}'
+textDetailedProgressionObjectDelegateHeaderNoName: []
+
+textDetailedProgressionObjectDelegate: '&a- &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionObjectDelegateCompleted: '&7&m- {name} &7({progression}/{goal}&7)'
+textDetailedProgressionObjectDelegateDistance: '&a- &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionObjectDelegateDistanceCompleted: '&7&m- {name} &7({distance}m&7)'
+textDetailedProgressionObjectDelegateTime: '&a- &7{name} &7(&a{time}&7)'
+textDetailedProgressionObjectDelegateTimeCompleted: '&7&m- {name} &7({time}&7)'
+textDetailedProgressionObjectDelegateNoDetail: '&a- &7{name}'
+textDetailedProgressionObjectDelegateNoDetailCompleted: '&7&m- {name}&7'
+textDetailedProgressionObjectDelegateNoName: []
+textDetailedProgressionObjectDelegateNoNameCompleted: []
+
+# -------------------- 詳細進度 (計分板) --------------------
+
+textDetailedProgressionScoreboardBranch: '&2&l{name}'
+textDetailedProgressionScoreboardBranchNoName: []
+
+textDetailedProgressionScoreboardObject: '&a> &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionScoreboardObjectDistance: '&a> &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionScoreboardObjectTime: '&a> &7{name} &7(&a{time}&7)'
+textDetailedProgressionScoreboardObjectNoDetail: '&2> &7{name}'
+textDetailedProgressionScoreboardObjectNoName: []
+
+textDetailedProgressionScoreboardObjectDelegateHeader: '&a> &7{name}'
+textDetailedProgressionScoreboardObjectDelegateHeaderNoName: []
+
+textDetailedProgressionScoreboardObjectDelegate: '&a- &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionScoreboardObjectDelegateCompleted: '&7&m- {name} &7({progression}/{goal}&7)'
+textDetailedProgressionScoreboardObjectDelegateDistance: '&a- &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionScoreboardObjectDelegateDistanceCompleted: '&7&m- {name} &7({distance}m&7)'
+textDetailedProgressionScoreboardObjectDelegateTime: '&a- &7{name} &7(&a{time}&7)'
+textDetailedProgressionScoreboardObjectDelegateTimeCompleted: '&7&m- {name} &7({time}&7)'
+textDetailedProgressionScoreboardObjectDelegateNoDetail: '&a- &7{name}'
+textDetailedProgressionScoreboardObjectDelegateNoDetailCompleted: '&7&m- {name}&7'
+textDetailedProgressionScoreboardObjectDelegateNoName: []
+textDetailedProgressionScoreboardObjectDelegateNoNameCompleted: []
+
+# -------------------- 詳細進度(PlaceholderAPI)--------------------
+
+textDetailedProgressionPlaceholderAPIObject: '&7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionPlaceholderAPIObjectDistance: '&7{name} &7(&a{distance}m&7)'
+textDetailedProgressionPlaceholderAPIObjectTime: '&7{name} &7(&a{time}&7)'
+
+textDetailedProgressionPlaceholderAPIObjectNoDetail: '&7{name}'
+textDetailedProgressionPlaceholderAPIObjectNoName: '&7/'
+
+# -------------------- 日誌 --------------------
+
+textJournalEmpty: |
+  &7你的任務日誌空空如也。
+
+# -------------------- 分歧/分支 --------------------
+
+textDivergeLineSplit: '&r    '
+
+textDivergeSelect: |
+  &d點擊選擇
+
+textDivergeCantSelect: |
+  &7你無法選擇該任務的分支
+
+textDivergeCantSelectUnavailable: |
+  &7該選項暫不可用
+
+textServerActionPromptNext: |
+  &d點擊繼續
+
+# -------------------- 計分板 --------------------
+
+textScoreboarOneQuestTitle: |
+  &7&m    &r &d&l任務 &7&m    &r
+
+textScoreboardOneQuestContent: |
+  &r
+  &a{quest}
+  &r
+  {detailed_progression}
+  &r
+  &e&ohttp://guillaumevdn.com
+
+textScoreboardOneQuestContentNone: |
+  &r
+  &7沒有進行中的任務!
+  &r
+  &dguillaumevdn.com
+
+textScoreboardMultipleQuestTitle: |
+  &7&m    &r &d&l任務 &7&m    &r
+
+textScoreboardMultipleQuestContent: |
+  {quests}
+  &r
+  &e&ohttp://guillaumevdn.com
+
+textScoreboardMultipleQuestContentQuest: |
+  &r
+  &a{quest}
+  &r
+  {detailed_progression}
+
+textScoreboardMultipleQuestContentNone: |
+  &r
+  &7沒有進行中的任務!
+  &r
+  &e&ohttp://guillaumevdn.com
+
+# -------------------- GUI --------------------
+
+guiDefaultActivatorName: |
+  &7任務
+
+guiQuestCoopPlayers: |
+  &r
+  &7與&b{players}進行多人任務
+  &7{leader}
+  &r
+
+guiQuestCoopLeader: |
+  &7你是隊長。
+
+guiQuestCoopNotLeader: |
+  &7隊長為{leader}。
+
+guiQuestControls: |
+  &r
+  &d{controls}
+
+guiQuestControlsInfo: |
+  &d左擊查看詳情
+
+guiQuestControlsStart: |
+  &d右擊以開始任務
+
+guiQuestControlsStartCoop: |
+  &dShift + 右擊 以開始多人任務
+
+guiQuestControlsPhysicalActivatorGUIStart: |
+  &d右擊以開始任務
+
+guiQuestControlsPhysicalActivatorGUIStartCoop: |
+  &dShift + 右擊 以開始多人任務
+
+guiQuestControlsStop: |
+  &d右擊以停止任務
+
+guiQuestControlsLeave: |
+  &d右擊以離開多人任務
+
+guiQuestDetailedProgression: |
+  &r
+  {detailed_progression}
+
+guiQuestDetailedErrors: |
+  &r
+  {detailed_errors}
+
+guiQuestCompletionCount: |
+  &r
+  &7你完成了該任務{count}次
+
+guiQuestCompletionCountGoal: |
+  &r
+  &7你完成了該任務{count}/{max}次
+
+guiQuestCooldown: |
+  &r
+  &7請等候&a{time}&7以再次開始該任務。
+
+guiQuestCooldownPool: |
+  &r
+  &7新任務將在&a{time}&7後出現。
+
+guiQuestCompleted: |
+  &7完成日期:&a{date}&7。
+
+guiConfirmLoreStopQuest: |
+  &7點擊這里以&c停止任務&7:
+  &c{quest}
+
+guiConfirmLoreLeaveCoopQuest: |
+  &7點擊這里以&c離開多人任務&7:
+  &c{quest}
+
+guiConfirmLoreStartQuest: |
+  &7點擊這里以&a開始任務&7:
+  &a{quest}
+
+guiConfirmLoreStartCoopQuest: |
+  &7點擊這里以&a組隊開始任務&7:
+  &a{quest}
+
+guiConfirmLoreStartQuestAfterActivatorDialog: |
+  &7任務: &a{quest}
+
+guiConfirmLoreStartCoopQuestAfterActivatorDialog: |
+  &7點擊這裡&a在合作模式&7中開始此任務:
+  &a{quest}
+
+# -------------------- 關聯 --------------------
+
+integrationDynmapMarkerSetName: 任務
+integrationHolographicDisplaysActivatorHologramStatusCount: '&a{count}'
+integrationHolographicDisplaysActivatorHologramNoStatusCount: '&c0'
+integrationHolographicDisplaysActivatorHologramStatusList: '&a{list}'
+integrationHolographicDisplaysActivatorHologramStatusListSeparator: '&7, &a'
+integrationHolographicDisplaysActivatorHologramNoStatusList: '&c無'
+
+# -------------------- 計分板 --------------------
+
+messageScoreboardScrollingStart: >
+  &a你已開始滾動計分板。左擊往上，右擊往下。再次輸入該指令以退出。
+
+messageScoreboardScrollingStop: >
+  &7你停止了滾動計分板。
+
+messageScoreboardScrollingReachedTop: >
+  &7你已到達計分板頂部。
+
+messageScoreboardScrollingReachedBottom: >
+  &7你已到達計分板底部。

@@ -1,0 +1,21 @@
+[20/10 20:35:52] [info] Decappiuss | connected
+[20/10 20:35:52] [info] Decappiuss | fetched user data : no value ; created it
+[20/10 20:35:52] [info] Decappiuss | pushing user 2a8fda33-e261-3176-bfe9-2730e3ea7ea9, active quests : 
+[20/10 20:35:52] [info] Decappiuss | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[20/10 20:35:52] [info] Decappiuss | fetched user quests : 
+[20/10 20:45:46] [info] Decappiuss | disposing user quests data : 
+- must dispose quests
+[20/10 20:45:46] [info] Decappiuss | disposed user data
+[20/10 20:45:46] [info] Decappiuss | disconnected
+[20/10 20:47:10] [info] Decappiuss | connected
+[20/10 20:47:10] [info] Decappiuss | fetched user data : active quests 
+[20/10 20:47:10] [info] Decappiuss | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[20/10 20:47:10] [info] Decappiuss | fetched user quests : 
+[20/10 22:57:50] [info] Decappiuss | disposing user quests data : 
+- must dispose quests
+[20/10 22:57:50] [info] Decappiuss | disposed user data
+[20/10 22:57:50] [info] Decappiuss | disconnected

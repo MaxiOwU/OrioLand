@@ -35,7 +35,7 @@ Pets:
           - Stick
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &e&lCOMUN"
+        - '&8&l» &fRareza: &e&lCOMUN'
   Chicken:
     Name: '&b&lPollos'
     Material: CHICKEN_SPAWN_EGG
@@ -74,7 +74,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &e&lCOMUN"
+        - '&8&l» &fRareza: &e&lCOMUN'
       Baby Chicken:
         Name: '&b&lPollo &7(Bebe)'
         Material: FEATHER
@@ -103,7 +103,7 @@ Pets:
           - Stick
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
   Wolf:
     Name: '&b&lLobos'
     Material: WOLF_SPAWN_EGG
@@ -142,7 +142,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &e&lCOMUN"
+        - '&8&l» &fRareza: &e&lCOMUN'
       Baby Wolf:
         Name: '&b&lLobo &7(Baby)'
         Material: BONE_MEAL
@@ -179,7 +179,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
   Cat:
     Name: '&b&lGatos'
     Material: OCELOT_SPAWN_EGG
@@ -219,7 +219,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &e&lCOMUN"
+        - '&8&l» &fRareza: &e&lCOMUN'
       Baby Black Cat:
         Name: '&b&lGato Negro &7(Bebe)'
         Material: COOKED_COD
@@ -249,7 +249,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       Red Cat:
         Name: '&b&lGato Rojo'
         Material: COOKED_SALMON
@@ -279,7 +279,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &e&lCOMUN"
+        - '&8&l» &fRareza: &e&lCOMUN'
       Baby Red Cat:
         Name: '&b&LGato Rojo &7(Bebe)'
         Material: COOKED_SALMON
@@ -309,7 +309,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       Siamese Cat:
         Name: '&b&lGato Siames'
         Material: TROPICAL_FISH
@@ -339,7 +339,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &e&lCOMUN"
+        - '&8&l» &fRareza: &e&lCOMUN'
       Baby Siamese Cat:
         Name: '&b&lGato Siames &7(Bebe)'
         Material: TROPICAL_FISH
@@ -369,7 +369,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       Wild Ocelot:
         Name: '&b&lOcelote Salvaje'
         Material: COD
@@ -399,7 +399,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       Baby Wild Ocelot:
         Name: '&b&lOcelote Salvaje &7(Bebe)'
         Material: COD
@@ -429,7 +429,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
   Zombie:
     Name: '&b&lZombies'
     Material: ZOMBIE_SPAWN_EGG
@@ -466,7 +466,7 @@ Pets:
           - Sparring Sword
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &e&lCOMUN"
+        - '&8&l» &fRareza: &e&lCOMUN'
       Baby Zombie:
         Name: '&b&lZombie &7(Bebe)'
         Material: POTATO
@@ -493,7 +493,7 @@ Pets:
           - Sparring Sword
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       Husk:
         Name: '&b&lZombie Husk'
         Material: head:d674c63c8db5f4ca628d69a3b1f8a36e29d8fd775e1a6bdb6cabb4be4db121
@@ -520,7 +520,7 @@ Pets:
           - Sparring Sword
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       Baby Husk:
         Name: '&b&lZombie Husk &7(Bebe)'
         Material: head:d674c63c8db5f4ca628d69a3b1f8a36e29d8fd775e1a6bdb6cabb4be4db121
@@ -547,16 +547,16 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Red Little Helper:
-        Name: "&b&lPeque\xc3\xb1o Ayudante Rojo"
+        Name: '&b&lPequeÃ±o Ayudante Rojo'
         Material: LEATHER_HELMET:#FF0000
         Mystery Dust: 50
         Rarity: Epic
         Enabled: true
         CanBeFound: true
         Purchasable: true
-        Default-Pet-Name: "&ePeque\xc3\xb1o Ayudante Rojo"
+        Default-Pet-Name: '&ePequeÃ±o Ayudante Rojo'
         Move-Speed: 0.6
         Ride-Speed: 0.4
         Pet-Item-Interest:
@@ -574,16 +574,16 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Green Little Helper:
-        Name: "&b&lPeque\xc3\xb1o Ayudante Verde"
+        Name: '&b&lPequeÃ±o Ayudante Verde'
         Material: LEATHER_HELMET:#00FF00
         Mystery Dust: 30
         Rarity: Epic
         Enabled: true
         CanBeFound: true
         Purchasable: true
-        Default-Pet-Name: "&ePeque\xc3\xb1o Ayudante Verde"
+        Default-Pet-Name: '&ePequeÃ±o Ayudante Verde'
         Move-Speed: 0.6
         Ride-Speed: 0.4
         Pet-Item-Interest:
@@ -601,7 +601,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
   Bat:
     Name: '&b&lMurcielagos'
     Material: BAT_SPAWN_EGG
@@ -638,26 +638,26 @@ Pets:
           - Stick
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
   Spider:
-    Name: "&b&lAra\xc3\xb1as"
+    Name: '&b&lAraÃ±as'
     Material: SPIDER_SPAWN_EGG
-    GUI-Name: "&8Ara\xc3\xb1as"
+    GUI-Name: '&8AraÃ±as'
     Enabled: true
     Lore:
     - ''
     - '&fIngresa al menu donde se encuentran'
-    - "&ftodos los tipos de Ara\xc3\xb1as."
+    - '&ftodos los tipos de AraÃ±as.'
     Types:
       Spider:
-        Name: "&b&lAra\xf1a"
+        Name: '&b&lAraña'
         Material: SPIDER_EYE
         Mystery Dust: 42
         Rarity: Epic
         Enabled: true
         CanBeFound: true
         Purchasable: true
-        Default-Pet-Name: "&eAra\xf1a"
+        Default-Pet-Name: '&eAraña'
         Move-Speed: 0.7
         Ride-Speed: 0.45
         Pet-Item-Interest:
@@ -675,16 +675,16 @@ Pets:
           - Stick
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Cave Spider:
-        Name: "&b&lAra\xc3\xb1a de Cueva"
+        Name: '&b&lAraÃ±a de Cueva'
         Material: STRING
         Mystery Dust: 27
         Rarity: Rare
         Enabled: true
         CanBeFound: true
         Purchasable: true
-        Default-Pet-Name: "&eAra\xc3\xb1a de Cueva"
+        Default-Pet-Name: '&eAraÃ±a de Cueva'
         Move-Speed: 0.7
         Ride-Speed: 0.45
         Pet-Item-Interest:
@@ -702,26 +702,26 @@ Pets:
           - Sparring Sword
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
   Snowman:
-    Name: "&b&lMu\xf1ecos de Nieve"
+    Name: '&b&lMuñecos de Nieve'
     Material: head:8d47a101dfd3ca7ab352fd5302f9e06adc0dfedc8544b7f02b991a38ff0950e4
-    GUI-Name: "Mu\xf1eco de Nieve"
+    GUI-Name: Muñeco de Nieve
     Enabled: true
     Lore:
     - ''
     - '&fIngresa al menu donde se encuentran'
-    - "&ftodos los tipos de Mu\xf1ecos de Nieve."
+    - '&ftodos los tipos de Muñecos de Nieve.'
     Types:
       Snowman:
-        Name: "&b&lMu\xf1eco de Nieve"
+        Name: '&b&lMuñeco de Nieve'
         Material: SNOWBALL
         Mystery Dust: 52
         Rarity: Epic
         Enabled: true
         CanBeFound: true
         Purchasable: true
-        Default-Pet-Name: "&eMu\xf1eco de Nieve"
+        Default-Pet-Name: '&eMuñeco de Nieve'
         Move-Speed: 0.6
         Ride-Speed: 0.4
         Pet-Item-Interest:
@@ -739,7 +739,7 @@ Pets:
           - Stick
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
   Rabbit:
     Name: '&b&lConejos'
     Material: RABBIT_SPAWN_EGG
@@ -776,7 +776,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Black Rabbit:
         Name: '&b&lConejo Negro &7(Bebe)'
         Material: CARROT
@@ -803,7 +803,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Black & White Rabbit:
         Name: '&b&lConejo Blanco y Negro'
         Material: head:cb8cff4b15b8ca37e25750f345718f289cb22c5b3ad22627a71223faccc
@@ -830,7 +830,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Black & White Rabbit:
         Name: '&b&lConejo Blanco y Negro &7(Bebe)'
         Material: CARROT
@@ -857,7 +857,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Brown Rabbit:
         Name: '&b&lConejo Cafe'
         Material: head:7d1169b2694a6aba826360992365bcda5a10c89a3aa2b48c438531dd8685c3a7
@@ -884,7 +884,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Brown Rabbit:
         Name: '&b&lConejo Cafe &7(Baby)'
         Material: CARROT
@@ -911,7 +911,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Gold Rabbit:
         Name: '&b&lConejo Dorado'
         Material: head:c977a3266bf3b9eaf17e5a02ea5fbb46801159863dd288b93e6c12c9cb
@@ -938,7 +938,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Gold Rabbit:
         Name: '&b&lConejo Dorado &7(Baby)'
         Material: CARROT
@@ -965,7 +965,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Salt & Pepper Rabbit:
         Name: '&b&lConejo Pimienta'
         Material: head:dc29aebe803e5d4dc3b010c9dd56444f863b2d86a6a2afd4a6a721748ba4fa
@@ -992,7 +992,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Salt & Pepper Rabbit:
         Name: '&b&lConejo Pimienta &7(Bebe)'
         Material: CARROT
@@ -1019,7 +1019,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       White Rabbit:
         Name: '&b&lConejo Blanco'
         Material: head:374d8298797e712bb1f75ad6ffa7734ac4237ea69be1db92f0e41115a2c170cf
@@ -1046,7 +1046,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby White Rabbit:
         Name: '&b&LConejo Blanco &7(Bebe)'
         Material: CARROT
@@ -1073,7 +1073,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
   Villager:
     Name: '&b&lAldeanos'
     Material: VILLAGER_SPAWN_EGG
@@ -1110,7 +1110,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Blacksmith Villager:
         Name: '&b&lHerrero &7(Bebe)'
         Material: IRON_INGOT
@@ -1137,7 +1137,7 @@ Pets:
           - Feather
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Butcher Villager:
         Name: '&b&lCarnicero'
         Material: IRON_AXE
@@ -1164,7 +1164,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Butcher Villager:
         Name: '&b&lCarnicero &7(Bebe)'
         Material: WOODEN_AXE
@@ -1191,7 +1191,7 @@ Pets:
           - Feather
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Farmer Villager:
         Name: '&b&lGranjero'
         Material: IRON_HOE
@@ -1218,7 +1218,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Farmer Villager:
         Name: '&b&lGranjero &7(Bebe)'
         Material: WOODEN_HOE
@@ -1245,7 +1245,7 @@ Pets:
           - Feather
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Librarian Villager:
         Name: '&b&lLibrero'
         Material: BOOKSHELF
@@ -1272,7 +1272,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Librarian Villager:
         Name: '&b&lLibrero (Bebe)'
         Material: BOOK
@@ -1299,7 +1299,7 @@ Pets:
           - Feather
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Priest Villager:
         Name: '&b&lSacerdote'
         Material: WRITABLE_BOOK
@@ -1326,7 +1326,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Priest Villager:
         Name: '&b&lSacerdote &7(Bebe)'
         Material: MAP
@@ -1353,7 +1353,7 @@ Pets:
           - Feather
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Zombie Villager:
         Name: '&b&lZombie'
         Material: GOLDEN_APPLE
@@ -1380,7 +1380,7 @@ Pets:
           - Stick
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Zombie Villager:
         Name: '&b&lZombie &7(Bebe)'
         Material: GOLDEN_HELMET
@@ -1407,7 +1407,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Witch:
         Name: '&b&lBruja'
         Material: POTION:8196
@@ -1434,7 +1434,7 @@ Pets:
           - Stick
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Evoker:
         Name: '&b&lEvocador'
         Material: head:4f6fb89d1c631bd7e79fe185ba1a6705425f5c31a5ff626521e395d4a6f7e2
@@ -1461,7 +1461,7 @@ Pets:
           - Stick
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Vindicator:
         Name: '&b&lVindicador'
         Material: head:4f6fb89d1c631bd7e79fe185ba1a6705425f5c31a5ff626521e395d4a6f7e2
@@ -1488,7 +1488,7 @@ Pets:
           - Stick
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Illusioner:
         Name: '&b&lIlusionador'
         Material: head:1c678c9f4c6dd4d991930f82e6e7d8b89b2891f35cba48a4b18539bbe7ec927
@@ -1515,7 +1515,7 @@ Pets:
           - Stick
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
   Golem:
     Name: '&b&lGolems de Hierro'
     Material: head:89091d79ea0f59ef7ef94d7bba6e5f17f2f7d4572c44f90f76c4819a714
@@ -1552,7 +1552,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
   Enderman:
     Name: '&b&lEndermans'
     Material: ENDERMAN_SPAWN_EGG
@@ -1596,7 +1596,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
   Blaze:
     Name: '&b&lBlazes'
     Material: BLAZE_SPAWN_EGG
@@ -1633,7 +1633,7 @@ Pets:
           - Stick
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
   Endermite:
     Name: '&b&lEndermites'
     Material: ENDERMITE_SPAWN_EGG
@@ -1670,7 +1670,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
   Cow:
     Name: '&b&lVacas'
     Material: COW_SPAWN_EGG
@@ -1708,7 +1708,7 @@ Pets:
           - Feather
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &e&lCOMUN"
+        - '&8&l» &fRareza: &e&lCOMUN'
       Baby Cow:
         Name: '&b&lVaca &7(Bebe)'
         Material: WHEAT
@@ -1736,7 +1736,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       Mushroom Cow:
         Name: '&b&lVaca &7(Mushroom&7)'
         Material: RED_MUSHROOM
@@ -1763,7 +1763,7 @@ Pets:
           - Feather
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Mushroom Cow:
         Name: '&b&lVaca Bebe &7(Mushroom)'
         Material: BROWN_MUSHROOM
@@ -1790,7 +1790,7 @@ Pets:
           - Feather
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
   Creeper:
     Name: '&b&lCreepers'
     Material: CREEPER_SPAWN_EGG
@@ -1827,7 +1827,7 @@ Pets:
           - Stick
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Powered Creeper:
         Name: '&b&LCreeper &7(Recargado)'
         Material: TNT
@@ -1854,7 +1854,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
   Horse:
     Name: '&b&lCaballos'
     Material: HORSE_SPAWN_EGG
@@ -1893,7 +1893,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Black Horse:
         Name: '&b&lCaballo Negro &7(Bebe)'
         Material: CHARCOAL
@@ -1922,7 +1922,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Brown Horse:
         Name: '&b&lCaballo Cafe'
         Material: BRICK
@@ -1951,7 +1951,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Brown Horse:
         Name: '&b&lCaballo Cafe &7(Bebe)'
         Material: COCOA_BEANS
@@ -1980,16 +1980,16 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Chestnut Horse:
-        Name: "&b&lCasta\xf1o"
+        Name: '&b&lCastaño'
         Material: MELON_SEEDS
         Mystery Dust: 25
         Rarity: Rare
         Enabled: true
         CanBeFound: true
         Purchasable: true
-        Default-Pet-Name: "&eCasta\xf1o"
+        Default-Pet-Name: '&eCastaño'
         Move-Speed: 0.7
         Ride-Speed: 0.45
         Pet-Item-Interest:
@@ -2009,16 +2009,16 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Chestnut Horse:
-        Name: "&b&lCasta\xf1o &7(Bebe)"
+        Name: '&b&lCastaño &7(Bebe)'
         Material: PUMPKIN_SEEDS
         Mystery Dust: 55
         Rarity: Epic
         Enabled: true
         CanBeFound: true
         Purchasable: true
-        Default-Pet-Name: "&eCasta\xf1o (Bebe)"
+        Default-Pet-Name: '&eCastaño (Bebe)'
         Move-Speed: 0.6
         Ride-Speed: 0.4
         Pet-Item-Interest:
@@ -2038,7 +2038,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Creamy Horse:
         Name: '&b&lCremoso'
         Material: MILK_BUCKET
@@ -2067,7 +2067,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Creamy Horse:
         Name: '&b&lCremoso &7(Bebe)'
         Material: SUGAR
@@ -2096,7 +2096,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Dark Brown Horse:
         Name: '&b&lCafe Oscuro'
         Material: DARK_OAK_LOG
@@ -2125,7 +2125,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Dark Brown Horse:
         Name: '&b&lCafe Oscuro &7(Bebe)'
         Material: DARK_OAK_PLANKS
@@ -2154,7 +2154,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Gray Horse:
         Name: '&b&lGris'
         Material: APPLE
@@ -2183,7 +2183,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Gray Horse:
         Name: '&b&lGris &7(Bebe)'
         Material: GRAY_DYE
@@ -2212,7 +2212,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       White Horse:
         Name: '&b&lBlanco'
         Material: QUARTZ_BLOCK
@@ -2241,7 +2241,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby White Horse:
         Name: '&b&lBlanco (Bebe)'
         Material: DIORITE
@@ -2270,7 +2270,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Donkey:
         Name: '&b&lBurro'
         Material: LEATHER
@@ -2299,7 +2299,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Donkey:
         Name: '&b&lBurro &7(Bebe)'
         Material: CARROT
@@ -2328,7 +2328,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Mule:
         Name: '&b&lMula'
         Material: COOKED_MUTTON
@@ -2357,7 +2357,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Mule:
         Name: '&b&lMula &7(Bebe)'
         Material: MUTTON
@@ -2386,7 +2386,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Skeleton Horse:
         Name: '&b&lCaballo Esqueleto'
         Material: BONE
@@ -2413,7 +2413,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Skeleton Horse:
         Name: '&b&lCaballo Esqueleto &7(Bebe)'
         Material: BONE_MEAL
@@ -2440,7 +2440,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Undead Horse:
         Name: '&b&lCaballo Zombie'
         Material: DARK_OAK_SAPLING
@@ -2467,7 +2467,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Undead Horse:
         Name: '&b&lCaballo Zombie &7(Bebe)'
         Material: DEAD_BUSH
@@ -2494,7 +2494,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
   Pig:
     Name: '&b&lCerdos'
     Material: PIG_SPAWN_EGG
@@ -2533,7 +2533,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &e&lCOMUN"
+        - '&8&l» &fRareza: &e&lCOMUN'
       Baby Pig:
         Name: '&b&lCerdo &7(Bebe)'
         Material: CARROT
@@ -2563,7 +2563,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &9&lRARO"
+        - '&8&l» &fRareza: &9&lRARO'
       Pig Zombie:
         Name: '&b&lCerdo &7(Zombie)'
         Material: GOLD_INGOT
@@ -2590,7 +2590,7 @@ Pets:
           - Sparring Sword
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Pig Zombie:
         Name: '&b&LCerdo Bebe &7(Zombie)'
         Material: GOLD_NUGGET
@@ -2617,7 +2617,7 @@ Pets:
           - Stick
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
   Sheep:
     Name: '&b&lOvejas'
     Material: SHEEP_SPAWN_EGG
@@ -2658,7 +2658,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Baby Black Sheep:
         Name: '&b&lOveja Negra &7(Bebe)'
         Material: BLACK_WOOL
@@ -2689,7 +2689,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Blue Sheep:
         Name: '&b&lOveja Azul'
         Material: BLUE_TERRACOTTA
@@ -2720,7 +2720,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Baby Blue Sheep:
         Name: '&b&lOveja Azul &7(Bebe)'
         Material: BLUE_WOOL
@@ -2751,7 +2751,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Brown Sheep:
         Name: '&b&lOveja Cafe'
         Material: BROWN_TERRACOTTA
@@ -2782,7 +2782,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Baby Brown Sheep:
         Name: '&b&lOveja Cafe &7(Bebe)'
         Material: BROWN_WOOL
@@ -2813,7 +2813,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Cyan Sheep:
         Name: '&b&lOveja Cyan'
         Material: CYAN_TERRACOTTA
@@ -2844,7 +2844,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Baby Cyan Sheep:
         Name: '&b&lOveja Cyan &7(Bebe)'
         Material: CYAN_WOOL
@@ -2875,7 +2875,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Gray Sheep:
         Name: '&b&lOveja Gris'
         Material: GRAY_TERRACOTTA
@@ -2906,7 +2906,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Baby Gray Sheep:
         Name: '&b&lOveja Gris &7(Bebe)'
         Material: GRAY_WOOL
@@ -2937,7 +2937,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Green Sheep:
         Name: '&b&lOveja Verde'
         Material: GREEN_TERRACOTTA
@@ -2968,7 +2968,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Baby Green Sheep:
         Name: '&b&lOveja Verde &7(Bebe)'
         Material: GREEN_WOOL
@@ -2999,7 +2999,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Light Blue Sheep:
         Name: '&b&lOveja Celeste'
         Material: LIGHT_BLUE_TERRACOTTA
@@ -3030,7 +3030,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Baby Light Blue Sheep:
         Name: '&b&lOveja Celeste &7(Bebe)'
         Material: LIGHT_BLUE_WOOL
@@ -3061,7 +3061,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Lime Sheep:
         Name: '&b&lOveja Lima'
         Material: LIME_TERRACOTTA
@@ -3092,7 +3092,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Baby Lime Sheep:
         Name: '&b&lOveja Lima &7(Bebe)'
         Material: LIME_WOOL
@@ -3123,7 +3123,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Magenta Sheep:
         Name: '&b&lOveja Magneta'
         Material: MAGENTA_TERRACOTTA
@@ -3154,7 +3154,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Baby Magenta Sheep:
         Name: '&b&lOveja Magneta (Bebe)'
         Material: MAGENTA_WOOL
@@ -3185,7 +3185,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Orange Sheep:
         Name: '&b&lOveja Naranja'
         Material: ORANGE_TERRACOTTA
@@ -3216,7 +3216,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Baby Orange Sheep:
         Name: '&b&lOveja Naranja &7(Bebe)'
         Material: ORANGE_WOOL
@@ -3247,7 +3247,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Pink Sheep:
         Name: '&b&lOveja Rosa'
         Material: PINK_TERRACOTTA
@@ -3278,7 +3278,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Baby Pink Sheep:
         Name: '&b&lOveja Rosa &7(Bebe)'
         Material: PINK_WOOL
@@ -3309,7 +3309,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Purple Sheep:
         Name: '&b&lOveja Morada'
         Material: PURPLE_TERRACOTTA
@@ -3340,7 +3340,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Baby Purple Sheep:
         Name: '&b&lOveja Morada &7(Bebe)'
         Material: PURPLE_WOOL
@@ -3371,7 +3371,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Red Sheep:
         Name: '&b&lOveja Roja'
         Material: RED_TERRACOTTA
@@ -3402,7 +3402,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Baby Red Sheep:
         Name: '&b&lOveja Roja &7(Bebe)'
         Material: RED_WOOL
@@ -3433,7 +3433,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Silver Sheep:
         Name: '&b&lOveja Gris'
         Material: LIGHT_GRAY_TERRACOTTA
@@ -3464,7 +3464,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Baby Silver Sheep:
         Name: '&b&lOveja Gris &7(Bebe)'
         Material: LIGHT_GRAY_WOOL
@@ -3495,7 +3495,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       White Sheep:
         Name: '&b&lOveja Blanca'
         Material: WHITE_TERRACOTTA
@@ -3526,7 +3526,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Baby White Sheep:
         Name: '&b&lOveja Blanca &7(Bebe)'
         Material: WHITE_WOOL
@@ -3557,7 +3557,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Yellow Sheep:
         Name: '&b&LOveja Amarilla'
         Material: YELLOW_TERRACOTTA
@@ -3588,7 +3588,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Baby Yellow Sheep:
         Name: '&b&LOveja Amarilla &7(Bebe)'
         Material: YELLOW_WOOL
@@ -3619,7 +3619,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Rainbow Sheep:
         Name: '&b&lOveja Colorida'
         Material: EXPERIENCE_BOTTLE
@@ -3650,7 +3650,7 @@ Pets:
           - Leash
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
   Slime:
     Name: '&b&lSlimes'
     Material: SLIME_SPAWN_EGG
@@ -3687,7 +3687,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Small Slime:
         Name: '&b&lSlime &7(Normal)'
         Material: SLIME_BLOCK
@@ -3714,16 +3714,16 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Tiny Slime:
-        Name: "&b&lSlime &7(Peque\xf1o)"
+        Name: '&b&lSlime &7(Pequeño)'
         Material: SLIME_BALL
         Mystery Dust: 30
         Rarity: Rare
         Enabled: true
         CanBeFound: true
         Purchasable: true
-        Default-Pet-Name: "&eSlime &7(Peque\xf1o)"
+        Default-Pet-Name: '&eSlime &7(Pequeño)'
         Move-Speed: 0.7
         Ride-Speed: 0.45
         Pet-Item-Interest:
@@ -3741,7 +3741,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Big Magma Cube:
         Name: '&b&lMagma &7(Grande)'
         Material: MAGMA_CREAM
@@ -3781,7 +3781,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Small Magma Cube:
         Name: '&b&lMagma &7(Normal)'
         Material: BLAZE_POWDER
@@ -3821,16 +3821,16 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Tiny Magma Cube:
-        Name: "&b&lMagma &7(Peque\xf1o)"
+        Name: '&b&lMagma &7(Pequeño)'
         Material: LAVA_BUCKET
         Mystery Dust: 30
         Rarity: Rare
         Enabled: true
         CanBeFound: true
         Purchasable: true
-        Default-Pet-Name: "&eMagma &7(Peque\xf1o)"
+        Default-Pet-Name: '&eMagma &7(Pequeño)'
         Move-Speed: 0.7
         Ride-Speed: 0.45
         Pet-Item-Interest:
@@ -3861,7 +3861,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
   Skeleton:
     Name: '&b&lEsqueletos'
     Material: SKELETON_SPAWN_EGG
@@ -3898,7 +3898,7 @@ Pets:
           - Sparring Sword
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Wither Skeleton:
         Name: '&b&lEsqueleto Wither'
         Material: STONE_SWORD
@@ -3925,7 +3925,7 @@ Pets:
           - Sparring Sword
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Stray Skeleton:
         Name: '&b&lEsqueleto Callejero'
         Material: head:78ddf76e555dd5c4aa8a0a5fc584520cd63d489c253de969f7f22f85a9a2d56
@@ -3952,7 +3952,7 @@ Pets:
           - Sparring Sword
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
   Squid:
     Name: '&b&lCalamares'
     Material: SQUID_SPAWN_EGG
@@ -3990,7 +3990,7 @@ Pets:
           - Frisbee
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
   Polar Bear:
     Name: '&b&lOsos Polares'
     Material: head:bab178f5cdd750f0e356860aa5539153eb2abec1e146ca57c65d25a5df8fdfe
@@ -4027,7 +4027,7 @@ Pets:
           - Stick
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Polar Bear:
         Name: '&b&lOso Polar &7(Bebe)'
         Material: head:bab178f5cdd750f0e356860aa5539153eb2abec1e146ca57c65d25a5df8fdfe
@@ -4054,7 +4054,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
   Llama:
     Name: '&b&lLlamas'
     Material: head:83d9b5915912ffc2b85761d6adcb428a812f9b83ff634e331162ce46c99e9
@@ -4090,8 +4090,8 @@ Pets:
           - Water
           - Stick
         Lore:
-          - '&f'
-          - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&f'
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Brown Llama:
         Name: '&b&lLlama Cafe &7(Bebe)'
         Material: head:c2b1ecff77ffe3b503c30a548eb23a1a08fa26fd67cdff389855d74921368
@@ -4117,8 +4117,8 @@ Pets:
           - Milk
           - Ball
         Lore:
-          - '&f'
-          - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&f'
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Creamy Llama:
         Name: '&b&lLlama Cremosa'
         Material: head:80899acfebf947a0effc4022deb080543f7e389116bd4964c2c227ffa34a3375
@@ -4144,8 +4144,8 @@ Pets:
           - Water
           - Stick
         Lore:
-          - '&f'
-          - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&f'
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Creamy Llama:
         Name: '&b&lLlama Cremosa &7(Bebe)'
         Material: head:80899acfebf947a0effc4022deb080543f7e389116bd4964c2c227ffa34a3375
@@ -4171,8 +4171,8 @@ Pets:
           - Milk
           - Ball
         Lore:
-          - '&f'
-          - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&f'
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       Gray Llama:
         Name: '&b&lLlama Gris'
         Material: head:cf24e56fd9ffd7133da6d1f3e2f455952b1da462686f753c597ee82299a
@@ -4198,8 +4198,8 @@ Pets:
           - Water
           - Stick
         Lore:
-          - '&f'
-          - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&f'
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Gray Llama:
         Name: '&b&lLlama Gris &7(Bebe)'
         Material: head:cf24e56fd9ffd7133da6d1f3e2f455952b1da462686f753c597ee82299a
@@ -4226,7 +4226,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
       White Llama:
         Name: '&b&lLlama Blanca'
         Material: head:83d9b5915912ffc2b85761d6adcb428a812f9b83ff634e331162ce46c99e9
@@ -4253,7 +4253,7 @@ Pets:
           - Stick
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby White Llama:
         Name: '&b&lLlama Blanca &7(Bebe)'
         Material: head:83d9b5915912ffc2b85761d6adcb428a812f9b83ff634e331162ce46c99e9
@@ -4280,7 +4280,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
   Panda:
     Name: '&6Panda'
     Material: head:dca096eea506301bea6d4b17ee1605625a6f5082c71f74a639cc940439f47166
@@ -4874,7 +4874,7 @@ Pets:
           - Stick
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Turtle:
         Name: '&b&lTortuga &7(Bebe)'
         Material: TURTLE_EGG
@@ -4903,7 +4903,7 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
   Fox:
     Name: '&6Fox'
     Material: head:d8954a42e69e0881ae6d24d4281459c144a0d5a968aed35d6d3d73a3c65d26a
@@ -5103,7 +5103,7 @@ Pets:
           - Stick
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &5&lEPICO"
+        - '&8&l» &fRareza: &5&lEPICO'
       Baby Goat:
         Name: '&b&lCabra &7(Bebe)'
         Material: WHEAT
@@ -5132,4 +5132,4 @@ Pets:
           - Ball
         Lore:
         - '&f'
-        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+        - '&8&l» &fRareza: &d&lLEGENDARIO'

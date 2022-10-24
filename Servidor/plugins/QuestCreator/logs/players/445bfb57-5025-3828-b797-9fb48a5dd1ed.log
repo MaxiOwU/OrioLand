@@ -1,0 +1,101 @@
+[16/10 13:09:49] [info] Obethsito | connected
+[16/10 13:09:49] [info] Obethsito | fetched user data : no value ; created it
+[16/10 13:09:49] [info] Obethsito | pushing user 445bfb57-5025-3828-b797-9fb48a5dd1ed, active quests : 
+[16/10 13:09:49] [info] Obethsito | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 13:09:49] [info] Obethsito | fetched user quests : 
+[16/10 13:12:26] [info] Obethsito | disposing user quests data : 
+- must dispose quests
+[16/10 13:12:26] [info] Obethsito | disposed user data
+[16/10 13:12:26] [info] Obethsito | disconnected
+[16/10 13:13:53] [info] Obethsito | connected
+[16/10 13:13:53] [info] Obethsito | fetched user data : active quests 
+[16/10 13:13:53] [info] Obethsito | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 13:13:53] [info] Obethsito | fetched user quests : 
+[16/10 13:20:27] [info] Obethsito | disposing user quests data : 
+- must dispose quests
+[16/10 13:20:27] [info] Obethsito | disposed user data
+[16/10 13:20:27] [info] Obethsito | disconnected
+[16/10 13:22:37] [info] Obethsito | connected
+[16/10 13:22:37] [info] Obethsito | fetched user data : active quests 
+[16/10 13:22:37] [info] Obethsito | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 13:22:37] [info] Obethsito | fetched user quests : 
+[16/10 14:13:35] [info] Obethsito | disposing user quests data : 
+- must dispose quests
+[16/10 14:13:35] [info] Obethsito | disposed user data
+[16/10 14:13:35] [info] Obethsito | disconnected
+[16/10 16:04:36] [info] Obethsito | connected
+[16/10 16:04:36] [info] Obethsito | fetched user data : active quests 
+[16/10 16:04:36] [info] Obethsito | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 16:04:36] [info] Obethsito | fetched user quests : 
+[16/10 17:12:47] [info] Obethsito | disposing user quests data : 
+- must dispose quests
+[16/10 17:12:47] [info] Obethsito | disposed user data
+[16/10 17:12:47] [info] Obethsito | disconnected
+[16/10 17:14:03] [info] Obethsito | connected
+[16/10 17:14:03] [info] Obethsito | fetched user data : active quests 
+[16/10 17:14:03] [info] Obethsito | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 17:14:03] [info] Obethsito | fetched user quests : 
+[16/10 17:23:37] [info] Obethsito | disposing user quests data : 
+- must dispose quests
+[16/10 17:23:37] [info] Obethsito | disposed user data
+[16/10 17:23:37] [info] Obethsito | disconnected
+[16/10 17:24:59] [info] Obethsito | connected
+[16/10 17:24:59] [info] Obethsito | fetched user data : active quests 
+[16/10 17:24:59] [info] Obethsito | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 17:24:59] [info] Obethsito | fetched user quests : 
+[16/10 17:53:08] [info] Obethsito | disposing user quests data : 
+- must dispose quests
+[16/10 17:53:08] [info] Obethsito | disposed user data
+[16/10 17:53:08] [info] Obethsito | disconnected
+[16/10 21:36:10] [info] Obethsito | connected
+[16/10 21:36:11] [info] Obethsito | fetched user data : active quests 
+[16/10 21:36:11] [info] Obethsito | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 21:36:11] [info] Obethsito | fetched user quests : 
+[16/10 21:36:13] [info] Obethsito | disposing user quests data : 
+- must dispose quests
+[16/10 21:36:13] [info] Obethsito | disposed user data
+[16/10 21:36:13] [info] Obethsito | disconnected
+[21/10 15:16:56] [info] Obethsito | connected
+[21/10 15:16:56] [info] Obethsito | fetched user data : active quests 
+[21/10 15:16:56] [info] Obethsito | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[21/10 15:16:56] [info] Obethsito | fetched user quests : 
+[21/10 15:40:51] [info] Obethsito | disposing user quests data : 
+- must dispose quests
+[21/10 15:40:51] [info] Obethsito | disposed user data
+[21/10 15:40:51] [info] Obethsito | disconnected
+[21/10 16:42:33] [info] Obethsito | connected
+[21/10 16:42:33] [info] Obethsito | fetched user data : active quests 
+[21/10 16:42:33] [info] Obethsito | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[21/10 16:42:33] [info] Obethsito | fetched user quests : 
+[21/10 16:48:08] [info] Obethsito | disposing user quests data : 
+- must dispose quests
+[21/10 16:48:08] [info] Obethsito | disposed user data
+[21/10 16:48:08] [info] Obethsito | disconnected
+[21/10 20:05:02] [info] Obethsito | connected
+[21/10 20:05:02] [info] Obethsito | fetched user data : active quests 
+[21/10 20:05:02] [info] Obethsito | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[21/10 20:05:02] [info] Obethsito | fetched user quests : 
+[21/10 20:07:24] [info] Obethsito | disposing user quests data : 
+- must dispose quests
+[21/10 20:07:24] [info] Obethsito | disposed user data
+[21/10 20:07:24] [info] Obethsito | disconnected

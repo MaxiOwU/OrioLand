@@ -1,0 +1,11 @@
+[16/10 18:48:51] [info] lovecraft9 | connected
+[16/10 18:48:51] [info] lovecraft9 | fetched user data : no value ; created it
+[16/10 18:48:51] [info] lovecraft9 | pushing user 006aa59f-3726-33f9-8a40-ab08dd96b2cf, active quests : 
+[16/10 18:48:51] [info] lovecraft9 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 18:48:51] [info] lovecraft9 | fetched user quests : 
+[16/10 18:51:01] [info] lovecraft9 | disposing user quests data : 
+- must dispose quests
+[16/10 18:51:01] [info] lovecraft9 | disposed user data
+[16/10 18:51:01] [info] lovecraft9 | disconnected

@@ -1,0 +1,596 @@
+# Translation by zemoz
+
+# -------------------- Commands --------------------
+
+commandParameterUsageModel: zadanie
+commandParameterUsageBranch: odnoga
+commandParameterUsageObject: obiekt
+commandParameterUsageGUI: gui
+commandParameterUsagePool: pula
+commandParameterUsageState: stan
+commandParameterUsagePointsCategory: kategoria
+commandParameterUsageVariable: zmienna
+
+commandDescriptionQuestcreator: główna komenda QuestCreatora
+commandDescriptionQuestcreatorActionbar: przełącz actionbar zadania
+commandDescriptionQuestcreatorBossbar: przełącz bossbar zadania
+commandDescriptionQuestcreatorComplete: oznacz zadanie jako ukończone
+commandDescriptionQuestcreatorCompletebranch: oznacz aktualną odnogę jako ukończoną
+commandDescriptionQuestcreatorCoop: zarządzaj zadaniami kooperacyjnymi
+commandDescriptionQuestcreatorGoto: aktualizuj zadanie
+commandDescriptionQuestcreatorGPS: przełącz GPS dla zadania
+commandDescriptionQuestcreatorEdit: edytuj w grze
+commandDescriptionQuestcreatorJournal: zarządzaj dziennikiem zadań
+commandDescriptionQuestcreatorList: wylistuj zadania
+commandDescriptionQuestcreatorLogspam: przełącz spamowanie logami debugującymi
+commandDescriptionQuestcreatorPoints: zarządzaj punktami zadań
+commandDescriptionQuestcreatorMenu: otwórz menu
+commandDescriptionQuestcreatorPerformglobalbranch: wykonaj wszystkie obiekty z globalnej odnogi
+commandDescriptionQuestcreatorPerformglobalobject: wykonaj globalny obiekt
+commandDescriptionQuestcreatorProgress: sprawdź postęp zadania
+commandDescriptionQuestcreatorQueue: sprawdź stan kolejki
+commandDescriptionQuestcreatorStop: zatrzymaj zadanie
+commandDescriptionQuestcreatorStart: rozpocznij zadanie
+commandDescriptionQuestcreatorState: ustaw stan
+commandDescriptionQuestcreatorReset: zresetuj zadanie
+commandDescriptionQuestcreatorResetpool: zresetuj pulę
+commandDescriptionQuestcreatorScoreboard: przełącz scoreboard dla zadania
+commandDescriptionQuestcreatorSetpooltokens: ustaw tokeny puli
+commandDescriptionQuestcreatorTitle: przełącz tytuł zadania
+commandDescriptionQuestcreatorVariable: zarządzaj zmiennymi
+
+messageCommandInvalidModel: |
+  &7Model zadania &c{value} &7jest niepoprawny dla argumentu &c{argument}&7.
+
+messageCommandInvalidBranch: |
+  &7Odnoga zadania &c{value} &7jest niepoprawna dla argumentu &c{argument}&7.
+
+messageCommandInvalidQuestObject: |
+  &7Obiekt zadania &c{value} &7jest niepoprawny dla argumentu &c{argument}&7.
+
+messageCommandQuestcreatorBungeePlayerIsntOffline: |
+  &7Wygląda na to że ten gracz jest połączony z innym serwerem. Dołącz najpier do tego serwera.
+
+messageCommandQuestcreatorActionbarToggleOn: |
+  &7Twój actionbar z zadaniem został &awłączony&7.
+
+messageCommandQuestcreatorActionbarToggleOff: |
+  &7Twój actionbar z zadaniem został &cwyłączony&7.
+
+messageCommandQuestcreatorBossbarToggleOn: |
+  &7Twój bossbar z zadaniem został &awłączony&7.
+
+messageCommandQuestcreatorBossbarToggleOff: |
+  &7Twój bossbar z zadaniem został &cwyłączony&7.
+
+messageCommandQuestcreatorCoopNotInvited: |
+  &7Nie masz żadnych oczekujących zaproszeń do zadania kooperacyjnego. Aby utowrzyć zadanie kooperacyjne, po prostu je rozpocznij i zobaczysz więcej opcji!
+
+messageCommandQuestcreatorCoopLeaveEmpty: |
+  &7Nie ma zadania które mógłbyś opuścić.
+
+messageCommandQuestcreatorCoopLeaveCouldnt: |
+  &7Nie można opuścić zadania : &c{quest}&7.
+
+messageCommandQuestcreatorCoopLeaveLeft: |
+  &7Opuściłeś zadanie : &a{quest}&7.
+
+messageCommandQuestcreatorComplete: |
+  &7Twoje zadanie jest teraz oznaczone jako ukończone &a{amount} razy&7: &a{quest}&7.
+
+messageCommandQuestcreatorCompleteBranch: |
+  &7Ukończyłeś aktualny cel odnogi &a{branch} &7w zadaniu &a{quest}&7.
+
+messageCommandQuestcreatorCompleteBranchNoQuest: |
+  &7To zadanie nie jest aktywne.
+
+messageCommandQuestcreatorGoto: |
+  &7W twoim zadaniu wprowadzono zmianyy: &a{quest}&7.
+
+messageCommandQuestcreatorGotoNoQuest: |
+  &7To zadanie nie jest aktywne.
+
+messageCommandQuestcreatorGPSToggleOn: |
+  &7GPS dla zadania został &awłączony&7.
+
+messageCommandQuestcreatorGPSToggleOff: |
+  &7GPS dla zadania został &cwyłączony&7.
+
+messageCommandQuestcreatorJournalToggleOn: |
+  &7Dziennik zadań został &awłączony&7.
+
+messageCommandQuestcreatorJournalToggleOff: |
+  &7Dziennik zadań został &cwyłączony&7.
+
+messageCommandQuestcreatorListEmpty: |
+  &7Brak zadań.
+
+messageCommandQuestcreatorListHeader: |
+  &2Zadania:
+
+messageCommandQuestcreatorListElement: |
+  &7- {id} : {name}
+
+messageCommandQuestcreatorLogspamToggleOn: |
+  &7Spam logami dla &a{player} &7został &awłączony&7.
+
+messageCommandQuestcreatorLogspamToggleOff: |
+  &7Spam logami dla &c{player} &7został &cwyłączony&7.
+
+messageCommandQuestcreatorRunglobalbranchUnknown: |
+  &7Nieznana globalna odnoga &c{branch}&7.
+
+messageCommandQuestcreatorRunglobalobjectUnknown: |
+  &7Nieznany globalny obiekt &c{object}&7.
+
+messageCommandQuestcreatorPoints: |
+  &7Masz &a{points} punktów zadań &7w kategorii &a{category}&7.
+
+messageCommandQuestcreatorPointsOperate: |
+  &7Twoje punkty zadań zostały ustawione na &a{amount} &7w kategorii &a{category}&7.
+
+messageCommandQuestcreatorProgressEmpty: |
+  &7Brak aktywnego zadania.
+
+messageCommandQuestcreatorProgressOnlineElement: |
+  &7&m          &r &7{id} : {name} &7&m          &r
+  &7Lider : &a{leader}
+  &7Grupa : &a{coop}
+  &7Przyczyna rozpoczęcia : &a{start_cause}
+  &7Uptime : &a{uptime}
+  &7Scieżka : &a{path}
+  &7Punkt kontrolny : &a{checkpoint}
+  {branches}
+
+messageCommandQuestcreatorProgressOnlineElementBranch: |
+  &7- Odnoga &a{branch}&7, obiekt &a{object}
+  {progression}
+
+messageCommandQuestcreatorProgressOnlineElementProgression: |
+  &7  > &a{object}&7/&a{part} &7: &a{progression}&7/&a{goal}
+
+messageCommandQuestcreatorQueueNone: |
+  &7Nie jesteś w kolejce do zadania.
+
+messageCommandQuestcreatorQueueActive: |
+  &7Jesteś w kolejce do: &e{quest} &7(gracze : &e{players}&7).
+  &7Pozycja: &e{position}&7/&e{max}
+
+messageCommandQuestcreatorQueueActiveError: |
+  &7Jesteś w kolejce do: &e{quest} &7(gracze : &e{players}&7).
+  &7Pozycja: &e{position}&7/&e{max}
+  &cRozwiąż następujące problemy przed dotarciem na 1 miejsce: {error}
+
+messageCommandQuestcreatorResetEmpty: |
+  &7Nie ma zadania do zresetowania.
+
+messageCommandQuestcreatorReset: |
+  &7Twoje zadanie zostało zresetowane: &a{quest}&7.
+
+messageCommandQuestcreatorResetpoolEmpty: |
+  &7Nie ma puli zadań do zresetowania.
+
+messageCommandQuestcreatorResetpool: |
+  &7Twoja pula zadań została zresetowana: &a{pool}&7.
+
+messageCommandQuestcreatorScoreboardToggleOn: |
+  &7Scoreboard dla zadani został &awłączony&7.
+
+messageCommandQuestcreatorScoreboardToggleOff: |
+  &7Scoreboard dla zadani został &cwyłączony&7.
+
+messageCommandQuestcreatorSetpooltokens: |
+  &7Masz teraz &a{amount} &7tokenów do zadania &a{quest}&7.
+
+messageCommandQuestcreatorStartCouldnt: |
+  &7Nie można rozpocząć zadania: &c{quest}&7.
+
+messageCommandQuestcreatorStartEmpty: |
+  &7Brak zadania do rozpoczęcia.
+
+messageCommandQuestcreatorStarted: |
+  &7Rozpoczęto zadanie: &a{quest}&7.
+
+messageCommandQuestcreatorState: |
+  &7Ustawiono stan &a{state}&7.
+
+messageCommandQuestcreatorStopEmpty: |
+  &7Nie ma zadania do zatrzymania.
+
+messageCommandQuestcreatorStopCouldnt: |
+  &7Nie można zatrzymać zadania: &c{quest}&7.
+
+messageCommandQuestcreatorStopped: |
+  &7Zadanie zostało zatrzymane: &a{quest}&7.
+
+messageCommandQuestcreatorTitleToggleOn: |
+  &7Wyświetlanie tytułów dla zadania zostało &awłączone&7.
+
+messageCommandQuestcreatorTitleToggleOff: |
+  &7Wyświetlanie tytułów dla zadania zostało &cwyłączone&7.
+
+messageCommandQuestcreatorVariable: |
+  &7Zmienna &a{variable} &7ma wartość &a{value}&7.
+
+messageCommandQuestcreatorVariableOperate: |
+  &7Zmienna &a{variable} &7została ustawiona na &a{value}&7.
+
+# -------------------- Quest --------------------
+
+messageQuestCancelInactive: |
+  &7Twoje zadanie &c{quest} &7było niekatywne przez &c{time}&7, więc zostało anulowane.
+
+# -------------------- Coop --------------------
+
+messageCoopCreateLeader: |
+  &7Utworzyłeś zadanie kooperacyjne: &a{quest}&7. [1/{max}]
+
+messageCoopCreateAlreadyCoop: |
+  &c{player} &7ma już grupę.
+
+messageCoopFull: |
+  &7W grupie &c{leader}&7 nie ma już więcej miejsca.
+
+messageCoopInvite: |
+  &7Wpisz na czacie kogo zaprosić, lub &c{cancel} &7aby anulować.
+
+messageCoopInviteAlreadyThereLeader: |
+  &a{player} &7jest już w twojej grupie albo jest zaproszony.
+
+messageCoopInvited: |
+  &a{leader} &7zaprosił cię do zadania kooperacyjnego: &a{quest}&7. Dołącz przy użyciu /quest coop.
+
+messageCoopInvitedLeader: |
+  &7Zaprosiłeś &a{player} &7do zadania kooperacyjnego.
+
+messageCoopNotInvited: |
+  &7&a{leader} &7musi zaprosić cię do swojego zadania.
+
+messageCoopNotInvitedLeader: |
+  &c{player} &7próbował dołączyć do twojego zadania ale nie ma zaproszenia.
+
+messageCoopJoin: |
+  &7Dołączyłeś do zadania gracza &a{leader}&7: &a{quest}&7. [{current}/{max}]
+
+messageCoopJoinOthers: |
+  &a{player} &7dołączył do zadania: &a{quest}&7. [{current}/{max}]
+
+messageCoopLeave: |
+  &7Opuściłeś zadanie gracza &c{leader}&7.
+
+messageCoopLeaveOthers: |
+  &c{player} &7opuściłe zadanie. [{current}/{max}]
+
+messageCoopDisband: |
+  &7Rozwiązałeś zadanie kooperacyjne: &c{quest}&7.
+
+messageCoopDisbandOthers: |
+  &c{leader} &7rozwiązał zadanie kooperacyjne: &c{quest}&7.
+
+messageCoopKickNotInLeader: |
+  &c{player} &7nie jest w twoim zadaniu ani nie został zaproszony.
+
+messageCoopKickInviteLeader: |
+  &7Zaproszenie dla &c{player} &7zostało usunięte.
+
+messageCoopKick: |
+  &7Zostałeś wyrzucony z zadania gracza &c{leader}&7: &c{quest}&7.
+
+messageCoopKickOthers: |
+  &c{player} &7został wyrzucony z zadania. [{current}/{max}]
+
+# -------------------- Queue --------------------
+
+messageQueueCreateAlreadyCoop: |
+  &c{player} &7jest już w kolejce do tego zadania.
+
+messageQueueCreateCantMultiple: |
+  &7Nie możesz być w kolejce do kilku zadań jednocześnie.
+
+messageQueueCouldntStartPosition: |
+  &cNie można rozpocząć zadania: &c{quest}&7. Zostałeś dodany do kolejki, twoja pozycja to &c{position}&7/&c{max}&7.
+
+messageQueuePosition: |
+  &7Jesteś na pozycji &a{position}&7/&a{max} &7w kolejce do zadania: &a{quest}&7.
+
+messageQueueStarted: |
+  &7Skończyłeś oczekiwania na zadanie: &a{quest}&7. Zadanie rozpoczyna się!
+
+messageQueueLeave: |
+  &7Opuściłeś kolejkę do zadania: &c{quest}&7.
+
+# -------------------- Preconditions --------------------
+
+messagePreconditionsError: |
+  &c{error}
+
+textPreconditionsErrorInvalidModelErrors: |
+  &7Model zadania jeste niepoprawny.
+  {errors}
+
+textPreconditionsErrorAloneUserNotLoader: |
+  &7Twoje dane użytkownika nie są załadowane.
+
+textPreconditionsErrorCoopUserNotLoader: |
+  &7Dane użytkownika &c{player}&7 nie są załadowane.
+
+textPreconditionsErrorQuestTooManyInstances: |
+  &7Aktualnie zbyt wielu graczy rozgrywa to zadanie.
+
+textPreconditionsErrorAlonePlayerAlreadyActive: |
+  &7To zadanie jest już aktywne.
+
+textPreconditionsErrorCoopPlayerAlreadyActive: |
+  &c{player} &7już podąża za tym zadaniem.
+
+textPreconditionsErrorAlonePlayerTooManyQuests: |
+  &7Podążasz już za maksymalną liczbą zadań.
+
+textPreconditionsErrorCoopPlayerTooManyQuests: |
+  &c{player} &7podąża już za maksymalną liczbą zadań.
+
+textPreconditionsErrorAlonePlayerMaxCompletions: |
+  &7Ukończyłeś już to zadanie.
+
+textPreconditionsErrorCoopPlayerMaxCompletions: |
+  &c{player} &7ukończył już to zadanie.
+
+textPreconditionsErrorAlonePlayerGroupTooManyQuests: |
+  &7Ta grupa podąża już za maksymalną liczbą zadań.
+
+textPreconditionsErrorCoopPlayerGroupTooManyQuests: |
+  &c{player} &7podąża już za maksymalną liczbą zadań z tą grupą.
+
+textPreconditionsErrorAlonePlayerGroupPreviousQuestNotCompleted: |
+  &7Nie ukończyłeś poprzedniego zadania z tej grupy zadań.
+
+textPreconditionsErrorCoopPlayerGroupPreviousQuestNotCompleted: |
+  &c{player} &7nie ukończył poprzedniego zadania z tej grupy zadań.
+
+textPreconditionsErrorAlonePlayerCooldown: |
+  &7Musisz poczekać &c{time} &7aby ponownie rozpocząć to zadanie.
+
+textPreconditionsErrorCoopPlayerCooldown: |
+  &c{player} &7musi odczekać &c{time} &7aby ponownie rozpocząć to zadanie.
+
+textPreconditionsErrorAlonePlayerNoTokens: |
+  &7Nie masz żadanych tokenów do tego zadania.
+
+textPreconditionsErrorCoopPlayerNoTokens: |
+  &c{player} &7nie ma żadanych tokenów do tego zadania.
+
+textPreconditionsErrorQuestCoopQuest: |
+  &cTo zadanie kooperacyjne.
+
+textPreconditionsErrorQuestNotCoopQuest: |
+  &cTo nie jest zadanie kooperacyjne.
+
+textPreconditionsErrorQuestNotEnoughPlayers: |
+  &7To zadanie wymaga przynajmniej &c{min} graczy&7.
+
+textPreconditionsErrorQuestTooManyPlayers: |
+  &7Tego zadanie nie można rozpocząć z powyżej &c{max} graczy&7.
+
+textPreconditionsErrorAlonePlayerNoPermission: |
+  &7Nie masz uprawnień do rozpoczęcia tego zadania.
+
+textPreconditionsErrorCoopPlayerNoPermission: |
+  &c{player} &7nie ma uprawenień do rozpoczęcia tego zadania.
+
+textPreconditionsErrorAlonePlayerDisallowedWorld: |
+  &7Jesteś w świecie wykluczonym z tego zadania.
+
+textPreconditionsErrorCoopPlayerDisallowedWorld: |
+  &c{player} &7jest w świecie wykluczonym z tego zadania.
+
+textPreconditionsErrorStartConditionsDontMatch: |
+  &7Warunki rozpoczęcia są niepoprawne.
+
+# -------------------- Detailed progression (verbose) --------------------
+
+textDetailedProgressionBranch: '&2&l{name}'
+textDetailedProgressionBranchNoName: []
+
+textDetailedProgressionObject: '&a> &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionObjectDistance: '&a> &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionObjectNoDetail: '&2> &7{name}'
+textDetailedProgressionObjectNoName: []
+
+textDetailedProgressionObjectDelegateHeader: '&a> &7{name}'
+textDetailedProgressionObjectDelegateHeaderNoName: []
+
+textDetailedProgressionObjectDelegate: '&a- &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionObjectDelegateCompleted: '&7&m- {name} &7({progression}/{goal}&7)'
+textDetailedProgressionObjectDelegateDistance: '&a- &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionObjectDelegateDistanceCompleted: '&7&m- {name} &7({distance}m&7)'
+textDetailedProgressionObjectDelegateNoDetail: '&a- &7{name}'
+textDetailedProgressionObjectDelegateNoDetailCompleted: '&7&m- {name}&7'
+textDetailedProgressionObjectDelegateNoName: []
+textDetailedProgressionObjectDelegateNoNameCompleted: []
+
+# -------------------- Detailed progression (scoreboard) --------------------
+
+textDetailedProgressionScoreboardBranch: '&2&l{name}'
+textDetailedProgressionScoreboardBranchNoName: []
+
+textDetailedProgressionScoreboardObject: '&a> &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionScoreboardObjectDistance: '&a> &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionScoreboardObjectNoDetail: '&2> &7{name}'
+textDetailedProgressionScoreboardObjectNoName: []
+
+textDetailedProgressionScoreboardObjectDelegateHeader: '&a> &7{name}'
+textDetailedProgressionScoreboardObjectDelegateHeaderNoName: []
+
+textDetailedProgressionScoreboardObjectDelegate: '&a- &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionScoreboardObjectDelegateCompleted: '&7&m- {name} &7({progression}/{goal}&7)'
+textDetailedProgressionScoreboardObjectDelegateDistance: '&a- &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionScoreboardObjectDelegateDistanceCompleted: '&7&m- {name} &7({distance}m&7)'
+textDetailedProgressionScoreboardObjectDelegateNoDetail: '&a- &7{name}'
+textDetailedProgressionScoreboardObjectDelegateNoDetailCompleted: '&7&m- {name}&7'
+textDetailedProgressionScoreboardObjectDelegateNoName: []
+textDetailedProgressionScoreboardObjectDelegateNoNameCompleted: []
+
+# -------------------- Detailed progression (PlaceholderAPI) --------------------
+
+textDetailedProgressionPlaceholderAPIObject: '&a> &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionPlaceholderAPIObjectDistance: '&a> &7{name} &7(&a{distance}m&7)'
+
+textDetailedProgressionPlaceholderAPIObjectNoDetail: '&2> &7{name}'
+textDetailedProgressionPlaceholderAPIObjectNoName: ''
+
+# -------------------- Journal --------------------
+
+textJournalEmpty: |
+  &7Twój dziennik zadań jest pusty.
+
+# -------------------- Diverge --------------------
+
+textDivergeLineSplit: '&r    '
+
+textDivergeSelect: |
+  &dKliknij aby wybrać
+
+textDivergeCantSelect: |
+  &7Nie masz wyboru w tym zadaniu
+
+textDivergeCantSelectUnavailable: |
+  &7Ten wybór nie jest dostępny
+
+textServerActionPromptNext: |
+  &dKliknij aby kontynuować
+
+# -------------------- Scoreboard --------------------
+
+textScoreboarOneQuestTitle: |
+  &7&m    &r &d&lZadanie &7&m    &r
+
+textScoreboardOneQuestContent: |
+  &r
+  &a{quest}
+  &r
+  {detailed_progression}
+  &r
+  &e&ohttp://guillaumevdn.com
+
+textScoreboardOneQuestContentNone: |
+  &r
+  &7Brak aktywnych zadań!
+  &r
+  &dguillaumevdn.com
+
+textScoreboardMultipleQuestTitle: |
+  &7&m    &r &d&lZadanie &7&m    &r
+
+textScoreboardMultipleQuestContent: |
+  {quests}
+  &r
+  &e&ohttp://guillaumevdn.com
+
+textScoreboardMultipleQuestContentQuest: |
+  &r
+  &a{quest}
+  &r
+  {detailed_progression}
+
+textScoreboardMultipleQuestContentNone: |
+  &r
+  &7Brak aktywnych zadań!
+  &r
+  &e&ohttp://guillaumevdn.com
+
+# -------------------- GUI --------------------
+
+guiDefaultActivatorName: |
+  &7Zadania
+
+guiQuestCoopPlayers: |
+  &r
+  &7Zadanie kooperacyjne z &b{players}
+  &7{leader}
+  &r
+
+guiQuestCoopLeader: |
+  &7Jesteś liderem.
+
+guiQuestCoopNotLeader: |
+  &7Liderem jest {leader}.
+
+guiQuestControls: |
+  &r
+  &d{controls}
+
+guiQuestControlsInfo: |
+  &dKliknij LPM po więcej inforamcji
+
+guiQuestControlsStart: |
+  &dKliknij PPM aby rozpocząć zadanie
+
+guiQuestControlsStartCoop: |
+  &dKliknij shift + PPM aby rozpocząć zadanie kooperacyjne
+
+guiQuestControlsPhysicalActivatorGUIStart: |
+  &dKliknij PPM aby rozpocząć zadanie
+
+guiQuestControlsPhysicalActivatorGUIStartCoop: |
+  &dKliknij shift + PPM aby rozpocząć zadanie kooperacyjne
+
+guiQuestControlsStop: |
+  &dKliknij PPM aby zatrzymać zadanie
+
+guiQuestControlsLeave: |
+  &dKliknij PPM aby opuścić zadanie kooperacyjne
+
+guiQuestDetailedProgression: |
+  &r
+  {detailed_progression}
+
+guiQuestDetailedErrors: |
+  &r
+  {detailed_errors}
+
+guiQuestCompletionCount: |
+  &r
+  &7Ukończyłeś to zadanie {count} razy
+
+guiQuestCompletionCountGoal: |
+  &r
+  &7Ukończyłeś to zadanie {count}/{max} razy
+
+guiQuestCooldown: |
+  &r
+  &7Odczekaj &a{time} &7przed ponownym rozpoczęciem zadania.
+
+guiQuestCooldownPool: |
+  &r
+  &7Nowe zadania będą obliczone za &a{time}&7.
+
+guiQuestCompleted: |
+  &7Data ukończenia: &a{date}&7.
+
+guiConfirmLoreStopQuest: |
+  &7Kliknij tutaj aby &czatrzymać to zadanie&7:
+  &c{quest}
+
+guiConfirmLoreLeaveCoopQuest: |
+  &7Kliknij tutaj aby &copuścić to zadanie&7:
+  &c{quest}
+
+guiConfirmLoreStartQuest: |
+  &7Kliknij tutaj aby &arozpocząć to zadanie&7:
+  &a{quest}
+
+guiConfirmLoreStartCoopQuest: |
+  &7Kliknij tutaj aby &arozpocząć to zadanie kooperacyjne&7:
+  &a{quest}
+
+guiConfirmLoreStartQuestAfterActivatorDialog: |
+  &7Zadanie: &a{quest}
+
+# -------------------- Integration --------------------
+
+integrationDynmapMarkerSetName: Zadania
+integrationHolographicDisplaysActivatorHologramStatusCount: '&a{count}'
+integrationHolographicDisplaysActivatorHologramNoStatusCount: '&c0'
+integrationHolographicDisplaysActivatorHologramStatusList: '&a{list}'
+integrationHolographicDisplaysActivatorHologramStatusListSeparator: '&7, &a'
+integrationHolographicDisplaysActivatorHologramNoStatusList: '&cnone'

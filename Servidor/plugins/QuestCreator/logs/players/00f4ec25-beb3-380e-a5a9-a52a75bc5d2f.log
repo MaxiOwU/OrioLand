@@ -1,0 +1,41 @@
+[20/10 18:07:38] [info] AmbuXD | connected
+[20/10 18:07:38] [info] AmbuXD | fetched user data : no value ; created it
+[20/10 18:07:38] [info] AmbuXD | pushing user 00f4ec25-beb3-380e-a5a9-a52a75bc5d2f, active quests : 
+[20/10 18:07:38] [info] AmbuXD | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[20/10 18:07:38] [info] AmbuXD | fetched user quests : 
+[20/10 20:19:32] [info] AmbuXD | disposing user quests data : 
+- must dispose quests
+[20/10 20:19:32] [info] AmbuXD | disposed user data
+[20/10 20:19:32] [info] AmbuXD | disconnected
+[21/10 19:15:57] [info] AmbuXD | connected
+[21/10 19:15:57] [info] AmbuXD | fetched user data : active quests 
+[21/10 19:15:57] [info] AmbuXD | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[21/10 19:15:57] [info] AmbuXD | fetched user quests : 
+[21/10 19:30:43] [info] AmbuXD | disposing user quests data : 
+- must dispose quests
+[21/10 19:30:43] [info] AmbuXD | disposed user data
+[21/10 19:30:43] [info] AmbuXD | disconnected
+[21/10 19:31:07] [info] AmbuXD | connected
+[21/10 19:31:07] [info] AmbuXD | fetched user data : active quests 
+[21/10 19:31:07] [info] AmbuXD | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[21/10 19:31:07] [info] AmbuXD | fetched user quests : 
+[21/10 20:03:14] [info] AmbuXD | disposing user quests data : 
+- must dispose quests
+[21/10 20:03:14] [info] AmbuXD | disposed user data
+[21/10 20:03:14] [info] AmbuXD | disconnected
+[22/10 13:39:14] [info] AmbuXD | connected
+[22/10 13:39:14] [info] AmbuXD | fetched user data : active quests 
+[22/10 13:39:14] [info] AmbuXD | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[22/10 13:39:14] [info] AmbuXD | fetched user quests : 
+[22/10 14:12:33] [info] AmbuXD | disposing user quests data : 
+- must dispose quests
+[22/10 14:12:33] [info] AmbuXD | disposed user data
+[22/10 14:12:33] [info] AmbuXD | disconnected

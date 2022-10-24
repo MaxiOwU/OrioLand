@@ -1,0 +1,18 @@
+[21/10 20:07:57] [info] Patata122 | quest Patata122/halloween | pushing quest halloween = c2f842c3-e73b-40ff-a55b-bf4f3efade02
+[21/10 20:07:57] [info] Patata122 | quest Patata122/halloween | started quest : cause ACTIVATOR_PHYSICAL
+[21/10 20:07:57] [info] Patata122 | quest Patata122/halloween/main | started branch
+[21/10 20:26:40] [info] - | quest Patata122/halloween | paused quest
+[21/10 20:26:40] [info] - | quest Patata122/halloween | pushing quest halloween = c2f842c3-e73b-40ff-a55b-bf4f3efade02
+[22/10 14:47:39] [info] Patata122 | quest Patata122/halloween | fetched quest
+[22/10 14:47:39] [info] Patata122 | quest Patata122/halloween | resumed quest
+[22/10 14:47:40] [info] Patata122 | quest Patata122/halloween | pushing quest halloween = c2f842c3-e73b-40ff-a55b-bf4f3efade02
+[22/10 15:04:24] [info] Patata122 | quest Patata122/halloween | goto QUEST_SUCCESS | applying goto
+[22/10 15:04:24] [info] Patata122 | quest Patata122/halloween | give rewards for group, debug : group rewards processing debug |
+model : halloween
+groups : 
+quest players : cd6b4f77-852c-3279-b089-08ee7beeb745
+- preparing to process player cd6b4f77-852c-3279-b089-08ee7beeb745
+-- processing player cd6b4f77-852c-3279-b089-08ee7beeb745, Patata122
+--- end type : SUCCESS
+--- groups here : 
+[22/10 15:04:24] [info] Patata122 | quest Patata122/halloween | stopped quest : cause GOTO

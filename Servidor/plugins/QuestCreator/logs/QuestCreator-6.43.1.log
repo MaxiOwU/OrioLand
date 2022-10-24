@@ -1,0 +1,1355 @@
+[16/10 10:03:40] [info] Initializing worker and caches
+[16/10 10:03:40] [info] Registering statistics
+[16/10 10:03:40] [info] Initializing tasks and listeners
+[16/10 10:13:31] [info] Disabled integration for PlaceholderAPI
+[16/10 10:13:31] [info] Disabled integration for Shopkeepers
+[16/10 10:13:31] [info] Disabled integration for Votifier
+[16/10 10:13:31] [info] Disabled integration for ProtocolLib
+[16/10 10:13:31] [info] Disabled integration for Jobs
+[16/10 10:13:31] [info] Disabled integration for MythicMobs
+[16/10 10:13:31] [info] Disabled integration for Citizens
+[16/10 10:13:32] [info] Initializing worker and caches
+[16/10 10:13:32] [info] Registering statistics
+[16/10 10:13:32] [info] Initializing tasks and listeners
+[16/10 10:13:32] [ERROR] Invalid value '0' in file §4quest_activators/npc_farmer.yml§r§c at path §4npcs§r§c
+[16/10 10:14:03] [ERROR] Invalid value '0' in file §4quest_activators/npc_farmer.yml§r§c at path §4npcs§r§c
+[16/10 10:14:34] [ERROR] Invalid value '0' in file §4quest_activators/npc_farmer.yml§r§c at path §4npcs§r§c
+[16/10 10:15:05] [ERROR] Invalid value '0' in file §4quest_activators/npc_farmer.yml§r§c at path §4npcs§r§c
+[16/10 10:15:35] [info] Disabled integration for PlaceholderAPI
+[16/10 10:15:35] [info] Disabled integration for Shopkeepers
+[16/10 10:15:35] [info] Disabled integration for Votifier
+[16/10 10:15:35] [info] Disabled integration for ProtocolLib
+[16/10 10:15:35] [info] Disabled integration for Jobs
+[16/10 10:15:35] [info] Disabled integration for MythicMobs
+[16/10 10:15:35] [info] Disabled integration for Citizens
+[16/10 10:15:35] [info] Initializing worker and caches
+[16/10 10:15:35] [info] Registering statistics
+[16/10 10:15:35] [info] Initializing tasks and listeners
+[16/10 10:19:04] [info] Disabled integration for PlaceholderAPI
+[16/10 10:19:04] [info] Disabled integration for Shopkeepers
+[16/10 10:19:04] [info] Disabled integration for Votifier
+[16/10 10:19:04] [info] Disabled integration for ProtocolLib
+[16/10 10:19:04] [info] Disabled integration for Jobs
+[16/10 10:19:04] [info] Disabled integration for MythicMobs
+[16/10 10:19:04] [info] Disabled integration for Citizens
+[16/10 10:19:05] [info] Initializing worker and caches
+[16/10 10:19:05] [info] Registering statistics
+[16/10 10:19:05] [info] Initializing tasks and listeners
+[16/10 10:19:05] [ERROR] Invalid value '0' in file §4quest_activators/npc_farmer.yml§r§c at path §4npcs§r§c
+[16/10 10:19:08] [ERROR] Invalid value '0' in file §4quest_activators/npc_farmer.yml§r§c at path §4npcs§r§c
+[16/10 10:19:08] [ERROR] Invalid value '0' in file §4quest_activators/npc_farmer.yml§r§c at path §4npcs§r§c
+[16/10 10:19:09] [ERROR] Invalid value '0' in file §4quest_activators/npc_farmer.yml§r§c at path §4npcs§r§c
+[16/10 10:19:33] [ERROR] Invalid value '0' in file §4quest_activators/npc_farmer.yml§r§c at path §4npcs§r§c
+[16/10 10:19:34] [info] Disabled integration for PlaceholderAPI
+[16/10 10:19:34] [info] Disabled integration for Shopkeepers
+[16/10 10:19:34] [info] Disabled integration for Votifier
+[16/10 10:19:34] [info] Disabled integration for ProtocolLib
+[16/10 10:19:34] [info] Disabled integration for Jobs
+[16/10 10:19:34] [info] Disabled integration for MythicMobs
+[16/10 10:19:34] [info] Disabled integration for Citizens
+[16/10 10:19:34] [info] Initializing worker and caches
+[16/10 10:19:34] [info] Registering statistics
+[16/10 10:19:34] [info] Initializing tasks and listeners
+[16/10 10:28:20] [ERROR] Invalid value '0' in file §4quest_models/example_npc_deliver.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[16/10 10:28:21] [ERROR] Invalid value '0' in file §4quest_models/example_npc_deliver.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[16/10 10:28:22] [ERROR] Invalid value '0' in file §4quest_models/example_npc_deliver.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[16/10 10:28:23] [ERROR] Invalid value '0' in file §4quest_models/example_npc_deliver.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[16/10 10:28:24] [ERROR] Invalid value '0' in file §4quest_models/example_npc_deliver.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[16/10 10:28:24] [ERROR] Invalid value '0' in file §4quest_models/example_npc_deliver.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[16/10 10:28:24] [ERROR] Invalid value '0' in file §4quest_models/example_npc_deliver.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[16/10 10:28:24] [ERROR] Invalid value '0' in file §4quest_models/example_npc_deliver.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[16/10 10:28:29] [ERROR] Invalid value '0' in file §4quest_models/example_npc_deliver.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[16/10 10:29:42] [info] Disabled integration for PlaceholderAPI
+[16/10 10:29:42] [info] Disabled integration for Shopkeepers
+[16/10 10:29:42] [info] Disabled integration for Votifier
+[16/10 10:29:42] [info] Disabled integration for ProtocolLib
+[16/10 10:29:42] [info] Disabled integration for Jobs
+[16/10 10:29:42] [info] Disabled integration for MythicMobs
+[16/10 10:29:42] [info] Disabled integration for Citizens
+[16/10 10:29:43] [info] Initializing worker and caches
+[16/10 10:29:43] [info] Registering statistics
+[16/10 10:29:43] [info] Initializing tasks and listeners
+[16/10 10:43:26] [info] Disabled integration for PlaceholderAPI
+[16/10 10:43:26] [info] Disabled integration for Shopkeepers
+[16/10 10:43:26] [info] Disabled integration for Votifier
+[16/10 10:43:26] [info] Disabled integration for ProtocolLib
+[16/10 10:43:26] [info] Disabled integration for Jobs
+[16/10 10:43:26] [info] Disabled integration for MythicMobs
+[16/10 10:43:26] [info] Disabled integration for Citizens
+[16/10 10:43:27] [info] Initializing worker and caches
+[16/10 10:43:27] [info] Registering statistics
+[16/10 10:43:27] [info] Initializing tasks and listeners
+[16/10 10:43:36] [info] Disabled integration for PlaceholderAPI
+[16/10 10:43:36] [info] Disabled integration for Shopkeepers
+[16/10 10:43:36] [info] Disabled integration for Votifier
+[16/10 10:43:36] [info] Disabled integration for ProtocolLib
+[16/10 10:43:36] [info] Disabled integration for Jobs
+[16/10 10:43:36] [info] Disabled integration for MythicMobs
+[16/10 10:43:36] [info] Disabled integration for Citizens
+[16/10 10:43:36] [info] Initializing worker and caches
+[16/10 10:43:36] [info] Registering statistics
+[16/10 10:43:36] [info] Initializing tasks and listeners
+[16/10 10:48:38] [info] Disabled integration for PlaceholderAPI
+[16/10 10:48:38] [info] Disabled integration for Shopkeepers
+[16/10 10:48:38] [info] Disabled integration for Votifier
+[16/10 10:48:38] [info] Disabled integration for ProtocolLib
+[16/10 10:48:38] [info] Disabled integration for Jobs
+[16/10 10:48:38] [info] Disabled integration for MythicMobs
+[16/10 10:48:38] [info] Disabled integration for Citizens
+[16/10 10:48:38] [info] Initializing worker and caches
+[16/10 10:48:38] [info] Registering statistics
+[16/10 10:48:38] [info] Initializing tasks and listeners
+[16/10 10:48:38] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:38] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:38] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:38] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:39] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:39] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:39] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:39] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:39] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:39] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:39] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:39] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:39] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:39] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:39] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:39] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:39] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:39] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:41] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:41] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:41] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:41] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:41] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:41] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:41] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:41] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:41] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:41] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:42] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:42] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:43] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:43] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:43] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:43] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:43] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:43] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:43] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:43] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:43] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:43] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:44] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:44] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:45] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:45] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:46] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:46] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:46] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:46] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:46] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:46] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:46] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:46] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:46] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:46] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:47] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:47] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:48] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:48] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:48] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:48] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:48] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:48] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:48] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:48] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:48] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:48] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:49] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:49] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:50] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:50] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:51] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:51] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:51] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:51] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:51] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:51] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:51] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:51] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:51] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:51] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:52] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:52] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:53] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:53] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:53] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:53] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:53] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:53] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:53] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:53] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:53] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:53] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:54] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:54] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:55] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:55] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:56] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:56] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:56] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:56] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:56] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:56] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:56] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:56] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:56] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:56] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:57] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:57] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:58] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:58] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:58] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:58] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:58] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:58] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:58] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:58] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:58] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:58] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:48:59] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:48:59] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:00] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:00] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:01] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:01] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:01] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:01] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:01] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:01] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:01] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:01] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:01] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:01] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:02] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:02] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:03] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:03] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:03] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:03] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:03] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:03] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:03] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:03] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:03] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:03] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:04] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:04] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:05] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:05] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:06] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:06] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:06] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:06] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:06] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:06] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:06] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:06] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:06] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:06] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:07] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:07] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:08] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:08] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:08] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:08] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:08] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:08] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:08] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:08] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:08] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:08] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:09] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:09] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:10] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:10] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:11] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:11] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:11] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:11] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:11] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:11] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:11] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:11] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:11] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:11] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:12] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:12] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:13] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:13] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:13] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:13] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:13] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:13] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:13] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:13] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:13] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:13] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:14] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:14] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:15] [info] Disabled integration for PlaceholderAPI
+[16/10 10:49:15] [info] Disabled integration for Shopkeepers
+[16/10 10:49:15] [info] Disabled integration for Votifier
+[16/10 10:49:15] [info] Disabled integration for ProtocolLib
+[16/10 10:49:15] [info] Disabled integration for Jobs
+[16/10 10:49:15] [info] Disabled integration for MythicMobs
+[16/10 10:49:15] [info] Disabled integration for Citizens
+[16/10 10:49:15] [info] Initializing worker and caches
+[16/10 10:49:15] [info] Registering statistics
+[16/10 10:49:15] [info] Initializing tasks and listeners
+[16/10 10:49:15] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:15] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:15] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:15] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:16] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:16] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:16] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:16] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:16] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:16] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:16] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:16] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:19] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:19] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:19] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:19] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:19] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:19] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:19] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:19] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:19] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:19] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:19] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:19] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:19] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:19] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:24] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:24] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:24] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:24] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:24] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:24] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:24] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:24] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:25] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:25] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:25] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:25] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:25] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:25] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:25] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:25] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:25] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:25] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:26] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:26] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:27] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:27] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:27] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:27] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:27] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:27] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:27] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:27] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:27] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:27] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:28] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:28] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:29] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:29] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:30] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:30] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:30] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:30] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:30] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:30] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:30] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:30] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:30] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:30] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:31] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:31] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:32] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:32] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:32] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:32] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:32] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:32] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:32] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:32] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:32] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:32] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:33] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:33] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:34] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:34] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:35] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:35] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:35] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:35] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:35] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:35] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:35] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:35] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:35] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:35] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:36] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:36] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:37] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:37] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:37] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:37] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:37] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:37] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:37] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:37] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:37] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:37] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:38] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:38] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:39] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:39] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:41] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:41] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:42] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:42] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:42] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:42] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:42] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:42] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:42] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:42] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:42] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:42] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:43] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:43] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:44] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:44] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:45] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:45] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:45] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:45] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:45] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:45] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:45] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:45] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:45] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:45] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:46] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:46] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:47] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:47] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:47] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:47] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:47] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:47] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:47] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:47] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:47] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:47] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:48] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:48] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:49] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:49] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:50] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:50] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:50] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:50] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:50] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:50] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:50] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:50] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:50] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:50] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:51] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:51] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:52] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:52] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:52] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:52] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:52] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:52] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:52] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:52] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:52] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:52] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:53] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:53] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:54] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:54] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:55] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:55] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:55] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:55] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:55] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:55] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:55] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:55] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:55] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:55] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:56] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:56] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:57] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:57] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:57] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:57] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:57] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:57] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:57] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:57] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:57] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:57] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:58] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:58] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:49:59] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:49:59] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:00] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:00] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:00] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:00] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:00] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:00] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:00] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:00] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:00] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:00] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:01] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:01] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:02] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:02] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:02] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:02] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:02] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:02] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:02] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:02] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:02] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:02] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:03] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:03] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:04] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:04] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:05] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:05] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:05] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:05] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:05] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:05] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:05] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:05] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:05] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:05] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:06] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:06] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:07] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:07] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:07] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:07] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:07] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:07] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:07] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:07] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:07] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:07] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:08] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:08] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:09] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:09] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:10] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:10] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:10] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:10] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:10] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:10] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:10] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:10] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:10] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:10] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:11] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:11] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:12] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:12] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:12] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:12] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:12] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:12] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:12] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:12] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:12] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:12] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:13] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:13] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:14] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:14] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:15] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:15] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:15] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:15] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:15] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:15] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:15] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:15] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:15] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:15] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:16] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:16] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/farm_quest.yml§r§c at path §4activators§r§c
+[16/10 10:50:17] [info] Disabled integration for PlaceholderAPI
+[16/10 10:50:17] [info] Disabled integration for Shopkeepers
+[16/10 10:50:17] [info] Disabled integration for Votifier
+[16/10 10:50:17] [info] Disabled integration for ProtocolLib
+[16/10 10:50:17] [info] Disabled integration for Jobs
+[16/10 10:50:17] [info] Disabled integration for MythicMobs
+[16/10 10:50:17] [info] Disabled integration for Citizens
+[16/10 10:50:17] [info] Initializing worker and caches
+[16/10 10:50:17] [info] Registering statistics
+[16/10 10:50:17] [info] Initializing tasks and listeners
+[16/10 10:50:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:19] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:19] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:19] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:19] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:19] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:19] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:19] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:24] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:25] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:25] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:25] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:25] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:25] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:26] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:27] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:27] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:27] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:27] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:27] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:28] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:29] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:30] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:30] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:30] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:30] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:30] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:31] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:32] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:32] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:32] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:32] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:32] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:33] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:34] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:35] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:35] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:35] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:35] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:35] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:36] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:37] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:37] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:37] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:37] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:37] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:38] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:39] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:41] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:42] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:42] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:42] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:42] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:42] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:43] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:44] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:45] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:45] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:45] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:45] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:45] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:46] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:47] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:47] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:47] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:47] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:47] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:48] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:49] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:50] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:50] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:50] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:50] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:50] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:51] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:52] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:52] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:52] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:52] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:52] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:53] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:54] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:55] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:55] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:55] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:55] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:55] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:56] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:57] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:57] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:57] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:57] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:57] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:58] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:50:59] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:00] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:00] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:00] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:00] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:00] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:01] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:02] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:02] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:02] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:02] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:02] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:03] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:04] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:05] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:05] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:05] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:05] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:05] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:06] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:07] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:07] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:07] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:07] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:07] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:08] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:09] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:10] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:10] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:10] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:10] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:10] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:11] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:12] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:12] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:12] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:12] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:12] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:13] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:14] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:15] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:15] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:15] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:15] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:15] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:16] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:17] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:18] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:19] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:20] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:21] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:22] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:23] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:24] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:25] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:25] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:25] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:25] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:25] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:26] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:27] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:27] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:27] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:27] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:27] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:28] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:29] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:30] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:30] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:30] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:30] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:30] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:31] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:32] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:32] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:32] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:32] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:32] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:33] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:34] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:35] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:35] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:35] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:35] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:35] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:36] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:37] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:37] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:37] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:37] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:37] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:38] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:39] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:40] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:41] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:42] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:42] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:42] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:42] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:42] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:43] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:44] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:45] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:45] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:45] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:45] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:45] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:46] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:47] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:47] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:47] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:47] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:47] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:48] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:49] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:50] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:50] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:50] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:50] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:50] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:51] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:52] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:52] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:52] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:52] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:52] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:53] [ERROR] Invalid value 'npc_farmer' in file §4quest_models/example_npc_deliver.yml§r§c at path §4activators§r§c
+[16/10 10:51:53] [info] Disabled integration for PlaceholderAPI
+[16/10 10:51:53] [info] Disabled integration for Shopkeepers
+[16/10 10:51:53] [info] Disabled integration for Votifier
+[16/10 10:51:53] [info] Disabled integration for ProtocolLib
+[16/10 10:51:53] [info] Disabled integration for Jobs
+[16/10 10:51:53] [info] Disabled integration for MythicMobs
+[16/10 10:51:53] [info] Disabled integration for Citizens
+[16/10 10:51:54] [info] Initializing worker and caches
+[16/10 10:51:54] [info] Registering statistics
+[16/10 10:51:54] [info] Initializing tasks and listeners
+[16/10 11:06:12] [info] Disabled integration for PlaceholderAPI
+[16/10 11:06:12] [info] Disabled integration for Shopkeepers
+[16/10 11:06:12] [info] Disabled integration for Votifier
+[16/10 11:06:12] [info] Disabled integration for ProtocolLib
+[16/10 11:06:12] [info] Disabled integration for Jobs
+[16/10 11:06:12] [info] Disabled integration for MythicMobs
+[16/10 11:06:12] [info] Disabled integration for Citizens
+[16/10 11:06:12] [info] Initializing worker and caches
+[16/10 11:06:12] [info] Registering statistics
+[16/10 11:06:12] [info] Initializing tasks and listeners
+[16/10 11:06:52] [info] Disabled integration for PlaceholderAPI
+[16/10 11:06:52] [info] Disabled integration for Shopkeepers
+[16/10 11:06:52] [info] Disabled integration for Votifier
+[16/10 11:06:52] [info] Disabled integration for ProtocolLib
+[16/10 11:06:52] [info] Disabled integration for Jobs
+[16/10 11:06:52] [info] Disabled integration for MythicMobs
+[16/10 11:06:52] [info] Disabled integration for Citizens
+[16/10 11:06:52] [info] Initializing worker and caches
+[16/10 11:06:52] [info] Registering statistics
+[16/10 11:06:52] [info] Initializing tasks and listeners
+[16/10 11:09:45] [info] Disabled integration for PlaceholderAPI
+[16/10 11:09:45] [info] Disabled integration for Shopkeepers
+[16/10 11:09:45] [info] Disabled integration for Votifier
+[16/10 11:09:45] [info] Disabled integration for ProtocolLib
+[16/10 11:09:45] [info] Disabled integration for Jobs
+[16/10 11:09:45] [info] Disabled integration for MythicMobs
+[16/10 11:09:45] [info] Disabled integration for Citizens
+[16/10 11:09:45] [info] Initializing worker and caches
+[16/10 11:09:45] [info] Registering statistics
+[16/10 11:09:45] [info] Initializing tasks and listeners
+[16/10 11:10:04] [info] Disabled integration for PlaceholderAPI
+[16/10 11:10:04] [info] Disabled integration for Shopkeepers
+[16/10 11:10:04] [info] Disabled integration for Votifier
+[16/10 11:10:04] [info] Disabled integration for ProtocolLib
+[16/10 11:10:04] [info] Disabled integration for Jobs
+[16/10 11:10:04] [info] Disabled integration for MythicMobs
+[16/10 11:10:04] [info] Disabled integration for Citizens
+[16/10 11:10:05] [info] Initializing worker and caches
+[16/10 11:10:05] [info] Registering statistics
+[16/10 11:10:05] [info] Initializing tasks and listeners
+[16/10 11:10:09] [info] Disabled integration for PlaceholderAPI
+[16/10 11:10:09] [info] Disabled integration for Shopkeepers
+[16/10 11:10:09] [info] Disabled integration for Votifier
+[16/10 11:10:09] [info] Disabled integration for ProtocolLib
+[16/10 11:10:09] [info] Disabled integration for Jobs
+[16/10 11:10:09] [info] Disabled integration for MythicMobs
+[16/10 11:10:09] [info] Disabled integration for Citizens
+[16/10 11:10:10] [info] Initializing worker and caches
+[16/10 11:10:10] [info] Registering statistics
+[16/10 11:10:10] [info] Initializing tasks and listeners
+[16/10 11:10:55] [info] Disabled integration for PlaceholderAPI
+[16/10 11:10:55] [info] Disabled integration for Shopkeepers
+[16/10 11:10:55] [info] Disabled integration for Votifier
+[16/10 11:10:55] [info] Disabled integration for ProtocolLib
+[16/10 11:10:55] [info] Disabled integration for Jobs
+[16/10 11:10:55] [info] Disabled integration for MythicMobs
+[16/10 11:10:55] [info] Disabled integration for Citizens
+[16/10 11:10:56] [info] Initializing worker and caches
+[16/10 11:10:56] [info] Registering statistics
+[16/10 11:10:56] [info] Initializing tasks and listeners
+[17/10 05:00:01] [info] Disabled integration for PlaceholderAPI
+[17/10 05:00:01] [info] Disabled integration for Shopkeepers
+[17/10 05:00:01] [info] Disabled integration for Votifier
+[17/10 05:00:01] [info] Disabled integration for ProtocolLib
+[17/10 05:00:01] [info] Disabled integration for Jobs
+[17/10 05:00:01] [info] Disabled integration for MythicMobs
+[17/10 05:00:01] [info] Disabled integration for Citizens
+[17/10 05:02:18] [info] Initializing worker and caches
+[17/10 05:02:21] [info] Enabled integration for Jobs
+[17/10 05:02:24] [info] Server finished loading, now loading elements, all integrated plugins are now enabled
+[17/10 05:02:24] [info] Successfully loaded 5 global GUI items : dynamic_border_3, dynamic_border_4, dynamic_border_5, dynamic_border_6, dynamic_border_6_blink
+[17/10 05:02:25] [info] Successfully loaded 24 global branchs : fail_block_break, fail_block_interact, fail_block_place, fail_chat, fail_commands, fail_die, fail_disconnect, fail_entities_damage, fail_entities_get_damaged, fail_entities_interact, fail_item_drop, fail_item_pickup, fail_move, prevent_block_break, prevent_block_interact, prevent_block_place, prevent_chat, prevent_commands, prevent_entities_damage, prevent_entities_get_damaged, prevent_entities_interact, prevent_item_drop, prevent_item_pickup, prevent_move
+[17/10 05:02:25] [info] Successfully loaded 1 quest model : halloween
+[17/10 05:02:25] [info] Successfully loaded 1 quest activator : halloween
+[17/10 05:02:25] [info] Successfully loaded 1 GUI : main
+[17/10 05:02:25] [info] Registering statistics
+[17/10 05:02:25] [info] Initializing tasks and listeners
+[17/10 21:28:08] [info] Disabled integration for Jobs
+[17/10 21:28:08] [info] Disabled integration for PlaceholderAPI
+[17/10 21:28:08] [info] Disabled integration for Shopkeepers
+[17/10 21:28:08] [info] Disabled integration for Votifier
+[17/10 21:28:08] [info] Disabled integration for ProtocolLib
+[17/10 21:28:08] [info] Disabled integration for MythicMobs
+[17/10 21:28:08] [info] Disabled integration for Citizens
+[17/10 21:30:13] [info] Initializing worker and caches
+[17/10 21:30:16] [info] Enabled integration for Jobs
+[17/10 21:30:20] [info] Server finished loading, now loading elements, all integrated plugins are now enabled
+[17/10 21:30:20] [info] Successfully loaded 5 global GUI items : dynamic_border_3, dynamic_border_4, dynamic_border_5, dynamic_border_6, dynamic_border_6_blink
+[17/10 21:30:20] [info] Successfully loaded 24 global branchs : fail_block_break, fail_block_interact, fail_block_place, fail_chat, fail_commands, fail_die, fail_disconnect, fail_entities_damage, fail_entities_get_damaged, fail_entities_interact, fail_item_drop, fail_item_pickup, fail_move, prevent_block_break, prevent_block_interact, prevent_block_place, prevent_chat, prevent_commands, prevent_entities_damage, prevent_entities_get_damaged, prevent_entities_interact, prevent_item_drop, prevent_item_pickup, prevent_move
+[17/10 21:30:20] [info] Successfully loaded 1 quest model : halloween
+[17/10 21:30:20] [info] Successfully loaded 1 quest activator : halloween
+[17/10 21:30:20] [info] Successfully loaded 1 GUI : main
+[17/10 21:30:20] [info] Registering statistics
+[17/10 21:30:20] [info] Initializing tasks and listeners
+[18/10 05:00:01] [info] Disabled integration for Jobs
+[18/10 05:00:01] [info] Disabled integration for PlaceholderAPI
+[18/10 05:00:01] [info] Disabled integration for Shopkeepers
+[18/10 05:00:01] [info] Disabled integration for Votifier
+[18/10 05:00:01] [info] Disabled integration for ProtocolLib
+[18/10 05:00:01] [info] Disabled integration for MythicMobs
+[18/10 05:00:01] [info] Disabled integration for Citizens
+[18/10 05:01:43] [info] Initializing worker and caches
+[18/10 05:01:46] [info] Enabled integration for Jobs
+[18/10 05:01:49] [info] Server finished loading, now loading elements, all integrated plugins are now enabled
+[18/10 05:01:49] [info] Successfully loaded 5 global GUI items : dynamic_border_3, dynamic_border_4, dynamic_border_5, dynamic_border_6, dynamic_border_6_blink
+[18/10 05:01:50] [info] Successfully loaded 24 global branchs : fail_block_break, fail_block_interact, fail_block_place, fail_chat, fail_commands, fail_die, fail_disconnect, fail_entities_damage, fail_entities_get_damaged, fail_entities_interact, fail_item_drop, fail_item_pickup, fail_move, prevent_block_break, prevent_block_interact, prevent_block_place, prevent_chat, prevent_commands, prevent_entities_damage, prevent_entities_get_damaged, prevent_entities_interact, prevent_item_drop, prevent_item_pickup, prevent_move
+[18/10 05:01:50] [info] Successfully loaded 1 quest model : halloween
+[18/10 05:01:50] [info] Successfully loaded 1 quest activator : halloween
+[18/10 05:01:51] [info] Successfully loaded 1 GUI : main
+[18/10 05:01:51] [info] Registering statistics
+[18/10 05:01:51] [info] Initializing tasks and listeners
+[19/10 05:00:01] [info] Disabled integration for Jobs
+[19/10 05:00:02] [info] Disabled integration for PlaceholderAPI
+[19/10 05:00:02] [info] Disabled integration for Shopkeepers
+[19/10 05:00:02] [info] Disabled integration for Votifier
+[19/10 05:00:02] [info] Disabled integration for ProtocolLib
+[19/10 05:00:02] [info] Disabled integration for MythicMobs
+[19/10 05:00:02] [info] Disabled integration for Citizens
+[19/10 05:02:06] [info] Initializing worker and caches
+[19/10 05:02:09] [info] Enabled integration for Jobs
+[19/10 05:02:13] [info] Server finished loading, now loading elements, all integrated plugins are now enabled
+[19/10 05:02:13] [info] Successfully loaded 5 global GUI items : dynamic_border_3, dynamic_border_4, dynamic_border_5, dynamic_border_6, dynamic_border_6_blink
+[19/10 05:02:13] [info] Successfully loaded 24 global branchs : fail_block_break, fail_block_interact, fail_block_place, fail_chat, fail_commands, fail_die, fail_disconnect, fail_entities_damage, fail_entities_get_damaged, fail_entities_interact, fail_item_drop, fail_item_pickup, fail_move, prevent_block_break, prevent_block_interact, prevent_block_place, prevent_chat, prevent_commands, prevent_entities_damage, prevent_entities_get_damaged, prevent_entities_interact, prevent_item_drop, prevent_item_pickup, prevent_move
+[19/10 05:02:13] [info] Successfully loaded 1 quest model : halloween
+[19/10 05:02:13] [info] Successfully loaded 1 quest activator : halloween
+[19/10 05:02:13] [info] Successfully loaded 1 GUI : main
+[19/10 05:02:13] [info] Registering statistics
+[19/10 05:02:13] [info] Initializing tasks and listeners
+[20/10 05:00:01] [info] Disabled integration for Jobs
+[20/10 05:00:01] [info] Disabled integration for PlaceholderAPI
+[20/10 05:00:01] [info] Disabled integration for Shopkeepers
+[20/10 05:00:01] [info] Disabled integration for Votifier
+[20/10 05:00:01] [info] Disabled integration for ProtocolLib
+[20/10 05:00:01] [info] Disabled integration for MythicMobs
+[20/10 05:00:01] [info] Disabled integration for Citizens
+[20/10 05:01:47] [info] Initializing worker and caches
+[20/10 05:01:50] [info] Enabled integration for Jobs
+[20/10 05:01:53] [info] Server finished loading, now loading elements, all integrated plugins are now enabled
+[20/10 05:01:53] [info] Successfully loaded 5 global GUI items : dynamic_border_3, dynamic_border_4, dynamic_border_5, dynamic_border_6, dynamic_border_6_blink
+[20/10 05:01:54] [info] Successfully loaded 24 global branchs : fail_block_break, fail_block_interact, fail_block_place, fail_chat, fail_commands, fail_die, fail_disconnect, fail_entities_damage, fail_entities_get_damaged, fail_entities_interact, fail_item_drop, fail_item_pickup, fail_move, prevent_block_break, prevent_block_interact, prevent_block_place, prevent_chat, prevent_commands, prevent_entities_damage, prevent_entities_get_damaged, prevent_entities_interact, prevent_item_drop, prevent_item_pickup, prevent_move
+[20/10 05:01:54] [info] Successfully loaded 1 quest model : halloween
+[20/10 05:01:54] [info] Successfully loaded 1 quest activator : halloween
+[20/10 05:01:54] [info] Successfully loaded 1 GUI : main
+[20/10 05:01:54] [info] Registering statistics
+[20/10 05:01:54] [info] Initializing tasks and listeners
+[21/10 05:00:01] [info] Disabled integration for Jobs
+[21/10 05:00:01] [info] Disabled integration for PlaceholderAPI
+[21/10 05:00:01] [info] Disabled integration for Shopkeepers
+[21/10 05:00:01] [info] Disabled integration for Votifier
+[21/10 05:00:01] [info] Disabled integration for ProtocolLib
+[21/10 05:00:01] [info] Disabled integration for MythicMobs
+[21/10 05:00:01] [info] Disabled integration for Citizens
+[21/10 05:01:43] [info] Initializing worker and caches
+[21/10 05:01:46] [info] Enabled integration for Jobs
+[21/10 05:01:49] [info] Server finished loading, now loading elements, all integrated plugins are now enabled
+[21/10 05:01:49] [info] Successfully loaded 5 global GUI items : dynamic_border_3, dynamic_border_4, dynamic_border_5, dynamic_border_6, dynamic_border_6_blink
+[21/10 05:01:50] [info] Successfully loaded 24 global branchs : fail_block_break, fail_block_interact, fail_block_place, fail_chat, fail_commands, fail_die, fail_disconnect, fail_entities_damage, fail_entities_get_damaged, fail_entities_interact, fail_item_drop, fail_item_pickup, fail_move, prevent_block_break, prevent_block_interact, prevent_block_place, prevent_chat, prevent_commands, prevent_entities_damage, prevent_entities_get_damaged, prevent_entities_interact, prevent_item_drop, prevent_item_pickup, prevent_move
+[21/10 05:01:50] [info] Successfully loaded 1 quest model : halloween
+[21/10 05:01:50] [info] Successfully loaded 1 quest activator : halloween
+[21/10 05:01:50] [info] Successfully loaded 1 GUI : main
+[21/10 05:01:50] [info] Registering statistics
+[21/10 05:01:50] [info] Initializing tasks and listeners
+[21/10 19:04:39] [ERROR] Invalid value '0' in file §4quest_models/Halloween.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[21/10 19:04:41] [ERROR] Invalid value '0' in file §4quest_models/Halloween.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[21/10 19:04:42] [ERROR] Invalid value '0' in file §4quest_models/Halloween.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[21/10 19:04:56] [ERROR] Invalid value '0' in file §4quest_models/Halloween.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[21/10 19:05:01] [ERROR] Invalid value '0' in file §4quest_models/Halloween.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[21/10 19:05:18] [ERROR] Invalid value '0' in file §4quest_models/Halloween.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[21/10 19:05:19] [ERROR] Invalid value '0' in file §4quest_models/Halloween.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[21/10 19:05:20] [ERROR] Invalid value '0' in file §4quest_models/Halloween.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[21/10 19:46:34] [ERROR] Invalid value '0' in file §4quest_models/Halloween.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[21/10 19:46:39] [ERROR] Invalid value '0' in file §4quest_models/Halloween.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[22/10 05:00:01] [info] Disabled integration for Jobs
+[22/10 05:00:01] [info] Disabled integration for PlaceholderAPI
+[22/10 05:00:01] [info] Disabled integration for Shopkeepers
+[22/10 05:00:01] [info] Disabled integration for Votifier
+[22/10 05:00:01] [info] Disabled integration for ProtocolLib
+[22/10 05:00:01] [info] Disabled integration for MythicMobs
+[22/10 05:00:01] [info] Disabled integration for Citizens
+[22/10 05:01:45] [info] Initializing worker and caches
+[22/10 05:01:48] [info] Enabled integration for Jobs
+[22/10 05:01:52] [info] Server finished loading, now loading elements, all integrated plugins are now enabled
+[22/10 05:01:52] [info] Successfully loaded 5 global GUI items : dynamic_border_3, dynamic_border_4, dynamic_border_5, dynamic_border_6, dynamic_border_6_blink
+[22/10 05:01:52] [info] Successfully loaded 24 global branchs : fail_block_break, fail_block_interact, fail_block_place, fail_chat, fail_commands, fail_die, fail_disconnect, fail_entities_damage, fail_entities_get_damaged, fail_entities_interact, fail_item_drop, fail_item_pickup, fail_move, prevent_block_break, prevent_block_interact, prevent_block_place, prevent_chat, prevent_commands, prevent_entities_damage, prevent_entities_get_damaged, prevent_entities_interact, prevent_item_drop, prevent_item_pickup, prevent_move
+[22/10 05:01:52] [info] Successfully loaded 1 quest model : halloween
+[22/10 05:01:52] [info] Successfully loaded 1 quest activator : halloween
+[22/10 05:01:52] [info] Successfully loaded 1 GUI : main
+[22/10 05:01:52] [info] Registering statistics
+[22/10 05:01:52] [info] Initializing tasks and listeners
+[22/10 08:04:31] [ERROR] Invalid value '0' in file §4quest_models/Halloween.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[22/10 08:04:32] [ERROR] Invalid value '0' in file §4quest_models/Halloween.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[22/10 08:05:11] [ERROR] Invalid value '0' in file §4quest_models/Halloween.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[22/10 15:04:22] [ERROR] Invalid value '0' in file §4quest_models/Halloween.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[22/10 15:04:22] [ERROR] Invalid value '0' in file §4quest_models/Halloween.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[22/10 15:04:23] [ERROR] Invalid value '0' in file §4quest_models/Halloween.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[22/10 15:04:24] [ERROR] Invalid value '0' in file §4quest_models/Halloween.yml§r§c at path §4branches.main.objects.deliver.npc§r§c
+[22/10 22:54:00] [info] Disabled integration for PlaceholderAPI
+[22/10 22:54:00] [info] Disabled integration for Shopkeepers
+[22/10 22:54:00] [info] Disabled integration for Votifier
+[22/10 22:54:00] [info] Disabled integration for ProtocolLib
+[22/10 22:54:00] [info] Disabled integration for Jobs
+[22/10 22:54:00] [info] Disabled integration for MythicMobs
+[22/10 22:54:00] [info] Disabled integration for Citizens
+[22/10 22:54:00] [info] Initializing worker and caches
+[22/10 22:54:00] [info] Registering statistics
+[22/10 22:54:00] [info] Initializing tasks and listeners
+[23/10 05:00:01] [info] Disabled integration for Jobs
+[23/10 05:00:02] [info] Disabled integration for PlaceholderAPI
+[23/10 05:00:02] [info] Disabled integration for Shopkeepers
+[23/10 05:00:02] [info] Disabled integration for Votifier
+[23/10 05:00:02] [info] Disabled integration for ProtocolLib
+[23/10 05:00:02] [info] Disabled integration for MythicMobs
+[23/10 05:00:02] [info] Disabled integration for Citizens
+[23/10 05:01:50] [info] Initializing worker and caches
+[23/10 05:01:52] [info] Enabled integration for Jobs
+[23/10 05:01:55] [info] Server finished loading, now loading elements, all integrated plugins are now enabled
+[23/10 05:01:55] [info] Successfully loaded 5 global GUI items : dynamic_border_3, dynamic_border_4, dynamic_border_5, dynamic_border_6, dynamic_border_6_blink
+[23/10 05:01:55] [info] Successfully loaded 24 global branchs : fail_block_break, fail_block_interact, fail_block_place, fail_chat, fail_commands, fail_die, fail_disconnect, fail_entities_damage, fail_entities_get_damaged, fail_entities_interact, fail_item_drop, fail_item_pickup, fail_move, prevent_block_break, prevent_block_interact, prevent_block_place, prevent_chat, prevent_commands, prevent_entities_damage, prevent_entities_get_damaged, prevent_entities_interact, prevent_item_drop, prevent_item_pickup, prevent_move
+[23/10 05:01:55] [info] Successfully loaded 1 quest model : halloween
+[23/10 05:01:55] [info] Successfully loaded 1 quest activator : halloween
+[23/10 05:01:55] [info] Successfully loaded 1 GUI : main
+[23/10 05:01:55] [info] Registering statistics
+[23/10 05:01:55] [info] Initializing tasks and listeners
+[23/10 08:17:35] [info] Disabled integration for Jobs
+[23/10 08:17:35] [info] Disabled integration for PlaceholderAPI
+[23/10 08:17:35] [info] Disabled integration for Shopkeepers
+[23/10 08:17:35] [info] Disabled integration for Votifier
+[23/10 08:17:35] [info] Disabled integration for ProtocolLib
+[23/10 08:17:35] [info] Disabled integration for MythicMobs
+[23/10 08:17:35] [info] Disabled integration for Citizens
+[23/10 08:19:18] [info] Initializing worker and caches
+[23/10 08:19:19] [info] Enabled integration for Jobs
+[23/10 08:19:23] [info] Server finished loading, now loading elements, all integrated plugins are now enabled
+[23/10 08:19:23] [info] Successfully loaded 5 global GUI items : dynamic_border_3, dynamic_border_4, dynamic_border_5, dynamic_border_6, dynamic_border_6_blink
+[23/10 08:19:23] [info] Successfully loaded 24 global branchs : fail_block_break, fail_block_interact, fail_block_place, fail_chat, fail_commands, fail_die, fail_disconnect, fail_entities_damage, fail_entities_get_damaged, fail_entities_interact, fail_item_drop, fail_item_pickup, fail_move, prevent_block_break, prevent_block_interact, prevent_block_place, prevent_chat, prevent_commands, prevent_entities_damage, prevent_entities_get_damaged, prevent_entities_interact, prevent_item_drop, prevent_item_pickup, prevent_move
+[23/10 08:19:23] [info] Successfully loaded 1 quest model : halloween
+[23/10 08:19:23] [info] Successfully loaded 1 quest activator : halloween
+[23/10 08:19:23] [info] Successfully loaded 1 GUI : main
+[23/10 08:19:23] [info] Registering statistics
+[23/10 08:19:23] [info] Initializing tasks and listeners
+[23/10 15:43:54] [info] Disabled integration for MythicMobs
+[23/10 15:43:56] [info] Enabled integration for MythicMobs
+[23/10 15:46:27] [info] Disabled integration for MythicMobs
+[23/10 15:46:27] [info] Disabled integration for Jobs
+[23/10 15:46:27] [info] Disabled integration for PlaceholderAPI
+[23/10 15:46:27] [info] Disabled integration for Shopkeepers
+[23/10 15:46:27] [info] Disabled integration for Votifier
+[23/10 15:46:27] [info] Disabled integration for ProtocolLib
+[23/10 15:46:27] [info] Disabled integration for Citizens
+[23/10 15:48:41] [info] Initializing worker and caches
+[23/10 15:48:42] [info] Enabled integration for Jobs
+[23/10 15:48:46] [info] Server finished loading, now loading elements, all integrated plugins are now enabled
+[23/10 15:48:46] [info] Successfully loaded 5 global GUI items : dynamic_border_3, dynamic_border_4, dynamic_border_5, dynamic_border_6, dynamic_border_6_blink
+[23/10 15:48:46] [info] Successfully loaded 24 global branchs : fail_block_break, fail_block_interact, fail_block_place, fail_chat, fail_commands, fail_die, fail_disconnect, fail_entities_damage, fail_entities_get_damaged, fail_entities_interact, fail_item_drop, fail_item_pickup, fail_move, prevent_block_break, prevent_block_interact, prevent_block_place, prevent_chat, prevent_commands, prevent_entities_damage, prevent_entities_get_damaged, prevent_entities_interact, prevent_item_drop, prevent_item_pickup, prevent_move
+[23/10 15:48:46] [info] Successfully loaded 1 quest model : halloween
+[23/10 15:48:46] [info] Successfully loaded 1 quest activator : halloween
+[23/10 15:48:46] [info] Successfully loaded 1 GUI : main
+[23/10 15:48:46] [info] Registering statistics
+[23/10 15:48:46] [info] Initializing tasks and listeners
+[24/10 05:00:01] [info] Disabled integration for Jobs
+[24/10 05:00:02] [info] Disabled integration for PlaceholderAPI
+[24/10 05:00:02] [info] Disabled integration for Shopkeepers
+[24/10 05:00:02] [info] Disabled integration for Votifier
+[24/10 05:00:02] [info] Disabled integration for ProtocolLib
+[24/10 05:00:02] [info] Disabled integration for MythicMobs
+[24/10 05:00:02] [info] Disabled integration for Citizens

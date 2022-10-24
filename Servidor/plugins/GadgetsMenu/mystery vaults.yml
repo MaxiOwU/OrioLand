@@ -6,3 +6,122 @@ Mystery-Vaults:
       x: -177.0
       y: 5.0
       z: -76.0
+  Cosmeticos:
+    BlockFace: EAST
+    Location:
+      world: Lobby
+      x: 68.0
+      y: 99.0
+      z: 86.0
+  Cosmeticos2:
+    BlockFace: NORTH
+    Location:
+      world: Lobby
+      x: 69.0
+      y: 99.0
+      z: 86.0
+  Cosmeticos3:
+    BlockFace: NORTH
+    Location:
+      world: Lobby
+      x: 67.0
+      y: 99.0
+      z: 86.0
+  Cosmeticos4:
+    BlockFace: EAST
+    Location:
+      world: Lobby
+      x: 69.0
+      y: 99.0
+      z: 87.0
+  Cosmeticos5:
+    BlockFace: EAST
+    Location:
+      world: Lobby
+      x: 68.0
+      y: 100.0
+      z: 88.0
+  Cosmeticos6:
+    BlockFace: EAST
+    Location:
+      world: Lobby
+      x: 67.0
+      y: 99.0
+      z: 87.0
+  Cosmeticos7:
+    BlockFace: SOUTH
+    Location:
+      world: Lobby
+      x: 67.0
+      y: 100.0
+      z: 87.0
+  Cosmeticos9:
+    BlockFace: SOUTH
+    Location:
+      world: Lobby
+      x: 69.0
+      y: 100.0
+      z: 87.0
+  Cosmeticos10:
+    BlockFace: EAST
+    Location:
+      world: Lobby
+      x: 69.0
+      y: 100.0
+      z: 86.0
+  Cosmeticos11:
+    BlockFace: EAST
+    Location:
+      world: Lobby
+      x: 68.0
+      y: 100.0
+      z: 86.0
+  Cosmeticos12:
+    BlockFace: EAST
+    Location:
+      world: Lobby
+      x: 67.0
+      y: 100.0
+      z: 86.0
+  Cosmeticos13:
+    BlockFace: EAST
+    Location:
+      world: Lobby
+      x: 69.0
+      y: 101.0
+      z: 86.0
+  Cosmeticos14:
+    BlockFace: EAST
+    Location:
+      world: Lobby
+      x: 69.0
+      y: 101.0
+      z: 87.0
+  Cosmeticos15:
+    BlockFace: EAST
+    Location:
+      world: Lobby
+      x: 67.0
+      y: 101.0
+      z: 87.0
+  Cosmeticos16:
+    BlockFace: EAST
+    Location:
+      world: Lobby
+      x: 68.0
+      y: 101.0
+      z: 87.0
+  Cosmeticos17:
+    BlockFace: EAST
+    Location:
+      world: Lobby
+      x: 68.0
+      y: 101.0
+      z: 86.0
+  Cosmeticos18:
+    BlockFace: EAST
+    Location:
+      world: Lobby
+      x: 67.0
+      y: 101.0
+      z: 86.0

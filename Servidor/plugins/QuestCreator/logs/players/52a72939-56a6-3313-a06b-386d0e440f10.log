@@ -1,0 +1,399 @@
+[16/10 15:35:13] [info] albert_fail | connected
+[16/10 15:35:13] [info] albert_fail | fetched user data : no value ; created it
+[16/10 15:35:13] [info] albert_fail | pushing user 52a72939-56a6-3313-a06b-386d0e440f10, active quests : 
+[16/10 15:35:13] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 15:35:13] [info] albert_fail | fetched user quests : 
+[16/10 16:39:16] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[16/10 16:39:16] [info] albert_fail | disposed user data
+[16/10 16:39:16] [info] albert_fail | disconnected
+[16/10 17:35:53] [info] albert_fail | connected
+[16/10 17:35:53] [info] albert_fail | fetched user data : active quests 
+[16/10 17:35:53] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 17:35:53] [info] albert_fail | fetched user quests : 
+[16/10 17:36:58] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[16/10 17:36:58] [info] albert_fail | disposed user data
+[16/10 17:36:58] [info] albert_fail | disconnected
+[16/10 17:38:13] [info] albert_fail | connected
+[16/10 17:38:14] [info] albert_fail | fetched user data : active quests 
+[16/10 17:38:14] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 17:38:14] [info] albert_fail | fetched user quests : 
+[16/10 17:41:22] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[16/10 17:41:22] [info] albert_fail | disposed user data
+[16/10 17:41:22] [info] albert_fail | disconnected
+[16/10 19:06:06] [info] albert_fail | connected
+[16/10 19:06:06] [info] albert_fail | fetched user data : active quests 
+[16/10 19:06:06] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 19:06:06] [info] albert_fail | fetched user quests : 
+[16/10 19:07:40] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[16/10 19:07:40] [info] albert_fail | disposed user data
+[16/10 19:07:40] [info] albert_fail | disconnected
+[16/10 19:23:27] [info] albert_fail | connected
+[16/10 19:23:27] [info] albert_fail | fetched user data : active quests 
+[16/10 19:23:27] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 19:23:27] [info] albert_fail | fetched user quests : 
+[16/10 19:40:23] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[16/10 19:40:23] [info] albert_fail | disposed user data
+[16/10 19:40:23] [info] albert_fail | disconnected
+[17/10 19:06:24] [info] albert_fail | connected
+[17/10 19:06:24] [info] albert_fail | fetched user data : active quests 
+[17/10 19:06:24] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[17/10 19:06:24] [info] albert_fail | fetched user quests : 
+[17/10 19:12:24] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[17/10 19:12:24] [info] albert_fail | disposed user data
+[17/10 19:12:24] [info] albert_fail | disconnected
+[17/10 19:12:28] [info] albert_fail | connected
+[17/10 19:12:28] [info] albert_fail | fetched user data : active quests 
+[17/10 19:12:28] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[17/10 19:12:28] [info] albert_fail | fetched user quests : 
+[17/10 19:16:55] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[17/10 19:16:55] [info] albert_fail | disposed user data
+[17/10 19:16:55] [info] albert_fail | disconnected
+[17/10 19:16:57] [info] albert_fail | connected
+[17/10 19:16:57] [info] albert_fail | fetched user data : active quests 
+[17/10 19:16:57] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[17/10 19:16:57] [info] albert_fail | fetched user quests : 
+[17/10 19:17:28] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[17/10 19:17:28] [info] albert_fail | disposed user data
+[17/10 19:17:28] [info] albert_fail | disconnected
+[17/10 19:17:41] [info] albert_fail | connected
+[17/10 19:17:41] [info] albert_fail | fetched user data : active quests 
+[17/10 19:17:41] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[17/10 19:17:41] [info] albert_fail | fetched user quests : 
+[17/10 19:25:36] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[17/10 19:25:36] [info] albert_fail | disposed user data
+[17/10 19:25:36] [info] albert_fail | disconnected
+[17/10 19:25:37] [info] albert_fail | connected
+[17/10 19:25:37] [info] albert_fail | fetched user data : active quests 
+[17/10 19:25:37] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[17/10 19:25:37] [info] albert_fail | fetched user quests : 
+[17/10 19:33:27] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[17/10 19:33:27] [info] albert_fail | disposed user data
+[17/10 19:33:27] [info] albert_fail | disconnected
+[17/10 19:33:28] [info] albert_fail | connected
+[17/10 19:33:28] [info] albert_fail | fetched user data : active quests 
+[17/10 19:33:28] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[17/10 19:33:28] [info] albert_fail | fetched user quests : 
+[17/10 19:35:29] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[17/10 19:35:29] [info] albert_fail | disposed user data
+[17/10 19:35:29] [info] albert_fail | disconnected
+[17/10 19:35:34] [info] albert_fail | connected
+[17/10 19:35:34] [info] albert_fail | fetched user data : active quests 
+[17/10 19:35:34] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[17/10 19:35:34] [info] albert_fail | fetched user quests : 
+[17/10 19:37:41] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[17/10 19:37:41] [info] albert_fail | disposed user data
+[17/10 19:37:41] [info] albert_fail | disconnected
+[17/10 19:39:02] [info] albert_fail | connected
+[17/10 19:39:02] [info] albert_fail | fetched user data : active quests 
+[17/10 19:39:02] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[17/10 19:39:02] [info] albert_fail | fetched user quests : 
+[17/10 19:39:51] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[17/10 19:39:51] [info] albert_fail | disposed user data
+[17/10 19:39:51] [info] albert_fail | disconnected
+[17/10 19:40:31] [info] albert_fail | connected
+[17/10 19:40:31] [info] albert_fail | fetched user data : active quests 
+[17/10 19:40:31] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[17/10 19:40:31] [info] albert_fail | fetched user quests : 
+[17/10 19:41:56] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[17/10 19:41:56] [info] albert_fail | disposed user data
+[17/10 19:41:56] [info] albert_fail | disconnected
+[17/10 19:43:21] [info] albert_fail | connected
+[17/10 19:43:21] [info] albert_fail | fetched user data : active quests 
+[17/10 19:43:21] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[17/10 19:43:21] [info] albert_fail | fetched user quests : 
+[17/10 19:46:45] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[17/10 19:46:45] [info] albert_fail | disposed user data
+[17/10 19:46:45] [info] albert_fail | disconnected
+[17/10 19:48:52] [info] albert_fail | connected
+[17/10 19:48:52] [info] albert_fail | fetched user data : active quests 
+[17/10 19:48:52] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[17/10 19:48:52] [info] albert_fail | fetched user quests : 
+[17/10 19:56:40] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[17/10 19:56:40] [info] albert_fail | disposed user data
+[17/10 19:56:40] [info] albert_fail | disconnected
+[17/10 20:04:24] [info] albert_fail | connected
+[17/10 20:04:24] [info] albert_fail | fetched user data : active quests 
+[17/10 20:04:24] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[17/10 20:04:24] [info] albert_fail | fetched user quests : 
+[17/10 20:19:12] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[17/10 20:19:12] [info] albert_fail | disposed user data
+[17/10 20:19:12] [info] albert_fail | disconnected
+[17/10 20:19:19] [info] albert_fail | connected
+[17/10 20:19:19] [info] albert_fail | fetched user data : active quests 
+[17/10 20:19:19] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[17/10 20:19:19] [info] albert_fail | fetched user quests : 
+[17/10 20:19:27] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[17/10 20:19:27] [info] albert_fail | disposed user data
+[17/10 20:19:27] [info] albert_fail | disconnected
+[18/10 19:36:18] [info] albert_fail | connected
+[18/10 19:36:18] [info] albert_fail | fetched user data : active quests 
+[18/10 19:36:18] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[18/10 19:36:18] [info] albert_fail | fetched user quests : 
+[18/10 20:12:03] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[18/10 20:12:03] [info] albert_fail | disposed user data
+[18/10 20:12:03] [info] albert_fail | disconnected
+[19/10 19:45:57] [info] albert_fail | connected
+[19/10 19:45:57] [info] albert_fail | fetched user data : active quests 
+[19/10 19:45:57] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[19/10 19:45:57] [info] albert_fail | fetched user quests : 
+[19/10 20:28:57] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[19/10 20:28:57] [info] albert_fail | disposed user data
+[19/10 20:28:57] [info] albert_fail | disconnected
+[20/10 18:54:45] [info] albert_fail | connected
+[20/10 18:54:45] [info] albert_fail | fetched user data : active quests 
+[20/10 18:54:45] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[20/10 18:54:45] [info] albert_fail | fetched user quests : 
+[20/10 19:10:29] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[20/10 19:10:29] [info] albert_fail | disposed user data
+[20/10 19:10:29] [info] albert_fail | disconnected
+[20/10 19:12:30] [info] albert_fail | connected
+[20/10 19:12:30] [info] albert_fail | fetched user data : active quests 
+[20/10 19:12:30] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[20/10 19:12:30] [info] albert_fail | fetched user quests : 
+[20/10 20:31:19] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[20/10 20:31:19] [info] albert_fail | disposed user data
+[20/10 20:31:19] [info] albert_fail | disconnected
+[21/10 15:40:39] [info] albert_fail | connected
+[21/10 15:40:39] [info] albert_fail | fetched user data : active quests 
+[21/10 15:40:39] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[21/10 15:40:39] [info] albert_fail | fetched user quests : 
+[21/10 16:12:17] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[21/10 16:12:17] [info] albert_fail | disposed user data
+[21/10 16:12:17] [info] albert_fail | disconnected
+[21/10 18:54:46] [info] albert_fail | connected
+[21/10 18:54:46] [info] albert_fail | fetched user data : active quests 
+[21/10 18:54:46] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[21/10 18:54:46] [info] albert_fail | fetched user quests : 
+[21/10 19:49:54] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[21/10 19:49:54] [info] albert_fail | disposed user data
+[21/10 19:49:54] [info] albert_fail | disconnected
+[21/10 19:59:34] [info] albert_fail | connected
+[21/10 19:59:34] [info] albert_fail | fetched user data : active quests 
+[21/10 19:59:34] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[21/10 19:59:34] [info] albert_fail | fetched user quests : 
+[21/10 20:23:50] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[21/10 20:23:50] [info] albert_fail | disposed user data
+[21/10 20:23:50] [info] albert_fail | disconnected
+[21/10 20:23:56] [info] albert_fail | connected
+[21/10 20:23:56] [info] albert_fail | fetched user data : active quests 
+[21/10 20:23:56] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[21/10 20:23:56] [info] albert_fail | fetched user quests : 
+[21/10 21:07:49] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[21/10 21:07:49] [info] albert_fail | disposed user data
+[21/10 21:07:49] [info] albert_fail | disconnected
+[22/10 08:53:29] [info] albert_fail | connected
+[22/10 08:53:29] [info] albert_fail | fetched user data : active quests 
+[22/10 08:53:29] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[22/10 08:53:29] [info] albert_fail | fetched user quests : 
+[22/10 09:57:34] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[22/10 09:57:34] [info] albert_fail | disposed user data
+[22/10 09:57:34] [info] albert_fail | disconnected
+[22/10 09:57:56] [info] albert_fail | connected
+[22/10 09:57:56] [info] albert_fail | fetched user data : active quests 
+[22/10 09:57:56] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[22/10 09:57:56] [info] albert_fail | fetched user quests : 
+[22/10 10:05:43] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[22/10 10:05:43] [info] albert_fail | disposed user data
+[22/10 10:05:43] [info] albert_fail | disconnected
+[22/10 16:18:46] [info] albert_fail | connected
+[22/10 16:18:46] [info] albert_fail | fetched user data : active quests 
+[22/10 16:18:46] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[22/10 16:18:46] [info] albert_fail | fetched user quests : 
+[22/10 21:13:26] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[22/10 21:13:26] [info] albert_fail | disposed user data
+[22/10 21:13:26] [info] albert_fail | disconnected
+[23/10 08:03:05] [info] albert_fail | connected
+[23/10 08:03:05] [info] albert_fail | fetched user data : active quests 
+[23/10 08:03:05] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 08:03:05] [info] albert_fail | fetched user quests : 
+[23/10 08:19:24] [info] albert_fail | connected
+[23/10 08:19:25] [info] albert_fail | fetched user data : active quests 
+[23/10 08:19:25] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 08:19:25] [info] albert_fail | fetched user quests : 
+[23/10 09:40:50] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[23/10 09:40:50] [info] albert_fail | disposed user data
+[23/10 09:40:50] [info] albert_fail | disconnected
+[23/10 13:06:56] [info] albert_fail | connected
+[23/10 13:06:56] [info] albert_fail | fetched user data : active quests 
+[23/10 13:06:56] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 13:06:56] [info] albert_fail | fetched user quests : 
+[23/10 14:41:34] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[23/10 14:41:34] [info] albert_fail | disposed user data
+[23/10 14:41:34] [info] albert_fail | disconnected
+[23/10 14:42:32] [info] albert_fail | connected
+[23/10 14:42:32] [info] albert_fail | fetched user data : active quests 
+[23/10 14:42:32] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 14:42:32] [info] albert_fail | fetched user quests : 
+[23/10 15:48:49] [info] albert_fail | connected
+[23/10 15:48:49] [info] albert_fail | fetched user data : active quests 
+[23/10 15:48:49] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 15:48:49] [info] albert_fail | fetched user quests : 
+[23/10 17:33:18] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[23/10 17:33:18] [info] albert_fail | disposed user data
+[23/10 17:33:18] [info] albert_fail | disconnected
+[23/10 18:07:49] [info] albert_fail | connected
+[23/10 18:07:49] [info] albert_fail | fetched user data : active quests 
+[23/10 18:07:49] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 18:07:49] [info] albert_fail | fetched user quests : 
+[23/10 19:12:32] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[23/10 19:12:32] [info] albert_fail | disposed user data
+[23/10 19:12:32] [info] albert_fail | disconnected
+[23/10 19:15:24] [info] albert_fail | connected
+[23/10 19:15:24] [info] albert_fail | fetched user data : active quests 
+[23/10 19:15:24] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 19:15:24] [info] albert_fail | fetched user quests : 
+[23/10 19:38:08] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[23/10 19:38:08] [info] albert_fail | disposed user data
+[23/10 19:38:08] [info] albert_fail | disconnected
+[24/10 07:08:19] [info] albert_fail | connected
+[24/10 07:08:19] [info] albert_fail | fetched user data : active quests 
+[24/10 07:08:19] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[24/10 07:08:19] [info] albert_fail | fetched user quests : 
+[24/10 07:20:37] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[24/10 07:20:37] [info] albert_fail | disposed user data
+[24/10 07:20:37] [info] albert_fail | disconnected
+[24/10 09:56:18] [info] albert_fail | connected
+[24/10 09:56:18] [info] albert_fail | fetched user data : active quests 
+[24/10 09:56:18] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[24/10 09:56:18] [info] albert_fail | fetched user quests : 
+[24/10 10:47:29] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[24/10 10:47:29] [info] albert_fail | disposed user data
+[24/10 10:47:29] [info] albert_fail | disconnected
+[24/10 12:02:51] [info] albert_fail | connected
+[24/10 12:02:51] [info] albert_fail | fetched user data : active quests 
+[24/10 12:02:51] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[24/10 12:02:51] [info] albert_fail | fetched user quests : 
+[24/10 12:25:24] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[24/10 12:25:24] [info] albert_fail | disposed user data
+[24/10 12:25:24] [info] albert_fail | disconnected
+[24/10 12:32:12] [info] albert_fail | connected
+[24/10 12:32:12] [info] albert_fail | fetched user data : active quests 
+[24/10 12:32:12] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[24/10 12:32:12] [info] albert_fail | fetched user quests : 
+[24/10 12:32:52] [info] albert_fail | disposing user quests data : 
+- must dispose quests
+[24/10 12:32:52] [info] albert_fail | disposed user data
+[24/10 12:32:52] [info] albert_fail | disconnected
+[24/10 13:54:21] [info] albert_fail | connected
+[24/10 13:54:21] [info] albert_fail | fetched user data : active quests 
+[24/10 13:54:21] [info] albert_fail | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[24/10 13:54:21] [info] albert_fail | fetched user quests : 

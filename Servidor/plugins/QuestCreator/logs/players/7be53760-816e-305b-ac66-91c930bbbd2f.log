@@ -1,0 +1,11 @@
+[17/10 20:22:02] [info] hacker_royale | connected
+[17/10 20:22:02] [info] hacker_royale | fetched user data : no value ; created it
+[17/10 20:22:02] [info] hacker_royale | pushing user 7be53760-816e-305b-ac66-91c930bbbd2f, active quests : 
+[17/10 20:22:02] [info] hacker_royale | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[17/10 20:22:02] [info] hacker_royale | fetched user quests : 
+[17/10 20:22:56] [info] hacker_royale | disposing user quests data : 
+- must dispose quests
+[17/10 20:22:56] [info] hacker_royale | disposed user data
+[17/10 20:22:56] [info] hacker_royale | disconnected

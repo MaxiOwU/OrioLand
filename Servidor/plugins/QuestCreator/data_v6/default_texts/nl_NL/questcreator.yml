@@ -1,0 +1,627 @@
+# -------------------- Commands --------------------
+
+commandParameterUsageModel: quest
+commandParameterUsageBranch: branch
+commandParameterUsageObject: object
+commandParameterUsageGUI: gui
+commandParameterUsagePool: pool
+commandParameterUsageState: state
+commandParameterUsagePointsCategory: category
+commandParameterUsageVariable: variable
+
+commandDescriptionQuestcreator: Hoofd-Command voor QuestCreator
+commandDescriptionQuestcreatorActionbar: Zet quest actionbar aan
+commandDescriptionQuestcreatorBossbar: Zet quest bossbar aan
+commandDescriptionQuestcreatorComplete: Markeer quest als klaar
+commandDescriptionQuestcreatorCompletebranch: Markeer actuele branch object als klaar
+commandDescriptionQuestcreatorCoop: Bewerk coop quests
+commandDescriptionQuestcreatorGoto: Werk quest bij
+commandDescriptionQuestcreatorGPS: Zet quest GPS aan
+commandDescriptionQuestcreatorEdit: Bewerk in-game
+commandDescriptionQuestcreatorJournal: Werk quest logboek bij
+commandDescriptionQuestcreatorList: Lijst van quests
+commandDescriptionQuestcreatorLogspam: Zet debug log spam aan
+commandDescriptionQuestcreatorPoints: Bewerk quest points
+commandDescriptionQuestcreatorMenu: Open een specifiek menu
+commandDescriptionQuestcreatorPerformglobalbranch: Voer alle objects van een globale branch uit
+commandDescriptionQuestcreatorPerformglobalobject: Voor een globaal object uit
+commandDescriptionQuestcreatorProgress: Bekijk hoe ver je bent met je quest
+commandDescriptionQuestcreatorQueue: Bekijk hoe ver je bent in de wachtlijst
+commandDescriptionQuestcreatorStop: stop quest(s)
+commandDescriptionQuestcreatorStart: start quest
+commandDescriptionQuestcreatorState: zet state
+commandDescriptionQuestcreatorReset: reset quest(s)
+commandDescriptionQuestcreatorResetpool: reset pool(s)
+commandDescriptionQuestcreatorScoreboard: zet quest scoreboard aan
+commandDescriptionQuestcreatorServerVariable: bewerk server variabelen
+commandDescriptionQuestcreatorSetpooltokens: bewerk pool tokens
+commandDescriptionQuestcreatorTitle: zet quest title aan
+commandDescriptionQuestcreatorUser: bekijk data van een gebruiker
+commandDescriptionQuestcreatorVariable: bewerk variabelen
+
+messageCommandInvalidModel: |
+  &7Quest model &c{value} &7kan je niet gebruiken voor argument &c{argument}&7.
+
+messageCommandInvalidBranch: |
+  &7Quest branch &c{value} &7kan je niet gebruiken voor &c{argument}&7.
+
+messageCommandInvalidQuestObject: |
+  &7Quest object &c{value} &7kan je niet gebruiken voor &c{argument}&7.
+
+messageCommandQuestcreatorBungeePlayerIsntOffline: |
+  &7Deze speler, zit op een andere server. Join deze server en probeer dan opnieuw.
+
+messageCommandQuestcreatorActionbarToggleOn: |
+  &7Je quest actionbar staat &aaan&7.
+
+messageCommandQuestcreatorActionbarToggleOff: |
+  &7YJe quest actionbar staat &cuit&7.
+
+messageCommandQuestcreatorBossbarToggleOn: |
+  &7Je quest bossbar staat &auit&7.
+
+messageCommandQuestcreatorBossbarToggleOff: |
+  &7Je quest bossbar staat &cuit&7.
+
+messageCommandQuestcreatorCoopNotInvited: |
+  &7Je hebt geen uitnodiging voor een coop quest. Om een coop quest te maken, gemakkelijk maak het en je zal meer opties zien !
+
+messageCommandQuestcreatorCoopLeaveEmpty: |
+  &7Er is geen quest die je kan verlaten.
+
+messageCommandQuestcreatorCoopLeaveCouldnt: |
+  &7Kan de quest : &c{quest}&7 niet verlaten.
+
+messageCommandQuestcreatorCoopLeaveLeft: |
+  &7Kan de quest : &a{quest}&7 niet verlaten.
+
+messageCommandQuestcreatorComplete: |
+  &7Je quest is nu gemarkeerd als klaar &a{amount} keer{plural} &7: &a{quest}&7.
+
+messageCommandQuestcreatorCompleteBranch: |
+  &7Voltooi de  current objective voor branch &a{branch} &7in je quest &a{quest}&7.
+
+messageCommandQuestcreatorCompleteBranchNoQuest: |
+  &7Deze quest is niet actief.
+
+messageCommandQuestcreatorGoto: |
+  &7veranderingen zijn gemaakt aan je quest : &a{quest}&7.
+
+messageCommandQuestcreatorGotoNoQuest: |
+  &7Deze quest is niet actief.
+
+messageCommandQuestcreatorGPSToggleOn: |
+  &7Je quest GPS staat &aaan&7.
+
+messageCommandQuestcreatorGPSToggleOff: |
+  &7Je quest GPS staat &cuit&7.
+
+messageCommandQuestcreatorJournalToggleOn: |
+  &7Je quest logboek staat &aaan&7.
+
+messageCommandQuestcreatorJournalToggleOff: |
+  &7Je quest logboek staat &cuit&7.
+
+messageCommandQuestcreatorListEmpty: |
+  &7Er is geen quest.
+
+messageCommandQuestcreatorListHeader: |
+  &2Quests :
+
+messageCommandQuestcreatorListElement: |
+  &7- {id} : {name}
+
+messageCommandQuestcreatorLogspamToggleOn: |
+  &7Log spam voor &a{player} &7staat &aaan&7.
+
+messageCommandQuestcreatorLogspamToggleOff: |
+  &7Log spam voor &c{player} &7staat &cuit&7.
+
+messageCommandQuestcreatorRunglobalbranchUnknown: |
+  &7Onbekende globale branch &c{branch}&7.
+
+messageCommandQuestcreatorRunglobalobjectUnknown: |
+  &7Onbekende globale object &c{object}&7.
+
+messageCommandQuestcreatorPoints: |
+  &7Je hebt &a{points} punten &7in de categorie &a{category}&7.
+
+messageCommandQuestcreatorPointsOperate: |
+  &7Je quest punten zijn gezet naar &a{amount} &7voor de categorie &a{category}&7.
+
+messageCommandQuestcreatorProgressEmpty: |
+  &7Er is geen actieve quest.
+
+messageCommandQuestcreatorProgressOnlineElement: |
+  &7&m          &r &7{id} : {name} &7&m          &r
+  &7Leider : &a{leader}
+  &7Co-Leider : &a{coop}
+  &7Start cause : &a{start_cause}
+  &7Uptime : &a{uptime}
+  &7Path : &a{path}
+  &7Checkpoint : &a{checkpoint}
+  {branches}
+
+messageCommandQuestcreatorProgressOnlineElementBranch: |
+  &7- Branch &a{branch}&7, object &a{object}
+  {progression}
+
+messageCommandQuestcreatorProgressOnlineElementProgression: |
+  &7  > &a{object}&7/&a{part} &7: &a{progression}&7/&a{goal}
+
+messageCommandQuestcreatorQueueNone: |
+  &7Je zit niet in de wachtlijst van een quest.
+
+messageCommandQuestcreatorQueueActive: |
+  &7Je zit in de wachtlijst voor quest : &e{quest} &7(players : &e{players}&7).
+  &7Positie : &e{position}&7/&e{max}
+
+messageCommandQuestcreatorQueueActiveError: |
+  &7YJe zit in de wachtlijst voor: &e{quest} &7(players : &e{players}&7).
+  &7Positie : &e{position}&7/&e{max}
+  &cZorg ervoor dat je deze fout oplost voordat je de eerste plaats bereikt : {error}
+
+messageCommandQuestcreatorResetEmpty: |
+  &7Er is geen quest die je opnieuw kan doen.
+
+messageCommandQuestcreatorReset: |
+  &7Je kan deze quest opnieuw doen : &a{quest}&7.
+
+messageCommandQuestcreatorResetpoolEmpty: |
+  &7Er is geen quest pool die je overnieuw kan doen.
+
+messageCommandQuestcreatorResetpool: |
+  &7Je quest pool kan je overnieuw doen : &a{pool}&7.
+
+messageCommandQuestcreatorScoreboardToggleOn: |
+  &7Je quest scoreboard staat &aaan&7.
+
+messageCommandQuestcreatorScoreboardToggleOff: |
+  &7Je quest scoreboard staat &cuit&7.
+
+messageCommandQuestcreatorSetpooltokens: |
+  &7Je hebt nu &a{amount} &7tokens voor de quest &a{quest}&7.
+
+messageCommandQuestcreatorStartCouldnt: |
+  &7Kan de quest : &c{quest}&7 niet starten.
+
+messageCommandQuestcreatorStartEmpty: |
+  &7Er is geen quest die je kan starten.
+
+messageCommandQuestcreatorStarted: |
+  &7Gestartte quest : &a{quest}&7.
+
+messageCommandQuestcreatorState: |
+  &7Status gezet naar &a{state}&7.
+
+messageCommandQuestcreatorStopEmpty: |
+  &7Er is geen quest die je kan stoppen.
+
+messageCommandQuestcreatorStopCouldnt: |
+  &7CIk kan de quest : &c{quest}&7 niet stoppen.
+
+messageCommandQuestcreatorStopped: |
+  &7Je quest : &a{quest}&7 is gestopt.
+
+messageCommandQuestcreatorTitleToggleOn: |
+  &7Je quest titel staat &aaan&7.
+
+messageCommandQuestcreatorTitleToggleOff: |
+  &7Je quest titel staat &cuit&7.
+
+messageCommandQuestcreatorUser: |
+  &7&m          &r &7{player} &7&m          &r
+  &7Pool tokens : &a{pool_tokens}
+  &7Actieve quests : &a{active_quests}
+  &7Voltooide quests :
+  {completed_quests}
+
+messageCommandQuestcreatorUserCompletedQuestElement: |
+  &7- &a{quest} &7: &a{counts}
+
+messageCommandQuestcreatorVariable: |
+  &7Je variable &a{variable} &7is nu gezet op &a{value}&7.
+
+messageCommandQuestcreatorVariableOperate: |
+  &7Je variable &a{variable} &7is nu gezet op &a{value}&7.
+
+# -------------------- Quest --------------------
+
+messageQuestCancelInactive: |
+  &7Je quest &c{quest} &7is inactief voor &c{time}&7, dus hij is gestopt.
+
+# -------------------- Coop --------------------
+
+messageCoopCreateLeader: |
+  &7Je hebt een coop quest gemaakt : &a{quest}&7. [1/{max}]
+
+messageCoopCreateAlreadyCoop: |
+  &c{player} &7zit al in de coop.
+
+messageCoopFull: |
+  &7Er is geen ruimte in de coop quest van &c{leader}&7.
+
+messageCoopInvite: |
+  &7Zet de username van de speler die je wil inviten in chat, of &c{cancel} &7om te annuleren.
+
+messageCoopInviteAlreadyThereLeader: |
+  &a{player} &7zit al in je coop quest, of is geïnvite.
+
+messageCoopInvited: |
+  &a{leader} &7heeft je geïnventeerd voor een coop quest : &a{quest}&7. Speel mee met /quest coop.
+
+messageCoopInvitedLeader: |
+  &7Je hebt de speler &a{player} &7geïnventeerd voor jouw coop quest.
+
+messageCoopNotInvited: |
+  &7Je hebt &a{leader} &7nodig, die jou moet inviten, om mee te doen met een quest .
+
+messageCoopNotInvitedLeader: |
+  &c{player} &7heeft geprobeerd om jouw coop quest te joinen.
+
+messageCoopJoin: |
+  &7Je hebt &a{leader}&7's zijn coop questn gejoind : &a{quest}&7. [{current}/{max}]
+
+messageCoopJoinOthers: |
+  &a{player} &7heeft de coop quest : &a{quest}&7. [{current}/{max}]
+
+messageCoopLeave: |
+  &7Je hebt de coop quest van &c{leader}&7 verlaten.
+
+messageCoopLeaveOthers: |
+  &c{player} &7heeft de coop quest verlaten. [{current}/{max}]
+
+messageCoopDisband: |
+  &7Je hebt je coop quest ontbonden : &c{quest}&7.
+
+messageCoopDisbandOthers: |
+  &c{leader} &7heeft zijn coop quest ontbonden : &c{quest}&7.
+
+messageCoopKickNotInLeader: |
+  &c{player} &7zit niet in je coop quest, aangezien hij niet geïnventeerd is.
+
+messageCoopKickInviteLeader: |
+  &7De invitatie voor &c{player} &7is verwijderd.
+
+messageCoopKick: |
+  &7Je bent gekicked uit &c{leader}&7's zijn coop quest : &c{quest}&7.
+
+messageCoopKickOthers: |
+  &c{player} &7is gekicked uit de coop quest. [{current}/{max}]
+
+# -------------------- Queue --------------------
+
+messageQueueCreateAlreadyCoop: |
+  &c{player} &7zit al in de wachtlijst voor deze quest.
+
+messageQueueCreateCantMultiple: |
+  &7Je kan nie tin de wachtlijst voor meerdere quests.
+
+messageQueueCouldntStartPosition: |
+  &cIk kan de quest : &c{quest}&7 niet starten. Je bent toegevoegd aan de wachtlijst, in de positie &c{position}&7/&c{max}&7.
+
+messageQueuePosition: |
+  &7Je zit in de positie &a{position}&7/&a{max} &7in de wachtlijst voor de quest : &a{quest}&7.
+
+messageQueueStarted: |
+  &7Je bent klaar in de wachtlijst voor de quest : &a{quest}&7. Ik start de quest nu !
+
+messageQueueLeave: |
+  &7Je hebt de wachtlijst voor de quest : &c{quest}&7 verlaten.
+
+# -------------------- Preconditions --------------------
+
+messagePreconditionsError: |
+  &c{error}
+
+textPreconditionsErrorInvalidModelErrors: |
+  &7Quest model is invalid :
+  &c{errors}
+
+textPreconditionsErrorAloneUserNotLoader: |
+  &7Je gebruikersdata is niet geladen.
+
+textPreconditionsErrorCoopUserNotLoader: |
+  &c{player}&7's user data isn't loaded.
+
+textPreconditionsErrorQuestTooManyInstances: |
+  &7Te veel spelers spelen deze quest op dit moment.
+
+textPreconditionsErrorAlonePlayerAlreadyActive: |
+  &7Je bent deze quest al aan het volgen.
+
+textPreconditionsErrorCoopPlayerAlreadyActive: |
+  &c{player} &7volgt deze quest al.
+
+textPreconditionsErrorAlonePlayerTooManyQuests: |
+  &7Je volgt al teveel quests. 
+
+textPreconditionsErrorCoopPlayerTooManyQuests: |
+  &c{player} &7volgt al teveel quests.
+
+textPreconditionsErrorAlonePlayerMaxCompletions: |
+  &7Je hebt deze quest  al voltooid.
+
+textPreconditionsErrorCoopPlayerMaxCompletions: |
+  &c{player} &7heeft deze quest al voltooid.
+
+textPreconditionsErrorAlonePlayerGroupTooManyQuests: |
+  &7Je volgt al teveel quests van deze groep.
+
+textPreconditionsErrorCoopPlayerGroupTooManyQuests: |
+  &c{player} &7 volgt al genoeg quests van deze coop.
+
+textPreconditionsErrorAlonePlayerGroupPreviousQuestNotCompleted: |
+  &7Je hebt niet de vorige quests gevoltooid van deze group.
+
+textPreconditionsErrorCoopPlayerGroupPreviousQuestNotCompleted: |
+  &c{player} &7heeft niet de vorige quests gevoltooid van deze group.
+
+textPreconditionsErrorAlonePlayerCooldown: |
+  &7Je moet nog &c{time} &7wachten om deze quest opnieuw te volgen.
+
+textPreconditionsErrorCoopPlayerCooldown: |
+  &c{player} &7moet nog &c{time} &7wachten om deze quest opnieuw te volgen.
+
+textPreconditionsErrorAlonePlayerNoTokens: |
+  &7Je hebt niet genoeg tokens voor deze quest.
+
+textPreconditionsErrorCoopPlayerNoTokens: |
+  &c{player} &7heeft niet genoeg tokens voor deze quest.
+
+textPreconditionsErrorQuestCoopQuest: |
+  &cDit is een coop quest.
+
+textPreconditionsErrorQuestNotCoopQuest: |
+  &cDit is geen coop quest.
+
+textPreconditionsErrorQuestNotEnoughPlayers: |
+  &7Je moet met minimaal &c{min} speler{plural} &7zijn, voor deze quest.
+
+textPreconditionsErrorQuestTooManyPlayers: |
+  &7Je moet met maximaal &c{max} speler{plural} &7zijn, voor deze quest.
+
+textPreconditionsErrorAlonePlayerNoPermission: |
+  &7Je hebt geen permissies om deze quest te doen.
+
+textPreconditionsErrorCoopPlayerNoPermission: |
+  &c{player} &7heeft geen permissie voor deze quest.
+
+textPreconditionsErrorAlonePlayerDisallowedWorld: |
+  &7Je kan deze quest niet doen in deze wereld.
+
+textPreconditionsErrorCoopPlayerDisallowedWorld: |
+  &c{player} &7kan niet deze quest doen in de wereld waar hij zich bevindt.
+
+textPreconditionsErrorStartConditionsDontMatch: |
+  &7Start conditions zijn verkeerd.
+
+textPreconditionsErrorGroupStartConditionsDontMatch: |
+  &7Group start conditions zijn verkeerd.
+
+# -------------------- Detailed progression (verbose) --------------------
+
+textDetailedProgressionBranch: '&2&l{name}'
+textDetailedProgressionBranchNoName: []
+
+textDetailedProgressionObject: '&a> &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionObjectDistance: '&a> &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionObjectNoDetail: '&2> &7{name}'
+textDetailedProgressionObjectNoName: []
+
+textDetailedProgressionObjectDelegateHeader: '&a> &7{name}'
+textDetailedProgressionObjectDelegateHeaderNoName: []
+
+textDetailedProgressionObjectDelegate: '&a- &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionObjectDelegateCompleted: '&7&m- {name} &7({progression}/{goal}&7)'
+textDetailedProgressionObjectDelegateDistance: '&a- &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionObjectDelegateDistanceCompleted: '&7&m- {name} &7({distance}m&7)'
+textDetailedProgressionObjectDelegateNoDetail: '&a- &7{name}'
+textDetailedProgressionObjectDelegateNoDetailCompleted: '&7&m- {name}&7'
+textDetailedProgressionObjectDelegateNoName: []
+textDetailedProgressionObjectDelegateNoNameCompleted: []
+
+# -------------------- Detailed progression (scoreboard) --------------------
+
+textDetailedProgressionScoreboardBranch: '&2&l{name}'
+textDetailedProgressionScoreboardBranchNoName: []
+
+textDetailedProgressionScoreboardObject: '&a> &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionScoreboardObjectDistance: '&a> &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionScoreboardObjectNoDetail: '&2> &7{name}'
+textDetailedProgressionScoreboardObjectNoName: []
+
+textDetailedProgressionScoreboardObjectDelegateHeader: '&a> &7{name}'
+textDetailedProgressionScoreboardObjectDelegateHeaderNoName: []
+
+textDetailedProgressionScoreboardObjectDelegate: '&a- &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionScoreboardObjectDelegateCompleted: '&7&m- {name} &7({progression}/{goal}&7)'
+textDetailedProgressionScoreboardObjectDelegateDistance: '&a- &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionScoreboardObjectDelegateDistanceCompleted: '&7&m- {name} &7({distance}m&7)'
+textDetailedProgressionScoreboardObjectDelegateNoDetail: '&a- &7{name}'
+textDetailedProgressionScoreboardObjectDelegateNoDetailCompleted: '&7&m- {name}&7'
+textDetailedProgressionScoreboardObjectDelegateNoName: []
+textDetailedProgressionScoreboardObjectDelegateNoNameCompleted: []
+
+# -------------------- Detailed progression (PlaceholderAPI) --------------------
+
+textDetailedProgressionPlaceholderAPIObject: '&7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionPlaceholderAPIObjectDistance: '&7{name} &7(&a{distance}m&7)'
+
+textDetailedProgressionPlaceholderAPIObjectNoDetail: '&7{name}'
+textDetailedProgressionPlaceholderAPIObjectNoName: '&7/'
+
+# -------------------- Journal --------------------
+
+textJournalEmpty: |
+  &7Je Quest logboek is leeg.
+
+# -------------------- Diverge --------------------
+
+textDivergeLineSplit: '&r    '
+
+textDivergeSelect: |
+  &dClick to select
+
+textDivergeCantSelect: |
+  &7Je kan geen keuzes maken in deze quest
+
+textDivergeCantSelectUnavailable: |
+  &7Deze keuze kan je niet maken
+
+textServerActionPromptNext: |
+  &dClick to continue
+
+# -------------------- Scoreboard --------------------
+
+textScoreboarOneQuestTitle: |
+  &7&m    &r &d&lQuest &7&m    &r
+
+textScoreboardOneQuestContent: |
+  &r
+  &a{quest}
+  &r
+  {detailed_progression}
+  &r
+  &e&ohttp://guillaumevdn.com
+
+textScoreboardOneQuestContentNone: |
+  &r
+  &7No active quest !
+  &r
+  &dguillaumevdn.com
+
+textScoreboardMultipleQuestTitle: |
+  &7&m    &r &d&lQuest &7&m    &r
+
+textScoreboardMultipleQuestContent: |
+  {quests}
+  &r
+  &e&ohttp://guillaumevdn.com
+
+textScoreboardMultipleQuestContentQuest: |
+  &r
+  &a{quest}
+  &r
+  {detailed_progression}
+
+textScoreboardMultipleQuestContentNone: |
+  &r
+  &7No active quest !
+  &r
+  &e&ohttp://guillaumevdn.com
+
+# -------------------- GUI --------------------
+
+guiDefaultActivatorName: |
+  &7Quests
+
+guiQuestCoopPlayers: |
+  &r
+  &7Coop quest met &b{players}
+  &7{leader}
+  &r
+
+guiQuestCoopLeader: |
+  &7You're the leader.
+
+guiQuestCoopNotLeader: |
+  &7Leader is {leader}.
+
+guiQuestControls: |
+  &r
+  &d{controls}
+
+guiQuestControlsInfo: |
+  &dLeft-click voor meer informatie
+
+guiQuestControlsStart: |
+  &dRight-click to start quest
+
+guiQuestControlsStartCoop: |
+  &dShift + right-click to start coop quest
+
+guiQuestControlsPhysicalActivatorGUIStart: |
+  &dRight-click to start quest
+
+guiQuestControlsPhysicalActivatorGUIStartCoop: |
+  &dShift + right-click to start coop quest
+
+guiQuestControlsStop: |
+  &dRight-click to stop quest
+
+guiQuestControlsLeave: |
+  &dRight-click to leave coop quest
+
+guiQuestDetailedProgression: |
+  &r
+  {detailed_progression}
+
+guiQuestDetailedErrors: |
+  &r
+  {detailed_errors}
+
+guiQuestCompletionCount: |
+  &r
+  &7Je hebt deze quest {count} keer voltooid
+
+guiQuestCompletionCountGoal: |
+  &r
+  &7You completed this quest {count}/{max} time{plural}
+
+guiQuestCooldown: |
+  &r
+  &7Please wait &a{time} &7to start this quest again.
+
+guiQuestCooldownPool: |
+  &r
+  &7New quests will be calculated in &a{time}&7.
+
+guiQuestCompleted: |
+  &7Date of completion : &a{date}&7.
+
+guiConfirmLoreStopQuest: |
+  &7Click here to &cstop this quest &7:
+  &c{quest}
+
+guiConfirmLoreLeaveCoopQuest: |
+  &7Click here to &cleave this coop quest &7:
+  &c{quest}
+
+guiConfirmLoreStartQuest: |
+  &7Click here to &astart this quest &7:
+  &a{quest}
+
+guiConfirmLoreStartCoopQuest: |
+  &7Click here to &astart this quest in coop &7:
+  &a{quest}
+
+guiConfirmLoreStartQuestAfterActivatorDialog: |
+  &7Quest : &a{quest}
+
+guiConfirmLoreStartCoopQuestAfterActivatorDialog: |
+  &7Click here to &astart this quest in coop &7:
+  &a{quest}
+
+# -------------------- Integration --------------------
+
+integrationDynmapMarkerSetName: Quests
+integrationHolographicDisplaysActivatorHologramStatusCount: '&a{count}'
+integrationHolographicDisplaysActivatorHologramNoStatusCount: '&c0'
+integrationHolographicDisplaysActivatorHologramStatusList: '&a{list}'
+integrationHolographicDisplaysActivatorHologramStatusListSeparator: '&7, &a'
+integrationHolographicDisplaysActivatorHologramNoStatusList: '&cnone'
+
+# -------------------- Scoreboard --------------------
+
+messageScoreboardScrollingStart: >
+  &aJe bent gestart met scrollen in het scoreboard. Left-click om omhoog te gaan, right-click om omlaag te gaan. Rewrite the same chat to quit.
+
+messageScoreboardScrollingStop: >
+  &7Je bent gestopt met scrollen in het scoreboard.
+
+messageScoreboardScrollingReachedTop: >
+  &7Je hebt de bovenkant van het scoreboard bereikt.
+
+messageScoreboardScrollingReachedBottom: >
+  &7Je hebt de onderkant van het scoreboard bereikt.

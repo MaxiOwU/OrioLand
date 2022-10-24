@@ -1,0 +1,11 @@
+[17/10 17:00:02] [info] tangasrosas | connected
+[17/10 17:00:02] [info] tangasrosas | fetched user data : no value ; created it
+[17/10 17:00:02] [info] tangasrosas | pushing user eca4cab8-a2c8-33d7-9944-bbf371d8f517, active quests : 
+[17/10 17:00:02] [info] tangasrosas | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[17/10 17:00:02] [info] tangasrosas | fetched user quests : 
+[17/10 17:25:27] [info] tangasrosas | disposing user quests data : 
+- must dispose quests
+[17/10 17:25:27] [info] tangasrosas | disposed user data
+[17/10 17:25:27] [info] tangasrosas | disconnected

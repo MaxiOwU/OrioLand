@@ -1,0 +1,279 @@
+[16/10 10:03:40] [info] andiricum2 | fetched user data : no value ; created it
+[16/10 10:03:40] [info] andiricum2 | pushing user 0ca63922-b5d5-36c7-8892-10e0fdcb3da5, active quests : 
+[16/10 10:03:40] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 10:03:40] [info] andiricum2 | fetched user quests : 
+[16/10 10:07:24] [info] andiricum2 | pushing user 0ca63922-b5d5-36c7-8892-10e0fdcb3da5, active quests : 
+[16/10 10:07:25] [info] andiricum2 | pushing user 0ca63922-b5d5-36c7-8892-10e0fdcb3da5, active quests : 
+[16/10 10:13:32] [info] andiricum2 | fetched user data : active quests 
+[16/10 10:13:32] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 10:13:32] [info] andiricum2 | fetched user quests : 
+[16/10 10:15:35] [info] andiricum2 | fetched user data : active quests 
+[16/10 10:15:35] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 10:15:35] [info] andiricum2 | fetched user quests : 
+[16/10 10:19:05] [info] andiricum2 | fetched user data : active quests 
+[16/10 10:19:05] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 10:19:05] [info] andiricum2 | fetched user quests : 
+[16/10 10:19:34] [info] andiricum2 | fetched user data : active quests 
+[16/10 10:19:34] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 10:19:34] [info] andiricum2 | fetched user quests : 
+[16/10 10:23:55] [info] andiricum2 | quest andiricum2/example_npc_deliver | pushing quest example_npc_deliver = 6465ae44-14d6-4287-bd55-e950419227eb
+[16/10 10:23:55] [info] andiricum2 | quest andiricum2/example_npc_deliver | started quest : cause ACTIVATOR_PHYSICAL
+[16/10 10:23:55] [info] andiricum2 | quest andiricum2/example_npc_deliver/main | started branch
+[16/10 10:23:56] [info] andiricum2 | pushing user 0ca63922-b5d5-36c7-8892-10e0fdcb3da5, active quests : example_npc_deliver=6465ae44-14d6-4287-bd55-e950419227eb
+[16/10 10:28:29] [info] andiricum2 | quest andiricum2/example_npc_deliver | goto QUEST_SUCCESS | applying goto
+[16/10 10:28:29] [info] andiricum2 | quest andiricum2/example_npc_deliver | give rewards for group, debug : group rewards processing debug |
+model : example_npc_deliver
+groups : 
+quest players : 0ca63922-b5d5-36c7-8892-10e0fdcb3da5
+- preparing to process player 0ca63922-b5d5-36c7-8892-10e0fdcb3da5
+-- processing player 0ca63922-b5d5-36c7-8892-10e0fdcb3da5, andiricum2
+--- end type : SUCCESS
+--- groups here : 
+[16/10 10:28:29] [info] andiricum2 | quest andiricum2/example_npc_deliver | stopped quest : cause GOTO
+[16/10 10:28:29] [info] andiricum2 | pushing user 0ca63922-b5d5-36c7-8892-10e0fdcb3da5, active quests : 
+[16/10 10:29:43] [info] andiricum2 | fetched user data : no value ; created it
+[16/10 10:29:43] [info] andiricum2 | pushing user 0ca63922-b5d5-36c7-8892-10e0fdcb3da5, active quests : 
+[16/10 10:29:43] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 10:29:43] [info] andiricum2 | fetched user quests : 
+[16/10 10:29:45] [info] andiricum2 | quest andiricum2/example_npc_deliver | pushing quest example_npc_deliver = e291f4c6-9ec6-4a7f-981f-81614ec88260
+[16/10 10:29:45] [info] andiricum2 | quest andiricum2/example_npc_deliver | started quest : cause ACTIVATOR_PHYSICAL
+[16/10 10:29:45] [info] andiricum2 | quest andiricum2/example_npc_deliver/main | started branch
+[16/10 10:29:45] [info] andiricum2 | pushing user 0ca63922-b5d5-36c7-8892-10e0fdcb3da5, active quests : example_npc_deliver=e291f4c6-9ec6-4a7f-981f-81614ec88260
+[16/10 10:30:44] [info] andiricum2 | quest andiricum2/example_npc_deliver | give rewards for group, debug : group rewards processing debug |
+model : example_npc_deliver
+groups : 
+quest players : 0ca63922-b5d5-36c7-8892-10e0fdcb3da5
+- preparing to process player 0ca63922-b5d5-36c7-8892-10e0fdcb3da5
+-- processing player 0ca63922-b5d5-36c7-8892-10e0fdcb3da5, andiricum2
+--- end type : CANCEL
+[16/10 10:30:44] [info] andiricum2 | quest andiricum2/example_npc_deliver | stopped quest : cause GUI
+[16/10 10:30:44] [info] andiricum2 | pushing user 0ca63922-b5d5-36c7-8892-10e0fdcb3da5, active quests : 
+[16/10 10:43:27] [info] andiricum2 | fetched user data : active quests 
+[16/10 10:43:27] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 10:43:27] [info] andiricum2 | fetched user quests : 
+[16/10 10:43:36] [info] andiricum2 | fetched user data : active quests 
+[16/10 10:43:36] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 10:43:36] [info] andiricum2 | fetched user quests : 
+[16/10 10:48:38] [info] andiricum2 | fetched user data : active quests 
+[16/10 10:48:38] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 10:48:38] [info] andiricum2 | fetched user quests : 
+[16/10 10:49:15] [info] andiricum2 | fetched user data : no value ; created it
+[16/10 10:49:15] [info] andiricum2 | pushing user 0ca63922-b5d5-36c7-8892-10e0fdcb3da5, active quests : 
+[16/10 10:49:15] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 10:49:15] [info] andiricum2 | fetched user quests : 
+[16/10 10:50:17] [info] andiricum2 | fetched user data : active quests 
+[16/10 10:50:17] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 10:50:17] [info] andiricum2 | fetched user quests : 
+[16/10 10:51:54] [info] andiricum2 | fetched user data : active quests 
+[16/10 10:51:54] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 10:51:54] [info] andiricum2 | fetched user quests : 
+[16/10 11:06:12] [info] andiricum2 | fetched user data : active quests 
+[16/10 11:06:12] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 11:06:12] [info] andiricum2 | fetched user quests : 
+[16/10 11:06:52] [info] andiricum2 | fetched user data : active quests 
+[16/10 11:06:52] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 11:06:52] [info] andiricum2 | fetched user quests : 
+[16/10 11:09:45] [info] andiricum2 | fetched user data : active quests 
+[16/10 11:09:45] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 11:09:45] [info] andiricum2 | fetched user quests : 
+[16/10 11:10:05] [info] andiricum2 | fetched user data : active quests 
+[16/10 11:10:05] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 11:10:05] [info] andiricum2 | fetched user quests : 
+[16/10 11:10:10] [info] andiricum2 | fetched user data : active quests 
+[16/10 11:10:10] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 11:10:10] [info] andiricum2 | fetched user quests : 
+[16/10 11:10:56] [info] andiricum2 | fetched user data : active quests 
+[16/10 11:10:56] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 11:10:56] [info] andiricum2 | fetched user quests : 
+[16/10 11:21:57] [info] andiricum2 | disposing user quests data : 
+- must dispose quests
+[16/10 11:21:57] [info] andiricum2 | disposed user data
+[16/10 11:21:57] [info] andiricum2 | disconnected
+[22/10 11:27:18] [info] andiricum2 | connected
+[22/10 11:27:18] [info] andiricum2 | fetched user data : active quests 
+[22/10 11:27:18] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[22/10 11:27:18] [info] andiricum2 | fetched user quests : 
+[22/10 11:30:25] [info] andiricum2 | disposing user quests data : 
+- must dispose quests
+[22/10 11:30:25] [info] andiricum2 | disposed user data
+[22/10 11:30:25] [info] andiricum2 | disconnected
+[22/10 13:28:07] [info] andiricum2 | connected
+[22/10 13:28:07] [info] andiricum2 | fetched user data : active quests 
+[22/10 13:28:07] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[22/10 13:28:07] [info] andiricum2 | fetched user quests : 
+[22/10 13:29:28] [info] andiricum2 | disposing user quests data : 
+- must dispose quests
+[22/10 13:29:28] [info] andiricum2 | disposed user data
+[22/10 13:29:28] [info] andiricum2 | disconnected
+[22/10 13:31:52] [info] andiricum2 | connected
+[22/10 13:31:52] [info] andiricum2 | fetched user data : active quests 
+[22/10 13:31:52] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[22/10 13:31:52] [info] andiricum2 | fetched user quests : 
+[22/10 13:40:43] [info] andiricum2 | disposing user quests data : 
+- must dispose quests
+[22/10 13:40:43] [info] andiricum2 | disposed user data
+[22/10 13:40:43] [info] andiricum2 | disconnected
+[22/10 13:44:54] [info] andiricum2 | connected
+[22/10 13:44:54] [info] andiricum2 | fetched user data : active quests 
+[22/10 13:44:54] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[22/10 13:44:54] [info] andiricum2 | fetched user quests : 
+[22/10 13:47:16] [info] andiricum2 | disposing user quests data : 
+- must dispose quests
+[22/10 13:47:16] [info] andiricum2 | disposed user data
+[22/10 13:47:16] [info] andiricum2 | disconnected
+[22/10 14:46:46] [info] andiricum2 | connected
+[22/10 14:46:46] [info] andiricum2 | fetched user data : active quests 
+[22/10 14:46:46] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[22/10 14:46:46] [info] andiricum2 | fetched user quests : 
+[22/10 16:15:58] [info] andiricum2 | disposing user quests data : 
+- must dispose quests
+[22/10 16:15:58] [info] andiricum2 | disposed user data
+[22/10 16:15:58] [info] andiricum2 | disconnected
+[22/10 19:34:32] [info] andiricum2 | connected
+[22/10 19:34:32] [info] andiricum2 | fetched user data : active quests 
+[22/10 19:34:32] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[22/10 19:34:32] [info] andiricum2 | fetched user quests : 
+[22/10 19:36:16] [info] andiricum2 | disposing user quests data : 
+- must dispose quests
+[22/10 19:36:16] [info] andiricum2 | disposed user data
+[22/10 19:36:16] [info] andiricum2 | disconnected
+[23/10 14:26:51] [info] andiricum2 | connected
+[23/10 14:26:51] [info] andiricum2 | fetched user data : active quests 
+[23/10 14:26:51] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 14:26:51] [info] andiricum2 | fetched user quests : 
+[23/10 15:30:27] [info] andiricum2 | disposing user quests data : 
+- must dispose quests
+[23/10 15:30:27] [info] andiricum2 | disposed user data
+[23/10 15:30:27] [info] andiricum2 | disconnected
+[23/10 15:36:33] [info] andiricum2 | connected
+[23/10 15:36:33] [info] andiricum2 | fetched user data : active quests 
+[23/10 15:36:33] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 15:36:33] [info] andiricum2 | fetched user quests : 
+[23/10 15:49:47] [info] andiricum2 | connected
+[23/10 15:49:47] [info] andiricum2 | fetched user data : active quests 
+[23/10 15:49:47] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 15:49:47] [info] andiricum2 | fetched user quests : 
+[23/10 16:07:37] [info] andiricum2 | disposing user quests data : 
+- must dispose quests
+[23/10 16:07:37] [info] andiricum2 | disposed user data
+[23/10 16:07:37] [info] andiricum2 | disconnected
+[23/10 16:07:42] [info] andiricum2 | connected
+[23/10 16:07:42] [info] andiricum2 | fetched user data : active quests 
+[23/10 16:07:42] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 16:07:42] [info] andiricum2 | fetched user quests : 
+[23/10 16:14:49] [info] andiricum2 | disposing user quests data : 
+- must dispose quests
+[23/10 16:14:49] [info] andiricum2 | disposed user data
+[23/10 16:14:49] [info] andiricum2 | disconnected
+[23/10 17:12:32] [info] andiricum2 | connected
+[23/10 17:12:32] [info] andiricum2 | fetched user data : active quests 
+[23/10 17:12:32] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 17:12:32] [info] andiricum2 | fetched user quests : 
+[23/10 17:23:23] [info] andiricum2 | disposing user quests data : 
+- must dispose quests
+[23/10 17:23:23] [info] andiricum2 | disposed user data
+[23/10 17:23:23] [info] andiricum2 | disconnected
+[23/10 17:23:34] [info] andiricum2 | connected
+[23/10 17:23:34] [info] andiricum2 | fetched user data : active quests 
+[23/10 17:23:34] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 17:23:34] [info] andiricum2 | fetched user quests : 
+[23/10 17:31:29] [info] andiricum2 | disposing user quests data : 
+- must dispose quests
+[23/10 17:31:29] [info] andiricum2 | disposed user data
+[23/10 17:31:29] [info] andiricum2 | disconnected
+[23/10 18:12:32] [info] andiricum2 | connected
+[23/10 18:12:32] [info] andiricum2 | fetched user data : active quests 
+[23/10 18:12:32] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 18:12:32] [info] andiricum2 | fetched user quests : 
+[23/10 18:42:01] [info] andiricum2 | disposing user quests data : 
+- must dispose quests
+[23/10 18:42:01] [info] andiricum2 | disposed user data
+[23/10 18:42:01] [info] andiricum2 | disconnected
+[24/10 14:03:08] [info] andiricum2 | connected
+[24/10 14:03:08] [info] andiricum2 | fetched user data : active quests 
+[24/10 14:03:08] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[24/10 14:03:08] [info] andiricum2 | fetched user quests : 
+[24/10 15:43:15] [info] andiricum2 | disposing user quests data : 
+- must dispose quests
+[24/10 15:43:15] [info] andiricum2 | disposed user data
+[24/10 15:43:15] [info] andiricum2 | disconnected
+[24/10 15:49:24] [info] andiricum2 | connected
+[24/10 15:49:24] [info] andiricum2 | fetched user data : active quests 
+[24/10 15:49:24] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[24/10 15:49:24] [info] andiricum2 | fetched user quests : 
+[24/10 16:04:57] [info] andiricum2 | disposing user quests data : 
+- must dispose quests
+[24/10 16:04:57] [info] andiricum2 | disposed user data
+[24/10 16:04:57] [info] andiricum2 | disconnected
+[24/10 16:05:02] [info] andiricum2 | connected
+[24/10 16:05:02] [info] andiricum2 | fetched user data : active quests 
+[24/10 16:05:02] [info] andiricum2 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[24/10 16:05:02] [info] andiricum2 | fetched user quests : 

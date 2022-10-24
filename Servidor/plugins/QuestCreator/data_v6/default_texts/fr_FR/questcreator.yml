@@ -1,0 +1,645 @@
+# -------------------- Commands --------------------
+
+commandParameterUsageModel: quête
+commandParameterUsageBranch: branche
+commandParameterUsageObject: objet
+commandParameterUsagePartId: id de progression
+commandParameterUsageGUI: gui
+commandParameterUsagePool: pool
+commandParameterUsageState: état
+commandParameterUsagePointsCategory: catégorie
+commandParameterUsageVariable: variable
+
+commandDescriptionQuestcreator: commande principale de QuestCreator
+commandDescriptionQuestcreatorActionbar: basculer l'actionbar de quête
+commandDescriptionQuestcreatorBossbar: basculer la bossbar de quête
+commandDescriptionQuestcreatorComplete: marquer une quête comme complétée
+commandDescriptionQuestcreatorCompletebranch: marquer l'objet de quête actif dans la branche comme complété
+commandDescriptionQuestcreatorCoop: gérer les quêtes en coopération
+commandDescriptionQuestcreatorGoto: update une quête
+commandDescriptionQuestcreatorGPS: basculer le GPS de quête
+commandDescriptionQuestcreatorIncreaseProgress: augmenter la progression d'une quête
+commandDescriptionQuestcreatorEdit: éditer en jeu
+commandDescriptionQuestcreatorJournal: gérer le journal de quête
+commandDescriptionQuestcreatorList: lister les quêtes
+commandDescriptionQuestcreatorLogspam: basculer le spam de log de débug
+commandDescriptionQuestcreatorPoints: gérer les points de quête
+commandDescriptionQuestcreatorMenu: ouvrir un menu spécifique
+commandDescriptionQuestcreatorModelVariable: gérer les variables d'une quête
+commandDescriptionQuestcreatorPerformglobalbranch: exécuter tous les objets d'une branche globale
+commandDescriptionQuestcreatorPerformglobalobject: exécuter un objet global
+commandDescriptionQuestcreatorProgress: vérifier la progression d'une quête
+commandDescriptionQuestcreatorQueue: vérifier la progression de la queue de quêtes
+commandDescriptionQuestcreatorStop: arrêter une quête
+commandDescriptionQuestcreatorStart: démarrer une quête
+commandDescriptionQuestcreatorState: définir un état
+commandDescriptionQuestcreatorReset: réinitialiser une quête
+commandDescriptionQuestcreatorResetpool: réinitialiser un pool
+commandDescriptionQuestcreatorScoreboard: basculer le scoreboard de quête
+commandDescriptionQuestcreatorServerVariable: gérer les variables serveur
+commandDescriptionQuestcreatorSetpooltokens: définir les tokens d'un pool
+commandDescriptionQuestcreatorTitle: basculer le titre de quête
+commandDescriptionQuestcreatorUser: regarder quelques données d'un joueur
+commandDescriptionQuestcreatorVariable: gérer les variables
+
+messageCommandInvalidModel: |
+  &7Le modèle de quête &c{value} &7est invalide pour l'argument &c{argument}&7.
+
+messageCommandInvalidBranch: |
+  &7La branche de quête &c{value} &7est invalide pour l'argument &c{argument}&7.
+
+messageCommandInvalidQuestObject: |
+  &7L'objet de quête &c{value} &7est invalide pour l'argument &c{argument}&7.
+
+messageCommandQuestcreatorBungeePlayerIsntOffline: |
+  &7Le joueur a l'air d'être connecté sur un autre serveur. Essayez de le rejoindre d'abord.
+
+messageCommandQuestcreatorActionbarToggleOn: |
+  &7YVotre actionbar de quête a été &aactivée&7.
+
+messageCommandQuestcreatorActionbarToggleOff: |
+  &7YVotre actionbar de quête a été &cdésctivée&7.
+
+messageCommandQuestcreatorBossbarToggleOn: |
+  &7YVotre bossbar de quête a été &aactivée&7.
+
+messageCommandQuestcreatorBossbarToggleOff: |
+  &7YVotre bossbar de quête a été &cdésctivé&7.
+
+messageCommandQuestcreatorCoopNotInvited: |
+  &7Vous n'avez pas d'invitation en attente. Pour créer une quête en coopération, démarrez-la et vous verrez des options de coopération !
+
+messageCommandQuestcreatorCoopLeaveEmpty: |
+  &7Il n'y a pas de quête à quitter.
+
+messageCommandQuestcreatorCoopLeaveCouldnt: |
+  &7Impossible de quitter la quête : &c{quest}&7.
+
+messageCommandQuestcreatorCoopLeaveLeft: |
+  &7Vous avez quitté la quête : &a{quest}&7.
+
+messageCommandQuestcreatorComplete: |
+  &7Votre quête a été marquée comme complétée &a{amount} fois &7: &a{quest}&7.
+
+messageCommandQuestcreatorCompleteBranch: |
+  &7L'objectif actuel a été complété pour la branche &a{branch} &7de votre quête &a{quest}&7.
+
+messageCommandQuestcreatorCompleteBranchNoQuest: |
+  &7Cette quête n'est pas active.
+
+messageCommandQuestcreatorGoto: |
+  &7Des changements ont été faits à votre quête : &a{quest}&7.
+
+messageCommandQuestcreatorGotoNoQuest: |
+  &7Cette quête n'est pas active.
+
+messageCommandQuestcreatorGPSToggleOn: |
+  &7Votre GPS de quête a été &aactivé&7.
+
+messageCommandQuestcreatorGPSToggleOff: |
+  &7Votre GPS de quête a été &cdésctivé&7.
+
+messageCommandQuestcreatorIncreaseProgressNotFound: |
+  &7Rien à progresser.
+
+messageCommandQuestcreatorIncreaseProgressIncreased: |
+  &7La progression est maintenant &a{progression}&7.
+
+messageCommandQuestcreatorJournalToggleOn: |
+  &7Votre journal de quête a été &aactivé&7.
+
+messageCommandQuestcreatorJournalToggleOff: |
+  &7Votre journal de quête a été &cdésctivé&7.
+
+messageCommandQuestcreatorListEmpty: |
+  &7Il n'y a pas de quête.
+
+messageCommandQuestcreatorListHeader: |
+  &2Quêtes :
+
+messageCommandQuestcreatorListElement: |
+  &7- {id} : {name}
+
+messageCommandQuestcreatorLogspamToggleOn: |
+  &7Le spam de log de débugs pour &a{player} &7a été &aactivé&7.
+
+messageCommandQuestcreatorLogspamToggleOff: |
+  &7Le spam de log de débugs pour &c{player} &7a été &cdésctivé&7.
+
+messageCommandQuestcreatorModelVariableNoQuest: |
+  &7Cette quête n'est pas active.
+
+messageCommandQuestcreatorRunglobalbranchUnknown: |
+  &7Branche globale inconnue : &c{branch}&7.
+
+messageCommandQuestcreatorRunglobalobjectUnknown: |
+  &7Objet global inconnu : &c{object}&7.
+
+messageCommandQuestcreatorPoints: |
+  &7Vous avez &a{points} point{plural} &7dans la catégorie &a{category}&7.
+
+messageCommandQuestcreatorPointsOperate: |
+  &7Vos points de quête ont été définis à &a{amount} &7pour la catégorie &a{category}&7.
+
+messageCommandQuestcreatorProgressEmpty: |
+  &7Il n'y a pas de quête active.
+
+messageCommandQuestcreatorProgressOnlineElement: |
+  &7&m          &r &7{id} : {name} &7&m          &r
+  &7Leader : &a{leader}
+  &7Coop : &a{coop}
+  &7Raison : &a{start_cause}
+  &7Temps : &a{uptime}
+  &7Chemin : &a{path}
+  &7Checkpoint : &a{checkpoint}
+  {branches}
+
+messageCommandQuestcreatorProgressOnlineElementBranch: |
+  &7- Branche &a{branch}&7, objet &a{object}
+  {progression}
+
+messageCommandQuestcreatorProgressOnlineElementProgression: |
+  &7  > &a{object}&7/&a{part} &7: &a{progression}&7/&a{goal}
+
+messageCommandQuestcreatorQueueNone: |
+  &7Vous n'êtes pas dans une queue de quête.
+
+messageCommandQuestcreatorQueueActive: |
+  &7Vous ête dans la queue pour la quête : &e{quest} &7(joueurs : &e{players}&7).
+  &7Position : &e{position}&7/&e{max}
+
+messageCommandQuestcreatorQueueActiveError: |
+  &7Vous ête dans la queue pour la quête : &e{quest} &7(joueurs : &e{players}&7).
+  &7Position : &e{position}&7/&e{max}
+  &cRéglez ce problème avant d'arriver à la position 1 : {error}
+
+messageCommandQuestcreatorResetEmpty: |
+  &7Il n'y a pas de quête à réinitialiser.
+
+messageCommandQuestcreatorReset: |
+  &7Votre quête a été réinitialisée : &a{quest}&7.
+
+messageCommandQuestcreatorResetpoolEmpty: |
+  &7Il n'y a pas de pool à réinitialiser.
+
+messageCommandQuestcreatorResetpool: |
+  &7Votre pool a été réinitialisé : &a{pool}&7.
+
+messageCommandQuestcreatorScoreboardToggleOn: |
+  &7Votre scoreboard de quête a été &aactivé&7.
+
+messageCommandQuestcreatorScoreboardToggleOff: |
+  &7Votre scoreboard de quête a été &cdésctivé&7.
+
+messageCommandQuestcreatorServerVariable: |
+  &7La variable serveur &a{variable} &7a la valeur &a{value}&7.
+
+messageCommandQuestcreatorServerVariableOperate: |
+  &7La variable serveur &a{variable} &7a été définie à &a{value}&7.
+
+messageCommandQuestcreatorSetpooltokens: |
+  &7Vous avez maintenant &a{amount} &7tokens pour la quête &a{quest}&7.
+
+messageCommandQuestcreatorStartCouldnt: |
+  &7Impossible de démarrer la quête : &c{quest}&7.
+
+messageCommandQuestcreatorStartEmpty: |
+  &7Il n'y a pas de quête à démarrer.
+
+messageCommandQuestcreatorStarted: |
+  &7Quête démarrée : &a{quest}&7.
+
+messageCommandQuestcreatorState: |
+  &7État définit : &a{state}&7.
+
+messageCommandQuestcreatorStopEmpty: |
+  &7Il n'y a pas de quête à arrêter.
+
+messageCommandQuestcreatorStopCouldnt: |
+  &7Impossible d'arrêter votre quête : &c{quest}&7.
+
+messageCommandQuestcreatorStopped: |
+  &7Votre quête a été arrêtée : &a{quest}&7.
+
+messageCommandQuestcreatorTitleToggleOn: |
+  &7Votre titre de quête a été &aactivé&7.
+
+messageCommandQuestcreatorTitleToggleOff: |
+  &7Votre titre de quête a été &cdésctivé&7.
+
+messageCommandQuestcreatorUser: |
+  &7&m          &r &7{player} &7&m          &r
+  &7Tokens de pools : &a{pool_tokens}
+  &7Quêtes actives : &a{active_quests}
+  &7Quêtes complétées :
+  {completed_quests}
+
+messageCommandQuestcreatorUserCompletedQuestElement: |
+  &7- &a{quest} &7: &a{counts}
+
+messageCommandQuestcreatorVariable: |
+  &7Votre variable &a{variable} &7a la valeur &a{value}&7.
+
+messageCommandQuestcreatorVariableOperate: |
+  &7Votre variable &a{variable} &7a été définie à &a{value}&7.
+
+# -------------------- Quest --------------------
+
+messageQuestCancelInactive: |
+  &7Votre quête &c{quest} &7a été inactive pour &c{time}&7, donc elle a été annulée.
+
+# -------------------- Coop --------------------
+
+messageCoopCreateLeader: |
+  &7Vous avez créé une quête en coopération : &a{quest}&7. [1/{max}]
+
+messageCoopCreateAlreadyCoop: |
+  &c{player} &7est déjà dans une coopération.
+
+messageCoopFull: |
+  &7Il n'y a plus de place pour la quête en coopération de &c{leader}&7.
+
+messageCoopInvite: |
+  &7Entrez le joueur à inviter dans le chat, ou &c{cancel} &7pour annuler.
+
+messageCoopInviteAlreadyThereLeader: |
+  &a{player} &7est déjà dans votre quête en coopération, ou invité.
+
+messageCoopInvited: |
+  &a{leader} &7vous a invité pour une quête en coopération : &a{quest}&7. Rejoignez avec /quest coop.
+
+messageCoopInvitedLeader: |
+  &7Vous avez invité &a{player} &7dans votre quête en coopération.
+
+messageCoopNotInvited: |
+  &7Il faut que &a{leader} &7vous invite pour rejoindre sa quête en coopération.
+
+messageCoopNotInvitedLeader: |
+  &c{player} &7a essayé de rejoindre votre quête en coopération mais il n'était pas invité.
+
+messageCoopJoin: |
+  &7Vous avez rejoint &a{leader}&7's quête en coopération : &a{quest}&7. [{current}/{max}]
+
+messageCoopJoinOthers: |
+  &a{player} &7a rejoint the quête en coopération : &a{quest}&7. [{current}/{max}]
+
+messageCoopLeave: |
+  &7Vous avez quitté la quête en coopération de &c{leader}&7.
+
+messageCoopLeaveOthers: |
+  &c{player} &7a quitté la quête en coopération. [{current}/{max}]
+
+messageCoopDisband: |
+  &7Vous avez supprimé votre quête en coopération : &c{quest}&7.
+
+messageCoopDisbandOthers: |
+  &c{leader} &7a supprimé sa quête en coopération : &c{quest}&7.
+
+messageCoopKickNotInLeader: |
+  &c{player} &7n'est pas dans votre quête en coopération, et n'a pas été invité.
+
+messageCoopKickInviteLeader: |
+  &7L'invitation à rejoindre de &c{player} &7a été supprimée.
+
+messageCoopKick: |
+  &7Vous avez été expulsé de la quête en coopération de &c{leader} &7: &c{quest}&7.
+
+messageCoopKickOthers: |
+  &c{player} &7a été expulsé de la quête en coopération. [{current}/{max}]
+
+# -------------------- Queue --------------------
+
+messageQueueCreateAlreadyCoop: |
+  &c{player} &7est déjà en queue pour cette quête.
+
+messageQueueCreateCantMultiple: |
+  &7Vous ne pouvez pas vous mettre dans la queue de plusieurs quêtes en même temps.=
+
+messageQueueCouldntStartPosition: |
+  &cImpossible de démarrer la quête : &c{quest}&7. Vous avez été ré-ajouté un peu plus loin dans la queue, à la position &c{position}&7/&c{max}&7.
+
+messageQueuePosition: |
+  &7Vous êtes à la position &a{position}&7/&a{max} &7dans la queue pour la quête : &a{quest}&7.
+
+messageQueueStarted: |
+  &7Vous en avez fini avec la queue pour la quête : &a{quest}&7. Début de la quête !
+
+messageQueueLeave: |
+  &7Vous avez quitté la queue pour la quête : &c{quest}&7.
+
+# -------------------- Preconditions --------------------
+
+messagePreconditionsError: |
+  &c{error}
+
+textPreconditionsErrorInvalidModelErrors: |
+  &7Le modèle de quête est invalide :
+  &c{errors}
+
+textPreconditionsErrorAloneUserNotLoader: |
+  &7Vos données ne sont pas chargées.
+
+textPreconditionsErrorCoopUserNotLoader: |
+  &7Les données de &c{player} &7ne sont pas chargées.
+
+textPreconditionsErrorQuestTooManyInstances: |
+  &7Trop de joueurs suivent cette quête pour le moment.
+
+textPreconditionsErrorAlonePlayerAlreadyActive: |
+  &7Vous êtes déjà en train de suivre cette quête;
+
+textPreconditionsErrorCoopPlayerAlreadyActive: |
+  &c{player} &7est déjà en train de suivre cette quête.
+
+textPreconditionsErrorAlonePlayerTooManyQuests: |
+  &7Vous suivez déjà suffisamment de quêtes pour le moment.
+
+textPreconditionsErrorCoopPlayerTooManyQuests: |
+  &c{player} &7suit déjà sufisamment de quêtes pour le moment.
+
+textPreconditionsErrorAlonePlayerMaxCompletions: |
+  &7Vous avez déjà complété cette quête
+
+textPreconditionsErrorCoopPlayerMaxCompletions: |
+  &c{player} &7a déjà complété cette quête.
+
+textPreconditionsErrorAlonePlayerGroupTooManyQuests: |
+  &7Vous suivez déjà sufisamment de quêtes du même groupe pour le moment.
+
+textPreconditionsErrorCoopPlayerGroupTooManyQuests: |
+  &c{player} &7suit déjà sufisamment de quêtes du même groupe pour le moment.
+
+textPreconditionsErrorAlonePlayerGroupPreviousQuestNotCompleted: |
+  &7Vous n'avez pas complété la quête précédente du même groupe.
+
+textPreconditionsErrorCoopPlayerGroupPreviousQuestNotCompleted: |
+  &c{player} &7n'a pas complété la quête précédente du même groupe.
+
+textPreconditionsErrorAlonePlayerCooldown: |
+  &7Vous devez attendre &c{time} &7pour suivre cette quête à nouveau
+
+textPreconditionsErrorCoopPlayerCooldown: |
+  &c{player} &7doit attendre &c{time} &7pour suivre cette quête à nouveau.
+
+textPreconditionsErrorAlonePlayerNoTokens: |
+  &7Vous n'avez pas de token pour cette quête.
+
+textPreconditionsErrorCoopPlayerNoTokens: |
+  &c{player} &7n'a pas de token pour cette quête.
+
+textPreconditionsErrorQuestCoopQuest: |
+  &cCeci est une quête en coopération.
+
+textPreconditionsErrorQuestNotCoopQuest: |
+  &cCeci n'est pas une quête en coopération.
+
+textPreconditionsErrorQuestNotEnoughPlayers: |
+  &7Vous devez être au moins &c{min} joueur{plural} &7pour cette quête.
+
+textPreconditionsErrorQuestTooManyPlayers: |
+  &7Vous devez être au maximum &c{max} joueur{plural} &7pour cette quête.
+
+textPreconditionsErrorAlonePlayerNoPermission: |
+  &7Vous n'avez pas la permission de suivre cette quête.
+
+textPreconditionsErrorCoopPlayerNoPermission: |
+  &c{player} &7n'a pas la permission de suivre cette quête.
+
+textPreconditionsErrorAlonePlayerDisallowedWorld: |
+  &7Vous ne pouvez pas suivre cette quête dans ce monde.
+
+textPreconditionsErrorCoopPlayerDisallowedWorld: |
+  &c{player} &7ne peut pas suivre cette quête dans ce monde.
+
+textPreconditionsErrorStartConditionsDontMatch: |
+  &7Les conditions de commencement ne sont pas respectées.
+
+textPreconditionsErrorGroupStartConditionsDontMatch: |
+  &7Les conditions de commencement de groupe ne sont pas respectées.
+
+# -------------------- Detailed progression (verbose) --------------------
+
+textDetailedProgressionBranch: '&2&l{name}'
+textDetailedProgressionBranchNoName: []
+
+textDetailedProgressionObject: '&a> &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionObjectDistance: '&a> &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionObjectNoDetail: '&2> &7{name}'
+textDetailedProgressionObjectNoName: []
+
+textDetailedProgressionObjectDelegateHeader: '&a> &7{name}'
+textDetailedProgressionObjectDelegateHeaderNoName: []
+
+textDetailedProgressionObjectDelegate: '&a- &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionObjectDelegateCompleted: '&7&m- {name} &7({progression}/{goal}&7)'
+textDetailedProgressionObjectDelegateDistance: '&a- &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionObjectDelegateDistanceCompleted: '&7&m- {name} &7({distance}m&7)'
+textDetailedProgressionObjectDelegateNoDetail: '&a- &7{name}'
+textDetailedProgressionObjectDelegateNoDetailCompleted: '&7&m- {name}&7'
+textDetailedProgressionObjectDelegateNoName: []
+textDetailedProgressionObjectDelegateNoNameCompleted: []
+
+# -------------------- Detailed progression (scoreboard) --------------------
+
+textDetailedProgressionScoreboardBranch: '&2&l{name}'
+textDetailedProgressionScoreboardBranchNoName: []
+
+textDetailedProgressionScoreboardObject: '&a> &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionScoreboardObjectDistance: '&a> &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionScoreboardObjectNoDetail: '&2> &7{name}'
+textDetailedProgressionScoreboardObjectNoName: []
+
+textDetailedProgressionScoreboardObjectDelegateHeader: '&a> &7{name}'
+textDetailedProgressionScoreboardObjectDelegateHeaderNoName: []
+
+textDetailedProgressionScoreboardObjectDelegate: '&a- &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionScoreboardObjectDelegateCompleted: '&7&m- {name} &7({progression}/{goal}&7)'
+textDetailedProgressionScoreboardObjectDelegateDistance: '&a- &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionScoreboardObjectDelegateDistanceCompleted: '&7&m- {name} &7({distance}m&7)'
+textDetailedProgressionScoreboardObjectDelegateNoDetail: '&a- &7{name}'
+textDetailedProgressionScoreboardObjectDelegateNoDetailCompleted: '&7&m- {name}&7'
+textDetailedProgressionScoreboardObjectDelegateNoName: []
+textDetailedProgressionScoreboardObjectDelegateNoNameCompleted: []
+
+# -------------------- Detailed progression (PlaceholderAPI) --------------------
+
+textDetailedProgressionPlaceholderAPIObject: '&a> &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionPlaceholderAPIObjectDistance: '&a> &7{name} &7(&a{distance}m&7)'
+
+textDetailedProgressionPlaceholderAPIObjectNoDetail: '&2> &7{name}'
+textDetailedProgressionPlaceholderAPIObjectNoName: ''
+
+# -------------------- Journal --------------------
+
+textJournalEmpty: |
+  &7Votre journal de quête est vide.
+
+# -------------------- Diverge --------------------
+
+textDivergeLineSplit: '&r    '
+
+textDivergeSelect: |
+  &dCliquez pour sélectionner
+
+textDivergeCantSelect: |
+  &7Vous ne pouvez pas sélectionner de choix pour cette quête
+
+textDivergeCantSelectUnavailable: |
+  &7Ce choix n'est pas disponible
+
+textServerActionPromptNext: |
+  &dCliquez pour continuer
+
+# -------------------- Scoreboard --------------------
+
+textScoreboarOneQuestTitle: |
+  &7&m    &r &d&lQuest &7&m    &r
+
+textScoreboardOneQuestContent: |
+  &r
+  &a{quest}
+  &r
+  {detailed_progression}
+  &r
+  &e&ohttp://guillaumevdn.com
+
+textScoreboardOneQuestContentNone: |
+  &r
+  &7Pas de quête active !
+  &r
+  &dguillaumevdn.com
+
+textScoreboardMultipleQuestTitle: |
+  &7&m    &r &d&lQuest &7&m    &r
+
+textScoreboardMultipleQuestContent: |
+  {quests}
+  &r
+  &e&ohttp://guillaumevdn.com
+
+textScoreboardMultipleQuestContentQuest: |
+  &r
+  &a{quest}
+  &r
+  {detailed_progression}
+
+textScoreboardMultipleQuestContentNone: |
+  &r
+  &7Pas de quête active !
+  &r
+  &e&ohttp://guillaumevdn.com
+
+# -------------------- GUI --------------------
+
+guiDefaultActivatorName: |
+  &7Quests
+
+guiQuestCoopPlayers: |
+  &r
+  &7Quête en coopération avec &b{players}
+  &7{leader}
+  &r
+
+guiQuestCoopLeader: |
+  &7Vous êtes le leader.
+
+guiQuestCoopNotLeader: |
+  &7Le leader est {leader}.
+
+guiQuestControls: |
+  &r
+  &d{controls}
+
+guiQuestControlsInfo: |
+  &dClic gauche pour plus d'informations
+
+guiQuestControlsStart: |
+  &dClic droit pour suivre la quête
+
+guiQuestControlsStartCoop: |
+  &dShift + clic droit pour suivre la quête en coopération
+
+guiQuestControlsPhysicalActivatorGUIStart: |
+  &dClic droit pour suivre la quête
+
+guiQuestControlsPhysicalActivatorGUIStartCoop: |
+  &dShift + clic droit pour suivre la quête en coopération
+
+guiQuestControlsStop: |
+  &dClic droit pour arrêter la quête
+
+guiQuestControlsLeave: |
+  &dClic droit pour quitter la quête en coopération
+
+guiQuestDetailedProgression: |
+  &r
+  {detailed_progression}
+
+guiQuestDetailedErrors: |
+  &r
+  {detailed_errors}
+
+guiQuestCompletionCount: |
+  &r
+  &7Vous avez complété cette quête {count} fois
+
+guiQuestCompletionCountGoal: |
+  &r
+  &7Vous avez complété cette quête {count}/{max} fois
+
+guiQuestCooldown: |
+  &r
+  &7Vous devez attendre &a{time} &7pour suivre cette quête à nouveau
+
+guiQuestCooldownPool: |
+  &r
+  &7Les nouvelles quêtes seront calculées dans &a{time}&7.
+
+guiQuestCompleted: |
+  &7Date de complétion : &a{date}&7.
+
+guiConfirmLoreStopQuest: |
+  &7Cliquez ici pour &carrêter cette quête &7:
+  &c{quest}
+
+guiConfirmLoreLeaveCoopQuest: |
+  &7Cliquez ici pour &cquitter cette quête en coopération &7:
+  &c{quest}
+
+guiConfirmLoreStartQuest: |
+  &7Cliquez ici pour &adémarrer cette quête &7:
+  &a{quest}
+
+guiConfirmLoreStartCoopQuest: |
+  &7Cliquez ici pour &adémarrer cette quête en coop &7:
+  &a{quest}
+
+guiConfirmLoreStartQuestAfterActivatorDialog: |
+  &7Quête : &a{quest}
+
+guiConfirmLoreStartCoopQuestAfterActivatorDialog: |
+  &7Cliquez ici pour &adémarrer cette quête en coop &7:
+  &a{quest}
+
+# -------------------- Integration --------------------
+
+integrationDynmapMarkerSetName: Quêtes
+integrationHolographicDisplaysActivatorHologramStatusCount: '&a{count}'
+integrationHolographicDisplaysActivatorHologramNoStatusCount: '&c0'
+integrationHolographicDisplaysActivatorHologramStatusList: '&a{list}'
+integrationHolographicDisplaysActivatorHologramStatusListSeparator: '&7, &a'
+integrationHolographicDisplaysActivatorHologramNoStatusList: '&caucun'
+
+# -------------------- Scoreboard --------------------
+
+messageScoreboardScrollingStart: >
+  &aVous avez commencé à ajuster votre scoreboard. Clic-gauche pour monter, clic-droit pour descendre. Réécrivez le même chat pour arrêter.
+
+messageScoreboardScrollingStop: >
+  &cVous avez terminé d'ajuster votre scoreboard.
+
+messageScoreboardScrollingReachedTop: >
+  &7Vous avez atteint le haut du scoreboard.
+
+messageScoreboardScrollingReachedBottom: >
+  &7Vous avez atteint le bas du scoreboard.

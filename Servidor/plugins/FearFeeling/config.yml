@@ -1,0 +1,74 @@
+# default-show-style - Fear show style for players who can't change their show style with the /fear showstyle command
+fear-settings:
+  light-level-border: 0
+  fear-increase-per-second: 0.8
+  fear-decrease-per-second: 3.0
+  permission-modifier: 0.5
+  default-show-style: BOSSBAR
+  fear-show-level: 0
+  consider-night-vision: true
+  critical-level:
+    border: 80.0
+    title:
+      line-1: "&4¡TIENES MUCHO MIEDO!"
+      line-2: "BUSCA UN LUGAR ILUMINADO"
+    stable-effects:
+      - "WEAKNESS:1"
+      - "SLOW:2"
+    random-effects:
+      - "CONFUSION:1:6"
+    play-heartbeat-sounds: true
+    health-decrease-per-second-while-full: 10.0
+    health-decrease-while-full-border: 0.0
+  fear-from-monsters:
+    damage-to-fear-percent: 50.0
+    increase-while-nearby:
+      radius: 5.0
+      fear-increase-per-second: 0.5
+
+actionbar-settings:
+  message: "&7Miedo: &6%f%"
+
+bossbar-settings:
+  name: "Miedo: %f%"
+  color: RED
+  enable-fog: true
+  enable-darken-sky: true
+
+# If you have any authorization plugins (to prevent fear grow before authorize). Players will move to get authorized.
+check-authorized: true
+
+worlds-blacklist: []
+
+# If you are sure that your players use Optifine (dynamic lights from items in hands)
+optifine:
+  consider: false
+  dropped-glowing-items-light-radius: 4.0
+  burning-mobs-light-radius: 4.0
+  items:
+    - "TORCH"
+    - "SOUL_TORCH"
+    - "LANTERN"
+    - "SOUL_LANTERN"
+    - "GLOWSTONE"
+    - "JACK_O_LANTERN"
+    - "GLOW_ITEM_FRAME"
+    - "MAGMA_CREAM"
+    - "END_ROD"
+    - "REDSTONE_TORCH"
+    - "BLAZE_POWDER"
+    - "NETHER_STAR"
+    - "BLAZE_ROD"
+    - "CAMPFIRE"
+    - "SOUL_CAMPFIRE"
+    - "SHROOMLIGHT"
+    - "AMETHYST_CLUSTER"
+    - "ENDER_CHEST"
+    - "GLOW_INK_SAC"
+    - "PRISMARINE_CRYSTALS"
+    - "SEA_PICKLE"
+    - "GLOW_BERRIES"
+    - "CONDUIT"
+    - "SEA_LANTERN"
+    - "BEACON"
+    - "LAVA_BUCKET"

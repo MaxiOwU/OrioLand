@@ -1,0 +1,41 @@
+[23/10 11:30:13] [info] Bruce | connected
+[23/10 11:30:13] [info] Bruce | fetched user data : no value ; created it
+[23/10 11:30:13] [info] Bruce | pushing user 6efc85f5-2a69-3488-8341-ce7a0593ebdb, active quests : 
+[23/10 11:30:13] [info] Bruce | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 11:30:13] [info] Bruce | fetched user quests : 
+[23/10 11:48:22] [info] Bruce | disposing user quests data : 
+- must dispose quests
+[23/10 11:48:22] [info] Bruce | disposed user data
+[23/10 11:48:22] [info] Bruce | disconnected
+[23/10 11:51:18] [info] Bruce | connected
+[23/10 11:51:18] [info] Bruce | fetched user data : active quests 
+[23/10 11:51:18] [info] Bruce | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 11:51:18] [info] Bruce | fetched user quests : 
+[23/10 11:51:53] [info] Bruce | disposing user quests data : 
+- must dispose quests
+[23/10 11:51:53] [info] Bruce | disposed user data
+[23/10 11:51:53] [info] Bruce | disconnected
+[23/10 19:21:10] [info] Bruce | connected
+[23/10 19:21:10] [info] Bruce | fetched user data : active quests 
+[23/10 19:21:10] [info] Bruce | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 19:21:10] [info] Bruce | fetched user quests : 
+[23/10 19:21:48] [info] Bruce | disposing user quests data : 
+- must dispose quests
+[23/10 19:21:48] [info] Bruce | disposed user data
+[23/10 19:21:48] [info] Bruce | disconnected
+[23/10 19:54:00] [info] Bruce | connected
+[23/10 19:54:00] [info] Bruce | fetched user data : active quests 
+[23/10 19:54:00] [info] Bruce | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 19:54:00] [info] Bruce | fetched user quests : 
+[23/10 20:14:49] [info] Bruce | disposing user quests data : 
+- must dispose quests
+[23/10 20:14:49] [info] Bruce | disposed user data
+[23/10 20:14:49] [info] Bruce | disconnected

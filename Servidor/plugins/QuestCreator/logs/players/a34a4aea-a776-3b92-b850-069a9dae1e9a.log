@@ -1,0 +1,11 @@
+[19/10 16:28:36] [info] Arnaucas | connected
+[19/10 16:28:37] [info] Arnaucas | fetched user data : no value ; created it
+[19/10 16:28:37] [info] Arnaucas | pushing user a34a4aea-a776-3b92-b850-069a9dae1e9a, active quests : 
+[19/10 16:28:37] [info] Arnaucas | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[19/10 16:28:37] [info] Arnaucas | fetched user quests : 
+[19/10 16:29:58] [info] Arnaucas | disposing user quests data : 
+- must dispose quests
+[19/10 16:29:58] [info] Arnaucas | disposed user data
+[19/10 16:29:58] [info] Arnaucas | disconnected

@@ -1,0 +1,11 @@
+[19/10 09:57:03] [info] mateOw0 | connected
+[19/10 09:57:03] [info] mateOw0 | fetched user data : no value ; created it
+[19/10 09:57:03] [info] mateOw0 | pushing user e95d68bc-9254-3d91-8f47-823973e7c674, active quests : 
+[19/10 09:57:03] [info] mateOw0 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[19/10 09:57:03] [info] mateOw0 | fetched user quests : 
+[19/10 10:01:50] [info] mateOw0 | disposing user quests data : 
+- must dispose quests
+[19/10 10:01:50] [info] mateOw0 | disposed user data
+[19/10 10:01:50] [info] mateOw0 | disconnected

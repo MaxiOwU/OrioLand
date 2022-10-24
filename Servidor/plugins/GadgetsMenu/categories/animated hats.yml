@@ -8,7 +8,7 @@ Animated-Hats:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'
   Sammy The Cookie:
     Name: '&b&lGalleta'
     Mystery Dust: 25
@@ -18,7 +18,7 @@ Animated-Hats:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'
   Chroma Slime:
     Name: '&b&lSlime de Colores'
     Mystery Dust: 28
@@ -28,7 +28,7 @@ Animated-Hats:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'
   Color Block:
     Name: '&b&lBloque de Colores'
     Mystery Dust: 28
@@ -38,4 +38,4 @@ Animated-Hats:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'

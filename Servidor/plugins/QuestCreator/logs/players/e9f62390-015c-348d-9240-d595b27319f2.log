@@ -1,0 +1,11 @@
+[23/10 19:16:17] [info] FranDarcks | connected
+[23/10 19:16:17] [info] FranDarcks | fetched user data : no value ; created it
+[23/10 19:16:17] [info] FranDarcks | pushing user e9f62390-015c-348d-9240-d595b27319f2, active quests : 
+[23/10 19:16:17] [info] FranDarcks | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 19:16:17] [info] FranDarcks | fetched user quests : 
+[23/10 19:18:24] [info] FranDarcks | disposing user quests data : 
+- must dispose quests
+[23/10 19:18:24] [info] FranDarcks | disposed user data
+[23/10 19:18:24] [info] FranDarcks | disconnected

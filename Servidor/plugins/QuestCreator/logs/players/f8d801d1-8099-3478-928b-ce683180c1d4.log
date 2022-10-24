@@ -1,0 +1,11 @@
+[19/10 20:15:12] [info] The_lucksian | connected
+[19/10 20:15:12] [info] The_lucksian | fetched user data : no value ; created it
+[19/10 20:15:12] [info] The_lucksian | pushing user f8d801d1-8099-3478-928b-ce683180c1d4, active quests : 
+[19/10 20:15:12] [info] The_lucksian | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[19/10 20:15:12] [info] The_lucksian | fetched user quests : 
+[19/10 20:17:12] [info] The_lucksian | disposing user quests data : 
+- must dispose quests
+[19/10 20:17:12] [info] The_lucksian | disposed user data
+[19/10 20:17:12] [info] The_lucksian | disconnected

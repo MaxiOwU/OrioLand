@@ -1,0 +1,21 @@
+[16/10 13:49:24] [info] llibi11 | connected
+[16/10 13:49:24] [info] llibi11 | fetched user data : no value ; created it
+[16/10 13:49:24] [info] llibi11 | pushing user eace7ef8-3407-342e-a74a-799064639e9c, active quests : 
+[16/10 13:49:24] [info] llibi11 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 13:49:24] [info] llibi11 | fetched user quests : 
+[16/10 13:50:06] [info] llibi11 | disposing user quests data : 
+- must dispose quests
+[16/10 13:50:06] [info] llibi11 | disposed user data
+[16/10 13:50:06] [info] llibi11 | disconnected
+[16/10 13:50:59] [info] llibi11 | connected
+[16/10 13:50:59] [info] llibi11 | fetched user data : active quests 
+[16/10 13:50:59] [info] llibi11 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 13:50:59] [info] llibi11 | fetched user quests : 
+[16/10 14:24:21] [info] llibi11 | disposing user quests data : 
+- must dispose quests
+[16/10 14:24:21] [info] llibi11 | disposed user data
+[16/10 14:24:21] [info] llibi11 | disconnected

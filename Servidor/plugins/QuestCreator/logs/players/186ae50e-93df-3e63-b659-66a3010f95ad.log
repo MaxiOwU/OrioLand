@@ -1,0 +1,51 @@
+[18/10 20:01:32] [info] _Popette_ | connected
+[18/10 20:01:32] [info] _Popette_ | fetched user data : no value ; created it
+[18/10 20:01:32] [info] _Popette_ | pushing user 186ae50e-93df-3e63-b659-66a3010f95ad, active quests : 
+[18/10 20:01:32] [info] _Popette_ | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[18/10 20:01:32] [info] _Popette_ | fetched user quests : 
+[18/10 20:26:42] [info] _Popette_ | disposing user quests data : 
+- must dispose quests
+[18/10 20:26:42] [info] _Popette_ | disposed user data
+[18/10 20:26:42] [info] _Popette_ | disconnected
+[18/10 20:36:17] [info] _Popette_ | connected
+[18/10 20:36:17] [info] _Popette_ | fetched user data : active quests 
+[18/10 20:36:17] [info] _Popette_ | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[18/10 20:36:17] [info] _Popette_ | fetched user quests : 
+[18/10 20:40:04] [info] _Popette_ | disposing user quests data : 
+- must dispose quests
+[18/10 20:40:04] [info] _Popette_ | disposed user data
+[18/10 20:40:04] [info] _Popette_ | disconnected
+[18/10 20:40:47] [info] _Popette_ | connected
+[18/10 20:40:47] [info] _Popette_ | fetched user data : active quests 
+[18/10 20:40:47] [info] _Popette_ | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[18/10 20:40:47] [info] _Popette_ | fetched user quests : 
+[18/10 20:42:11] [info] _Popette_ | disposing user quests data : 
+- must dispose quests
+[18/10 20:42:11] [info] _Popette_ | disposed user data
+[18/10 20:42:11] [info] _Popette_ | disconnected
+[19/10 10:34:50] [info] _Popette_ | connected
+[19/10 10:34:50] [info] _Popette_ | fetched user data : active quests 
+[19/10 10:34:50] [info] _Popette_ | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[19/10 10:34:50] [info] _Popette_ | fetched user quests : 
+[19/10 10:40:21] [info] _Popette_ | disposing user quests data : 
+- must dispose quests
+[19/10 10:40:21] [info] _Popette_ | disposed user data
+[19/10 10:40:21] [info] _Popette_ | disconnected
+[19/10 10:45:23] [info] _Popette_ | connected
+[19/10 10:45:23] [info] _Popette_ | fetched user data : active quests 
+[19/10 10:45:23] [info] _Popette_ | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[19/10 10:45:23] [info] _Popette_ | fetched user quests : 
+[19/10 12:03:04] [info] _Popette_ | disposing user quests data : 
+- must dispose quests
+[19/10 12:03:04] [info] _Popette_ | disposed user data
+[19/10 12:03:04] [info] _Popette_ | disconnected

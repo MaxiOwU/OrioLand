@@ -1,0 +1,11 @@
+[20/10 01:24:44] [info] Santastic_ | connected
+[20/10 01:24:44] [info] Santastic_ | fetched user data : no value ; created it
+[20/10 01:24:44] [info] Santastic_ | pushing user 3814746e-2356-399d-a2b0-e051b68fb8d0, active quests : 
+[20/10 01:24:44] [info] Santastic_ | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[20/10 01:24:44] [info] Santastic_ | fetched user quests : 
+[20/10 01:30:46] [info] Santastic_ | disposing user quests data : 
+- must dispose quests
+[20/10 01:30:46] [info] Santastic_ | disposed user data
+[20/10 01:30:46] [info] Santastic_ | disconnected

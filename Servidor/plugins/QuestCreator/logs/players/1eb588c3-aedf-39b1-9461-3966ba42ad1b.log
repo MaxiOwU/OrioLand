@@ -1,0 +1,11 @@
+[20/10 23:42:18] [info] lus4mu | connected
+[20/10 23:42:18] [info] lus4mu | fetched user data : no value ; created it
+[20/10 23:42:18] [info] lus4mu | pushing user 1eb588c3-aedf-39b1-9461-3966ba42ad1b, active quests : 
+[20/10 23:42:18] [info] lus4mu | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[20/10 23:42:18] [info] lus4mu | fetched user quests : 
+[20/10 23:43:24] [info] lus4mu | disposing user quests data : 
+- must dispose quests
+[20/10 23:43:24] [info] lus4mu | disposed user data
+[20/10 23:43:24] [info] lus4mu | disconnected

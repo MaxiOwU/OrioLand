@@ -1,0 +1,641 @@
+# -------------------- Commands --------------------
+
+commandParameterUsageModel: квест
+commandParameterUsageBranch: ветвь
+commandParameterUsageObject: задача
+commandParameterUsagePartId: айди(id) части прогресса
+commandParameterUsageGUI: графический интерфейс
+commandParameterUsagePool: пул
+commandParameterUsageState: состояние
+commandParameterUsagePointsCategory: категория
+commandParameterUsageVariable: переменная
+
+commandDescriptionQuestcreator: главная команда QuestCreator
+commandDescriptionQuestcreatorActionbar: переключить квест-actionbar
+commandDescriptionQuestcreatorBossbar: переключить квест-bossbar
+commandDescriptionQuestcreatorComplete: пометить квест как завершённый
+commandDescriptionQuestcreatorCompletebranch: пометить текущую ветвь как завершённую
+commandDescriptionQuestcreatorCoop: управлять кооп(коперативными) квестами
+commandDescriptionQuestcreatorGoto: обновить квест
+commandDescriptionQuestcreatorGPS: переключить квест-GPS
+commandDescriptionQuestcreatorIncreaseProgress: увеличить прогресс квеста
+commandDescriptionQuestcreatorEdit: изменить в игре
+commandDescriptionQuestcreatorJournal: управлять журналом квестов
+commandDescriptionQuestcreatorList: перечислить квесты
+commandDescriptionQuestcreatorLogspam: переключить спам debug(отладка) log'ами(список как текстовый документ)
+commandDescriptionQuestcreatorPoints: управлять квестовыми очками
+commandDescriptionQuestcreatorMenu: открыть конкретное меню
+commandDescriptionQuestcreatorPerformglobalbranch: выполнить все задачи из глобальной ветви
+commandDescriptionQuestcreatorPerformglobalobject: выполнить глобальную задачу
+commandDescriptionQuestcreatorProgress: проверить прогресс квеста
+commandDescriptionQuestcreatorQueue: проверить прогресс очереди
+commandDescriptionQuestcreatorStop: остановить квест(ы)
+commandDescriptionQuestcreatorStart: начать квест
+commandDescriptionQuestcreatorState: установить состояние
+commandDescriptionQuestcreatorReset: сбросить квест(ы)
+commandDescriptionQuestcreatorResetpool: сбросить пул(ы)
+commandDescriptionQuestcreatorScoreboard: переключить квест-scoreboard(гуи рекордов)
+commandDescriptionQuestcreatorServerVariable: управлять переменными сервера
+commandDescriptionQuestcreatorSetpooltokens: установить токены пула
+commandDescriptionQuestcreatorTitle: переключить заголовок квеста
+commandDescriptionQuestcreatorUser: просмотреть данные о пользователе
+commandDescriptionQuestcreatorVariable: управлять переменными
+
+messageCommandInvalidModel: |
+  &7Шаблон квеста &c{value} &7не подходит аргументу &c{argument}&7.
+
+messageCommandInvalidBranch: |
+  &7Квестовая ветвь &c{value} &7не подходит аргументу &c{argument}&7.
+
+messageCommandInvalidQuestObject: |
+  &7Квестовая задача &c{value} &7не подходит аргументу &c{argument}&7.
+
+messageCommandQuestcreatorBungeePlayerIsntOffline: |
+  &7Похоже, этот игрок на другом сервере. Пожалуйста, сначала присоединитесь к его серверу.
+
+messageCommandQuestcreatorActionbarToggleOn: |
+  &7Ваш квест-actionbar &aвключен&7.
+
+messageCommandQuestcreatorActionbarToggleOff: |
+  &7Ваш квест-actionbar &cвыключен&7.
+
+messageCommandQuestcreatorBossbarToggleOn: |
+  &7Ваш квест-bossbar &aвключен&7.
+
+messageCommandQuestcreatorBossbarToggleOff: |
+  &7Ваш квест-bossbar &cвыключен&7.
+
+messageCommandQuestcreatorCoopNotInvited: |
+  &7У вас нет ожидающих приглашений в кооп. Для создания кооп-квеста просто начните квест и увидите кооп-опции!
+
+messageCommandQuestcreatorCoopLeaveEmpty: |
+  &7Нет квеста, который можно покинуть.
+
+messageCommandQuestcreatorCoopLeaveCouldnt: |
+  &7Не удалось покинуть квест : &c{quest}&7.
+
+messageCommandQuestcreatorCoopLeaveLeft: |
+  &7Вы покинули квест : &a{quests}&7.
+
+messageCommandQuestcreatorComplete: |
+  &7Ваш квест помечен как завершённый &a{amount} время{plural} &7: &a{quest}&7.
+
+messageCommandQuestcreatorCompleteBranch: |
+  &7Выполнена данная задача ветви &a{branch} &7в вашем квесте &a{quest}&7.
+
+messageCommandQuestcreatorCompleteBranchNoQuest: |
+  &7Этот квест не активен.
+
+messageCommandQuestcreatorGoto: |
+  &7В вашем квесте произошли изменения : &a{quest}&7.
+
+messageCommandQuestcreatorGotoNoQuest: |
+  &7Этот квест не активен.
+
+messageCommandQuestcreatorGPSToggleOn: |
+  &7Ваш квест-GPS &aвключен&7.
+
+messageCommandQuestcreatorGPSToggleOff: |
+  &7Ваш квест-GPS &cвыключен&7.
+
+messageCommandQuestcreatorIncreaseProgressNotFound: |
+  &7Ничего не найдено для продвижения по квесту.
+
+messageCommandQuestcreatorIncreaseProgressIncreased: |
+  &7Прогресс теперь &a{progression}&7.
+
+messageCommandQuestcreatorJournalToggleOn: |
+  &7Ваш квест-журнал &aвключен&7.
+
+messageCommandQuestcreatorJournalToggleOff: |
+  &7Ваш квест-журнал &cвыключен&7.
+
+messageCommandQuestcreatorListEmpty: |
+  &7Квеста нет.
+
+messageCommandQuestcreatorListHeader: |
+  &2Квесты :
+
+messageCommandQuestcreatorListElement: |
+  &7- {id} : {name}
+
+messageCommandQuestcreatorLogspamToggleOn: |
+  &7Лог-спам &aвключен&7 для &a{player}.
+
+messageCommandQuestcreatorLogspamToggleOff: |
+  &7Лог-спам &cвыключен&7 для &a{player}.
+
+messageCommandQuestcreatorRunglobalbranchUnknown: |
+  &7Неизвестная глобальная ветвь &c{branch}&7.
+
+messageCommandQuestcreatorRunglobalobjectUnknown: |
+  &7Неизвестная глобальная задача &c{object}&7.
+
+messageCommandQuestcreatorPoints: |
+  &7У вас есть &a{points} point{plural} &7в категории &a{category}&7.
+
+messageCommandQuestcreatorPointsOperate: |
+  &7Ваши квест-очки установлены на &a{amount} &7в категории &a{category}&7.
+
+messageCommandQuestcreatorProgressEmpty: |
+  &7Нет активного квеста.
+
+messageCommandQuestcreatorProgressOnlineElement: |
+  &7&m          &r &7{id} : {name} &7&m          &r
+  &7Лидер : &a{leader}
+  &7Кооп : &a{coop}
+  &7Причина начала : &a{start_cause}
+  &7Время : &a{uptime}
+  &7Путь : &a{path}
+  &7Чекпоинт : &a{checkpoint}
+  {branches}
+
+messageCommandQuestcreatorProgressOnlineElementBranch: |
+  &7- Ветвь &a{branch}&7, задача &a{object}
+  {progression}
+
+messageCommandQuestcreatorProgressOnlineElementProgression: |
+  &7  > &a{object}&7/&a{part} &7: &a{progression}&7/&a{goal}
+
+messageCommandQuestcreatorQueueNone: |
+  &7Вы не в квест-очереди.
+
+messageCommandQuestcreatorQueueActive: |
+  &7Вы в очереди квеста : &e{quest} &7(игроков : &e{players}&7).
+  &7Позиция : &e{position}&7/&e{max}
+
+messageCommandQuestcreatorQueueActiveError: |
+  &7Вы в очереди квеста : &e{quest} &7(игроков : &e{players}&7).
+  &7Позиция : &e{position}&7/&e{max}
+  &cПостарайтесь исправить эту проблему до того, как доберётесь до 1 позиции : {error}
+
+messageCommandQuestcreatorResetEmpty: |
+  &7Нет квеста для сброса.
+
+messageCommandQuestcreatorReset: |
+  &7Ваш квест сброшен : &a{quest}&7.
+
+messageCommandQuestcreatorResetpoolEmpty: |
+  &7Нет пула квестов для сброса.
+
+messageCommandQuestcreatorResetpool: |
+  &7Ваш пул квестов сброшен : &a{pool}&7.
+
+messageCommandQuestcreatorScoreboardToggleOn: |
+  &7Ваш квест-scoreboard &aвключен&7.
+
+messageCommandQuestcreatorScoreboardToggleOff: |
+  &7Ваш квест-scoreboard &cвыключен&7.
+
+messageCommandQuestcreatorServerVariable: |
+  &7Серверная переменная &a{variable} &7имеет значение &a{value}&7.
+
+messageCommandQuestcreatorServerVariableOperate: |
+  &7Серверная переменная &a{variable} &7установлена на &a{value}&7.
+
+messageCommandQuestcreatorSetpooltokens: |
+  &7Вы установили &a{amount} &7токенов на квест &a{quest}&7.
+
+messageCommandQuestcreatorStartCouldnt: |
+  &7Не удалось начать квест : &c{quest}&7.
+
+messageCommandQuestcreatorStartEmpty: |
+  &7Нет квеста, который можно начать.
+
+messageCommandQuestcreatorStarted: |
+  &7Начат квест : &a{quest}&7.
+
+messageCommandQuestcreatorState: |
+  &7Установить состояние &a{state}&7.
+
+messageCommandQuestcreatorStopEmpty: |
+  &7Нет квеста для, который можно остановить.
+
+messageCommandQuestcreatorStopCouldnt: |
+  &7Не удалось остановить ваш квест : &c{quest}&7.
+
+messageCommandQuestcreatorStopped: |
+  &7Ваш квест остановлен : &a{quest}&7.
+
+messageCommandQuestcreatorTitleToggleOn: |
+  &7Ваш квест-титул &aвключен&7.
+
+messageCommandQuestcreatorTitleToggleOff: |
+  &7Ваш квест-титул &cвыключен&7.
+
+messageCommandQuestcreatorUser: |
+  &7&m          &r &7{player} &7&m          &r
+  &7Пул токенов : &a{pool_tokens}
+  &7Активные квесты : &a{active_quests}
+  &7Завершенные квесты :
+  {completed_quests}
+
+messageCommandQuestcreatorUserCompletedQuestElement: |
+  &7- &a{quest} &7: &a{counts}
+
+messageCommandQuestcreatorVariable: |
+  &7Ваша переменная &a{variable} &7имеет значение &a{value}&7.
+
+messageCommandQuestcreatorVariableOperate: |
+  &7Ваша переменная &a{variable} &7установлена на &a{value}&7.
+
+# -------------------- Quest --------------------
+
+messageQuestCancelInactive: |
+  &7Ваш квест &c{quest} &7был неактивен &c{time}&7, так что он был отменён.
+
+# -------------------- Coop --------------------
+
+messageCoopCreateLeader: |
+  &7Вы создали кооп-квест : &a{quest}&7. [1/{max}]
+
+messageCoopCreateAlreadyCoop: |
+  &c{player} &7уже в коопе.
+
+messageCoopFull: |
+  &7Нет места в кооп-квесте игрока &c{leader}&7.
+
+messageCoopInvite: |
+  &7Введите в чат игрока для приглашения или &c{cancel} &7для отмены.
+
+messageCoopInviteAlreadyThereLeader: |
+  &a{player} &7уже в вашем кооп-квесте или приглашён.
+
+messageCoopInvited: |
+  &a{leader} &7пригласил вас в кооп-квест : &a{quest}&7. Присоединитесь с помощью /quest coop.
+
+messageCoopInvitedLeader: |
+  &7Вы пригласили &a{player} &7в ваш кооп-квест.
+
+messageCoopNotInvited: |
+  &7Нужно, чтобы &a{leader} &7пригласил вас присоединиться к своему кооп-квесту.
+
+messageCoopNotInvitedLeader: |
+  &c{player} &7попытался присоединиться к вашему кооп-квесту, но он не был приглашён.
+
+messageCoopJoin: |
+  &7Вы присоединились к &a{leader}&7 в кооп-квест : &a{quest}&7. [{current}/{max}]
+
+messageCoopJoinOthers: |
+  &a{player} &7присоединился к кооп-квесту : &a{quest}&7. [{current}/{max}]
+
+messageCoopLeave: |
+  &7Вы покинули кооп-квест игрока &c{leader}&7.
+
+messageCoopLeaveOthers: |
+  &c{player} &7покинул кооп-квест. [{current}/{max}]
+
+messageCoopDisband: |
+  &7Вы распустили ваш кооп-квест : &c{quest}&7.
+
+messageCoopDisbandOthers: |
+  &c{leader} &7распустил свой кооп-квест : &c{quest}&7.
+
+messageCoopKickNotInLeader: |
+  &c{player} &7не в вашем кооп-квесте и не был приглашён.
+
+messageCoopKickInviteLeader: |
+  &7Приглашение игрока &c{player} &7присоединиться было удалено.
+
+messageCoopKick: |
+  &7Вас кикнули из кооп-квеста : &c{quest}&7 игрока &c{leader}.
+
+messageCoopKickOthers: |
+  &c{player} &7кикнут из кооп-квеста. [{current}/{max}]
+
+# -------------------- Queue --------------------
+
+messageQueueCreateAlreadyCoop: |
+  &c{player} &7уже в очереди на этот квест.
+
+messageQueueCreateCantMultiple: |
+  &7Вы не можете встать в очередь сразу на несколько квестов.
+
+messageQueueCouldntStartPosition: |
+  &cНе удалось начать квест : &c{quest}&7. Вы добавлены в очередь, на позицию &c{position}&7/&c{max}&7.
+
+messageQueuePosition: |
+  &7Ваша позиция &a{position}&7/&a{max} &7в очереди на квест : &a{quest}&7.
+
+messageQueueStarted: |
+  &7Вы прошли очередь на квест : &a{quest}&7. Начинаем!
+
+messageQueueLeave: |
+  &7Вы покинули очередь на квест : &c{quest}&7.
+
+# -------------------- Preconditions --------------------
+
+messagePreconditionsError: |
+  &c{error}
+
+textPreconditionsErrorInvalidModelErrors: |
+  &7Неверный шаблон квеста :
+  &c{errors}
+
+textPreconditionsErrorAloneUserNotLoader: |
+  &7Ваши данные пользователя не загружены.
+
+textPreconditionsErrorCoopUserNotLoader: |
+  &7Данные пользователя игрока &c{player}&7 не загружены.
+
+textPreconditionsErrorQuestTooManyInstances: |
+  &7Слишком много игроков сейчас проходят данный квест.
+
+textPreconditionsErrorAlonePlayerAlreadyActive: |
+  &7Вы уже отслеживаете этот квест.
+
+textPreconditionsErrorCoopPlayerAlreadyActive: |
+  &c{player} &7 уже активен в этом квесте.
+
+textPreconditionsErrorAlonePlayerTooManyQuests: |
+  &7Вы уже имеете достаточно квестов.
+
+textPreconditionsErrorCoopPlayerTooManyQuests: |
+  &c{player} &7уже имеет достаточно квестов.
+
+textPreconditionsErrorAlonePlayerMaxCompletions: |
+  &7Вы уже завершили этот квест.
+
+textPreconditionsErrorCoopPlayerMaxCompletions: |
+  &c{player} &7уже завершил этот квест.
+
+textPreconditionsErrorAlonePlayerGroupTooManyQuests: |
+  &7Вы уже имеете достаточно квестов этой группы.
+
+textPreconditionsErrorCoopPlayerGroupTooManyQuests: |
+  &c{player} &7уже имеет достаточно квестов этой группы.
+
+textPreconditionsErrorAlonePlayerGroupPreviousQuestNotCompleted: |
+  &7Вы не выполнили предыдущий квест из той же группы.
+
+textPreconditionsErrorCoopPlayerGroupPreviousQuestNotCompleted: |
+  &c{player} &7не выполнил предыдущий квест из той же группы.
+
+textPreconditionsErrorAlonePlayerCooldown: |
+  &7Вам нужно подождать &c{time} &7, чтобы снова начать этот квест.
+
+textPreconditionsErrorCoopPlayerCooldown: |
+  &c{player} &7должен подождать &c{time} &7, чтобы снова начать этот квест.
+
+textPreconditionsErrorAlonePlayerNoTokens: |
+  &7У вас нет токенов для этого квеста.
+
+textPreconditionsErrorCoopPlayerNoTokens: |
+  &c{player} &7не имеет токенов для этого квеста.
+
+textPreconditionsErrorQuestCoopQuest: |
+  &cЭто кооп-квест.
+
+textPreconditionsErrorQuestNotCoopQuest: |
+  &cЭто не кооп-квест.
+
+textPreconditionsErrorQuestNotEnoughPlayers: |
+  &7У вас должно быть не менее &c{min} игроков{plural} &7для этого квеста.
+
+textPreconditionsErrorQuestTooManyPlayers: |
+  &7У вас должно быть не более &c{max} игроков{plural} &7для этого квеста.
+
+textPreconditionsErrorAlonePlayerNoPermission: |
+  &7У вас нет разрешения на начало этого квеста.
+
+textPreconditionsErrorCoopPlayerNoPermission: |
+  &c{player} &7не имеет разрешения на начало этого квеста.
+
+textPreconditionsErrorAlonePlayerDisallowedWorld: |
+  &7Вы в неразрешенном мире для этого квеста.
+
+textPreconditionsErrorCoopPlayerDisallowedWorld: |
+  &c{player} &7в неразрешенном мире для этого квеста.
+
+textPreconditionsErrorStartConditionsDontMatch: |
+  &7Неверные условия для старта.
+
+textPreconditionsErrorGroupStartConditionsDontMatch: |
+  &7Неверные групповые условия для старта.
+
+# -------------------- Detailed progression (verbose) --------------------
+
+textDetailedProgressionBranch: '&2&l{name}'
+textDetailedProgressionBranchNoName: []
+
+textDetailedProgressionObject: '&a> &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionObjectDistance: '&a> &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionObjectNoDetail: '&2> &7{name}'
+textDetailedProgressionObjectNoName: []
+
+textDetailedProgressionObjectDelegateHeader: '&a> &7{name}'
+textDetailedProgressionObjectDelegateHeaderNoName: []
+
+textDetailedProgressionObjectDelegate: '&a- &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionObjectDelegateCompleted: '&7&m- {name} &7({progression}/{goal}&7)'
+textDetailedProgressionObjectDelegateDistance: '&a- &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionObjectDelegateDistanceCompleted: '&7&m- {name} &7({distance}m&7)'
+textDetailedProgressionObjectDelegateNoDetail: '&a- &7{name}'
+textDetailedProgressionObjectDelegateNoDetailCompleted: '&7&m- {name}&7'
+textDetailedProgressionObjectDelegateNoName: []
+textDetailedProgressionObjectDelegateNoNameCompleted: []
+
+# -------------------- Detailed progression (scoreboard) --------------------
+
+textDetailedProgressionScoreboardBranch: '&2&l{name}'
+textDetailedProgressionScoreboardBranchNoName: []
+
+textDetailedProgressionScoreboardObject: '&a> &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionScoreboardObjectDistance: '&a> &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionScoreboardObjectNoDetail: '&2> &7{name}'
+textDetailedProgressionScoreboardObjectNoName: []
+
+textDetailedProgressionScoreboardObjectDelegateHeader: '&a> &7{name}'
+textDetailedProgressionScoreboardObjectDelegateHeaderNoName: []
+
+textDetailedProgressionScoreboardObjectDelegate: '&a- &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionScoreboardObjectDelegateCompleted: '&7&m- {name} &7({progression}/{goal}&7)'
+textDetailedProgressionScoreboardObjectDelegateDistance: '&a- &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionScoreboardObjectDelegateDistanceCompleted: '&7&m- {name} &7({distance}m&7)'
+textDetailedProgressionScoreboardObjectDelegateNoDetail: '&a- &7{name}'
+textDetailedProgressionScoreboardObjectDelegateNoDetailCompleted: '&7&m- {name}&7'
+textDetailedProgressionScoreboardObjectDelegateNoName: []
+textDetailedProgressionScoreboardObjectDelegateNoNameCompleted: []
+
+# -------------------- Detailed progression (PlaceholderAPI) --------------------
+
+textDetailedProgressionPlaceholderAPIObject: '&7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionPlaceholderAPIObjectDistance: '&7{name} &7(&a{distance}m&7)'
+
+textDetailedProgressionPlaceholderAPIObjectNoDetail: '&7{name}'
+textDetailedProgressionPlaceholderAPIObjectNoName: '&7/'
+
+# -------------------- Journal --------------------
+
+textJournalEmpty: |
+  &7Ваш квест-журнал пуст.
+
+# -------------------- Diverge --------------------
+
+textDivergeLineSplit: '&r    '
+
+textDivergeSelect: |
+  &dКликните, чтобы выбрать
+
+textDivergeCantSelect: |
+  &7Вы не можете совершать выборы в этом квесте
+
+textDivergeCantSelectUnavailable: |
+  &7Этот выбор не доступен
+
+textServerActionPromptNext: |
+  &dКликните, чтобы продолжить
+
+# -------------------- Scoreboard --------------------
+
+textScoreboarOneQuestTitle: |
+  &7&m    &r &d&lКвест &7&m    &r
+
+textScoreboardOneQuestContent: |
+  &r
+  &a{quest}
+  &r
+  {detailed_progression}
+  &r
+  &e&ohttp://guillaumevdn.com
+
+textScoreboardOneQuestContentNone: |
+  &r
+  &7Нет активного квеста!
+  &r
+  &dguillaumevdn.com
+
+textScoreboardMultipleQuestTitle: |
+  &7&m    &r &d&lКвест &7&m    &r
+
+textScoreboardMultipleQuestContent: |
+  {quests}
+  &r
+  &e&ohttp://guillaumevdn.com
+
+textScoreboardMultipleQuestContentQuest: |
+  &r
+  &a{quest}
+  &r
+  {detailed_progression}
+
+textScoreboardMultipleQuestContentNone: |
+  &r
+  &7Нет активного квеста!
+  &r
+  &e&ohttp://guillaumevdn.com
+
+# -------------------- GUI --------------------
+
+guiDefaultActivatorName: |
+  &7Квесты
+
+guiQuestCoopPlayers: |
+  &r
+  &7Кооп-квест с &b{players}
+  &7{leader}
+  &r
+
+guiQuestCoopLeader: |
+  &7Вы - глава.
+
+guiQuestCoopNotLeader: |
+  &7Глава - {leader}.
+
+guiQuestControls: |
+  &r
+  &d{controls}
+
+guiQuestControlsInfo: |
+  &dЛевый клик, чтобы получить больше информации
+
+guiQuestControlsStart: |
+  &dПравый клик, чтобы начать квест
+
+guiQuestControlsStartCoop: |
+  &dШифт + Правый клик, чтобы начать кооп-квест
+
+guiQuestControlsPhysicalActivatorGUIStart: |
+  &dПравый клик, чтобы начать квест
+
+guiQuestControlsPhysicalActivatorGUIStartCoop: |
+  &dШифт + правый клик, чтобы начать кооп-квест
+
+guiQuestControlsStop: |
+  &dПравый клик, чтобы остановить квест
+
+guiQuestControlsLeave: |
+  &dПравый клик, чтобы выйти из кооп-квеста
+
+guiQuestDetailedProgression: |
+  &r
+  {detailed_progression}
+
+guiQuestDetailedErrors: |
+  &r
+  {detailed_errors}
+
+guiQuestCompletionCount: |
+  &r
+  &7Вы выполнили этот квест {count} время{plural}
+
+guiQuestCompletionCountGoal: |
+  &r
+  &7Вы выполнили этот квест {count}/{max} время{plural}
+
+guiQuestCooldown: |
+  &r
+  &7Пожалуйста, подождите &a{time} &7, чтобы снова начать этот квест.
+
+guiQuestCooldownPool: |
+  &r
+  &7Новые квесты будут рассчитаны через &a{time}&7.
+
+guiQuestCompleted: |
+  &7Дата завершения : &a{date}&7.
+
+guiConfirmLoreStopQuest: |
+  &7Кликните здесь, чтобы &cостановить этот квест &7:
+  &c{quest}
+
+guiConfirmLoreLeaveCoopQuest: |
+  &7Кликните здесь, чтобы &cпокинуть этот кооп-квест &7:
+  &c{quest}
+
+guiConfirmLoreStartQuest: |
+  &7Кликните здесь, чтобы &aначать этот квест &7:
+  &a{quest}
+
+guiConfirmLoreStartCoopQuest: |
+  &7Кликните здесь, чтобы &aначать этот квест в коопе &7:
+  &a{quest}
+
+guiConfirmLoreStartQuestAfterActivatorDialog: |
+  &7Квест : &a{quest}
+
+guiConfirmLoreStartCoopQuestAfterActivatorDialog: |
+  &7Кликните здесь, чтобы &aначать этот квест в коопе &7:
+  &a{quest}
+
+# -------------------- Integration --------------------
+
+integrationDynmapMarkerSetName: Квесты
+integrationHolographicDisplaysActivatorHologramStatusCount: '&a{count}'
+integrationHolographicDisplaysActivatorHologramNoStatusCount: '&c0'
+integrationHolographicDisplaysActivatorHologramStatusList: '&a{list}'
+integrationHolographicDisplaysActivatorHologramStatusListSeparator: '&7, &a'
+integrationHolographicDisplaysActivatorHologramNoStatusList: '&cничего'
+
+# -------------------- Scoreboard --------------------
+
+messageScoreboardScrollingStart: >
+  &aВы начали листать ваш scoreboard. Левый клик - листать вверх, правый - вниз. Перепишите тот же чат для выхода.
+
+messageScoreboardScrollingStop: >
+  &7Вы перестали листать ваш scoreboard.
+
+messageScoreboardScrollingReachedTop: >
+  &7Вы достигли вершины scoreboard.
+
+messageScoreboardScrollingReachedBottom: >
+  &7Вы достигли низа scoreboard.

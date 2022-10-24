@@ -1,6 +1,7 @@
 # -------------------- Display settings --------------------
 
-display_name: Arne
+display_name: dime
+
 description: ['Completa las Misiones de Halloween para liberar a OrioLand.']
 
 start_notify:
@@ -10,6 +11,7 @@ start_notify:
 
 progress_notify:
   actionbar: '&a{quest} &7| {objective}'
+
 progress_notify_scoreboard: true
 
 all_status_item:
@@ -50,16 +52,16 @@ cooldown:
 
 activators: [Halloween]
 
-activators_dialog:
+activators_dialog: 
   - '&#df00fbA&#bd00d8r&#9c01b6n&#7a0193e &7>> Porfavor no me ataquéis!.'
   - '&#df00fbA&#bd00d8r&#9c01b6n&#7a0193e &7>> Se que soy un vampiro pero necesito que confiéis en mi, e-es importante, podría decidir el destino de este mundo!.'
-  - ''  # empty line so the player needs to click again for the GUI to open
+  - ''
 
 activators_dialog_auto_start_distance: 3.5
 
 activators_dialog_reset:
   reset_delay: 30 SECOND
-  reset_distance: 5.0
+  reset_distance: 5
   reset_notify:
     message: '&6[Farmer] &7Okay then, rude D:'
 
@@ -103,7 +105,7 @@ end_objects:
   SUCCESS:
     - type: SERVER_LOGIC_MONEY
       currency: VAULT
-      value_formula: {value} + 150.0  # takes the current money amount and add 150$
+      value_formula: '{value} + 150.0' # takes the current money amount and add 150$
     - type: SERVER_FIREWORKS_LAUNCH
       effects:
         1:
@@ -120,5 +122,5 @@ end_objects:
       position:
         type: PLAYER_RELATIVE_SINGLE
         location:
-          distance: 3.0
-          vertical_offset: 1.0
+          distance: 3
+          vertical_offset: 1

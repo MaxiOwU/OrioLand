@@ -1,0 +1,54 @@
+name: configurator
+permissions:
+- luckperms.creategroup
+- luckperms.deletegroup
+- luckperms.editor
+- luckperms.group
+- luckperms.group.clear
+- luckperms.group.clone
+- luckperms.group.editor
+- luckperms.group.info
+- luckperms.group.listmembers
+- luckperms.group.meta
+- luckperms.group.meta.addprefix
+- luckperms.group.meta.addsuffix
+- luckperms.group.meta.addtempprefix
+- luckperms.group.meta.addtempsuffix
+- luckperms.group.meta.clear
+- luckperms.group.meta.info
+- luckperms.group.meta.removeprefix
+- luckperms.group.meta.removesuffix
+- luckperms.group.meta.removetempprefix
+- luckperms.group.meta.removetempsuffix
+- luckperms.group.meta.set
+- luckperms.group.meta.setprefix
+- luckperms.group.meta.setsuffix
+- luckperms.group.meta.settemp
+- luckperms.group.meta.settempprefix
+- luckperms.group.meta.settempsuffix
+- luckperms.group.meta.unset
+- luckperms.group.meta.unsettemp
+- luckperms.group.permission
+- luckperms.group.permission.check
+- luckperms.group.permission.info
+- luckperms.group.permission.set
+- luckperms.group.permission.settemp
+- luckperms.group.permission.unset
+- luckperms.group.permission.unsettemp
+- luckperms.group.rename
+- luckperms.group.setdisplayname
+- luckperms.group.setweight
+- luckperms.group.showtracks
+- luckperms.info
+- luckperms.listgroups
+- luckperms.user.meta
+- luckperms.user.meta.addprefix
+- luckperms.user.meta.addsuffix
+- luckperms.user.meta.addtempprefix
+- luckperms.user.meta.addtempsuffix
+- weight.20
+prefixes:
+- '&3&lConfigurator ':
+    priority: 20
+- '&3[Configurator] ':
+    priority: 20

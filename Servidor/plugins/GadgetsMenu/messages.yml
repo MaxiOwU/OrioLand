@@ -1,4 +1,4 @@
-Prefix: "&3GadgetsMenu &6\xbb &r"
+Prefix: '&3GadgetsMenu &6» &r'
 GUI-Menus:
   Main: Cosmeticos
   Hats: Cabezas
@@ -57,7 +57,7 @@ GUI-Menus:
     GUI-Name: Maquina de Cajas
     Items:
       Error:
-        Name: "&c\xa1No tienes Cajas!"
+        Name: '&c¡No tienes Cajas!'
         Material: BARRIER
         Slot: 22
         Lore:
@@ -86,7 +86,7 @@ GUI-Menus:
         - '&34. &7| {RECENT_LOOT_4}'
         - '&35. &7| {RECENT_LOOT_5}'
         - ''
-        - "&6&l\xbb &aActualmente tienes &e{MYSTERY_BOXES} &aCajas."
+        - '&6&l» &aActualmente tienes &e{MYSTERY_BOXES} &aCajas.'
       Craft-Mystery-Boxes:
         Name: '&6&lCRAFTEAR CAJAS'
         Material: ANVIL
@@ -145,12 +145,12 @@ GUI-Menus:
         - '&fEn esta caja podras encontrar'
         - '&flos siguientes items:'
         - ''
-        - "&7\u2022 &a&lComunes: &f4"
-        - "&7\u2022 &9&lRaros: &f1"
-        - "&7\u2022 &5&lEpicos: &f1"
-        - "&7\u2022 &d&lLegendarios: &f1"
+        - '&7• &a&lComunes: &f4'
+        - '&7• &9&lRaros: &f1'
+        - '&7• &5&lEpicos: &f1'
+        - '&7• &d&lLegendarios: &f1'
         - ''
-        - "&6Calidad: &e\u2730&7\u2730\u2730\u2730\u2730"
+        - '&6Calidad: &e✰&7✰✰✰✰'
       2-Star:
         Name: '&b&lCaja Misteriosa &7(2)'
         Material: head:ddcc189633c789cb6d5e78d13a5043b26e7b40cdb7cfc4e23aa2279574967b4
@@ -160,12 +160,12 @@ GUI-Menus:
         - '&fEn esta caja podras encontrar'
         - '&flos siguientes items:'
         - ''
-        - "&7\u2022 &a&lComunes: &f3"
-        - "&7\u2022 &9&lRaros: &f2"
-        - "&7\u2022 &5&lEpicos: &f1"
-        - "&7\u2022 &d&lLegendarios: &f1"
+        - '&7• &a&lComunes: &f3'
+        - '&7• &9&lRaros: &f2'
+        - '&7• &5&lEpicos: &f1'
+        - '&7• &d&lLegendarios: &f1'
         - ''
-        - "&7Quality: &e\u2730\u2730&7\u2730\u2730\u2730"
+        - '&7Quality: &e✰✰&7✰✰✰'
       3-Star:
         Name: '&b&lCaja Misteriosa &7(3)'
         Material: head:ddcc189633c789cb6d5e78d13a5043b26e7b40cdb7cfc4e23aa2279574967b4
@@ -175,12 +175,12 @@ GUI-Menus:
         - '&fEn esta caja podras encontrar'
         - '&flos siguientes items:'
         - ''
-        - "&7\u2022 &a&lComunes: &f2"
-        - "&7\u2022 &9&lRaros: &f2"
-        - "&7\u2022 &5&lEpicos: &f2"
-        - "&7\u2022 &d&lLegendarios: &f1"
+        - '&7• &a&lComunes: &f2'
+        - '&7• &9&lRaros: &f2'
+        - '&7• &5&lEpicos: &f2'
+        - '&7• &d&lLegendarios: &f1'
         - ''
-        - "&7Quality: &e\u2730\u2730\u2730&7\u2730\u2730"
+        - '&7Quality: &e✰✰✰&7✰✰'
       4-Star:
         Name: '&b&lCaja Misteriosa &7(4)'
         Material: head:ddcc189633c789cb6d5e78d13a5043b26e7b40cdb7cfc4e23aa2279574967b4
@@ -190,12 +190,12 @@ GUI-Menus:
         - '&fEn esta caja podras encontrar'
         - '&flos siguientes items:'
         - ''
-        - "&7\u2022 &a&lComunes: &f1"
-        - "&7\u2022 &9&lRaros: &f1"
-        - "&7\u2022 &5&lEpicos: &f2"
-        - "&7\u2022 &d&lLegendarios: &f3"
+        - '&7• &a&lComunes: &f1'
+        - '&7• &9&lRaros: &f1'
+        - '&7• &5&lEpicos: &f2'
+        - '&7• &d&lLegendarios: &f3'
         - ''
-        - "&7Quality: &e\u2730\u2730\u2730\u2730&7\u2730"
+        - '&7Quality: &e✰✰✰✰&7✰'
       5-Star:
         Name: '&b&lCaja Misteriosa &7(5)'
         Material: head:ddcc189633c789cb6d5e78d13a5043b26e7b40cdb7cfc4e23aa2279574967b4
@@ -205,12 +205,12 @@ GUI-Menus:
         - '&fEn esta caja podras encontrar'
         - '&flos siguientes items:'
         - ''
-        - "&7\u2022 &a&lComunes: &f0"
-        - "&7\u2022 &9&lRaros: &f1"
-        - "&7\u2022 &5&lEpicos: &f2"
-        - "&7\u2022 &d&lLegendarios: &f4"
+        - '&7• &a&lComunes: &f0'
+        - '&7• &9&lRaros: &f1'
+        - '&7• &5&lEpicos: &f2'
+        - '&7• &d&lLegendarios: &f4'
         - ''
-        - "&7Quality: &e\u2730\u2730\u2730\u2730\u2730"
+        - '&7Quality: &e✰✰✰✰✰'
   Gift-Inventory-Menu:
     GUI-Name: Gift Inventory
     Items:
@@ -464,12 +464,12 @@ Items:
   Multiple-Boxes-Loot-Book:
   - '   &9&lABRISTE {MYSTERY_BOXES_OPENED} Cajas'
   - ''
-  - "&0\xa1Felicidades! Has"
+  - '&0¡Felicidades! Has'
   - '&0obtenido cosas nuevas.'
   - ''
   - '&0&lLoot encontrado:'
-  - "&0&l\u2022 &c&l{MYSTERY_DUST} &cPolvos"
-  - "&0&l\u2022 &d&l{PET_ITEMS} &dPet Items"
+  - '&0&l• &c&l{MYSTERY_DUST} &cPolvos'
+  - '&0&l• &d&l{PET_ITEMS} &dPet Items'
   - ''
   - '&0Ve a la siguiente pagina para'
   - '&0ver los items desbloqueados...'
@@ -571,8 +571,8 @@ Reset-Buttons:
 Cooldown-In-Action-Bar:
   Enabled: true
   Cooldown-Block:
-    Remain: "&7\u25a0"
-    Retain: "&b\u25a0"
+    Remain: '&7■'
+    Retain: '&b■'
     Amount-Of-Blocks: 10
   Cooldown-Message: '&f{NAME} &b{COOLDOWN_BLOCK} &a{TIME_LEFT}s'
 Item-Purchase-Messages:
@@ -595,16 +595,16 @@ Scanning-Player-Data-Files: '&cEscanenado datos del jugadopr...'
 Deleted-Player-Data-Files: '&cLos Archivos {DELETED_FILES} &cfueron eliminados y los
   Archivos {NON_DELETED_FILES} no fueron eliminados.'
 Folder-Is-Empty: '&cNo se encontro ningun archivo de Datos para este jugador.'
-Banners-Are-Disabled: "&c\xa1Este cosmetico se encuentra deshabilitado!"
-Cloaks-Are-Disabled: "&c\xa1Este cosmetico se encuentra deshabilitado!"
-Emotes-Are-Disabled: "&c\xa1Este cosmetico se encuentra deshabilitado!"
-Gadgets-Are-Disabled: "&c\xa1Este cosmetico se encuentra deshabilitado!"
-Hats-Are-Disabled: "&c\xa1Este cosmetico se encuentra deshabilitado!"
-Animated-Hats-Are-Disabled: "&c\xa1Este cosmetico se encuentra deshabilitado!"
-Morphs-Are-Disabled: "&c\xa1Este cosmetico se encuentra deshabilitado!"
-Particles-Are-Disabled: "&c\xa1Este cosmetico se encuentra deshabilitado!"
-Pets-Are-Disabled: "&c\xa1Este cosmetico se encuentra deshabilitado!"
-Suits-Are-Disabled: "&c\xa1Este cosmetico se encuentra deshabilitado!"
+Banners-Are-Disabled: '&c¡Este cosmetico se encuentra deshabilitado!'
+Cloaks-Are-Disabled: '&c¡Este cosmetico se encuentra deshabilitado!'
+Emotes-Are-Disabled: '&c¡Este cosmetico se encuentra deshabilitado!'
+Gadgets-Are-Disabled: '&c¡Este cosmetico se encuentra deshabilitado!'
+Hats-Are-Disabled: '&c¡Este cosmetico se encuentra deshabilitado!'
+Animated-Hats-Are-Disabled: '&c¡Este cosmetico se encuentra deshabilitado!'
+Morphs-Are-Disabled: '&c¡Este cosmetico se encuentra deshabilitado!'
+Particles-Are-Disabled: '&c¡Este cosmetico se encuentra deshabilitado!'
+Pets-Are-Disabled: '&c¡Este cosmetico se encuentra deshabilitado!'
+Suits-Are-Disabled: '&c¡Este cosmetico se encuentra deshabilitado!'
 Equip-Animated-Hat-For-Player: '&aHas equipado &e{ANIMATED_HAT} &aa el jugador &e{PLAYER}.'
 Equip-Banner-For-Player: '&aHas equipado {BANNER} &aa el jugador &e{PLAYER}.'
 Equip-Cloak-For-Player: '&aHas equipado {CLOAK} &aa el jugador &e{PLAYER}.'
@@ -625,22 +625,22 @@ Select-Morph: '&bTe has convertido en {MORPH} (Transformacion).'
 Select-Particle: '&bHas seleccionado{PARTICLE} (Particula).'
 Select-Pet: '&bHas aparecido {PET} (Mascota).'
 Select-Suit: '&bHas seleccionado {SUIT} (Traje).'
-Reset-Cosmetics: "&c\xa1Eliminaste todos tus cosmeticos activos!"
-Reset-Animated-Hat: "&c\xa1Eliminaste tu Cabeza Animada correctamente!"
-Reset-Banner: "&c\xa1Eliminaste tu Bandera correctamente!"
-Reset-Cloak: "&c\xa1Eliminaste tu Particula Especial correctamente!"
-Reset-Emote: "&c\xa1Eliminaste tu Emoticon correctamente!"
-Reset-Gadget: "&c\xa1Eliminaste tu Artefacto correctamente!"
-Reset-Hat: "&c\xa1Eliminaste tu Cabeza correctamente!"
-Reset-Morph: "&c\xa1Desapareciste tu Transformacion y volviste a ser t\xfa!"
-Reset-Particle: "&c\xa1Eliminaste tu Particula correctamente!"
-Reset-Pet: "&c\xa1Desapareciste tu Mascota correctamente!"
-Reset-Suit: "&c\xa1Eliminaste tu Traje correctamente!"
-Reset-Suit-Helmet: "&c\xa1Eliminaste tu Cabeza de Traje correctamente!"
-Reset-Suit-Chestplate: "&c\xa1Eliminaste tu Pechera de Traje correctamente!"
-Reset-Suit-Leggings: "&c\xa1Eliminaste tus Pantalones de Traje correctamente!"
-Reset-Suit-Boots: "&c\xa1Eliminaste tus Botas de Traje correctamente!"
-Cosmetic-Reset-Completed: "&a\xa1Reinicio de Cosmeticos completado"
+Reset-Cosmetics: '&c¡Eliminaste todos tus cosmeticos activos!'
+Reset-Animated-Hat: '&c¡Eliminaste tu Cabeza Animada correctamente!'
+Reset-Banner: '&c¡Eliminaste tu Bandera correctamente!'
+Reset-Cloak: '&c¡Eliminaste tu Particula Especial correctamente!'
+Reset-Emote: '&c¡Eliminaste tu Emoticon correctamente!'
+Reset-Gadget: '&c¡Eliminaste tu Artefacto correctamente!'
+Reset-Hat: '&c¡Eliminaste tu Cabeza correctamente!'
+Reset-Morph: '&c¡Desapareciste tu Transformacion y volviste a ser tú!'
+Reset-Particle: '&c¡Eliminaste tu Particula correctamente!'
+Reset-Pet: '&c¡Desapareciste tu Mascota correctamente!'
+Reset-Suit: '&c¡Eliminaste tu Traje correctamente!'
+Reset-Suit-Helmet: '&c¡Eliminaste tu Cabeza de Traje correctamente!'
+Reset-Suit-Chestplate: '&c¡Eliminaste tu Pechera de Traje correctamente!'
+Reset-Suit-Leggings: '&c¡Eliminaste tus Pantalones de Traje correctamente!'
+Reset-Suit-Boots: '&c¡Eliminaste tus Botas de Traje correctamente!'
+Cosmetic-Reset-Completed: '&a¡Reinicio de Cosmeticos completado'
 Characters-Too-Long: '&cEl nombre de la mascota no puede superar los {CHARACTERS}
   caracteres.'
 Does-Not-Support-Characters: '&cSolo puedes utilizar el Alfabeto del idioma ingles
@@ -660,7 +660,7 @@ Stand-On-Two-Blocks-High: '&cDebes estar a 2 bloques de altura del suelo para ut
   este artefacto.'
 Player-Not-Found: '&cNo se encontro al jugador que especificaste.'
 Player-Is-Offline: '&cEste jugador se encuentra desconectado.'
-Plugin-Reloaded: "&aEl plugin ha sido recargado correctamente &8[&a&l\u2714&8]"
+Plugin-Reloaded: '&aEl plugin ha sido recargado correctamente &8[&a&l✔&8]'
 Reloading-Plugin: '&cRecargando el plugin...'
 Required-Number-Format: '&cEs requerido que especifiques un numero.'
 Required-Positive-Number: '&cTienes que especificar un numero positivo.'
@@ -713,11 +713,10 @@ Mystery-Vault-Not-Found-With-Name: '&cNo se encontro ninguna maquina con el nomb
   {NAME}'
 Teleport-To-Mystery-Vault: '&aHas sido teletransportado a la maquina con el nombre
   {NAME}'
-Open-Mystery-Vault-At-A-Time: "&c\xa1Solo un jugador puede usar la maquina al mismo\
-  \ tiempo!"
+Open-Mystery-Vault-At-A-Time: '&c¡Solo un jugador puede usar la maquina al mismo tiempo!'
 Can-Only-Open-One-Mystery-Box: '&cTienes que esperar a que la Caja sea abierta para
   poder abrir otra.'
-Purchase-Cancelled: "&c\xa1Has cancelado el proceso de compra!"
+Purchase-Cancelled: '&c¡Has cancelado el proceso de compra!'
 Mystery-Boxes-Are-Disabled: '&cLas Cajas estan deshabilitadas.'
 Crafted-Mystery-Box: '&bHas fabricado una &f{NAME} &bcorrectamente.'
 Gave-Mystery-Gifts: '{PREFIX}&eYou''ve successfully gave &b{GIFTS} &emystery gift
@@ -755,8 +754,7 @@ Disabled-Self-Morph-View: '&cTu vista de Transformacion ha sido desactivada.'
 Enabled-Bypass-Cooldown: '&bTu Ignoracion de Cooldown ha sido activada.'
 Disabled-Bypass-Cooldown: '&cTu Ignoracion de Cooldown ha sido desactivada.'
 Enabled-Random-Mystery-Vault-Animation: '&bHas seleccionado Aleatoria (Animacion)'
-Disabled-Random-Mystery-Vault-Animation: "&c\xc2\xa1Eliminaste tu Animacion Aleatoria\
-  \ correctamente!"
+Disabled-Random-Mystery-Vault-Animation: '&cÂ¡Eliminaste tu Animacion Aleatoria correctamente!'
 Disabled-Command-While-Cosmetics-Activated: '&cNo puedes utilizar este comando si
   tienes cosmeticos activos.'
 Invalid-Type: '&cEl tipo {TYPE} que has ingresado no es valido.'

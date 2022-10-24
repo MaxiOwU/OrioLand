@@ -1,0 +1,13 @@
+[22/10 08:04:15] [info] Nini4k | quest Nini4k/halloween | pushing quest halloween = 9df04f6f-4d64-4953-a2a6-0f7e54528c1c
+[22/10 08:04:15] [info] Nini4k | quest Nini4k/halloween | started quest : cause ACTIVATOR_PHYSICAL
+[22/10 08:04:15] [info] Nini4k | quest Nini4k/halloween/main | started branch
+[22/10 08:04:32] [info] Nini4k | quest Nini4k/halloween | goto QUEST_SUCCESS | applying goto
+[22/10 08:04:32] [info] Nini4k | quest Nini4k/halloween | give rewards for group, debug : group rewards processing debug |
+model : halloween
+groups : 
+quest players : d6762391-6bb6-3a78-9a54-81eb59d94c36
+- preparing to process player d6762391-6bb6-3a78-9a54-81eb59d94c36
+-- processing player d6762391-6bb6-3a78-9a54-81eb59d94c36, Nini4k
+--- end type : SUCCESS
+--- groups here : 
+[22/10 08:04:32] [info] Nini4k | quest Nini4k/halloween | stopped quest : cause GOTO

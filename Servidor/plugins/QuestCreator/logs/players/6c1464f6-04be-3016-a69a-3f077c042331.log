@@ -1,0 +1,11 @@
+[19/10 19:17:47] [info] GifterIsDev | connected
+[19/10 19:17:48] [info] GifterIsDev | fetched user data : no value ; created it
+[19/10 19:17:48] [info] GifterIsDev | pushing user 6c1464f6-04be-3016-a69a-3f077c042331, active quests : 
+[19/10 19:17:48] [info] GifterIsDev | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[19/10 19:17:48] [info] GifterIsDev | fetched user quests : 
+[19/10 19:17:50] [info] GifterIsDev | disposing user quests data : 
+- must dispose quests
+[19/10 19:17:50] [info] GifterIsDev | disposed user data
+[19/10 19:17:50] [info] GifterIsDev | disconnected

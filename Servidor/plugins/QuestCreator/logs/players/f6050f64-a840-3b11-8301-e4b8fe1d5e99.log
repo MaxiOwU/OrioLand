@@ -1,0 +1,11 @@
+[23/10 14:57:25] [info] MUFIN | connected
+[23/10 14:57:25] [info] MUFIN | fetched user data : no value ; created it
+[23/10 14:57:25] [info] MUFIN | pushing user f6050f64-a840-3b11-8301-e4b8fe1d5e99, active quests : 
+[23/10 14:57:25] [info] MUFIN | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 14:57:25] [info] MUFIN | fetched user quests : 
+[23/10 15:05:14] [info] MUFIN | disposing user quests data : 
+- must dispose quests
+[23/10 15:05:14] [info] MUFIN | disposed user data
+[23/10 15:05:14] [info] MUFIN | disconnected

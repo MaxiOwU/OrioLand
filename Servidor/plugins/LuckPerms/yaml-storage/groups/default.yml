@@ -218,6 +218,7 @@ permissions:
 - essentials.warp.list
 - essentials.warpinfo
 - excellentenchants.user
+- gadgetsmenu.menuselector
 - graves.autoloot
 - graves.break:
     value: false

@@ -1,0 +1,51 @@
+[16/10 12:33:57] [info] _NickiNicole_ | connected
+[16/10 12:33:57] [info] _NickiNicole_ | fetched user data : no value ; created it
+[16/10 12:33:57] [info] _NickiNicole_ | pushing user 2f80cb78-f4a0-34e0-9540-e79f3ec64c47, active quests : 
+[16/10 12:33:57] [info] _NickiNicole_ | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 12:33:57] [info] _NickiNicole_ | fetched user quests : 
+[16/10 14:54:12] [info] _NickiNicole_ | disposing user quests data : 
+- must dispose quests
+[16/10 14:54:12] [info] _NickiNicole_ | disposed user data
+[16/10 14:54:12] [info] _NickiNicole_ | disconnected
+[23/10 13:15:39] [info] _NickiNicole_ | connected
+[23/10 13:15:39] [info] _NickiNicole_ | fetched user data : active quests 
+[23/10 13:15:39] [info] _NickiNicole_ | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 13:15:39] [info] _NickiNicole_ | fetched user quests : 
+[23/10 15:00:03] [info] _NickiNicole_ | disposing user quests data : 
+- must dispose quests
+[23/10 15:00:03] [info] _NickiNicole_ | disposed user data
+[23/10 15:00:03] [info] _NickiNicole_ | disconnected
+[23/10 15:00:15] [info] _NickiNicole_ | connected
+[23/10 15:00:15] [info] _NickiNicole_ | fetched user data : active quests 
+[23/10 15:00:15] [info] _NickiNicole_ | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 15:00:15] [info] _NickiNicole_ | fetched user quests : 
+[23/10 15:46:16] [info] _NickiNicole_ | disposing user quests data : 
+- must dispose quests
+[23/10 15:46:16] [info] _NickiNicole_ | disposed user data
+[23/10 15:46:16] [info] _NickiNicole_ | disconnected
+[23/10 16:59:50] [info] _NickiNicole_ | connected
+[23/10 16:59:50] [info] _NickiNicole_ | fetched user data : active quests 
+[23/10 16:59:50] [info] _NickiNicole_ | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 16:59:50] [info] _NickiNicole_ | fetched user quests : 
+[23/10 17:00:18] [info] _NickiNicole_ | disposing user quests data : 
+- must dispose quests
+[23/10 17:00:18] [info] _NickiNicole_ | disposed user data
+[23/10 17:00:18] [info] _NickiNicole_ | disconnected
+[23/10 17:00:23] [info] _NickiNicole_ | connected
+[23/10 17:00:24] [info] _NickiNicole_ | fetched user data : active quests 
+[23/10 17:00:24] [info] _NickiNicole_ | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 17:00:24] [info] _NickiNicole_ | fetched user quests : 
+[23/10 17:30:34] [info] _NickiNicole_ | disposing user quests data : 
+- must dispose quests
+[23/10 17:30:34] [info] _NickiNicole_ | disposed user data
+[23/10 17:30:34] [info] _NickiNicole_ | disconnected

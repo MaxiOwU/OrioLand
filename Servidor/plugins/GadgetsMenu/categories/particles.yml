@@ -9,7 +9,7 @@ Particles:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &e&lCOMUN"
+    - '&8&l» &fRareza: &e&lCOMUN'
   Drip Water:
     Name: '&b&lGoteo de Agua'
     Material: WATER_BUCKET
@@ -20,7 +20,7 @@ Particles:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'
   Drip Lava:
     Name: '&b&lGoteo de Lava'
     Material: LAVA_BUCKET
@@ -31,7 +31,7 @@ Particles:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'
   Crit:
     Name: '&b&lCriticos'
     Material: STONE_SWORD
@@ -42,7 +42,7 @@ Particles:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'
   Magic Crit:
     Name: '&b&lCriticos magicos'
     Material: POTION:8204
@@ -53,7 +53,7 @@ Particles:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'
   Spell:
     Name: '&b&lHechizo'
     Material: ENDER_CHEST
@@ -64,7 +64,7 @@ Particles:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &5&lEPICO"
+    - '&8&l» &fRareza: &5&lEPICO'
   Instant Spell:
     Name: '&b&lHechizo instantaneo'
     Material: GHAST_TEAR
@@ -75,7 +75,7 @@ Particles:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &5&lEPICO"
+    - '&8&l» &fRareza: &5&lEPICO'
   Mob Spell:
     Name: '&b&lHechizo de Mob'
     Material: EXPERIENCE_BOTTLE
@@ -86,7 +86,7 @@ Particles:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &5&lEPICO"
+    - '&8&l» &fRareza: &5&lEPICO'
   Witch Spell:
     Name: '&b&lHechizo de Bruja'
     Material: POTION:8260
@@ -97,7 +97,7 @@ Particles:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+    - '&8&l» &fRareza: &d&lLEGENDARIO'
   Angry Villager:
     Name: '&b&lEnojado'
     Material: FIRE_CHARGE
@@ -108,7 +108,7 @@ Particles:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &5&lEPICO"
+    - '&8&l» &fRareza: &5&lEPICO'
   Happy Villager:
     Name: '&b&lFeliz'
     Material: EMERALD
@@ -119,7 +119,7 @@ Particles:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &5&lEPICO"
+    - '&8&l» &fRareza: &5&lEPICO'
   Town Aura:
     Name: '&b&lAura Gris'
     Material: MYCELIUM
@@ -130,7 +130,7 @@ Particles:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &e&lCOMUN"
+    - '&8&l» &fRareza: &e&lCOMUN'
   Note:
     Name: '&b&lNotas'
     Material: NOTE_BLOCK
@@ -141,7 +141,7 @@ Particles:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &5&lEPICO"
+    - '&8&l» &fRareza: &5&lEPICO'
   Portal:
     Name: '&b&lPortal'
     Material: ENDER_PEARL
@@ -152,7 +152,7 @@ Particles:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &e&lCOMUN"
+    - '&8&l» &fRareza: &e&lCOMUN'
   Enchantment Table:
     Name: '&b&lEncantamientos'
     Material: ENCHANTING_TABLE
@@ -163,7 +163,7 @@ Particles:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'
   Flame:
     Name: '&b&lFlamas'
     Material: GOLD_NUGGET
@@ -174,7 +174,7 @@ Particles:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+    - '&8&l» &fRareza: &d&lLEGENDARIO'
   Redstone:
     Name: '&b&lRedstone'
     Material: REDSTONE
@@ -185,7 +185,7 @@ Particles:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+    - '&8&l» &fRareza: &d&lLEGENDARIO'
   Heart:
     Name: '&b&lCorazones'
     Material: POPPY
@@ -196,7 +196,7 @@ Particles:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &9&lRARO"
+    - '&8&l» &fRareza: &9&lRARO'
   Fireworks Spark:
     Name: '&b&lFuegos Artificiales'
     Material: FIREWORK_ROCKET
@@ -207,7 +207,7 @@ Particles:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+    - '&8&l» &fRareza: &d&lLEGENDARIO'
   Smoke:
     Name: '&b&lHumo'
     Material: FIREWORK_STAR
@@ -218,7 +218,7 @@ Particles:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &e&lCOMUN"
+    - '&8&l» &fRareza: &e&lCOMUN'
   Slime:
     Name: '&b&lSlime'
     Material: SLIME_BALL
@@ -229,4 +229,4 @@ Particles:
     Purchasable: true
     Lore:
     - '&f'
-    - "&8&l\xbb &fRareza: &e&lCOMUN"
+    - '&8&l» &fRareza: &e&lCOMUN'

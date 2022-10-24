@@ -1,0 +1,13 @@
+[16/10 10:23:55] [info] andiricum2 | quest andiricum2/example_npc_deliver | pushing quest example_npc_deliver = 6465ae44-14d6-4287-bd55-e950419227eb
+[16/10 10:23:55] [info] andiricum2 | quest andiricum2/example_npc_deliver | started quest : cause ACTIVATOR_PHYSICAL
+[16/10 10:23:55] [info] andiricum2 | quest andiricum2/example_npc_deliver/main | started branch
+[16/10 10:28:29] [info] andiricum2 | quest andiricum2/example_npc_deliver | goto QUEST_SUCCESS | applying goto
+[16/10 10:28:29] [info] andiricum2 | quest andiricum2/example_npc_deliver | give rewards for group, debug : group rewards processing debug |
+model : example_npc_deliver
+groups : 
+quest players : 0ca63922-b5d5-36c7-8892-10e0fdcb3da5
+- preparing to process player 0ca63922-b5d5-36c7-8892-10e0fdcb3da5
+-- processing player 0ca63922-b5d5-36c7-8892-10e0fdcb3da5, andiricum2
+--- end type : SUCCESS
+--- groups here : 
+[16/10 10:28:29] [info] andiricum2 | quest andiricum2/example_npc_deliver | stopped quest : cause GOTO

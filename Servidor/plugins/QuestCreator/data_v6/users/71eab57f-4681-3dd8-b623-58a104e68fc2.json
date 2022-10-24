@@ -1,0 +1,19 @@
+{
+  "version": "4",
+  "uuid": "71eab57f-4681-3dd8-b623-58a104e68fc2",
+  "questHistory": {
+    "elements": [
+      "halloween@null@1666425877856@1666425911181@0@ACTIVATOR_PHYSICAL@GOTO@SUCCESS@main/deliver/null/1666425911178",
+      "halloween@null@1666379056641@1666379147891@0@ACTIVATOR_PHYSICAL@GUI@CANCEL@null"
+    ]
+  },
+  "questPools": {
+    "tokens": ""
+  },
+  "journalToggle": "true",
+  "gpsToggle": "true",
+  "actionbarToggle": "true",
+  "bossbarToggle": "true",
+  "scoreboardToggle": "true",
+  "titleToggle": "true"
+}

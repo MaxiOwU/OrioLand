@@ -1,0 +1,21 @@
+[22/10 20:47:41] [info] PatoPro27 | connected
+[22/10 20:47:41] [info] PatoPro27 | fetched user data : no value ; created it
+[22/10 20:47:41] [info] PatoPro27 | pushing user 5ed89b3e-92fe-3c2c-9009-7d3ec8ac559e, active quests : 
+[22/10 20:47:41] [info] PatoPro27 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[22/10 20:47:41] [info] PatoPro27 | fetched user quests : 
+[22/10 21:07:58] [info] PatoPro27 | disposing user quests data : 
+- must dispose quests
+[22/10 21:07:58] [info] PatoPro27 | disposed user data
+[22/10 21:07:58] [info] PatoPro27 | disconnected
+[22/10 21:22:00] [info] PatoPro27 | connected
+[22/10 21:22:00] [info] PatoPro27 | fetched user data : active quests 
+[22/10 21:22:00] [info] PatoPro27 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[22/10 21:22:00] [info] PatoPro27 | fetched user quests : 
+[22/10 21:30:53] [info] PatoPro27 | disposing user quests data : 
+- must dispose quests
+[22/10 21:30:53] [info] PatoPro27 | disposed user data
+[22/10 21:30:53] [info] PatoPro27 | disconnected

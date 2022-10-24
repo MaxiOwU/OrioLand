@@ -1,0 +1,21 @@
+[23/10 19:19:53] [info] pedrocraftyt | connected
+[23/10 19:19:53] [info] pedrocraftyt | fetched user data : no value ; created it
+[23/10 19:19:53] [info] pedrocraftyt | pushing user 010d46b5-8ed8-354c-b519-0b6ef1dc63b5, active quests : 
+[23/10 19:19:53] [info] pedrocraftyt | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 19:19:53] [info] pedrocraftyt | fetched user quests : 
+[23/10 19:50:18] [info] pedrocraftyt | disposing user quests data : 
+- must dispose quests
+[23/10 19:50:18] [info] pedrocraftyt | disposed user data
+[23/10 19:50:18] [info] pedrocraftyt | disconnected
+[23/10 19:51:13] [info] pedrocraftyt | connected
+[23/10 19:51:13] [info] pedrocraftyt | fetched user data : active quests 
+[23/10 19:51:13] [info] pedrocraftyt | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[23/10 19:51:13] [info] pedrocraftyt | fetched user quests : 
+[23/10 19:56:19] [info] pedrocraftyt | disposing user quests data : 
+- must dispose quests
+[23/10 19:56:19] [info] pedrocraftyt | disposed user data
+[23/10 19:56:19] [info] pedrocraftyt | disconnected

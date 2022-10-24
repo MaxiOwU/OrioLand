@@ -1,0 +1,21 @@
+[16/10 16:32:57] [info] Meusas | connected
+[16/10 16:32:57] [info] Meusas | fetched user data : no value ; created it
+[16/10 16:32:57] [info] Meusas | pushing user 38f2ce8c-5834-3ba4-8374-d7a11fbfb23a, active quests : 
+[16/10 16:32:57] [info] Meusas | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 16:32:57] [info] Meusas | fetched user quests : 
+[16/10 17:12:44] [info] Meusas | disposing user quests data : 
+- must dispose quests
+[16/10 17:12:44] [info] Meusas | disposed user data
+[16/10 17:12:44] [info] Meusas | disconnected
+[16/10 17:14:26] [info] Meusas | connected
+[16/10 17:14:26] [info] Meusas | fetched user data : active quests 
+[16/10 17:14:26] [info] Meusas | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 17:14:26] [info] Meusas | fetched user quests : 
+[16/10 17:53:13] [info] Meusas | disposing user quests data : 
+- must dispose quests
+[16/10 17:53:13] [info] Meusas | disposed user data
+[16/10 17:53:13] [info] Meusas | disconnected

@@ -1,0 +1,41 @@
+[16/10 17:03:07] [info] kyoto490 | connected
+[16/10 17:03:07] [info] kyoto490 | fetched user data : no value ; created it
+[16/10 17:03:07] [info] kyoto490 | pushing user 22fdca2c-4699-325e-9f59-25fd69f901a3, active quests : 
+[16/10 17:03:07] [info] kyoto490 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 17:03:07] [info] kyoto490 | fetched user quests : 
+[16/10 17:28:37] [info] kyoto490 | disposing user quests data : 
+- must dispose quests
+[16/10 17:28:37] [info] kyoto490 | disposed user data
+[16/10 17:28:37] [info] kyoto490 | disconnected
+[17/10 12:43:30] [info] kyoto490 | connected
+[17/10 12:43:30] [info] kyoto490 | fetched user data : active quests 
+[17/10 12:43:30] [info] kyoto490 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[17/10 12:43:30] [info] kyoto490 | fetched user quests : 
+[17/10 12:58:55] [info] kyoto490 | disposing user quests data : 
+- must dispose quests
+[17/10 12:58:55] [info] kyoto490 | disposed user data
+[17/10 12:58:55] [info] kyoto490 | disconnected
+[19/10 08:08:09] [info] kyoto490 | connected
+[19/10 08:08:10] [info] kyoto490 | fetched user data : active quests 
+[19/10 08:08:10] [info] kyoto490 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[19/10 08:08:10] [info] kyoto490 | fetched user quests : 
+[19/10 08:18:07] [info] kyoto490 | disposing user quests data : 
+- must dispose quests
+[19/10 08:18:07] [info] kyoto490 | disposed user data
+[19/10 08:18:07] [info] kyoto490 | disconnected
+[21/10 09:57:15] [info] kyoto490 | connected
+[21/10 09:57:15] [info] kyoto490 | fetched user data : active quests 
+[21/10 09:57:15] [info] kyoto490 | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[21/10 09:57:15] [info] kyoto490 | fetched user quests : 
+[21/10 10:03:04] [info] kyoto490 | disposing user quests data : 
+- must dispose quests
+[21/10 10:03:04] [info] kyoto490 | disposed user data
+[21/10 10:03:04] [info] kyoto490 | disconnected

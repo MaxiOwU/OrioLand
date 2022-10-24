@@ -1,0 +1,11 @@
+[16/10 14:43:00] [info] carlo_ancelotti | connected
+[16/10 14:43:00] [info] carlo_ancelotti | fetched user data : no value ; created it
+[16/10 14:43:00] [info] carlo_ancelotti | pushing user 8964c1e5-08e4-3868-bb01-3a0528642ed9, active quests : 
+[16/10 14:43:00] [info] carlo_ancelotti | fetching user quests : 
+- user active quests : 
+- filtered (non-cached) : 
+[16/10 14:43:00] [info] carlo_ancelotti | fetched user quests : 
+[16/10 14:43:22] [info] carlo_ancelotti | disposing user quests data : 
+- must dispose quests
+[16/10 14:43:22] [info] carlo_ancelotti | disposed user data
+[16/10 14:43:22] [info] carlo_ancelotti | disconnected

@@ -1,0 +1,1673 @@
+# ===================
+# QuestCreator 語言文件 (zh_TW)
+# 作者: GuillaumeVDN
+# 語言: 中文繁體
+# 翻譯: Kevin
+# Discord: ༄༊࿆さくらじま いོྂཾ࿐#9685
+# 如在翻譯上有任何疑慮歡迎私訊༄༊࿆さくらじま いོྂཾ࿐#9685
+# 在插件上有任何疑慮請至 https://discord.com/invite/wSm9A8Y 尋求幫助
+# ===================
+# QuestCreator language files (zh_TW)
+# Author: GuillaumeVDN
+# Language: Chinese Traditional
+# Translation: Kevin
+# Discord: ༄༊࿆さくらじま いོྂཾ࿐#9685
+# If you have any doubts about translation, please send a private message ༄༊࿆さくらじま いོྂཾ࿐#9685
+# If you have any concerns about the plugin, please go to https://discord.com/invite/wSm9A8Y for help
+# ===================
+
+# -------------------- 編輯器--------------------
+
+editorMainTitle: QuestCreator
+editorActivatorsTitle: 任務激活器
+editorActivatorsIconName: |
+  &a任務激活器
+
+editorGlobalBranchesTitle: 全局分支
+editorGlobalBranchesIconName: |
+  &a全局分支
+
+editorGlobalConditionsTitle: 全局條件
+editorGlobalConditionsIconName: |
+  &a全局條件
+
+editorGlobalGUIItemsTitle: 全局GUI物品
+editorGlobalGUIItemsIconName: |
+  &a全局GUI物品
+
+editorGlobalObjectsTitle: 全局目標
+editorGlobalObjectsIconName: |
+  &a全局目標
+
+editorGlobalTimeFramesTitle: 全局時間範圍
+editorGlobalTimeFramesIconName: |
+  &a全局時間範圍
+
+editorGlobalStatesTitle: 狀態
+editorGlobalStatesIconName: |
+  &a狀態
+
+editorGlobalVariablesTitle: 全局變量
+editorGlobalVariablesIconName: |
+  &a全局變量
+
+editorGlobalVariableElementLore: |
+  &7
+  {current}
+  &7
+  &7你可以在該值處使用佔位符
+  &d左擊編輯
+  &dShift +右擊刪除
+
+editorGroupsTitle: 任務組
+editorGroupsIconName: |
+  &a任務組
+
+editorGUIsTitle: GUI
+editorGUIsIconName: |
+  &aGUI
+
+editorModelsTitle: 任務模型
+editorModelsIconName: |
+  &a任務模型
+
+editorPoolsTitle: 任務池
+editorPoolsIconName: |
+  &a任務池
+
+elementGlobalObject: |
+  &7本地goto: {goto}
+  &dShift +右擊編輯本地goto
+
+elementBasicShopkeeperSelect: |
+  &dShift +右擊快捷選取
+
+messageElementBasicImportShopkeeper: |
+  &7與新的店長交互以導入，或輸入&c{cancel}&7以取消。
+
+# -------------------- 任務模型--------------------
+
+descriptionModelDisplayName: |
+  &7任務顯示名
+
+descriptionModelDescription: |
+  &7任務描述
+
+descriptionModelDescriptionPlaceholder: |
+  &7用佔位符可以得到的替代描述
+
+descriptionModelInformationMessage: |
+  &7任務信息
+
+descriptionModelStartNotify: |
+  &7開始任務時發送的提醒消息
+
+descriptionModelProgressNotify: |
+  &7顯示任務進度條
+
+descriptionModelProgressNotifyScoreboard: |
+  &7在計分板處顯示當前任務進度
+
+descriptionModelDisplayPriority: |
+  &7將根據此優先度(計分板/標題/actionbar/……)顯示任務模型，如果優先度相同則根據最後更新日期顯示
+  &7具有優先度的模型會先於沒有優先度的模型顯示
+
+descriptionModelDynmapMarker: |
+  &7在衛星地圖上顯示該任務的標記
+
+descriptionModelAllStatusItem: |
+  &7添加在任務全程顯示的GUI物品
+
+descriptionModelStatusItems: |
+  &7為該任務狀態添加GUI物品
+  &7如果任務狀態沒有物品，插件會使用&6all_status_item
+
+descriptionModelPermissionStartRestriction: |
+  &7限制需要權限才能接受任務
+
+descriptionModelPermissionStartCommandRestriction: |
+  &7通過具有權限的指令限制此任務的開始
+
+descriptionModelConditionsStartRestriction: |
+  &7限制需要特定條件才能接受任務
+
+descriptionModelWorldRestriction: |
+  &7限制可執行該任務的世界
+
+descriptionModelCommandRestriction: |
+  &7限制任務時可使用的指令
+
+descriptionModelCooldown: |
+  &7任務冷卻
+
+descriptionModelTimeLimit: |
+  &7任務限時
+
+descriptionModelTimeLimitFailGoto: |
+  &7時間結束時觸發的Goto
+
+descriptionModelSaving: |
+  &7任務保存類型
+
+descriptionModelCompletion: |
+  &7任務完成設置
+
+descriptionModelMaxConcurrentInstances: |
+  &7該任務最大同時進行數
+
+descriptionModelMaxConcurrentInstancesQueue: |
+  &7如果同時進行任務的玩家過多，則將玩家置入隊列中
+
+descriptionModelModelVariables: |
+  &7該模型變量的默認值
+  &7激活每個任務時，每名玩家擁有各自獨立的變量，這些變量會在任務結束後被丟棄
+
+descriptionModelMinPlayers: |
+  &7最小玩家數(包含隊長)
+
+descriptionModelMaxPlayers: |
+  &7最大玩家數(包含隊長)
+
+descriptionModelMinActivePlayers: |
+  &7所需最小活躍玩家數(在任務進行時)
+  &7如果你想要允許多人任務裡的玩家離開任務，那麼該數字需要小於最大玩家數
+
+descriptionModelAllowLeaderStop: |
+  &7允許任務隊長停止任務
+
+descriptionModelDisposeOnLeaderDisconnect: |
+  &7在隊長掉線時暫停並保存任務
+  &7關閉該選項可讓隊員在隊長掉線後繼續任務
+  &7如果你的任務包含隊長的變量，則強烈不推薦開啟該選項
+
+descriptionModelOnlyLeaderParsing: |
+  &7僅允許隊長解析設置
+  &7關閉該選項可讓隊員在隊長掉線後使用解析設置
+
+descriptionModelNotifyCoopPlayerLeave: |
+  &7提醒其他玩家隊友離開了任務
+
+descriptionModelActivators: |
+  &7該任務的激活器
+
+descriptionModelActivatorsDialog: |
+  &7在開始任務前用激活器添加特定對話(只有物理激活器有效: 方塊、NPC等)
+  &7玩家必須觸發激活器才能看到消息
+  &7當玩家看到最後一條消息時會打開確認GUI以確認是否開始任務(如果相關選項關閉則直接開始任務)
+  &7如果激活擁有自定義GUI則該選項無效，打開激活器的任務GUI時也無效
+
+descriptionModelActivatorsDialogReset: |
+  &7重置對話框
+
+descriptionModelBranches: |
+  &7該任務的分支
+
+descriptionModelEndObjects: |
+  &7在任務結束時執行目標
+
+descriptionModelEndObjectsForOfflinePlayers: |
+  &7在離線玩家的任務完成並結束時執行目標
+  &7會在玩家上線時執行目標
+
+descriptionModelFunctionalAutoStart: |
+  &7自動開始該功能性任務
+
+# -------------------- 任務冷卻--------------------
+
+descriptionQuestCooldownDuration: |
+  &7冷卻的持續時間
+
+descriptionQuestCooldownEndTypes: |
+  &7只在一些任務結束類型時應用該冷卻
+
+descriptionQuestCooldownApplyActorRestriction: |
+  &7只對一些玩家應用該冷卻
+
+# -------------------- 任務完成--------------------
+
+descriptionQuestCompletionMaxCompletions: |
+  &7限制任務最大可完成次數
+
+descriptionQuestCompletionApplyActorRestriction: |
+  &7只給一些玩家增加可完成次數上限
+
+descriptionQuestCompletionNotify: |
+  &7提醒玩家該任務已結束
+
+descriptionQuestCompletionNotifyCoop: |
+  &7提醒組隊玩家該任務已結束
+  &7如果設置了該選項，多人玩家不會收到普通的完成任務提示
+
+# -------------------- 對話--------------------
+
+descriptionDialogAutoStartDistance: |
+  &7自動向在範圍內的玩家發送第一行對話
+
+descriptionDialogResetDelay: |
+  &7如果玩家在一段時間後仍未點擊則重啟對話
+
+descriptionDialogResetDistance: |
+  &7如果玩家走得太遠則重啟對話
+
+descriptionDialogResetNotify: |
+  &7提醒玩家對話已重置
+
+descriptionDialogResetGoto: |
+  &7對話結束時執行特定的goto
+
+# -------------------- 任務目標--------------------
+
+descriptionQuestObjectType: |
+  &7目標類型
+
+descriptionQuestObjectNameLong: |
+  &7用於詳細描述此任務目標的長名稱
+  &7比如: '在主城附近破壞10塊石頭'
+
+descriptionQuestObjectNameShort: |
+  &7簡要概況任務目標的短名稱
+  &7比如: '在主城附近破壞石頭'
+
+descriptionQuestObjectObjectiveDetail: |
+  &7該任務目標的自定義佔位符{objective}
+
+descriptionQuestObjectObjectiveDetailVerbose: |
+  &7該任務目標的GUI目標佔位符的自定義值
+
+descriptionQuestObjectForceDisplayDetail: |
+  &7如果即使目標為 1 也應顯示對象進度詳細信息 (<current>/<goal>)。
+
+descriptionQuestObjectStartNotify: |
+  &7提醒玩家已開始該目標
+
+descriptionQuestObjectCompleteNotify: |
+  &7提醒玩家已完成該目標
+
+descriptionQuestObjectCompleteNotifyParticleScript: |
+  &7任務目標完成時運行粒子腳本(需要設置&6位置&7)
+
+descriptionQuestObjectProgressNotify: |
+  &7在目標取得進展時提醒玩家
+
+descriptionQuestObjectUpdateNotify: |
+  &7在一段時間後任務沒有進展時提醒玩家
+
+descriptionQuestObjectUpdateNotifyParticleScript: |
+  &7在一段時間後任務目標沒有進展時運行粒子腳本(需要設置&6位置&7)
+
+descriptionQuestObjectUpdateNotifyParticleScriptPosition: |
+  &7顯示&6update_notify_particle_script&7的位置
+  &7否則將使用此對象的&6位置&7設置(如果存在)
+
+descriptionQuestObjectUpdateNotifyDelay: |
+  &6update_notify|更新提醒&7的延遲
+
+descriptionQuestObjectExecutionChance: |
+  &7只有一定機率才有能開始該目標，或直接觸發goto
+
+descriptionQuestObjectExecutionChanceFailGoto: |
+  &7如果進度率失敗則觸發特定goto
+  &7如果特定goto不存在，則觸發普通的goto
+
+descriptionQuestObjectWaitTime: |
+  &7在開始目標後需要等待的時間
+
+descriptionQuestObjectTimeLimit: |
+  &7任務是否限時
+
+descriptionQuestObjectCheckpoint: |
+  &7開始該任務目標時保存記錄點
+
+descriptionQuestObjectHideChat: |
+  &7激活該目標時隱藏聊天框
+
+descriptionQuestObjectHidePlayers: |
+  &7激活該目標使任務內外的玩家互相隱藏
+
+descriptionQuestObjectAddToHistory: |
+  &7將此對象添加到任務歷史
+
+descriptionQuestObjectProgressActorRestriction: |
+  &7限制特定玩家該目標的進度
+
+descriptionQuestObjectProgressConditions: |
+  &7用於匹配任務進度的條件
+
+descriptionQuestObjectProgressConditionsFailGoto: |
+  &7當進度條件不匹配時轉到調用
+
+descriptionQuestObjectProgressChance: |
+  &7有一定機率使目標取得進展
+  &7這會在所有剩餘的匹配項過後檢測(比如破壞特定位置的方塊)
+
+descriptionQuestObjectProgressChanceFailGoto: |
+  &7如果進度率不足則執行特定goto
+
+descriptionQuestObjectPositionFailGoto: |
+  &7在不尊重對象位置時執行某個 goto
+
+descriptionQuestObjectNoMatchFailGoto: |
+  &7當玩家觸發正確的事件但沒有找到匹配項時執行某個 goto(例如，如果他打破了一個塊，但它是錯誤的)
+
+descriptionQuestObjectWaitAfterMatchFail: |
+  &7再次檢查匹配項的冷卻(目標設置、進度條件、所需物品等)
+
+descriptionQuestObjectGPS: |
+  &7該目標的GPS設置
+
+descriptionQuestObjectGoto: |
+  &7在該任務目標完成後觸發其它元素(目標、分支等)
+
+descriptionQuestObjectGotoStartBranches: |
+  &7在該目標完成後開始其它分支
+  &7在調用goto後執行
+
+descriptionQuestObjectGotoStartIndividualBranches: |
+  &7在該目標完成後開始其它獨立分支
+  &7在調用goto後執行
+
+descriptionQuestObjectGotoStopBranches: |
+  &7在該目標完成後停止其它分支
+  &7在調用goto後執行
+
+descriptionQuestObjectJournalEntry: |
+  &7在玩家完成目標後在其任務日誌中添加條目
+  &7這會根據玩家的任務歷史每次重新計算
+
+descriptionQuestObjectJournalEntryTitle: |
+  &7該條目的標題
+
+descriptionQuestObjectJournalEntryDetail: |
+  &7該條目的內容
+
+descriptionQuestObjectJournalEntryEndTypes: |
+  &7只在一些任務結束類型中顯示該條目
+
+descriptionQuestObjectPosition: |
+  &7使目標取得進展的位置
+  &7如果這是一個服務器驅動的對象，則在這裡進行操作;如果這是一個玩家驅動的對象，則在這裡玩家必須進行操作。
+
+descriptionQuestObjectPositionStay: |
+  &7強制玩家呆在指定位置
+
+descriptionQuestObjectPositionStayWarningDelay: |
+  &7如果玩家離開該位置，那麼他必須在特定時間內返回該位置
+
+descriptionQuestObjectPositionStayWarningNotify: |
+  &7當玩家離開該位置時發送的提醒消息
+
+descriptionQuestObjectPositionStayFailGoto: |
+  &7當玩家在配置的位置之外的時間超過了警告延遲時間時執行。
+
+descriptionQuestObjectItemsNeeded: |
+  &7要求玩家擁有特定物品才能推進任務目標的發展。
+
+descriptionQuestObjectItemsNeededFailGoto: |
+  &7在需要的項目不被尊重時執行某個 goto
+
+descriptionQuestObjectInitialProgression: |
+  &7這個目標的初始進展
+
+descriptionQuestObjectItemsDynamicProgression: |
+  &7在進展時動態重新計算進展和/或目標
+  &7這應該謹慎使用，因為它完全覆蓋了大多數對象的對像類型的行為
+
+descriptionQuestObjectItemsDynamicProgressionPartId: |
+  &7進度和/或目標將動態更新的部件標識符
+
+descriptionQuestObjectItemsDynamicProgressionCurrent: |
+  &7動態重新計算進度的公式
+
+descriptionQuestObjectItemsDynamicProgressionGoal: |
+  &7動態重新計算目標的公式
+
+# -------------------- 任務目標: 事件--------------------
+
+descriptionQuestObjectMatchFailCancelEvent: |
+  &7當玩家觸發正確的事件但沒有找到匹配項時取消事件(如果支持) (例如，如果他打破了一個塊，但它是錯誤的)
+
+descriptionQuestObjectProgressChanceFailCancelEvent: |
+  &7當進度率失敗時取消事件(如果支持)
+
+descriptionQuestObjectProgressConditionsFailCancelEvent: |
+  &7當進度條件失敗時取消事件(如果支持)
+
+descriptionQuestObjectProgressCancelEvent: |
+  &7當目標取得進展時取消事件(如果支持)
+
+# -------------------- 任務目標: 類型--------------------
+
+descriptionObjectTypeGenericGoal: |
+  &7任務的目標
+  &7大多數情況下，這將是玩家必須重複與此目標參數相匹配的動作的次數。
+  &7一些目標可能會有所變化
+
+descriptionObjectTypeGenericBlockObjectives: |
+  &7方塊目標
+  &7你可以設置多個目標
+
+descriptionObjectTypeGenericBlockObjectiveTypes: |
+  &7允許的方塊類型
+  &7留空則允許所有類型的方塊
+
+descriptionObjectTypeGenericBlockObjectiveStates: |
+  &7需要的方塊狀態
+  &7留空以允許任何
+
+descriptionObjectTypeGenericBlockObjectiveStatesRequiredCount: |
+  &7應該尊重的區塊狀態數量
+  &7不要將此選項設置為要求列表中的所有內容
+
+descriptionObjectTypeGenericBlockObjectiveGoal: |
+  &7該方塊目標的所需目標
+
+descriptionObjectTypeGenericEntityObjectives: |
+  &7實體目標
+  &7你可以設置多個目標
+
+descriptionObjectTypeGenericEntityObjectiveTypes: |
+  &7允許的實體類型
+  &7留空則允許所有類型的實體
+
+descriptionObjectTypeGenericEntityObjectiveNames: |
+  &7允許的實體名
+  &7留空則允許所有名稱(或無名)
+
+descriptionObjectTypeGenericEntityObjectiveColors: |
+  &7允許的實體顏色
+  &7留空則允許所有顏色
+
+descriptionObjectTypeGenericEntityObjectiveHorseColors: |
+  &7允許馬的顏色
+  &7留空以允許任何顏色
+
+descriptionObjectTypeGenericEntityObjectiveHorseStyles: |
+  &7允許馬的樣式
+  &7留空以允許任何樣式
+
+descriptionObjectTypeGenericEntityObjectiveGoal: |
+  &7實體目標的所需目標
+
+descriptionObjectTypeGenericEntityAllowSpawnerEntities: |
+  &7允許用刷怪籠刷出的實體來完成目標
+
+descriptionObjectTypeGenericEntityAllowSpawnerEntitiesErrorMessage: |
+  &7如果&6allow_spawner_entities|允許刷怪籠實體&7設置為false但玩家仍然嘗試利用刷怪籠實體，則顯示該消息
+
+descriptionObjectTypeGenericItemObjectives: |
+  &7物品目標
+  &7你可以設置多個目標
+
+descriptionObjectTypeGenericItemObjectiveItem: |
+  &7允許的物品
+  &7留空則允許所有物品
+
+descriptionObjectTypeGenericItemObjectiveItems: |
+  &7允許的物品
+  &7留空以允許任何物品
+
+descriptionObjectTypeGenericItemObjectiveCheck: |
+  &7檢查目標
+
+descriptionObjectTypeGenericItemObjectiveGoal: |
+  &7物品目標的所需目標
+
+descriptionObjectTypeGenericItemObjectiveTake: |
+  &7稍後收取物品
+
+descriptionObjectTypeConditionsSwitchCases: |
+  &7切換案例
+
+descriptionObjectTypeConditionsSwitchElementConditions: |
+  &7需匹配的條件
+
+descriptionObjectTypeConditionsSwitchElementGoto: |
+  &7該元素的條件有效時應用的goto
+
+descriptionObjectTypeDivergeChatChoices: |
+  &7該目標的可用選擇
+
+descriptionObjectTypeDivergeChatRepeatDelay: |
+  &7如果玩家在一段時間內未做出選擇則重新發送選擇選項
+
+descriptionObjectTypeDivergeGUIChoices: |
+  &7該目標的可用選擇
+
+descriptionObjectTypeDivergeGUIReopenDelay: |
+  &7如果玩家在一段時間內未做出選擇則重新打開GUI
+
+descriptionObjectTypeDivergeChoicesChoices: |
+  &7該目標的可用選擇
+
+descriptionObjectTypeGroupObjects: |
+  &7這一任務組的目標
+
+descriptionObjectTypeGroupOrderedObjects: |
+  &7強制目標必須按順序完成
+
+descriptionObjectTypeGroupRequiredObjects: |
+  &7必須完成的目標數
+
+descriptionObjectTypeRandomGotos: |
+  &7隨機選擇的分支選項
+
+descriptionObjectTypeRandomGotosAvoidRepeatEndTypes: |
+  &7檢查重複時考慮的結束類型
+
+descriptionObjectTypeLogicSwitchCases: |
+  &7切換案例
+
+descriptionObjectTypeLogicSwitchElementGoto: |
+  &7該元素的邏輯有效時應用的goto
+
+# -------------------- 任務目標: 類型(玩家) --------------------
+
+descriptionObjectTypePlayerAchievementAwardAchievementType: |
+  &7給予的成就類型
+
+descriptionObjectTypePlayerChatWhitelist: |
+  &7僅接受該列表內的消息
+
+descriptionObjectTypePlayerChatBlacklist: |
+  &7拒絕包含列表內元素的消息
+
+descriptionObjectTypePlayerChatRegex: |
+  &7僅接受匹配該正則表達式的消息
+
+descriptionObjectTypePlayerChatMinLength: |
+  &7消息最短長度
+
+descriptionObjectTypePlayerChatMaxLength: |
+  &7消息最長長度
+
+descriptionObjectTypePlayerChatErrorMessage: |
+  &7玩家輸入無效值時發送給玩家的消息
+
+descriptionObjectTypePlayerChatStoreInVariable: |
+  &7將聊天消息存儲到一個變量內
+
+descriptionObjectTypePlayerWaitGoal: |
+  &7等候時間
+
+# -------------------- 任務目標: 類型(玩家方塊) --------------------
+
+descriptionObjectTypePlayerBlocksBreakAllowPlayerBlocks: |
+  &7玩家可放置的方塊
+
+descriptionObjectTypePlayerBlocksBreakAllowPlayerBlocksErrorMessage: |
+  &6allow_player_blocks&7為false但玩家仍然嘗試則顯示該消息
+
+descriptionObjectTypePlayerBlocksIgniteAllowPlayerBlocks: |
+  &7允許的已被點燃的方塊(包含玩家)
+
+descriptionObjectTypePlayerBlocksIgniteAllowPlayerBlocksErrorMessage: |
+  &6allow_player_blocks&7為false但玩家仍然嘗試則顯示該消息
+
+descriptionObjectTypePlayerBlocksInteractClickType: |
+  &7僅接受特定類型的點擊
+
+descriptionObjectTypePlayerBlocksInteractAllowPlayerBlocks: |
+  &7玩家可放置的方塊
+
+descriptionObjectTypePlayerBlocksInteractAllowPlayerBlocksErrorMessage: |
+  &6allow_player_blocks&7為false但玩家仍然嘗試則顯示該消息
+
+descriptionObjectTypePlayerBlocksInteractAllowSameBlocks: |
+  &7允許多次點擊同一方塊
+
+descriptionObjectTypePlayerBlocksInteractAllowSameBlocksErrorMessage: |
+  &6allow_same_blocks&7為false但玩家仍然嘗試則顯示該消息
+
+descriptionObjectTypePlayerBlocksStripAllowPlayerBlocks: |
+  &7允許玩家對被放置的方塊去皮(包含玩家)
+
+descriptionObjectTypePlayerBlocksStripAllowPlayerBlocksErrorMessage: |
+  &6allow_player_blocks&7為false但玩家仍然嘗試則顯示該消息
+
+descriptionObjectTypePlayerTreeGrowTreeType: |
+  &7僅接受特定類型的樹
+
+descriptionObjectTypePlayerSpawnerPlaceTypes: |
+  &7只接受一些生成的實體類型
+
+# -------------------- 任務目標: 類型(玩家實體) --------------------
+
+descriptionObjectTypePlayerEntitiesCatchAllowSameEntities: |
+  &7允許多次捕獲同一實體
+
+descriptionObjectTypePlayerEntitiesCatchAllowSameEntitiesErrorMessage: |
+  &7如果&6allow_same_entities&7為false但玩家仍然嘗試則顯示該消息
+
+descriptionObjectTypePlayerEntitiesDamageAllowSameEntities: |
+  &7允許同一實體受到多次傷害
+
+descriptionObjectTypePlayerEntitiesDamageAllowSameEntitiesErrorMessage: |
+  &7如果&6allow_same_entities&7為false但玩家仍然嘗試則顯示該消息
+
+descriptionObjectTypePlayerEntitiesDeathNearbyMaxDistance: |
+  &7與死亡暴徒的最大距離
+
+descriptionObjectTypePlayerEntitiesDismountAllowSameEntities: |
+  &7允許多次取消騎乘同一實體
+
+descriptionObjectTypePlayerEntitiesDismountAllowSameEntitiesErrorMessage: |
+  &6allow_same_entities&7為false但玩家仍然嘗試則顯示該消息
+
+descriptionObjectTypePlayerEntitiesGetDamagedAllowSameEntities: |
+  &7允許玩家受到同一實體造成的多次傷害
+
+descriptionObjectTypePlayerEntitiesGetDamagedAllowSameEntitiesErrorMessage: |
+  &6allow_same_entities&7為false但玩家仍然嘗試則顯示該消息
+
+descriptionObjectTypePlayerEntitiesInteractAllowSameEntities: |
+  &7允許多次點擊相同的實體
+
+descriptionObjectTypePlayerEntitiesInteractAllowSameEntitiesErrorMessage: |
+  &6allow_same_entities&7為false但玩家仍然嘗試則顯示該消息
+
+descriptionObjectTypePlayerEntitiesMountAllowSameEntities: |
+  &7允許多次騎乘同一實體
+
+descriptionObjectTypePlayerEntitiesMountAllowSameEntitiesErrorMessage: |
+  &6allow_same_entities&7為false但玩家仍然嘗試則顯示該消息
+
+# -------------------- 任務目標: 類型(玩家物品) --------------------
+
+descriptionObjectTypePlayerItemsContainerPutInventoryTypes: |
+  &僅允許特定類型的背包
+
+descriptionObjectTypePlayerItemsContainerPutInventorySlots: |
+  &7只允許某些背包
+
+descriptionObjectTypePlayerItemsContainerTakeInventoryTypes: |
+  &7僅允許特定類型的背包
+
+descriptionObjectTypePlayerItemsTradeAllowSameVillagers: |
+  &7允許與同一村民多次交易
+
+descriptionObjectTypePlayerItemsTradeAllowSameVillagersErrorMessage: |
+  &7如果&6allow_same_villagers&7為false但玩家仍然嘗試則顯示該消息
+
+# -------------------- 任務目標: 類型(玩家移動) --------------------
+
+descriptionObjectTypePlayerPositionMatchDisplayDistance: |
+  &7顯示剩餘距離
+
+descriptionObjectTypePlayerVehicleDistanceVehicleType: |
+  &7只接受特定類型的載具
+
+# -------------------- 任務目標: 類型(玩家物理) --------------------
+
+descriptionObjectTypePlayerBucketFillBucketType: |
+  &7只接受特定類型的桶
+
+descriptionObjectTypePlayerBurnGoal: |
+  &7玩家必須燃燒的持續時間
+
+descriptionObjectTypePlayerTakeDamageCauses: |
+  &7僅接受一些類型的傷害
+
+descriptionObjectTypePlayerGainHealthFinalHealth: |
+  &7將&6goal&7作為最終擁有血量數
+
+descriptionObjectTypePlayerShootProjectileProjectileType: |
+  &7僅接受特定類型的彈射物
+
+descriptionObjectTypePlayerGainXPFinalXP: |
+  &7將&6goal&7作為最終擁有的經驗值
+
+descriptionObjectTypePlayerSneakGoal: |
+  &7玩家必須潛行的持續時間
+
+descriptionObjectTypePlayerGainHealthRegainCauses: |
+  &7僅接受一些類型的恢復原因
+
+descriptionObjectTypePlayerVehicleEnterVehicleType: |
+  &7僅接受特定類型的載具
+
+descriptionObjectTypePlayerVehicleLeaveVehicleType: |
+  &7僅接受特定類型的載具
+
+# -------------------- 任務目標: 類型(服務器) --------------------
+
+descriptionObjectTypeServerAchievementAwardAchievementType: |
+  &7給予的成就類型
+
+descriptionObjectTypeServerActionsActions: |
+  &7執行的操作
+
+descriptionObjectTypeServerActionsCompleteJournalEntryMessage: |
+  &7將消息操作的內容保存到任務日誌中
+  &7這只在&6complete_journal_entry的條目詳情內有&6{messages}&7佔位符時有效
+
+descriptionObjectTypeServerCameraModeToggleToggle: |
+  &7設置是否開啟攝影模式
+
+descriptionObjectTypeServerCommandsPerformCommands: |
+  &7執行的指令
+
+descriptionObjectTypeServerCommandsPerformAsPlayer: |
+  &7以玩家身份執行指令
+  &7包含{player}佔位符的指令會對所有人執行
+
+# -------------------- 任務目標: 類型(服務器物品) --------------------
+
+descriptionObjectTypeServerItemsDropItems: |
+  &7掉落的物品
+
+descriptionObjectTypeServerItemsDropCount: |
+  &7掉落列表內的元素數
+  &7如果該值小於列表大小，則隨機選取列表內的物品而不會重複
+  &7如果該值等於列表大小，則會掉落列表內的全部物品
+  &7如果該值大於列表大小，則會掉落列表內的全部物品並重複掉落
+
+descriptionObjectTypeServerItemsGiveItems: |
+  &7給予的物品
+
+descriptionObjectTypeServerItemsGiveCount: |
+  &7給予列表內的元素數
+  &7如果該值小於列表大小，則隨機選取列表內的物品而不會重複
+  &7如果該值等於列表大小，則會給予列表內的全部物品
+  &7如果該值大於列表大小，則會給予列表內的全部物品並重複給予
+
+descriptionObjectTypeServerItemsGiveLinkToQuest: |
+  &7鏈接物品到任務中(玩家無法丟棄該物品)
+
+descriptionObjectTypeServerItemsModifyItems: |
+  &7修改的物品
+
+descriptionObjectTypeServerItemsModifyCount: |
+  &7修改列表內的元素數
+  &7如果該值小於列表大小，則隨機選取列表內的物品而不會重複
+  &7如果該值等於列表大小，則會修改列表內的全部物品
+  &7如果該值大於列表大小，則會修改列表內的全部物品並重複修改
+
+descriptionObjectTypeServerItemsModifyUnlinkQuest: |
+  &7解綁任務物品
+
+descriptionObjectTypeServerItemsModifyDurabilitySet: |
+  &7替換耐久度
+
+descriptionObjectTypeServerItemsModifyCustomModelDataSet: |
+  &7替換自定義模型數據
+
+descriptionObjectTypeServerItemsModifyNameSet: |
+  &7替換物品名
+
+descriptionObjectTypeServerItemsModifyNameRemove: |
+  &7從名稱中刪除特定字符
+
+descriptionObjectTypeServerItemsModifyLoreSet: |
+  &7替換lore
+
+descriptionObjectTypeServerItemsModifyLoreAdd: |
+  &7添加一行lore
+
+descriptionObjectTypeServerItemsModifyLoreRemove: |
+  &7刪除包含特定內容的一行lore
+
+descriptionObjectTypeServerItemsModifyEnchantmentsAdd: |
+  &7給物品添加附魔
+
+descriptionObjectTypeServerItemsModifyEnchantmentsRemove: |
+  &7刪除物品上的附魔
+
+descriptionObjectTypeServerItemsTakeItems: |
+  &7收取的物品
+
+descriptionObjectTypeServerItemsTakeCount: |
+  &7取走列表內的元素數
+  &7如果該值小於列表大小，則隨機選取列表內的物品而不會重複
+  &7如果該值等於列表大小，則取走列表內的全部物品
+  &7如果該值大於列表大小，則取走列表內的全部物品並會重複
+
+# -------------------- 任務目標: 類型(服務器實體) --------------------
+
+descriptionObjectTypeServerEntitiesDamageEntitiesObjectives: |
+  &7匹配的實體
+  &7如果匹配的實體處在正確的位置則其會受傷
+  &7實體目標會被視為對實體造成的最高傷害
+
+descriptionObjectTypeServerEntitiesDamageDamage: |
+  &7要造成的傷害值
+
+descriptionObjectTypeServerEntitiesKillEntitiesObjectives: |
+  &7匹配的實體
+  &7如果匹配的實體處在正確的位置則其會被殺死
+  &7實體目標會被視為殺死的實體數
+
+descriptionObjectTypeServerEntitiesSpawnEntitiesObjectives: |
+  &7生成的實體
+  &7如果有多項設置(類型、名稱和顏色)，則只會隨機選取一項設置
+
+descriptionObjectTypeServerEntitiesSpawnLinkToQuest: |
+  &7將生物鏈接到任務中(不在任務中的玩家無法與之交互)
+
+descriptionObjectTypeServerEntitiesTeleportEntitiesObjectives: |
+  &7匹配的實體
+  &7如果匹配的實體處在正確的位置則其會被傳送
+  &7實體目標會被視為最大傳送實體數
+
+descriptionObjectTypeServerEntitiesTeleportTeleportPosition: |
+  &7傳送實體的位置
+
+# -------------------- 任務目標: 類型(服務器物理) --------------------
+
+descriptionObjectTypeServerBlocksPlaceBlockType: |
+  &7放置的方塊類型
+
+descriptionObjectTypeServerBlocksPlaceBlockStates: |
+  &7設置的方塊狀態
+
+descriptionObjectTypeServerExplosionsCreatePower: |
+  &7爆炸強度(2=TNT)
+
+descriptionObjectTypeServerExplosionsCreateCount: |
+  &7爆炸當量
+
+descriptionObjectTypeServerFireworksLaunchEffects: |
+  &7煙花火箭效果
+
+descriptionObjectTypeServerFireworksLaunchCount: |
+  &7煙花火箭數量
+
+descriptionObjectTypeServerFireworksDamage: |
+  &7切換對實體的煙火傷害
+
+descriptionObjectTypeServerLightningStrikeDamage: |
+  &7雷擊實體
+
+descriptionObjectTypeServerLightningStrikeCount: |
+  &7雷擊次數
+
+descriptionObjectTypeServerPlayerDamageDamage: |
+  &7造成的傷害
+
+descriptionObjectTypeServerPlayerEffectsGiveEffects: |
+  &7給予的藥水效果
+
+descriptionObjectTypeServerPlayerEffectsGiveCount: |
+  &7給予列表內的藥水效果元素數
+  &7如果該值小於列表大小，則隨機選取列表內的效果而不會重複
+  &7如果該值等於列表大小，則給予列表內的全部效果
+  &7如果該值大於列表大小，則給予列表內的全部效果並會重複
+
+descriptionObjectTypeServerPlayerEffectsRemoveEffects: |
+  &7移除的藥水效果
+
+descriptionObjectTypeServerPlayerEffectsRemoveCount: |
+  &7移除列表內的藥水效果元素數
+  &7如果該值小於列表大小，則隨機移除列表內的效果而不會重複
+  &7如果該值等於列表大小，則移除列表內的全部效果
+  &7如果該值大於列表大小，則移除列表內的全部效果並會重複
+
+# -------------------- 任務目標: 類型(服務器邏輯) --------------------
+
+descriptionObjectTypeGenericServerLogicValueFormula: |
+  &7計算新值的公式
+  &7比如，&6{value} + 10&7，&6{value} ^ 2 &或只填寫一個固定值
+  &7使用{value}佔位符來獲得當前數值(如果當前數值不是數字，則會使用0這個值)
+  &7如果這不是公式(只填寫數值)，或是無法得出結果的公式，則會設置為raw值
+
+descriptionObjectTypeServerLogicModelVariableVariable: |
+  &7模型變量名
+
+descriptionObjectTypeServerLogicServerVariableVariable: |
+  &7服務器變量名
+
+descriptionObjectTypeServerLogicMoneyCurrency: |
+  &7使用的貨幣
+
+descriptionObjectTypeServerLogicPointsCategory: |
+  &7點數類別
+
+descriptionObjectTypeServerLogicVariableVariable: |
+  &7變量名
+
+# -------------------- 任務目標: 類型(關聯)--------------------
+
+descriptionIntegrationAdvancedMobArenaArena: |
+  &7AdvancedMobArena競技場
+
+descriptionIntegrationAdvancedMobArenaWaveNumber: |
+  &7波數
+
+descriptionIntegrationCitizensNPC: |
+  &7Citizens NPC
+
+descriptionIntegrationCitizensNPCNames: |
+  &7Citizens NPC 名稱
+
+descriptionIntegrationCitizensClickTypes: |
+  &7NPC 接受的點擊類型
+
+descriptionIntegrationCitizensNPCs: |
+  &7Citizens NPCs
+
+descriptionIntegrationCitizensDialogMessages: |
+  &7對話消息
+  &7每次玩家與NPC交互都會彈出下一條消息
+
+descriptionIntegrationCitizensDialogReset: |
+  &7對話重置選項
+
+descriptionObjectTypeCitizensDialogCompleteJournalEntryMessage: |
+  &7將消息內容保存到任務日誌內
+  &7這只在&6complete_journal_entry條目內有&6{messages}&7佔位符時有效
+
+descriptionIntegrationCitizensNavigateWaitForCompletion: |
+  &7等待NPC完成其旅途以獲得下一個目標
+
+descriptionIntegrationCitizensNavigateWaitForPlayerRadius: |
+  &7當玩家在範圍之外時使NPC等待玩家
+  &7如果&6wait_for_completion&7關閉則該選項無效
+
+descriptionIntegrationCitizensNavigateWaitForPlayerNotify: |
+  &7當NPC開始等待玩家時發送的提醒消息
+
+descriptionIntegrationCitizensNavigateWaitForPlayerNotifyDelay: |
+  &7偶爾重複“wait notify”
+
+descriptionIntegrationDenizenAction: |
+  &7該NPC的Denizen腳本操作
+
+descriptionIntegrationDreamFishObjectives: |
+  &7釣魚目標
+
+descriptionIntegrationDreamFishObjectiveFishes: |
+  &7允許的魚類型
+  &7留空則允許所有魚
+
+descriptionIntegrationDreamFishObjectiveGoal: |
+  &7DreamFish釣魚目標
+
+descriptionIntegrationDreamFishObjectiveTake: |
+  &7稍後拿走魚
+
+descriptionIntegrationGPSObjectEnabled: |
+  &7開關GPS目標
+
+descriptionIntegrationGPSObjectMode: |
+  &7GPS模式
+
+descriptionIntegrationGPSObjectCustomPoint: |
+  &7使用自定義的GPS點而非根據目標位置計算得出的點
+
+descriptionIntegrationDungeonsXLDungeon: |
+  &7DungeonsXL地牢
+
+descriptionIntegrationHeroesClass: |
+  &7Heroes職業
+
+descriptionIntegrationHeroesSkill: |
+  &7Heroes技能
+
+descriptionIntegrationHolographicHologram: |
+  &7全息顯示
+
+descriptionIntegrationHolographicDisplaysLines: |
+  &7全息顯示文字
+
+descriptionIntegrationHolographicDisplaysItem: |
+  &7全息顯示物品
+
+descriptionIntegrationHolographicDisplaysExpiration: |
+  &7全息顯示在一段時間後自動消失
+
+descriptionIntegrationJobsRebornJob: |
+  &7JobsReborn職業
+
+descriptionIntegrationMagicMob: |
+  &7Magic怪物
+
+descriptionIntegrationMagicSpell: |
+  &7Magic法術
+
+descriptionIntegrationMagicWand: |
+  &7Magic法杖
+
+descriptionIntegrationMCMMOSkill: |
+  &7mcMMO技能
+
+descriptionIntegrationMMOCoreSkill: |
+  &7MMOCore技能
+
+descriptionIntegrationMMOCoreClass: |
+  &7MMOCore職業
+
+descriptionIntegrationMMOCoreProfession: |
+  &7MMOCore種族
+
+descriptionIntegrationMMOCoreExpSource: |
+  &7MMOCore經驗來源
+
+descriptionIntegrationMMOCorePlayerResource: |
+  &7MMOCore玩家資源
+
+descriptionIntegrationMMOCorePlayerAttribute: |
+  &7MMOCore玩家屬性
+
+descriptionIntegrationMMOCoreCombatMode: |
+  &7玩家是否必須進入戰鬥模式
+
+descriptionIntegrationMythicMobsObjectives: |
+  &7怪物目標
+
+descriptionIntegrationMythicMobsObjectiveMobs: |
+  &7允許的怪物
+  &7留空則允許所有怪物
+
+descriptionIntegrationMythicMobsObjectiveFactions: |
+  &7允許的派系
+  &7留空以允許任何派系
+
+descriptionIntegrationMythicMobsObjectiveLevelMin: |
+  &7怪物必須達到的最低等級
+
+descriptionIntegrationMythicMobsObjectiveLevelMax: |
+  &7怪物必須達到的最高等級
+
+descriptionIntegrationMythicMobsObjectiveGoal: |
+  &7MythicMobs怪物目標
+
+descriptionIntegrationMythicMobsObjectiveDeathInRadius: |
+  &7The maximum distance from the player
+
+descriptionIntegrationMythicMobsSpawnLinkToQuest: |
+  &7鏈接怪物到任務中(不在任務中的玩家無法與之交互)
+
+descriptionIntegrationMythicMobsSignal: |
+  &7發送的信號
+
+descriptionIntegrationBossObjectives: |
+  &7boss任務目標
+
+descriptionIntegrationBossObjectiveBosses: |
+  &7允許的boss
+  &7留空則允許所有boss
+
+descriptionIntegrationBossObjectiveGoal: |
+  &7boss目標
+
+descriptionIntegrationBossSpawnLinkToQuest: |
+  &7鏈接怪物到任務中(不在任務中的玩家無法與之交互)
+
+descriptionIntegrationQuantumRPGClass: |
+  &7QuantumRPG職業
+
+descriptionIntegrationQuantumRPGClassAttribute: |
+  &7QuantumRPG職業屬性
+
+descriptionIntegrationRacesOfThanaRace: |
+  &7RacesOfThana種族
+
+descriptionIntegrationShopkeepersShopkeeper: |
+  &7shopkeepers
+
+descriptionIntegrationSkillAPIClass: |
+  &7SkillAPI職業
+
+descriptionIntegrationSkillAPISkill: |
+  &7SkillAPI技能
+
+descriptionIntegrationSuperiorSkyblockUpgrade: |
+  &7SuperiorSkyblock升級
+
+descriptionIntegrationSuperiorSkyblockMission: |
+  &7SuperiorSkyblock任務
+
+descriptionIntegrationTokenEnchantTokenType: |
+  &7TokenEnchant代幣類型
+
+descriptionIntegrationTokenEnchantEnchant: |
+  &7TokenEnchant附魔名
+
+descriptionIntegrationTokenEnchantEnchantLevel: |
+  &7TokenEnchant附魔等級
+
+# -------------------- 分支: 聊天--------------------
+
+descriptionDivergenceChatText: |
+  &7該分支的文本
+
+descriptionDivergenceChatRedoText: |
+  &7重新執行該目標時發送不同的文本
+
+descriptionDivergenceChatUnavailableText: |
+  &7即便不滿足該選擇條件或&6max_completions&7達到上限也顯示該選擇選項。
+
+descriptionDivergenceChatMaxCompletions: |
+  &7玩家可選擇該選擇選項次數
+
+descriptionDivergenceChatConditions: |
+  &7用條件限制該選擇選項
+
+descriptionDivergenceChatGoto: |
+  &7選擇該選項時應用的goto
+
+# -------------------- 分支: GUI --------------------
+
+descriptionDivergenceGUISlot: |
+  &7該選項的欄位
+
+descriptionDivergenceGUIItem: |
+  &7該選項的物品
+
+descriptionDivergenceGUIRedoItem: |
+  &7重新執行該目標時顯示不同的物品
+
+descriptionDivergenceGUIUnavailableItem: |
+  &7即使不匹配條件或達到&6max_completions|最大完成數&7上限也顯示該選項
+
+descriptionDivergenceGUIMaxCompletions: |
+  &7可選擇該選項的最長時間
+
+descriptionDivergenceGUIConditions: |
+  &7用條件限制該選擇選項
+
+descriptionDivergenceGUIGoto: |
+  &7選擇該選項時應用的goto
+
+# -------------------- 分支: 目標--------------------
+
+descriptionDivergenceObjectsObject: |
+  &7該選項的目標
+
+descriptionDivergenceObjectsConditions: |
+  &7用條件限制該分支
+
+descriptionDivergenceObjectsGoto: |
+  &7選擇該選項時應用的goto
+
+# -------------------- 任務分支--------------------
+
+descriptionBranchType: |
+  &7分支類型
+
+descriptionBranchObjects: |
+  &7分支的目標
+
+descriptionBranchStartsAt: |
+  &7該分支的第一個目標
+
+descriptionBranchStartsDirectly: |
+  &7直接在任務開始時開始該分支
+
+# -------------------- 任務分支: 名稱--------------------
+
+descriptionBranchDisplayName: |
+  &7分支顯示名
+
+# -------------------- 任務組--------------------
+
+descriptionGroupQuests: |
+  &7該組的任務模型
+
+descriptionGroupMaxConcurrent: |
+  &7該組內可同時進行的任務數上限
+
+descriptionGroupExecutionOrder: |
+  &7強制按順序執行該組任務
+
+descriptionGroupConditionsStartRestriction: |
+  &7有條件限製本組任務的開始
+
+descriptionGroupRewards: |
+  &7本組完成後給予獎勵
+
+# -------------------- 條件--------------------
+
+descriptionConditionsConditions: |
+  &7檢測的條件列表
+
+descriptionConditionsMatchAmount: |
+  &7必須匹配的條件最少條件數
+  &7如果該值大於可用條件數，則使用該值
+
+descriptionConditionsNoMatchAmount: |
+  &7無需匹配的最少條件數
+  &7如果該值大於可用條件數，則使用該值
+
+descriptionConditionsAllPlayersMustMatchSame: |
+  &7如果所有玩家必須匹配完全相同的條件，則為True (如果您自定義了 &6match_amount &7 或 &6no_match_amount&7，則很有用)
+
+descriptionConditionsErrorMessage: |
+  &7沒有匹配條件時顯示的消息
+
+# -------------------- 條件: 普通選項--------------------
+
+descriptionConditionType: |
+  &7條件類型
+
+descriptionConditionErrorMessage: |
+  &7不滿足條件時發送的消息
+
+descriptionConditionGameTimeStartTicks: |
+  &7開始刻
+
+descriptionConditionGameTimeEndTicks: |
+  &7結束刻
+
+descriptionConditionInventoryFreeForItemsItems: |
+  &7玩家必須為之騰出空間的物品
+
+descriptionConditionItemsItems: |
+  &7物品列表
+
+descriptionConditionGenericLogicLogic: |
+  &7要解析的邏輯字符串
+  &7你可以用比較符號(=, ！=, <, <=, >, >=)，比如&6{placeholder} * 4 >= 10 * 20 &7or &6{placeholder} = my_value
+  &7你可以結合多個比較類型，比如&610 <= {placeholder} <= 100
+  &7你可以使用'in'運算符(|in|)，比如&6{placeholder} |in| value1 | value2 | value3
+  &7你可以使用'and'運算符(&&)，比如&6{placeholder} > 50 && {placeholder} < 100
+  &7你可以使用'or'運算符(||)，比如&6{placeholder} <= 50 || {placeholder} >= 100
+  &7你可以用[]融合條件，比如&6[{placeholder} >= 10 || {placeholder}] && [{variable:test2} < 10 || {variable:test2} > 50]
+
+descriptionConditionGenericLogicLogicPlaceholder: |
+  &r
+  &7特定於該條件的佔位符: {placeholders}
+
+descriptionConditionLogicMoneyCurrency: |
+  &7檢測的貨幣
+
+descriptionConditionPermissionPermission: |
+  &7取消
+
+descriptionConditionPositionPosition: |
+  &7位置
+
+descriptionConditionScoreboardTagTagName: |
+  &7計分板標籤名
+
+descriptionConditionScoreboardTagMustHave: |
+  &7玩家是否必須有標籤
+
+descriptionConditionLogicScoreboardValueObjectiveName: |
+  &7計分板目標名
+
+descriptionConditionLogicScoreboardValueScoreName: |
+  &7計分板分數名
+
+descriptionConditionScoreboardValueValue: |
+  &7所需比較值
+
+descriptionConditionScoreboardValueComparison: |
+  &7所作比較
+
+descriptionConditionDayTimeStart: |
+  &7開始天數
+
+descriptionConditionDayTimeEnd: |
+  &7結束天數(可以過幾天后開始)
+
+descriptionConditionWeekTimeStart: |
+  &7開始週數
+
+descriptionConditionWeekTimeEnd: |
+  &7結束週數(可以過幾週後開始)
+
+descriptionConditionMonthTimeStart: |
+  &7開始月數
+
+descriptionConditionMonthTimeEnd: |
+  &7結束月數(可以過幾個月後開始)
+
+descriptionConditionYearTimeStart: |
+  &7開始年份
+
+descriptionConditionYearTimeEnd: |
+  &7結束年份(可以過幾年後開始)
+
+# -------------------- 條件--------------------
+
+descriptionConditionActorRestriction: |
+  &7限制只對特定玩家檢測條件
+
+descriptionConditionMustTake: |
+  &7檢測後使用的條件(如果支持)
+
+descriptionConditionGroupCompletedGroup: |
+  &7要檢查的任務組
+
+descriptionConditionGroupCompletedAmount: |
+  &7需要完成的數量
+
+descriptionConditionQuestCompletedModel: |
+  &7檢測的任務模型
+
+descriptionConditionQuestCompletedEndTypes: |
+  &7考慮的結束類型
+
+descriptionConditionQuestCompletedInTime: |
+  &7只檢測一段時間
+
+descriptionConditionQuestCompletedAmount: |
+  &7所需完成數
+
+descriptionConditionQuestPlayersAmount: |
+  &7所需玩家數
+
+descriptionConditionQuestPointsCategory: |
+  &7比較的類別點數
+
+descriptionConditionQuestCompletedObjectQuest: |
+  &7檢測的任務
+
+descriptionConditionQuestCompletedObjectBranch: |
+  &7檢測的分支
+
+descriptionConditionQuestCompletedObjectObject: |
+  &7檢測的目標
+
+descriptionConditionQuestCompletedObjectCheckActive: |
+  &7同時檢測當前任務是否已激活
+
+descriptionConditionQuestCompletedObjectEndTypes: |
+  &7考慮的結束類型
+
+descriptionConditionQuestCompletedObjectInTime: |
+  &7只檢測一段時間
+
+descriptionConditionQuestCompletedObjectAmount: |
+  &7所需完成數
+
+# -------------------- 任務池--------------------
+
+descriptionPoolDisplayName: |
+  &7任務池顯示名
+
+descriptionPoolTimeFrames: |
+  &7給予任務券的時間範圍列表
+
+descriptionPoolOrder: |
+  &7任務池中任務的處理順序
+
+descriptionPoolAmount: |
+  &7在每個時間範圍內該任務池中給予任務券的任務或任務組數
+  &7首先，任務將被處理;每獲得一個任務券的任務數將減少1
+  &7然後，任務組將被處理;每個至少有一個獲得任務券的組的數量將減少1
+
+descriptionPoolAmountTolerance: |
+  &7從任務的數量中減去(或不減去)已激活的任務數量
+
+descriptionPoolQuests: |
+  &7該池內可給予任務券的任務及其設置
+
+descriptionPoolQuestsGroups: |
+  &7該池內可給予任務券的任務組及其設置
+
+descriptionPoolQuestProcessConditions: |
+  ＆7如果不匹配這些條件，則防止處理該任務
+
+descriptionPoolQuestPreResetTokens: |
+  &7即使未選擇該任務，該任務的券(如果有)是否應該被重置為0
+
+descriptionPoolQuestPreStop: |
+  &7即使未選擇任務，是否停止該任務(如果激活)
+
+descriptionPoolQuestPreResetHistory: |
+  &7即使未選擇任務，是否也要重置該任務(如果有)的歷史
+
+descriptionPoolQuestSelectedResetTokens: |
+  &7如果選擇了任務，是否應該先將該任務的券(如果有)重置為0，然後再給新的任務券
+
+descriptionPoolQuestSelectedStop: |
+  &7如果選擇了任務，是否應該停止該任務(如果激活)，然後再給新的任務券。
+
+descriptionPoolQuestSelectedResetHistory: |
+  &7如果選擇了任務，是否應該先重置該任務的歷史(如果有)，然後再給新的任務券
+
+descriptionPoolQuestRefundTokenOnEndTypes: |
+  &7退還任務券時使用什麼結束類型(如果消耗)
+
+descriptionPoolQuestMinTokens: |
+  &7給予該任務的最少券數
+
+descriptionPoolQuestMaxTokens: |
+  &7給予該任務的最多券數
+
+descriptionPoolQuestGroupProcessConditions: |
+  &7如果這些條件不匹配，則防止處理該任務組
+
+descriptionPoolQuestGroupAmount: |
+  &7如果選擇任務，則給予任務券的任務數
+
+descriptionPoolQuestGroupPreResetTokens: |
+  &7即使沒有選擇任務，該組內的所有任務(如果有)的任務券是否應該重置為0
+
+descriptionPoolQuestGroupPreStop: |
+  &7即使沒有選擇任務，是否停止該組內的所有任務(如果激活)
+
+descriptionPoolQuestGroupPreResetHistory: |
+  &7即使沒有選擇任務，是否也重置該組內的所有任務(如果有)的歷史
+
+descriptionPoolQuestGroupSelectedResetTokens: |
+  &7如果選擇了任務，是否先將該組內的全部任務券(如果有)重置為0，再給予新的任務券
+
+descriptionPoolQuestGroupSelectedStop: |
+  &7如果選擇了任務，是否先停止該組內的全部任務(如果激活)，再給予新的任務券
+
+descriptionPoolQuestGroupSelectedResetHistory: |
+  &7如果選擇了任務，是否先清空該組內的全部任務歷史，再給予新的任務券
+
+descriptionPoolQuestGroupRefundTokenOnEndTypes: |
+  &7退還任務券時使用的結束類型(如果消耗)
+
+descriptionPoolQuestGroupMinTokens: |
+  &7給予該組任務的最少券數
+
+descriptionPoolQuestGroupMaxTokens: |
+  &7給予該組任務的最多券數
+
+descriptionPoolRewards: |
+  &7完成任務池時給予的獎勵
+
+# -------------------- Rewards --------------------
+
+descriptionRewardObjectObject: |
+  &7為完成池/組的玩家執行的對象
+  &7只執行具有即時效果的對象
+
+descriptionRewardObjectMinStreak: |
+  &7對象執行所需的此池/組的最小連勝
+
+descriptionRewardObjectMaxStreak: |
+  &7此池/組的最大連勝，如果當前連勝高於此，則不會執行對象
+
+# -------------------- 激活器--------------------
+
+descriptionActivatorType: |
+  &7激活器類型
+
+descriptionActivatorParticles: |
+  &7不同任務狀態時使用的粒子腳本
+
+descriptionActivatorParticlesLocation: |
+  &7調整顯示粒子的位置
+
+descriptionActivatorHolograms: |
+  &7不同任務狀態時HolographicDisplays的全息顯示
+  &7佔位符: {status_count:STATUS}，{status_list:STATUS}
+
+descriptionActivatorHologramLocation: |
+  &7調整全息顯示的位置
+
+descriptionActivatorCustomGui: |
+  &7將特定的GUI鏈接至該激活器
+
+descriptionActivatorRequiredGuiQuests: |
+  &7GUI顯示所需的元素數
+
+descriptionActivatorInteractionClicks: |
+  &7觸發交互的點擊類型
+
+descriptionActivatorSneakClickCancel: |
+  &7潛行點擊以取消任務
+
+descriptionActivatorSendErrorsOnInteract: |
+  &7在與 NPC 交互時顯示任務開始錯誤(如果有)
+
+descriptionActivatorGuiShowStatus: |
+  &7允許在該激活器的GUI內使用的任務狀態(如果不是自定義GUI)
+
+descriptionActivatorGuiName: |
+  &7該激活器GUI名稱(如果不是自定義GUI)
+
+descriptionActivatorGuiType: |
+  &7該激活器GUI類型(如果不是自定義GUI)
+
+descriptionActivatorPositionsInteract: |
+  &7匹配的位置
+
+descriptionActivatorEntitiesEntityTypes: |
+  &7允許的實體類型
+  &7留空則允許所有類型
+
+descriptionActivatorEntitiesEntityNames: |
+  &7允許的實體名稱
+  &7留空則允許所有名稱(或無名)
+
+descriptionActivatorEntitiesEntityColors: |
+  &7允許的實體顏色
+  &7留空則允許所有顏色
+
+descriptionActivatorAutoDelay: |
+  &7每隔X個時間單位觸發該激活器
+
+descriptionActivatorPosition: |
+  &7必須匹配的位置
+
+descriptionActivatorPositionDelay: |
+  &7每隔X個時間單位觸發該激活器
+
+# -------------------- GUI --------------------
+
+descriptionGuiShowStatus: |
+  &7該GUI內允許的任務狀態
+
+descriptionGuiOrderQuests: |
+  &7按列表順序排列任務，或隨機顯示
+
+descriptionGuiSortQuestsByStatus: |
+  &7根據任務狀態(可用、進行中、...)對任務進行排序
+
+descriptionGuiOverrideClickTypeInfo: |
+  &7覆蓋此GUI的信息點擊類型
+
+descriptionGuiOverrideClickTypeStart: |
+  &7要覆蓋此GUI的開始點擊類型
+
+descriptionGuiOverrideClickTypeStartCoop: |
+  &7覆蓋此GUI的合作開始點擊類型
+
+descriptionGuiOverrideClickTypeStop: |
+  &7覆蓋此GUI的停止點擊類型
+
+descriptionGuiOverrideClickTypeLeave: |
+  &7覆蓋此GUI的離開點擊類型
+
+descriptionGuiItemQuestsQuests: |
+  &7該物品顯示的任務
+  &7會根據任務狀態顯示
+
+descriptionGuiItemQuestsMode: |
+  &7確定是否應在所有位置上顯示相同的任務，或者應在可用位置上顯示列表中的不同任務
+
+descriptionGuiItemGUIGUI: |
+  &7該物品鏈接的GUI
+
+descriptionGuiItemGUIPointsRankingCategory: |
+  &7點數類別
+
+descriptionGuiItemPointsRankingCategory: |
+  &7點數類別
+
+descriptionGuiItemToggleSettingSetting: |
+  &7要切換的設置
+
+descriptionGuiItemToggleSettingIconOn: |
+  &7開啟設置時顯示的圖標
+
+descriptionGuiItemToggleSettingIconOff: |
+  &7關閉設置時顯示的圖標
+
+# -------------------- 檢查點--------------------
+
+descriptionCheckpointSaveLocation: |
+  &7保存玩家位置
+
+descriptionCheckpointSaveSpecificLocation: |
+  &7保存特定位置而非玩家所處位置
+
+descriptionCheckpointSaveBranches: |
+  &7保存分支狀態
+
+descriptionCheckpointSaveIndividualBranches: |
+  &7保存獨立分支狀態
+
+descriptionCheckpointSaveModelVariables: |
+  &7保存模型變量
+
+descriptionCheckpointSaveUserVariables: |
+  &7保存的用戶變量列表
+
+descriptionCheckpointRestoreOnRespawn: |
+  &7重生時回到檢查點
+
+descriptionCheckpointRestoreOnConnect: |
+  &7重連時回到檢查點
+
+descriptionCheckpointRestoreOnResume: |
+  &7任務暫停後繼續時回到檢查點
+
+descriptionCheckpointRestoreOnConditions: |
+  &7可回到該檢查點的額外條件
+
+descriptionCheckpointRestoreOnIndividualConditions: |
+  &7可獨立回到該檢查點的額外條件
+
+descriptionCheckpointRestoreNotify: |
+  &7是否在回到分支時發送開始分支提醒消息
+
+descriptionCheckpointRestoreObjects: |
+  &7回到該檢查點時執行的目標
+
+# -------------------- 狀態--------------------
+
+descriptionStateDisplayName: |
+  &7該狀態的顯示名(只在執行state指令時使用)
+
+descriptionStateQuests: |
+  &7各種任務信息
+  &7如果任務已開始，則使用其當前狀態
+  &7如果任務未開始，則開始任務並添加屬性
+
+descriptionStateStopQuests: |
+  &7如果激活則停止的任務列表
+
+descriptionStateUserVariables: |
+  &7用戶變量及其設定值列表
+
+descriptionStatePosition: |
+  &7傳送用戶的位置
+
+descriptionStatePreStateObjects: |
+  &7在設置狀態前執行的即時目標列表
+
+descriptionStatePostStateObjects: |
+  &7在設置狀態後執行的即時目標列表
+
+descriptionQuestStateBranches: |
+  &7分支及其激活的當前目標列表
+
+descriptionQuestStateIndividualBranches: |
+  &7獨立分支及其激活的當前目標列表
+
+descriptionQuestStateModelVariables: |
+  &7模型變量及其設置值列表
+
+descriptionQuestStatePreStateObjects: |
+  &7在設置該任務的狀態前執行的即時目標列表
+
+descriptionQuestStatePostStateObjects: |
+  &7在設置該任務的狀態後執行的即時目標列表
