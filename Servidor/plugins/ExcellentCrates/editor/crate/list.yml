@@ -1,4 +1,4 @@
-Title: '&8&l「 &9Editor - Crate List &8&l」'
+Title: '&8&l「 &6Editor - Lista De Crates &8&l」'
 Size: 54
 
 Object:
@@ -14,7 +14,7 @@ Content:
           Material: BARRIER
           Amount: 1
           Durability: 0
-          Name: '&c&lReturn'
+          Name: '&c&lVolver'
           Item_Flags: []
           Unbreakable: false
     Slots: 39
@@ -27,7 +27,7 @@ Content:
           Material: ENDER_EYE
           Amount: 1
           Durability: 0
-          Name: '&e&lNext Page'
+          Name: '&e&lSiguiente Pagina'
           Item_Flags: []
           Unbreakable: false
     Slots: 43
@@ -40,7 +40,7 @@ Content:
           Material: ENDER_EYE
           Amount: 1
           Durability: 0
-          Name: '&e&lPrevious Page'
+          Name: '&e&lPagina Anterior'
           Item_Flags: []
           Unbreakable: false
     Slots: 37
@@ -54,7 +54,7 @@ Editor:
           Material: ANVIL
           Amount: 1
           Durability: 0
-          Name: '&a&lNew Crate'
+          Name: '&a&lNueva Crate'
           Item_Flags: []
           Unbreakable: false
     Slots: 41
