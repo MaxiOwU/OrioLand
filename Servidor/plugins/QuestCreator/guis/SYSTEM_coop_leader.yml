@@ -1,0 +1,33 @@
+# ----------------------------------------------------------------------------------------------------
+# Configuration file for QuestCreator
+# More information can be found in the documentation
+# ----------------------------------------------------------------------------------------------------
+
+name: '&dCoop : {quest}'
+type: CHEST_6_ROW
+
+item_disband:
+  locations: 46
+  icon:
+    type: TNT
+    name: '&cDisband coop'
+
+item_invite:
+  locations: 49
+  icon:
+    type: PAPER
+    name: '&aInvite player'
+
+item_start:
+  locations: 52
+  icon:
+    type: MINECART
+    name: '&6Start'
+
+contents:
+  - type: NONE
+    locations: [0,1,2,3,4,5,6,7,8,9,18,27,36,45,47,48,50,51,53,44,35,26,17]
+    persistent: true
+    icon:
+      type: GRAY_STAINED_GLASS_PANE
+      name: '&r'

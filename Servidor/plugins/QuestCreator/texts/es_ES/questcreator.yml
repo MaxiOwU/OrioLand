@@ -1,0 +1,623 @@
+# -------------------- Commands --------------------
+
+commandParameterUsageModel: misión
+commandParameterUsageBranch: branca
+commandParameterUsageObject: objetivo
+commandParameterUsageGUI: gui
+commandParameterUsagePool: grupo
+commandParameterUsageState: estado
+commandParameterUsagePointsCategory: categoría
+commandParameterUsageVariable: variable
+
+commandDescriptionQuestcreator: comando principal para QuestCreator
+commandDescriptionQuestcreatorActionbar: activar o desactivar la actionbar de misión
+commandDescriptionQuestcreatorBossbar: activar o desactivar la bossbar de misión
+commandDescriptionQuestcreatorComplete: marcar la misión como completada
+commandDescriptionQuestcreatorCompletebranch: marcar el objetivo actual de la branca como completado
+commandDescriptionQuestcreatorCoop: administrar las misiones cooperativas
+commandDescriptionQuestcreatorGoto: actualizar la misión
+commandDescriptionQuestcreatorGPS: activar o desactivar el GPS de la misión
+commandDescriptionQuestcreatorEdit: editar en el juego
+commandDescriptionQuestcreatorJournal: administrar el diario de misiones
+commandDescriptionQuestcreatorList: ver la lista de misiones
+commandDescriptionQuestcreatorLogspam: activar o desactivar el log de debug
+commandDescriptionQuestcreatorPoints: administrar los puntos de misiones
+commandDescriptionQuestcreatorMenu: abrir un menú específico
+commandDescriptionQuestcreatorPerformglobalbranch: realizar todos los objetivos de una branca global
+commandDescriptionQuestcreatorPerformglobalobject: realizar un objetivo global
+commandDescriptionQuestcreatorProgress: comprobar el progreso de la misión
+commandDescriptionQuestcreatorQueue: comprobar el progreso de la cola
+commandDescriptionQuestcreatorStop: parar misión(es)
+commandDescriptionQuestcreatorStart: empezar la misión
+commandDescriptionQuestcreatorState: establecer un estado
+commandDescriptionQuestcreatorReset: reiniciar misión(es)
+commandDescriptionQuestcreatorResetpool: reiniciar grupo(s)
+commandDescriptionQuestcreatorScoreboard: activar o desactivar la scoreboard de la misión
+commandDescriptionQuestcreatorServerVariable: administrar server variables
+commandDescriptionQuestcreatorSetpooltokens: establecer los tokens del grupo
+commandDescriptionQuestcreatorTitle: activar o desactivar el título de la misión
+commandDescriptionQuestcreatorVariable: administrar variables
+
+messageCommandInvalidModel: |
+  &7El modelo de misión &c{value} &7no es válido para el argumento &c{argument}&7.
+
+messageCommandInvalidBranch: |
+  &7La branca de misión &c{value} &7no es válida para el argumento &c{argument}&7.
+
+messageCommandInvalidQuestObject: |
+  &7El objetivo de misión &c{value} &7no es válido para el argumento &c{argument}&7.
+
+messageCommandQuestcreatorBungeePlayerIsntOffline: |
+  &7Parece que el jugador está conectado en otro servidor. Únete a él primero.
+
+messageCommandQuestcreatorActionbarToggleOn: |
+  &7La actionbar de la misión se ha &aactivado&7.
+
+messageCommandQuestcreatorActionbarToggleOff: |
+  &7La actionbar de la misión se ha &cdesactivado&7.
+
+messageCommandQuestcreatorBossbarToggleOn: |
+  &7La bossbar de la misión se ha &aactivado&7.
+
+messageCommandQuestcreatorBossbarToggleOff: |
+  &7La bossbar de la misión se ha &cdesactivado&7.
+
+messageCommandQuestcreatorCoopNotInvited: |
+  &7No tienes invitaciones de cooperación pendientes. Para crear una misión cooperativa, simplemente iníciala y verás más opciones!
+
+messageCommandQuestcreatorCoopLeaveEmpty: |
+  &7No tienes misiones que abandonar.
+
+messageCommandQuestcreatorCoopLeaveCouldnt: |
+  &7No puedes abandonar la misión: &c{quest}&7.
+
+messageCommandQuestcreatorCoopLeaveLeft: |
+  &7Has abandonado la misión: &a{quest}&7.
+
+messageCommandQuestcreatorComplete: |
+  &7Se te ha marcado la misión como completada &a{amount} veces&7: &a{quest}&7.
+
+messageCommandQuestcreatorCompleteBranch: |
+  &7Se ha completado el objetivo actual para la branca &a{branch} &7en la misión &a{quest}&7.
+
+messageCommandQuestcreatorCompleteBranchNoQuest: |
+  &7Esta misión no está activa.
+
+messageCommandQuestcreatorGoto: |
+  &7Se han aplicado los cambios en la misión: &a{quest}&7.
+
+messageCommandQuestcreatorGotoNoQuest: |
+  &7Esta misión no está activa.
+
+messageCommandQuestcreatorGPSToggleOn: |
+  &7El GPS de la misión se ha &aactivado&7.
+
+messageCommandQuestcreatorGPSToggleOff: |
+  &7El GPS de la misión se ha &cdesactivado&7.
+
+messageCommandQuestcreatorJournalToggleOn: |
+  &7Tu diario de misiones se ha &aactivado&7.
+
+messageCommandQuestcreatorJournalToggleOff: |
+  &7Tu diario de misiones se ha &cdesactivado&7.
+
+messageCommandQuestcreatorListEmpty: |
+  &7No hay misiones.
+
+messageCommandQuestcreatorListHeader: |
+  &2Misiones:
+
+messageCommandQuestcreatorListElement: |
+  &7- {id}: {name}
+
+messageCommandQuestcreatorLogspamToggleOn: |
+  &7El log se ha &aactivado &7para &a{player}&7.
+
+messageCommandQuestcreatorLogspamToggleOff: |
+  &7El log se ha &cdesactivado &7para &c{player}&7.
+
+messageCommandQuestcreatorRunglobalbranchUnknown: |
+  &7Branca global &c{branch} &7desconocida.
+
+messageCommandQuestcreatorRunglobalobjectUnknown: |
+  &7Objetivo global &c{object} &7desconocido.
+
+messageCommandQuestcreatorPoints: |
+  &7Tienes &a{points} punto{plural} &7en la categoría &a{category}&7.
+
+messageCommandQuestcreatorPointsOperate: |
+  &7Tus puntos de misiones se han establecido a &a{amount} &7para la categoría &a{category}&7.
+
+messageCommandQuestcreatorProgressEmpty: |
+  &7No tienes misiones activas.
+
+messageCommandQuestcreatorProgressOnlineElement: |
+  &7&m          &r &7{id}: {name} &7&m          &r
+  &7Líder: &a{leader}
+  &7Coop: &a{coop}
+  &7Causa de inicio: &a{start_cause}
+  &7Tiempo de actividad: &a{uptime}
+  &7Recorrido: &a{path}
+  &7Checkpoint: &a{checkpoint}
+  {branches}
+
+messageCommandQuestcreatorProgressOnlineElementBranch: |
+  &7- Branca &a{branch}&7, objetivo &a{object}
+  {progression}
+
+messageCommandQuestcreatorProgressOnlineElementProgression: |
+  &7  > &a{object}&7/&a{part} &7: &a{progression}&7/&a{goal}
+
+messageCommandQuestcreatorQueueNone: |
+  &7No estás en una cola de misión.
+
+messageCommandQuestcreatorQueueActive: |
+  &7Estás esperando para la misión: &e{quest} &7(Jugadores: &e{players}&7).
+  &7Posición : &e{position}&7/&e{max}
+
+messageCommandQuestcreatorQueueActiveError: |
+  &7Estás esperando para la misión: &e{quest} &7(Jugadores: &e{players}&7).
+  &7Posición: &e{position}&7/&e{max}
+  &cAsegúrate de solucionar este problema antes de alcanzar la posición 1: {error}
+
+messageCommandQuestcreatorResetEmpty: |
+  &7No tienes misiones que reiniciar.
+
+messageCommandQuestcreatorReset: |
+  &7Se ha reiniciado la misión: &a{quest}&7.
+
+messageCommandQuestcreatorResetpoolEmpty: |
+  &7No hay grupos de misiones que reiniciar.
+
+messageCommandQuestcreatorResetpool: |
+  &7Se ha reiniciado el grupo de misión: &a{pool}&7.
+
+messageCommandQuestcreatorScoreboardToggleOn: |
+  &7La scoreboard de la misión se ha &aactivado&7.
+
+messageCommandQuestcreatorScoreboardToggleOff: |
+  &7La scoreboard de la misión se ha &cdesactivado&7.
+
+messageCommandQuestcreatorSetpooltokens: |
+  &7Ahora tienes &a{amount} &7tokens para la misión &a{quest}&7.
+
+messageCommandQuestcreatorStartCouldnt: |
+  &7No se ha podido iniciar la misión: &c{quest}&7.
+
+messageCommandQuestcreatorStartEmpty: |
+  &7No hay misiones que comenzar.
+
+messageCommandQuestcreatorStarted: |
+  &7Has iniciado la misión: &a{quest}&7.
+
+messageCommandQuestcreatorState: |
+  &7Se ha establecido el estado &a{state}&7.
+
+messageCommandQuestcreatorStopEmpty: |
+  &7No hay misiones que detener.
+
+messageCommandQuestcreatorStopCouldnt: |
+  &7No se ha podido detener la misión: &c{quest}&7.
+
+messageCommandQuestcreatorStopped: |
+  &7La misión se ha detenido: &a{quest}&7.
+
+messageCommandQuestcreatorTitleToggleOn: |
+  &7El título de la misión se ha &aactivado&7.
+
+messageCommandQuestcreatorTitleToggleOff: |
+  &7El título de la misión se ha &cdesactivado&7.
+
+messageCommandQuestcreatorVariable: |
+  &7Tu variable &a{variable} &7tiene el valor &a{value}&7.
+
+messageCommandQuestcreatorVariableOperate: |
+  &7Tu variable &a{variable} &7ha sido establecida a &a{value}&7.
+
+# -------------------- Quest --------------------
+
+messageQuestCancelInactive: |
+  &7La misión &c{quest} &7ha estado inactiva por &c{time}&7, por lo que ha sido cancelada.
+
+# -------------------- Coop --------------------
+
+messageCoopCreateLeader: |
+  &7Has creado una misión cooperativa: &a{quest}&7. [1/{max}]
+
+messageCoopCreateAlreadyCoop: |
+  &c{player} &7ya está en un equipo.
+
+messageCoopFull: |
+  &7No hay más espacio en la misión cooperativa de &c{leader}&7.
+
+messageCoopInvite: |
+  &7Introduce el jugador en el chat para invitarlo, o &c{cancel} &7para cancelar.
+
+messageCoopInviteAlreadyThereLeader: |
+  &a{player} &7ya está en tu misión cooperativa o ha sido invitado.
+
+messageCoopInvited: |
+  &a{leader} &7te ha invitado a una misión cooperativa: &a{quest}&7. Puedes unirte con /quest coop.
+
+messageCoopInvitedLeader: |
+  &7Has invitado a &a{player} &7a tu misión cooperativa.
+
+messageCoopNotInvited: |
+  &7Necesitas a &a{leader} &7para que te invite a su misión cooperativa.
+
+messageCoopNotInvitedLeader: |
+  &c{player} &7ha intentado entrar en tu misión cooperativa pero no estaba invitado.
+
+messageCoopJoin: |
+  &7Te has unido a la misión cooperativa de &a{leader}&7: &a{quest}&7. [{current}/{max}]
+
+messageCoopJoinOthers: |
+  &a{player} &7ha entrado en la misión cooperativa: &a{quest}&7. [{current}/{max}]
+
+messageCoopLeave: |
+  &7Has abandonado la misión cooperativa de &c{leader}&7.
+
+messageCoopLeaveOthers: |
+  &c{player} &7ha abandonado la misión cooperativa. [{current}/{max}]
+
+messageCoopDisband: |
+  &7Has disuelto tu misión cooperativa: &c{quest}&7.
+
+messageCoopDisbandOthers: |
+  &c{leader} &7ha disuelto su misión cooperativa: &c{quest}&7.
+
+messageCoopKickNotInLeader: |
+  &c{player} &7no está en tu misión cooperativa y no ha sido invitado.
+
+messageCoopKickInviteLeader: |
+  &7Se ha eliminado la invitación de unión para &c{player}&7.
+
+messageCoopKick: |
+  &7Has sido expulsado de la misión cooperativa de &c{leader}&7: &c{quest}&7.
+
+messageCoopKickOthers: |
+  &c{player} &7ha sido expulsado de la misión cooperativa. [{current}/{max}]
+
+# -------------------- Queue --------------------
+
+messageQueueCreateAlreadyCoop: |
+  &c{player} &7ya está esperando para realizar esta misión.
+
+messageQueueCreateCantMultiple: |
+  &7No puedes hacer cola en múltiples misiones a la vez.
+
+messageQueueCouldntStartPosition: |
+  &cNo se ha podido iniciar la misión: &c{quest}&7. Has sido añadido más tarde en la cola, en la posición &c{position}&7/&c{max}&7.
+
+messageQueuePosition: |
+  &7Estás en la posición &a{position}&7/&a{max} &7de la cola para la misión: &a{quest}&7.
+
+messageQueueStarted: |
+  &7Es tu turno para realizar la misión: &a{quest}&7. ¡Empezando!
+
+messageQueueLeave: |
+  &7Has salido de la cola para la misión: &c{quest}&7.
+
+# -------------------- Preconditions --------------------
+
+messagePreconditionsError: |
+  &c{error}
+
+textPreconditionsErrorInvalidModelErrors: |
+  &7El modelo de misión no es válido:
+  &c{errors}
+
+textPreconditionsErrorAloneUserNotLoader: |
+  &7Tus datos de usuario no están cargados.
+
+textPreconditionsErrorCoopUserNotLoader: |
+  &7Los datos de usuario de &c{player} &7no están cargados.
+
+textPreconditionsErrorQuestTooManyInstances: |
+  &7Hay demasiados jugadores realizando esta misión en este momento.
+
+textPreconditionsErrorAlonePlayerAlreadyActive: |
+  &7Ya estás siguiendo esta misión.
+
+textPreconditionsErrorCoopPlayerAlreadyActive: |
+  &c{player} &7ya está siguiendo esta misión.
+
+textPreconditionsErrorAlonePlayerTooManyQuests: |
+  &7Ya sigues misiones suficientes.
+
+textPreconditionsErrorCoopPlayerTooManyQuests: |
+  &c{player} &7ya está siguiendo misiones suficientes.
+
+textPreconditionsErrorAlonePlayerMaxCompletions: |
+  &7Ya has completado esta misión.
+
+textPreconditionsErrorCoopPlayerMaxCompletions: |
+  &c{player} &7ya ha completado la misión.
+
+textPreconditionsErrorAlonePlayerGroupTooManyQuests: |
+  &7Ya estás siguiendo misiones suficientes de este grupo.
+
+textPreconditionsErrorCoopPlayerGroupTooManyQuests: |
+  &c{player} &7ya está siguiendo misiones suficientes de este grupo.
+
+textPreconditionsErrorAlonePlayerGroupPreviousQuestNotCompleted: |
+  &7No has completado la misión anterior del mismo grupo.
+
+textPreconditionsErrorCoopPlayerGroupPreviousQuestNotCompleted: |
+  &c{player} &7no ha completado la misión anterior del mismo grupo.
+
+textPreconditionsErrorAlonePlayerCooldown: |
+  &7Debes esperar &c{time} &7para seguir esta misión de nuevo.
+
+textPreconditionsErrorCoopPlayerCooldown: |
+  &c{player} &7debe esperar &c{time} &7para seguir esta misión de nuevo.
+
+textPreconditionsErrorAlonePlayerNoTokens: |
+  &7No tienes ningún token para esta misión.
+
+textPreconditionsErrorCoopPlayerNoTokens: |
+  &c{player} &7no tiene ningún token para esta misión.
+
+textPreconditionsErrorQuestCoopQuest: |
+  &cEsta es una misión cooperativa.
+
+textPreconditionsErrorQuestNotCoopQuest: |
+  &cEsta misión no es cooperativa.
+
+textPreconditionsErrorQuestNotEnoughPlayers: |
+  &7Se necesitan almenos &c{min} jugadores &7para esta misión.
+
+textPreconditionsErrorQuestTooManyPlayers: |
+  &7Se necesitan como mucho &c{max} jugadores &7para esta misión.
+
+textPreconditionsErrorAlonePlayerNoPermission: |
+  &7No tienes permiso para iniciar esta misión.
+
+textPreconditionsErrorCoopPlayerNoPermission: |
+  &c{player} &7no tiene permiso para iniciar esta misión.
+
+textPreconditionsErrorAlonePlayerDisallowedWorld: |
+  &7Esta misión no se puede realizar en este mundo.
+
+textPreconditionsErrorCoopPlayerDisallowedWorld: |
+  &c{player} &7no puede realizar la misión en este mundo.
+
+textPreconditionsErrorStartConditionsDontMatch: |
+  &7Las condiciones de inicio no son válidas.
+
+# -------------------- Detailed progression (verbose) --------------------
+
+textDetailedProgressionObjectivePlaceholder: '&2{objective_name} &7(&b{objective_progression}&7/&b{objective_goal}&7 - &b{objective_progression_percentage}&7)'
+
+textDetailedProgressionBranch: '&2&l{name}'
+textDetailedProgressionBranchNoName: []
+
+textDetailedProgressionObject: '&a> &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionObjectDistance: '&a> &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionObjectNoDetail: '&2> &7{name}'
+textDetailedProgressionObjectNoName: []
+
+textDetailedProgressionObjectDelegateHeader: '&a> &7{name}'
+textDetailedProgressionObjectDelegateHeaderNoName: []
+
+textDetailedProgressionObjectDelegate: '&a- &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionObjectDelegateCompleted: '&7&m- {name} &7({progression}/{goal}&7)'
+textDetailedProgressionObjectDelegateDistance: '&a- &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionObjectDelegateDistanceCompleted: '&7&m- {name} &7({distance}m&7)'
+textDetailedProgressionObjectDelegateNoDetail: '&a- &7{name}'
+textDetailedProgressionObjectDelegateNoDetailCompleted: '&7&m- {name}&7'
+textDetailedProgressionObjectDelegateNoName: []
+textDetailedProgressionObjectDelegateNoNameCompleted: []
+
+# -------------------- Detailed progression (scoreboard) --------------------
+
+textDetailedProgressionScoreboardBranch: '&2&l{name}'
+textDetailedProgressionScoreboardBranchNoName: []
+
+textDetailedProgressionScoreboardObject: '&a> &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionScoreboardObjectDistance: '&a> &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionScoreboardObjectNoDetail: '&2> &7{name}'
+textDetailedProgressionScoreboardObjectNoName: []
+
+textDetailedProgressionScoreboardObjectDelegateHeader: '&a> &7{name}'
+textDetailedProgressionScoreboardObjectDelegateHeaderNoName: []
+
+textDetailedProgressionScoreboardObjectDelegate: '&a- &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionScoreboardObjectDelegateCompleted: '&7&m- {name} &7({progression}/{goal}&7)'
+textDetailedProgressionScoreboardObjectDelegateDistance: '&a- &7{name} &7(&a{distance}m&7)'
+textDetailedProgressionScoreboardObjectDelegateDistanceCompleted: '&7&m- {name} &7({distance}m&7)'
+textDetailedProgressionScoreboardObjectDelegateNoDetail: '&a- &7{name}'
+textDetailedProgressionScoreboardObjectDelegateNoDetailCompleted: '&7&m- {name}&7'
+textDetailedProgressionScoreboardObjectDelegateNoName: []
+textDetailedProgressionScoreboardObjectDelegateNoNameCompleted: []
+
+# -------------------- Detailed progression (PlaceholderAPI) --------------------
+
+textDetailedProgressionPlaceholderAPIObject: '&a> &7{name} &7(&a{progression}&7/&a{goal}&7)'
+textDetailedProgressionPlaceholderAPIObjectDistance: '&a> &7{name} &7(&a{distance}m&7)'
+
+textDetailedProgressionPlaceholderAPIObjectNoDetail: '&2> &7{name}'
+textDetailedProgressionPlaceholderAPIObjectNoName: ''
+
+# -------------------- Journal --------------------
+
+textJournalEmpty: |
+  &7Tu diario de misiones está vacío.
+
+# -------------------- Diverge --------------------
+
+textDivergeLineSplit: '&r    '
+
+textDivergeSelect: |
+  &dClick para seleccionar
+
+textDivergeCantSelect: |
+  &7No puedes elegir opciones para esta misión
+
+textDivergeCantSelectUnavailable: |
+  &7Esta opción no está disponible
+
+textServerActionPromptNext: |
+  &dClick para continuar
+
+# -------------------- Scoreboard --------------------
+
+textScoreboarOneQuestTitle: |
+  &7&m    &r &d&lQuest &7&m    &r
+
+textScoreboardOneQuestContent: |
+  &r
+  &a{quest}
+  &r
+  {detailed_progression}
+  &r
+  &e&ohttp://guillaumevdn.com
+
+textScoreboardOneQuestContentNone: |
+  &r
+  &7¡No hay misiones activas!
+  &r
+  &dguillaumevdn.com
+
+textScoreboardMultipleQuestTitle: |
+  &7&m    &r &d&lMisión &7&m    &r
+
+textScoreboardMultipleQuestContent: |
+  {quests}
+  &r
+  &e&ohttp://guillaumevdn.com
+
+textScoreboardMultipleQuestContentQuest: |
+  &r
+  &a{quest}
+  &r
+  {detailed_progression}
+
+textScoreboardMultipleQuestContentNone: |
+  &r
+  &7¡No hay misiones activas!
+  &r
+  &e&ohttp://guillaumevdn.com
+
+# -------------------- GUI --------------------
+
+guiDefaultActivatorName: |
+  &7Misiones
+
+guiQuestCoopPlayers: |
+  &r
+  &7Misión cooperativa con &b{players}
+  &7{leader}
+  &r
+
+guiQuestCoopLeader: |
+  &7Tú eres el líder.
+
+guiQuestCoopNotLeader: |
+  &7El líder es {leader}.
+
+guiQuestControls: |
+  &r
+  &d{controls}
+
+guiQuestControlsInfo: |
+  &dClick izquierdo para más información
+
+guiQuestControlsStart: |
+  &dClick derecho para iniciar la misión
+
+guiQuestControlsStartCoop: |
+  &dShift + click derecho para iniciar la misión cooperativa
+
+guiQuestControlsPhysicalActivatorGUIStart: |
+  &dClick derecho para iniciar la misión
+
+guiQuestControlsPhysicalActivatorGUIStartCoop: |
+  &dShift + click derecho para iniciar la misión cooperativa
+
+guiQuestControlsStop: |
+  &dClick derecho para detener la misión
+
+guiQuestControlsLeave: |
+  &dClick derecho para abandonar la misión cooperativa
+
+guiQuestDetailedProgression: |
+  &r
+  {detailed_progression}
+
+guiQuestDetailedErrors: |
+  &r
+  {detailed_errors}
+
+guiQuestCompletionCount: |
+  &r
+  &7Has completado esta misión {count} veces
+
+guiQuestCompletionCountGoal: |
+  &r
+  &7Has completado esta misión {count}/{max} veces
+
+guiQuestCooldown: |
+  &r
+  &7Debes esperar &a{time} &7para poder empezar esta misión de nuevo.
+
+guiQuestCooldownPool: |
+  &r
+  &7Las nuevas misiones se calcularán en &a{time}&7.
+
+guiQuestCompleted: |
+  &7Fecha de realización: &a{date}&7.
+
+guiConfirmLoreStopQuest: |
+  &7Click aquí para &cdetener esta misión&7:
+  &c{quest}
+
+guiConfirmLoreLeaveCoopQuest: |
+  &7Click aquí para &cdetener esta misión cooperativa&7:
+  &c{quest}
+
+guiConfirmLoreStartQuest: |
+  &7Click aquí para &aempezar esta misión&7:
+  &a{quest}
+
+guiConfirmLoreStartCoopQuest: |
+  &7Click aquí para &aempezar esta misión cooperativa&7:
+  &a{quest}
+
+guiConfirmLoreStartQuestAfterActivatorDialog: |
+  &7Misión: &a{quest}
+
+guiModelSelectName: |
+  &dSelecciona una misión
+
+guiPoolSelectName: |
+  &dSelecciona un grupo
+
+guiCoopName: |
+  &a{quest}
+
+guiDivergeGUIName: |
+  &dSelecciona una opción
+
+# -------------------- Integration --------------------
+
+integrationDynmapMarkerSetName: Misiones
+integrationHolographicDisplaysActivatorHologramStatusCount: '&a{count}'
+integrationHolographicDisplaysActivatorHologramNoStatusCount: '&c0'
+integrationHolographicDisplaysActivatorHologramStatusList: '&a{list}'
+integrationHolographicDisplaysActivatorHologramStatusListSeparator: '&7, &a'
+integrationHolographicDisplaysActivatorHologramNoStatusList: '&cnada'
+
+# -------------------- Scoreboard --------------------
+
+messageScoreboardScrollingStart: >
+  &aHas activado la navegación por tu scoreboard. Usa el click izquierdo para subir y el click derecho para bajar. Escribe el mismo chat para salir.
+
+messageScoreboardScrollingStop: >
+  &7Has desactivado la navegación por tu scoreboard.
+
+messageScoreboardScrollingReachedTop: >
+  &7Has alcanzado la altura máxima del scoreboard.
+
+messageScoreboardScrollingReachedBottom: >
+  &7Has alcanzado la altura mínima del scoreboard.

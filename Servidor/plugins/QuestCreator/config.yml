@@ -1,0 +1,387 @@
+# ----------------------------------------------------------------------------------------------------
+# Configuration file for QuestCreator
+# More information can be found in the documentation
+# ----------------------------------------------------------------------------------------------------
+
+# --------------------------------------------------
+# Data
+# --------------------------------------------------
+
+# Data back-end (NONE, JSON, SQLITE or MYSQL ; default is JSON if not specified)
+# The MySQL identifiers are located in GCore's config
+data_backend:
+  questcreator_quests_v6: JSON
+  questcreator_users_v6: JSON
+  questcreator_local_player_blocks: SQLITE
+  questcreator_local_player_furnaces: SQLITE
+
+# Log settings (errors will be shown in console no matter what)
+log:
+  # Main logger
+  main:
+    console: true
+    file: true
+  # Data loggers
+  data:
+    questcreator_quests_v6:
+      console: false
+      file: false
+    questcreator_users_v6:
+      console: false
+      file: false
+    questcreator_local:
+      console: false
+      file: false
+
+# --------------------------------------------------
+# Commands
+# --------------------------------------------------
+
+# Aliases
+commands_aliases:
+  actionbar: [actionbar,abar]
+  bossbar: [bossbar,bbar]
+  complete: [complete,setcompleted]
+  completebranch: [completebranch]
+  coop: [coop]
+  edit: [edit,e]
+  goto: [goto]
+  gps: [gps]
+  increaseprogress: [increaseprogress,incprog]
+  journal: [journal]
+  list: [list]
+  logspam: [logspam]
+  menu: [menu,gui]
+  modelvariable: [mvariable,mvar]
+  performglobalbranch: [rungbranch,performglobalbranch]
+  performglobalobject: [rungobject,performglobalbranch]
+  points: [points]
+  progress: [progress,prog]
+  queue: [queue]
+  reload: [reload,rl]
+  reset: [reset,clean]
+  resetpool: [resetpool,resetp]
+  scoreboard: [scoreboard,scb]
+  servervariable: [svariable,svar]
+  setpooltokens: [setpooltokens,setptok]
+  start: [start]
+  state: [state]
+  stop: [stop,cancel]
+  title: [title]
+  user: [user,stats]
+  variable: [variable,var]
+
+# --------------------------------------------------
+# Logging
+# --------------------------------------------------
+
+# Should each player have its own log file
+individual_player_logger: true
+
+# Should each quest have its own log file
+individual_quest_logger: true
+
+# Should actions from coop players in quests be logged in each individual player logger for everyone else in the quest
+log_coop_in_individual_player_logger: true
+
+# Global quest logger
+quests_logger_console: false
+quests_logger_file: false
+
+# Bungee logger (if bungee mode is enabled)
+bungee_logger_console: false
+bungee_logger_file: true
+
+# --------------------------------------------------
+# Miscalleneous
+# --------------------------------------------------
+
+# Update notification
+# If you turn this off, please make sure to visit the plugin page on spigot every once in a while ; some updates can be really important.
+update_notification: true
+
+# Allow concurrent event progression
+# If set to true, an event (for instance, the player breaking a block) might progress multiple quests
+concurrent_event_progression: true
+
+# Lock the player view in camera mode
+camera_mode_lock_view: true
+
+# Main GUI (opened with the base command)
+main_gui: 'main'
+
+# Maximum concurrent quests per player
+# You can add permissions on each line : {count},{permission}, or no permission
+max_concurrent_quests_per_player: |
+  10
+  15,questcreator.concurrent.15
+  20,questcreator.concurrent.20
+
+# Time limit reminder seconds (when the message will be sent)
+time_limit_reminder_seconds: [1,2,3,4,5,6,7,8,9,10,30,60,120,180,240,300,600,1800,3600,7200]
+
+# Unknown global variable result
+unknown_global_variable_result: '0'
+
+# Unknown server variable result
+unknown_server_variable_result: '0'
+
+# Remove completed objects from GROUP object detailed progression
+detailed_progression_no_group_completed: false
+
+# Default activator particle script
+default_activator_particle_script: loop_entity_hearts
+
+# Loop the actionbar progress notifier
+progress_notify_loop_actionbar: true
+
+# Loop the bossbar progress notifier
+progress_notify_loop_bossbar: true
+
+# Loop the title progress notifier
+progress_notify_loop_title: true
+
+# Display bossbars from quests (bossbar loop and progress_notify) in quests in different colors, relative to the current progression ?
+quest_progress_notify_bossbars_dynamic_enabled: true
+quest_progress_notify_bossbars_dynamic_colors:
+  - min: 0
+    max: 0.33
+    color: RED
+  - min: 0.33
+    max: 0.66
+    color: YELLOW
+  - min: 0.66
+    max: 1
+    color: GREEN
+
+# Default values for user settings
+default_user_settings:
+  JOURNAL: true
+  GPS: true
+  ACTIONBAR: true
+  BOSSBAR: true
+  TITLE: true
+  SCOREBOARD: true
+
+# Starting at what number of characters should the plugin start
+# cutting the objective name into multiple lines
+# It'll look for words instead of cutting instantly
+start_splitting_detailed_progression_name: 75
+
+# Disallowed object commands
+# Deny some commands to be performed from quest objects (matching start)
+disallowed_object_commands: |
+  restart
+  stop
+  shutdown
+  rl
+  reload
+  op
+  deop
+  kick
+  ban
+  tempban
+
+# Activators locations cache refresh time
+activators_locations_cache_refresh_time: 30 SECOND
+
+# Dynmap quest marker icon
+# Default icons list : https://github.com/webbukkit/dynmap/wiki/Using-markers
+# Default : exclamation
+dynmap_quest_marker_icon: 'exclamation'
+
+# Use mcMMO Overhaul ? (latest, premium version on spigot)
+#mcmmo_overhaul: false
+
+# Disabled integrations
+# Plugins in this list will not be hooked by QuestCreator
+disabled_integrations: []
+
+# --------------------------------------------------
+# Bungeecord
+# --------------------------------------------------
+
+# Enable bungeecord support
+# This setting facilitates data loading and (try to) prevent data bugs. This will only be taken into consideration if both quests and users boards are set to MYSQL.
+# !! BEWARE : this does not allow the progression of coop quests across server !!
+# What it does is the following : quest will try to follow the leader's server. This means :
+# - If the leader changes server, the quest will be unloaded and reloaded on the new server.
+# - If the leader completely disconnects, the quest might stay loaded on the latest server if (1) leader dispose on disconnect option is disabled and (2) there's at least one coop player there
+bungeecord: false
+
+# Data load for users and quests if bungeecord is enabled
+# The minimum recommended value for this is twice the highest ping time between any bungee server and your database
+bungeecord_data_load_delay_ticks: 50
+
+# Skip quest models that aren't present on the server when loading quests, instead of removing them from the data
+bungeecord_skip_unknown_models: true
+
+# --------------------------------------------------
+# Delays
+# --------------------------------------------------
+
+# How often should the quest pools be processed (in ticks)
+pools_process_task_ticks: 1200
+
+# How often should the quest auto-started (in ticks)
+quest_auto_start_task_ticks: 20
+
+# How often should the quest queue be checked (in ticks)
+quest_queue_start_task_ticks: 20
+
+# How often should the quests be checked (synchronously) (in ticks)
+# This should either 1 or a multiple of 2
+quest_timer_async_task_ticks: 1
+
+# How often should the quests be checked (synchronously) (in ticks)
+# This should either 1 or a multiple of 2
+quest_timer_sync_task_ticks: 20
+
+# How often should the camera mode be updated (in ticks)
+camera_mode_task_ticks: 20
+
+# Cancel quests after they haven't been active for this amount of minutes
+inactive_quest_cancel_minutes: -1
+
+# How often should the inactive quests be checked for cancellation (in ticks)
+inactive_quest_cancel_task_ticks: 1200
+
+# Remove data for offline players after they haven't connected for this amount of days
+# Beware that this is based on player's last connection on the spigot server (it doesn't check all bungee servers, meaning that data might be removed even if the player has connected somewhere else)
+# -1 to disable
+offline_player_data_removal_days: -1
+
+# How often should the data for offline players be checked for removal (in ticks)
+offline_player_data_removal_task_ticks: 1200
+
+# How long should player placed blocks be cached (remembered) (in minutes)
+# -1 to disable
+player_player_blocks_cache_removal_minutes: 10080
+
+# How often should the activators particles be calculated (in ticks)
+particles_update_recalculate_ticks: 50
+
+# How often should the activators particles be updated (in ticks)
+particles_update_task_ticks: 1
+
+# How often should the activator holograms be recalculated (in ticks)
+holograms_recalculate_ticks: 100
+
+# How often should the cached ranking GUIs be refreshed (in minutes)
+ranking_gui_refresh_task_minutes: 30
+
+# How often should the actionbar notifier loop be updated (in millis)
+progress_notify_actionbar_loop_millis: 2500
+
+# How often should the bossbar notifier loop be updated (in millis)
+progress_notify_bossbar_loop_millis: 2500
+
+# How often should the title notifier loop be updated (in millis)
+progress_notify_title_loop_millis: 2500
+
+# How often should the scoreboard be updated (in ticks)
+scoreboard_update_ticks: 20
+
+# How often should the GPS be updated (in ticks) (if present)
+gps_update_ticks: 20
+
+# Enable the GPS by default for objects
+gps_enable_default: true
+
+# How often should the quest items be updated in an opened GUI (in seconds)
+gui_item_refresh_seconds_quest: 30
+
+# How often should the cooldown quest items be updated in an opened GUI (in seconds)
+gui_item_refresh_seconds_quest_cooldown: 1
+
+# --------------------------------------------------
+# Scoreboard
+# --------------------------------------------------
+
+# Mode (modes : NONE, ONE_QUEST, MULTIPLE_QUESTS, MULTIPLE_QUESTS_SCROLLABLE)
+scoreboard_mode: NONE
+
+# Scrolllable scoreboard settings (if mode is scrollable)
+# The player will have to type the configured trigger message to start scrolling
+# Then, he can go up by left-clicking in air, and go down by right-clicking in air
+# Once he's done, he can re-type the trigger to stop selecting
+scoreboard_scroll_chat: 'scb'
+scoreboard_scroll_lines: 1
+
+# Should the scoreboard stop if there's nothing to display, instead of displaying the 'no content' text ?
+stop_scoreboard_if_no_content: false
+
+# --------------------------------------------------
+# Quest journal
+# --------------------------------------------------
+
+# Hotbar journal slot
+hotbar_journal_slot: -1
+
+# Journal item
+journal_author: 'QuestCreator'
+journal_title: 'Quest journal'
+journal_name: '&aQuest journal'
+journal_lore: []
+
+# --------------------------------------------------
+# GUI
+# --------------------------------------------------
+
+# Click types
+gui_click_type_info: LEFT
+gui_click_type_start: RIGHT
+gui_click_type_start_coop: SHIFT_RIGHT
+gui_click_type_stop: RIGHT
+gui_click_type_leave: RIGHT
+
+# Click types specific to the physical activators
+physical_activator_gui_click_type_info: LEFT
+physical_activator_gui_click_type_start: RIGHT
+physical_activator_gui_click_type_start_coop: SHIFT_RIGHT
+physical_activator_gui_click_type_stop: RIGHT
+physical_activator_gui_click_type_leave: RIGHT
+
+# Close GUI after starting a quest ?
+gui_close_start_quest: false
+physical_activator_gui_close_start_quest: false
+
+# Confirm GUI
+confirm_gui:
+  on_stop_quest: true
+  on_leave_coop_quest: true
+  on_start_quest: true
+  on_start_coop_quest: true
+  on_start_quest_after_activator_dialog: true
+
+# Queue item
+queue_item_none:
+  type: PAPER
+  name: '&7Quest queue'
+  lore: |
+    &7You're not in a quest queue
+
+queue_item_active:
+  type: WOODEN_SWORD
+  name: '&6Quest queue'
+  lore: |
+    &7Queuing for : &e{quest}
+    &7Players : &e{players}
+    &r
+    &7Position : &e{position}&7/&e{max}
+    &r
+    &dRight-click to cancel
+
+queue_item_active_error:
+  type: WOODEN_SWORD
+  name: '&cQuest queue (error!)'
+  lore: |
+    &7Queuing for : &e{quest}
+    &7Players : &e{players}
+    &r
+    &7Position : &e{position}&7/&e{max}
+    &r
+    &cMake sure to fix this problem before reaching position 1 :
+    &c{error}
+    &r
+    &dRight-click to cancel

@@ -1,0 +1,29 @@
+# ----------------------------------------------------------------------------------------------------
+# Configuration file for QuestCreator
+# More information can be found in the documentation
+# ----------------------------------------------------------------------------------------------------
+
+name: '&dQuestCreator'
+
+type: CHEST_3_ROW
+
+contents:
+
+  - locations: [0,1,2,3,4,5,6,7,8,9,17,18,19,20,21,22,23,24,25,26]
+    persistent: true
+    icon:
+      type: GRAY_STAINED_GLASS_PANE
+      name: &r
+
+  - locations: 12
+    type: QC_GUI_ACTIVE_QUESTS
+    icon:
+      type: DIAMOND_PICKAXE
+      name: &aActive quests
+
+  - locations: 14
+    type: QC_GUI_POINTS_RANKING
+    category: global
+    icon:
+      type: NETHER_STAR
+      name: &aRanking

@@ -1,0 +1,124 @@
+# -------------------- Display settings --------------------
+
+display_name: Arne
+description: ['Completa las Misiones de Halloween para liberar a OrioLand.']
+
+start_notify:
+  title: '&6Misión Empezada, ten cuidado soldado.'
+  title_subtitle: '&7Has empezado la misión {quest} &7!'
+  sound: ENTITY_PLAYER_LEVELUP
+
+progress_notify:
+  actionbar: '&a{quest} &7| {objective}'
+progress_notify_scoreboard: true
+
+all_status_item:
+  type: STONE
+  name: '&6{quest}'
+  lore: |
+    &7{description}
+    {completions}
+    {last_completion}
+    {cooldown}
+    {detailed_progression}
+    {detailed_errors}
+    {controls}
+
+# -------------------- Post-quest settings --------------------
+
+completion:
+  max_completions: 20
+  notify:
+    SUCCESS:
+      title: '&dMisión Completada'
+      title_subtitle: '&7Has completado la misión &a{quest} &7!'
+      sound: ENTITY_PLAYER_LEVELUP
+    FAIL:
+      title: '&cMisión Perdida'
+      title_subtitle: '&7Has perdido la misión &c{quest} &7!'
+      sound: BLOCK_ANVIL_DESTROY
+    CANCEL:
+      title: '&cMisión Cancelada'
+      title_subtitle: '&7Has cancelado la misión &c{quest}'
+      sound: BLOCK_ANVIL_DESTROY
+
+cooldown:
+  duration: 10 HOUR
+  end_types: [SUCCESS]
+
+# -------------------- Activator settings --------------------
+
+activators: [Halloween]
+
+activators_dialog:
+  - '&#df00fbA&#bd00d8r&#9c01b6n&#7a0193e &7>> Porfavor no me ataquéis!.'
+  - '&#df00fbA&#bd00d8r&#9c01b6n&#7a0193e &7>> Se que soy un vampiro pero necesito que confiéis en mi, e-es importante, podría decidir el destino de este mundo!.'
+  - ''  # empty line so the player needs to click again for the GUI to open
+
+activators_dialog_auto_start_distance: 3.5
+
+activators_dialog_reset:
+  reset_delay: 30 SECOND
+  reset_distance: 5.0
+  reset_notify:
+    message: '&6[Farmer] &7Okay then, rude D:'
+
+# -------------------- Quest content --------------------
+
+branches:
+
+  MAIN:
+    starts_at: DELIVER
+    objects:
+
+      # ----- Main object : the farm object. The player will have to interact with the NPC holding 64 wheat in their hand.
+
+      DELIVER:
+        start_notify:
+          message: '&6[Farmer] &7Wonderful ! So, I need you to bring me 64 wheat. I''ll be waiting for you then.'
+        # display
+        name_short: Deliver 64 wheat to the farmer
+        objective_detail: '&7Deliver wheat : &b{objective_progression}&7/&b{objective_goal}'
+        # npc deliver settings
+        type: PLAYER_CITIZENS_NPC_INTERACT
+        npc: 0
+        items_needed:
+          items:
+            - item:
+                type: WHEAT
+              goal: 64
+              check: SameBase
+          in_hand: true
+          take: true
+          error_message: '&6[Farmer] &7So, how''s your search for my wheat going ? Remember, I need 64 of it.'
+        # post-object
+        complete_notify:
+          sound: ENTITY_PLAYER_LEVELUP
+          message: '&6[Farmer] &7That''s so amazing ! Thanks a lot. Here''s a $150 reward :D'
+        goto: QUEST_SUCCESS
+
+# -------------------- Rewards settings --------------------
+
+end_objects:
+  SUCCESS:
+    - type: SERVER_LOGIC_MONEY
+      currency: VAULT
+      value_formula: {value} + 150.0  # takes the current money amount and add 150$
+    - type: SERVER_FIREWORKS_LAUNCH
+      effects:
+        1:
+          type: CREEPER
+          colors: |
+            AQUA
+            BLUE
+          fade_colors: |
+            AQUA
+            BLUE
+          flicker: true
+          trail: true
+      count: 1
+      position:
+        type: PLAYER_RELATIVE_SINGLE
+        location:
+          distance: 3.0
+          vertical_offset: 1.0

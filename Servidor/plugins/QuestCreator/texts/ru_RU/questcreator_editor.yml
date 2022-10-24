@@ -1,0 +1,1597 @@
+# -------------------- Editor --------------------
+
+editorMainTitle: QuestCreator
+editorActivatorsTitle: Квест-активаторы
+editorActivatorsIconName: |
+  &aКвест-активаторы
+
+editorGlobalBranchesTitle: Глобальные ветви
+editorGlobalBranchesIconName: |
+  &aГлобальные ветви
+
+editorGlobalConditionsTitle: Глобальные условия
+editorGlobalConditionsIconName: |
+  &aГлобальные условия
+
+editorGlobalGUIItemsTitle: Глобальные предметы графических интерфейсов
+editorGlobalGUIItemsIconName: |
+  &aГлобальные предметы графических интерфейсов
+
+editorGlobalObjectsTitle: Глобальные задачи
+editorGlobalObjectsIconName: |
+  &aГлобальные задачи
+
+editorGlobalTimeFramesTitle: Глобальные временные промежутки
+editorGlobalTimeFramesIconName: |
+  &aГлобальные временные промежутки
+
+editorGlobalStatesTitle: Состояния
+editorGlobalStatesIconName: |
+  &aСостояния
+
+editorGlobalVariablesTitle: Глобальные переменные
+editorGlobalVariablesIconName: |
+  &aГлобальные переменные
+
+editorGlobalVariableElementLore: |
+  &7
+  {current}
+  &7
+  &7Вы можете использовать плейсхолдеры для данной величины
+  &dЛевый клик, чтобы изменить
+  &dШифт + правый клик, чтобы удалить
+
+editorGroupsTitle: Квест-группы
+editorGroupsIconName: |
+  &aКвест-группы
+
+editorGUIsTitle: Графические интерфейсы
+editorGUIsIconName: |
+  &aГрафические интерфейсы
+
+editorModelsTitle: Квест-шаблоны
+editorModelsIconName: |
+  &aКвест-шаблоны
+
+editorPoolsTitle: Квест-пулы
+editorPoolsIconName: |
+  &aКвест-пулы
+
+elementGlobalObject: |
+  &7Локальный переход : {goto}
+  &dШифт + правый клик, чтобы изменить локальный переход
+
+elementBasicShopkeeperSelect: |
+  &dШифт + правый клик, для быстрого выбора
+
+messageElementBasicImportShopkeeper: |
+  &7Взаимодействуйте с новым торговцем для импорта или введите &c{cancel} &7в чате для отмены.
+
+# -------------------- Quest model --------------------
+
+descriptionModelDisplayName: |
+  &7Отображаемое название этого квеста
+
+descriptionModelDescription: |
+  &7Описание этого квеста
+
+descriptionModelDescriptionPlaceholder: |
+  &7Дополнительное описание, получаемое с помощью плейсхолдеров
+
+descriptionModelInformationMessage: |
+  &7Информационное сообщение этого квеста
+
+descriptionModelStartNotify: |
+  &7Отослать уведомление при начале этого квеста
+
+descriptionModelProgressNotify: |
+  &7Отослать напоминание с текущим прогрессом
+
+descriptionModelProgressNotifyScoreboard: |
+  &7Отобразить текущий прогресс в scoreboard
+
+descriptionModelDisplayPriority: |
+  &7Шаблоны с установленным приоритетом отображения будут отображены (scoreboard/title/actionbar/...) следуя сначала данному приоритету, или дате последнего обновления, если их приоритет одинаков
+  &7Шаблоны с приоритетом будут отображены до шаблонов без установленного приоритета
+
+descriptionModelDynmapMarker: |
+  &7Отобразить dynmap-маркер для этого квеста
+
+descriptionModelAllStatusItem: |
+  &7Добавить элемент графического меню, одинаковый для каждого состояния этого квеста
+
+descriptionModelStatusItems: |
+  &7Добавить внешний вид элемента графического меню для состояний этого квеста
+  &7Если у состояния нет элемента, плагин откатится на &6all_status_item
+
+descriptionModelPermissionStartRestriction: |
+  &7Ограничить начало этого квеста разрешением(permission)
+
+descriptionModelPermissionStartCommandRestriction: |
+  &7Ограничить начало этого квеста через команду с разрешением(permission)
+
+descriptionModelConditionsStartRestriction: |
+  &7Ограничить начало этого квеста условиями
+
+descriptionModelWorldRestriction: |
+  &7Ограничить этот квест мирами
+
+descriptionModelCommandRestriction: |
+  &7Ограничить использование команд, пока этот квест активен
+
+descriptionModelCooldown: |
+  &7Установить кулдаун на квест по его окончании
+
+descriptionModelTimeLimit: |
+  &7Установить ограничения по времени на этот квест
+
+descriptionModelTimeLimitFailGoto: |
+  &7Перейти к вызову по окончании временного ограничения
+
+descriptionModelSaving: |
+  &7Тип сохранения для этого квеста
+
+descriptionModelCompletion: |
+  &7Настройки завершения данного квеста
+
+descriptionModelMaxConcurrentInstances: |
+  &7Максимум одновременно запущенных экземпляров этого квеста
+
+descriptionModelMaxConcurrentInstancesQueue: |
+  &7Добавить игроков в очередь на этот квест, если запущено слишком много экземпляров этого квеста
+
+descriptionModelModelVariables: |
+  &7Величины по умолчанию для переменных этого шаблона
+  &7Каждый квест, когда активен, обладает своими собственными переменными, вне зависимости от игроков, и эти переменные удаляются по завершении квеста
+
+descriptionModelMinPlayers: |
+  &7Минимальное количество игроков (включая главу)
+
+descriptionModelMaxPlayers: |
+  &Максимальное количество игроков (включая главу)
+
+descriptionModelMinActivePlayers: |
+  &7Минимальное количество активных игроков (когда квест запущен)
+  &7Если хотите, разрешить кооп-игрокам покинуть квест, когда он запущен, это число должно быть меньше, чем максимум игроков
+
+descriptionModelAllowLeaderStop: |
+  &7Позволить главе квеста остановить квест
+
+descriptionModelDisposeOnLeaderDisconnect: |
+  &7Поставить паузу и сохранить квест при отключении главы
+  &7Отключение этого позволит игрокам продолжить квест, когда лидер оффлайн
+  &7Крайне нерекомендовано, если ваш квест содержит переменные, т.к. переменные - это переменные главы, которые не загружены в оффлайне
+
+descriptionModelOnlyLeaderParsing: |
+  &7Позволить только использование главы для парсинга настроек
+  &7Отключение этого позволит использование кооп-игроков для парсинга настроек, когда глава оффлайн
+
+descriptionModelNotifyCoopPlayerLeave: |
+  &7Уведомить других игроков, когда кооп-игрок вышел
+
+descriptionModelActivators: |
+  &7Активаторы этого квеста
+
+descriptionModelActivatorsDialog: |
+  &7Добавить определённый диалог с активатором до начала квеста (только работает с физическими активаторами : блоки/нипы/...)
+  &7Игроку придётся кликнуть по активатору, чтобы получить эти сообщения
+  &7Когда он достигнет последнего сообщения, появится графический интерфейс для подтверждения начала квеста (или начнётся напрямую, если эта настройка отключена в конфиге)
+  &7Это не работает, если к активатору подключен кастомный графический интерфейс или если имеется достаточно квестов для открытия квестового графического меню квестов активатора
+
+descriptionModelActivatorsDialogReset: |
+  &7Настройки сброса диалога
+
+descriptionModelBranches: |
+  &7Ветви этого квеста
+
+descriptionModelEndObjects: |
+  &7Исполнить задачи по завершении квеста
+
+descriptionModelEndObjectsForOfflinePlayers: |
+  &7Исполнить задачи по окончании квеста для игроков, которые в оффлайне по завершении квеста
+  &7Они будут исполнены, когда игрок присоединится позднее
+
+descriptionModelFunctionalAutoStart: |
+  &7Автоматически начать этот функциональный квест
+
+# -------------------- Quest cooldown --------------------
+
+descriptionQuestCooldownDuration: |
+  &7Длительность этого кулдауна
+
+descriptionQuestCooldownEndTypes: |
+  &7Применить этот кулдаун только к некоторым типам окончания квеста
+
+descriptionQuestCooldownApplyActorRestriction: |
+  &7Применить кулдаун только к некоторым игрокам
+
+# -------------------- Quest completion --------------------
+
+descriptionQuestCompletionMaxCompletions: |
+  &7Ограничить максимальное количество завершений этого квеста
+
+descriptionQuestCompletionApplyActorRestriction: |
+  &7Увеличить число завершений только для некоторых игроков
+
+descriptionQuestCompletionNotify: |
+  &7Уведомить игрока об окончании этого квеста
+
+descriptionQuestCompletionNotifyCoop: |
+  &7Уведомить кооп-игроков (если присутствуют) об окончании этого квеста
+  &7Если это уточнено, кооп-игроки не получат обычного уведомления о завершении
+
+# -------------------- Dialog --------------------
+
+descriptionDialogAutoStartDistance: |
+  &7Автоматически отправить первую строку диалога, если игрок в пределах определённой дистанции
+
+descriptionDialogResetDelay: |
+  &7Перезапустить диалог сначала, если игрок не кликнул за определённое время
+
+descriptionDialogResetDistance: |
+  &7Перезапустить диалог сначала, если игрок отходит слишком далеко
+
+descriptionDialogResetNotify: |
+  &7Уведомить игрока о перезапуске диалога
+
+descriptionDialogResetGoto: |
+  &7Выполнить определённый переход, когда диалог перезапускается
+
+# -------------------- Quest object --------------------
+
+descriptionQuestObjectType: |
+  &7Тип этой задачи
+
+descriptionQuestObjectNameLong: |
+  &7Длинное название для детального описания этой задачи
+  &7К примеру : 'Сломай 10 блоков камня вокруг спавна'
+
+descriptionQuestObjectNameShort: |
+  &7Короткое название для краткого описания этой задачи
+  &7К примеру : 'Сломай камень вокруг спавна'
+
+descriptionQuestObjectObjectiveDetail: |
+  &7Кастомная величина для плейсхолдера {objective} этой задачи
+
+descriptionQuestObjectObjectiveDetailVerbose: |
+  &7Кастомная величина для плейсхолдера задачи с графическим интерфейсом этой задачи
+
+descriptionQuestObjectForceDisplayDetail: |
+  &7Если деталь для прохождения квестовой задачи (<current>/<goal>) должна быть отражена даже если цель(goal) = 1.
+
+descriptionQuestObjectStartNotify: |
+  &7Уведомить игрока, что эта задача начата
+
+descriptionQuestObjectCompleteNotify: |
+  &7Уведомить игрока, что эта задача завершена
+
+descriptionQuestObjectCompleteNotifyParticleScript: |
+  &7Проиграть скрипт частиц, когда эта задача завершена (требует настройки &6позиции&7)
+
+descriptionQuestObjectProgressNotify: |
+  &7Уведомить игрока, когда он продвигается по задаче
+
+descriptionQuestObjectUpdateNotify: |
+  &7Уведомить игрока, если не произошло продвижения по задаче в течение определённого времени
+
+descriptionQuestObjectUpdateNotifyParticleScript: |
+  &7Проиграть скрипт частиц, если не произошло продвижения по задаче в течение определённого времени (требует настройки &6позиции&7)
+
+descriptionQuestObjectUpdateNotifyParticleScriptPosition: |
+  &7Позиция для отображения &6update_notify_particle_script &7на
+  &7Иначе, &7настройка &6позиции задачи будет использована, если представлена
+
+descriptionQuestObjectUpdateNotifyDelay: |
+  &7Задержка для &6update_notify
+
+descriptionQuestObjectExecutionChance: |
+  &7Начать задачу только с определённым процентом шанса или прямым вызовом, переходом
+
+descriptionQuestObjectExecutionChanceFailGoto: |
+  &7Выполнить определённый переход, если шанс продвижения провален
+  &7Если это отсутствует, но шанс всё ещё проваливается, обычный переход будет выполнен
+
+descriptionQuestObjectWaitTime: |
+  &7Ожидать определённое количество времени до начала квеста
+
+descriptionQuestObjectTimeLimit: |
+  &7Если задача должна быть завершена за определённое время
+
+descriptionQuestObjectCheckpoint: |
+  &7Сохранить чекпоинт при начале этой задачи
+
+descriptionQuestObjectHideChat: |
+  &7Скрыть чат, когда эта задача активна
+
+descriptionQuestObjectHidePlayers: |
+  &7Скрыть других игроков (и себя), когда эта задача активна
+
+descriptionQuestObjectProgressActorRestriction: |
+  &7Огранить продвижение этой задачи определённым игрокам
+
+descriptionQuestObjectProgressConditions: |
+  &7Условия, требуемые для продвижения по квесту
+
+descriptionQuestObjectProgressConditionsFailGoto: |
+  &7Переход к вызову, когда условия прогресса не совпадают
+
+descriptionQuestObjectProgressChance: |
+  &7Продвинуть задачу только с определённым процентом шанса или отсутствия продвижения задачи
+  &7Это проверяется после того, как всё остальное совпадёт (к примеру, поломка верного блока в верной локации)
+
+descriptionQuestObjectProgressChanceFailGoto: |
+  &7Выполнить определённый переход, если шанс продвижения провалится
+
+descriptionQuestObjectPositionFailGoto: |
+  &7Выполнить определённый переход, когда позиция задачи не учтена
+
+descriptionQuestObjectNoMatchFailGoto: |
+  &7Выполнить определённый переход, когда верное событие задействовано игроком, но не найдено совпадение (к примеру, если он сломал блок, но не тот)
+
+descriptionQuestObjectWaitAfterMatchFail: |
+  &7Ожидать определённое время до попытки перепроверки на совпадение (настройки задачи, условия прогресса, требуемые предметы, ...) для предотвращения спама
+
+descriptionQuestObjectGPS: |
+  &7GPS настройки для этой задачи
+
+descriptionQuestObjectGoto: |
+  &7Активировать другой элемент (задачи, ветви, ...) по завершении данной задачи
+
+descriptionQuestObjectGotoStartBranches: |
+  &7Начать другие ветви по завершении данной задачи
+  &7Это исполняется после вызова перехода этой задачи
+
+descriptionQuestObjectGotoStartIndividualBranches: |
+  &7Начать другие индивидуальные ветви по завершении этой задачи
+  &7Это исполняется после вызова перехода этой задачи
+
+descriptionQuestObjectGotoStopBranches: |
+  &7Остановить другие ветви после завершения этой задачи
+  &7Это исполняется после вызова перехода этой задачи
+
+descriptionQuestObjectJournalEntry: |
+  &7Добавить вхождение в журнал игрока по завершении им этой задачи
+  &7Это пересчитывается каждый раз, когда квест-журнал выдаётся игроку, в зависимости от его квест-истории
+
+descriptionQuestObjectJournalEntryTitle: |
+  &7Заголовок этого вхождения
+
+descriptionQuestObjectJournalEntryDetail: |
+  &7Содержимое этого вхождения
+
+descriptionQuestObjectJournalEntryEndTypes: |
+  &7Отобразить это вхождение только для некоторых типов окончания квеста
+
+descriptionQuestObjectPosition: |
+  &7Позиция, с которой продвигать задачу
+  &7Это то, где действие будет совершено, если это выполняется сервером или где игрок должен совершить действие, если это выполняется игроком
+
+descriptionQuestObjectPositionStay: |
+  &7Заставить игрока оставаться в сконфигурированной позиции
+
+descriptionQuestObjectPositionStayWarningDelay: |
+  &7Если игрок покидает сконфигурированную позицию, через это время им придётся вернуться
+
+descriptionQuestObjectPositionStayWarningNotify: |
+  &7Отсылается, когда игрок вышел из сконфигурированной позиции
+
+descriptionQuestObjectPositionStayFailGoto: |
+  &7Выполняется, когда игрок был вне сконфигурированной позиции дольше, чем время, через которое должен вернуться
+
+descriptionQuestObjectItemsNeeded: |
+  &7Требовать от игроков наличия определённых предметов для продвижения по задаче
+
+descriptionQuestObjectItemsNeededFailGoto: |
+  &7Выполнить определённый переход, когда нужные предметы не учтены
+
+# -------------------- Quest object : event --------------------
+
+descriptionQuestObjectMatchFailCancelEvent: |
+  &7Отменить событие (если поддерживает), когда верное событие задействовано игроком, но не найдено совпадение (к примеру, если он сломал блок, но не тот)
+
+descriptionQuestObjectProgressChanceFailCancelEvent: |
+  &7Отменить событие (если поддерживает), когда шанс прогресса провален
+
+descriptionQuestObjectProgressConditionsFailCancelEvent: |
+  &7Отменить событие (если поддерживает), когда условия прогресса провалены
+
+descriptionQuestObjectProgressCancelEvent: |
+  &7Отменить событие (если поддерживает), когда задача продвигается
+
+# -------------------- Quest object : types --------------------
+
+descriptionObjectTypeGenericGoal: |
+  &7Цель этой задачи
+  &7В большинстве случаев, это будет количеством раз, которое игрок должен повторить действие, совпадающее с параметрами задачи
+  &7Может отличаться для некоторых определённых задач
+
+descriptionObjectTypeGenericBlockObjectives: |
+  &7Задачи блоков для этой задачи
+  &7Вы можете установить несколько задач с несколькими допустимыми типами/состояниями/... блоков и с различными целями
+
+descriptionObjectTypeGenericBlockObjectiveTypes: |
+  &7Допустимые типы блоков
+  &7Оставьте пустым, чтобы разрешить все блоки
+
+descriptionObjectTypeGenericBlockObjectiveStates: |
+  &7Требуемые состояния блоков
+
+descriptionObjectTypeGenericBlockObjectiveGoal: |
+  &7Цель этой задачи с блоками
+
+descriptionObjectTypeGenericEntityObjectives: |
+  &7Задачи сущностей для этой задачи
+  &7Вы можете указать несколькоо задач с несколькими допустимыми типами/названиями/... сущностей и разными целями
+
+descriptionObjectTypeGenericEntityObjectiveTypes: |
+  &7Допустимые типы сущностей
+  &7Оставьте пустым, чтобы разрешить либой тип
+
+descriptionObjectTypeGenericEntityObjectiveNames: |
+  &7Допустимые названия сущностей
+  &7Оставьте пустым, чтобы разрешить любое название (или без названия)
+
+descriptionObjectTypeGenericEntityObjectiveColors: |
+  &7Допустимые цвета сущностей (для окрашиваемых сущностей)
+  &7Оставьте пустым, чтобы разрешить любой цвет
+
+descriptionObjectTypeGenericEntityObjectiveHorseColors: |
+  &7Цвета лошадей, которые разрешены
+  &7Оставьте пустым, чтобы разрешить любой цвет
+
+descriptionObjectTypeGenericEntityObjectiveHorseStyles: |
+  &7Стили лошадей, которые разрешены
+  &7Оставьте пустым, чтобы разрешить любой цвет
+
+descriptionObjectTypeGenericEntityObjectiveGoal: |
+  &7Цель для этой задачи сущности
+
+descriptionObjectTypeGenericEntityAllowSpawnerEntities: |
+  &7Позволить сущностям из спавнеров продвигать эту задачу
+
+descriptionObjectTypeGenericEntityAllowSpawnerEntitiesErrorMessage: |
+  &7Если &6allow_spawner_entities &7установлен на false, но игрок все-равно пытается
+
+descriptionObjectTypeGenericItemObjectives: |
+  &7Задачи предметов для данной задачи
+  &7Вы можете установить несколько задач с несколькими допустимыми типами/состояниями/... предметов и с разными целями
+
+descriptionObjectTypeGenericItemObjectiveItem: |
+  &7Предмет, который допустим
+  &7Оставьте пустым, чтобы разрешить любой предмет
+
+descriptionObjectTypeGenericItemObjectiveCheck: |
+  &7Проверка для совершения
+
+descriptionObjectTypeGenericItemObjectiveGoal: |
+  &7Цель для этой предметной задачи
+
+descriptionObjectTypeGenericItemObjectiveTake: |
+  &7Взять предметы после
+
+descriptionObjectTypeConditionsSwitchCases: |
+  &7Случаи переключения
+
+descriptionObjectTypeConditionsSwitchElementConditions: |
+  &7Условия, которые должны совпадать
+
+descriptionObjectTypeConditionsSwitchElementGoto: |
+  &7Переход, который применить, если условия этого элемента верны
+
+descriptionObjectTypeDivergeChatChoices: |
+  &7Доступные выборы этой задачи
+
+descriptionObjectTypeDivergeChatRepeatDelay: |
+  &7Переслать выборы в чат через некоторое время, если ничего не выбрано
+
+descriptionObjectTypeDivergeGUIChoices: |
+  &7Доступные выборы этой задачи
+
+descriptionObjectTypeDivergeGUIReopenDelay: |
+  &7Переоткрыть графический интерфейс через некоторое время, если ничего не было выбрано
+
+descriptionObjectTypeDivergeChoicesChoices: |
+  &7Допустимые выборы для этой задачи
+
+descriptionObjectTypeGroupObjects: |
+  &7Задачи этой группы
+
+descriptionObjectTypeGroupOrderedObjects: |
+  &7Заставить задачи завершаться по порядку
+
+descriptionObjectTypeGroupRequiredObjects: |
+  &7Количество задач, которые нужно завершить
+
+descriptionObjectTypeRandomGotos: |
+  &7Выборы, среди которых рандомно выбрать
+
+descriptionObjectTypeRandomGotosAvoidRepeatEndTypes: |
+  &7Типы окончаний, которые брать в рассмотрение при проверки на повторения
+
+descriptionObjectTypeLogicSwitchCases: |
+  &7Случаи переключения
+
+descriptionObjectTypeLogicSwitchElementGoto: |
+  &7Переход для применения, если логика этого элемента верна
+
+# -------------------- Quest object : types (player) --------------------
+
+descriptionObjectTypePlayerAchievementAwardAchievementType: |
+  &7Тип достижения, которое наградить
+
+descriptionObjectTypePlayerChatWhitelist: |
+  &7Только принимать сообщения в этом списке
+
+descriptionObjectTypePlayerChatBlacklist: |
+  &7Отклонять сообщения, содержащие элементы этого списка
+
+descriptionObjectTypePlayerChatRegex: |
+  &7Только принимать сообщения, совпадающие с этим регистром
+
+descriptionObjectTypePlayerChatMinLength: |
+  &7Минимальная длина сообщения
+
+descriptionObjectTypePlayerChatMaxLength: |
+  &7Максимальная длина сообщения
+
+descriptionObjectTypePlayerChatErrorMessage: |
+  &7Сообщение, отсылаемое игроку, если он введёт неподходящую величину
+
+descriptionObjectTypePlayerChatStoreInVariable: |
+  &7Сохранить сообщение из чата в переменной
+
+descriptionObjectTypePlayerWaitGoal: |
+  &7Количество времени, конорое нужно ждать
+
+# -------------------- Quest object : types (player blocks) --------------------
+
+descriptionObjectTypePlayerBlocksBreakAllowPlayerBlocks: |
+  &7Разрешить блоки, размещённые кем-либо (включая игроков)
+
+descriptionObjectTypePlayerBlocksBreakAllowPlayerBlocksErrorMessage: |
+  &7Если &6allow_player_blocks &7установлен на false, но игрок все-равно пытается
+
+descriptionObjectTypePlayerBlocksIgniteAllowPlayerBlocks: |
+  &7Разрешить блоки, которые уже были подожжёнными кем-либо (включая игроков)
+
+descriptionObjectTypePlayerBlocksIgniteAllowPlayerBlocksErrorMessage: |
+  &7Если &6allow_player_blocks &7установлен на false, но игрок все-равно пытается
+
+descriptionObjectTypePlayerBlocksInteractClickType: |
+  &7Принимать только определённый тип клика
+
+descriptionObjectTypePlayerBlocksInteractAllowPlayerBlocks: |
+  &7Разрешить блоки, размещённые кем-либо (включая игроков)
+
+descriptionObjectTypePlayerBlocksInteractAllowPlayerBlocksErrorMessage: |
+  &7Если &6allow_player_blocks &7установлен на false, но игрок все-равно пытается
+
+descriptionObjectTypePlayerBlocksInteractAllowSameBlocks: |
+  &7Разрешить кликать несколько раз на одни и те же блоки
+
+descriptionObjectTypePlayerBlocksInteractAllowSameBlocksErrorMessage: |
+  &7Если &6allow_player_blocks &7установлен на false, но игрок все-равно пытается
+
+descriptionObjectTypePlayerBlocksStripAllowPlayerBlocks: |
+  &7Разрешить снимать кору с блоков, размещённых кем-либо (включая игроков)
+
+descriptionObjectTypePlayerBlocksStripAllowPlayerBlocksErrorMessage: |
+  &7Если &6allow_player_blocks &7установлен на false, но игрок все-равно пытается
+
+descriptionObjectTypePlayerTreeGrowTreeType: |
+  &7Принимать только определённый тип дерева
+
+# -------------------- Quest object : types (player entities) --------------------
+
+descriptionObjectTypePlayerEntitiesCatchAllowSameEntities: |
+  &7Позволить ловить одни и те же сущности несколько раз
+
+descriptionObjectTypePlayerEntitiesCatchAllowSameEntitiesErrorMessage: |
+  &7Если &6allow_same_entities &7установлен на false, но игрок все-равно пытается
+
+descriptionObjectTypePlayerEntitiesDamageAllowSameEntities: |
+  &7Позволить повреждать одни и те же сущности несколько раз
+
+descriptionObjectTypePlayerEntitiesDamageAllowSameEntitiesErrorMessage: |
+  &7Если &6allow_same_entities &7установлен на false, но игрок все-равно пытается
+
+descriptionObjectTypePlayerEntitiesDismountAllowSameEntities: |
+  &7Позволить спешиться с одних и тех же сущностей несколько раз
+
+descriptionObjectTypePlayerEntitiesDismountAllowSameEntitiesErrorMessage: |
+  &7Если &6allow_same_entities &7установлен на false, но игрок все-равно пытается
+
+descriptionObjectTypePlayerEntitiesGetDamagedAllowSameEntities: |
+  &7Позволить игроку получать урон от одной и той же сущности несколько раз
+
+descriptionObjectTypePlayerEntitiesGetDamagedAllowSameEntitiesErrorMessage: |
+  &7Если &6allow_same_entities &7установлен на false, но игрок все-равно пытается
+
+descriptionObjectTypePlayerEntitiesInteractAllowSameEntities: |
+  &7Позволить кликать на одни и те же сущности несколько раз
+
+descriptionObjectTypePlayerEntitiesInteractAllowSameEntitiesErrorMessage: |
+  &7Если &6allow_same_entities &7установлен на false, но игрок все-равно пытается
+
+descriptionObjectTypePlayerEntitiesMountAllowSameEntities: |
+  &7Позволить оседлать одних и тех же сущностей несколько раз
+
+descriptionObjectTypePlayerEntitiesMountAllowSameEntitiesErrorMessage: |
+  &7Если &6allow_same_entities &7установлен на false, но игрок все-равно пытается
+
+# -------------------- Quest object : types (player items) --------------------
+
+descriptionObjectTypePlayerItemsContainerPutInventoryTypes: |
+  &7Позволить только определённые типы инвентарей
+
+descriptionObjectTypePlayerItemsContainerTakeInventoryTypes: |
+  &7Позволить только определённые типы инвентарей
+
+descriptionObjectTypePlayerItemsTradeAllowSameVillagers: |
+  &7Позволить торговать с одними и теми же жителями по несколько раз
+
+descriptionObjectTypePlayerItemsTradeAllowSameVillagersErrorMessage: |
+  &7Если &6allow_same_villagers &7установлен на false, но игрок все-равно пытается
+
+# -------------------- Quest object : types (player move) --------------------
+
+descriptionObjectTypePlayerPositionMatchDisplayDistance: |
+  &7Отобразить оставшееся расстояние
+
+descriptionObjectTypePlayerVehicleDistanceVehicleType: |
+  &7Принимать только определённый тип транспорта
+
+# -------------------- Quest object : types (player physical) --------------------
+
+descriptionObjectTypePlayerBucketFillBucketType: |
+  &7Принимать только определённый тип ведра
+
+descriptionObjectTypePlayerBurnGoal: |
+  &7Сколько времени игрок должен гореть
+
+descriptionObjectTypePlayerTakeDamageCauses: |
+  &7Принимать только некоторые типы урона
+
+descriptionObjectTypePlayerGainHealthFinalHealth: |
+  &7Воспринимать &6цель &7как конечное количество здоровья, которое нужно иметь и не считать постепенно
+
+descriptionObjectTypePlayerShootProjectileProjectileType: |
+  &7Принимать только определённый тип снаряда
+
+descriptionObjectTypePlayerGainXPFinalXP: |
+  &7Воспринимать &6цель &7как конечное количество опыта, который нужно иметь и не считать постепенно
+
+descriptionObjectTypePlayerSneakGoal: |
+  &7Сколько времени игрок должен красться
+
+descriptionObjectTypePlayerGainHealthRegainCauses: |
+  &7Принимать только некоторые типы причин восстановления
+
+descriptionObjectTypePlayerVehicleEnterVehicleType: |
+  &7Принимать только определённый тип транспорта
+
+descriptionObjectTypePlayerVehicleLeaveVehicleType: |
+  &7Принимать только определённый тип транспорта
+
+# -------------------- Quest object : types (server) --------------------
+
+descriptionObjectTypeServerAchievementAwardAchievementType: |
+  &7Тип достижения, которым наградить
+
+descriptionObjectTypeServerActionsActions: |
+  &7Действия, которые совершить
+
+descriptionObjectTypeServerActionsCompleteJournalEntryMessage: |
+  &7Сохранить содержимое действий с сообщениями в квест-журнал
+  &7Будет действовать только если есть плейсхолдер &6{messages} &7во вхождении &6complete_journal_entry
+
+descriptionObjectTypeServerCameraModeToggleToggle: |
+  &7Уточнить, включено или выключено
+
+descriptionObjectTypeServerCommandsPerformCommands: |
+  &7Команды для выполнения
+
+descriptionObjectTypeServerCommandsPerformAsPlayer: |
+  &7Выполнить команды как игрок, а не как сервер
+  &7Помните, что команды, содержащие плейсхолдер {player} будут все-равно выполнены для всех
+
+# -------------------- Quest object : types (server items) --------------------
+
+descriptionObjectTypeServerItemsDropItems: |
+  &7Предметы, которые сбросить
+
+descriptionObjectTypeServerItemsDropCount: |
+  &7Количество элементов списка, которые будут сброшены
+  &7Если это меньше, чем размер списка, предметы будут выбираться случайно из списка и не будет дубликатов
+  &7Если это совпадает с размером списка, все предметы из списка будут сброшены
+  &7Если это больше, чем размер списка, предметы будут выбираться случайно из списка и будут дубликаты
+
+descriptionObjectTypeServerItemsGiveItems: |
+  &7Предметы, которые выдать
+
+descriptionObjectTypeServerItemsGiveCount: |
+  &7Количество элементов из списка, которые будут выданы
+  &7Если это меньше, чем размер списка, предметы будут выбираться случайно из списка и не будет дубликатов
+  &7Если это совпадает с размером списка, все предметы из списка будут выданы
+  &7Если это больше, чем размер списка, предметы будут выбираться случайно из списка и будут дубликаты
+
+descriptionObjectTypeServerItemsGiveLinkToQuest: |
+  &7Связать предметы с квестом (Игроки не смогут выбросить или потерять их)
+
+descriptionObjectTypeServerItemsModifyItems: |
+  &7Предметы, которые модифицировать
+
+descriptionObjectTypeServerItemsModifyCount: |
+  &7Количество элементов из списка, которые будут модифицированы
+  &7Если это меньше, чем размер списка, предметы будут выбираться случайно из списка и не будет дубликатов
+  &7Если это совпадает с размером списка, все предметы из списка будут модифицированы
+  &7Если это больше, чем размер списка, предметы будут выбираться случайно из списка и будут дубликаты
+
+descriptionObjectTypeServerItemsModifyUnlinkQuest: |
+  &7Отвязать квест, привязанный к предмету
+
+descriptionObjectTypeServerItemsModifyDurabilitySet: |
+  &7Заменить прочность
+
+descriptionObjectTypeServerItemsModifyCustomModelDataSet: |
+  &7Заменить custom model data
+
+descriptionObjectTypeServerItemsModifyNameSet: |
+  &7Заменить название
+
+descriptionObjectTypeServerItemsModifyNameRemove: |
+  &7Убрать что-то из названия
+
+descriptionObjectTypeServerItemsModifyLoreSet: |
+  &7Заменить описание(лор)
+
+descriptionObjectTypeServerItemsModifyLoreAdd: |
+  &7Добавить строки в описание(лор)
+
+descriptionObjectTypeServerItemsModifyLoreRemove: |
+  &7Удалить строки из описания, если они содержат некоторые величины
+
+descriptionObjectTypeServerItemsModifyEnchantmentsAdd: |
+  &7Добавить зачарования на предмет
+
+descriptionObjectTypeServerItemsModifyEnchantmentsRemove: |
+  &7Убрать зачарования с предмета
+
+descriptionObjectTypeServerItemsTakeItems: |
+  &7Предметы, которые забрать
+
+descriptionObjectTypeServerItemsTakeCount: |
+  &7Количество элементов из списка, которые будут забраны
+  &7Если это меньше, чем размер списка, предметы будут выбираться случайно из списка и не будет дубликатов
+  &7Если это совпадает с размером списка, все предметы из списка будут забраны
+  &7Если это больше, чем размер списка, предметы будут выбираться случайно из списка и будут дубликаты
+
+# -------------------- Quest object : types (server entities) --------------------
+
+descriptionObjectTypeServerEntitiesDamageEntitiesObjectives: |
+  &7Сущности, которые должны совпадать
+  &7Совпадающие сущности получат урон, если они в верной позиции
+  &7Цель для сущностей будет рассматриваться как максимальное число сущностей, которым нанести урон
+
+descriptionObjectTypeServerEntitiesDamageDamage: |
+  &7Количество урона для нанесения
+
+descriptionObjectTypeServerEntitiesKillEntitiesObjectives: |
+  &7Сущности, которые должны совпадать
+  &7Совпадающие сущности будут убиты, если они в верной позиции
+  &7Цель для сущностей будет рассматриваться как максимальное число сущностей, которые убить
+
+descriptionObjectTypeServerEntitiesSpawnEntitiesObjectives: |
+  &7Сущности, которые нужно заспавнить
+  &7Если несколько настроек (типы, названия, цвета) установлены, одна будет случайно выбрана
+
+descriptionObjectTypeServerEntitiesSpawnLinkToQuest: |
+  &7Привязать мобов к квесту (другие игроки не смогут взаимодействовать)
+
+descriptionObjectTypeServerEntitiesTeleportEntitiesObjectives: |
+  &7Сущности, которые должны совпадать
+  &7Совпадающие сущности будут телепортированы, если они в верной позиции
+  &7Цель для сущностей будет рассматриваться как максимальное число сущностей, которые телепортировать
+
+descriptionObjectTypeServerEntitiesTeleportTeleportPosition: |
+  &7Позиция, на которую телепортировать сущности
+
+# -------------------- Quest object : types (server physical) --------------------
+
+descriptionObjectTypeServerBlocksPlaceBlockType: |
+  &7Тип размещаемого блока
+
+descriptionObjectTypeServerBlocksPlaceBlockStates: |
+  &7Устанавливаемые состояния блоков
+
+descriptionObjectTypeServerExplosionsCreatePower: |
+  &7Сила взрыва (2 - стандартный динамит)
+
+descriptionObjectTypeServerExplosionsCreateCount: |
+  &7Количество взрывов
+
+descriptionObjectTypeServerFireworksLaunchEffects: |
+  &7Эффекты для фейерверков
+
+descriptionObjectTypeServerFireworksLaunchCount: |
+  &7Количество фейерверков
+
+descriptionObjectTypeServerLightningStrikeDamage: |
+  &7Сделать так, что молния нанесёт урон сущностям
+
+descriptionObjectTypeServerLightningStrikeCount: |
+  &7Количество ударов
+
+descriptionObjectTypeServerPlayerDamageDamage: |
+  &7Количество урона для нанесения
+
+descriptionObjectTypeServerPlayerEffectsGiveEffects: |
+  &7Эффекты, которые выдать
+
+descriptionObjectTypeServerPlayerEffectsGiveCount: |
+  &7Количество элементов из списка, которые будут выданы
+  &7Если это меньше, чем размер списка, предметы будут выбираться случайно из списка и не будет дубликатов
+  &7Если это совпадает с размером списка, все предметы из списка будут выданы
+  &7Если это больше, чем размер списка, предметы будут выбираться случайно из списка и будут дубликаты
+
+descriptionObjectTypeServerPlayerEffectsRemoveEffects: |
+  &7Эффекты на удаление
+
+descriptionObjectTypeServerPlayerEffectsRemoveCount: |
+  &7Количество элементов из списка, которые будут убраны
+  &7Если это меньше, чем размер списка, предметы будут выбираться случайно из списка и не будет дубликатов
+  &7Если это совпадает с размером списка, все предметы из списка будут убраны
+  &7Если это больше, чем размер списка, предметы будут выбираться случайно из списка и будут дубликаты
+
+# -------------------- Quest object : types (server logic) --------------------
+
+descriptionObjectTypeGenericServerLogicValueFormula: |
+  &7Формула расчёта новой величины
+  &7К примеру, &6{value} + 10&7, &6{value} ^ 2 &7или просто фиксированная величина
+  &7Используйте плейсхолдер {value}, чтобы получить текущую величину (если текущая величина не число, будет использована величина 0)
+  &7Если это не формула (просто величина) или формула, которую нельзя пересчитать, будет установлено исходное значение
+
+descriptionObjectTypeServerLogicModelVariableVariable: |
+  &7Название переменной шаблона
+
+descriptionObjectTypeServerLogicServerVariableVariable: |
+  &7Название переменной сервера
+
+descriptionObjectTypeServerLogicMoneyCurrency: |
+  &7Какую валюту использовать
+
+descriptionObjectTypeServerLogicPointsCategory: |
+  &7Категория очков
+
+descriptionObjectTypeServerLogicVariableVariable: |
+  &7Название переменной
+
+# -------------------- Quest object : types (integrations) --------------------
+
+descriptionIntegrationAdvancedMobArenaArena: |
+  &7Арена AdvancedMobArena
+
+descriptionIntegrationAdvancedMobArenaWaveNumber: |
+  &7Количество волн
+
+descriptionIntegrationCitizensNPC: |
+  &7НИП Citizens NPC
+
+descriptionIntegrationCitizensNPCNames: |
+  &7Citizens NPC имена НИПОВ
+
+descriptionIntegrationCitizensClickTypes: |
+  &7Допустимые типы кликов для NPC
+
+descriptionIntegrationCitizensNPCs: |
+  &7НИПы Citizens NPC
+
+descriptionIntegrationCitizensDialogMessages: |
+  &7Диалоговые сообщения
+  &7С каждым взаимодействием игрока с НИПом, отсылается последующее сообщение
+
+descriptionIntegrationCitizensDialogReset: |
+  &7Настройки сброса диалога
+
+descriptionObjectTypeCitizensDialogCompleteJournalEntryMessage: |
+  &7Сохранить содержимое сообщений в квестовом журнале
+  &7Это будет вступать в эффект только при наличии плейсхолдера &6{messages} &7во вхождении &6complete_journal_entry
+
+descriptionIntegrationCitizensNavigateWaitForCompletion: |
+  &7Подождать, пока НИП завершит своё путешествие перед переключением на следующий объект
+
+descriptionIntegrationCitizensNavigateWaitForPlayerRadius: |
+  &7Заставить НИПа ждать игрока, когда он вне определённого радиуса
+  &7Это будет игнорироваться, если &6wait_for_completion &7отключено
+
+descriptionIntegrationCitizensNavigateWaitForPlayerNotify: |
+  &7Это будет отослано, когда НИП начнёт ждать игрока
+
+descriptionIntegrationCitizensNavigateWaitForPlayerNotifyDelay: |
+  &7Повторять 'уведоление об ожидании' время от времени
+
+descriptionIntegrationDenizenAction: |
+  &7Denizen-действие для этого НИПа
+
+descriptionIntegrationDreamFishObjectives: |
+  &7Рыболовные задачи
+
+descriptionIntegrationDreamFishObjectiveFishes: |
+  &7Разрешённые рыбы
+  &7Оставьте пустым, чтобы разрешить любую рыбу
+
+descriptionIntegrationDreamFishObjectiveGoal: |
+  &7Цель для этой рыболовной задачи
+
+descriptionIntegrationDreamFishObjectiveTake: |
+  &7Забрать рыбу после
+
+descriptionIntegrationGPSObjectEnabled: |
+  &7Разрешить/запретить GPS задачу
+
+descriptionIntegrationGPSObjectMode: |
+  &7Режим GPS
+
+descriptionIntegrationGPSObjectCustomPoint: |
+  &7Использовать кастомную точку GPS вместо точки, рассчитанной от настройки позиции этого объекта
+
+descriptionIntegrationDungeonsXLDungeon: |
+  &7Подземелье DungeonsXL
+
+descriptionIntegrationHeroesClass: |
+  &7Класс Heroes
+
+descriptionIntegrationHeroesSkill: |
+  &7Умение Heroes
+
+descriptionIntegrationHolographicHologram: |
+  &7Голограмма
+
+descriptionIntegrationHolographicDisplaysLines: |
+  &7Строки голограммы
+
+descriptionIntegrationHolographicDisplaysItem: |
+  &7Добавить предмет в голограмму
+
+descriptionIntegrationHolographicDisplaysExpiration: |
+  &7Сделать так, что голограмма будет исчезать через определённое время
+
+descriptionIntegrationJobsRebornJob: |
+  &7Работа JobsReborn
+
+descriptionIntegrationMagicMob: |
+  &7Моб Magic
+
+descriptionIntegrationMagicSpell: |
+  &7Заклинание Magic
+
+descriptionIntegrationMagicWand: |
+  &7Посох Magic
+
+descriptionIntegrationMCMMOSkill: |
+  &7Умение mcMMO
+
+descriptionIntegrationMMOCoreSkill: |
+  &7Умение MMOCore
+
+descriptionIntegrationMMOCoreClass: |
+  &7Класс MMOCore
+
+descriptionIntegrationMMOCoreProfession: |
+  &7Профессия MMOCore
+
+descriptionIntegrationMMOCoreExpSource: |
+  &7Источник опыта MMOCore
+
+descriptionIntegrationMMOCorePlayerResource: |
+  &7Ресурс игрока MMOCore
+
+descriptionIntegrationMMOCorePlayerAttribute: |
+  &7Аттрибут игрока MMOCore
+
+descriptionIntegrationMMOCoreCombatMode: |
+  &7Должен игрок войти в бой или покинуть его
+
+descriptionIntegrationMythicMobsObjectives: |
+  &7Задачи с мобами
+
+descriptionIntegrationMythicMobsObjectiveMobs: |
+  &7Допустимые мобы
+  &7Оставить пустым, чтобы разрешить любого моба
+
+descriptionIntegrationMythicMobsObjectiveFactions: |
+  &7Допустимые фракции
+  &7Оставить пустым, чтобы разрешить любую фракцию
+
+descriptionIntegrationMythicMobsObjectiveGoal: |
+  &7Цель на эту задачу с мобами
+
+descriptionIntegrationMythicMobsSpawnLinkToQuest: |
+  &7Привязать мобов к квесту (другие игроки не смогут взаимодействовать)
+
+descriptionIntegrationMythicMobsSignal: |
+  &7Сигнал, который отослать
+
+descriptionIntegrationBossObjectives: |
+  &7Задачи с боссами
+
+descriptionIntegrationBossObjectiveBoss: |
+  &7Разрешённый босс
+  &7Оставить пустым, чтобы разрешить любого босса
+
+descriptionIntegrationBossObjectiveGoal: |
+  &7Цель для этой задачи с боссом
+
+descriptionIntegrationBossSpawnLinkToQuest: |
+  &7Привязать мобов к квесту (другие игроки не смогут взаимодействовать)
+
+descriptionIntegrationQuantumRPGClass: |
+  &7Класс QuantumRPG
+
+descriptionIntegrationQuantumRPGClassAttribute: |
+  &7Аттрибут класса QuantumRPG
+
+descriptionIntegrationRacesOfThanaRace: |
+  &7Раса RacesOfThana
+
+descriptionIntegrationShopkeepersShopkeeper: |
+  &7Торговцы(shopkeepers)
+
+descriptionIntegrationSkillAPIClass: |
+  &7Класс SkillAPI
+
+descriptionIntegrationSkillAPISkill: |
+  &7Умение SkillAPI
+
+descriptionIntegrationSuperiorSkyblockUpgrade: |
+  &7Улучшение SuperiorSkyblock
+
+descriptionIntegrationSuperiorSkyblockMission: |
+  &7Миссия SuperiorSkyblock
+
+descriptionIntegrationTokenEnchantTokenType: |
+  &7Тип токена TokenEnchant
+
+descriptionIntegrationTokenEnchantEnchant: |
+  &7Название зачарования TokenEnchant
+
+descriptionIntegrationTokenEnchantEnchantLevel: |
+  &7Уровень зачарования TokenEnchant
+
+# -------------------- Divergence : chat --------------------
+
+descriptionDivergenceChatText: |
+  &7Текст для этого выбора
+
+descriptionDivergenceChatRedoText: |
+  &7Отослать другой текст при перепрохождении задачи
+
+descriptionDivergenceChatUnavailableText: |
+  &7Отобразить этот выбор даже если условия для него не удовлетворены или если &6max_completions &7был достигнут
+
+descriptionDivergenceChatMaxCompletions: |
+  &7Сколько максимум раз можно принять этот выбор
+
+descriptionDivergenceChatConditions: |
+  &7Ограничить этот выбор условиями
+
+descriptionDivergenceChatGoto: |
+  &7Переход, который совершить, если эта опция выбрана
+
+# -------------------- Divergence : GUI --------------------
+
+descriptionDivergenceGUISlot: |
+  &7Слот для этой опции
+
+descriptionDivergenceGUIItem: |
+  &7Предмет для этого выбора
+
+descriptionDivergenceGUIRedoItem: |
+  &7Отобразить другой предмет при перепрохождении этой задачи
+
+descriptionDivergenceGUIUnavailableItem: |
+  &7Отобразить этот выбор даже если условия для него не удовлетворены или если &6max_completions &7был достигнут
+
+descriptionDivergenceGUIMaxCompletions: |
+  &7Сколько максимум раз можно принять этот выбор
+
+descriptionDivergenceGUIConditions: |
+  &7Ограничить этот выбор условиями
+
+descriptionDivergenceGUIGoto: |
+  &7Переход, который совершить, если эта опция выбрана
+
+# -------------------- Divergence : objects --------------------
+
+descriptionDivergenceObjectsObject: |
+  &7Задача для этой опции
+
+descriptionDivergenceObjectsConditions: |
+  &7Ограничить этот выбор условиями
+
+descriptionDivergenceObjectsGoto: |
+  &7Переход, который совершить, если эта опция выбрана
+
+# -------------------- Quest branch --------------------
+
+descriptionBranchType: |
+  &7Тип этой ветви
+
+descriptionBranchObjects: |
+  &7Задачи этой ветви
+
+descriptionBranchStartsAt: |
+  &7Первая задача этой ветви
+
+descriptionBranchStartsDirectly: |
+  &7Начать эту ветвь при начале квеста
+
+# -------------------- Quest branch : named --------------------
+
+descriptionBranchDisplayName: |
+  &7Отображаемое название этой ветви
+
+# -------------------- Quest group --------------------
+
+descriptionGroupQuests: |
+  &7Шаблоны квестов этой группы
+
+descriptionGroupMaxConcurrent: |
+  &7Максимум одновременно активных квестов в этой группе
+
+descriptionGroupExecutionOrder: |
+  &7Сделать так, что квесты этой группы будут исполняться поочерёдно
+
+descriptionGroupConditionsStartRestriction: |
+  &7Ограничить начало квестов этой группы условиями
+
+descriptionGroupRewards: |
+  &7Награды, которые выдать по завершении этой группы
+
+# -------------------- Conditions --------------------
+
+descriptionConditionsConditions: |
+  &7Список условий для проверки
+
+descriptionConditionsMatchAmount: |
+  &7Минимальное количество условий, которые нужно удовлетворить
+  &7Если это больше, чем количество доступных условий, это будет использовано
+
+descriptionConditionsNoMatchAmount: |
+  &7Минимальное количество условий, которые нужно не удовлетворить
+  &7Если это больше, чем количество доступных условий, это будет использовано
+
+descriptionConditionsErrorMessage: |
+  &7Сообщение об ошибке, выводимое когда не найдено рабочих совпадений
+
+# -------------------- Condition : common --------------------
+
+descriptionConditionType: |
+  &7Тип условия
+
+descriptionConditionErrorMessage: |
+  &7Сообщение об ошибке, которое отослать, когда условие не удовлетворено
+
+descriptionConditionGameTimeStartTicks: |
+  &7Начальные тики
+
+descriptionConditionGameTimeEndTicks: |
+  &7Конечные тики
+
+descriptionConditionInventoryFreeForItemsItems: |
+  &7Предметы, для которых у игрока должно быть достаточно места в инвентаре
+
+descriptionConditionItemsItems: |
+  &7Список предметов
+
+descriptionConditionGenericLogicLogic: |
+  &7Логическая строка для парсинга
+  &7Вы можете использовать типы сравнений (=, !=, <, <=, >, >=), к примеру &6{placeholder} * 4 >= 10 * 20 &7или &6{placeholder} = my_value
+  &7Вы можете объединить несколько типов сравнения, к примеру &610 <= {placeholder} <= 100
+  &7Вы можете использовать оператор 'in' (|in|), к примеру &6{placeholder} |in| value1 | value2 | value3
+  &7Вы можете использовать оператор 'and' (&&), к примеру &6{placeholder} > 50 && {placeholder} < 100
+  &7Вы можете использовать оператор 'or' (||), к примеру &6{placeholder} <= 50 || {placeholder} >= 100
+  &7Вы можете объединять условия с [], к примеру &6[{placeholder} >= 10 || {placeholder}] && [{variable:test2} < 10 || {variable:test2} > 50]
+
+descriptionConditionGenericLogicLogicPlaceholder: |
+  &r
+  &7Плейсхолдеры, конкретно для данного условия : {placeholders}
+
+descriptionConditionLogicMoneyCurrency: |
+  &7Валюта для проверки
+
+descriptionConditionPermissionPermission: |
+  &7Разрешение
+
+descriptionConditionPositionPosition: |
+  &7Позиция
+
+descriptionConditionScoreboardTagTagName: |
+  &7Название тега scoreboard
+
+descriptionConditionScoreboardTagMustHave: |
+  &7Должен у игрока быть тег или нет
+
+descriptionConditionLogicScoreboardValueObjectiveName: |
+  &7Название задачи scoreboard
+
+descriptionConditionLogicScoreboardValueScoreName: |
+  &7Название счёта scoreboard
+
+descriptionConditionScoreboardValueValue: |
+  &7Величина, с которой сравнивать
+
+descriptionConditionScoreboardValueComparison: |
+  &7Сравнение, которое совершить
+
+descriptionConditionDayTimeStart: |
+  &7Время начала в днях
+
+descriptionConditionDayTimeEnd: |
+  &7Время конца в днях (может быть после начала и проходить по дням)
+
+descriptionConditionWeekTimeStart: |
+  &7Время начала в неделях
+
+descriptionConditionWeekTimeEnd: |
+  &7Время конца в неделях (может быть после начала и проходить по неделям)
+
+descriptionConditionMonthTimeStart: |
+  &7Время начала в месяцах
+
+descriptionConditionMonthTimeEnd: |
+  &7Время конца в месяцах (может быть после начала и проходить по месяцам)
+
+descriptionConditionYearTimeStart: |
+  &7Время начала в годах
+
+descriptionConditionYearTimeEnd: |
+  &7Время конца в годах (может быть после начала и проходить по годам)
+
+# -------------------- Condition --------------------
+
+descriptionConditionActorRestriction: |
+  &7Ограничить проверку этого условия определёнными игроками
+
+descriptionConditionMustTake: |
+  &7Принять условие (если поддерживается) после проверок
+
+descriptionConditionGroupCompletedGroup: |
+  &7Группа квестов для проверки
+
+descriptionConditionGroupCompletedAmount: |
+  &7Требуемое число завершений
+
+descriptionConditionQuestCompletedModel: |
+  &7Квестовый шаблон для проверки
+
+descriptionConditionQuestCompletedEndTypes: |
+  &7Типы завершений, которые брать в рассмотрение
+
+descriptionConditionQuestCompletedInTime: |
+  &7Проверять только определённый период
+
+descriptionConditionQuestCompletedAmount: |
+  &7Требуемое число завершений
+
+descriptionConditionQuestPlayersAmount: |
+  &7Количество требуемых игроков
+
+descriptionConditionQuestPointsCategory: |
+  &7Категория очков для сравнения
+
+descriptionConditionQuestCompletedObjectQuest: |
+  &7Квест для проверки
+
+descriptionConditionQuestCompletedObjectBranch: |
+  &7Ветвь для проверки
+
+descriptionConditionQuestCompletedObjectObject: |
+  &7Задача для проверки
+
+descriptionConditionQuestCompletedObjectCheckActive: |
+  &7Также проверять текущий квест, если он активен
+
+descriptionConditionQuestCompletedObjectEndTypes: |
+  &7Типы завершений, которые брать в рассмотрение
+
+descriptionConditionQuestCompletedObjectInTime: |
+  &7Проверять только определённый период
+
+descriptionConditionQuestCompletedObjectAmount: |
+  &7Требуемое число завершений
+
+# -------------------- Pool --------------------
+
+descriptionPoolDisplayName: |
+  &7Отображаемое название этого пула
+
+descriptionPoolTimeFrames: |
+  &7Список временных промежутков, в которые выдавать токены
+
+descriptionPoolOrder: |
+  &7Порядок обработки квестов этого пула
+
+descriptionPoolAmount: |
+  &7Количество квестов или групп, за которое этот пул будет выдавать токены, в течение каждого временного промежутка
+  &7Сначала, квесты обрабатываются ; каждый квест, выдавший токен, уменьшает количество на 1
+  &7Затем, обрабатываются квест-группы ; каждая группа, в которой по крайней мере один квест выдаёт токен, уменьшает количество на 1
+
+descriptionPoolAmountTolerance: |
+  &7Вычитать (или нет) количество квестов, которые уже активны из количества квестов, которые будут выданы
+
+descriptionPoolQuests: |
+  &7Квесты, которым этот пул мог бы выдать токены и их настройки
+
+descriptionPoolQuestsGroups: |
+  &7Квест-группы, которым этот пул мог бы выдать токены и их настройки
+
+descriptionPoolQuestProcessConditions: |
+  &7Не допускать обработку этого квеста, если эти условия не удовлетворены
+
+descriptionPoolQuestPreResetTokens: |
+  &7Нужно ли сбрасывать токены этого квеста (если имеются) на 0 даже если он не выбран
+
+descriptionPoolQuestPreStop: |
+  &7Нужно ли останавливать этот квест (если активен) даже если он не выбран
+
+descriptionPoolQuestPreResetHistory: |
+  &7Нужно ли сбрасывать историю этого квеста (если имеется) даже если он не выбран
+
+descriptionPoolQuestSelectedResetTokens: |
+  &7Нужно ли сбрасывать токены этого квеста (если имеются) на 0 до выдачи новых токенов, если он выбран
+
+descriptionPoolQuestSelectedStop: |
+  &7Нужно ли останавливать этот квест (если активен) до выдачи новых токенов, если он выбран
+
+descriptionPoolQuestSelectedResetHistory: |
+  &7Нужно ли сбрасывать историю этого квеста (если имеется) до выдачи новых токенов, если он выбран
+
+descriptionPoolQuestRefundTokenOnEndTypes: |
+  &7Для каких типов завершения нужно восстанавливать токены (если израсходованы)
+
+descriptionPoolQuestMinTokens: |
+  &7Минимальное количество токенов для выдачи этому квесту
+
+descriptionPoolQuestMaxTokens: |
+  &7Максимальное количество токенов для выдачи этому квесту
+
+descriptionPoolQuestGroupProcessConditions: |
+  &7Не допускать обработку этой группы, если эти условия не удовлетворены
+
+descriptionPoolQuestGroupAmount: |
+  &7Количество квестов в этой группе, которым будут выданы токены, если она выбрана
+
+descriptionPoolQuestGroupPreResetTokens: |
+  &7Должны ли токены всех квестов этой группы (если имеются) быть сброшены до 0 даже если она не выбрана
+
+descriptionPoolQuestGroupPreStop: |
+  &7Должны ли все квесты этой группы быть остановлены (если активны) даже если если она не выбрана
+
+descriptionPoolQuestGroupPreResetHistory: |
+  &7Должна ли история всех квестов этой группы (если имеются) быть сброшена даже если если она не выбрана
+
+descriptionPoolQuestGroupSelectedResetTokens: |
+  &7Должны ли токены всех квестов этой группы (если имеются) быть сброшены до 0 до выдачи новых токенов, если она выбрана
+
+descriptionPoolQuestGroupSelectedStop: |
+  &7Должны ли все квесты этой группы быть остановлены (если активны) до выдачи новых токенов, если она выбрана
+
+descriptionPoolQuestGroupSelectedResetHistory: |
+  &7Должна ли история всех квестов этой группы (если имеются) быть сброшена до выдачи новых токенов, если она выбрана
+
+descriptionPoolQuestGroupRefundTokenOnEndTypes: |
+  &7Для каких типов завершений токены должны быть возвращены (если израсходованы)
+
+descriptionPoolQuestGroupMinTokens: |
+  &7Минимальное количество токенов для выдачи квестам этой группы
+
+descriptionPoolQuestGroupMaxTokens: |
+  &7Максимальное число токенов для выдачи квестам этой группы
+
+descriptionPoolRewards: |
+  &7Награды для выдачи по завершении этого пула
+
+# -------------------- Rewards --------------------
+
+descriptionRewardObjectObject: |
+  &7Задача, исполняемая для игрока, который завершает пул/группу
+  &7Только задачи, имеющие мгновенные эффекты будут выполнены
+
+descriptionRewardObjectMinStreak: |
+  &7Минимальное число выполнений подряд для этого пула/группы, необходимое для исполнения задачи
+
+descriptionRewardObjectMaxStreak: |
+  &7Максимальное число выполнений подряд для этого пула/группы, задача не будет выполнена, если текущее число больше
+
+# -------------------- Activator --------------------
+
+descriptionActivatorType: |
+  &7Тип этого активатора
+
+descriptionActivatorParticles: |
+  &7Скрипты частиц для различных статусов квеста
+
+descriptionActivatorParticlesLocation: |
+  &7Адаптировать расположение отображения частиц
+
+descriptionActivatorHolograms: |
+  &7Голограммы HolographicDisplays для различных статусов квеста
+  &7Плейсхолдеры : {status_count:STATUS}, {status_list:STATUS}
+
+descriptionActivatorHologramLocation: |
+  &7Адаптировать расположение отображения голограммы
+
+descriptionActivatorCustomGui: |
+  &7Привязать конкретный графический интерфейс к этому активатору вместо его генерации
+
+descriptionActivatorRequiredGuiQuests: |
+  &7Количество элементов, требуемых для отображения графического интерфейса (если нет кастомного графического интерфейса)
+
+descriptionActivatorInteractionClicks: |
+  &7Типы кликов, которые задействуют взаимодействие
+
+descriptionActivatorSneakClickCancel: |
+  &7Отменить квесты при скрытном передвижении или при использовании клика-взаимодействия
+
+descriptionActivatorGuiShowStatus: |
+  &7Состояния квестов, которые будут разрешены в графическом интерфейсе этого активатора (если нет кастомного графического интерфейса)
+
+descriptionActivatorGuiName: |
+  &7Название графического интерфейса этого активатора (если нет кастомного графического интерфейса)
+
+descriptionActivatorGuiType: |
+  &7Тип графического интерфейса этого активатора (если нет кастомного графического интерфейса)
+
+descriptionActivatorPositionsInteract: |
+  &7Позиции для сравнения
+
+descriptionActivatorEntitiesEntityTypes: |
+  &7Разрешённые типы сущностей
+  &7Оставьте пустым, чтобы разрешить любой тип
+
+descriptionActivatorEntitiesEntityNames: |
+  &7Разрешённые названия сущностей
+  &7Оставьте пустым, чтобы разрешить любое название (или его отсутствие)
+
+descriptionActivatorEntitiesEntityColors: |
+  &7Разрешённые цвета сущностей (для окрашиваемых сущностей)
+  &7Оставьте пустым, чтобы разрешить любой цвет
+
+descriptionActivatorAutoDelay: |
+  &7Задействовать активатор каждые X временных единиц
+
+descriptionActivatorPosition: |
+  &7Позиция, которая должна совпадать
+
+descriptionActivatorPositionDelay: |
+  &7Задействовать активатор каждые X временных единиц
+
+# -------------------- GUI --------------------
+
+descriptionGuiShowStatus: |
+  &7Состояния квестов, разрешённый в этом графическом интерфейсе
+
+descriptionGuiOrderQuests: |
+  &7Упорядочить квесты по списку или отображать их случайно
+
+descriptionGuiOverrideClickTypeInfo: |
+  &7Чтобы изменить информацию(info type) о типе клика для этого гуи
+
+descriptionGuiOverrideClickTypeStart: |
+  &7Чтобы изменить 'начать'(Start) тип клика для этого гуи
+
+descriptionGuiOverrideClickTypeStartCoop: |
+  &7Чтобы изменить кооп-'начать'(Start type) тип клика для этого гуи
+
+descriptionGuiOverrideClickTypeStop: |
+  &7Чтобы изменить конечный(Stop type) тип клика для этого гуи
+
+descriptionGuiOverrideClickTypeLeave: |
+  &7Чтобы изменить (Leave type) тип клика для этого гуи
+
+descriptionGuiItemQuestsQuests: |
+  &7Квесты, отображаемые для этого предмета
+  &7Они будут показаны в соответствии с их статусом
+
+descriptionGuiItemQuestsMode: |
+  &7Чтобы определить Должен ли тот же самый квест отображаться на всех локациях(позициях), или другие квесты из списка должны отображаться на доступных локациях(позициях)
+
+descriptionGuiItemGUIGUI: |
+  &7Графический интерфейс, связываемый с этим предметом
+
+descriptionGuiItemGUIPointsRankingCategory: |
+  &7Категория очков
+
+descriptionGuiItemPointsRankingCategory: |
+  &7Категория очков
+
+descriptionGuiItemToggleSettingSetting: |
+  &7Переключаемая настройка
+
+descriptionGuiItemToggleSettingIconOn: |
+  &7Иконка, отображаемая когда настройка включена
+
+descriptionGuiItemToggleSettingIconOff: |
+  &7Иконка, отображаемая когда настройка выключена
+
+# -------------------- Checkpoint --------------------
+
+descriptionCheckpointSaveLocation: |
+  &7Сохранить локацию игрока
+
+descriptionCheckpointSaveSpecificLocation: |
+  &7Сохранить конкретную локацию вместо локации игрока
+
+descriptionCheckpointSaveBranches: |
+  &7Сохранить состояние ветвей
+
+descriptionCheckpointSaveIndividualBranches: |
+  &7Сохранить состояние индивидуальных ветвей
+
+descriptionCheckpointSaveModelVariables: |
+  &7Сохранить переменные шаблона
+
+descriptionCheckpointSaveUserVariables: |
+  &7Список сохраняемых переменных пользователя
+
+descriptionCheckpointRestoreOnRespawn: |
+  &7Восстановить чекпоинт на спавне
+
+descriptionCheckpointRestoreOnConnect: |
+  &7Восстановить чекпоинт при переподключении
+
+descriptionCheckpointRestoreOnResume: |
+  &7Восстановить чекпоинт при снятии квеста с паузы
+
+descriptionCheckpointRestoreOnConditions: |
+  &7Дополнительные условия, которые могут вести к восстановлению этого чекпоинта
+
+descriptionCheckpointRestoreOnIndividualConditions: |
+  &7Дополнительные условия, которые могут вести к индивидуальному восстановлению этого чекпоинта
+
+descriptionCheckpointRestoreNotify: |
+  &7Должно ли уведомление о начале быть отослано при восстановлении ветви
+
+descriptionCheckpointRestoreObjects: |
+  &7Задачи, исполняемые при восстановлении этого чекпоинта
+
+# -------------------- State --------------------
+
+descriptionStateDisplayName: |
+  &7Отображаемое название для этого состояния (используется только при исполнении команды состояния)
+
+descriptionStateQuests: |
+  &7Различная информация о квестах
+  &7Если квест уже начат, его текущее состояние будет использовано и свойства будут просто заменены
+  &7Если квест не начат, он будет начат и свойства будут добавлены
+
+descriptionStateStopQuests: |
+  &7Список квестов для остановки, если активен
+
+descriptionStateUserVariables: |
+  &7Список переменных пользователя и величины, которые им установить
+
+descriptionStatePosition: |
+  &7Позиция, на которую телепортировать пользователя
+
+descriptionStatePreStateObjects: |
+  &7Список мгновенных задач, исполняемых до установки состояния
+
+descriptionStatePostStateObjects: |
+  &7Список мгновенных задач, исполняемых после установки состояния
+
+descriptionQuestStateBranches: |
+  &7Список ветвей и их текущая задача, устанавливаемая активной
+
+descriptionQuestStateIndividualBranches: |
+  &7Список индивидуальных ветвей и их текущая задача, устанавливаемая активной
+
+descriptionQuestStateModelVariables: |
+  &7Список переменных шаблона и их устанавливаемые переменные
+
+descriptionQuestStatePreStateObjects: |
+  &7Список мгновенных задач, исполняемых до установки состояния этого квеста
+
+descriptionQuestStatePostStateObjects: |
+  &7Список мгновенных задач, исполняемых после установки состояния этого квеста

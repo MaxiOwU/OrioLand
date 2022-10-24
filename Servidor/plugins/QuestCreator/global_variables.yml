@@ -1,0 +1,10 @@
+# ----------------------------------------------------------------------------------------------------
+# Configuration file for QuestCreator
+# More information can be found in the documentation
+# ----------------------------------------------------------------------------------------------------
+
+#message_prefix: '&6[QuestCreator] &7'
+#sample_variable_placeholderapi: 'Hey, %player_name%'
+#sample_variable_qc: '{variable:my_variable} is the value'
+#sample_spawn_location: 'world,0,64,0'
+#sample_player_location_through_papi: '%player_world%,%player_x%,%player_y%,%player_z%'

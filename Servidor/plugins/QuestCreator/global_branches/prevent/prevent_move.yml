@@ -1,0 +1,32 @@
+# ----------------------------------------------------------------------------------------------------
+# Configuration file for QuestCreator
+# More information can be found in the documentation
+# ----------------------------------------------------------------------------------------------------
+
+# This is a global branch to allow easy prevention of a certain action
+# You can start/stop them quickly when you need to, using "goto_start_branches" and "goto_stop_branches" in a quest object
+
+type: SECRET
+starts_directly: false
+starts_at: TRIGGER
+
+objects:
+
+  TRIGGER:
+    type: GROUP
+    objects: [TRIGGER_1, TRIGGER_2]
+    add_to_history: false
+    required_objects: 1
+    goto: OBJECT TRIGGER
+
+  TRIGGER_1:
+    type: PLAYER_MOVE
+    goal: 999999999  # to avoid calling goto's too often
+    add_to_history: false
+    progress_cancel_event: true
+
+  TRIGGER_2:
+    type: PLAYER_JUMP
+    goal: 999999999  # to avoid calling goto's too often
+    add_to_history: false
+    progress_cancel_event: true

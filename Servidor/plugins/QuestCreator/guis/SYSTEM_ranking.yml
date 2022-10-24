@@ -1,0 +1,26 @@
+# ----------------------------------------------------------------------------------------------------
+# Configuration file for QuestCreator
+# More information can be found in the documentation
+# ----------------------------------------------------------------------------------------------------
+
+name: '&dQuests ranking'
+type: CHEST_6_ROW
+
+item_ranked_name: '&6{player}'
+item_ranked_lore: |
+  &e{points} &7point{plural}
+  &7Rank &e{rank} &7in category &e{category}
+
+item_unranked_name: '&a{player}'
+item_unranked_lore: |
+  &e0 &7point{plural}
+  &7Unranked in category &e{category}
+
+# custom contents
+#contents:
+#  - type: NONE
+#    locations: [0,1,2,3,4,5,6,7,8,9,18,17,18,19,20,21,22,23,24,25,26]
+#    persistent: true
+#    icon:
+#      type: GRAY_STAINED_GLASS_PANE
+#      name: '&r'

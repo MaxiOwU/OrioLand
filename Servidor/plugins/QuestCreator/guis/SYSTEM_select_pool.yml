@@ -1,0 +1,15 @@
+# ----------------------------------------------------------------------------------------------------
+# Configuration file for QuestCreator
+# More information can be found in the documentation
+# ----------------------------------------------------------------------------------------------------
+
+name: '&dSelect a pool'
+type: CHEST_6_ROW
+
+contents:
+  - type: NONE
+    locations: [0,1,2,3,4,5,6,7,8,9,18,27,36,45,47,48,50,51,53,44,35,26,17]
+    persistent: true
+    icon:
+      type: GRAY_STAINED_GLASS_PANE
+      name: '&f'

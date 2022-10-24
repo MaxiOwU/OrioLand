@@ -1,0 +1,13 @@
+type: CITIZENS_NPCS
+npcs: [35]
+
+particles:
+  AVAILABLE: notify_1
+  PROGRESS: notify_2
+
+particles_location:
+  vertical_offset: 2.5
+
+sneak_click_cancel: true
+
+required_gui_quests: 9999  # set it to a big number so it will never open
