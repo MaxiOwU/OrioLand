@@ -1,6 +1,6 @@
 Type: CLICK_OPEN
 Menu:
-  Title: '&nOpening crate...'
+  Title: '&nAbriendo Crate...'
   Size: 27
 
 Settings:
@@ -9,7 +9,7 @@ Settings:
   Locked:
     Item:
       Material: CHEST
-      Name: '&6&nClick to open reward...'
+      Name: '&6&nClick para abrir Recompensa...'
     Slots: '0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26'
   Open:
     Animation:
