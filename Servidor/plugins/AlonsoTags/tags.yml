@@ -52,7 +52,7 @@ Tags:
     Material: NAME_TAG
     Custom-model-data: 0
     Tag: "&f[&4E&6S&4P&f]"
-    Displayname: "&7&l{COLOR}Tag Chilena"
+    Displayname: "&7&l{COLOR}Tag Española"
     Permission: "none"
     Lore:
       Locked:
@@ -100,7 +100,7 @@ Tags:
     Material: NAME_TAG
     Custom-model-data: 0
     Tag: "&f[&4P&fE&4R&f]"
-    Displayname: "&7&l{COLOR}Tag Peruana
+    Displayname: "&7&l{COLOR}Tag Peruana"
     Permission: "none"
     Lore:
       Locked:
