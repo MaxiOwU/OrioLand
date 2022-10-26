@@ -339,7 +339,7 @@ Tags:
   tag-boliviana:
     Material: NAME_TAG
     Custom-model-data: 0
-    Tag: "&f[&4B&6O&2L&f]
+    Tag: "&f[&4B&6O&2L&f]"
     Displayname: "&7&l{COLOR}Tag Boliviana"
     Permission: "none"
     Lore:
