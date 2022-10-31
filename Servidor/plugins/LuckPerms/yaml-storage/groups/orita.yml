@@ -1,5 +1,6 @@
 name: orita
 permissions:
+- questcreator.quest.*
 - backpack.size.6
 - backpack.use
 - chat.color
