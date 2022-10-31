@@ -1,0 +1,3 @@
+files:
+  - source: /Servidor/
+    translation: /Traducciones/%language%/
