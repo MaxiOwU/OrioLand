@@ -1,0 +1,9 @@
+MSO_LavaLord-Volcano:
+  Id: GOLD_NUGGET
+  Model: 1000
+  Display: "Volcano"
+  
+MSO_LavaLord-Boulder:
+  Id: GOLD_NUGGET
+  Model: 1001
+  Display: "Volcano"

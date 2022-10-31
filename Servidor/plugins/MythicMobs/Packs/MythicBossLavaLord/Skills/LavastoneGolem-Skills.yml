@@ -1,0 +1,72 @@
+MSO_LavastoneGolem-Attack:
+  Skills:
+  - cancelevent
+  - skill:MSO_LavastoneGolem-AttackSwing @target
+   
+MSO_LavastoneGolem-AttackSwing:
+  Cooldown: 1
+  Conditions:
+  - offgcd
+  TargetConditions:
+  - distance <5
+  Skills:
+  - randomskill{s=
+      [ - state{s=smash_left;li=3;lo=2} ],
+      [ - state{s=smash_right;li=3;lo=2} ]} @self
+  - gcd{ticks=20} @self
+  - delay 10
+  - totem{ch=3;
+      onStart=[
+        - effect:sound{s=entity.player.attack.crit;v=1;p=0.4;repeat=1;repeati=1} @origin
+        - particles{p=cloud;a=20;s=0.5} @origin
+        - skill{s=[
+            - effect:particles{p=blockdust;material=REDSTONE_BLOCK;a=55;hS=0.4;vS=0.4;y=1.5}
+            - effect:particles{p=reddust;size=5;color=#FF0000;a=5;hS=0.2;vS=0.2;y=1.5}
+            - damage{amount=10}
+          ]} @ENO{r=3}
+      ];int=1;hR=3;md=1} @Forward{f=1.5}
+  #- delay 4
+  #- state{s=stomp;remove=true} @self
+  
+MSO_LavastoneGolem-Torrent:
+  Cooldown: 10
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=80} @self
+  - potion{type=SLOW;level=5;d=50} @self
+  - state{s=fire_torrent;li=2;lo=2} @self
+  - gcd{ticks=40} @self
+  - delay 8
+  - projectile{
+      i=1;repeat=10;repeati=1;syo=2;tyo=1;v=18;ho=-10;hitself=false;se=false;
+      bullet=BLOCK;material=FIRE;
+      onStart=[
+        - sound{s=entity.generic.ignite;p=1.7}
+      ];
+      onHit=[
+        - damage{amount=5}
+        - ignite{ticks=100}
+      ]} 
+  - delay 10
+  - projectile{
+      i=1;repeat=10;repeati=1;syo=2;tyo=1;v=18;ho=0;hitself=false;se=false;
+      bullet=BLOCK;material=FIRE;
+      onStart=[
+        - sound{s=entity.generic.ignite;p=1.7}
+      ];
+      onHit=[
+        - damage{amount=5}
+        - ignite{ticks=100}
+      ]} 
+  - delay 10
+  - projectile{
+      i=1;repeat=10;repeati=1;syo=2;tyo=1;v=18;ho=10;hitself=false;se=false;
+      bullet=BLOCK;material=FIRE;
+      onStart=[
+        - sound{s=entity.generic.ignite;p=1.7}
+      ];
+      onHit=[
+        - damage{amount=5}
+        - ignite{ticks=100}
+      ]} 

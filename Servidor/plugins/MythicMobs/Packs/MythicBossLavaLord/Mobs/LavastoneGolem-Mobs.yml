@@ -1,0 +1,29 @@
+MSO_LavastoneGolem:
+  Type: ZOMBIE
+  Display: '&c&lGolem'
+  Health: 20
+  Damage: 0
+  Faction: elemental
+  Options:
+    AlwaysShowName: false
+    Silent: true
+    MaxCombatDistance: 8
+    PreventOtherDrops: true
+    MovementSpeed: 0.26
+    Collidable: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+  ThreatTable:
+    Enabled: true
+  AITargetSelectors:
+  - 1 players
+  AIGoalSelectors:
+  - 1 meleeattack
+  DamageModifiers:
+  - FIRE 0
+  - FIRE_TICK 0
+  Skills:
+  - model{mid=mso_lavastone_golem;n=false} @self ~onSpawn
+  - skill:MSO_LavastoneGolem-Attack{sync=true} @self ~onAttack
+  - skill:MSO_LavastoneGolem-Torrent @target ~onTimer:20
+  

@@ -1,17 +1,7 @@
-# Messages edit for Orioland
-# Versión v1.0 BETA
-# Author: Cesar___
-# Discord: Cesar___#7924
-# # # # # # # # # # # # # # # # #
-#                               #
-#       MESSAGES ORIOLAND       #
-#                               #
-# # # # # # # # # # # # # # # # #
-
 prefix: '&6&lOrioLand &8» '
 no-permission: '&cNo tienes permisos para ejecutar este comando!'
 kills-message: '&fTu tienes racha de &e%kills% &fkill/s en el Servidor'
-youtube: '&eVisita nuestro canal de Youtube para ver todos los trailers del Server!, Link » &6http://acortador.orioland.ga/Youtube'
-instagram: '&eVisita nuestro Instagram para ver todas las spoilers de futuras noticias!, Link » &ehttp://acortador.orioland.ga/Instagram'
-tiktok: '&eVisita nuestro TikTok para ver todos los cortos del Server, Link » &6http://acortador.orioland.ga/TikTok'
-twitter: '&eVisita nuestro Twitter para informarte de todas las noticias!, Link » &6http://acortador.orioland.ga/Twitter'
+youtube: '&eVisita nuestro canal de Youtube para ver todos los trailers del Server!, Link » &6https://www.youtube.com/c/orioland'
+instagram: '&eVisita nuestro Instagram para ver todas las spoilers de futuras noticias!, Link » &ehttps://www.instagram.com/oriolandnetwork'
+tiktok: '&eVisita nuestro TikTok para ver todos los cortos del Server, Link » &6https://www.tiktok.com/@orioland'
+twitter: '&eVisita nuestro Twitter para informarte de todas las noticias!, Link » &6https://twitter.com/oriolandoficial'

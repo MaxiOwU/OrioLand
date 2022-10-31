@@ -1,0 +1,222 @@
+MSO_LavaLord-Attack:
+  Skills:
+  - cancelevent
+  - skill:MSO_LavaLord-AttackSwing @target
+   
+MSO_LavaLord-AttackSwing:
+  Cooldown: 6
+  Conditions:
+  - offgcd
+  - incombat
+  TargetConditions:
+  - distance <8
+  Skills:
+  - state{s=slam;li=3;lo=2} @self
+  - gcd{ticks=20} @self
+  - delay 15
+  - totem{ch=3;
+      onStart=[
+        - effect:sound{s=entity.firework_rocket.large_blast;v=1;p=0.4;repeat=4;repeati=1} @origin
+        - effect:sound{s=entity.generic.explode;v=1;p=0.4;repeat=4;repeati=1} @origin
+        - particles{p=largeexplode;a=20;s=1.5} @origin
+        - skill{s=[
+            - effect:particles{p=blockdust;material=REDSTONE_BLOCK;a=55;hS=0.4;vS=0.4;y=1.5}
+            - effect:particles{p=reddust;size=5;color=#FF0000;a=5;hS=0.2;vS=0.2;y=1.5}
+            - damage{amount=15}
+            - throw{v=10;vy=6}
+          ]} @ENO{r=4}
+      ];int=1;hR=3;md=1} @Forward{f=1.5}
+  - delay 4
+  - state{s=stomp;remove=true} @self
+ 
+MSO_LavaLord-LavaWave:
+  Cooldown: 8.0 
+  Conditions:
+  - offgcd
+  - incombat
+  Skills:
+  - gcd{ticks=50} @self
+  - state{s=yeet_magma;li=0;lo=0} @self
+  - delay 10
+  - sound{s=entity.firework_rocket.large_blast;p=0.6}
+  - sound{s=entity.player.splash.high_speed;p=0.5}
+  - projectile{i=1;maxRange=40;v=4;md=400;se=false;sb=false;hs=true;hfs=0.5;
+      onTick=[
+        - sound{s=entity.player.splash.high_speed;p=0.5;v=0.05}
+        - sound{s=entity.generic.ignite;p=0.67;v=1}
+        - particles{p=lava;a=1;hS=2.5;vS=0.2;y=0.2}
+        - particles{p=flame;a=1;hS=2.5;vS=0.2;y=0.2}
+        - geyser{type=LAVA;i=10;h=3} @BlocksInRadius{no=true;r=3;ry=1}
+        - skill{delay=6;s=[ 
+            - throw{v=14;vy=4;fromOrigin=true}
+            - damage{amount=16}
+          ]} @ENO{r=4}
+      ];
+      onHit=[
+        - damage{amount=16}
+      ]} @forward{f=10}
+  - delay 40
+  - state{s=lava_wave;remove=true} @self
+  
+MSO_LavaLord-LavaSpin:
+  Cooldown: 10.0 
+  Conditions:
+  - offgcd
+  - incombat
+  Skills:
+  - gcd{ticks=50} 
+  - setai{ai=false} 
+  - state{s=fire_tornado;li=0;lo=0} 
+  - skill{repeat=3;repeati=10;s=[
+      - sound{s=item.trident.riptide_3;p=0.65;v=0.5} @self
+      - sound{s=entity.player.attack.sweep;p=0.65;v=0.5} @self
+      - damage{amount=10}
+      - ignite{ticks=100}
+      - throw{v=10;vy=4}
+    ]} @EIR{r=5;ignore=faction}
+  - orbital{points=32;duration=100;repeat=4;repeati=5;bullet=BLOCK;material=FIRE;radius=5;
+      onTick=[
+        - geyser{type=LAVA;i=3;h=3} @origin
+        - particles{p=flame;y=3;vS=3;a=1} @origin
+      ]}
+  - delay 44
+  - setai{ai=true}
+  - state{s=fire_tornado;remove=true}
+  
+MSO_LavaLord-BoulderThrow:
+  Cooldown: 8.0 
+  #TargetConditions:
+  #- distance >6
+  Conditions:
+  - incombat
+  - offgcd
+  - targets >0
+  Skills:
+  - gcd{ticks=20} @self
+  - look{immediately=true}
+  - setai{ai=false} @self
+  - state{s=toss_boulder;li=0;lo=3} @self
+  - delay 8
+  - missile{vo=0;inertia=200;v=15;md=200;se=false;sb=true;i=1;
+      bulletType=mob;mob=MSO_LavaLord-Boulder;origin=@ModelPart{m=mso_laval_lord;p=right_hand};
+      onStart=[
+        - delay 20
+        - modifyProjectile{trait=INERTIA;v=2000} 
+      ];
+      onEnd=[
+        - sound{s=entity.generic.explode;p=0.5;repeat=3;repeati=1}
+        - sound{s=entity.firework_rocket.large_blast;p=0.5;repeat=3;repeati=1}
+        - summon{type=MSO_LavaLord-Volcano} @origin{y=1}
+        - geyser{type=LAVA;i=3;h=3} @BlocksInRadius{r=2}
+        - particles{p=flame;y=2;vS=2;a=1} @origin
+        - skill{delay=6;s=[ 
+            - throw{v=16;vy=8;fromOrigin=true}
+            - damage{amount=20}
+          ]} @ENO{r=4}
+      ]}
+  - delay 12
+  - setai{ai=true} @self
+  - state{s=toss_boulder;remove=true} @self
+  
+MSO_LavaLord-Charge:
+  Cooldown: 30.0 
+  Conditions:
+  - incombat
+  - offgcd
+  Skills:
+  - gcd{ticks=600} @self
+  - setstance{stance=moving} @self
+  - look{immediately=true}
+  - setai{ai=false} @self
+  - state{s=lava spew;li=0;lo=0;speed=0.5} @self
+  - sound{s=entity.piglin_brute.death;p=0.5;repeat=5;repeati=1}
+  - delay 80
+  - state{s=trail_charge;li=0;lo=0} @self
+  - projectile{i=1;maxRange=50;v=20;md=200;hitRadius=3;se=false;sb=true;hs=true;hfs=0.5;
+      onTick=[
+        - sound{s=entity.firework_rocket.large_blast;p=0.6}
+        - particles{p=lava;a=1;hS=2.5;vS=0.2;y=0.2}
+        - particles{p=flame;a=1;hS=2.5;vS=0.2;y=0.2}
+        - teleport
+        - skill{delay=6;s=[ 
+            - throw{v=30;vy=15;fromOrigin=true}
+            - damage{amount=20}
+          ]} @ENO{r=4}
+      ];
+      onEnd=[
+        - skill{s=[
+            - damage{amount=20}
+            - throw{v=30;vy=15;fromOrigin=true}
+          ]} @ENO{r=4;ignore=faction}
+        - sound{s=entity.generic.explode;p=0.5;repeat=3;repeati=1}
+        - sound{s=entity.firework_rocket.large_blast;p=0.5;repeat=3;repeati=1}
+        - geyser{type=LAVA;i=3;h=3} @BlocksInRadius{r=2}
+        - particles{p=flame;y=2;vS=2;a=10} @origin
+        - gcd{ticks=20} @self
+        - state{s=trail_charge;remove=true} @self
+        - setai{ai=true} @self
+        - setstance{stance=normal} @self
+      ]}
+      
+MSO_LavaLord-Swandive:
+  Cooldown: 25.0 
+  Conditions:
+  - incombat
+  - offgcd
+  Skills:
+  - gcd{ticks=60} @self
+  - setstance{stance=moving} @self
+  - look{immediately=true}
+  #- setai{ai=false} @self
+  - state{s=swandive;li=0;lo=3;speed=0.75} @self
+  - missile{vo=3;inertia=8;v=25;md=25;se=false;sb=true;i=1;
+      onTick=[
+        - teleport
+      ];
+      onEnd=[
+        - velocity{y=-30} @self
+      ]}
+  - delay 30
+  - sound{s=entity.generic.explode;p=0.5;repeat=3;repeati=1} @self
+  - sound{s=entity.firework_rocket.large_blast;p=0.5;repeat=3;repeati=1} @self
+  - summon{type=MSO_LavaLord-Volcano} @self
+  - projectile{i=1;maxRange=12;v=10;md=60;hitRadius=3;se=false;sb=true;hs=true;hfs=0.5;fo=true;origin=@forward{a=2};
+      onTick=[
+        - geyser{type=LAVA;i=3;h=3} @origin
+        - particles{p=flame;y=3;vS=3;a=20} @origin
+        - skill{delay=6;s=[ 
+            - throw{v=20;vy=12;fromOrigin=true}
+            - damage{amount=16}
+          ]} @ENO{r=4}
+      ]} @Ring{r=5;points=32}
+  - delay 20
+  - setai{ai=true} @self
+  - setstance{stance=normal} @self
+  - state{s=swandive;remove=true} @self
+  
+MSO_LavaLord-Rampage:
+  Conditions:
+  - incombat
+  - stance normal
+  Skills:
+  - gcd{ticks=100} @self
+  - setai{ai=true} @self
+  - state{s=rampage;li=0;lo=3;speed=0.5} @self
+  - delay 20
+  - skill{repeat=3;repeati=20;s=[
+      - sound{s=entity.generic.explode;p=0.5;repeat=3;repeati=1} @self
+      - sound{s=entity.firework_rocket.large_blast;p=0.5;repeat=3;repeati=1} @self
+      - summon{type=MSO_LavastoneGolem} @self 0.5
+      - projectile{i=1;maxRange=15;v=10;md=100;hitRadius=3;se=false;sb=true;hugsurface=true;hfs=0.5;origin=@forward{a=2};
+          onTick=[
+            - geyser{type=LAVA;i=3;h=3} @origin
+            - particles{p=largeexplode;y=0;vS=0;a=5} @origin
+            - skill{delay=6;s=[ 
+                - throw{v=10;vy=12;fromOrigin=true}
+                - damage{amount=5}
+              ]} @ENO{r=4;ignore=faction}
+          ]} @Ring{r=5;points=32}
+    ]} 
+  - delay 90
+  - setai{ai=true} @self
+  - state{s=rampage;remove=true} @self
