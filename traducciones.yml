@@ -1,3 +1,3 @@
 files:
-  - source: /Servidor/
+  - source: /Servidor/plugins
     translation: /Traducciones/%language%/
