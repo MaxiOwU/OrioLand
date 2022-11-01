@@ -1,0 +1,38 @@
+# Main note name
+# 1.12 Sound: BLOCK_NOTE_BELL
+main-note: BLOCK_NOTE_BLOCK_BELL
+
+# Notes
+note1:
+  d: 4
+  p: 1.7
+note2:
+  d: 7
+  p: 1.7
+note3:
+  d: 13
+  p: 1.7
+note3b:
+  d: 13
+  p: 1.7
+note4:
+  d: 19
+  p: 1.35
+note5:
+  d: 22
+  p: 1.7
+note6:
+  d: 29
+  p: 2
+note6b:
+  d: 29
+  p: 2
+note7:
+  d: 42
+  p: 1
+note7b:
+  d: 42
+  p: 1
+note7bb:
+  d: 42
+  p: 1

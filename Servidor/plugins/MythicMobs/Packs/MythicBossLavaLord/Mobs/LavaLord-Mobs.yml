@@ -1,0 +1,92 @@
+MSO_LavaLord:
+  Type: SPIDER
+  Display: '&c&lDios de Halloween'
+  Health: 1000
+  Damage: 0
+  Faction: elemental
+  BossBar:
+    Enabled: true
+    Title: "&c&lDios de Halloween"
+    Color: RED 
+    Range: 100
+    Style: SEGEMENTED_20
+  Options:
+    AlwaysShowName: false
+    Despawn: false
+    Silent: true
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+    MovementSpeed: 0.3
+    Collidable: false
+    PreventSunburn: true
+  ThreatTable:
+    Enabled: true
+  AITargetSelectors:
+  - clear
+  - players
+  AIGoalSelectors:
+  - clear
+  - meleeattack
+  DamageModifiers:
+  - FIRE 0
+  - FIRE_TICK 0
+  Drops:
+  Skills:
+  - model{mid=mso_laval_lord;n=false} @self ~onSpawn
+  - threat{a=1} @PIR{r=16} ~onTimer:20
+  - setstance{stance=normal} @self ~onSpawn
+  - skill{s=[
+      - sound{s=entity.ender_dragon.hurt;p=1.6}
+      - sound{s=item.bucket.empty_lava;p=0.6}
+      - velocity{x=0;y=0;z=0;delay=1}
+    ]} @self ~onDamaged 
+  - skill:MSO_LavaLord-Charge @targetlocation ~onTimer:50 <75%
+  - skill:MSO_LavaLord-Swandive @RTT ~onTimer:50 <50%
+  - skill:MSO_LavaLord-LavaSpin @self ~onTimer:20 0.2 <85%
+  - skill:MSO_LavaLord-BoulderThrow @RTT ~onTimer:20 <99% 0.2
+  - skill:MSO_LavaLord-LavaWave @target ~onTimer:20 <99% 0.2
+  - skill:MSO_LavaLord-Attack{sync=true} @self ~onAttack
+  - skill:MSO_LavaLord-Rampage @self ~onDamaged =75%
+  - skill:MSO_LavaLord-Rampage @self ~onDamaged =50%
+  - skill:MSO_LavaLord-Rampage @self ~onDamaged =25%
+  
+MSO_LavaLord-Volcano:
+  Type: ARMOR_STAND
+  Options:
+    ItemHead: MSO_LavaLord-Volcano
+    Invisible: true
+    HasGravity: false
+  Skills:
+  - particles{p=lava;a=10;vs=1} @origin ~onTimer:5
+  - remove @self{conditions=[ - onblock AIR ]} ~onTimer:10
+  - cancelevent{sync=true} ~onInteract
+  - skill{s=[
+      - ignite{d=100}
+      - damage{a=5}
+    ]} @PIR{r=6} ~onTimer:10
+  - skill{s=[
+      - blockmask{m=BLACKSTONE;n=0.7;r=15}
+      - delay 2400
+      - teleportin{dir=0,-0.4,0;repeat=10;repeati=1} 
+      - remove
+    ]} @self ~onSpawn
+    
+MSO_LavaLord-Boulder:
+  Type: ARMOR_STAND
+  Options:
+    ItemHead: MSO_LavaLord-Boulder
+    Invisible: true
+    HasGravity: false
+
+MSO_LavaLord-LavastoneSummoner:
+  Type: ARMOR_STAND
+  Display: '&cVolcano'
+  Options:
+    Invisible: true
+    Invincible: true
+    Gravity: false
+    HasGravity: false
+  Faction: elemental
+  Skills:
+#  - skill:MSO_LavaLord-SummonLavastoneGolemEffect @self ~onSpawn
+  - remove{delay=200} @self ~onSpawn

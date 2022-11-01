@@ -21,6 +21,4 @@ Formats:
     join:
       actions:
       - '[BROADCAST] &a+ &f%player_name% '
-    quit:
-      actions:
-      - '[BROADCAST] &4- &f%player_name% '
+

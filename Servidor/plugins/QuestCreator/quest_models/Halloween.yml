@@ -1,6 +1,6 @@
 # -------------------- Display settings --------------------
 
-display_name: dime
+display_name: Ayuda a Arne
 
 description: ['Completa las Misiones de Halloween para liberar a OrioLand.']
 
@@ -45,7 +45,7 @@ completion:
       sound: BLOCK_ANVIL_DESTROY
 
 cooldown:
-  duration: 10 HOUR
+  duration: 12 MONTH
   end_types: [SUCCESS]
 
 # -------------------- Activator settings --------------------
@@ -53,59 +53,179 @@ cooldown:
 activators: [Halloween]
 
 activators_dialog: 
-  - '&#df00fbA&#bd00d8r&#9c01b6n&#7a0193e &7>> Porfavor no me ataquéis!.'
+  - '&#df00fbA&#bd00d8r&#9c01b6n&#7a0193e &7>> Porfavor no me ataques!.'
   - '&#df00fbA&#bd00d8r&#9c01b6n&#7a0193e &7>> Se que soy un vampiro pero necesito que confiéis en mi, e-es importante, podría decidir el destino de este mundo!.'
+  - '&f%essentials_nickname% &7>> Esta bien te escuchare.'
+  - '&#df00fbA&#bd00d8r&#9c01b6n&#7a0193e &7>> &7D-de verdad me vas a ayudar? Gracias, como sabes por las noches los monstruos salen de sus cuevas y atacan por doquier pero, en la noche de Halloween somos los 4 soberanos de la noche los que salimos, somos los encargados de velar por los enemigos del día y protegerles.'
+  - '&f%essentials_nickname% &7>> ¿Tú? Si pareces muy débil.'
+  - '&#df00fbA&#bd00d8r&#9c01b6n&#7a0193e &7>> Tiene una explicación, los otros tres soberanos me han traicionado y necesito de vuestra ayuda, ahora estan dispersos acumulando su poder pero cuando se unan nadie les podrá frenar.'
+  - '&f%essentials_nickname% &7>> Está bien que tenemos que hacer.'
+  - '&#df00fbA&#bd00d8r&#9c01b6n&#7a0193e &7>> Solo Necesito que me ayudes a detenerlos.'
+  - '&#df00fbA&#bd00d8r&#9c01b6n&#7a0193e &7>> ¿Estas dispuesto? tendras una recompensa ΅'
   - ''
 
-activators_dialog_auto_start_distance: 3.5
-
-activators_dialog_reset:
-  reset_delay: 30 SECOND
-  reset_distance: 5
-  reset_notify:
-    message: '&6[Farmer] &7Okay then, rude D:'
-
 # -------------------- Quest content --------------------
-
 branches:
-
-  MAIN:
-    starts_at: DELIVER
+  Zombies:
+    starts_at: Zombies1
     objects:
 
-      # ----- Main object : the farm object. The player will have to interact with the NPC holding 64 wheat in their hand.
+      # ----- First object : the farm object. The player will have to go mine 20 stone and 20 dirt
 
-      DELIVER:
-        start_notify:
-          message: '&6[Farmer] &7Wonderful ! So, I need you to bring me 64 wheat. I''ll be waiting for you then.'
+      Zombies1:
         # display
-        name_short: Deliver 64 wheat to the farmer
-        objective_detail: '&7Deliver wheat : &b{objective_progression}&7/&b{objective_goal}'
-        # npc deliver settings
-        type: PLAYER_CITIZENS_NPC_INTERACT
-        npc: 0
-        items_needed:
-          items:
-            - item:
-                type: WHEAT
-              goal: 64
-              check: SameBase
-          in_hand: true
-          take: true
-          error_message: '&6[Farmer] &7So, how''s your search for my wheat going ? Remember, I need 64 of it.'
+        name_short: Zombies 1
+        objective_detail: '&7Mata 10 zombies: &b{objective_progression}&7/&b{objective_goal}'
+        # blocks break settings
+        type: PLAYER_ENTITIES_KILL
+        goals:
+          - types: [ZOMBIE]
+            goal: 10.0
         # post-object
+        sound: ENTITY_PLAYER_LEVELUP
+        goto: OBJECT Zombies2
+      Zombies2:
+        # display
+        name_short: Zombies 2
+        objective_detail: '&7Entrega 20 carnes podridas: &b{objective_progression}&7/&b{objective_goal}'
+        # blocks break settings
+        type: PLAYER_CITIZENS_NPC_DELIVER_ITEMS
+        npc: 35
+        goals:
+          - item:
+              type: ROTTEN_FLESH
+            goal: 20.0
+            take: true
+        # post-object
+        sound: ENTITY_PLAYER_LEVELUP
+        goto: OBJECT Asesino
+      Asesino:
+        # display
+        name_short: Asesino
+        objective_detail: '&7Mata 100 animales y monstruos: &b{objective_progression}&7/&b{objective_goal}'
+        # blocks break settings
+        type: PLAYER_ENTITIES_KILL
+        goals:
+          - types: []
+            goal: 100.0
+        # post-object
+        sound: ENTITY_PLAYER_LEVELUP
+        goto: OBJECT Calabazas
+      Calabazas:
+        # display
+        name_short: Calabazas
+        objective_detail: '&7Recolecta 32 Calabazas: &b{objective_progression}&7/&b{objective_goal}'
+        # blocks break settings
+        type: PLAYER_BLOCKS_BREAK
+        goals:
+          - types: [PUMPKIN, CARVED_PUMPKIN]
+            goal: 32
+        # post-object
+        sound: ENTITY_PLAYER_LEVELUP
+        goto: OBJECT Piglin
+      Piglin:
+        # display
+        name_short: Piglin
+        objective_detail: '&7Mata 128 Piglins: &b{objective_progression}&7/&b{objective_goal}'
+        # blocks break settings
+        type: PLAYER_ENTITIES_KILL
+        goals:
+          - types: [ZOMBIFIED_PIGLIN]
+            goal: 128
+        # post-object
+        sound: ENTITY_PLAYER_LEVELUP
+        goto: OBJECT Elitras
+      Elitras:
+        # display
+        name_short: Elitras
+        objective_detail: '&7Viaja 10000 bloques con elitras: &b{objective_progression}&7/&b{objective_goal}'
+        # blocks break settings
+        type: PLAYER_ELYTRA_FLY_DISTANCE
+        goal: 10000
+        # post-object
+        sound: ENTITY_PLAYER_LEVELUP
+        goto: OBJECT Enderman
+      Enderman:
+        # display
+        name_short: Enderman
+        objective_detail: '&7Mata 50 endermans: &b{objective_progression}&7/&b{objective_goal}'
+        # blocks break settings
+        type: PLAYER_ENTITIES_KILL
+        goals:
+          - types: [ENDERMAN]
+            goal: 50
+        # post-object
+        sound: ENTITY_PLAYER_LEVELUP
+        goto: OBJECT ResistenciaI
+      ResistenciaI:
+        # display
+        name_short: Resistencia Corriendo
+        objective_detail: '&7Corre 1000 bloques: &b{objective_progression}&7/&b{objective_goal}'
+        # blocks break settings
+        type: PLAYER_SPRINT_DISTANCE
+        goal: 1000
+        # post-object
+        sound: ENTITY_PLAYER_LEVELUP
+        goto: OBJECT ResistenciaII
+      ResistenciaII:
+        # display
+        name_short: Resistencia Saltando
+        objective_detail: '&7Salta 500 veces: &b{objective_progression}&7/&b{objective_goal}'
+        # blocks break settings
+        type: PLAYER_JUMP
+        goal: 500
+        # post-object
+        sound: ENTITY_PLAYER_LEVELUP
+        goto: OBJECT ResistenciaIII
+      ResistenciaIII:
+        # display
+        name_short: Resistencia Nadando
+        objective_detail: '&7Nada 500 bloques: &b{objective_progression}&7/&b{objective_goal}'
+        # blocks break settings
+        type: PLAYER_SWIM_DISTANCE
+        goal: 500
+        # post-object
+        sound: ENTITY_PLAYER_LEVELUP
+        goto: OBJECT Regeneracion
+      Regeneracion:
+        # display
+        name_short: Regeneracion
+        objective_detail: '&7Recupera 100 puntos de vida: &b{objective_progression}&7/&b{objective_goal}'
+        # blocks break settings
+        type: PLAYER_GAIN_HEALTH
+        goal: 100
+        # post-object
+        sound: ENTITY_PLAYER_LEVELUP
+        goto: OBJECT PortalNether
+      PortalNether:
+        # display
+        name_short: Portal Nether
+        objective_detail: '&7Entra al Nether por un portal: &b{objective_progression}&7/&b{objective_goal}'
+        # blocks break settings
+        type: PLAYER_PORTAL_ENTER
+        # post-object
+        sound: ENTITY_PLAYER_LEVELUP
+        goto: OBJECT Silencio
+      Silencio:
+        # display
+        name_short: Silencio
+        objective_detail: '&7Mantente agachado durante 5 minutos: &b{objective_progression}&7/&b{objective_goal}'
+        # blocks break settings
+        type: PLAYER_SNEAK
+        goal: 5 MINUTE
+        # post-object
+        sound: ENTITY_PLAYER_LEVELUP
         complete_notify:
-          sound: ENTITY_PLAYER_LEVELUP
-          message: '&6[Farmer] &7That''s so amazing ! Thanks a lot. Here''s a $150 reward :D'
+        sound: ENTITY_PLAYER_LEVELUP
+        message: '&#df00fbA&#bd00d8r&#9c01b6n&#7a0193e &7>> &7¡Felicidades, Has terminado las misiones. Ahora OrioLand va ha descansar en paz!'
         goto: QUEST_SUCCESS
-
 # -------------------- Rewards settings --------------------
 
 end_objects:
   SUCCESS:
     - type: SERVER_LOGIC_MONEY
       currency: VAULT
-      value_formula: '{value} + 150.0' # takes the current money amount and add 150$
+      value_formula: '{value} + 500000.0' # takes the current money amount and add 150$
     - type: SERVER_FIREWORKS_LAUNCH
       effects:
         1:
@@ -117,10 +237,17 @@ end_objects:
             AQUA
             BLUE
           flicker: true
-          trail: true
-      count: 1
       position:
         type: PLAYER_RELATIVE_SINGLE
         location:
           distance: 3
           vertical_offset: 1
+    - type: SERVER_COMMANDS_PERFORM
+      commands: |  # the commands to perform
+         crates key give {player} llave_eventos 10
+         lp user {player} parent addtemp jade 1Week
+         o give {player} orita 1
+         o give {player} cheeseburger 16
+         o give {player} orita_boots
+      as_player: false
+      count: 1

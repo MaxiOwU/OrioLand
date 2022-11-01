@@ -10,6 +10,7 @@ permissions:
 - headdb.category.*
 - marry.user.*
 - oraxen.emoji.*
+- questcreator.quest.*
 - rewardcodes.receive.*
 - rewardcodes.redeem.*
 - silkspawners.place.*
@@ -521,6 +522,8 @@ permissions:
 - votingplugin.player
 - weight.10
 - worldguard.region.bypass.survivalserver.survivalspawn.fly
+parents:
+- default
 prefixes:
 - '&2Miembro &f':
     priority: 1

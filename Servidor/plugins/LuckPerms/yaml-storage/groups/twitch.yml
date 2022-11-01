@@ -10,6 +10,7 @@ permissions:
 - headdb.category.*
 - marry.user.*
 - oraxen.emoji.*
+- questcreator.quest.*
 - rewardcodes.receive.*
 - rewardcodes.redeem.*
 - silkspawners.place.*
@@ -385,6 +386,8 @@ permissions:
 - votingplugin.player
 - weight.0
 - weight.6
+parents:
+- default
 prefixes:
 - '&5&lTwitch &f':
     priority: 1

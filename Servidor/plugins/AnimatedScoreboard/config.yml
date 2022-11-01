@@ -3,7 +3,11 @@
 # - YAML 	: stores the player data in human readable form in playerdata.yml
 # - SQLITE	: stores the player data in a local SQLite database called playerdata-sqlite.db
 worlds:
-  global: Scoreboard
+  survival: Scoreboard
+  survival_nether: Scoreboard
+  survival_the_end: Scoreboard
+  Lobby: Scoreboard
+  Halloween: Scoreboard
 permissions:
   adminboard: animatedscoreboard.test
 placeholderapi: true

@@ -10,6 +10,7 @@ permissions:
 - headdb.category.*
 - marry.user.*
 - oraxen.emoji.*
+- questcreator.quest.*
 - rewardcodes.receive.*
 - rewardcodes.redeem.*
 - silkspawners.place.*

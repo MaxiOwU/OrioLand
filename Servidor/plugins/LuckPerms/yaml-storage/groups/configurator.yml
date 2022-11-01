@@ -1,5 +1,6 @@
 name: configurator
 permissions:
+- questcreator.quest.*
 - luckperms.creategroup
 - luckperms.deletegroup
 - luckperms.editor

@@ -1,5 +1,6 @@
 name: default
 permissions:
+- gadgetsmenu.mysteryboxes.open.*
 - headdb.allow.buy.*
 - betterrtp.group.*
 - betterrtp.world.*
@@ -10,6 +11,7 @@ permissions:
 - headdb.category.*
 - marry.user.*
 - oraxen.emoji.*
+- questcreator.quest.*
 - rewardcodes.receive.*
 - rewardcodes.redeem.*
 - silkspawners.place.*
@@ -218,7 +220,10 @@ permissions:
 - essentials.warp.list
 - essentials.warpinfo
 - excellentenchants.user
+- fearfeeling.fear
+- gadgetsmenu.animations.normal
 - gadgetsmenu.menuselector
+- gadgetsmenu.summonpet
 - graves.autoloot
 - graves.break:
     value: false

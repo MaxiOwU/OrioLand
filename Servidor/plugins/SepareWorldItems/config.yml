@@ -43,6 +43,7 @@ groups:
 - survival
 - paintball
 - parkour
+- Halloween2022
 worlds:
   survival: survival
   survival_nether: survival
@@ -50,3 +51,4 @@ worlds:
   Lobby: survival
   parkour: parkour
   flatroom: paintball
+  Halloween: Halloween2022
